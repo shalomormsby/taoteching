@@ -1,0 +1,7 @@
+{
+  // The translation is verse. Markdown hard line breaks are two trailing
+  // spaces; trimming them collapses every stanza into a running paragraph.
+  "[markdown]": {
+    "files.trimTrailingWhitespace": false
+  }
+}

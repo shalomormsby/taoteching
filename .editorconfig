@@ -1,0 +1,11 @@
+root = true
+
+[*]
+charset = utf-8
+end_of_line = lf
+insert_final_newline = true
+
+# The translation is verse. Markdown hard line breaks are two trailing spaces,
+# so trimming trailing whitespace collapses every stanza into a paragraph.
+[*.md]
+trim_trailing_whitespace = false

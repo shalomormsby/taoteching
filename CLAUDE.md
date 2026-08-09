@@ -137,3 +137,5 @@ PLAN.md               the harness to build at Ch 81
 ## Source of truth
 
 `source/Tao-Te-Ching-shalom-translation-2026-08-09.md` is Shalom's working manuscript, exported from Google Docs. `chapters/*.md` are **generated from it**. When he supplies a newer export, regenerate the chapter files rather than hand-editing both — otherwise they drift.
+
+**After every regeneration, run `python3 tools/fix-linebreaks.py`.** The translation is verse: every line break is deliberate, and Markdown renders a single newline as a space, collapsing each stanza into a running paragraph. The break must be a CommonMark hard break — **two trailing spaces** — which the manuscript already carries and generation has dropped before. `--check` fails loudly instead of rewriting. Never trim trailing whitespace from `.md` here; `.editorconfig` and `.vscode/settings.json` guard against it.
