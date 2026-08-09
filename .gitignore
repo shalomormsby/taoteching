@@ -1,0 +1,5 @@
+.DS_Store
+*.tmp
+
+# machine-local editor workspace (references the private companion repo)
+*.code-workspace
