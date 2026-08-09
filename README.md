@@ -2,7 +2,7 @@
 
 **A new English translation from the classical Chinese, by Shalom Ormsby.**
 
-**Everything here is public domain (CC0). It is a gift — take it, use it, sell it, build on it. No permission needed, no attribution required.**
+**Everything here is public domain (CC0). It is a gift — take it, use it, build on it. No permission needed, no attribution required.**
 
 ---
 
