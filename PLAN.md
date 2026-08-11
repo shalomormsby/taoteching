@@ -1,8 +1,10 @@
-# PLAN — the harness, to build at Chapter 81
+# PLAN — the harness
 
-*Deliberately deferred. The tooling below earns its keep during the **editing pass**, because the editing pass is the retrofit pass. Building it earlier means building checks before the corpus exists to check.*
+**Status: built 2026-08-11**, except `build.py`, which stays deferred. See `process/shaloms-call.md` → *no-new-tooling* for the call that authorized it, and the reasoning.
 
-**The one rule this plan exists to protect: do not stop drafting to build tooling.** Finish the first draft to 81 first.
+*The original plan deferred all of this to Chapter 81, on the grounds that "building it earlier means building checks before the corpus exists to check." That was sound, and it expired: 62 of 81 chapters existed and were swept, so the remaining 19 could be drafted **into** a checked corpus rather than swept afterward. The proof the deferral had outlived its logic was Ch 53, which rendered 大道 (dà dào — "the great Tao") as "the great Way" one line below rendering it correctly, in a chapter carrying `retrofit: []` inside the range the hand sweep had certified clean.*
+
+**The rule this plan originally protected — do not stop drafting to build tooling — resumes when phases A–F are done.** `build.py` remains deferred on its own merits: the text moves in 19 more chapters, and every edition built now would be built twice.
 
 ---
 
@@ -45,7 +47,11 @@ Fields: `term · pinyin · render · forbidden · status (locked|open|watchlist)
 
 </details>
 
-## 2. `tools/check_locks.py` — principles become tests
+## 2. `tools/check_locks.py` — principles become tests ✅ **DONE (2026-08-11)**
+
+*Nine rules, 39 tests, 0.16s on the whole book. The design decision that made it usable is the **evidence gate**: no rule fires on English alone, because every chapter file carries its own Chinese. First run found 9 errors with zero false positives — see `RETROFIT.md` → Open. Two rules were not in this spec and earned their place: `mechanistic-register` (which found "source code" live in ch 21) and `stale-shaloms-call`.*
+
+<details><summary>Original spec, and what changed</summary>
 
 The highest-value tool by a wide margin. Reads `terms.yaml`, scans the `## Translation` block of every chapter file, reports violations.
 
@@ -59,7 +65,20 @@ Checks:
 
 Output: grouped by chapter, with the rule cited and the glossary entry linked. Exit non-zero on violations so it can run in CI.
 
-## 3. `tools/concordance.py` — term in, evidence out
+**What changed in the building:**
+
+- **Repeated-formula consistency is a `warn`, not an `error`, and does not attempt alignment.** The spec assumed you could "detect by matching source rows, then diff the corresponding English." You cannot: verse lines align to source rows in only 27 of 62 drafted chapters, and the literal glosses speak pre-lock English (玄德 is glossed "dark/mysterious virtue/power" where the verse correctly reads "profound integrity"), so gloss-matching fails exactly where the locks matter. Three attempts at inference all failed. The rule now asks an alignment-free question — two chapters sharing a verbatim Chinese segment should have *some* pair of similar lines — which took it from 21 warnings to 11, most of them real, and caught ch 23's 信不足焉.
+- **Formulas are indexed as comma-segments, not n-grams.** Sub-segment n-grams produce fragments no translator rendered as a unit (難得之貨 inside 不貴難得之貨), each a warning about nothing.
+- **Case policy is derived, not configured.** A forbidden string written with a capital means the capital is the violation. This needed no frontmatter changes and cleared six false positives on "Being".
+- **`--staged` mode, error-only, skipping `status: untranslated`** — so a half-drafted chapter never argues with the hook.
+
+</details>
+
+## 3. `tools/concordance.py` — term in, evidence out ✅ **DONE (2026-08-11)**
+
+*The highest-value mode turned out to be the one this spec did not have: `--english`, the reverse direction. A lock is a two-way claim — every 明 renders as clear-seeing **and** every clear-seeing renders 明 — and only that direction catches a rendering applied where its character is absent.*
+
+<details><summary>Original spec</summary>
 
 Replaces the ad-hoc `bash`/`docx` greps used throughout drafting. Given a character or phrase:
 
@@ -71,7 +90,11 @@ This is how you catch drift across 81 chapters, and how future glossary entries 
 
 Add `--pairs` to compare two terms across chapters (the 我/吾, 玄/妙, 正/奇 work).
 
-## 4. `tools/build.py` — one command to the book
+</details>
+
+## 4. `tools/build.py` — one command to the book ⏸ **still deferred**
+
+*The one item where the original ordering holds. The text moves in 19 more chapters; every edition built now is built twice. Build it when the text stops moving.*
 
 Assembles `chapters/*.md` into deliverables, ending the Google Drive round-trip:
 
@@ -81,27 +104,44 @@ Assembles `chapters/*.md` into deliverables, ending the Google Drive round-trip:
 
 Three editions, one source of truth. Use `pandoc` where possible; `python-docx` for fine control (the existing v2 table styling is a known-good starting point).
 
-## 5. A chapter-review skill
+## 5. A chapter-review skill ✅ **DONE (2026-08-11)**
+
+*`process/skills/chapter-review/`. The `glossary-entry` skill was updated in the same pass to use `concordance.py` instead of its inline heredoc.*
 
 The per-chapter workflow (`CLAUDE.md` → *Per-chapter workflow*) is stable enough to encode as a reusable skill: read the Chinese cold → decompose contested characters → check witnesses and commentaries → check locks and the overlay watchlist → **take a stand** → offer clay → log the notes → record retrofit.
 
 Encoding it makes the method **portable and repeatable** — identical whether Claude or Fable is driving — and means the process guide gets *executed*, not merely hoped over. This is also how the method transfers to Fable for the final refinement pass without depending on someone remembering to read `process/method.md`.
 
-## 6. CI (optional, cheap)
+## 6. CI ✅ **DONE (2026-08-11)**
 
-A GitHub Action running `check_locks.py` on push. Turns the standing principles into a gate: a chapter cannot regress to "virtue" without the build going red.
+`.github/workflows/checks.yml` runs the tests, `check_locks.py`, `fix-linebreaks.py --check`, and a `git diff --exit-code glossary/` proving the generated files are current. `.githooks/pre-commit` gates locally on staged chapters at error severity only — install with `git config core.hooksPath .githooks`.
+
+## 7. `shaloms-call` — the override of record ✅ **DONE (2026-08-11)**
+
+Not in the original plan, and the reason this one could be written at all. `process/shaloms-call.md` records a rule Shalom has set aside, with scope, expiry, and reason. Suspensions are never silent (the checker prints a footer naming them) and an expired call is an error, so each is renewed or retired deliberately. Without it, an override lived only as a sentence in one conversation — invisible in the repo, and leaving the AI to re-argue a settled decision next session.
 
 ---
 
-## Suggested order at Ch 81
+## What is left
 
-1. **Import** the Google Docs drafts for 39–60 (`RETROFIT.md` → *Import debt*). Nothing else is trustworthy until the repo holds the whole book.
-2. Build `terms.yaml` — mostly transcription from existing decisions.
-3. Build `check_locks.py`; run it; **expect a large, useful failure list.** That list *is* the retrofit plan, mechanically derived.
-4. Resolve the open locks — 明, 無為 — before sweeping, so the sweep only happens once.
-5. Run the retrofit sweep chapter by chapter, re-running the checker.
-6. Build `concordance.py` as needed during the sweep; it will pay for itself in the first hour.
-7. `build.py` last, when the text has stopped moving.
+1. **Resolve the 8 open findings** in `RETROFIT.md` → *Open*. Each needs a rewrite, so each is Shalom's call. The build stays red until they are resolved or waived — which is the ratchet working, not a problem to route around.
+2. **Draft chapters 61–64 and 66–81** with the hook live, through the `chapter-review` skill. This is the active frontier and the reason the harness was built now rather than at 81.
+3. **`build.py`**, when the text has stopped moving.
+
+*Steps 1–2 of the original ordering are already done: the Google Docs import is complete and the Doc retired; `terms.yaml` was built 2026-08-10. The open locks 明 and 無為 were settled before this build, so the sweep happened once, as intended.*
+
+---
+
+## What the building taught
+
+Kept here because the next tool in this repo should start from it.
+
+- **The evidence gate is the whole design.** A checker that fires on English alone is a grep with opinions, and at ~33% noise it gets switched off inside a week. This one never fires without the character to prove it, which is possible only because every chapter file carries its own Chinese. It is the difference between 20 flags and 9 findings.
+- **Two tools, opposite contracts.** Precision for the gate, recall for the report. Merging them yields something too noisy to gate and too quiet to search.
+- **Do not infer what the data cannot support.** Three attempts to align verse lines to source rows all failed, for three independent reasons. The rule that works asks a question needing no alignment at all. When inference keeps failing, change the question rather than tuning the guess.
+- **The literal glosses are pre-lock English.** They say "virtue", "ten thousand", "mysterious". Any tool that matches the manuscript against them will fail hardest on exactly the terms the locks exist to protect.
+- **Encode invariants, never taste.** Every rule cites a written decision. A rule with no citation is a tool author's opinion wearing a build's authority — which is the "automated quality scoring" refused below.
+- **Suppression has to exist, and has to cost something.** Unsuppressable rules get disabled wholesale; free suppression rots. Hence `lock-ok` with a required reason and an unused-waiver error, and `shaloms-call` with a required `until:` and a stale-call error.
 
 ---
 
