@@ -57,6 +57,7 @@ The ancient texts are free. The Laozi is roughly 2,400 years old; Wang Bi died i
 | `variants.yaml` | The variant apparatus, as **facts** | 22 forks across 11 chapters |
 | `commentaries/wangbi/` | 王弼 (d. 249 CE) on the Laozi, lemma by lemma | **71 of 81 chapters** |
 | `commentaries/heshanggong/` | 河上公章句 (Han), lemma by lemma, with his own chapter titles | **81 of 81 chapters** |
+| `commentaries/hanfeizi/` | 韓非子 解老 / 喻老 — the oldest commentary on the Laozi | **the 17 chapters he discusses** |
 | `.cache/` | The fetched wikitext the import ran from | gitignored |
 
 ### `commentaries/wangbi/` — 老子道徳經注
@@ -89,11 +90,23 @@ A lemma that matches is direct evidence the transcription was carried across int
 
 **A bonus the edition carries: Heshang Gong titles every chapter himself** — 體道第一 (*"Embodying the Tao"*), 養身第二 (*"Nourishing the self"*), 安民第三 (*"Settling the people"*). These are preserved in each file's `chapter_title:` frontmatter. They are the oldest chapter names the text has, and they are interpretations in miniature.
 
-### Still owed: 韓非子 (Han Feizi)
+### `commentaries/hanfeizi/` — 韓非子 解老 / 喻老
 
-Han Feizi's 解老 / 喻老 is the **oldest** commentary on the Laozi (3rd c. BCE) and covers only part of the text, so it should be added chapter-selectively rather than as a set. It is already cited in `notes/manuscript.md` for Ch 53's 盜竽.
+**The oldest surviving commentary on the Laozi**, by Han Fei (d. 233 BCE) — earlier than Heshang Gong and five centuries before Wang Bi. Chapters 20 (解老, *"Explaining Laozi"*) and 21 (喻老, *"Illustrating Laozi"*) of the 韓非子.
 
-Also still owed: the **10 chapters** Wikisource has not proofread in the Siku Wang Bi text — 8, 14, 15, 19, 30, 54, 62, 70, 71, 78. Heshang Gong covers all ten, so no chapter is now without a classical commentary.
+**A different shape, and so a different importer.** Han Feizi does not gloss the text lemma by lemma; he **argues, and quotes**. The quotations sit in 「」, usually introduced by 故曰 (*"therefore it is said"*). So the chapter a passage belongs to is discovered by **matching each quotation against our own base text** — the same fidelity check the other two importers use, doing double duty here as the only way to index the essays at all.
+
+**Coverage: the 17 chapters he discusses** — 1, 14, 26, 27, 36, 38, 41, 46, 47, 50, 54, 58, 59, 60, 63, 64, 67 — with 53 quotations, **all 53 matching our base text exactly.** "Missing chapters" is the wrong frame for this source: he never set out to cover the book. The coverage is found by quotation, so a passage he paraphrases without quoting will not appear.
+
+**Punctuation: present, and retained.** This is the one vendored source that carries modern editorial punctuation, and the admission rules permit *marked* as well as absent or excluded. These are prose essays rather than lemma lists and are close to unreadable without it, so the punctuation stays and the frontmatter says so.
+
+**What he is worth having.** 解老 is a systematic philosophical reading — it opens on Ch 38's 上德不德 and works through it clause by clause. 喻老 is the opposite: **anecdote**. The great arises from the small, 千丈之堤，以螻蟻之穴潰 (*"a thousand-foot dyke is breached by a mole-cricket's hole"*), and then the story of Bian Que and the Duke of Cai, who would not treat an illness while it was still shallow. He is the only commentator in this collection who argues by narrative, and on Ch 63 he supplies a reading of 大小多少 — 大必起於小 (*"the great must arise from the small"*) — that neither Wang Bi nor the modern discussion offers.
+
+### Nothing is owed
+
+All three classical commentaries named in `process/method.md` §3 are now in the repository. **Every chapter has at least one**, because Heshang Gong covers the ten the Siku Wang Bi transcription lacks.
+
+What could still be added, in rough order of value: the **10 unproofread Wang Bi chapters** (8, 14, 15, 19, 30, 54, 62, 70, 71, 78), transcribed from the archive.org scan; the **Fu Yi** (傅奕) recension; and a **Guodian / Mawangdui variant sweep** for the chapters not yet in `variants.yaml`, recorded as facts.
 
 ---
 

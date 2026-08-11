@@ -87,6 +87,22 @@ SOURCES = {
         "pages": (16, 92, "Sibu Congkan0532-河上公-老子道德經-1-1.djvu"),
         "cache": "heshanggong",
     },
+    "hanfeizi": {
+        "slug": "hanfeizi",
+        "work": "韓非子 · 解老 / 喻老",
+        "author": "韓非",
+        "author_dates": "c. 280–233 BCE",
+        "edition": "韓非子, chapters 20 (解老, \"Explaining Laozi\") and 21 (喻老, \"Illustrating Laozi\")",
+        "edition_dates": "pre-Qin; the oldest surviving commentary on the Laozi",
+        "host": "Chinese Wikisource, mainspace",
+        "url": "https://zh.wikisource.org/wiki/韓非子/解老",
+        "punctuation": "modern editorial, PRESENT and retained — these are prose essays, not lemma lists, and are unreadable without it",
+        "rights": "public domain by age (author d. 233 BCE)",
+        # essays that QUOTE the Laozi in 「」 rather than gloss it lemma by lemma
+        "essays": ["韓非子/解老", "韓非子/喻老"],
+        "pages": None,
+        "cache": "hanfeizi",
+    },
 }
 
 # Orthographic variants: the Siku printing's glyph forms for characters our base
@@ -155,7 +171,21 @@ def strip_markup(line):
 
 
 def fetch(src):
-    """Download the wikitext. One page for Wang Bi; a scan-page range for Heshang Gong."""
+    """Download the wikitext. One page, a scan-page range, or a set of essays."""
+    if src.get("essays"):
+        out = SCRATCH / src["cache"]
+        out.mkdir(parents=True, exist_ok=True)
+        for title in src["essays"]:
+            f = out / (title.split("/")[-1] + ".wikitext")
+            if f.exists() and f.stat().st_size:
+                continue
+            url = ("https://zh.wikisource.org/w/index.php?title="
+                   + urllib.parse.quote(title) + "&action=raw")
+            f.write_bytes(_get(url))
+            time.sleep(0.4)
+        print(f"essays: {len(src['essays'])} → {out.relative_to(ROOT)}")
+        return out
+
     if src["pages"] is None:
         SCRATCH.mkdir(parents=True, exist_ok=True)
         dest = SCRATCH / src["cache"]
@@ -209,6 +239,8 @@ def _load_raw(src, path):
 
 def parse(src, path):
     """Split into chapters, then classify each run as lemma or commentary."""
+    if src.get("essays"):
+        return _parse_essays(src, path)
     raw = _load_raw(src, path)
     blocks = {}
 
@@ -272,6 +304,53 @@ def parse(src, path):
 
 
 TITLES = {}
+
+
+def _parse_essays(src, path):
+    """Han Feizi does not gloss the Laozi line by line; he argues, and quotes.
+
+    The quotations sit in 「」, usually after 故曰 ("therefore it is said"). So
+    the chapter a passage belongs to is discovered by matching each quotation
+    against our own base text — the same fidelity check the other importers use,
+    doing double duty here as the only way to index the essays at all.
+    """
+    chapters = load_chapters()
+    # An index of every 5-gram in the book, so a quotation can be placed.
+    index = {}
+    for n, ch in chapters.items():
+        folded = fold(ch.chinese)
+        for i in range(len(folded) - 4):
+            index.setdefault(folded[i:i + 5], set()).add(n)
+
+    parsed, residual = {}, []
+    for f in sorted(path.glob("*.wikitext")):
+        essay = f.stem
+        raw = f.read_text(encoding="utf-8")
+        raw = re.sub(r"{{[^}]*}}", "", raw)
+        raw = re.sub(r"<[^>]*>", "", raw)
+        raw = re.sub(r"\[\[[^\]|]*\|([^\]]*)\]\]", r"\1", raw)
+        raw = re.sub(r"\[\[([^\]]*)\]\]", r"\1", raw)
+        for para in (p.strip() for p in raw.split("\n") if p.strip()):
+            quotes = re.findall(r"「([^」]+)」", para)
+            hits = {}
+            for q in quotes:
+                fq = fold(q)
+                if len(fq) < 5:
+                    continue
+                votes = {}
+                for i in range(len(fq) - 4):
+                    for n in index.get(fq[i:i + 5], ()):
+                        votes[n] = votes.get(n, 0) + 1
+                if votes:
+                    best = max(votes, key=votes.get)
+                    hits.setdefault(best, []).append(q)
+            for n, qs in hits.items():
+                d = parsed.setdefault(n, {"rows": [], "lemma_ok": 0, "lemma_var": 0})
+                for q in qs:
+                    d["rows"].append(("lemma", q))
+                    d["lemma_ok"] += 1
+                d["rows"].append(("comment", f"〔{essay}〕 " + para))
+    return parsed, residual
 
 
 def _rows(src, body):
@@ -383,8 +462,16 @@ def main():
     var = sum(d["lemma_var"] for d in parsed.values())
     com = sum(1 for d in parsed.values() for k, _ in d["rows"] if k == "comment")
 
-    print(f"\n{args.source}: {len(parsed)}/81 chapters"
-          + (f", missing {missing}" if missing else " — complete"))
+    if src.get("essays"):
+        # Han Feizi never set out to cover the book; he argues and quotes. So
+        # "missing" is the wrong frame — report what he discusses.
+        print(f"\n{args.source}: discusses {len(parsed)} chapters — "
+              f"{', '.join(str(n) for n in sorted(parsed))}")
+        print("   (coverage is found by matching his 「」 quotations against our base "
+              "text, so a passage he paraphrases without quoting will not appear)")
+    else:
+        print(f"\n{args.source}: {len(parsed)}/81 chapters"
+              + (f", missing {missing}" if missing else " — complete"))
     print(f"lemma lines: {ok} matched our base text exactly, {var} with variants"
           + (f" ({ok / (ok + var):.0%} exact)" if ok + var else ""))
     print(f"commentary blocks: {com}")

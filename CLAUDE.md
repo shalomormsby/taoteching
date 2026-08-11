@@ -130,13 +130,38 @@ Also watch **register**, not just vocabulary: KJV cadence, devotional capitaliza
 
 ---
 
+## Consult the sources — they are in the repo, and this is not optional
+
+**The classical commentaries live in `sources/commentaries/`, and every piece of translation or refinement work consults them.** Not from memory, not from a search engine: from the files.
+
+```bash
+python3 tools/concordance.py --commentary N    # 王弼 and 河上公 on chapter N
+python3 tools/concordance.py --witnesses N     # where the older manuscripts disagree
+```
+
+| | Date | Coverage |
+|---|---|---|
+| **王弼** (*Wáng Bì*) | d. 249 CE | 71 of 81 chapters — Siku Quanshu, 1782 |
+| **河上公** (*Héshàng Gōng*) | Han | **all 81** — Song woodblock, and it covers the ten Wang Bi lacks |
+| **韓非** (*Hán Fēi*), 解老 / 喻老 | d. 233 BCE | the 17 chapters he discusses — the oldest commentary there is |
+
+**Run them before drafting a chapter and before changing a settled line.** Three of this session's findings came from exactly that and could not have come from anywhere else: Wang Bi's gloss 此上之所云也 settled the referent of 此 in Ch 21; the Siku compilers' note 〔案狀各本俱作然〕 reopened a decision made an hour earlier; Han Feizi's 大必起於小 supplied a reading of Ch 63's hardest line.
+
+**Quote, gloss, and cite them — never copy their English.** There is no English in these files; they are the Chinese. The pre-1931 rule in standing rule 3 governs *translations*, and none are in this repository.
+
+**When they disagree, that is the finding.** Convergence is strong evidence; divergence gets logged in `notes/manuscript.md` and, if it is a textual fork, in `sources/variants.yaml`. Do not average them into a consensus.
+
+**Adding to `sources/` has rules.** Read `sources/PROVENANCE.md` first. The short version: public domain by age, a *nameable* edition, provenance in the frontmatter, and **never a transcription of the Mawangdui or Guodian manuscripts** — reconstructing damaged graphs is living scholarship, so record the *fact* of the variant instead.
+
+---
+
 ## Per-chapter workflow
 
 *Encoded as a skill: `process/skills/chapter-review`. Invoke it rather than working from memory.*
 
-1. Read the Chinese cold. Decompose contested characters to radicals.
+1. Read the Chinese cold. Decompose contested characters to radicals. **Then run `--commentary` and `--witnesses` on the chapter.**
 2. Check the witnesses (Wang Bi base; Mawangdui, Guodian, Fu Yi, Beida) for meaning-bearing forks.
-3. Check the classical commentaries (Wang Bi, Heshang Gong, Han Feizi).
+3. Check the classical commentaries — `concordance.py --commentary N`, not from memory.
 4. Check the locks table above and the overlay watchlist.
 5. **Take a stand** — lead with the deepest claim, then the smaller precisions.
 6. Offer clay: a full rendering Shalom can accept, reject, or reshape.
@@ -174,7 +199,7 @@ process/skills/       the method, made executable (chapter-review · glossary-en
 process/overlay-audit.md
 sources/PROVENANCE.md what may live in sources/, and on what authority — read before adding
 sources/variants.yaml the witness apparatus, as facts (never transcriptions)
-sources/commentaries/  Wang Bi (71 ch., Siku Quanshu 1782) · Heshang Gong (81 ch., Song woodblock)
+sources/commentaries/  Wang Bi (71 ch.) · Heshang Gong (all 81) · Han Feizi (17 ch., oldest)
 tools/                check_locks.py (the gate) · concordance.py (the evidence)
 process/legacy-tao-source-code.md   ⚠ archived, contains SUPERSEDED renderings
 DISCOVERIES.md        ★ the findings worth writing about — read when taking stock
