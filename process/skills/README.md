@@ -9,16 +9,17 @@ AI collaborators, and available to anyone who clones the repo.
 
 | Skill | Use when |
 |---|---|
+| `chapter-review/` | Drafting or reviewing a chapter from the Chinese |
 | `glossary-entry/` | Adding or revising a term in `glossary/`, or locking a rendering |
 
 ## To activate
 
-Copy (or symlink) into the agent's skills directory:
+Symlink into the agent's skills directory, so they stay in sync with the repo:
 
 ```bash
-cp -r process/skills/glossary-entry ~/.claude/skills/
-# or, to keep them in sync:
-ln -s "$(pwd)/process/skills/glossary-entry" ~/.claude/skills/glossary-entry
+for s in process/skills/*/; do
+  ln -sfn "$(pwd)/${s%/}" ~/.claude/skills/"$(basename "$s")"
+done
 ```
 
 ## Why these exist

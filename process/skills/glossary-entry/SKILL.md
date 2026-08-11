@@ -5,7 +5,7 @@ description: Write or revise a glossary entry for a term in the Tao Te Ching tra
 
 # Writing a glossary entry
 
-The glossary is the heart of this project. Entries are **published scholarship**, not working notes — they ship in a public-domain repository and are the source material for the companion volume. Write them for a reader who was not in the room.
+The glossary is the heart of this project. Entries are **published research**, not working notes — they ship in a public-domain repository and are the source material for the companion volume. Write them for a reader who was not in the room.
 
 Work through these phases in order. Do not skip the research.
 
@@ -16,25 +16,21 @@ Work through these phases in order. Do not skip the research.
 **Never write from memory.** Every claim gets checked against the corpus in this repo.
 
 ```bash
-python3 - <<'PY'
-import re
-src=open('source/chinese.md',encoding='utf-8').read()
-p=re.split(r'^## Chapter (\d+)$', src, flags=re.M)
-by={int(p[i]):p[i+1] for i in range(1,len(p),2)}
-TERM='X'          # the character
-for n in sorted(by):
-    for l in by[n].split('\n'):
-        if TERM in l: print(f"ch{n:>2}: {l.strip()}")
-PY
+python3 tools/concordance.py 明                     # every chapter, line, gloss, and verse
+python3 tools/concordance.py --english "clarity"    # is this rendering backed by the character?
+python3 tools/concordance.py --pairs 玄 妙           # the term and its partner
+python3 tools/concordance.py --formulas             # segments repeated across chapters
 ```
 
-Then gather:
+That covers the first, second, and last of the four below; the character's history still needs you.
 
 - **Every occurrence**, with chapter and full line. Frequency is a real signal.
-- **The current English** for each — `sed -n '/## Translation/,/## Source/p' chapters/NNN.md`
+- **The current English** for each, and — via `--english` — whether any chapter uses the rendering *without* the character to license it. A lock is a two-way claim, and only that direction catches the second half.
 - **The character's oldest form.** Oracle-bone and bronze graphs, and the *Shuowen Jiezi* gloss. Web search is appropriate here; cite sources in chat.
 - **Counter-terms and companions.** Most keywords have a partner — 器 for 樸, 腹 for 心, 光 for 明, 利/用 for 無/有. The pairing is often the argument.
 - **Repeated formulas.** If a line appears verbatim in two chapters, both must read identically.
+
+**Read the glosses in the source tables as a starting point, not a reading.** They speak pre-lock English — "virtue", "the ten thousand things", "eternal", "mysterious" — which are precisely the words this edition rejects.
 
 **Verify, never inherit.** `process/legacy-tao-source-code.md` holds a superseded glossary with at least one demonstrable error (天 as "The Cosmos") and a discarded computational framework. Harvest observations from it; re-check every claim.
 
@@ -120,7 +116,16 @@ python3 tools/build_index.py
 
 Regenerates `glossary/INDEX.md` and `glossary/terms.yaml`. **Never edit those by hand.**
 
-Then:
+The frontmatter's `forbidden:` list becomes a live check the moment you run this — `tools/check_locks.py` reads `terms.yaml` and needs no code change to enforce a new lock. Two things follow, so write the list with care:
+
+- **Capitalization in a forbidden string is meaningful.** Writing `"the Way"` means the capital *is* the violation, and *"the way of nature"* stays legal. Writing `"eternal"` lowercase means the word in any case, which is what catches "eternally". Choose deliberately.
+- **A forbidden *phrase* can be defeated by an inserted word.** `"the Way"` does not match "the great Way". Where the register matters more than the exact phrase, forbid the bare word.
+
+Then confirm the lock holds, and sweep:
+
+```bash
+python3 tools/check_locks.py --severity info
+```
 
 1. **Sweep the chapters** if a rendering changed. Fix on discovery; do not defer. Mechanical term-swaps: apply them. Lines needing a rewrite: propose to Shalom first.
 2. **Add the lock** to the table in `CLAUDE.md`.

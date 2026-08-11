@@ -1,0 +1,37 @@
+#!/bin/sh
+# The locks, as a gate. Installed with:
+#
+#     git config core.hooksPath .githooks
+#
+# Deliberately narrow. It checks only the chapters you are committing, only at
+# error severity, and only those marked `status: drafted` — a half-written Ch 61
+# must never have to argue with a tool. Warnings and info are for when you ask
+# for them, not for when you are trying to save your work.
+#
+# To commit past it once:  git commit --no-verify
+# To set a rule aside for good, record it in process/shaloms-call.md instead —
+# a second --no-verify on the same rule is the signal that a call is owed.
+
+set -e
+
+root=$(git rev-parse --show-toplevel)
+cd "$root"
+
+# Verse line breaks are load-bearing: a single newline renders as a space and
+# collapses a stanza into a paragraph. Cheap to check, invisible when it breaks.
+if ! python3 tools/fix-linebreaks.py --check >/dev/null 2>&1; then
+    echo "pre-commit: verse line breaks are missing their trailing spaces."
+    echo "            run: python3 tools/fix-linebreaks.py"
+    exit 1
+fi
+
+if ! python3 tools/check_locks.py --staged; then
+    echo
+    echo "pre-commit: a settled decision is contradicted above."
+    echo "            the glossary entry cited carries the reasoning."
+    echo
+    echo "            waive one finding  → a lock-ok comment in the chapter's ## Notes"
+    echo "            set a rule aside   → process/shaloms-call.md"
+    echo "            commit anyway once → git commit --no-verify"
+    exit 1
+fi

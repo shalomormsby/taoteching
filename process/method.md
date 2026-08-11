@@ -11,7 +11,7 @@ This is a from-the-source English translation of the Tao Te Ching, built chapter
 Shalom is doing this as a labor of love, and as the founder of **OpenCosmos.ai** and **CreativePowerup.com**. The intention is twofold and both halves are sacred:
 
 1. To give the world a **high-fidelity English Tao Te Ching in the public domain** — a gift to all humanity, freely accessible, because this text belongs to everyone.
-2. To offer a **paid companion volume** of scholarship and reflection alongside the free gift, so the work can sustain its maker and his family. (This is not a compromise of the gift; see §8.)
+2. To offer a **paid companion volume** of research and reflection alongside the free gift, so the work can sustain its maker and his family. (This is not a compromise of the gift; see §8.)
 
 **The edition's ethos** — the spine that every decision serves:
 
@@ -60,7 +60,7 @@ And the boundary that keeps this healthy:
 
 The rule that makes this both original and legally clean:
 
-> **Consult sources for *meaning*, never for *phrasing*.** Reading a commentary or an old translation to understand what a line *means* is scholarship. Borrowing anyone's English *words* is not. The verse stays Shalom's own.
+> **Consult sources for *meaning*, never for *phrasing*.** Reading a commentary or an old translation to understand what a line *means* is research. Borrowing anyone's English *words* is not. The verse stays Shalom's own.
 
 **The copyright line (verified, US, as of 2026):** works first published **before January 1, 1931** are in the public domain. So pre-1931 English translations are free to consult *for meaning*. Everything from 1934 on (Waley and later) is **off-limits** — for copyright, and to keep the work uncontaminated. When in doubt, don't open it.
 
@@ -91,6 +91,20 @@ When readings conflict, decide in this order:
 6. **Shalom's poetic intuition** — the final arbiter of the verse, exercised *after* §1 has put the deepest reading on the table.
 
 **When genuinely unresolvable:** choose one reading for the verse, and **log the fork** in the notes. Never paper over a real ambiguity — surface it.
+
+### Intuition is last as an arbiter, and often **first as a detector**
+
+The order above is about **deciding**, and putting Shalom's intuition last is right for that: a feeling cannot settle what a character means, and a rendering that feels good is not thereby true.
+
+But that ordering describes only half of what intuition does here. In practice it is frequently what **starts** the inquiry — and the list above, read carelessly, suggests it arrives at the end.
+
+**The case that earned this note (Ch 25, 2026-08-11).** Shalom rendered 王 (*wáng* — king) as *the aligned human* because a monarch **sat wrong in the line**. No variant had been flagged, no tool had fired, no research was underway. He said the word didn't feel right and asked whether there was any evidence Laozi had absolutely meant a male ruler. There was, and it was decisive: **both Mawangdui silks read 人** (*rén* — human), and the older silk has no king anywhere in the passage. Nobody would have gone looking without the feeling that went first. *(See `DISCOVERIES.md` §1.)*
+
+**So treat the feeling as data.** A word that sits wrong is a signal that something in the line is carrying weight it has not earned — an imported frame, a supplied subject, an overlay, or a transmitted interpolation. The feeling cannot say which. It is very good at saying *there is one*.
+
+For the AI collaborator this is a specific instruction: **when Shalom says a word feels off, that is a research assignment, not a preference to accommodate.** Do not reach for a synonym that feels better. Go find out what the discomfort is detecting — characters, witnesses, commentaries, the lot — and report what is actually there. Sometimes the answer is that the instinct was wrong, and that is a real answer too. But the instinct earns the search.
+
+**Feelings matter in this process. They are an instrument in it, not decoration on it.**
 
 ---
 
@@ -143,7 +157,7 @@ The key terms are the load-bearing walls. Get 道, 德, 生, 母, 常 right and 
 **What Fable should do**, inheriting this guide, the glossary, all three notes layers, and the 81 drafts:
 
 1. **Enforce term consistency** — every lock, across every chapter; complete every logged retrofit.
-2. **Harmonize voice and register** — the verse elevated and timeless; the apparatus warm and scholarly; distinct but coherent.
+2. **Harmonize voice and register** — the verse elevated and timeless; the apparatus warm and rigorous; distinct but coherent.
 3. **Verify the record** — every deliberate departure logged in Translation Notes, every meaningful variant in Manuscript Notes.
 4. **Distill to essence** — Fable's special charge: refine each line to its purest, truest, most luminous form, **without loss of fidelity or of any documented decision.** Take a stand (§1). Honor the locks, the notes, the ethos, and above all Shalom's voice — sharpen it, never replace it.
 5. **Read it aloud** — the Tao Te Ching is oral. Every line must sound right spoken.
@@ -159,7 +173,7 @@ The handoff is complete *because the notes exist*: Fable can see not only what w
 - **The free gift — the translation itself.** The 81 chapters of English verse, released to the **public domain**. Freely copyable, printable, quotable, teachable. This maximizes reach and *is* the gift to humanity.
 - **The paid companion — the apparatus.** The glossary (道 德 生 母 常…), the three notes layers, the etymological deep-dives, the essays, the story of the making. This is where the unique labor and devotion live, and what people gladly pay for. **Give away the poem; sell the illumination.**
 
-**Why it works:** the free translation drives discovery and builds reputation and audience; the companion — your original scholarship, which no one can copy — is the defensible product. *Honest caveat:* once public-domain, others may also print or sell the bare translation. That's fine, even good; it's the design. The **companion**, not the translation, is the moat.
+**Why it works:** the free translation drives discovery and builds reputation and audience; the companion — your original research, which no one can copy — is the defensible product. *Honest caveat:* once public-domain, others may also print or sell the bare translation. That's fine, even good; it's the design. The **companion**, not the translation, is the moat.
 
 **Licensing:** **CC0** is the truest "gift to all" (no strings). **CC BY** keeps your name attached (attribution required) — useful for reputation tied to OpenCosmos / CreativePowerup. Both are legitimate; choose by intention. For a spiritual gift, many choose CC0.
 

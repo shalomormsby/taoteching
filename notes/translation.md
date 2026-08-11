@@ -111,4 +111,133 @@ Two decisions in one line. **First, it stays "sky."** Ch 16 and Ch 25 share this
 
 ---
 
+**Ch 61 · 為下 → "is underneath" / "ought to be underneath"** *(not "takes the lower position")*
+
+為下 (*wéi xià* — "be the low one") occurs exactly twice in the chapter: once of the female animal (以靜**為下**) and once in the closing line (大者宜**為下**). Nothing else in the chapter uses that construction; the middle lines use 以下 and bare 下. So the two are a clasp, binding the barnyard to the statecraft, and **they must read identically in English** or the chapter stops being one thought.
+
+We render both **"underneath."** The safe alternative, "takes the lower position," is bureaucratic and holds only one of the three things 下 is doing here. 下 runs nine times through nine lines — in 下流 (*xià liú* — downstream), twice inside 天下 (*tiān xià* — "under-sky," the world), in 以下 / 下以 / 下而, and in the two 為下 — and it means, simultaneously, *downstream*, *humbled*, and *underneath in mating*. The chapter's argument runs on that convergence. "Underneath" is the only plain English that holds all three, and it lets the final line land as hard as the Chinese does: the great power's proper posture is the cow's posture. That discomfort is the chapter.
+
+**In the same chapter: 或下以取，或下而取 → "the large state takes by going low, the small state by staying low."**
+
+A recap line (故 — *gù*, "so"), seven characters against the fourteen-character couplet it summarizes. The only difference between its halves is a particle: 下**以**取 (以 marks purpose — lowers *in order to* take) against 下**而**取 (而 marks mere sequence — lowers, *and* takes). We do not build on that contrast. Heshang Gong reads the line as a plain restatement of the two cases and does not treat 以/而 as semantic, so the distinction may be rhythmic; and an English recap that reproduces the couplet with a hairline change reads as repetition, not summary.
+
+What we render instead is the asymmetry that is certainly present and that the final line acts on: **who has to move.** Both parties go low, but only the large one has anywhere to come down from. "Going / staying" carries that in one aspectual pair while keeping the single lexical item "low" in both halves, mirroring the single 下 the Chinese repeats. An earlier draft used "stooping" for the large state; it was dropped because English *stoop* carries condescension (*stoop to conquer*) that 下 does not, and disdain for lowness is precisely the hierarchy this chapter inverts. **Cost, on the record:** the Chinese puts the difference in grammar and we have put it in vocabulary, and the non-purposive force of 而 is not carried.
+
+**And 牝 stays an animal.** 牝 (*pìn*) is 牛 (*niú* — cattle) plus a phonetic: the female of a domestic animal, with a secondary sense of the genitals. Its partner 牡 (*mǔ* — the male animal) is 牛 with a component that in the oracle bones draws a penis, later regularized to 土 (*tǔ* — earth). The book's only other use of the pair, Ch 55's 未知牝牡之合 ("not yet knowing the joining of female and male"), is unambiguously about mating. So we render "the female" and "the male," and we keep *she*. **Not "the receptive female"** — 受 or any word for receptivity is simply not in the line, and the adjective tells the reader how to feel about the animal so that they never have to meet her. What "the female" still drops is that this is a stockbreeder's word; the glossary carries that, on the same principle as 心 (*xīn* — heart) and 物 (*wù* — things).
+
+**And 取 stays "take," distinct from 勝.** The chapter switches verbs deliberately: 勝 (*shèng* — overcome) appears once, and only of the animal; 取 (*qǔ* — take) appears four times, and only of the states. Rendering both "overcome" collapses the analogy into an identity. 取 is also the richer word — the graph is 又 (*yòu* — a hand) seizing 耳 (*ěr* — an ear), the tally taken from the fallen, and it is the original form of 娶 (*qǔ* — to take a wife). A war-trophy word and a marriage word, in a chapter arguing that you acquire by lying down. We let the double stand.
+
+---
+
+**Ch 23 · 信不足焉，有不信焉 → "Where trust is withheld, trust is withheld in return"** *(and Ch 17 keeps its own rendering — a deliberate divergence)*
+
+**⟡ Flagged for the editing pass.** This is the first place we knowingly render the same Chinese two different ways. It is a considered choice, not an oversight, and it should be revisited once all 81 chapters exist as first drafts.
+
+The seven characters 信不足焉，有不信焉 (*xìn bù zú yān, yǒu bù xìn yān* — "trust is not sufficient; there is distrust") close both **Ch 17** and **Ch 23**, verbatim. Our standing practice is that verbatim Chinese produces verbatim English — 物壯則老 in Ch 30 and 55 was resolved exactly that way. Here we depart, because **the two chapters put the line in different mouths.**
+
+**Ch 17 is a chapter about rulers** — 太上 (*tài shàng* — the highest), 其次 (*qí cì* — the next), the descending grades of governance, and 功成事遂，百姓皆謂我自然 ("the work done, the people all say they did it themselves"). Supplying *leaders* and *the people* as the missing subjects is not an import there; it is the chapter's own subject, restored. It stays: *"When leaders don't trust the people, no one trusts the leaders."*
+
+**Ch 23 is not about rulers at all.** It is about 同 (*tóng* — merging): aligning with the Tao, with integrity, or with loss, and receiving in kind. Naming leaders and subjects there would install a political frame the chapter never sets up, and would narrow a line the chapter uses generally. So Ch 23 keeps the subject unsupplied and the reciprocity bare: **"Where trust is withheld, trust is withheld in return."** The repetition in the English carries what 不足/不信 does in the Chinese — the same thing returning, unchanged, to whoever sent it.
+
+**What the correction was.** The line previously read *"When integrity is weak, the system winds down,"* which was wrong twice. **信 is not 德.** 信 is 人 (*rén* — a person) beside 言 (*yán* — speech): a person standing by their word, *trust*. Rendering it "integrity" borrows 德's locked word for a different character — and does so three lines after the chapter has used 德 explicitly (德者同於德), collapsing a deliberate change of subject. And **"the system winds down" is not in the text**: 有不信焉 is "there is distrust," a closed loop, where "winds down" is entropy — something losing energy on its own rather than receiving what it gave.
+
+**Cost, on the record:** a reader comparing the two chapters will find one Chinese line and two English ones. We are betting that the gain in each chapter's own voice outweighs the loss of the echo between them. The editing pass should test that bet with all 81 chapters in view.
+
+---
+
+**Ch 21 · 以閱眾甫 → "In this name, I observe the origin of the many"** *(was: "the unerasable source code of all creation")*
+
+The old rendering carried our own besetting temptation, the **mechanistic** — and almost certainly inherited it from `process/legacy-tao-source-code.md`, whose framework is superseded. Three things were wrong with it.
+
+**"Source code" adds what the Chinese refuses.** 眾甫 (*zhòng fǔ*) is *the origin of the many*: 甫 is a **seedling in a field**, borrowed early as a respectful word for a man and so *father / beginning / that from which things come*. Code is **written, by someone**, which reinstalls the author the chapter is at pains to leave out, and it **executes deterministically**, where a seedling unfolds. Both imports are exactly backwards.
+
+**閱 (*yuè*) is *to observe*, not *to be*.** The old line said the Tao **is** the origin; the Chinese says the persisting name is what lets you **see** the origin. A different and much smaller claim, and the honest one. *(Heshang Gong dissents, glossing 閱 as 稟 — to bestow — so that the Tao confers on the many and the question becomes how one knows they receive 氣 from it. We decline: that reads a Han cosmology of qi-transmission back into the line, and the closing question is explicitly epistemic — 何以**知**.)*
+
+**"It" and "this" had no antecedents.** 其名不去，以閱眾甫: the instrument of 以 (*yǐ* — thereby) is 其名, **the name** — Wang Bi confirms it (以無名說萬物始也, "it is by the nameless that the beginning of the countless things is explained"). Naming it in the English fixes the first pronoun. The second is fixed by repetition: **"In *this* name … By *this*, here, now"** gives 此 a visible antecedent for the first time. *Cost, on the record:* pointing 此 at the name narrows it — Wang Bi glosses 此 as 上之所云, "what was said above," meaning the whole descent through 象 / 物 / 精 / 信. "Here, now" widens the referent back out past the name to the present encounter, so the line carries both readings at once. A controlled double rather than a vague one.
+
+**And "the many," not "the countless things."** 眾 (*zhòng*) is not 萬物, and 萬物 does not occur in this chapter. Borrowing the 萬物 lock here would repeat the error just corrected in Ch 23, where 信 had been given 德's locked word. Elsewhere 眾 is rendered *all* (Ch 1's "the gate of all subtleties") and *the masses* (Ch 20), so "the many" is in register. **"I," not "we,"** because the chapter's voice is 吾 (*wú* — the self *seeing*), which the next line makes explicit.
+
+**Still open in this chapter, flagged not fixed:** 其中有精 currently reads *"the primordial mass of creation."* 精 (*jīng*) is 米 (*mǐ* — rice) beside 青 (*qīng* — fresh, pure): **hulled grain, the refined part**, what remains when the bulk is taken away. "Primordial mass" inverts that — mass is the bulk 精 is refined *from* — and imports Big Bang cosmology, a different overlay from the mechanistic but the same family of anachronism. 精 occurs in only two chapters (21, 55) and is owed an entry.
+
+---
+
+**Ch 29 · 天下神器 → "the world is a sacred vessel"** *(was: "a sacred system")*
+
+**器** (*qì*) is a **vessel**, and it is already locked that way inside `glossary/pu-樸.md` (`covers: 器 → vessel / tool`). It holds everywhere else in the book: Ch 11's clay worked into 器, Ch 28's 樸散則為器 ("when the uncarved wood is carved, it is made into tools"), Ch 31's 不祥之器 (weapons, "instruments of ill omen"), Ch 36's 國之利器 ("the sharp instruments of the state"). Ch 29 was the sole outlier, and "system" was the mechanistic overlay this edition exists to strip.
+
+**The vessel is also what makes the rest of the chapter work.** The next clause is 不可**執**也 — "it cannot be **grasped**" — and then 執者失之, "those who grasp it lose it." You grasp at a vessel and break it. You do not grasp a system. The image and the warning are one gesture, and "system" severed them. *(This was already right in the notes: the Ch 48 entry above cites Ch 29's 神器 as "a sacred vessel" — the reasoning was settled and only the verse had drifted. Found by `tools/check_locks.py`.)*
+
+**執 was also rendered two ways, two lines apart** — "controlled," then "grasp." The Chinese is a tight chiasmus, 不可為也，不可執也 · 為者敗之，執者失之, and it only lands if 為 and 執 each keep one English word. Now: *"It cannot be forced. It cannot be grasped. / Those who force it ruin it. Those who grasp it lose it."* Four beats for four. "Controlled" also lost the hand — 執 is a graph of a hand seizing.
+
+**And "try to" is gone from 為者/執者.** The Chinese says *those who do it*, not *those who attempt it*. The attempt is not the failure; the doing is.
+
+*Left alone: the em-dash in this chapter's first line is one of the defensible ones — both clauses carry named subjects ("Those who wish…" / "I see…"), so it strands nothing. Noted so a later em-dash sweep does not remove it reflexively.*
+
+*Still open here, not fixed: 取 (qǔ — seize) has vanished from 將欲取天下而為之, where "force their will upon the world" merges 取 and 為 into a single gesture. The Ch 48 entry above makes much of 取's severed-ear violence, so 取天下 across Ch 29 / 48 / 57 may want one consistent treatment.*
+
+---
+
+**Ch 40 · 弱者道之用 → "Yielding is the Tao's use"** *(was: "the Tao's function")*
+
+"Function" was the mechanistic overlay twice over: **用** (*yòng*) is locked to **use** inside `glossary/wu-you-無有.md` (`covers: 用 → use`), and "function as" is on 為's forbidden list. **"Use" is simply the lock applied.**
+
+It also repairs the couplet. Ch 40 is the shortest chapter in the book and is built entirely of parallels: 反者道之**動** / 弱者道之**用** — returning is the Tao's **動** (*dòng* — movement), yielding is its **用**. 動 and 用 are a matched pair, *how it moves* and *how it works*. "Movement" is concrete and observable where "function" is abstract and mechanical, and the mismatch broke the one structure the chapter has.
+
+**And it restores a link to Ch 11**, which renders 有器之用 and 有室之用 as *"A clay vessel becomes useful"* and *"A room becomes useful."* Both chapters make one argument: **usefulness comes from what is hollow or yields.** Rendering 用 as "function" here and "useful" there hid it.
+
+*A note on the genitive, which is deliberately left double.* "The Tao's use" can be read as *how the Tao operates* or as *how the Tao is put to use*. 道之用 carries both and classical Chinese does not disambiguate, so the English should not either. (Rejected: "working" — accurate to 用's sense of efficacy, but in modern ears it reads as employment, a job of work.)
+
+---
+
+**Ch 25 · 域中有四大 → "Within the realm there are four vast things"** *(was: "Within this system of four vast things")*
+
+**域** (*yù*) is a **bounded stretch of ground** — 土 (*tǔ* — earth) beside 或, an enclosed area held under guard; it is the root of 區域 (*qūyù* — region) and 領域 (*lǐngyù* — domain). It occurs **exactly once in all 81 chapters**, here, so there is no consistency question — only what the word does in this line.
+
+"System" was wrong in a specific way, not merely in register: **a system is a set of relations, where 域 is an extent of ground.** The line is spatial, and that spatiality is the point of what follows — 人法地，地法天，天法道 (humans follow earth, earth follows sky, sky follows the Tao). **A ladder needs somewhere to stand.** "System" turned a stack of places into a diagram.
+
+Two smaller repairs in the same line. The Chinese has **no demonstrative** — 域中 is simply *within the bounds*, and "this system of four vast things" implied the four *constitute* the realm, where 域 is the container they sit inside. And 居其一 is given as "is one of them"; 居 (*jū*) is properly *to dwell, to occupy a position*, so "occupies one place among them" is closer, but it reads worse and loses little.
+
+---
+
+**Ch 25 · 王 → "the aligned human"** *(the deliberate removal of the throne, and of the gender)* ⟡ *research lead, to develop*
+
+Where the received text has 王 (*wáng* — king), we render **the aligned human**. This was chosen on the edition's own grounds — standing rule 2, *universality over the incidental male-default* — and it deserves stating plainly rather than passing unremarked, because a reader will want to see it was chosen.
+
+**The manuscript evidence independently supports it, and this was found only afterward.** Both Mawangdui silks read **人** (*rén* — human) in the list of four greats, and the older silk reads 人 in both places, with no king anywhere in the passage. So the rendering does not remove a king Laozi installed; it restores the reading the oldest witnesses carry. Full apparatus in the Manuscript Notes.
+
+**Three further supports, for the fuller treatment this deserves:**
+
+- **The received text argues against itself.** Wang Bi's very next line is 人法地 — *humans* follow earth. A text that makes the king one of the four greats and humans the bottom rung in consecutive lines has a seam in it.
+- **王 is not grammatically gendered, and may not even be personal.** Classical Chinese marks no gender on the word; the maleness is cultural default, not lexical — exactly the collision standing rule 2 exists for. And the graph is read two ways: as an axe-head (the emblem of authority), or as three horizontal strokes — sky, human, earth — joined by one vertical: **the one who connects the three realms.** Under the second reading 王 names a *function*, not a person or a sex. The *Shuowen Jiezi* (~100 CE) glosses it 天下所歸往, "that to which the world turns."
+- **This edition already de-thrones 王 elsewhere.** Ch 16's ladder renders 公乃王 as *"Impartiality leads to sovereignty"* — an abstraction, not a monarch. Ch 25 is now consistent with that.
+
+*Cost, on the record:* **"aligned" is supplied.** 人 is simply *human*; nothing in the line says *aligned*. It is doing the work of explaining why this human is 大 (*dà* — vast) — namely that they model earth, sky, and the Tao in the lines that follow. Defensible as a gloss made visible, but it is ours, not the text's.
+
+**To develop.** Shalom flags this as possibly worth a chapter of its own. The thread runs wider than Ch 25 — see the Reading Notes thread on reading past the throne.
+
+---
+
+**Ch 14 · 無物 → "no-thing," both times** *(was: "nothingness" and "no-image")*
+
+**無物** (*wú wù* — "no-thing") occurs **twice in the whole book, both in this chapter**, and was rendered two different ways, neither of them right.
+
+| Chinese | Was | Problem |
+|---|---|---|
+| 復歸於**無物** | "returns to nothingness" | "nothingness" is forbidden for 無 — it imports the Void as a substance where 無 is simply *absence* |
+| **無物**之象 | "the image of no-image" | 物 is a **thing**, not an image — and 象 (*xiàng* — image) is already the other half of the phrase |
+
+That second line rendered the couplet 無狀之狀，**無物**之象 as *"the shape of no-shape, the image of no-image."* The symmetry is seductive and it was built on a mistranslation: **the line got its parallelism by duplicating 象 and deleting 物.** Now *"the shape of no-shape, the image of no-thing"* — genuinely parallel in the way the Chinese is, 無X之X twice with **different** X's.
+
+"No-thing" keeps 物 audible and keeps 無 as absence. *(Hyphenated deliberately: "no thing" open reads as an emphatic "not anything," where 無物 is a **state** the thing returns to.)*
+
+---
+
+**Ch 14 · 執古之道，以御今之有 → "Hold the ancient Tao, and steer what is present now"** *(was: "to direct your present existence")*
+
+Three repairs. **"Existence" is forbidden for 有** — 今之有 is *the presence of now*, what there currently is, not a person's lifetime. **"Your" was supplied**, and it shrank the line: the Chinese steers *what is*, not one's own affairs. And **御** (*yù*) is *to drive a chariot* — "steer" keeps the reins where "direct" is bloodless.
+
+**A resonance now audible across chapters.** 執 (*zhí* — to grasp) is the same character as Ch 29's 不可**執**也, *"it cannot be grasped."* Ch 29 forbids grasping **the world**; Ch 14 commands grasping **the ancient Tao**. That looks deliberate: you cannot hold the world, so hold the thread instead. We keep "Hold" here rather than "Grasp" — *grasp the Tao* risks reading as *comprehend the Tao*, which is precisely what this chapter spends fourteen lines denying is possible.
+
+---
+
 *To add an entry: chapter · phrase · choice · why — and log only deliberate departures from the literal, not routine word-choices.*

@@ -11,7 +11,7 @@ A from-the-source English translation of the Tao Te Ching by **Shalom Ormsby**, 
 Two intentions, both sacred:
 
 1. A **high-fidelity English Tao Te Ching in the public domain** — a gift to humanity. **This repository is entirely CC0, with no exceptions.** Everything here — translation, glossary, notes, method — is given away.
-2. A **companion volume** of scholarship and reflection, so the work can sustain its maker and his family. It lives in a **separate private repo (`../taocompanion`)** and is a *rewrite for readers*, drawing on this material without duplicating it. Nothing is withheld from this repo to make room for it.
+2. A **companion volume** of research and reflection, so the work can sustain its maker and his family. It lives in a **separate private repo (`../taocompanion`)** and is a *rewrite for readers*, drawing on this material without duplicating it. Nothing is withheld from this repo to make room for it.
 
 **The ethos:** fidelity *and* poetry, together · the feminine at the center · universality over the text's incidental male-default · the naturalistic razor (strip theistic, moralistic, and mechanistic overlays) · honesty over false closure.
 
@@ -40,6 +40,8 @@ The single most valuable thing the AI does here is **help Shalom see what he can
 5. **Typography: lowercase everything but the Tao; no em-dashes in the verse.** English capitals confer status — they turn a word into a doctrine (*the sage*, *the mother*, *the uncarved*, *stillness*, never *the Sage*). 道 keeps its capital as a proper name; nothing else does. And the em-dash both reads as a machine tell and **strands subjects**: classical Chinese omits them freely, English cannot, and a dash disguises the gap instead of closing it. Name the subject and end the sentence. *(Full reasoning in `notes/translation.md`.)*
 6. **Every decision gets logged** in one of the three notes layers. See below.
 
+**Every rule above, and every lock below, is subject to `shaloms-call`.** Shalom can set aside any rule in this repo; when he does, it is recorded in **`process/shaloms-call.md`** — **read that file at session start, with *Current state* below.** Where a call is in effect, the call wins: say so once and proceed. **Argue hard *before* the call — that is the prime directive. Execute *after* it, without relitigating.** The AI never writes a call on its own initiative.
+
 ---
 
 ## The glossary is generated — keep the frontmatter accurate
@@ -54,6 +56,8 @@ Every `glossary/*.md` entry opens with YAML frontmatter (`term`, `pinyin`, `rend
 ```bash
 python3 tools/build_index.py
 ```
+
+`terms.yaml` is what `tools/check_locks.py` reads, so **a new lock becomes a live check the moment you regenerate** — no code change needed. Two consequences for how you write `forbidden:`: a capital in the string means the capital *is* the violation (`"the Way"` leaves *"the way of nature"* legal, `"eternal"` catches "eternally"), and a forbidden *phrase* can be defeated by an inserted word (`"the Way"` misses "the great Way" — forbid the bare word where register matters more than phrasing).
 
 Chapter lists are recomputed from `source/chinese.md` on every run, so they cannot go stale. Use `covers:` when an entry absorbs a secondary character (腹 inside 心, 器 inside 樸, 利/用 inside 無/有) so a reader looking up that character never dead-ends.
 
@@ -78,7 +82,7 @@ Apply consistently across all 81 chapters. Departures require a logged reason.
 | 心 / 腹 | **heart** / **belly** | "mind", "heart-mind", "the wise core", "consciousness" | `glossary/xin-心.md` |
 | 知足 | **knowing you have enough** · noun: **contentment** | "sufficiency", "fulfilled" | `glossary/zhizu-知足.md` |
 | 守 / 抱 | **hold fast to** / **embrace** | (do not swap) | — |
-| 聖人 | **the Sage** — always *they/their* | "Holy Man", "saint", "the Master" | — |
+| 聖人 | **the sage** — lowercase, and always *they/their* | "Holy Man", "saint", "the Master", capitalized "the Sage" | — |
 | 我 / 吾 | the self **seen** / the self **seeing** | (both "I"; note the pairing) | `glossary/wo-wu-我吾.md` |
 | 自然 | **self-so / of-itself-so** | capital-N "Nature" | — |
 
@@ -122,6 +126,8 @@ Also watch **register**, not just vocabulary: KJV cadence, devotional capitaliza
 
 ## Per-chapter workflow
 
+*Encoded as a skill: `process/skills/chapter-review`. Invoke it rather than working from memory.*
+
 1. Read the Chinese cold. Decompose contested characters to radicals.
 2. Check the witnesses (Wang Bi base; Mawangdui, Guodian, Fu Yi, Beida) for meaning-bearing forks.
 3. Check the classical commentaries (Wang Bi, Heshang Gong, Han Feizi).
@@ -132,6 +138,8 @@ Also watch **register**, not just vocabulary: KJV cadence, devotional capitaliza
 8. Note any **retrofit** the decision creates in earlier chapters → `RETROFIT.md`.
 
 **Tie-breaking order:** characters/radicals → oldest witnesses → classical commentaries → internal consistency and locks → this edition's ethos → Shalom's poetic intuition (final arbiter, exercised *after* the deepest reading is on the table).
+
+**But intuition is last as an *arbiter* and often first as a *detector*.** When Shalom says a word feels off, that is **a research assignment, not a preference to accommodate.** Do not offer a synonym that feels better — go find what the discomfort is detecting. Ch 25's *king* was caught exactly this way, and the oldest witnesses proved him right. *(`DISCOVERIES.md` §1; `process/method.md` §4.)*
 
 ---
 
@@ -155,19 +163,60 @@ source/chinese.md     Wang Bi base text, all 81
 glossary/             the radical-level term entries — the heart of the work
 notes/                manuscript · translation · reading
 process/method.md     the full working guide (this file is its compression)
+process/shaloms-call.md   rules Shalom has set aside, and why — read at session start
+process/skills/       the method, made executable (chapter-review · glossary-entry)
 process/overlay-audit.md
+tools/                check_locks.py (the gate) · concordance.py (the evidence)
 process/legacy-tao-source-code.md   ⚠ archived, contains SUPERSEDED renderings
+DISCOVERIES.md        ★ the findings worth writing about — read when taking stock
 RETROFIT.md           the debt list
-PLAN.md               the harness to build at Ch 81
+PLAN.md               the harness — phases A–F built 2026-08-11; build.py still deferred
 ```
+
+---
+
+## The harness — two tools, opposite jobs
+
+*Built 2026-08-11 under a `shaloms-call` suspending PLAN.md's no-new-tooling rule. Stdlib only, so a fresh clone can run them.*
+
+```bash
+python3 tools/check_locks.py                    # the gate — every rule, whole book
+python3 tools/check_locks.py --chapter 61       # while drafting
+python3 tools/concordance.py 明                  # every chapter, line, gloss, verse
+python3 tools/concordance.py --english "clarity"  # is a rendering backed by its character?
+python3 tools/concordance.py --formulas          # segments repeated across chapters
+```
+
+**`check_locks.py` optimizes precision.** It exits non-zero, gates the pre-commit hook and CI, and must never cry wolf — so **no rule fires on English alone.** "virtue" is an error only when 德 is in *that chapter's own* Chinese; otherwise it drops to `info` in a separate false-friends list. That evidence gate is what makes it usable: it took the first run's error list to **9 findings with zero false positives**.
+
+**`concordance.py` optimizes recall.** It judges nothing and never fails. Use it for the evidence a glossary entry or a chapter review needs. **Do not merge the two** — a tool that gates and searches at once ends up too noisy to gate and too quiet to search.
+
+**When a check is wrong, there are two answers and they are different sizes.** A `lock-ok` comment in the chapter's `## Notes` waives **one finding** and must carry a reason; an unused waiver is itself an error, so the files self-clean. A `shaloms-call` sets aside **a whole rule** — see `process/shaloms-call.md`. Never delete a rule to silence it.
+
+**Do not trust the literal glosses in the source tables.** They speak pre-lock English — "virtue", "the ten thousand things", "mysterious" — which is exactly what this edition rejects. They are a starting point, not a reading, and matching a locked term against its own gloss fails precisely where the locks matter most.
 
 ---
 
 ## Current state — read before starting
 
-- **Chapters 1–60 and 65:** drafted. The earlier ones are **pre-lock** — they predate several glossary decisions and carry known overlay language ("the cosmos", "mystery", "all things", "eternal"). See `RETROFIT.md` for the scanned, evidence-based list.
+**★ `DISCOVERIES.md` holds the findings that want essays.** First entry: **no heaven, and no king** — in the oldest witnesses Ch 25 reads *"the Tao is vast, the sky is vast, the earth is vast, and the human is vast."* Both Mawangdui silks read 人 (*rén* — human) where our base text reads 王 (*wáng* — king), and the older silk has no king in the passage at all. Two layers of accretion, Chinese scribes then English missionaries, both adding hierarchy. Possibly a book.
+
+
+- **Chapters 1–60 and 65:** drafted, and **swept clean against every lock**. All 61 carry `retrofit: []`. The 2026-08-10 sweep resolved the accumulated debt; do not assume the early chapters are still pre-lock.
 - **Chapters 61–64 and 66–81:** still to draft. **This is the active frontier.**
-- **Two locks are holding clean across the whole draft:** 德 → *integrity* (zero "virtue") and the Sage pronoun rule (zero "he/his/him"). Keep them that way.
+- **Two locks have held clean from the beginning:** 德 → *integrity* (zero "virtue" ever appeared) and the sage pronoun rule (zero "he/his/him"). Keep them that way.
+
+### Open items — the short list
+
+1. **Draft Chapter 61 onward.** Twenty chapters remain. Ch 61 is where "yin" will try the door: it is the book's most explicit case for feminine power (天下之牝, 牝常以靜勝牡), argued entirely with 牝/靜/下 and not one syllable of 陰. Laozi never uses 陰 for the feminine principle — it appears **once** in the whole book, in Ch 42, paired with 陽. See `glossary/mu-母.md` and the feminine thread in `notes/reading.md`.
+2. **Continue the glossary harvest** from `glossary/TRIAGE.md`. Tier 2 is complete except **一** (*yī* — "one"), which is already lowercased in the text and owed only its entry. Tier 3 opens with **名** (*míng* — "name"), which pairs with the 無名/有名 of Ch 1.
+3. **Em-dashes in the verse — unreviewed.** Seventeen lines still contain — or –, in chapters 10, 14, 15, 28, 29, 43, 44, 51, 53, 55, 58. Some are good (Ch 44's *"Reputation or your self — which is dearer?"*), some strand subjects. Removing them means restructuring real lines, so this is a chapter-by-chapter conversation, not a sweep.
+4. **Activate the glossary skill** if it is not already linked:
+   `ln -s "$(pwd)/process/skills/glossary-entry" ~/.claude/skills/glossary-entry`
+
+### How Shalom works
+
+He decides; the AI argues. Bring him a **clear recommendation with the evidence and the cost**, not a menu — then do what he says. He will push back hard and specifically when something is off, and that pushback is usually right: he caught the 樸 "block" error, the missing 心 subject, the "wise core" abstraction, and the process noise in the glossary entries. Treat a challenge as a finding, not a complaint. He does not read Chinese, so **gloss every character, every time**.
 - **Order of work:** finish the first draft to 81, *then* the harness (`PLAN.md`). **Do not stop drafting to build tooling.**
 - **Retrofit policy — fix on discovery, not in a deferred batch.** When a lock is settled, sweep the affected chapters *immediately*. Mechanical term-swaps: just apply them. Lines needing a rewrite: propose to Shalom first, then apply. *(This reverses the original plan, which batched retrofits to the editing pass — that made sense only while `chapters/` were regenerated from the Google Doc and hand-edits would be clobbered. The Doc is retired; the constraint is gone.)*
 - **Always verify a flagged line against the Chinese in its own chapter before changing it.** Roughly a third of the first automated sweep's flags were false positives — 常 (*cháng*, constant) vs 長 (*cháng*, long), "the one" the pronoun vs 一, "Block the openings" (塞) vs "uncarved block" (樸). See the lessons at the foot of `RETROFIT.md`.

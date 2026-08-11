@@ -1,0 +1,50 @@
+name: checks
+
+# Turns the standing rules into a gate: a chapter cannot regress to "virtue" or
+# "heaven" without this going red. The pre-commit hook checks only what you are
+# committing; this checks the whole book, every push.
+
+on:
+  push:
+  pull_request:
+  workflow_dispatch:
+
+jobs:
+  locks:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      # No dependency install step, deliberately: every tool here is stdlib
+      # only, so a fresh clone can run the checks with nothing else present.
+
+      - name: the checker's own tests
+        run: python3 -m unittest discover -s tools/tests -v
+
+      - name: verse line breaks
+        run: python3 tools/fix-linebreaks.py --check
+
+      - name: generated glossary files are current
+        run: |
+          python3 tools/build_index.py
+          git diff --exit-code glossary/ || {
+            echo "::error::glossary/INDEX.md or terms.yaml is stale."
+            echo "::error::run python3 tools/build_index.py and commit the result."
+            exit 1
+          }
+
+      # Errors only, so a failure shows just what has to change. Warnings and
+      # info get their own step below, where they cannot be mistaken for it.
+      - name: the locks
+        run: python3 tools/check_locks.py --severity error
+
+      # Warnings never fail the build — repeated-formula findings are a reading
+      # for Shalom, not a verdict — but they belong in the log where they can be
+      # seen without anyone remembering to look.
+      - name: warnings and notes
+        if: always()
+        run: python3 tools/check_locks.py --severity info || true

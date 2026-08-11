@@ -2,13 +2,50 @@
 
 *Terms settled later in the book oblige changes to chapters drafted earlier. **Policy: fix on discovery, not in a deferred batch.** Mechanical term-swaps are applied immediately; lines needing a rewrite are proposed first, then applied.*
 
-**Status: swept 2026-08-10. Every lock is clear across all 61 drafted chapters. 1 open item, and it is a literary question rather than a lexical one.**
+**Status: swept 2026-08-10 by hand; re-checked 2026-08-11 by `tools/check_locks.py`, which found nine more.** The hand sweep was very nearly right, and the near-miss is the argument for the tool: Ch 53 rendered 大道 (*dà dào* — "the great Tao") as *"the great Way"* one line below rendering it correctly, in a chapter carrying `retrofit: []`. **1 mechanical fix applied; 8 open items below need your call, plus the 1 literary question.**
 
 Each chapter file carries its own debt in frontmatter (`retrofit: [...]`), regenerated after every sweep, so this file and the chapters cannot drift apart.
 
 ---
 
 ## Open — needs your call
+
+*The eight below were found by `tools/check_locks.py` on its first run, 2026-08-11, inside the 61 chapters the 2026-08-10 sweep certified clean. Ch 53's "The great Way" → "the great Tao" was mechanical and is already applied. These eight need rewrites, so they are yours to rule on. Each is a live `error` — the build stays red until they are resolved or waived.*
+
+### Ch 23 · "When integrity is weak, the system winds down" — the wrong word and an overlay
+
+This renders **信不足焉，有不信焉** (*xìn bù zú yān, yǒu bù xìn yān* — "trust is insufficient, so there is distrust"). Two problems, and the first is serious:
+
+- **信** (*xìn*) is **trust**, not 德 (*dé* — integrity). The line borrows the lock word for a different character, which makes 德 look inconsistent across the book and loses the chapter's actual subject.
+- **"the system winds down"** is invented, and mechanistic. There is no 器 (*qì* — vessel) or any machine here.
+
+**Ch 17 renders the identical Chinese correctly:** *"When leaders don't trust the people, no one trusts the leaders."* **Recommendation: bring 23 to 17's rendering,** or a shortened form of it. *(Found by the `repeated-formula` rule — the two chapters share the segment verbatim.)*
+
+### Ch 21 · "the unerasable source code of all creation" (×2) — the mechanistic overlay, live
+
+Renders **以閱眾甫** (*yǐ yuè zhòng fǔ* — "thereby to observe the origin of the multitudes") and **吾何以知眾甫之狀哉** (*wú hé yǐ zhī zhòng fǔ zhī zhuàng zāi* — "how do I know the condition of the origin of the multitudes?"). 甫 (*fǔ*) is *origin/father*; 眾 (*zhòng*) is *the multitudes*.
+
+"Source code" is `CLAUDE.md`'s named besetting temptation, and it almost certainly leaked from `process/legacy-tao-source-code.md`, which is archived precisely because it holds superseded renderings. **Recommendation: "the origin of the countless things"** or "where everything begins" — and check whether other legacy renderings came across with it.
+
+### Ch 29 · "The world is a sacred system" — 器 is a vessel
+
+**天下神器** (*tiān xià shén qì* — "the world is a sacred vessel"). 器 (*qì*) is already locked to **vessel / tool** inside `glossary/pu-樸.md`. **Recommendation: "the world is a sacred vessel"** — near-mechanical, but it changes an image, so it is yours.
+
+### Ch 40 · "Yielding is the Tao's function" — 用 is use
+
+**弱者道之用** (*ruò zhě dào zhī yòng* — "yielding is the use of the Tao"). 用 (*yòng*) is locked to **use** inside `glossary/wu-you-無有.md`, and "function as" is on 為's forbidden list. **Recommendation: "yielding is how the Tao is used"** or "yielding is the Tao at work."
+
+### Ch 25 · "Within this system of four vast things" — 域 is a realm
+
+**域中有四大** (*yù zhōng yǒu sì dà* — "within the realm there are four great things"). 域 (*yù*) is a *domain/territory*, not a system. **Recommendation: "within the realm there are four great things."**
+
+### Ch 14 · "And returns to nothingness" — 無 is absence
+
+**復歸於無物** (*fù guī yú wú wù* — "returns to no-thing"). "Nothingness" is explicitly forbidden for 無: it imports the Void as a metaphysical substance, where 無 is simply *absence*. **Recommendation: "and returns to no-thing"** — which keeps 物 (*wù* — thing) audible and the 無/有 pair intact.
+
+### Ch 14 · "direct your present existence" — 有 is presence
+
+**以御今之有** (*yǐ yù jīn zhī yǒu* — "thereby to steer what is present now"). "Existence" is forbidden for 有. **Recommendation: "to steer what is present now."**
 
 ### Ch 2 · "the sage's work endures eternally" — not a violation, but loose
 
@@ -48,10 +85,22 @@ There is **no 常 in this chapter** — the line renders 夫唯弗居，是以�
 
 ---
 
-## Lessons for `tools/check_locks.py`
+## Lessons for `tools/check_locks.py` — now built (2026-08-11)
+
+*All three below are implemented, and each has a test in `tools/tests/test_check_locks.py` named after it. Three further lessons the build itself taught are at the foot of this section.*
 
 Three failure modes this sweep exposed. Build the checker against them:
 
 1. **Match stems, not whole words.** `\beternal\b` misses "eternal**ly**" — which hid two chapters. Use `eternal`, `everlast`, `illuminat`, `righteous`.
 2. **Case-sensitivity cuts both ways.** A case-insensitive scan flags "the one" (correct) as "the One" (wrong), and a case-sensitive one misses "The cosmos" at the start of a line. The checker needs per-rule case policy, not one global flag.
 3. **Homophones and false friends are the real trap.** 常 (*cháng*, constant) vs 長 (*cháng*, long); 自然 (*self-so*) vs the ordinary English word "nature"; 一 (*one*) vs the English pronoun "one"; "Block the openings" (塞) vs "uncarved block" (樸). **Every flagged line must be verified against the Chinese in its own chapter before it is changed** — roughly a third of this sweep's initial 93 flags were false positives.
+
+**Solved by the evidence gate.** Because every chapter file carries its own Chinese, a rule never fires on English alone: "virtue" is an error only when 德 is in *that* chapter's source rows, and otherwise drops to `info` in a separate false-friends list. On the first run this took the error list to **9 findings with zero false positives**, from a naive scan's 20.
+
+Three further lessons, from building it:
+
+4. **A forbidden string already encodes its own case policy.** `"the Way"` written with a capital means the capital *is* the violation — so *"the way of nature"* (ch 9, 47) is fine. `"eternal"` written lowercase means the word in any case, which is what catches "eternally". Deriving the policy from how the decision was written cleared six false positives on "Being" (the participle: *"being still"*, *"their being"*) and needed no new configuration.
+
+5. **Phrase rules and register rules catch different things; keep both.** Ch 53's *"The great Way"* slips past the forbidden phrase `"the Way"` because *great* breaks the string. The `devotional-capitalization` rule watches the bare capitalized word and catches it. Neither rule subsumes the other.
+
+6. **Do not try to align the verse to the source rows.** Only 27 of 62 drafted chapters have verse lines matching source rows one-to-one, and the literal glosses speak **pre-lock** English — 玄德 is glossed "dark/mysterious virtue/power" where the verse correctly reads *"profound integrity"* — so matching a locked term against its own gloss fails exactly where the locks matter most. The `repeated-formula` rule therefore asks an alignment-free question: two chapters sharing a verbatim Chinese segment should have *some* pair of similar lines. If their closest pair still looks nothing alike, it says so. This is how ch 23's 信不足焉 was caught.

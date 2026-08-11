@@ -21,40 +21,16 @@ import re
 import sys
 from pathlib import Path
 
+sys.path.insert(0, str(Path(__file__).resolve().parent))
+from lib.corpus import parse_frontmatter  # noqa: E402  — the one frontmatter reader
+
 ROOT = Path(__file__).resolve().parent.parent
 GLOSSARY = ROOT / "glossary"
 SOURCE = ROOT / "source" / "chinese.md"
 
-
-def parse_frontmatter(text):
-    """Minimal YAML frontmatter reader — no external dependency."""
-    m = re.match(r"^---\n(.*?)\n---\n", text, re.S)
-    if not m:
-        return None
-    data, covers = {}, []
-    in_covers = False
-    for line in m.group(1).split("\n"):
-        if line.startswith("covers:"):
-            in_covers = True
-            continue
-        if in_covers and line.strip().startswith("- {"):
-            c = re.search(r'char:\s*"([^"]*)"', line)
-            r = re.search(r'render:\s*"([^"]*)"', line)
-            if c:
-                covers.append((c.group(1), r.group(1) if r else ""))
-            continue
-        in_covers = False
-        km = re.match(r"^(\w+):\s*(.*)$", line)
-        if not km:
-            continue
-        key, raw = km.group(1), km.group(2).strip()
-        if raw.startswith("[") and raw.endswith("]"):
-            inner = raw[1:-1].strip()
-            data[key] = [v.strip().strip('"') for v in inner.split(",") if v.strip()]
-        else:
-            data[key] = raw.strip('"')
-    data["covers"] = covers
-    return data
+# Optional per-term fields, carried through to terms.yaml only when set.
+# Defaults live in lib/corpus.Term: substring / insensitive / error.
+OPTIONAL_FIELDS = ("case", "match", "severity")
 
 
 def chapters_for(term, by_chapter):
@@ -153,6 +129,9 @@ def main():
         y.append(f'  chapters: [{", ".join(e.get("chapters", []))}]')
         y.append(f'  status: {e.get("status","open")}')
         y.append(f'  entry: glossary/{e["file"]}')
+        for f in OPTIONAL_FIELDS:
+            if e.get(f):
+                y.append(f'  {f}: {e[f]}')
         for c, r in e.get("covers", []):
             y.append(f'  # covers {c} -> {r}')
         y.append("")
