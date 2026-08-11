@@ -260,4 +260,36 @@ Four entries were written together (`xin-信.md`, `jing-精.md`, `qi-器.md`, `z
 
 ---
 
+**Ch 21 · the four-fold descent — restoring 其中有X, the chiasmus, and the anadiplosis**
+
+The middle of Chapter 21 is one continuous structure and the English had dissolved it into five unrelated observations. The Chinese:
+
+> 道之為物，惟恍惟惚。
+> 惚兮恍兮，其中有象；
+> 恍兮惚兮，其中有物。
+> 窈兮冥兮，其中有精；
+> 其精甚真，其中有信。
+
+**Three devices, all of them load-bearing.**
+
+**The refrain.** 其中有X occurs **four times** — 象 (*xiàng* — image), 物 (*wù* — thing), 精 (*jīng* — vital essence), 信 (*xìn* — trust). One phrase, four objects, each more real than the last: a semblance, then something actual, then its concentrate, then the fact that it holds. The English had rendered the four as *"appear forms," "appear entities," "lies vital essence," "it can be trusted"* — four different constructions, so the descent read as a list of findings rather than one repeated act of looking deeper into the same place.
+
+**The chiasmus.** 惚兮恍兮 and then 恍兮惚兮: the same two words, reversed. The preamble introduces them as 恍-惚, line three reverses that, line four reverses again. Rendering both as some version of "intangible and dark" flattened a deliberate turn. Now **"Elusive and vague"** then **"Vague and elusive."**
+
+**The anadiplosis.** Line four ends on 精 and line five opens 其精 — the same hinge Ch 16's ladder runs on (公乃王，王乃天…), where each line begins on the word the last one ended with. Now *"…within it there is vital essence. / Its essence utterly real…"*
+
+**And the nesting was wrong.** 其中 is "within **it**" — the Tao — in all four lines. The English read *"within these intangible, dark **forms** appear entities,"* making the forms a container for the entities and inventing a hierarchy the Chinese does not have. Everything is found in the same place, at four depths of attention.
+
+**Two smaller repairs made in the same pass.**
+
+**"Dark" is gone from this stanza.** It had been doing duty for 惚 (*hū*), where the lock reserves *dark* for 玄 (*xuán*). 恍 and 惚 are near-synonyms for *blurred, indistinct, hard to fix* — the pairing is the point — so they take **vague** and **elusive**, which can also reverse in English. *(This also keeps faith with Ch 14, where the same compound 惚恍 already reads "the elusive.")*
+
+**道之為物 → "As a thing, the Tao is only vague, only elusive"** *(was "In the manifest realm, the Tao appears intangible and dark")*. This is a separable judgment and worth flagging as one: **"the manifest realm" imports a two-realm metaphysics** — a manifest world set against an unmanifest one — that the line does not contain and the book does not hold. 道之為物 is simply *the Tao, considered as a thing*, and 惟…惟… is *only… only…*, which the doubled "only" keeps.
+
+*Not carried over: 兮 (xī), the sighing exclamatory particle, four times. English has no unembarrassing equivalent, and the doubled adjectives carry the incantatory quality instead.*
+
+*Worth noticing, and left in the reading notes rather than the verse: the darkest word in the stanza, 冥 (míng — dim, obscure), is a homophone of 明 (míng — clear-seeing), the book's word for sight that is unobstructed. The chapter finds the real thing at the bottom of the dim.*
+
+---
+
 *To add an entry: chapter · phrase · choice · why — and log only deliberate departures from the literal, not routine word-choices.*
