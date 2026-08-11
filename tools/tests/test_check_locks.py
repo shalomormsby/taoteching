@@ -416,6 +416,51 @@ class Variants(unittest.TestCase):
             C.load_variants = original
 
 
+class CommentaryImport(unittest.TestCase):
+    """The vendored commentary, and the fidelity of the import."""
+
+    def setUp(self):
+        sys.path.insert(0, str(pathlib.Path(__file__).resolve().parent.parent))
+        import import_commentary
+        self.imp = import_commentary
+        self.dir = (pathlib.Path(__file__).resolve().parent.parent.parent
+                    / "sources" / "commentaries" / "wangbi")
+
+    def test_files_exist_with_provenance(self):
+        files = sorted(self.dir.glob("*.md"))
+        self.assertGreaterEqual(len(files), 71)
+        from lib.corpus import parse_frontmatter
+        for f in files:
+            fm = parse_frontmatter(f.read_text(encoding="utf-8"))
+            self.assertIsNotNone(fm, f"{f.name} has no frontmatter")
+            for key in ("work", "author", "edition", "obtained", "rights"):
+                self.assertIn(key, fm, f"{f.name} is missing {key}")
+
+    def test_no_punctuation_crept_in(self):
+        # The whole rights position rests on this text being the authorial layer.
+        for f in sorted(self.dir.glob("*.md")):
+            body = f.read_text(encoding="utf-8").split("---", 2)[-1]
+            body = re.sub(r"[*`>#\[\]()/.,:;'\"-]", "", body)
+            for mark in "，。；、":
+                self.assertNotIn(mark, body, f"{f.name} contains editorial punctuation")
+
+    def test_orthographic_map_is_one_to_one_chars(self):
+        for a, b in self.imp.ORTHOGRAPHIC.items():
+            self.assertEqual(len(a), 1, f"{a!r} is not a single character")
+            self.assertEqual(len(b), 1, f"{b!r} is not a single character")
+            self.assertNotEqual(a, b)
+
+    def test_extension_b_is_matched(self):
+        # 𤣥 (U+24465), the Siku form of 玄, is outside the BMP. Omitting it from
+        # the CJK class silently deleted it, turning 玄德 into 徳.
+        self.assertEqual(self.imp.fold("𤣥德"), "玄德")
+
+    def test_collation_notes_excluded_from_matching(self):
+        # Folding a 〔...〕 note into the probe made the lemma it annotates fail
+        # to match, misclassifying real variants as commentary.
+        self.assertEqual(self.imp.fold("揣而梲之〔案某本作銳〕"), "揣而梲之")
+
+
 class TheCorpusItself(unittest.TestCase):
     """Guards on the live manuscript, not on synthetic fixtures."""
 

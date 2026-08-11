@@ -47,7 +47,27 @@ reason: >
 
 ## Calls in effect
 
-## 2026-08-11 · no-new-tooling (sources library)
+## 2026-08-11 · shaloms-call
+
+rule: shaloms-call
+source: this file — the mechanism itself
+scope: repo
+until: standing
+reason: >
+  Establishes the override mechanism. Shalom is the decider; the rules in this
+  repo are his to set aside. Until now an override existed only as a sentence in
+  a conversation: it did not survive the session, it was invisible to anyone
+  reading the repo, and it left the AI in the position of correctly objecting on
+  the next session to work that had already been authorized — re-arguing a
+  settled decision, which is the opposite of what the prime directive is for.
+
+---
+
+## Retired calls
+
+*A call that has expired and been deliberately retired moves here rather than being deleted, so the history of the process stays readable.*
+
+## 2026-08-11 · no-new-tooling (sources library) — **retired 2026-08-11, condition met**
 
 rule: no-new-tooling
 source: PLAN.md — "the one rule this plan exists to protect: do not stop drafting to build tooling"
@@ -70,26 +90,9 @@ reason: >
   check_locks support, and per-file provenance. On completion the rule resumes and
   drafting continues at Ch 63.
 
-
-## 2026-08-11 · shaloms-call
-
-rule: shaloms-call
-source: this file — the mechanism itself
-scope: repo
-until: standing
-reason: >
-  Establishes the override mechanism. Shalom is the decider; the rules in this
-  repo are his to set aside. Until now an override existed only as a sentence in
-  a conversation: it did not survive the session, it was invisible to anyone
-  reading the repo, and it left the AI in the position of correctly objecting on
-  the next session to work that had already been authorized — re-arguing a
-  settled decision, which is the opposite of what the prime directive is for.
+**Why retired:** `sources/` is built per PLAN.md §8 — PROVENANCE.md, variants.yaml with 22 forks, Wang Bi's commentary on 71 of 81 chapters, `tools/import_commentary.py`, `--witnesses` and `--commentary`, and the `unlogged-variant` rule. Heshang Gong and Han Feizi remain owed, but they are additions to a built library rather than the building of one, and they do not need a standing tooling exemption. **The no-new-tooling rule is back in force; drafting resumes at Ch 63.**
 
 ---
-
-## Retired calls
-
-*A call that has expired and been deliberately retired moves here rather than being deleted, so the history of the process stays readable.*
 
 ## 2026-08-11 · no-new-tooling (harness phases A–F) — **retired 2026-08-11, condition met**
 

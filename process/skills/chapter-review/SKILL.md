@@ -15,6 +15,7 @@ The method in `CLAUDE.md` is stable enough to execute rather than remember. This
 
 ```bash
 python3 tools/concordance.py --witnesses N                   # where the witnesses disagree
+python3 tools/concordance.py --commentary N                  # Wang Bi on this chapter
 python3 tools/check_locks.py --chapter N --severity info     # what this chapter already violates
 python3 tools/concordance.py --formulas | grep -n .          # segments this chapter shares
 ```
