@@ -1,90 +1,57 @@
 # RETROFIT — consistency debt
 
-*Decisions settled later in the book that oblige changes to chapters already drafted. Work this list during the **editing pass**, not before — finishing the first draft comes first.*
+*Terms settled later in the book oblige changes to chapters drafted earlier. **Policy: fix on discovery, not in a deferred batch.** Mechanical term-swaps are applied immediately; lines needing a rewrite are proposed first, then applied.*
 
-Generated from an automated scan of the drafted chapters (1–60, 65) against the locked renderings. Each chapter file carries its own debt in frontmatter (`retrofit: [...]`), so this list can be regenerated mechanically once `tools/check_locks.py` exists.
+**Status: swept 2026-08-10. Every lock is clear across all 61 drafted chapters. 1 open item, and it is a literary question rather than a lexical one.**
 
-**Two locks holding clean across the whole draft:** 德 → *integrity* (zero occurrences of "virtue") and the Sage pronoun rule (zero occurrences of "he/his/him" near the Sage). Those principles are working.
-
----
-
-## 天地 / 天 → "sky and earth" · "nature" *(never "the cosmos")*
-
-**12 chapters: 9, 10, 16, 22, 23, 25, 32, 37, 39, 40, 47, 59** — the largest single debt.
-
-> ch 9 — "This is the way of the cosmos." → *the way of nature*
-> ch 10 — "As the gates of the cosmos open and close" (天門)
-> ch 16 — "Sovereignty leads to the cosmos." (王乃天)
-> ch 22 — "no one in the cosmos can compete with them" (天下 → **the world**)
-> ch 23 — "If the cosmos can't sustain intensity for long" (天地)
-> ch 25 — "before the cosmos was born" (先天地生)
-> ch 32 — "The dual nature of the cosmos unites to create sweet dew." (天地相合)
-> ch 37, 39, 40, 47, 59 — same pattern
-
-Note these are **three different words** flattened to one English term: 天地 (sky and earth), 天下 (the world), and 天 alone (nature). Separate them during the sweep.
-*Ruling: `glossary/tiandi-天地.md`; standing principle in `notes/translation.md`.*
-
-## 萬物 → "the ten-thousand things" *(never "all things" / "the myriad things")*
-
-**11 chapters: 1, 8, 10, 30, 32, 34, 37, 39, 41, 42, 51.**
-
-> ch 1 — "the mother of all things" → *the mother of the ten-thousand things*
-> ch 32, 34, 37 — "the myriad things"
-
-Frequent and mechanical; a good first sweep.
-
-## 玄 → "dark / profound" *(never "mystery")*
-
-**6 chapters: 4, 6, 10, 15, 51, 65.**
-
-> ch 4 — "its source is a mystery that's older than god" — **also flag "god"** (象帝之先; 帝 is the high ancestor, not a deity in the Western sense)
-> ch 6 — "the mysterious womb of creation" (玄牝) → *the dark female*
-> ch 10 — "the mysterious mirror" (玄覽)
-> ch 15 — "subtle, mysterious, profound, and penetrating" (微妙玄通) — the one place 妙 and 玄 sit side by side; they must read as *different* qualities
-> ch 51, 65 — "mysterious integrity" (玄德) → *profound integrity*
-
-*Ruling: `glossary/xuan-miao-玄妙.md`.*
-
-## 常 → "the ever-present" *(never "eternal" / "everlasting")*
-
-**4 chapters: 7, 16, 22, 46.**
-
-> ch 7 — "The earth is everlasting." (天長地久)
-> ch 16 — "Returning to your original nature is called the eternal." (復命曰常)
-> ch 22 — "therefore is eternal"
-> ch 46 — "eternal contentment"
-
-*Ruling: `glossary/chang-常.md`. Chapter 1 is already clean.*
-
-## 一 → lowercase "the one" / "unity" *(never capital-O "the One")*
-
-**4 chapters: 10, 22, 39, 42.** Capital-O imports Neoplatonism and monotheism. In 42 the Tao *gives birth to* it, so it cannot be ultimate.
-
-## 義 → "duty / rightness" *(never "righteousness")*
-
-**3 chapters: 18, 19, 38.** "Righteousness" is Pauline. Also review **仁** in the same lines — "benevolence" is Legge's Victorian moralism; *humaneness* or *kindness* is closer.
-
-## 知足 → "knowing you have enough" *(never "fulfilled")*
-
-**Chapter 33** — "One who is fulfilled is truly wealthy."
-*Ruling: `glossary/zhizu-知足.md`.*
+Each chapter file carries its own debt in frontmatter (`retrofit: [...]`), regenerated after every sweep, so this file and the chapters cannot drift apart.
 
 ---
 
-## Undecided — settle these *before* sweeping
+## Open — needs your call
 
-**明** — 知常曰明 is a *repeated formula*, verbatim in **16** and **55**. Currently rendered differently in each. Lock it, then make both identical. Candidates: *clear-seeing* · *illumination*.
+### Ch 2 · "the sage's work endures eternally" — not a violation, but loose
 
-**無為** — "non-action" leads. Lock it where the paradox lives, then sweep.
-
-**正 / 奇** — threaded *straight / crooked* across **57–58**; confirm the thread holds, since 58 deliberately dissolves 57 (正復為奇).
+There is **no 常 in this chapter** — the line renders 夫唯弗居，是以不去 (*"precisely because they do not dwell in it, it does not depart"*). So "eternally" breaks no lock. But it asserts permanence where the Chinese says something subtler and more conditional: the work stays *because* the doer does not stay with it. Worth revisiting on literary grounds, not lexical ones.
 
 ---
 
-## Structural
+## Swept ✅ — 2026-08-10
 
-**`process/legacy-tao-source-code.md`** — the original "Tao Source Code" glossary, archived for provenance. Contains renderings since retired (**德 as "Virtue"**, **天 as "The Cosmos"**) and the "operating system" framing now demoted to a commentary lens. Supersede entry by entry into `glossary/`, or leave clearly marked as historical.
+| Term | → | Chapters fixed |
+|---|---|---|
+| **樸** | uncarved wood *(lowercase)* | 15, 19, 28, 32, 37 — plus 2 dependent lines in 32 |
+| **萬物** | **the countless things** *(re-locked; see below)* | 1, 2, 4, 8, 10, 16, 32, 34, 37, 39, 40, 41, 42, 51 |
+| **天地 / 天下 / 天** | sky and earth · the world · nature | 7, 9, 10, 22, 23, 25, 32, 37, 39, 40, 47, 59 |
+| **玄** | dark · profound | 4, 6, 10, 15, 51, 65 |
+| **常** | the ever-present | 16, 34, 46 |
+| **一** | lowercase *the one* | 10, 22, 39, 42 |
+| **明** | clear-seeing · clarity | 33, 36, 52 |
+| **無為** | non-doing | 37, 43, 48, 57 |
+| **無 / 有** | absence / presence | 2, 40 |
+| **自然** | the self-so · of itself | 23, 25 |
+| **義 / 仁** | duty · humaneness | 18, 19, 38 |
+| **知足** | knowing you have enough | 33, 46 |
+| **天** (Ch 16 ladder) | the open sky | 16 — see below |
 
-**`chapters/tao-opencosmos.code-workspace`** — an editor workspace file sitting inside `chapters/`; move it to the repo root or delete it, so `chapters/` contains only chapter files.
+**萬物 re-locked as "the countless things"** *(was briefly "the ten-thousand things")*. 萬 is a **scorpion** borrowed for its sound — the quantity is a phonetic accident, and 萬 meant *beyond reckoning*, which "ten thousand" now inverts for a reader who knows the scale of the universe. Rejected: *"all things"* (a totality where 萬物 is a teeming plurality) and *"beings"* (imports Buddhist 眾生, over-narrows to inner life, and collides with the "Being/Non-Being" rendering already rejected for 有/無). *Ruling: `glossary/wanwu-萬物.md`.*
 
-**Chapters 1–38 generally** — drafted before most locks. Treat as a single sweep rather than chapter-by-chapter spot fixes.
+**Three corrections the verification pass caught:**
+
+> **ch 30 / ch 55** — 物壯則老 is **verbatim in both** and was rendered two different ways. Now identical in both: *"When things reach their peak strength, they decay."*
+> **ch 25** — "All matter was formed from the formless" → *"**Something** formed in the undifferentiated."* 有物混成 says *there is a **something***, singular and indefinite — not "all matter," which makes it plural and material and quietly turns the pre-cosmic Tao into stuff.
+> **ch 10, 41** — both contained "the ten-thousand things" where the Chinese has **no 物 at all** (生之畜之 in 10; 善貸且成 in 41 — the object is only the pronoun 之, *them*). Swept for consistency, but flagged: the noun is **supplied by the translator**, not present in the source.
+
+**Ch 16's ladder, resolved.** 王乃天，天乃道 now reads *"Sovereignty leads to the open sky. / The open sky leads to the Tao."* Two constraints decided it: Ch 16 and Ch 25 share this exact 天→道 step, so both must say **sky**; and the passage is *anadiplosis* (each line ends on the word the next begins with), so the qualifier had to repeat rather than be introduced once and dropped. **公 was corrected in the same pass** — "equanimity" → **"impartiality"** (公 is the opposite of 私, *private/selfish*), which makes the whole ladder legible as one continuous widening beyond the self. *Logged in `notes/translation.md` and `notes/reading.md`.*
+
+**Also corrected in passing:** Ch 36's "the tools of nature" → *"the sharp instruments of the state"* (國之利器 — 國 is the **state**; "nature" was simply wrong). Ch 22's "therefore is eternal" → *"therefore endures"* (長, not 常). Ch 7's whole opening — 天長地久 is 長/久 (*lasting/enduring*), not 常.
+
+---
+
+## Lessons for `tools/check_locks.py`
+
+Three failure modes this sweep exposed. Build the checker against them:
+
+1. **Match stems, not whole words.** `\beternal\b` misses "eternal**ly**" — which hid two chapters. Use `eternal`, `everlast`, `illuminat`, `righteous`.
+2. **Case-sensitivity cuts both ways.** A case-insensitive scan flags "the one" (correct) as "the One" (wrong), and a case-sensitive one misses "The cosmos" at the start of a line. The checker needs per-rule case policy, not one global flag.
+3. **Homophones and false friends are the real trap.** 常 (*cháng*, constant) vs 長 (*cháng*, long); 自然 (*self-so*) vs the ordinary English word "nature"; 一 (*one*) vs the English pronoun "one"; "Block the openings" (塞) vs "uncarved block" (樸). **Every flagged line must be verified against the Chinese in its own chapter before it is changed** — roughly a third of this sweep's initial 93 flags were false positives.

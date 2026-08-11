@@ -1,3 +1,12 @@
+---
+term: "母"
+pinyin: "mǔ"
+render: "mother"
+forbidden: ["the Source", "the Origin", "the Ground of Being"]
+chapters: [1, 20, 25, 52, 59]
+status: locked
+pairing: false
+---
 ## 母 (Mǔ) — The Mother
 
 *Say "moo," the third tone — it dips and then lifts. One of the Tao's truest names, and the one translators most often flinch from.*

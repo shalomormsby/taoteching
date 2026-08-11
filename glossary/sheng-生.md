@@ -1,3 +1,12 @@
+---
+term: "生"
+pinyin: "shēng"
+render: "give birth to / bear / bring forth"
+forbidden: ["generate", "produce", "manufacture", "create"]
+chapters: [2, 7, 10, 15, 25, 30, 34, 39, 40, 42, 46, 50, 51, 55, 59, 64, 72, 75, 76]
+status: locked
+pairing: false
+---
 ## 生 (Shēng) — To Give Birth / To Live
 
 *Say "shung," high and level. The most alive word in the book — and the easiest to quietly kill in translation.*

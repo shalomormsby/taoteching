@@ -1,3 +1,15 @@
+---
+term: "天地"
+pinyin: "tiān dì"
+render: "sky and earth"
+forbidden: ["heaven and earth", "the cosmos", "the universe"]
+chapters: [1, 5, 6, 7, 23, 25, 32]
+status: locked
+pairing: false
+covers:
+  - { char: "天下", render: "the world" }
+  - { char: "天", render: "nature (as ordering principle)" }
+---
 ## 天地 (Tiān Dì) — Sky and Earth
 
 *Say "tyen dee," the first high and level, the second falling. For a century and a half the English tradition has called this "Heaven and Earth" — and in doing so has quietly installed a God in a book that has none.*

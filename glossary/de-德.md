@@ -1,3 +1,12 @@
+---
+term: "德"
+pinyin: "dé"
+render: "integrity"
+forbidden: ["virtue", "moral excellence", "power"]
+chapters: [10, 21, 23, 28, 38, 41, 49, 51, 54, 55, 59, 60, 63, 65, 68, 79]
+status: locked
+pairing: false
+---
 ## 德 (Dé) — Integrity
 
 *Pronounced "duh," on a gently rising tone, as if asking a small question.*

@@ -1,3 +1,12 @@
+---
+term: "常"
+pinyin: "cháng"
+render: "the ever-present / the abiding"
+forbidden: ["eternal", "everlasting", "the eternal"]
+chapters: [1, 3, 16, 27, 28, 32, 34, 37, 46, 48, 49, 51, 52, 55, 61, 64, 65, 74, 79]
+status: locked
+pairing: false
+---
 ## 常 (Cháng) — The Constant / The Ever-Present
 
 *Say "chahng," rising like a question. Usually translated "eternal" — a word that, here, quietly lies.*
