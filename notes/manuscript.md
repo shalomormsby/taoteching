@@ -4,6 +4,11 @@
 
 ---
 
+**Ch 21 · 道之為物 / 道之物 — the silks drop the copula.**
+Our base reads 道之**為**物，惟恍惟惚. Both Mawangdui silks read **道之物** with no 為, leaving 之 as a plain possessive: *the Tao's thingness*, rather than *the Tao's being a thing*. **Both point at the same sense**, so the reading is not in doubt — but the fork is worth logging because it settles what the line's **topic** is: not the Tao itself but *what the Tao amounts to as an entity*, which is a topic-comment construction and wants topic-comment English. Hence *"Whatever the Tao is, it is only vague, only elusive."* We keep the base text; nothing turns on 為. (The silks also read 唯 for 惟 and 望/朢 for 恍 — graphic and phonetic variants, not meaning-bearing.)
+
+---
+
 **Ch 21 · 自古及今 / 自今及古 — and three more forks in the same two lines.**
 Our base reads 自**古**及**今** ("from ancient times until today"), 以**閱**眾**甫** ("thereby to observe the origin of the many"), and 眾甫之**狀** ("the *shape* of that origin"). **Both Mawangdui silks disagree on all four points**, reading 自**今**及**古** ("from **now back to** antiquity"), 以**順**眾**父** (順 = *follow along with*, not *observe*), and 眾父之**然** ("that it *is so*"). **We keep the base text on all four**, and log the forks because the first one is genuinely meaning-bearing: it reverses the direction of the inquiry. Mawangdui makes the chapter *start* from the present and trace backward; Wang Bi makes it *arrive* at the present. We render the arrival — the line ends on "today," and the closing "By this, here, now" completes the movement toward the reader, which is the movement of the whole chapter. (Two notes: 甫/父 needs no decision, since Ch 42 already settled that 父 here means *origin / root*, not "godfather" — both give "origin" in English. And Mawangdui's 之**然** would have harmonized Ch 21's closing question with Ch 54 and Ch 57, which both read 之然; that is the one real cost of keeping 狀.)
 

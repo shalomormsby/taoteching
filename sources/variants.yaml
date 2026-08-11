@@ -27,6 +27,19 @@
 #   logged           where the reasoning lives, or false
 
 - chapter: 21
+  line: "道之為物，惟恍惟惚"
+  base: "道之為物"
+  witnesses: { mawangdui-a: "道之物", mawangdui-b: "道之物" }
+  meaning_bearing: false
+  our_call: base
+  note: >
+    The silks drop 為, leaving 之 as a plain possessive — "the Tao's thingness"
+    rather than "the Tao's being a thing." Both point at the same sense, so the
+    reading is not in doubt; only the English is. Logged because it settles that
+    the topic of the line is what the Tao amounts to as an entity.
+  logged: notes/manuscript.md
+
+- chapter: 21
   line: "自古及今，其名不去"
   base: "自古及今"
   witnesses: { mawangdui-a: "自今及古", mawangdui-b: "自今及古" }
