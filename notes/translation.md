@@ -302,4 +302,26 @@ The first repair rendered it *"As a thing, the Tao is…"*, which was accurate a
 
 ---
 
+**Ch 21 · 吾何以知眾甫之狀哉 → "How do I know the origin of the many is so?"** *(was: "…the origin of the many?", with the contested word untranslated)*
+
+The line's last content word is contested. Our base text reads **狀** (*zhuàng* — shape, form, condition); four older sources read **然** (*rán* — so, thus, that it is so). The English had rendered **neither**, asking simply "How do I know the origin of the many?" — which is why nothing had broken: the line was true under either reading, and silently so.
+
+**We follow 然, and the decisive argument is not a manuscript one.** 狀 occurs **twice** in the whole book (here, and Ch 14's 無狀之狀, "the shape of no-shape"). 然 occurs **twelve** times. And 吾何以知…然哉？以此 is a **fixed closing formula**:
+
+> Ch 54 · 吾何以知天下**然**哉？以此 — *"How do I know the world is so? By precisely this."*
+> Ch 57 · 吾何以知其**然**哉？以此 — *"How do I know this is so? By this:"*
+> Ch 21 · 吾何以知眾甫之**然**哉？以此 — *"How do I know the origin of the many is so? By this, here, now."*
+
+**然 completes the formula; 狀 breaks it.** Three chapters ask one question and answer it one way, and the English now lets a reader hear that.
+
+**Then the witnesses, all agreeing:** both Mawangdui silks read 然; the Song Heshang Gong edition reads 然; and the Siku Quanshu compilers wrote a collation note on this very line — 〔案狀各本俱作然〕, *"as for 狀, all editions read 然."* Our 狀 may be close to unique.
+
+**And the word is load-bearing elsewhere.** 然 is the second half of **自然** (*zìrán* — the self-so): 自 (*zì* — self) + 然 (*rán* — so). The character that closes these three questions is the one Laozi builds his term for *being as one is, of oneself* out of. So the question "how do I know it is **so**?" is asked in the vocabulary of self-so-ness, and answered 以此 — *by this, here, now*: by the thing in front of you, being what it is of its own accord. *(See `glossary/ziran-自然.md` for 然's history — it began as a picture of roasting and was borrowed for its sound, so it is grammar rather than image.)*
+
+**The base text is unchanged.** The Source table keeps 狀, and only the translation follows the older reading — the practice already established at Ch 41 (免成), Ch 42 (學父), Ch 47 (明) and Ch 53 (竽). `source/chinese.md` stays a faithful transcription of one recension rather than becoming a composite.
+
+*Found because Shalom asked whether 然 was related to 自然. It is, and the relation is the argument.*
+
+---
+
 *To add an entry: chapter · phrase · choice · why — and log only deliberate departures from the literal, not routine word-choices.*

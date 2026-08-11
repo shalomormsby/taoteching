@@ -78,15 +78,18 @@
   base: "狀"
   witnesses: { mawangdui-a: "然", mawangdui-b: "然", heshanggong: "然", siku-wangbi: "狀 〔案狀各本俱作然〕" }
   meaning_bearing: true
-  our_call: undecided
+  our_call: mawangdui-a
   note: >
-    REOPENED 2026-08-11. 之狀 asks after its shape; 之然 asks whether it is so,
-    which is how Ch 54 and Ch 57 both close. Our 狀 now stands against four
-    things: both Mawangdui silks, the Song Heshang Gong edition, and the Siku
-    compilers' own collation note on this very line — 〔案狀各本俱作然〕, "for
-    狀, all editions read 然". Our reading may be near-unique. Needs Shalom's
-    call; the rendering "How do I know the origin of the many?" survives either
-    way, but the harmony with 54 and 57 does not.
+    RESOLVED 2026-08-11 — we follow 然. Five arguments converge, and only the
+    last four are about manuscripts. 狀 (zhuàng, shape) occurs twice in the
+    whole book; 然 (rán, so) occurs twelve times, and 吾何以知…然哉？以此 is a
+    FIXED CLOSING FORMULA that Ch 54 and Ch 57 both use — 然 completes it and
+    狀 breaks it. Then: both Mawangdui silks read 然, the Song Heshang Gong
+    edition reads 然, and the Siku compilers' own note on this line reads
+    〔案狀各本俱作然〕, "for 狀, all editions read 然". Rendered "How do I know
+    the origin of the many is so?", which lets a reader hear the formula in all
+    three chapters. The base text and Source table keep 狀; only the
+    translation follows the witnesses, as at Ch 41, 42, 47 and 53.
   logged: notes/manuscript.md
 
 - chapter: 25
