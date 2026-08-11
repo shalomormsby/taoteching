@@ -37,8 +37,10 @@ jobs:
             exit 1
           }
 
+      # Errors only, so a failure shows just what has to change. Warnings and
+      # info get their own step below, where they cannot be mistaken for it.
       - name: the locks
-        run: python3 tools/check_locks.py
+        run: python3 tools/check_locks.py --severity error
 
       # Warnings never fail the build — repeated-formula findings are a reading
       # for Shalom, not a verdict — but they belong in the log where they can be
