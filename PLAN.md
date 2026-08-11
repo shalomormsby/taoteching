@@ -122,7 +122,7 @@ Not in the original plan, and the reason this one could be written at all. `proc
 
 ## 8. `sources/` — the witnesses and commentaries, in the repo ✅ **DONE (2026-08-11)**
 
-**Built:** `sources/PROVENANCE.md`, `sources/variants.yaml` (22 forks), **`sources/commentaries/wangbi/` — Wang Bi on 71 of 81 chapters**, `tools/import_commentary.py`, `concordance.py --witnesses N` and `--commentary N`, and `check_locks.py`'s `unlogged-variant` rule. 53 tests.
+**Built:** `sources/PROVENANCE.md`, `sources/variants.yaml` (23 forks), **Wang Bi on 71 of 81 chapters and Heshang Gong on all 81**, `tools/import_commentary.py`, `concordance.py --witnesses N` and `--commentary N`, and `check_locks.py`'s `unlogged-variant` rule. 53 tests.
 
 **The licensing blocker did not exist.** This section previously said Wikisource was unusable because its content is CC BY-SA. Its *copyright policy* says the opposite — a faithful transcription of a public-domain work creates no new copyright, and "the CC BY-SA default license for contributions never comes into play for mainspace content." The Siku Quanshu (1782) transcription is tagged `{{PD-old}}` and, by its own editorial policy, carries **no punctuation** — the authorial layer only. Recorded as a correction in `PROVENANCE.md` rather than edited away.
 
@@ -135,7 +135,7 @@ Not in the original plan, and the reason this one could be written at all. `proc
 - **Ch 55** — `notes/manuscript.md` claimed our base text reads 全 and that we kept it. Our source table reads 朘; the verse renders 全. The note misdescribed our own text.
 - **Ch 63** — Wang Bi sets 大小多少報怨以德 as **one lemma** and glosses it 小怨則不足以報…順天下之所同者徳也, which dissolves the "four bare characters" crux and makes 報怨以德 a rule against private revenge rather than personal forbearance.
 
-**Still owed:** Heshang Gong (available, provenance verified — a Song woodblock via *Sibu congkan* 0532 — but transcluded page-by-page from the `Page:` namespace, so it needs assembling), Han Feizi's 解老 / 喻老, and the 10 chapters Wikisource has not yet proofread (8, 14, 15, 19, 30, 54, 62, 70, 71, 78).
+**Heshang Gong added the same day**, assembled from 77 scan pages of *Sibu congkan* 0532 (a Song woodblock), complete at 81/81 with his own chapter titles preserved. **Still owed:** Han Feizi's 解老 / 喻老, and the 10 chapters Wikisource has not proofread in the Siku Wang Bi text — though Heshang Gong covers all ten, so no chapter now lacks a classical commentary.
 
 *Proposed 2026-08-11, after Ch 21 required fetching Wang Bi, Heshang Gong, and both Mawangdui silks from the open web to answer one question about one line. **Needs its own `shaloms-call`** — the existing suspension of the no-new-tooling rule covers phases A–F only, and this is new scope.*
 
@@ -210,7 +210,7 @@ It also states plainly that **the punctuation is editorial and forms no part of 
 
 1. **Resolve the 8 open findings** in `RETROFIT.md` → *Open*. Each needs a rewrite, so each is Shalom's call. The build stays red until they are resolved or waived — which is the ratchet working, not a problem to route around.
 2. ~~**Re-provenance `source/chinese.md`** off ctext~~ ✅ **done 2026-08-11** (§8).
-3. ~~**Build `sources/`** (§8)~~ ✅ **done 2026-08-11** — Wang Bi vendored, 71/81. Heshang Gong and Han Feizi still owed.
+3. ~~**Build `sources/`** (§8)~~ ✅ **done 2026-08-11** — Wang Bi 71/81, Heshang Gong 81/81. Han Feizi still owed.
 4. **Draft chapters 61–64 and 66–81** with the hook live, through the `chapter-review` skill. This is the active frontier and the reason the harness was built now rather than at 81.
 5. **`build.py`**, when the text has stopped moving.
 

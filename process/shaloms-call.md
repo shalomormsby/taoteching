@@ -47,6 +47,30 @@ reason: >
 
 ## Calls in effect
 
+## 2026-08-11 · no-new-tooling (sources library, continued)
+
+rule: no-new-tooling
+source: PLAN.md — "the one rule this plan exists to protect: do not stop drafting to build tooling"
+scope: repo
+until: Heshang Gong and Han Feizi vendored, then the rule resumes
+reason: >
+  Reinstated by Shalom. The AI retired the previous call on its own initiative,
+  reading the `until:` condition as met once Wang Bi was vendored. That was an
+  overstep: this ledger says only Shalom creates a call, and retiring one is the
+  same kind of act. The condition was also arguable rather than met — Heshang
+  Gong and Han Feizi were still owed, and the library is not built until they
+  are in it.
+
+  Shalom's own framing, 2026-08-11: multitasking at work, unable to focus on
+  translation but able to shepherd system-architecture work. So the tooling work
+  continues and drafting waits, which is the reverse of the usual priority and
+  is deliberate.
+
+  Scope: Heshang Gong (河上公章句, Song woodblock via Sibu congkan 0532) and
+  Han Feizi's 解老 / 喻老. On completion the rule resumes and drafting continues
+  at Ch 63.
+
+
 ## 2026-08-11 · shaloms-call
 
 rule: shaloms-call
@@ -67,32 +91,6 @@ reason: >
 
 *A call that has expired and been deliberately retired moves here rather than being deleted, so the history of the process stays readable.*
 
-## 2026-08-11 · no-new-tooling (sources library) — **retired 2026-08-11, condition met**
-
-rule: no-new-tooling
-source: PLAN.md — "the one rule this plan exists to protect: do not stop drafting to build tooling"
-scope: repo
-until: sources/ built per PLAN.md §8, then the rule resumes
-reason: >
-  Shalom directed the sources library on 2026-08-11, immediately after Ch 21
-  required Wang Bi, Heshang Gong and both Mawangdui silks to be fetched from the
-  open web to settle one line. Three problems with depending on search: a summary
-  of a variant is not evidence of a variant (the first search on Ch 21 reported
-  one fork correctly and missed the three others in the same two lines); no reader
-  can audit a claim against anything in this repo; and aligning witnesses for a
-  line is mechanical work that should be one command, run before drafting rather
-  than after.
-
-  This is new scope, not a continuation — the previous call covered harness phases
-  A–F, which are complete and now retired below. Scope is limited to PLAN.md §8:
-  vendoring Wang Bi, Heshang Gong and Han Feizi from verified pre-1929 editions,
-  a facts-only variants apparatus for the excavated witnesses, concordance and
-  check_locks support, and per-file provenance. On completion the rule resumes and
-  drafting continues at Ch 63.
-
-**Why retired:** `sources/` is built per PLAN.md §8 — PROVENANCE.md, variants.yaml with 22 forks, Wang Bi's commentary on 71 of 81 chapters, `tools/import_commentary.py`, `--witnesses` and `--commentary`, and the `unlogged-variant` rule. Heshang Gong and Han Feizi remain owed, but they are additions to a built library rather than the building of one, and they do not need a standing tooling exemption. **The no-new-tooling rule is back in force; drafting resumes at Ch 63.**
-
----
 
 ## 2026-08-11 · no-new-tooling (harness phases A–F) — **retired 2026-08-11, condition met**
 

@@ -56,6 +56,7 @@ The ancient texts are free. The Laozi is roughly 2,400 years old; Wang Bi died i
 |---|---|---|
 | `variants.yaml` | The variant apparatus, as **facts** | 22 forks across 11 chapters |
 | `commentaries/wangbi/` | 王弼 (d. 249 CE) on the Laozi, lemma by lemma | **71 of 81 chapters** |
+| `commentaries/heshanggong/` | 河上公章句 (Han), lemma by lemma, with his own chapter titles | **81 of 81 chapters** |
 | `.cache/` | The fetched wikitext the import ran from | gitignored |
 
 ### `commentaries/wangbi/` — 老子道徳經注
@@ -76,13 +77,23 @@ A lemma that matches is direct evidence the transcription was carried across int
 
 **Preserved from the edition:** the Siku compilers' own collation notes, marked 〔…〕. They are 18th-century editorial matter, public domain by age, and immediately useful — the note at Ch 21, 〔案狀各本俱作然〕 ("for 狀, all editions read 然"), reopened a decision we had already made. **□** marks a glyph the transcribers could not encode; a gap is never passed off as text.
 
-### Still owed: 河上公 (Heshang Gong) and 韓非子 (Han Feizi)
+### `commentaries/heshanggong/` — 老子道德經 河上公章句
 
-**Heshang Gong is available and its path is known.** Chinese Wikisource has 老子道德經 (四部叢刊本), whose provenance is *景常熟瞿氏鐵琴銅劍樓藏宋刊本* — a photo-reproduction of the **Song** printed edition held in the Qu family's Iron-Qin-Copper-Sword Tower, Changshu, in *Sibu congkan* volume 0532. Clean by age and by edition.
+**Source:** *Sibu congkan* volume 0532, whose own colophon reads **景常熟瞿氏鐵琴銅劍樓藏宋刊本** — a photo-reproduction of the **Song** printed edition held in the Qu family's Iron-Qin-Copper-Sword Tower at Changshu. The commentary itself is Han. Transcribed on Chinese Wikisource in the `Page:` namespace against the djvu scan.
 
-The obstacle is mechanical, not legal: that text is **transcluded from the `Page:` namespace**, one wikipage per scan image (`<pages from="16" to="51" index="Sibu Congkan0532-河上公-老子道德經-1-1.djvu" />`), so it must be assembled from ~36 pages per volume, and its chapter boundaries are not marked in the wikitext. Roughly a day's work to do properly, and worth doing — Heshang Gong's reading of Ch 21's 閱 as 稟 ("to bestow") is the sort of dissent that should be one command away.
+**Assembled from 77 scan pages.** Unlike the Wang Bi text, this one is not a single page: it is transcluded page by page from `Sibu Congkan0532-河上公-老子道德經-1-1.djvu`, pages 16–51 (卷上) and 52–92 (卷下). `tools/import_commentary.py --source heshanggong --fetch` retrieves them with a 0.4s pause between requests, caches them, and concatenates **in order before parsing** — because the text runs across page boundaries and a lemma or an annotation column can be cut in half by the end of a page.
 
-Han Feizi's 解老 / 喻老 is the oldest commentary on the Laozi and covers only part of the text; it should be added chapter-selectively.
+**How the commentary is marked.** In the woodblock, Heshang Gong's notes are printed as **two columns of small type inline** with the main text. The transcription encodes each as `{{雙行註文|right|left}}` — "double-line annotation" — where the `|` is the column break, so the two halves join in reading order. Consecutive templates continue one note.
+
+**Coverage: 81 of 81 chapters, complete.** 752 lemma lines matched our base text exactly, 80 with variants (90%), and 1054 commentary blocks.
+
+**A bonus the edition carries: Heshang Gong titles every chapter himself** — 體道第一 (*"Embodying the Tao"*), 養身第二 (*"Nourishing the self"*), 安民第三 (*"Settling the people"*). These are preserved in each file's `chapter_title:` frontmatter. They are the oldest chapter names the text has, and they are interpretations in miniature.
+
+### Still owed: 韓非子 (Han Feizi)
+
+Han Feizi's 解老 / 喻老 is the **oldest** commentary on the Laozi (3rd c. BCE) and covers only part of the text, so it should be added chapter-selectively rather than as a set. It is already cited in `notes/manuscript.md` for Ch 53's 盜竽.
+
+Also still owed: the **10 chapters** Wikisource has not proofread in the Siku Wang Bi text — 8, 14, 15, 19, 30, 54, 62, 70, 71, 78. Heshang Gong covers all ten, so no chapter is now without a classical commentary.
 
 ---
 

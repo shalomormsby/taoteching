@@ -213,26 +213,42 @@ def show_formulas(chapters, min_len=4):
 
 # ------------------------------------------------------------------ commentary
 
+COMMENTATORS = [
+    ("wangbi", "王弼 (Wang Bi, d. 249 CE)", "Siku Quanshu, 1782"),
+    ("heshanggong", "河上公 (Heshang Gong, Han)", "Song woodblock via Sibu congkan, 1919"),
+]
+
+
 def show_commentary(number, quiet=False):
-    """Wang Bi on one chapter, from sources/commentaries/."""
-    path = ROOT / "sources" / "commentaries" / "wangbi" / f"{number:03d}.md"
-    if not path.exists():
-        print(f"\n{BOLD}chapter {number}{OFF} — no Wang Bi commentary vendored.")
-        print(f"  {DIM}The Siku Quanshu transcription is unproofread for 10 chapters "
-              f"(8, 14, 15, 19, 30, 54, 62, 70, 71, 78). See sources/PROVENANCE.md.{OFF}\n")
-        return None
-    body = path.read_text(encoding="utf-8").split("---", 2)[-1]
-    print(f"\n{BOLD}chapter {number}{OFF} — 王弼 (Wang Bi, d. 249 CE), Siku Quanshu 1782\n")
-    for line in body.split("\n"):
-        line = line.strip()
-        if not line or line.startswith("#") or line.startswith("*Wang Bi"):
+    """The classical commentators on one chapter, from sources/commentaries/."""
+    shown = 0
+    for slug, who, ed in COMMENTATORS:
+        path = ROOT / "sources" / "commentaries" / slug / f"{number:03d}.md"
+        if not path.exists():
+            print(f"\n{BOLD}chapter {number}{OFF} — {who}: {DIM}not vendored{OFF}")
+            if slug == "wangbi":
+                print(f"  {DIM}The Siku transcription is unproofread for 10 chapters "
+                      f"(8, 14, 15, 19, 30, 54, 62, 70, 71, 78).{OFF}")
             continue
-        if line.startswith("**"):
-            print(f"  {BOLD}{line.strip('*` ')}{OFF}")
-        elif line.startswith(">"):
-            print(f"    {line.lstrip('> ')}")
+        text = path.read_text(encoding="utf-8")
+        title = ""
+        for line in text.split("\n"):
+            if line.startswith("chapter_title:"):
+                title = line.split('"')[1]
+        print(f"\n{BOLD}chapter {number}{OFF} — {who}   {DIM}{ed}{OFF}"
+              + (f"   〈{title}〉" if title else ""))
+        print()
+        for line in text.split("---", 2)[-1].split("\n"):
+            line = line.strip()
+            if not line or line.startswith("#") or line.startswith("*Commentary"):
+                continue
+            if line.startswith("**"):
+                print(f"  {BOLD}{line.strip('*` ')}{OFF}")
+            elif line.startswith(">"):
+                print(f"    {line.lstrip('> ')}")
+        shown += 1
     print()
-    return path
+    return shown
 
 
 # ------------------------------------------------------------------- witnesses

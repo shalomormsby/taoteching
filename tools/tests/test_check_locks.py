@@ -423,8 +423,10 @@ class CommentaryImport(unittest.TestCase):
         sys.path.insert(0, str(pathlib.Path(__file__).resolve().parent.parent))
         import import_commentary
         self.imp = import_commentary
-        self.dir = (pathlib.Path(__file__).resolve().parent.parent.parent
-                    / "sources" / "commentaries" / "wangbi")
+        root = pathlib.Path(__file__).resolve().parent.parent.parent
+        self.dir = root / "sources" / "commentaries" / "wangbi"
+        self.dirs = [root / "sources" / "commentaries" / s
+                     for s in ("wangbi", "heshanggong")]
 
     def test_files_exist_with_provenance(self):
         files = sorted(self.dir.glob("*.md"))
@@ -436,9 +438,26 @@ class CommentaryImport(unittest.TestCase):
             for key in ("work", "author", "edition", "obtained", "rights"):
                 self.assertIn(key, fm, f"{f.name} is missing {key}")
 
+    def test_heshanggong_is_complete_with_his_own_titles(self):
+        d = self.dirs[1]
+        self.assertEqual(len(sorted(d.glob("*.md"))), 81, "Heshang Gong should be 81/81")
+        from lib.corpus import parse_frontmatter
+        fm = parse_frontmatter((d / "001.md").read_text(encoding="utf-8"))
+        self.assertEqual(fm.get("chapter_title"), "體道")
+
+    def test_no_wiki_markup_leaked(self):
+        # {{SKchar|N}} nested inside a {{雙行註文|…}} annotation broke the outer
+        # regex and leaked into the text as "{{SKchar3932".
+        for d in self.dirs:
+            for f in sorted(d.glob("*.md")):
+                # Body only: {{PD-old}} legitimately appears in a frontmatter value.
+                body = f.read_text(encoding="utf-8").split("---", 2)[-1]
+                self.assertNotIn("{{", body, f"{d.name}/{f.name} has leaked markup")
+
     def test_no_punctuation_crept_in(self):
         # The whole rights position rests on this text being the authorial layer.
-        for f in sorted(self.dir.glob("*.md")):
+        for d in self.dirs:
+          for f in sorted(d.glob("*.md")):
             body = f.read_text(encoding="utf-8").split("---", 2)[-1]
             body = re.sub(r"[*`>#\[\]()/.,:;'\"-]", "", body)
             for mark in "，。；、":

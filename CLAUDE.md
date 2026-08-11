@@ -174,7 +174,7 @@ process/skills/       the method, made executable (chapter-review · glossary-en
 process/overlay-audit.md
 sources/PROVENANCE.md what may live in sources/, and on what authority — read before adding
 sources/variants.yaml the witness apparatus, as facts (never transcriptions)
-sources/commentaries/  Wang Bi on 71 of 81 chapters (Siku Quanshu, 1782)
+sources/commentaries/  Wang Bi (71 ch., Siku Quanshu 1782) · Heshang Gong (81 ch., Song woodblock)
 tools/                check_locks.py (the gate) · concordance.py (the evidence)
 process/legacy-tao-source-code.md   ⚠ archived, contains SUPERSEDED renderings
 DISCOVERIES.md        ★ the findings worth writing about — read when taking stock
@@ -195,7 +195,7 @@ python3 tools/concordance.py 明                  # every chapter, line, gloss, 
 python3 tools/concordance.py --english "clarity"  # is a rendering backed by its character?
 python3 tools/concordance.py --formulas          # segments repeated across chapters
 python3 tools/concordance.py --witnesses 25      # where the older manuscripts disagree
-python3 tools/concordance.py --commentary 63     # Wang Bi on a chapter
+python3 tools/concordance.py --commentary 63     # Wang Bi and Heshang Gong on a chapter
 ```
 
 **`check_locks.py` optimizes precision.** It exits non-zero, gates the pre-commit hook and CI, and must never cry wolf — so **no rule fires on English alone.** "virtue" is an error only when 德 is in *that chapter's own* Chinese; otherwise it drops to `info` in a separate false-friends list. That evidence gate is what makes it usable: it took the first run's error list to **9 findings with zero false positives**.

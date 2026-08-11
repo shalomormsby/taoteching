@@ -46,6 +46,7 @@ import difflib
 import re
 import sys
 import urllib.parse
+import time
 import urllib.request
 from pathlib import Path
 
@@ -53,18 +54,39 @@ sys.path.insert(0, str(Path(__file__).resolve().parent))
 from lib.corpus import ROOT, load_chapters  # noqa: E402
 
 SCRATCH = ROOT / "sources" / ".cache"
-OUT = ROOT / "sources" / "commentaries" / "wangbi"
+COMMENTARIES = ROOT / "sources" / "commentaries"
 
-SOURCE = {
-    "title": "老子道徳經 (四庫全書本)",
-    "work": "老子道徳經注",
-    "author": "王弼",
-    "author_dates": "226–249 CE",
-    "edition": "欽定四庫全書 (Siku Quanshu), 子部十四 · 道家類",
-    "edition_dates": "commissioned 1773, completed 1782",
-    "host": "Chinese Wikisource, mainspace, tagged {{PD-old}}",
-    "url": "https://zh.wikisource.org/zh-hant/老子道徳經_(四庫全書本)",
-    "punctuation": "none — the page's editorial policy excludes it",
+SOURCES = {
+    "wangbi": {
+        "slug": "wangbi",
+        "work": "老子道徳經注",
+        "author": "王弼",
+        "author_dates": "226–249 CE",
+        "edition": "欽定四庫全書 (Siku Quanshu), 子部十四 · 道家類",
+        "edition_dates": "commissioned 1773, completed 1782",
+        "host": "Chinese Wikisource, mainspace, tagged {{PD-old}}",
+        "url": "https://zh.wikisource.org/zh-hant/老子道徳經_(四庫全書本)",
+        "punctuation": "none — the page's editorial policy excludes it",
+        "rights": "public domain by age (author d. 249 CE); printing 1782",
+        # one wikitext page; chapters marked 　　N章
+        "pages": None,
+        "cache": "wangbi-sikuquanshu.wikitext",
+    },
+    "heshanggong": {
+        "slug": "heshanggong",
+        "work": "老子道德經 河上公章句",
+        "author": "河上公",
+        "author_dates": "Han dynasty, dates unknown",
+        "edition": "四部叢刊 0532 · 景常熟瞿氏鐵琴銅劍樓藏宋刊本 (photo-reproduction of the Song printed edition held in the Qu family's Iron-Qin-Copper-Sword Tower, Changshu)",
+        "edition_dates": "Song woodblock; Sibu congkan reproduction from 1919",
+        "host": "Chinese Wikisource, Page: namespace, transcribed from the djvu scan",
+        "url": "https://zh.wikisource.org/wiki/老子道德經_(四部叢刊本)",
+        "punctuation": "none in the source",
+        "rights": "public domain by age (Han commentary); Song printing, reproduced 1919",
+        # assembled from scan pages 16-92 of one djvu index
+        "pages": (16, 92, "Sibu Congkan0532-河上公-老子道德經-1-1.djvu"),
+        "cache": "heshanggong",
+    },
 }
 
 # Orthographic variants: the Siku printing's glyph forms for characters our base
@@ -79,6 +101,9 @@ ORTHOGRAPHIC = {
     "巳": "已", "絶": "絕", "况": "況", "賔": "賓", "氾": "汎", "隐": "隱",
     "隂": "陰", "沒": "没", "寳": "寶", "刋": "刊", "㝠": "冥", "㫖": "旨",
     "劔": "劍", "隣": "鄰", "耶": "邪",   # 耶/邪 are interchangeable final particles
+    # Further forms from the Song woodblock behind the Heshang Gong edition.
+    "爲": "為", "乆": "久", "户": "戶", "奥": "奧", "愼": "慎", "剋": "克",
+    "踈": "疏", "柰": "奈", "䘮": "喪", "𥙷": "補", "轝": "輿", "田": "畋",
 }
 
 # Include CJK Extension B: the Siku form of 玄 is 𤣥 (U+24465), outside the BMP.
@@ -129,54 +154,108 @@ def strip_markup(line):
     return line.replace("　", "").strip()
 
 
-def fetch():
-    SCRATCH.mkdir(parents=True, exist_ok=True)
-    dest = SCRATCH / "wangbi-sikuquanshu.wikitext"
-    url = ("https://zh.wikisource.org/w/index.php?title="
-           + urllib.parse.quote("老子道徳經 (四庫全書本)") + "&action=raw")
-    req = urllib.request.Request(url, headers={
-        "User-Agent": "taoteching-research/1.0 (CC0 translation project)"})
-    with urllib.request.urlopen(req, timeout=30) as r:
-        data = r.read()
-    dest.write_bytes(data)
-    print(f"fetched {len(data):,} bytes → {dest.relative_to(ROOT)}")
-    return dest
+def fetch(src):
+    """Download the wikitext. One page for Wang Bi; a scan-page range for Heshang Gong."""
+    if src["pages"] is None:
+        SCRATCH.mkdir(parents=True, exist_ok=True)
+        dest = SCRATCH / src["cache"]
+        url = ("https://zh.wikisource.org/w/index.php?title="
+               + urllib.parse.quote("老子道徳經 (四庫全書本)") + "&action=raw")
+        dest.write_bytes(_get(url))
+        print(f"fetched {dest.stat().st_size:,} bytes → {dest.relative_to(ROOT)}")
+        return dest
 
-
-def parse(path):
-    """Split into chapters, then classify each line as lemma or commentary."""
-    raw = path.read_text(encoding="utf-8")
-    blocks, cur, num = {}, [], None
-    for line in raw.split("\n"):
-        m = re.match(r"^　　([一二三四五六七八九十]+)章", line)
-        if m:
-            if num:
-                blocks[num] = cur
-            num, cur = cn2int(m.group(1)), []
+    lo, hi, index = src["pages"]
+    out = SCRATCH / src["cache"]
+    out.mkdir(parents=True, exist_ok=True)
+    got = cached = 0
+    for n in range(lo, hi + 1):
+        f = out / f"{n:03d}.wikitext"
+        if f.exists() and f.stat().st_size:
+            cached += 1
             continue
-        if num and line.startswith("　　"):
-            cur.append(line)
-    if num:
-        blocks[num] = cur
+        url = ("https://zh.wikisource.org/w/index.php?title="
+               + urllib.parse.quote(f"Page:{index}/{n}") + "&action=raw")
+        f.write_bytes(_get(url))
+        got += 1
+        time.sleep(0.4)          # be a good citizen with someone else's server
+    print(f"scan pages: {got} fetched, {cached} already cached → {out.relative_to(ROOT)}")
+    return out
+
+
+def _get(url):
+    req = urllib.request.Request(url, headers={
+        "User-Agent": "taoteching-research/1.0 (CC0 public-domain translation project)"})
+    with urllib.request.urlopen(req, timeout=30) as r:
+        return r.read()
+
+
+def _load_raw(src, path):
+    """One string of wikitext, with page wrappers removed.
+
+    For Heshang Gong the text runs ACROSS scan-page boundaries — a lemma or a
+    commentary column can be cut in half by the end of a page — so the pages are
+    concatenated in order before anything is parsed.
+    """
+    if src["pages"] is None:
+        return path.read_text(encoding="utf-8")
+    files = sorted(path.glob("*.wikitext"), key=lambda p: int(p.stem))
+    raw = "\n".join(f.read_text(encoding="utf-8") for f in files)
+    # <noinclude> holds pagequality banners and running footers. Strip it FIRST:
+    # seven of the eight chapter headings that fall at a page break carry a
+    # footer on the same line, and matching before stripping missed all seven.
+    return re.sub(r"<noinclude>.*?</noinclude>", "", raw, flags=re.S)
+
+
+def parse(src, path):
+    """Split into chapters, then classify each run as lemma or commentary."""
+    raw = _load_raw(src, path)
+    blocks = {}
+
+    if src["pages"] is None:
+        cur, num = [], None
+        for line in raw.split("\n"):
+            m = re.match(r"^　　([一二三四五六七八九十]+)章", line)
+            if m:
+                if num:
+                    blocks[num] = "\n".join(cur)
+                num, cur = cn2int(m.group(1)), []
+                continue
+            if num and line.startswith("　　"):
+                cur.append(line)
+        if num:
+            blocks[num] = "\n".join(cur)
+    else:
+        # Heshang Gong titles each chapter himself: 體道第一, 養身第二 …
+        # 河上公章句第一 is the volume heading, not a chapter, so titles are
+        # capped at four characters.
+        marks = list(re.finditer(r"^　+([㐀-鿿]{2,4})第([一二三四五六七八九十]+)$", raw, re.M))
+        for i, m in enumerate(marks):
+            end = marks[i + 1].start() if i + 1 < len(marks) else len(raw)
+            # Drop newlines inside the chapter. They are woodblock line-ends and
+            # carry no meaning for us, and templates split across one otherwise
+            # survive stripping — {{SKchar|3205}} broken over two lines leaked
+            # into the output as text on the first run.
+            blocks[cn2int(m.group(2))] = raw[m.end():end].replace("\n", "")
+            TITLES[cn2int(m.group(2))] = m.group(1)
 
     chapters = load_chapters()
     parsed, residual = {}, []
-    for n, lines in sorted(blocks.items()):
+    for n, body in sorted(blocks.items()):
         base = fold(chapters[n].chinese)
-        rows, lemma_ok, lemma_var = [], 0, 0
-        for line in lines:
-            text = strip_markup(line)
-            if not text:
+        rows = _rows(src, body)
+        lemma_ok = lemma_var = 0
+        out_rows = []
+        for kind, text in rows:
+            if kind == "comment":
+                out_rows.append((kind, text))
                 continue
             probe = fold(text)
             if not probe:
                 continue
             if probe in base:
-                rows.append(("lemma", text))
-                lemma_ok += 1
+                out_rows.append(("lemma", text)); lemma_ok += 1
                 continue
-            # Near-miss: a lemma carrying a genuine textual variant. Report it,
-            # never fold it away.
             best = (0.0, "")
             for i in range(max(1, len(base) - len(probe) + 1)):
                 w = base[i:i + len(probe)]
@@ -184,38 +263,94 @@ def parse(path):
                 if r > best[0]:
                     best = (r, w)
             if best[0] > 0.80 and len(probe) < 60:
-                rows.append(("lemma*", text))
-                lemma_var += 1
-                residual.append((n, probe, best[1], best[0]))
+                out_rows.append(("lemma*", text)); lemma_var += 1
+                residual.append((n, probe, best[1]))
             else:
-                rows.append(("comment", text))
-        parsed[n] = {"rows": rows, "lemma_ok": lemma_ok, "lemma_var": lemma_var}
+                out_rows.append(("comment", text))
+        parsed[n] = {"rows": out_rows, "lemma_ok": lemma_ok, "lemma_var": lemma_var}
     return parsed, residual
 
 
-def write(parsed):
-    OUT.mkdir(parents=True, exist_ok=True)
+TITLES = {}
+
+
+def _rows(src, body):
+    """Split a chapter body into alternating lemma / commentary runs."""
+    if src["pages"] is None:
+        return [("lemma?", strip_markup(l)) for l in body.split("\n") if strip_markup(l)]
+
+    # Heshang Gong's notes are printed as two columns of small type inline with
+    # the text, marked {{雙行註文|right|left}}. The | is the column break, so the
+    # parts join in reading order. Consecutive templates continue one note.
+    rows, buf_lemma, buf_note = [], "", ""
+
+    def flush_lemma():
+        nonlocal buf_lemma
+        if buf_lemma.strip():
+            rows.append(("lemma?", buf_lemma.strip()))
+        buf_lemma = ""
+
+    def flush_note():
+        nonlocal buf_note
+        if buf_note.strip():
+            rows.append(("comment", buf_note.strip()))
+        buf_note = ""
+
+    # One level of nesting is real: {{SKchar|N}} appears INSIDE annotation
+    # templates. A [^}]* body stops at the nested }} and truncates the note,
+    # which silently dropped commentary text on the first run.
+    NOTE = r"({{雙行註文\|(?:[^{}]|{{[^{}]*}})*}})"
+    for token in re.split(NOTE, body):
+        if token and token.startswith("{{雙行註文"):
+            flush_lemma()
+            inner = token[len("{{雙行註文|"):-2]
+            # Resolve nested templates BEFORE splitting on the column-break |,
+            # or {{SKchar|3932}} loses its pipe and leaks through as text.
+            inner = re.sub(r"{{SKchar\|\d+}}", "□", inner)
+            inner = re.sub(r"{{[^{}]*}}", "", inner)
+            buf_note += "".join(inner.split("|"))
+        else:
+            plain = strip_markup(token)
+            if plain:
+                flush_note()
+                buf_lemma += plain
+    flush_lemma(); flush_note()
+    return rows
+
+
+def write(src, parsed):
+    out = COMMENTARIES / src["slug"]
+    out.mkdir(parents=True, exist_ok=True)
     for n, d in sorted(parsed.items()):
+        title = TITLES.get(n, "")
+        head = f'{src["work"]} — {src["author"]} — 第{n}章'
+        if title:
+            head += f"  〈{title}〉"
         body = [
             "---",
-            f'work: "{SOURCE["work"]}"',
-            f'author: "{SOURCE["author"]}"   # {SOURCE["author_dates"]}',
+            f'work: "{src["work"]}"',
+            f'author: "{src["author"]}"',
+            f'author_dates: "{src["author_dates"]}"',
             f"chapter: {n}",
-            f'edition: "{SOURCE["edition"]}"',
-            f'edition_dates: "{SOURCE["edition_dates"]}"',
-            f'transcription: "{SOURCE["host"]}"',
-            f'obtained: "{SOURCE["url"]}"',
-            f'punctuation: "{SOURCE["punctuation"]}"',
-            'rights: "public domain by age (author d. 249 CE); printing 1782"',
+        ]
+        if title:
+            body.append(f'chapter_title: "{title}"')
+        body += [
+            f'edition: "{src["edition"]}"',
+            f'edition_dates: "{src["edition_dates"]}"',
+            f'transcription: "{src["host"]}"',
+            f'obtained: "{src["url"]}"',
+            f'punctuation: "{src["punctuation"]}"',
+            f'rights: "{src["rights"]}"',
             'imported_by: "tools/import_commentary.py"',
             "---",
             "",
-            f"# 老子道徳經注 — 王弼 — 第{n}章",
+            f"# {head}",
             "",
-            "*Wang Bi's commentary, interleaved. Each **lemma** is the Laozi text he is "
-            "commenting on; the line under it is his comment. Lemmas marked `*` differ from "
-            "our base text — see `sources/variants.yaml`. 〔…〕 are the Siku compilers' own "
-            "collation notes. □ is a glyph the transcribers could not encode.*",
+            "*Commentary interleaved. Each **lemma** is the Laozi text being commented on; the "
+            "line under it is the comment. Lemmas marked `*` differ from our base text — see "
+            "`sources/variants.yaml`. 〔…〕 are the edition's own collation notes. □ is a glyph "
+            "the transcribers could not encode.*",
             "",
         ]
         for kind, text in d["rows"]:
@@ -225,51 +360,53 @@ def write(parsed):
                 body += [f"**{text}** `*`", ""]
             else:
                 body += [f"> {text}", ""]
-        (OUT / f"{n:03d}.md").write_text("\n".join(body).rstrip() + "\n", encoding="utf-8")
-    print(f"wrote {len(parsed)} files → {OUT.relative_to(ROOT)}")
+        (out / f"{n:03d}.md").write_text("\n".join(body).rstrip() + "\n", encoding="utf-8")
+    print(f"wrote {len(parsed)} files → {out.relative_to(ROOT)}")
 
 
 def main():
     p = argparse.ArgumentParser(description=__doc__,
                                 formatter_class=argparse.RawDescriptionHelpFormatter)
+    p.add_argument("--source", choices=sorted(SOURCES), default="wangbi")
     p.add_argument("--fetch", action="store_true")
     p.add_argument("--report", action="store_true")
     p.add_argument("--write", action="store_true")
     args = p.parse_args()
 
-    src = SCRATCH / "wangbi-sikuquanshu.wikitext"
-    if args.fetch or not src.exists():
-        src = fetch()
+    src = SOURCES[args.source]
+    cached = SCRATCH / src["cache"]
+    path = fetch(src) if (args.fetch or not cached.exists()) else cached
 
-    parsed, residual = parse(src)
-    have = sorted(parsed)
+    parsed, residual = parse(src, path)
     missing = [n for n in range(1, 82) if n not in parsed]
     ok = sum(d["lemma_ok"] for d in parsed.values())
     var = sum(d["lemma_var"] for d in parsed.values())
     com = sum(1 for d in parsed.values() for k, _ in d["rows"] if k == "comment")
 
-    print(f"\nchapters:   {len(have)}/81 present"
-          + (f", missing {missing}" if missing else ""))
-    print(f"lemma lines: {ok} matched our base text exactly, {var} with variants "
-          f"({ok / (ok + var):.0%} exact)")
-    print(f"commentary lines: {com}")
+    print(f"\n{args.source}: {len(parsed)}/81 chapters"
+          + (f", missing {missing}" if missing else " — complete"))
+    print(f"lemma lines: {ok} matched our base text exactly, {var} with variants"
+          + (f" ({ok / (ok + var):.0%} exact)" if ok + var else ""))
+    print(f"commentary blocks: {com}")
 
     if residual:
-        print(f"\ncandidate textual variants ({len(residual)}) — Siku Wang Bi against our base:")
-        for n, mine, theirs, r in residual:
+        seen = set()
+        print(f"\ncandidate textual variants ({len(residual)}):")
+        for n, mine, theirs in residual:
             diff = [(a, b) for op, i1, i2, j1, j2 in
                     difflib.SequenceMatcher(None, mine, theirs).get_opcodes()
                     if op == "replace" and i2 - i1 == j2 - j1
                     for a, b in zip(mine[i1:i2], theirs[j1:j2])]
-            if diff:
-                pairs = " ".join(f"{a}/{b}" for a, b in diff)
+            pairs = " ".join(f"{a}/{b}" for a, b in diff if a != b)
+            if pairs and (n, pairs) not in seen:
+                seen.add((n, pairs))
                 print(f"   ch{n:>2}  {pairs}")
-        print("\n   Review these by hand; real forks belong in sources/variants.yaml as "
-              "witness `siku-wangbi`. Glyph-only pairs belong in ORTHOGRAPHIC above.")
+        print("\n   Review by hand; real forks go in sources/variants.yaml, glyph-only "
+              "pairs in ORTHOGRAPHIC above.")
 
     if args.write:
         print()
-        write(parsed)
+        write(src, parsed)
     elif not args.report:
         print("\n(nothing written — pass --write)")
     return 0

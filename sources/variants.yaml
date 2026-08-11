@@ -76,13 +76,17 @@
 - chapter: 21
   line: "吾何以知眾甫之狀哉"
   base: "狀"
-  witnesses: { mawangdui-a: "然", mawangdui-b: "然" }
+  witnesses: { mawangdui-a: "然", mawangdui-b: "然", heshanggong: "然", siku-wangbi: "狀 〔案狀各本俱作然〕" }
   meaning_bearing: true
-  our_call: base
+  our_call: undecided
   note: >
-    之狀 asks after its shape; 之然 asks whether it is so. The witness reading
-    would have harmonised this closing question with Ch 54 and Ch 57, which
-    both read 之然. That is the one real cost of keeping 狀.
+    REOPENED 2026-08-11. 之狀 asks after its shape; 之然 asks whether it is so,
+    which is how Ch 54 and Ch 57 both close. Our 狀 now stands against four
+    things: both Mawangdui silks, the Song Heshang Gong edition, and the Siku
+    compilers' own collation note on this very line — 〔案狀各本俱作然〕, "for
+    狀, all editions read 然". Our reading may be near-unique. Needs Shalom's
+    call; the rendering "How do I know the origin of the many?" survives either
+    way, but the harmony with 54 and 57 does not.
   logged: notes/manuscript.md
 
 - chapter: 25
@@ -156,12 +160,13 @@
 - chapter: 26
   line: "君子終日行不離輜重"
   base: "君子"
-  witnesses: { siku-wangbi: "聖人" }
+  witnesses: { siku-wangbi: "聖人", heshanggong: "聖人" }
   meaning_bearing: true
   our_call: base
   note: >
-    Our base reads 君子 (the gentleman — a Confucian term); the Siku Wang Bi
-    reads 聖人 (the sage), and reads 主 where we read 王 later in the chapter.
+    Our base reads 君子 (the gentleman — a Confucian term); BOTH the Siku Wang Bi
+    and the Song Heshang Gong read 聖人 (the sage), and the Siku reads 主 where we
+    read 王 later in the chapter. Two independent editions against our reading.
     Directly relevant to the thread on reading past the throne, since it shows
     the two vocabularies competing inside one recension. See DISCOVERIES.md §1.
   logged: notes/manuscript.md
@@ -238,6 +243,19 @@
   note: >
     The homophone pair, both míng. We follow 明 (clear-seeing): it completes the
     parallel of know / see-clearly / accomplish, each without its usual means.
+  logged: notes/manuscript.md
+
+- chapter: 51
+  line: "長之育之，亭之毒之"
+  base: "亭之毒之"
+  witnesses: { heshanggong: "成之熟之" }
+  meaning_bearing: true
+  our_call: base
+  note: >
+    亭/毒 are obscure here and have long puzzled readers; Heshang Gong's edition
+    reads 成之熟之 ("completes them, ripens them"), which is plainer and may be
+    an early clarification of a hard reading rather than a witness to a different
+    original. Logged for the Ch 51 sweep.
   logged: notes/manuscript.md
 
 - chapter: 53
