@@ -54,6 +54,8 @@
 | ~~3~~ | ~~**明** (Míng) — "clear-seeing"~~ | 12 | — | ✅ **DONE & LOCKED** → `ming-明.md`. Found: the old form 朙 is **moonlight through a window**. Ch 52's 用其光，復歸其明 decided it. 16/55 already agreed. |
 | ~~4~~ | ~~**自然** (Zìrán) — "the self-so"~~ | 5 | — | ✅ **DONE & LOCKED** → `ziran-自然.md`. 自 is a **nose** — the part you point at to mean "me." Ch 25's ladder terminates; it does not reach past the Tao. |
 | ~~5~~ | ~~**樸** (Pǔ) — "uncarved wood"~~ | 6 | — | ✅ **DONE & LOCKED** → `pu-樸.md`. 器 (vessel) is its counter-term; carving = naming = assigning function. Ch 57's "plain" confirmed as a licensed flexion. |
+| ~~5b~~ | ~~**器** (Qì) — "vessel"~~ | 9 | *(was inside `pu-樸.md`)* | ✅ **DONE & LOCKED** → `qi-器.md`. Promoted out of 樸's `covers:` to its own entry: nine chapters is too much reach to be a footnote, and Ch 41 / Ch 67 use the **capacity** sense of 器 that 樸's entry had no room for. *Shuowen*: 皿也，象器之口，犬所以守之 — a yard of pots with a dog guarding them. |
+| ~~5c~~ | ~~**眾** (Zhòng) — "the crowd"~~ | 6 | — | ✅ **DONE & LOCKED** → `zhong-眾.md`. Had drifted into four Englishes, including dropped entirely in Ch 8. Oracle bone shows labourers under the **sun** (later an eye) — the many who are worked and watched. Distinguished from 民 (the governed populace) and 百姓. |
 
 **✅ Tier 1 complete.** Next: Tier 2, beginning with **無 / 有** (*wú / yǒu* — "absence / presence"), which appears in 40 chapters and currently has an eight-line stub.
 
@@ -72,10 +74,11 @@
 |---|---|---|---|---|
 | 10 | **名** (Míng) | 9 | 51L, 10 marks | Ch 1 and 32. Pairs conceptually with 無名/有名. |
 | 11 | **始** (Shǐ) | 7 | 47L | Consider as a **pairing with 母** — beginning vs. mother, the two halves of Ch 1's second couplet. |
-| 12 | **信** (Xìn) | 8 | 42L | |
-| 13 | **王** (Wáng) | 8 | 41L, 11 marks | |
+| ~~12~~ | ~~**信** (Xìn) — "trust"~~ | 8 | 42L | ✅ **DONE & LOCKED** → `xin-信.md`. 人 beside 言 — a person by their word — and also a **split tally** (符契), so 信 is *correspondence that can be checked*, not an inner feeling. That is why "sincerity" and "faith" both fail. Kept being given 德's word: fixed in Ch 23 and Ch 38. Ch 49's 德信 puts both characters in one compound and settles it. 忠 (loyalty) absorbed here. Ch 81's 信言 left open until that chapter is drafted. |
+| 13 | **王** (Wáng) | 8 | 41L, 11 marks | **Raised in priority.** Both Mawangdui silks read 人 (human) where our base reads 王 (king) in Ch 25's four greats, and the older silk has no king in the passage. See `DISCOVERIES.md` §1 — this entry now has a real argument to make. |
 | 14 | **先** (Xiān) | 6 | 42L, 13 marks | |
-| 15 | **精 / 氣** | 2 / 3 | 36L / 21L | Overlay watchlist ("spirit," "soul"). Needed for 55 and 21. Consider one paired entry. |
+| ~~15a~~ | ~~**精** (Jīng) — "vital essence"~~ | 2 | 36L | ✅ **DONE & LOCKED** → `jing-精.md`. 米 (rice) + 青; *Shuowen*: **擇也**, to sift. **Hulled grain** — what is left when the bulk is removed, which is why Ch 21's "primordial mass" was the exact inversion. Written **standalone, not paired with 氣**: Ch 55 sets them against each other (精 a reserve, 氣 a current), and a paired entry would blur the distinction the chapter is built on. |
+| 15b | **氣** (Qì) | 3 | 21L | **Now owed.** 精 is locked and argues against it by contrast, so 氣 needs its own entry to complete the pair. Note that "energy" cannot go on 精's forbidden list precisely because 氣 claims it in Ch 55. |
 | 16 | **混** (Hùn) | 3 | 29L | Ch 25's 有物混成. |
 | 17 | **反 / 復** | 4 | 6L stub | A true pairing — the movement of the Tao. Currently framed as "a thermodynamic loop"; needs full rewrite. |
 | 18 | **仁** (Rén) | 5 | 21L | Overlay watchlist — Legge's "benevolence," never "charity." |

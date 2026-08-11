@@ -120,7 +120,13 @@ Encoding it makes the method **portable and repeatable** — identical whether C
 
 Not in the original plan, and the reason this one could be written at all. `process/shaloms-call.md` records a rule Shalom has set aside, with scope, expiry, and reason. Suspensions are never silent (the checker prints a footer naming them) and an expired call is an error, so each is renewed or retired deliberately. Without it, an override lived only as a sentence in one conversation — invisible in the repo, and leaving the AI to re-argue a settled decision next session.
 
-## 8. `sources/` — the witnesses and commentaries, in the repo 📋 **SPEC'D, not built**
+## 8. `sources/` — the witnesses and commentaries, in the repo ⚠️ **PART BUILT (2026-08-11)**
+
+**Built:** `sources/PROVENANCE.md` (the admission rules), `sources/variants.yaml` (17 forks recorded as facts), `concordance.py --witnesses N`, and `check_locks.py`'s `unlogged-variant` rule. 48 tests.
+
+**Not built, and not buildable yet:** the commentary text itself. `sources/commentaries/` is empty because **no source meeting the admission rules has been obtained.** ctext is CC BY-NC-SA and Chinese Wikisource is CC BY-SA; neither can be relicensed CC0, and the NonCommercial clause is incompatible with the companion volume. A verified **pre-1929 scan** — the *Sibu congkan* (1919–) or *Sibu beiyao* (1920s, Ming-based) — or a CC0-dedicated digital edition is required first. See `sources/PROVENANCE.md` → *`commentaries/` is empty, and that is not an oversight*.
+
+*Better an empty directory with rules than a full one with a licence nobody can defend.*
 
 *Proposed 2026-08-11, after Ch 21 required fetching Wang Bi, Heshang Gong, and both Mawangdui silks from the open web to answer one question about one line. **Needs its own `shaloms-call`** — the existing suspension of the no-new-tooling rule covers phases A–F only, and this is new scope.*
 
@@ -183,16 +189,18 @@ sources/
 
 Every vendored file carries frontmatter naming the **specific printed edition** it was transcribed from. A file whose edition cannot be verified does not go in.
 
-### Immediate, separable action
+### Immediate, separable action ✅ **DONE (2026-08-11)**
 
-**Re-provenance `source/chinese.md`.** It currently reads *"via the Chinese Text Project (ctext.org)"* — whose data license is CC BY-NC-SA. The characters themselves are free by age, but the provenance line invites the question and puts an NC-licensed source in the companion volume's ancestry. Name a pre-1929 edition instead. Ten minutes, and it is worth doing before the rest of this. *(`process/method.md` §3 carries the same "via ctext.org" attribution and should be updated with it.)*
+**Re-provenance `source/chinese.md`.** Done. The header now rests the CC0 dedication on **the age of the text and nothing else**, cites *Feist* (1991) and *Bridgeman* (1999) for why a faithful transcription of a public-domain work creates no new copyright, and names four **independent pre-1929 printings** where the recension can be verified: the Ming *Zhengtong Daozang* (1445), the *Siku Quanshu* (1782), the Zhejiang *Ershi'er zi* (1875), and the Commercial Press *Sibu congkan* (first series from 1919).
+
+It also states plainly that **the punctuation is editorial and forms no part of the source** — the one element of a modern edition that could carry a thin claim, and the one this project already treats as its own on the record (`notes/translation.md`, *Standing principle · Lineation and punctuation*). ctext keeps a courtesy credit as a transcription check, with its licence named, and nothing depends on it. `process/method.md` §3 and `AGENTS.md` updated to match.
 
 ---
 
 ## What is left
 
 1. **Resolve the 8 open findings** in `RETROFIT.md` → *Open*. Each needs a rewrite, so each is Shalom's call. The build stays red until they are resolved or waived — which is the ratchet working, not a problem to route around.
-2. **Re-provenance `source/chinese.md`** off ctext (§8, *Immediate, separable action*). Small, and it removes an NC-licensed source from the companion volume's ancestry.
+2. ~~**Re-provenance `source/chinese.md`** off ctext~~ ✅ **done 2026-08-11** (§8).
 3. **Build `sources/`** (§8) — its own PR, its own `shaloms-call`. Licensing verification is the slow part, not the code.
 4. **Draft chapters 61–64 and 66–81** with the hook live, through the `chapter-review` skill. This is the active frontier and the reason the harness was built now rather than at 81.
 5. **`build.py`**, when the text has stopped moving.

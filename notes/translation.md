@@ -240,4 +240,66 @@ Three repairs. **"Existence" is forbidden for 有** — 今之有 is *the presen
 
 ---
 
+**Ch 8, 20, 21, 31, 38 · the sweep for four new locks — 信, 精, 器, 眾**
+
+Four entries were written together (`xin-信.md`, `jing-精.md`, `qi-器.md`, `zhong-眾.md`) and each obliged changes in the verse. Logged together because the pattern matters more than the individual lines.
+
+**眾 → the crowd.** The word had drifted into four Englishes: *all* (1), **dropped entirely** (8), *the masses* six times (20), *the many* (21). "The masses" is out — it imports a nineteenth-century class politics Laozi has no word for, and Ch 20's crowd is *merry at a spring festival*, not a proletariat. Ch 20's six lines now read *the crowd*, with agreement adjusted. Ch 31's 殺人之眾 becomes *"when many have been killed."*
+
+**Ch 8 · 處眾人之所惡 was not translated at all.** The line had become *"It seeks the lowest places"* — which keeps the water and deletes the people the water is being measured against. 惡 (*è*) is *to find distasteful*, and the claim is comparative: water goes where **the crowd will not**. Now *"It dwells where the crowd will not go."* This is the most substantive change in the sweep, and it was invisible to the checker, which can only see renderings that are wrong, never ones that are missing.
+
+**Ch 8 · 言善信 → "In speech, it is trustworthy"** *(was "In spoken words, it is sincerity")*. 信 is a **split tally** — a correspondence that can be checked — not an inner state. Sincerity is unfalsifiable; you can be sincerely unreliable.
+
+**Ch 38 · 忠信之薄 → "the thinning of loyalty and trust"** *(was "the waning of integrity")*. Two characters had collapsed into one, and that one belonged to 德: 忠 (*zhōng* — loyalty) vanished, and 信 took 德's locked word for the second time in the book (Ch 23 was the first). 薄 (*bó*) is literally **thin**, which matters because the chapter closes on the same axis — 處其厚，不居其薄, *dwell in the thickness, not the thinness*. "Waning" broke a thread the chapter returns to.
+
+**Ch 21 · 精 → "vital essence"** *(was "the primordial mass of creation")*. 精 is 米 (*mǐ* — rice) with *Shuowen*'s gloss **擇也**, to sift: **hulled grain**, what is left when the bulk is taken away. "Primordial mass" was the precise inversion — mass is the husk 精 is winnowed *from* — and it dated the text to the twentieth century. The following line's 其中有信 also surfaced properly: *"This essence is utterly real, and it can be trusted."*
+
+**器 → vessel / tool / implement**, promoted out of 樸's `covers:` into its own entry. Nine chapters is too much reach for a footnote, and Ch 41's 大器 and Ch 67's 器長 use a **capacity** sense — what a person can hold — that 樸's entry had no room for. No verse changed: Ch 29 was fixed earlier in the session and the rest were already inside the lock.
+
+**One thing this sweep taught, now recorded in `CLAUDE.md`.** A `forbidden:` rendering must be a word **no other character in those same chapters can legitimately claim.** "Integrity" cannot be forbidden for 信, because chapters 21, 23, 38 and 49 hold both 信 and 德. "Energy" cannot be forbidden for 精, because Ch 55 holds both 精 and 氣 and 氣 rightly takes *vital energy* there. The checker gates on presence of a character and cannot say *right for that one, wrong for this one, same chapter*. Those two distinctions are held by the entries and by the reader, not by the tool.
+
+---
+
+**Ch 21 · the four-fold descent — restoring 其中有X, the chiasmus, and the anadiplosis**
+
+The middle of Chapter 21 is one continuous structure and the English had dissolved it into five unrelated observations. The Chinese:
+
+> 道之為物，惟恍惟惚。
+> 惚兮恍兮，其中有象；
+> 恍兮惚兮，其中有物。
+> 窈兮冥兮，其中有精；
+> 其精甚真，其中有信。
+
+**Three devices, all of them load-bearing.**
+
+**The refrain.** 其中有X occurs **four times** — 象 (*xiàng* — image), 物 (*wù* — thing), 精 (*jīng* — vital essence), 信 (*xìn* — trust). One phrase, four objects, each more real than the last: a semblance, then something actual, then its concentrate, then the fact that it holds. The English had rendered the four as *"appear forms," "appear entities," "lies vital essence," "it can be trusted"* — four different constructions, so the descent read as a list of findings rather than one repeated act of looking deeper into the same place.
+
+**The chiasmus.** 惚兮恍兮 and then 恍兮惚兮: the same two words, reversed. The preamble introduces them as 恍-惚, line three reverses that, line four reverses again. Rendering both as some version of "intangible and dark" flattened a deliberate turn. Now **"Elusive and vague"** then **"Vague and elusive."**
+
+**The anadiplosis.** Line four ends on 精 and line five opens 其精 — the same hinge Ch 16's ladder runs on (公乃王，王乃天…), where each line begins on the word the last one ended with. Now *"…within it there is vital essence. / Its essence utterly real…"*
+
+**And the nesting was wrong.** 其中 is "within **it**" — the Tao — in all four lines. The English read *"within these intangible, dark **forms** appear entities,"* making the forms a container for the entities and inventing a hierarchy the Chinese does not have. Everything is found in the same place, at four depths of attention.
+
+**Two smaller repairs made in the same pass.**
+
+**"Dark" is gone from this stanza.** It had been doing duty for 惚 (*hū*), where the lock reserves *dark* for 玄 (*xuán*). 恍 and 惚 are near-synonyms for *blurred, indistinct, hard to fix* — the pairing is the point — so they take **vague** and **elusive**, which can also reverse in English. *(This also keeps faith with Ch 14, where the same compound 惚恍 already reads "the elusive.")*
+
+**道之為物 → "Whatever the Tao is, it is only vague, only elusive"** *(was "In the manifest realm, the Tao appears intangible and dark", then briefly "As a thing, the Tao is…")*.
+
+Two things were wrong with the original. **"The manifest realm" imports a two-realm metaphysics** — a manifest world set against an unmanifest one — that the line does not contain and the book does not hold. And **"dark"** was doing duty for 惚, where the lock reserves *dark* for 玄.
+
+The first repair rendered it *"As a thing, the Tao is…"*, which was accurate and badly built. 道之為物，惟恍惟惚 is **topic–comment**: the topic is *what the Tao amounts to as an entity*, the comment is *only indistinct*. "As a thing," as a sentence opener, is neither an English topic construction nor a plain subject, so it dangles — and modern colloquial English has given *"a thing"* a sense (*is that a thing?*) that actively interferes. **"Whatever the Tao is"** renders the topic directly and idiomatically.
+
+**The witnesses confirm the topic and settle nothing else.** Both Mawangdui silks read 道之物 without 為, making 之 a plain possessive — *the Tao's thingness*. Same sense, no copula. Logged in the Manuscript Notes and in `sources/variants.yaml`.
+
+*Cost, on the record:* **物 is lost here.** It returns four lines later in 其中有物 (*"within it there is a thing"*), so the Chinese has an echo the English no longer carries — the Tao is a 物 with a 物 inside it. Traded deliberately: the echo is a scholar's pleasure and the clarity is the reader's, and the chapter's force is in the reversal, which lands harder from a plain opening.
+
+*And 惟…惟… → "only… only…" is a choice, not a translation.* 惟 can be restrictive (*only*) or a mere emphatic particle, in which case the line is simply *"indistinct and vague."* We keep "only" because the chapter needs **nothing but vagueness** for the "and yet" of the descent to pay off — but the restrictive force is ours.
+
+*Not carried over: 兮 (xī), the sighing exclamatory particle, four times. English has no unembarrassing equivalent, and the doubled adjectives carry the incantatory quality instead.*
+
+*Worth noticing, and left in the reading notes rather than the verse: the darkest word in the stanza, 冥 (míng — dim, obscure), is a homophone of 明 (míng — clear-seeing), the book's word for sight that is unobstructed. The chapter finds the real thing at the bottom of the dim.*
+
+---
+
 *To add an entry: chapter · phrase · choice · why — and log only deliberate departures from the literal, not routine word-choices.*

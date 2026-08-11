@@ -7,7 +7,7 @@
 python3 tools/build_index.py
 ```
 
-**17 entries.** Sorted by how much of the book each term touches.
+**21 entries.** Sorted by how much of the book each term touches.
 
 | Term | Say | Render as | Never | Chapters | Entry |
 |---|---|---|---|---|---|
@@ -20,14 +20,18 @@ python3 tools/build_index.py
 | **萬物** | *wàn wù* | the countless things | "the ten thousand things", "all things", "the myriad things", "beings" | 16 | [`wanwu-萬物.md`](wanwu-萬物.md) |
 | **明** | *míng* | clear-seeing / clarity | "enlightenment", "illumination", "brilliance" | 12 | [`ming-明.md`](ming-明.md) |
 | **無為** | *wú wéi* | non-doing | "non-action", "effortless action", "inaction", "doing nothing" | 10 | [`wuwei-無為.md`](wuwei-無為.md) |
+| **器** | *qì* | vessel / tool / implement | "system", "mechanism", "machine", "utensil" | 9 | [`qi-器.md`](qi-器.md) |
+| **信** | *xìn* | trust / trustworthy | "faith", "sincerity", "belief" | 8 | [`xin-信.md`](xin-信.md) |
 | **天地** | *tiān dì* | sky and earth | "heaven and earth", "the cosmos", "the universe" | 7 | [`tiandi-天地.md`](tiandi-天地.md) |
 | **我 & 吾** | *wǒ / wú* | the self seen / the self seeing | — | 7 | [`wo-wu-我吾.md`](wo-wu-我吾.md) |
 | **玄 & 妙** | *xuán / miào* | dark or profound / subtle | "mystery", "mysterious", "the occult" | 7 | [`xuan-miao-玄妙.md`](xuan-miao-玄妙.md) |
 | **心** | *xīn* | heart | "mind", "heart-mind", "the wise core", "consciousness" | 6 | [`xin-心.md`](xin-心.md) |
 | **樸** | *pǔ* | uncarved wood / the uncarved | "uncarved block", "simplicity", "purity" | 6 | [`pu-樸.md`](pu-樸.md) |
+| **眾** | *zhòng* | the crowd / the many | "the masses", "the multitude", "the people" | 6 | [`zhong-眾.md`](zhong-眾.md) |
 | **母** | *mǔ* | mother | "the Source", "the Origin", "the Ground of Being" | 5 | [`mu-母.md`](mu-母.md) |
 | **自然** | *zì rán* | the self-so / of itself | "Nature", "spontaneity" | 5 | [`ziran-自然.md`](ziran-自然.md) |
 | **知足** | *zhī zú* | knowing you have enough / contentment | "sufficiency", "fulfilled" | 3 | [`zhizu-知足.md`](zhizu-知足.md) |
+| **精** | *jīng* | vital essence / essence | "primordial mass", "soul", "spirit" | 2 | [`jing-精.md`](jing-精.md) |
 
 ## Secondary characters
 
@@ -36,9 +40,9 @@ python3 tools/build_index.py
 | Character | Render as | Treated in |
 |---|---|---|
 | **利** | advantage | [`wu-you-無有.md`](wu-you-無有.md) — 無 & 有 |
-| **器** | vessel / tool | [`pu-樸.md`](pu-樸.md) — 樸 |
 | **天** | nature (as ordering principle) | [`tiandi-天地.md`](tiandi-天地.md) — 天地 |
 | **天下** | the world | [`tiandi-天地.md`](tiandi-天地.md) — 天地 |
+| **忠** | loyalty | [`xin-信.md`](xin-信.md) — 信 |
 | **物** | things / something | [`wanwu-萬物.md`](wanwu-萬物.md) — 萬物 |
 | **用** | use | [`wu-you-無有.md`](wu-you-無有.md) — 無 & 有 |
 | **腹** | belly | [`xin-心.md`](xin-心.md) — 心 |

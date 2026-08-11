@@ -13,6 +13,8 @@ The false-friend cases are the important half. If one of them starts failing,
 the checker has become noise.
 """
 
+import pathlib
+import re
 import sys
 import unittest
 from pathlib import Path
@@ -240,6 +242,24 @@ class Waivers(unittest.TestCase):
                 original_chapters, original_terms, original_calls)
 
 
+class WaiverNames(unittest.TestCase):
+    """A waiver may name a term three ways, because bare pinyin collides."""
+
+    def test_three_names_per_term(self):
+        self.assertEqual(C._waiver_names("glossary/chang-常.md", "常"),
+                         {"chang", "chang-常", "常"})
+
+    def test_the_xin_collision_is_disambiguable(self):
+        # 心 (xīn, heart) and 信 (xìn, trust) both slug to "xin". The bare pinyin
+        # is therefore ambiguous for this pair; the stem and character are not.
+        heart = C._waiver_names("glossary/xin-心.md", "心")
+        trust = C._waiver_names("glossary/xin-信.md", "信")
+        self.assertEqual(heart & trust, {"xin"})
+        self.assertIn("xin-心", heart)
+        self.assertIn("xin-信", trust)
+        self.assertNotIn("xin-信", heart)
+
+
 class ShalomsCall(unittest.TestCase):
     """The override of record: suppresses by rule name, and never silently."""
 
@@ -264,6 +284,24 @@ class ShalomsCall(unittest.TestCase):
         call = Call("em-dash", "CLAUDE.md", "repo", "standing", "why", "2026-08-11",
                     retired=True)
         self.assertFalse(call.covers(14))
+
+    def test_a_qualified_heading_still_parses(self):
+        # "## DATE · rule (label)" and "## DATE · rule — retired" are both
+        # legitimate; a regex that required the line to end at the rule id once
+        # made a three-call ledger parse as one, silently.
+        from lib.corpus import load_calls
+        calls = load_calls()
+        text = (pathlib.Path(__file__).resolve().parent.parent.parent
+                / "process" / "shaloms-call.md").read_text()
+        headings = re.findall(r"^## \d{4}-\d{2}-\d{2}\s*·", text, re.M)
+        self.assertEqual(len(calls), len(headings),
+                         "every dated heading in the ledger must parse to a call")
+
+    def test_unparsed_headings_are_an_error(self):
+        # The guard must fire when the counts disagree.
+        found = C.rule_shaloms_call_unparsed(calls=[])
+        self.assertTrue(found, "guard should fire when no calls parse")
+        self.assertEqual(found[0].severity, C.ERROR)
 
     def test_expired_call_is_an_error(self):
         call = Call("no-new-tooling", "PLAN.md", "repo", "2020-01-01", "why", "2019-12-01")
@@ -337,6 +375,45 @@ class SourceDrift(unittest.TestCase):
             self.assertEqual(found[0].severity, C.ERROR)
         finally:
             C.load_base_text = original
+
+
+class Variants(unittest.TestCase):
+    """The apparatus, and the rule that keeps it honest."""
+
+    def test_the_apparatus_parses(self):
+        from lib.corpus import load_variants
+        vs = load_variants()
+        self.assertTrue(vs, "sources/variants.yaml parsed to nothing")
+        for v in vs:
+            self.assertTrue(v.chapter, "a variant has no chapter")
+            self.assertTrue(v.base, f"ch {v.chapter} variant has no base reading")
+            self.assertIn(v.our_call,
+                          {"base", "punctuation", "undecided"} | set(v.witnesses),
+                          f"ch {v.chapter}: our_call must be 'base', 'punctuation', "
+                          f"'undecided', or one of its own witnesses")
+
+    def test_chapter_filter(self):
+        from lib.corpus import load_variants
+        self.assertTrue(all(v.chapter == 25 for v in load_variants(25)))
+
+    def test_every_meaning_bearing_fork_is_logged(self):
+        # The whole point of the apparatus: a fork translated over without a
+        # recorded decision is a build failure, not an accident.
+        errors = [f for f in C.rule_unlogged_variant() if f.severity == C.ERROR]
+        self.assertEqual(errors, [])
+
+    def test_an_unlogged_fork_would_fire(self):
+        from lib.corpus import Variant
+        original = C.load_variants
+        C.load_variants = lambda chapter=None: [Variant(
+            chapter=63, line="夫輕諾必寡信", base="諾", witnesses={"mawangdui-a": "許"},
+            meaning_bearing=True, our_call="base", note="", logged="")]
+        try:
+            found = C.rule_unlogged_variant()
+            self.assertEqual(len(found), 1)
+            self.assertEqual(found[0].severity, C.ERROR)
+        finally:
+            C.load_variants = original
 
 
 class TheCorpusItself(unittest.TestCase):

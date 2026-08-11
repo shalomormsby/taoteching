@@ -32,6 +32,7 @@ from pathlib import Path
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 from lib.corpus import (  # noqa: E402
     ROOT, UNTRANSLATED_MARKER, load_base_text, load_calls, load_chapters, load_terms,
+    load_variants,
 )
 
 ERROR, WARN, INFO = "error", "warn", "info"
@@ -71,10 +72,20 @@ class Finding:
 
 # --------------------------------------------------------------------- helpers
 
-def _slug(entry_path):
-    """glossary/chang-常.md -> chang — what a lock-ok waiver may name."""
+def _waiver_names(entry_path, term):
+    """Every name a lock-ok waiver may use for this term.
+
+    glossary/chang-常.md yields {"chang", "chang-常", "常"} — the bare pinyin for
+    brevity, the full stem to disambiguate, and the character itself. The bare
+    pinyin is not always unique: 心 (xīn — heart) and 信 (xìn — trust) both
+    reduce to "xin", so a waiver for either must name the stem or the character.
+    """
     stem = Path(entry_path).stem if entry_path else ""
-    return stem.split("-")[0] if stem else ""
+    names = {term} if term else set()
+    if stem:
+        names.add(stem)
+        names.add(stem.split("-")[0])
+    return {n for n in names if n}
 
 
 def _sentence_initial(line, pos):
@@ -155,7 +166,7 @@ def rule_forbidden_rendering(chapters, terms, **_):
                             sev = INFO
                         out.append(Finding(
                             "forbidden-rendering", sev, ch.number, ln, msg,
-                            line.strip(), t.entry, {_slug(t.entry), t.term},
+                            line.strip(), t.entry, _waiver_names(t.entry, t.term),
                         ))
     return out
 
@@ -411,6 +422,72 @@ def rule_repeated_formula(chapters, verbose=False, **_):
     return out
 
 
+def rule_unlogged_variant(**_):
+    """A meaning-bearing fork must have a logged decision somewhere.
+
+    This is the rule the sources library exists to make possible. Ch 21 was
+    drafted over a reversed chronology in both Mawangdui silks with nothing
+    recording that a choice had been made; Ch 25 was drafted with a king the
+    oldest witnesses do not have. Neither was dishonest — nobody knew. Once the
+    apparatus exists, translating over a known fork without saying so becomes a
+    build failure rather than an accident.
+    """
+    out = []
+    for v in load_variants():
+        if not v.meaning_bearing:
+            continue
+        if not v.logged or v.logged.lower() == "false":
+            out.append(Finding(
+                "unlogged-variant", ERROR, v.chapter, 1,
+                f"{v.base} in {v.line} diverges meaningfully in the witnesses "
+                f"({', '.join(sorted(v.witnesses)) or 'editorial'}), and no decision "
+                f"is logged — record it in notes/manuscript.md and set `logged:`",
+                "", "sources/variants.yaml", {"unlogged-variant"},
+            ))
+            continue
+        target = ROOT / v.logged
+        if target.exists() and f"Ch {v.chapter} " not in target.read_text(encoding="utf-8"):
+            out.append(Finding(
+                "unlogged-variant", WARN, v.chapter, 1,
+                f"{v.base} claims to be logged in {v.logged}, but that file has no "
+                f'"Ch {v.chapter}" entry',
+                "", "sources/variants.yaml", {"unlogged-variant"},
+            ))
+        if v.our_call == "undecided":
+            out.append(Finding(
+                "unlogged-variant", WARN, v.chapter, 1,
+                f"{v.base} is recorded as undecided — the verse has to say something, "
+                f"so decide it or note why it is left open",
+                "", "sources/variants.yaml", {"unlogged-variant"},
+            ))
+    return out
+
+
+def rule_shaloms_call_unparsed(calls, **_):
+    """Every dated heading in the ledger must have produced a call.
+
+    A suspension the tool cannot see is a suspension that silently does not
+    apply — and worse, a stale call that can never be caught. This once happened
+    for real: a heading written `## DATE · rule (label)` failed a regex that
+    required the line to end at the rule id, and a three-call ledger parsed as
+    one with no complaint. Count the headings and compare.
+    """
+    from lib.corpus import CALLS
+    if not CALLS.exists():
+        return []
+    headings = re.findall(r"^## \d{4}-\d{2}-\d{2}\s*·", CALLS.read_text(encoding="utf-8"), re.M)
+    if len(headings) == len(calls):
+        return []
+    return [Finding(
+        "shaloms-call-unparsed", ERROR, 0, 1,
+        f"process/shaloms-call.md has {len(headings)} dated entries but "
+        f"{len(calls)} parsed — a call the tool cannot see is a rule that is "
+        f"silently not suspended. Check the heading format: "
+        f"`## YYYY-MM-DD · rule-id`",
+        "", "process/shaloms-call.md", {"shaloms-call-unparsed"},
+    )]
+
+
 def rule_stale_shaloms_call(calls, **_):
     """An override that has outlived its condition must be renewed or retired."""
     out = []
@@ -437,7 +514,9 @@ RULES = {
     "source-drift": rule_source_drift,
     "repeated-formula": rule_repeated_formula,
     "em-dash": rule_em_dash,
+    "unlogged-variant": rule_unlogged_variant,
     "stale-shaloms-call": rule_stale_shaloms_call,
+    "shaloms-call-unparsed": rule_shaloms_call_unparsed,
 }
 
 

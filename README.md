@@ -36,6 +36,7 @@ Start at [`chapters/001.md`](chapters/001.md). Each chapter carries the English 
 | `process/method.md` | The full working method |
 | `process/overlay-audit.md` | Reading Laozi without the missionary lens |
 | `process/skills/` | The method made executable, for AI collaborators |
+| [`sources/`](sources/PROVENANCE.md) | Primary material and the variant apparatus, with per-file provenance rules |
 | `tools/` | The harness — see below |
 | `CLAUDE.md` · `AGENTS.md` | Operating context for AI collaborators and tools |
 | [`DISCOVERIES.md`](DISCOVERIES.md) | **The findings worth writing about** — start here for what this research turned up |
@@ -51,6 +52,7 @@ python3 tools/check_locks.py               # do the 81 chapters still obey the l
 python3 tools/concordance.py 明             # every chapter, line, gloss and rendering
 python3 tools/concordance.py --english "clarity"   # is a rendering backed by its character?
 python3 tools/concordance.py --formulas    # Chinese segments repeated across chapters
+python3 tools/concordance.py --witnesses 25 # where the older manuscripts disagree
 python3 tools/build_index.py               # regenerate glossary/INDEX.md and terms.yaml
 python3 tools/fix-linebreaks.py            # restore the verse's hard line breaks
 python3 -m unittest discover -s tools/tests

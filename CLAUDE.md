@@ -57,7 +57,9 @@ Every `glossary/*.md` entry opens with YAML frontmatter (`term`, `pinyin`, `rend
 python3 tools/build_index.py
 ```
 
-`terms.yaml` is what `tools/check_locks.py` reads, so **a new lock becomes a live check the moment you regenerate** — no code change needed. Two consequences for how you write `forbidden:`: a capital in the string means the capital *is* the violation (`"the Way"` leaves *"the way of nature"* legal, `"eternal"` catches "eternally"), and a forbidden *phrase* can be defeated by an inserted word (`"the Way"` misses "the great Way" — forbid the bare word where register matters more than phrasing).
+`terms.yaml` is what `tools/check_locks.py` reads, so **a new lock becomes a live check the moment you regenerate** — no code change needed.
+
+**A `forbidden:` entry must be a word no *other* character in those same chapters can legitimately claim.** The checker gates on whether a character is present in the chapter; it cannot express *right for that character, wrong for this one, same chapter.* So "integrity" cannot be forbidden for 信 (chapters 21, 23, 38, 49 hold both 信 and 德) and "energy" cannot be forbidden for 精 (ch 55 holds both 精 and 氣). Those distinctions live in the entry's prose and in the reader, not in the tool. Two consequences for how you write `forbidden:`: a capital in the string means the capital *is* the violation (`"the Way"` leaves *"the way of nature"* legal, `"eternal"` catches "eternally"), and a forbidden *phrase* can be defeated by an inserted word (`"the Way"` misses "the great Way" — forbid the bare word where register matters more than phrasing).
 
 Chapter lists are recomputed from `source/chinese.md` on every run, so they cannot go stale. Use `covers:` when an entry absorbs a secondary character (腹 inside 心, 器 inside 樸, 利/用 inside 無/有) so a reader looking up that character never dead-ends.
 
@@ -96,6 +98,10 @@ Apply consistently across all 81 chapters. Departures require a logged reason.
 | 自然 | **the self-so / of itself / of themselves** | capital-N "Nature", "spontaneity" | `glossary/ziran-自然.md` |
 | 樸 | **uncarved wood / the uncarved** (lowercase) | "simplicity", "purity", capitalized "Uncarved Block" | `glossary/pu-樸.md` |
 | 無 / 有 | **absence / presence**; *empty / filled space* in ch 11 | "Being"/"Non-Being", "existence", "the Void", "nothingness" | `glossary/wu-you-無有.md` |
+| 信 | **trust / trustworthy** | "faith", "sincerity", "belief" — and never 德's *integrity* | `glossary/xin-信.md` |
+| 精 | **vital essence / essence** | "primordial mass", "soul", "spirit" — and never 氣's *energy* | `glossary/jing-精.md` |
+| 器 | **vessel / tool / implement** | "system", "mechanism", "machine" | `glossary/qi-器.md` |
+| 眾 | **the crowd** (people) · **the many / all** (things) | "the masses", "the multitude" — and never 民's *the people* | `glossary/zhong-眾.md` |
 
 *為 is a hand on an elephant — handling, not neutral doing. 無為 is taking your hand off it. "Non-doing" is required by Ch 63's triple parallel (為無為，事無事，味無味), which only survives with a verb that also works as a noun. Sweep pending: ch 2, 3, 10, 37, 38, 43, 48, 57, 63, 64.*
 
@@ -166,6 +172,8 @@ process/method.md     the full working guide (this file is its compression)
 process/shaloms-call.md   rules Shalom has set aside, and why — read at session start
 process/skills/       the method, made executable (chapter-review · glossary-entry)
 process/overlay-audit.md
+sources/PROVENANCE.md what may live in sources/, and on what authority — read before adding
+sources/variants.yaml the witness apparatus, as facts (never transcriptions)
 tools/                check_locks.py (the gate) · concordance.py (the evidence)
 process/legacy-tao-source-code.md   ⚠ archived, contains SUPERSEDED renderings
 DISCOVERIES.md        ★ the findings worth writing about — read when taking stock
@@ -185,6 +193,7 @@ python3 tools/check_locks.py --chapter 61       # while drafting
 python3 tools/concordance.py 明                  # every chapter, line, gloss, verse
 python3 tools/concordance.py --english "clarity"  # is a rendering backed by its character?
 python3 tools/concordance.py --formulas          # segments repeated across chapters
+python3 tools/concordance.py --witnesses 25      # where the older manuscripts disagree
 ```
 
 **`check_locks.py` optimizes precision.** It exits non-zero, gates the pre-commit hook and CI, and must never cry wolf — so **no rule fires on English alone.** "virtue" is an error only when 德 is in *that chapter's own* Chinese; otherwise it drops to `info` in a separate false-friends list. That evidence gate is what makes it usable: it took the first run's error list to **9 findings with zero false positives**.
@@ -192,6 +201,8 @@ python3 tools/concordance.py --formulas          # segments repeated across chap
 **`concordance.py` optimizes recall.** It judges nothing and never fails. Use it for the evidence a glossary entry or a chapter review needs. **Do not merge the two** — a tool that gates and searches at once ends up too noisy to gate and too quiet to search.
 
 **When a check is wrong, there are two answers and they are different sizes.** A `lock-ok` comment in the chapter's `## Notes` waives **one finding** and must carry a reason; an unused waiver is itself an error, so the files self-clean. A `shaloms-call` sets aside **a whole rule** — see `process/shaloms-call.md`. Never delete a rule to silence it.
+
+**Check the witnesses before drafting, not after.** `concordance.py --witnesses N` reports the recorded forks for a chapter. Ch 21 was drafted over a chronology both Mawangdui silks reverse, and Ch 25 over a king the oldest witnesses do not have — neither was carelessness, nobody had looked. **A blank result means nobody has checked that chapter yet**, not that there are no forks: `sources/variants.yaml` is built by hand. Record new forks there as **facts, never transcriptions** — `sources/PROVENANCE.md` explains why that is a licensing rule and not a preference.
 
 **Do not trust the literal glosses in the source tables.** They speak pre-lock English — "virtue", "the ten thousand things", "mysterious" — which is exactly what this edition rejects. They are a starting point, not a reading, and matching a locked term against its own gloss fails precisely where the locks matter most.
 

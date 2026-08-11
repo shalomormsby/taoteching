@@ -27,7 +27,7 @@ from collections import defaultdict
 from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
-from lib.corpus import load_chapters, load_terms  # noqa: E402
+from lib.corpus import load_chapters, load_terms, load_variants  # noqa: E402
 
 BOLD, DIM, OFF = "\033[1m", "\033[2m", "\033[0m"
 
@@ -211,6 +211,50 @@ def show_formulas(chapters, min_len=4):
     return formulas
 
 
+# ------------------------------------------------------------------- witnesses
+
+def show_witnesses(number, chapters, quiet=False):
+    """Where the older witnesses disagree with our base text, for one chapter.
+
+    Run this BEFORE drafting. Ch 21 needed four witnesses fetched from the open
+    web to settle one line; Ch 25's throne turned out to be absent from both
+    silks. Neither would have been found by reading the base text alone.
+    """
+    variants = load_variants(number)
+    ch = chapters.get(number)
+
+    print(f"\n{BOLD}chapter {number}{OFF} — witnesses", end="")
+    if ch and not ch.drafted:
+        print(f"  {DIM}[{ch.status}]{OFF}", end="")
+    print()
+
+    if not variants:
+        print(f"  {DIM}no forks recorded. That may mean none exist, or that no "
+              f"one has looked yet — sources/variants.yaml is built by hand.{OFF}\n")
+        return []
+
+    bearing = [v for v in variants if v.meaning_bearing]
+    print(f"  {len(variants)} recorded, {len(bearing)} meaning-bearing\n")
+
+    for v in variants:
+        mark = "!" if v.meaning_bearing else "·"
+        print(f"  {mark} {BOLD}{v.base}{OFF}   {DIM}in{OFF} {v.line}")
+        for w, reading in sorted(v.witnesses.items()):
+            arrow = "→" if v.our_call == w else " "
+            print(f"      {arrow} {w:<14} {reading}")
+        if not v.witnesses:
+            print(f"        {DIM}(editorial, not a witness fork){OFF}")
+        called = {"base": "we keep the base text", "punctuation": "a punctuation fork",
+                  "undecided": "UNDECIDED"}.get(v.our_call, f"we follow {v.our_call}")
+        print(f"      {DIM}{called}{OFF}")
+        if not quiet and v.note:
+            print(f"      {DIM}{v.note}{OFF}")
+        if not quiet and v.logged and v.logged != "false":
+            print(f"      {DIM}see {v.logged}{OFF}")
+        print()
+    return variants
+
+
 # -------------------------------------------------------------------------- cli
 
 def main():
@@ -223,6 +267,8 @@ def main():
                    help="two terms across the book")
     p.add_argument("--formulas", action="store_true",
                    help="every Chinese segment shared by more than one chapter")
+    p.add_argument("--witnesses", type=int, metavar="N",
+                   help="where the older witnesses disagree with our base text, for chapter N")
     p.add_argument("-q", "--quiet", action="store_true",
                    help="lines only — omit glosses and surrounding verse")
     p.add_argument("--json", action="store_true")
@@ -254,6 +300,12 @@ def main():
                             {"chapter": ch.number, "line": ln, "text": line.strip()})
             payload["english"] = {"phrase": args.english, "backed": backed,
                                   "unbacked": unbacked}
+        if args.witnesses:
+            payload["witnesses"] = [
+                {"chapter": v.chapter, "line": v.line, "base": v.base,
+                 "witnesses": v.witnesses, "meaning_bearing": v.meaning_bearing,
+                 "our_call": v.our_call, "note": v.note, "logged": v.logged}
+                for v in load_variants(args.witnesses)]
         if args.formulas:
             index = defaultdict(set)
             for ch in chapters.values():
@@ -269,6 +321,9 @@ def main():
         return 0
 
     did = False
+    if args.witnesses:
+        show_witnesses(args.witnesses, chapters, args.quiet)
+        did = True
     if args.formulas:
         show_formulas(chapters)
         did = True
