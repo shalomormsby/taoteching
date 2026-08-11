@@ -5,7 +5,7 @@ description: Write or revise a glossary entry for a term in the Tao Te Ching tra
 
 # Writing a glossary entry
 
-The glossary is the heart of this project. Entries are **published scholarship**, not working notes — they ship in a public-domain repository and are the source material for the companion volume. Write them for a reader who was not in the room.
+The glossary is the heart of this project. Entries are **published research**, not working notes — they ship in a public-domain repository and are the source material for the companion volume. Write them for a reader who was not in the room.
 
 Work through these phases in order. Do not skip the research.
 
