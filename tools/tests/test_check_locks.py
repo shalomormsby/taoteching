@@ -240,6 +240,24 @@ class Waivers(unittest.TestCase):
                 original_chapters, original_terms, original_calls)
 
 
+class WaiverNames(unittest.TestCase):
+    """A waiver may name a term three ways, because bare pinyin collides."""
+
+    def test_three_names_per_term(self):
+        self.assertEqual(C._waiver_names("glossary/chang-常.md", "常"),
+                         {"chang", "chang-常", "常"})
+
+    def test_the_xin_collision_is_disambiguable(self):
+        # 心 (xīn, heart) and 信 (xìn, trust) both slug to "xin". The bare pinyin
+        # is therefore ambiguous for this pair; the stem and character are not.
+        heart = C._waiver_names("glossary/xin-心.md", "心")
+        trust = C._waiver_names("glossary/xin-信.md", "信")
+        self.assertEqual(heart & trust, {"xin"})
+        self.assertIn("xin-心", heart)
+        self.assertIn("xin-信", trust)
+        self.assertNotIn("xin-信", heart)
+
+
 class ShalomsCall(unittest.TestCase):
     """The override of record: suppresses by rule name, and never silently."""
 

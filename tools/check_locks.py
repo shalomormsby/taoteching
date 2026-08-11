@@ -71,10 +71,20 @@ class Finding:
 
 # --------------------------------------------------------------------- helpers
 
-def _slug(entry_path):
-    """glossary/chang-常.md -> chang — what a lock-ok waiver may name."""
+def _waiver_names(entry_path, term):
+    """Every name a lock-ok waiver may use for this term.
+
+    glossary/chang-常.md yields {"chang", "chang-常", "常"} — the bare pinyin for
+    brevity, the full stem to disambiguate, and the character itself. The bare
+    pinyin is not always unique: 心 (xīn — heart) and 信 (xìn — trust) both
+    reduce to "xin", so a waiver for either must name the stem or the character.
+    """
     stem = Path(entry_path).stem if entry_path else ""
-    return stem.split("-")[0] if stem else ""
+    names = {term} if term else set()
+    if stem:
+        names.add(stem)
+        names.add(stem.split("-")[0])
+    return {n for n in names if n}
 
 
 def _sentence_initial(line, pos):
@@ -155,7 +165,7 @@ def rule_forbidden_rendering(chapters, terms, **_):
                             sev = INFO
                         out.append(Finding(
                             "forbidden-rendering", sev, ch.number, ln, msg,
-                            line.strip(), t.entry, {_slug(t.entry), t.term},
+                            line.strip(), t.entry, _waiver_names(t.entry, t.term),
                         ))
     return out
 

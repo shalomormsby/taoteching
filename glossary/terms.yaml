@@ -77,6 +77,23 @@
   status: locked
   entry: glossary/wuwei-無為.md
 
+- term: "器"
+  pinyin: "qì"
+  render: "vessel / tool / implement"
+  forbidden: ["system", "mechanism", "machine", "utensil"]
+  chapters: [11, 28, 29, 31, 36, 41, 57, 67, 80]
+  status: locked
+  entry: glossary/qi-器.md
+
+- term: "信"
+  pinyin: "xìn"
+  render: "trust / trustworthy"
+  forbidden: ["faith", "sincerity", "belief"]
+  chapters: [8, 17, 21, 23, 38, 49, 63, 81]
+  status: locked
+  entry: glossary/xin-信.md
+  # covers 忠 -> loyalty
+
 - term: "天地"
   pinyin: "tiān dì"
   render: "sky and earth"
@@ -119,7 +136,14 @@
   chapters: [15, 19, 28, 32, 37, 57]
   status: locked
   entry: glossary/pu-樸.md
-  # covers 器 -> vessel / tool
+
+- term: "眾"
+  pinyin: "zhòng"
+  render: "the crowd / the many"
+  forbidden: ["the masses", "the multitude", "the people"]
+  chapters: [1, 8, 20, 21, 31, 64]
+  status: locked
+  entry: glossary/zhong-眾.md
 
 - term: "母"
   pinyin: "mǔ"
@@ -144,3 +168,11 @@
   chapters: [33, 44, 46]
   status: locked
   entry: glossary/zhizu-知足.md
+
+- term: "精"
+  pinyin: "jīng"
+  render: "vital essence / essence"
+  forbidden: ["primordial mass", "soul", "spirit"]
+  chapters: [21, 55]
+  status: locked
+  entry: glossary/jing-精.md
