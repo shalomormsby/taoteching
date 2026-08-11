@@ -1,3 +1,18 @@
+# ARCHIVE — final Google Docs export (2026-08-09)
+
+> **⚠ Superseded. Do not edit. Do not generate from this file.**
+>
+> This is the last export of the Google Doc in which chapters 1–60 and 65 were
+> originally drafted. The Doc has been **retired**; `chapters/001–081.md` are now
+> the **source of truth** for the translation.
+>
+> Kept for provenance only. Two edits were applied here before retirement —
+> the 樸 sweep ("uncarved block" → "uncarved wood", 16 instances) and two
+> Chapter 32 corrections — so that the chapter files could be regenerated
+> cleanly one final time. Everything after that point lives in `chapters/`.
+
+---
+
 # 道 德 經 
 
 # Tao Te Ching
@@ -438,7 +453,7 @@ Careful, like crossing a frozen river.
 Watchful, aware of danger from all sides.   
 Dignified, like a guest.   
 Yielding, like melting ice.   
-Sturdy, like an uncarved block of wood.   
+Sturdy, like uncarved wood.   
 Expansive, like a valley.   
 Mixed, like muddy water. 
 
@@ -461,7 +476,7 @@ They can become weathered, and have no interest in appearing new.
 | 猶兮若畏四鄰； | Yóu xī ruò wèi sì lín; | Cautious/watchful \[you\] oh \[xi\]\! Like \[ruo\] fearing \[wei\] neighbors on all four sides \[si lin\]; |
 | 儼兮其若客； | Yǎn xī qí ruò kè; | Reserved/dignified \[yan\] oh \[xi\]\! Like \[ruo\] a guest \[ke\]; |
 | 渙兮其若冰之將釋； | Huàn xī qí ruò bīng zhī jiāng shì; | Yielding/melting \[huan\] oh \[xi\]\! Like \[ruo\] ice \[bing\] that is about to \[jiang\] melt/thaw \[shi\]; |
-| 敦兮其若樸； | Dūn xī qí ruò pǔ; | Solid/genuine \[dun\] oh \[xi\]\! Like \[ruo\] the uncarved block \[pu\]; |
+| 敦兮其若樸； | Dūn xī qí ruò pǔ; | Solid/genuine \[dun\] oh \[xi\]\! Like \[ruo\] the uncarved wood \[pu\]; |
 | 曠兮其若谷； | Kuàng xī qí ruò gǔ; | Broad/expansive \[kuang\] oh \[xi\]\! Like \[ruo\] a valley \[gu\]; |
 | 混兮其若濁。 | Hùn xī qí ruò zhuó. | Blended/undifferentiated \[hun\] oh \[xi\]\! Like \[ruo\] murky/muddy water \[zhuo\]. |
 | BLOCK 3 |  |  |
@@ -569,7 +584,7 @@ Abandon profit-seeking ingenuity, and thieves will cease to exist.
 
 These edicts are insufficient decorations for society.  
 Let people anchor to this:  
-Observe the undyed silk. Hold the uncarved block.   
+Observe the undyed silk. Hold the uncarved wood.   
 Diminish the self, diminish desire. 
 
 | BLOCK 1 |  |  |
@@ -580,7 +595,7 @@ Diminish the self, diminish desire.
 | BLOCK 2 |  |  |
 | 此三者以為文不足， | Cǐ sān zhě yǐ wéi wén bù zú, | These \[ci\] three \[san\] things \[zhe\] used as \[yi wei\] culture/adornment \[wen\] are not \[bu\] sufficient \[zu\], |
 | 故令有所屬： | Gù lìng yǒu suǒ shǔ: | Therefore \[gu\] cause/make \[ling\] them have \[you\] a place to belong/attach \[suo shu\]: |
-| 見素抱樸， | Jiàn sù bào pǔ, | Look at/display \[jian\] plainness/raw silk \[su\], embrace \[bao\] the uncarved block \[pu\], |
+| 見素抱樸， | Jiàn sù bào pǔ, | Look at/display \[jian\] plainness/raw silk \[su\], embrace \[bao\] the uncarved wood \[pu\], |
 | 少私寡欲。 | Shǎo sī guǎ yù. | Lessen/reduce \[shao\] selfishness/private interest \[si\], diminish \[gua\] desires \[yu\]. |
 
 ## Chapter 20
@@ -897,9 +912,9 @@ Return to the Limitless.
 To know glory, we must welcome disgrace.   
 Embody the reservoir of the world.   
 Embodying the reservoir of the world, integrity is abundant.   
-Return to the Uncarved Block. 
+Return to the uncarved wood. 
 
-When the Uncarved Block is carved, it is made into various tools.   
+When the uncarved wood is carved, it is made into various tools.   
 The sage uses them as the master orchestrator.   
 Therefore, the Great Orchestrator itself does not carve. 
 
@@ -918,9 +933,9 @@ Therefore, the Great Orchestrator itself does not carve.
 | 知其榮，守其辱， | Zhī qí róng, shǒu qí rǔ, | Knowing \[zhi\] the/its \[qi\] glory/honor \[rong\], guarding/holding \[shou\] the/its \[qi\] disgrace/humility \[ru\], |
 | 為天下谷。 | wéi tiān xià gǔ. | functioning as/being \[wei\] the world's \[tian xia\] valley/basin \[gu\]. |
 | 為天下谷，常德乃足， | Wéi tiān xià gǔ, cháng dé nǎi zú, | Functioning as \[wei\] the world's \[tian xia\] valley/basin \[gu\], constant/eternal \[chang\] virtue/capacity \[de\] then/thus \[nai\] is sufficient/full \[zu\], |
-| 復歸於樸。 | fù guī yú pǔ. | reverting/returning \[fu gui\] to \[yu\] the uncarved block \[pu\]. |
+| 復歸於樸。 | fù guī yú pǔ. | reverting/returning \[fu gui\] to \[yu\] the uncarved wood \[pu\]. |
 | BLOCK 4 |  |  |
-| 樸散則為器， | Pǔ sàn zé wéi qì, | The uncarved block \[pu\] scatters/is cut \[san\] then/thus \[ze\] functions as/becomes \[wei\] tools/instruments \[qi\], |
+| 樸散則為器， | Pǔ sàn zé wéi qì, | The uncarved wood \[pu\] scatters/is cut \[san\] then/thus \[ze\] functions as/becomes \[wei\] tools/instruments \[qi\], |
 | 聖人用之，則為官長， | shèng rén yòng zhī, zé wéi guān zhǎng, | The Sage \[sheng ren\] uses \[yong\] them \[zhi\], then/thus \[ze\] functions as/becomes \[wei\] the chief administrator/executive \[guan zhang\], |
 | 故大制不割。 | gù dà zhì bù gē. | therefore \[gu\] the Great \[da\] System/Administrator \[zhi\] does not \[bu\] cut/carve \[ge\]. |
 
@@ -1034,12 +1049,12 @@ A victory in battle should be treated like a funeral rite.
 ## Chapter 32
 
 The Tao is eternally nameless.   
-Though the Uncarved Block is small, no one in the world can force it.  
+Though the uncarved wood is small, nothing in the world can make it a subject.  
 If rulers hold it, the myriad things naturally align with it.   
 The dual nature of the cosmos unites to create sweet dew.   
 Without any external command, the people naturally harmonize.  
 
-Once the block is cut, there are names.   
+Once there is cutting, there are names.   
 Since names already exist, one must know when to stop.   
 Knowing when to stop, one avoids depletion. 
 
@@ -1048,12 +1063,12 @@ In this world, with its high streams and valleys, the Tao is like the river and 
 | BLOCK 1 |  |  |
 | :---- | :---- | :---- |
 | 道常無名。 | Dào cháng wú míng. | The Tao \[dao\] is eternally \[chang\] nameless \[wu ming\]. |
-| 樸雖小，天下莫能臣也。 | Pǔ suī xiǎo, tiān xià mò néng chén yě. | Though the Uncarved Block \[pu\] is small \[xiao\], no one in the world \[tian xia\] can \[neng\] subordinate/master \[chen\] it \[ye\]. |
+| 樸雖小，天下莫能臣也。 | Pǔ suī xiǎo, tiān xià mò néng chén yě. | Though the uncarved wood \[pu\] is small \[xiao\], no one in the world \[tian xia\] can \[neng\] subordinate/master \[chen\] it \[ye\]. |
 | 侯王若能守之，萬物將自賓。 | Hóu wáng ruò néng shǒu zhī, wàn wù jiāng zì bīn. | If lords and kings \[hou wang\] can \[neng\] preserve/hold \[shou\] it \[zhi\], the ten thousand things \[wan wu\] will naturally \[zi\] submit/align themselves \[bin\]. |
 | 天地相合，以降甘露， | Tiān dì xiāng hé, yǐ jiàng gān lù, | Heaven and Earth \[tian di\] unite \[xiang he\] to send down \[yi jiang\] sweet dew \[gan lu\], |
 | 民莫之令而自均。 | Mín mò zhī lìng ér zì jūn. | The people \[min\], without anyone ordering/commanding \[mo zhi ling\] them, naturally \[zi\] equalize/harmonize \[jun\]. |
 | BLOCK 2 |  |  |
-| 始制有名， | Shǐ zhì yǒu míng, | Once the block is cut/instituted \[shi zhi\], there are names \[you ming\]. |
+| 始制有名， | Shǐ zhì yǒu míng, | Once cutting/instituting begins \[shi zhi\], there are names \[you ming\]. |
 | 名亦既有，夫亦將知止， | Míng yì jì yǒu, fú yì jiāng zhī zhǐ, | Since names \[ming\] already exist \[ji you\], one must \[fu yi jiang\] know when to stop \[zhi zhi\], |
 | 知止可以不殆。 | Zhī zhǐ kě yǐ bù dài. | Knowing when to stop \[zhi zhi\], one can avoid \[ke yi bu\] danger/exhaustion \[dai\]. |
 | BLOCK 3 |  |  |
@@ -1169,8 +1184,8 @@ The tools of nature cannot be shown to humans.
 The Tao consistently acts with non-action, yet nothing is left undone.   
 If rulers are able to maintain this, the myriad things will transform from within. 
 
-When the myriad things urge action, I will stabilize them with the nameless uncarved block.   
-The nameless uncarved block is without desire.
+When the myriad things urge action, I will stabilize them with the nameless uncarved wood.   
+The nameless uncarved wood is without desire.
 
 Relinquishing desire, being still, all things in the cosmos align on their own. 
 
@@ -1179,8 +1194,8 @@ Relinquishing desire, being still, all things in the cosmos align on their own.
 | 道常無為而無不為。 | Dào cháng wú wéi ér wú bù wéi. | Tao constantly takes no action, yet nothing is left undone. |
 | 侯王若能守之，萬物將自化。 | Hóu wáng ruò néng shǒu zhī, wàn wù jiāng zì huà. | Marquises and kings, if able to maintain this, the ten thousand things will autonomously transform |
 | BLOCK 2 |  |  |
-| 化而欲作，吾將鎮之以無名之樸。 | Huà ér yù zuò, wú jiāng zhèn zhī yǐ wú míng zhī pǔ. | Transforming and desiring to act, I will stabilize them with the nameless uncarved block |
-| 無名之樸，夫亦將無欲。 | Wú míng zhī pǔ, fū yì jiāng wú yù. | The nameless uncarved block, indeed also will be without desire. |
+| 化而欲作，吾將鎮之以無名之樸。 | Huà ér yù zuò, wú jiāng zhèn zhī yǐ wú míng zhī pǔ. | Transforming and desiring to act, I will stabilize them with the nameless uncarved wood |
+| 無名之樸，夫亦將無欲。 | Wú míng zhī pǔ, fū yì jiāng wú yù. | The nameless uncarved wood, indeed also will be without desire. |
 | BLOCK 3 |  |  |
 | 不欲以靜，天下將自正。 | Bù yù yǐ jìng, tiān xià jiāng zì zhèng. | Not desiring so as to be still, all under heaven will autonomously align. |
 
@@ -1767,7 +1782,7 @@ I am desireless, and the people become plain of themselves.
 | 我無為，而民自化； | Wǒ wú wéi, ér mín zì huà; | I execute zero-friction (wu wei), and the people transform themselves; |
 | 我好靜，而民自正； | Wǒ hào jìng, ér mín zì zhèng; | I love stillness, and the people correct themselves; |
 | 我無事，而民自富； | Wǒ wú shì, ér mín zì fù; | I do not interfere (wu shi), and the people enrich themselves; |
-| 我無欲，而民自樸。 | Wǒ wú yù, ér mín zì pǔ. | I have no desires, and the people return to the uncarved block (pu) themselves. |
+| 我無欲，而民自樸。 | Wǒ wú yù, ér mín zì pǔ. | I have no desires, and the people return to the uncarved wood (pu) themselves. |
 
 ## **Chapter 58**
 

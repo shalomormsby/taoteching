@@ -53,4 +53,26 @@ The Sage's answer is the four closing lines — square but not cutting, edged bu
 
 ---
 
+**Ch 28 · The road that only runs forward — 復歸於樸.**
+
+Chapter 28 tells you three times to go back: 復歸於嬰兒, *return again to the infant*; 復歸於無極, *return again to the limitless*; 復歸於樸, *return again to the uncarved.* Each is impossible in the plain sense. No one becomes an infant again. And wood does not un-carve — once the log is bowls and wheels, no craft on earth makes it a log.
+
+Laozi never explains, and the honest reading has to sit with that. But the chapter's own closing line suggests where the answer lies: 大制不割 — *the greatest shaping does no severing.* If the great cut leaves nothing cut, then what is being asked is not the restoration of a former shape. It is the loosening of your identification with the shape you were cut into — the bowl remembering it was never only a bowl. The wood is still wood. The carving went only as deep as the form.
+
+Read that way, the three returns are not nostalgia for a lost condition but a change in where you stand: still holding a function, no longer *being* it. Which is also why Chapter 57's people can "become plain of themselves" (民自樸) without anyone unmaking them. Nothing was undone. They simply stopped being handled.
+
+---
+
+**Ch 16 · The ladder out of the self.**
+
+The chapter closes on a chain in which each rung is the first word of the next — 知常**容**，**容**乃**公**，**公**乃**王**，**王**乃**天**，**天**乃**道**，**道**乃久. The links are the form, and the climb has one direction: **each rung widens the circle beyond the self.**
+
+*Capaciousness* (容) is the ability to hold what comes without shutting it out — still a quality of a person. *Impartiality* (公) turns that outward; the character is the direct opposite of 私 (*sī* — private, selfish), and it means the public, the common, what belongs to no one in particular. *Sovereignty* (王) is impartiality with reach: no longer just fair, but responsible for everyone. Then the ladder leaves the human world entirely: **the open sky** (天) is impartiality made total — 天無私覆, *the sky covers without partiality*, over the just and the unjust alike, owned by nobody. And past even that, *the Tao* — and only then 久, **the enduring**, arriving last, as a result rather than a goal.
+
+What makes the chain worth following is where it starts: 知常, *knowing the ever-present*. Not with an ethical resolution to be fair, but with seeing how things actually move — out and back, root and return. Fairness is not the first step here; it is what happens to someone who has watched the cycle long enough to stop taking their own position as the center. And endurance is not sought at all. It is what is left over at the top of a ladder built entirely out of letting go of preference.
+
+*(The same 天 → 道 step reappears in Ch 25's ladder — 地法天，天法道 — which is why both must read "sky.")*
+
+---
+
 *To add an entry: chapter · title · the note (or **Thread · title · note** for a motif that runs across chapters) — reserve this layer for what illuminates *meaning* for the reader, not textual variants (Manuscript Notes) or word-choices (Translation Notes).*

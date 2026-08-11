@@ -14,7 +14,11 @@ The failures this harness prevents are already documented and real: 德 slipping
 
 ---
 
-## 1. `glossary/terms.yaml` — the locks as data
+## 1. ~~`glossary/terms.yaml` — the locks as data~~ ✅ **DONE (2026-08-10)**
+
+*Built early, deliberately: adding frontmatter to 17 entries was cheap, and retrofitting it to 40 later would not have been. `tools/build_index.py` generates both `terms.yaml` and `INDEX.md` from each entry's frontmatter, recomputing chapter lists from `source/chinese.md` so they cannot drift. `check_locks.py` should read `terms.yaml` rather than a hand-kept list.*
+
+<details><summary>Original spec</summary>
 
 The glossary entries are essays; they carry the reasoning and must stay prose. This file is their machine-readable shadow.
 
@@ -38,6 +42,8 @@ The glossary entries are essays; they carry the reasoning and must stay prose. T
 Fields: `term · pinyin · render · forbidden · status (locked|open|watchlist) · entry · chapters · notes`.
 
 **Seed it from:** the locks table in `CLAUDE.md`, the watchlist in `process/overlay-audit.md`, and `RETROFIT.md`.
+
+</details>
 
 ## 2. `tools/check_locks.py` — principles become tests
 

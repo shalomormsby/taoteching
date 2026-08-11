@@ -14,6 +14,12 @@ Hence the rule: **the marks are ours; the music is the source's.** Lay the Engli
 
 ---
 
+### Standing principle · Typography — lowercase, and no em-dashes in the verse
+
+**Lowercase everything but the Tao.** The Chinese has no capitals; every one in the English is ours, and in English **capitals confer status** — they turn a word into a doctrine and a figure into a deity. So: *the sage*, *the mother*, *the uncarved*, *stillness*, *the limitless*, *profound integrity*, *the great Tao* — all lowercase. **道 keeps its capital** because "Tao" functions as a proper name, and proper nouns in editorial notes (Mawangdui, Guodian) keep theirs. Nothing else does. *(This is the Tier-3 "devotional capitalization" problem named in `process/overlay-audit.md` — the overlay that enters below the level of vocabulary.)*
+
+**Avoid the em-dash in the verse.** Two reasons. It has become a conspicuous marker of machine-written prose, which is corrosive to a translation made this way and offered in good faith. And more importantly, it **strands grammatical subjects**: a dash lets a clause trail into a participle whose actor is unnamed, which is exactly how Chapter 2's *"the sage does not begin them — giving birth without possessing…"* left a reader unable to tell whether the sage or the countless things were doing the giving. Classical Chinese omits subjects freely; English cannot, and a dash disguises the omission instead of resolving it. **Name the subject and end the sentence.**
+
 ### Standing principle · The 天 family — "no heaven, and no cosmos either"
 
 **The rule: point, don't categorize.** 天 is neither a realm nor an abstraction. Render it as what a person standing on the ground can actually see.
@@ -82,6 +88,26 @@ The phrase returns from 48. There, 取天下常以無事 taught that the world i
 **Ch 58 · 正 / 奇 — one thread across 57–58; and 其無正 ≠ "no limit."**
 
 Two linked calls. First, 其無正 (孰知其極？其無正) is "it has no fixed norm," *not* "no limit" — 極 (limit) is the prior clause; 正 here is the *normative / correct*, and it has to survive into the next line, whose subject is that same 正: 正復為奇 ("the straight turns crooked"). Render 正 as "limit" and the keyword vanishes. Second — the reason this is logged — 正 and 奇 must read the **same** in 57 and 58, because 58 is deliberately unmaking 57: there the ruler governs *with* 正 and wages war *with* 奇 (以正治國，以奇用兵), certain of the boundary; here 正復為奇 erases it. We thread them **straight / crooked** — 57's "govern with the straight" and "the people straighten themselves" (民自正), 58's "the straight turns crooked" — so the reader feels 58 pull 57 apart. (奇 keeps a little play — "surprise / the oblique" where 57 means battlefield tactics — but 正 holds as *straight / upright* throughout both.)
+
+---
+
+**Lock · 無為 → "non-doing"** *(not "non-action")*
+
+The conventional English is "non-action"; we depart from it deliberately, on three grounds. **(1) The chime.** 無為而無不為 (ch 37, 48) repeats the same character, 為 then 不為, so the English should repeat the same word: *"does not do, yet nothing is left undone"* — *do* and *undone* share a root and close the line on itself, which "non-action … left undone" cannot. **(2) The register.** 為 is a hand laid on an elephant — concrete, manual, Anglo-Saxon territory; "action" is abstract, Latinate, and a term of art in Western philosophy. It also slides morphologically into "**inaction**," which is the two-thousand-year quietist misreading. **(3) Chapter 63 decides it.** 為無為，事無事，味無味 is a triple parallel of ordinary verbs, each negated and taken as an object — *"do the not-doing, attend the not-attending, taste the tasteless."* The structure survives only with a word that is both verb and noun. *Doing* is; *action* is not ("act the non-action, affair the non-affair" collapses). One chapter with three parallel members, and only one candidate holds all three.
+
+Also rejected: **"effortless action"** — an interpretation smuggled into a rendering, which resolves the paradox in advance and deletes the negation that gives 無為而無不為 its whole force. And **leaving it untranslated** — we keep 道 untranslated because every rendering is wrong; 無為 is renderable, and rendering it keeps the reader inside the argument instead of handing them a mantra.
+
+*Full reasoning: `glossary/wuwei-無為.md`. Sweep: ch 2, 3, 10, 37, 38, 43, 48, 57, 63, 64.*
+
+---
+
+**Ch 16 · 王乃天，天乃道 → "the open sky"** *(not "nature," not bare "sky")*
+
+Two decisions in one line. **First, it stays "sky."** Ch 16 and Ch 25 share this exact step — 王乃**天**，**天**乃道 (16) and 地法**天**，**天**法道 (25) — so rendering one "nature" and the other "sky" would hide from the reader that they are the same climb. The 天-family policy allows *nature* for 天 as an impersonal principle, but internal consistency outranks local fit; "reads better" is not a reason to break a lock.
+
+**Second, the qualifier had to survive repetition.** The passage is *anadiplosis* — each line ends on the word the next begins with (容乃公，公乃王，王乃天，天乃道) — and the chain is the form. So a qualifier introduced once and dropped ("the all-covering sky… / The sky…") would break the link exactly where the poem holds itself together. **"The open sky"** repeats without thudding, stays an image rather than an abstraction, and carries both the vastness and the ownerlessness that make 天 the rung above 王: a king rules a domain, but the sky is over everything without preference (天無私覆).
+
+**In the same line: 公 → "impartiality," not "equanimity."** 公 is the direct opposite of 私 (*sī* — private, selfish): the public, the common, what belongs to no one. Equanimity is inner calm and sends rung two back inside the person, stalling an ascent whose whole motion is *outward*. With "impartiality," the ladder reads as one continuous widening of the circle beyond the self. *(See the Ch 16 Reading Note.)*
 
 ---
 

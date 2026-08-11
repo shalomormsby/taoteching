@@ -24,4 +24,17 @@ Received (Wang Bi, our base): 而**全**作 — 全 = *whole, complete* — "yet
 
 ---
 
+**Ch 32 · 道常無名。樸雖小 — a punctuation fork, not a textual one.**
+
+The Chinese carries no punctuation; every mark in every edition is a later editor's. Here the placement of one break changes the subject of the sentence:
+
+- **Received:** 道常無名**。**樸雖小，天下莫能臣也。 — *"The Tao is ever nameless. Though uncarved wood is small, nothing can subordinate it."* (樸 is the subject; the wood is what is small.)
+- **Ours:** 道常無名**樸。**雖小，天下莫能臣也。 — *"The Tao is ever nameless, uncarved. Though small, nothing in the world can make it a subject."* (無名樸 is a compound attribute of the Tao; **the Tao** is what is small.)
+
+We follow the second, on three grounds. **(1) The parallel with Chapter 37** is near-decisive — both chapters run *道常 + [attribute]*, then the identical sentence about rulers: 道常**無為**。侯王若能守之，萬物將自化 (37) / 道常**無名樸**。侯王若能守之，萬物將自賓 (32). Same frame, same rulers, same self-so outcome. **(2) The pronoun.** 侯王若能守**之** — *if lords and kings can hold **it*** — takes the Tao as its antecedent naturally; under the received parse the nearest antecedent is a piece of timber. **(3) Chapter 34 already says the Tao is small**: 常無欲，可名於**小** — *"ever without desire, it may be named small"* — and, in the next breath, 可名為**大**, *"it may be named great."* Chapter 32 is that claim made a second time; 天下莫能臣也 is a real assertion about the Tao and a puzzle about wood.
+
+*(A side benefit: with 樸 read attributively, the English needs no article, so nothing reifies the uncarved into an object — the same correction made when "block" was retired. See `glossary/pu-樸.md`.)*
+
+---
+
 *To add an entry: keep it to chapter · line · fork · our call, and log only what changes meaning.*

@@ -1,3 +1,12 @@
+---
+term: "我 & 吾"
+pinyin: "wǒ / wú"
+render: "the self seen / the self seeing"
+forbidden: []
+chapters: [4, 13, 16, 21, 25, 29, 37, 42, 43, 49, 54, 57, 69, 70, 74]
+status: locked
+pairing: true
+---
 ## 我 / 吾 (Wǒ / Wú) — The Self Seen and the Self Seeing
 
 *A pairing entry. 我 — say "waw," a tone that dips then lifts. 吾 — say "woo," rising, as if asking.*

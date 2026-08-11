@@ -66,9 +66,19 @@ Several renderings depart from the English convention **on purpose**, because th
 | 生 | *give birth to* | "create", "generate" | gestation, not manufacture |
 | 玄 | *dark* / *profound* | "mystery" | a dye-color and a night sky |
 | 妙 | *subtle* | "mystery" | fineness at the edge of perception |
-| 聖人 | *the Sage* — always **they/their** | "the Master", "he" | no gendered pronoun is used for the Sage, ever |
+| 無為 | *non-doing* | "non-action", "effortless action" | Ch 63's triple parallel only survives with a verb that is also a noun |
+| 萬物 | *the countless things* | "the ten thousand things" | 萬 is a scorpion borrowed for its sound; the number is not a count |
+| 自然 | *the self-so* | "Nature" | that sense is a modern import; in Ch 25 it would place something above the Tao |
+| 樸 | *uncarved wood* (lowercase) | "the Uncarved Block" | "block" is an English interpolation, not in the Chinese |
+| 心 | *heart* | "mind", "heart-mind" | an anatomical drawing of the organ; English idiom never fully split the two |
+| 無 / 有 | *absence / presence* | "Non-Being / Being" | these are verbs (*there is / there isn't*), not Greek substances |
+| 聖人 | *the sage* — lowercase, always **they/their** | "the Master", "the Sage", "he" | no gendered pronoun is used for the sage, ever; capitals confer a status the Chinese does not |
 
 Reasoning for each is in `glossary/` and `process/overlay-audit.md`.
+
+**Machine-readable:** [`glossary/terms.yaml`](glossary/terms.yaml) lists every locked term with its
+rendering, forbidden alternatives, and the chapters it appears in. [`glossary/INDEX.md`](glossary/INDEX.md) is the same data as a lookup table.
+Both are generated from the entries by `tools/build_index.py`; do not edit them directly.
 
 ## Status
 

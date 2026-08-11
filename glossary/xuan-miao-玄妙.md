@@ -1,3 +1,12 @@
+---
+term: "玄 & 妙"
+pinyin: "xuán / miào"
+render: "dark or profound / subtle"
+forbidden: ["mystery", "mysterious", "the occult"]
+chapters: [1, 6, 10, 15, 51, 56, 65]
+status: locked
+pairing: true
+---
 ## 玄 (Xuán) & 妙 (Miào) — The Dark and the Subtle
 
 *Say "shwen," rising, and "meow," falling. Two words that meet in the last line of Chapter 1 — and that nearly every translation melts into a single word: "mystery."*

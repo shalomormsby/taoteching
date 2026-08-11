@@ -1,3 +1,12 @@
+---
+term: "知足"
+pinyin: "zhī zú"
+render: "knowing you have enough / contentment"
+forbidden: ["sufficiency", "fulfilled"]
+chapters: [33, 44, 46]
+status: locked
+pairing: false
+---
 ## 知足 (Zhī zú) — Knowing You Have Enough
 
 *Say "jr dzoo." A lock-note: one recurring phrase, one settled rendering, so it stops drifting.*

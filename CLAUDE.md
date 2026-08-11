@@ -32,13 +32,30 @@ The single most valuable thing the AI does here is **help Shalom see what he can
 
 ## Standing rules — non-negotiable
 
+0. **Shalom does not read Chinese. Gloss every character, every time.** Never write a Chinese character, phrase, or line in conversation or in a document without an immediate English rendering beside it — e.g. 為 (*wéi* — "to do / to handle"), not bare 為. This includes chapter titles, compounds, and terms already discussed earlier in the session. A working approximation is fine and expected; the *deep* meaning is what the glossary entry itself is for. Unglossed Chinese makes the work unreadable to the person whose work it is.
 1. **Never refer to the Sage as "he."** Use singular *they/their*, or recast. This is an impermissible gender bias. Applies to all archetypal figures.
 2. **Universality over the incidental male-default.** The text exalts the feminine as principle yet assumes the male as cultural default. Where they collide: **render toward the universal, note the seam.** Never erase the male-centrism silently.
 3. **Consult sources for *meaning*, never for *phrasing*.** Pre-1931 public domain only. Waley (1934) and later are off-limits.
 4. **Honesty over false closure.** Where the text is genuinely double, say so and leave the tension open.
-5. **Every decision gets logged** in one of the three notes layers. See below.
+5. **Typography: lowercase everything but the Tao; no em-dashes in the verse.** English capitals confer status — they turn a word into a doctrine (*the sage*, *the mother*, *the uncarved*, *stillness*, never *the Sage*). 道 keeps its capital as a proper name; nothing else does. And the em-dash both reads as a machine tell and **strands subjects**: classical Chinese omits them freely, English cannot, and a dash disguises the gap instead of closing it. Name the subject and end the sentence. *(Full reasoning in `notes/translation.md`.)*
+6. **Every decision gets logged** in one of the three notes layers. See below.
 
 ---
+
+## The glossary is generated — keep the frontmatter accurate
+
+Every `glossary/*.md` entry opens with YAML frontmatter (`term`, `pinyin`, `render`, `forbidden`, `chapters`, `status`, `covers`). **That frontmatter is the single source of truth for the locks.** Two files are derived from it and must never be hand-edited:
+
+- **`glossary/INDEX.md`** — the human lookup table
+- **`glossary/terms.yaml`** — the machine-readable locks, for `tools/check_locks.py` later
+
+**After adding or changing any glossary entry, run:**
+
+```bash
+python3 tools/build_index.py
+```
+
+Chapter lists are recomputed from `source/chinese.md` on every run, so they cannot go stale. Use `covers:` when an entry absorbs a secondary character (腹 inside 心, 器 inside 樸, 利/用 inside 無/有) so a reader looking up that character never dead-ends.
 
 ## The locks — settled renderings
 
@@ -57,17 +74,36 @@ Apply consistently across all 81 chapters. Departures require a logged reason.
 | 玄 | **dark** (standing alone) · **profound** (in compounds) | "mystery", "the occult" | `glossary/xuan-miao-玄妙.md` |
 | 妙 | **subtle / subtlety** | "mystery" | same |
 | 徼 | **boundaries** | "surfaces" | same |
-| 萬物 | **the ten-thousand things** | "all things", "the myriad things" | — |
+| 萬物 | **the countless things** | "the ten thousand things", "all things", "beings" | `glossary/wanwu-萬物.md` |
+| 心 / 腹 | **heart** / **belly** | "mind", "heart-mind", "the wise core", "consciousness" | `glossary/xin-心.md` |
 | 知足 | **knowing you have enough** · noun: **contentment** | "sufficiency", "fulfilled" | `glossary/zhizu-知足.md` |
 | 守 / 抱 | **hold fast to** / **embrace** | (do not swap) | — |
 | 聖人 | **the Sage** — always *they/their* | "Holy Man", "saint", "the Master" | — |
 | 我 / 吾 | the self **seen** / the self **seeing** | (both "I"; note the pairing) | `glossary/wo-wu-我吾.md` |
 | 自然 | **self-so / of-itself-so** | capital-N "Nature" | — |
 
+**Recently locked:**
+
+| Term | Render as | **Never** | Entry |
+|---|---|---|---|
+| 為 | **do / handle / serve as** | "execute", "function as" | `glossary/wei-為.md` |
+| 無為 | **non-doing** | "non-action", "effortless action", "inaction" | `glossary/wuwei-無為.md` |
+| 明 | **clear-seeing / clarity / sees clearly** | "enlightenment", "illumination", "brilliance" | `glossary/ming-明.md` |
+| 自然 | **the self-so / of itself / of themselves** | capital-N "Nature", "spontaneity" | `glossary/ziran-自然.md` |
+| 樸 | **uncarved wood / the uncarved** (lowercase) | "simplicity", "purity", capitalized "Uncarved Block" | `glossary/pu-樸.md` |
+| 無 / 有 | **absence / presence**; *empty / filled space* in ch 11 | "Being"/"Non-Being", "existence", "the Void", "nothingness" | `glossary/wu-you-無有.md` |
+
+*為 is a hand on an elephant — handling, not neutral doing. 無為 is taking your hand off it. "Non-doing" is required by Ch 63's triple parallel (為無為，事無事，味無味), which only survives with a verb that also works as a noun. Sweep pending: ch 2, 3, 10, 37, 38, 43, 48, 57, 63, 64.*
+
+*明 is moonlight through a window, not the sun — reception, not emission. Ch 52 proves it by using 光 (outward light) and 明 in one line: 用其光，復歸其明. Sweep pending: ch 33, 52.*
+
+*萬物: 萬 is a **scorpion** borrowed for its sound — the number is a phonetic accident, not a count — and 物 is a **mottled ox** (kinds, varieties). "Ten thousand" now reads as a ceiling to modern ears; 萬 meant *beyond reckoning*. The creatureliness lives in the **verbs** (生 gives birth · 畜 rears · 衣養 clothes and feeds) — never let those become "generates"/"produces".*
+
+*自然 is "self-so" (自 = a nose, the thing you point at to mean "me"), not "Nature" — that sense is a modern import, and in Ch 25's ladder it puts something above the Tao and inverts the cosmology. 自然 is also the **ground of 無為**: you can take your hand off because things go of themselves. Sweep pending: ch 17, 23, 25, 51, 64.*
+
 **Still open — decide and then lock:**
 
-- **無為** — "non-action" leading; lock where the paradox lives.
-- **明** — "clear-seeing" vs "illumination". Ch 16 and Ch 55 currently disagree. **Pick one; 知常曰明 is a repeated formula.**
+- *(none currently — 為, 無為, and 明 are settled. Next candidates come from `glossary/TRIAGE.md`.)*
 - **正 / 奇** — threaded as **straight / crooked** across 57–58. Confirm.
 
 ---
@@ -132,10 +168,23 @@ PLAN.md               the harness to build at Ch 81
 - **Chapters 1–60 and 65:** drafted. The earlier ones are **pre-lock** — they predate several glossary decisions and carry known overlay language ("the cosmos", "mystery", "all things", "eternal"). See `RETROFIT.md` for the scanned, evidence-based list.
 - **Chapters 61–64 and 66–81:** still to draft. **This is the active frontier.**
 - **Two locks are holding clean across the whole draft:** 德 → *integrity* (zero "virtue") and the Sage pronoun rule (zero "he/his/him"). Keep them that way.
-- **Order of work:** finish the first draft to 81, *then* the harness (`PLAN.md`), *then* the retrofit sweep. **Do not stop drafting to build tooling.**
+- **Order of work:** finish the first draft to 81, *then* the harness (`PLAN.md`). **Do not stop drafting to build tooling.**
+- **Retrofit policy — fix on discovery, not in a deferred batch.** When a lock is settled, sweep the affected chapters *immediately*. Mechanical term-swaps: just apply them. Lines needing a rewrite: propose to Shalom first, then apply. *(This reverses the original plan, which batched retrofits to the editing pass — that made sense only while `chapters/` were regenerated from the Google Doc and hand-edits would be clobbered. The Doc is retired; the constraint is gone.)*
+- **Always verify a flagged line against the Chinese in its own chapter before changing it.** Roughly a third of the first automated sweep's flags were false positives — 常 (*cháng*, constant) vs 長 (*cháng*, long), "the one" the pronoun vs 一, "Block the openings" (塞) vs "uncarved block" (樸). See the lessons at the foot of `RETROFIT.md`.
 
-## Source of truth
+## Source of truth — **`chapters/001–081.md`**
 
-`source/Tao-Te-Ching-shalom-translation-2026-08-09.md` is Shalom's working manuscript, exported from Google Docs. `chapters/*.md` are **generated from it**. When he supplies a newer export, regenerate the chapter files rather than hand-editing both — otherwise they drift.
+**The Google Doc has been retired (2026-08-10). This repository is now the source of truth, and the chapter files are the manuscript.**
+
+- **Edit `chapters/NNN.md` directly.** The `## Translation` block in each file *is* the translation. There is no upstream to sync with and nothing regenerates over it.
+- `source/archive-google-doc-final-export-2026-08-09.md` is a **frozen archive** of the last Doc export, kept for provenance. **Never edit it and never generate from it** — doing so would silently revert every change made since.
+- `source/chinese.md` is a **derived** convenience file (all 81 chapters' Chinese in one place). If the source tables in `chapters/` ever change, rebuild it from them.
+
+**Why this matters:** for the whole earlier history of this project the manuscript lived in Google Docs and the chapter files were generated from exports. That is over. A change made in a chapter file is now permanent, and a change made anywhere else is now invisible.
+
+**Consequences worth keeping in mind:**
+- Git history is now the real edit history of the translation — commit meaningfully.
+- Per-chapter frontmatter (`status`, `retrofit`) is live metadata; keep it accurate when you change a chapter.
+- `build.py` (see `PLAN.md`) should assemble deliverables **from `chapters/`**, in the opposite direction to the old export-and-split flow.
 
 **After every regeneration, run `python3 tools/fix-linebreaks.py`.** The translation is verse: every line break is deliberate, and Markdown renders a single newline as a space, collapsing each stanza into a running paragraph. The break must be a CommonMark hard break — **two trailing spaces** — which the manuscript already carries and generation has dropped before. `--check` fails loudly instead of rewriting. Never trim trailing whitespace from `.md` here; `.editorconfig` and `.vscode/settings.json` guard against it.

@@ -28,6 +28,7 @@ Start at [`chapters/001.md`](chapters/001.md). Each chapter carries the English 
 |---|---|
 | `chapters/001–081.md` | One file per chapter — translation, source text, notes |
 | `source/chinese.md` | The base Chinese text (Wang Bi received recension) |
+| [`glossary/INDEX.md`](glossary/INDEX.md) | **Start here for terms** — every locked rendering, generated from the entries |
 | `glossary/` | Radical-level entries on the key terms — the heart of the work |
 | `notes/manuscript.md` | Textual forks between the ancient witnesses, and which reading we follow |
 | `notes/translation.md` | Our own rendering decisions, and the standing principles |
