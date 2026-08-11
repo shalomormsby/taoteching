@@ -421,6 +421,31 @@ def rule_repeated_formula(chapters, verbose=False, **_):
     return out
 
 
+def rule_shaloms_call_unparsed(calls, **_):
+    """Every dated heading in the ledger must have produced a call.
+
+    A suspension the tool cannot see is a suspension that silently does not
+    apply — and worse, a stale call that can never be caught. This once happened
+    for real: a heading written `## DATE · rule (label)` failed a regex that
+    required the line to end at the rule id, and a three-call ledger parsed as
+    one with no complaint. Count the headings and compare.
+    """
+    from lib.corpus import CALLS
+    if not CALLS.exists():
+        return []
+    headings = re.findall(r"^## \d{4}-\d{2}-\d{2}\s*·", CALLS.read_text(encoding="utf-8"), re.M)
+    if len(headings) == len(calls):
+        return []
+    return [Finding(
+        "shaloms-call-unparsed", ERROR, 0, 1,
+        f"process/shaloms-call.md has {len(headings)} dated entries but "
+        f"{len(calls)} parsed — a call the tool cannot see is a rule that is "
+        f"silently not suspended. Check the heading format: "
+        f"`## YYYY-MM-DD · rule-id`",
+        "", "process/shaloms-call.md", {"shaloms-call-unparsed"},
+    )]
+
+
 def rule_stale_shaloms_call(calls, **_):
     """An override that has outlived its condition must be renewed or retired."""
     out = []
@@ -448,6 +473,7 @@ RULES = {
     "repeated-formula": rule_repeated_formula,
     "em-dash": rule_em_dash,
     "stale-shaloms-call": rule_stale_shaloms_call,
+    "shaloms-call-unparsed": rule_shaloms_call_unparsed,
 }
 
 

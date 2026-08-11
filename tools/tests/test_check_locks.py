@@ -13,6 +13,8 @@ The false-friend cases are the important half. If one of them starts failing,
 the checker has become noise.
 """
 
+import pathlib
+import re
 import sys
 import unittest
 from pathlib import Path
@@ -282,6 +284,24 @@ class ShalomsCall(unittest.TestCase):
         call = Call("em-dash", "CLAUDE.md", "repo", "standing", "why", "2026-08-11",
                     retired=True)
         self.assertFalse(call.covers(14))
+
+    def test_a_qualified_heading_still_parses(self):
+        # "## DATE · rule (label)" and "## DATE · rule — retired" are both
+        # legitimate; a regex that required the line to end at the rule id once
+        # made a three-call ledger parse as one, silently.
+        from lib.corpus import load_calls
+        calls = load_calls()
+        text = (pathlib.Path(__file__).resolve().parent.parent.parent
+                / "process" / "shaloms-call.md").read_text()
+        headings = re.findall(r"^## \d{4}-\d{2}-\d{2}\s*·", text, re.M)
+        self.assertEqual(len(calls), len(headings),
+                         "every dated heading in the ledger must parse to a call")
+
+    def test_unparsed_headings_are_an_error(self):
+        # The guard must fire when the counts disagree.
+        found = C.rule_shaloms_call_unparsed(calls=[])
+        self.assertTrue(found, "guard should fire when no calls parse")
+        self.assertEqual(found[0].severity, C.ERROR)
 
     def test_expired_call_is_an_error(self):
         call = Call("no-new-tooling", "PLAN.md", "repo", "2020-01-01", "why", "2019-12-01")

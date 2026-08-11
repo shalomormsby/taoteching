@@ -333,13 +333,20 @@ class Call:
 
 
 def load_calls():
-    """Parse process/shaloms-call.md. Entries after `## Retired calls` are retired."""
+    """Parse process/shaloms-call.md. Entries after `## Retired calls` are retired.
+
+    The heading is `## YYYY-MM-DD · rule-id`, and anything after the rule id is
+    a human label — "(sources library)", "— retired, condition met". Trailing
+    text is tolerated deliberately: requiring the heading to end at the rule id
+    once made a three-call ledger parse as one, silently, which is the worst
+    possible failure for a file whose job is to make suspensions visible.
+    """
     if not CALLS.exists():
         return []
     text = CALLS.read_text(encoding="utf-8")
     retired_at = text.find("## Retired calls")
     calls = []
-    for m in re.finditer(r"^## (\d{4}-\d{2}-\d{2})\s*·\s*(\S+)\s*$(.*?)(?=^## |\Z)",
+    for m in re.finditer(r"^## (\d{4}-\d{2}-\d{2})\s*·\s*(\S+).*?$(.*?)(?=^## |\Z)",
                          text, re.M | re.S):
         date, rule, body = m.group(1), m.group(2), m.group(3)
         fields = {}

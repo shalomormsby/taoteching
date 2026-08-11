@@ -47,6 +47,30 @@ reason: >
 
 ## Calls in effect
 
+## 2026-08-11 · no-new-tooling (sources library)
+
+rule: no-new-tooling
+source: PLAN.md — "the one rule this plan exists to protect: do not stop drafting to build tooling"
+scope: repo
+until: sources/ built per PLAN.md §8, then the rule resumes
+reason: >
+  Shalom directed the sources library on 2026-08-11, immediately after Ch 21
+  required Wang Bi, Heshang Gong and both Mawangdui silks to be fetched from the
+  open web to settle one line. Three problems with depending on search: a summary
+  of a variant is not evidence of a variant (the first search on Ch 21 reported
+  one fork correctly and missed the three others in the same two lines); no reader
+  can audit a claim against anything in this repo; and aligning witnesses for a
+  line is mechanical work that should be one command, run before drafting rather
+  than after.
+
+  This is new scope, not a continuation — the previous call covered harness phases
+  A–F, which are complete and now retired below. Scope is limited to PLAN.md §8:
+  vendoring Wang Bi, Heshang Gong and Han Feizi from verified pre-1929 editions,
+  a facts-only variants apparatus for the excavated witnesses, concordance and
+  check_locks support, and per-file provenance. On completion the rule resumes and
+  drafting continues at Ch 63.
+
+
 ## 2026-08-11 · shaloms-call
 
 rule: shaloms-call
@@ -61,7 +85,13 @@ reason: >
   the next session to work that had already been authorized — re-arguing a
   settled decision, which is the opposite of what the prime directive is for.
 
-## 2026-08-11 · no-new-tooling
+---
+
+## Retired calls
+
+*A call that has expired and been deliberately retired moves here rather than being deleted, so the history of the process stays readable.*
+
+## 2026-08-11 · no-new-tooling (harness phases A–F) — **retired 2026-08-11, condition met**
 
 rule: no-new-tooling
 source: PLAN.md — "the one rule this plan exists to protect: do not stop drafting to build tooling"
@@ -87,8 +117,6 @@ reason: >
   every edition built now would be built twice. On completion, this call
   expires and "do not stop drafting to build tooling" is back in force.
 
----
+**Why retired:** phases A–F are built and merged (PR #2). `tools/lib/corpus.py`, `check_locks.py` with nine rules and 42 tests, `concordance.py`, CI, the pre-commit hook, the `chapter-review` skill, and this ledger all exist. The nine lock violations the checker found on its first run are resolved. The condition in `until:` was met, so the call is spent — the rule it suspended is back in force except where the newer call above supersedes it.
 
-## Retired calls
-
-*None yet. A call that has expired and been deliberately retired moves here rather than being deleted, so the history of the process stays readable.*
+*Note the limit this exposed: `until:` was written as a **condition**, not a date, so `stale-shaloms-call` could not fire on it automatically. `tools/check_locks.py` lists condition-based calls in its footer for manual review instead. Retiring this one was a human act, prompted by that footer.*
