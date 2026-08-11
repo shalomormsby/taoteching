@@ -1,7 +1,35 @@
 # 道德經 — base text
 
-*Wang Bi received recension, via the Chinese Text Project (ctext.org).
-The classical text is in the public domain.*
+*The **Wang Bi** (王弼, 226–249 CE) received recension of the Laozi, all 81 chapters.*
+
+**Public domain by age, and by nothing else.** The Laozi is roughly 2,400 years old and Wang
+Bi's recension is seventeen centuries old. No copyright subsists in either, anywhere, and a
+faithful transcription of a public-domain text creates no new copyright — in the United States
+see *Feist v. Rural Telephone* (1991), which rejected "sweat of the brow," and *Bridgeman Art
+Library v. Corel* (1999) for faithful reproductions. **This repository's CC0 dedication rests
+on the age of the text and on nothing else** — not on the terms of any modern website, database,
+or printed edition.
+
+**Where to verify it independently.** This recension is printed in, among many others, the Ming
+*Zhengtong Daozang* (正統道藏, 1445), the *Siku Quanshu* (四庫全書, 1782), the Zhejiang Book
+Company's *Ershi'er zi* (二十二子, 1875), and the Commercial Press *Sibu congkan* (四部叢刊,
+first series from 1919). Every one of those predates 1929 and is wholly independent of this
+repository.
+
+**The punctuation is editorial, not authorial, and forms no part of the source.** The ancient
+text is unbroken columns of characters with no punctuation and no line breaks at all. Every
+comma and period below is a later editor's addition, marking the phrase divisions that the
+text's own character-beats dictate and that all modern editions share alike. This translation
+therefore treats punctuation and lineation as **its own** throughout, deliberately and on the
+record — see *Standing principle · Lineation and punctuation* in `notes/translation.md`.
+
+**Derived file.** The authoritative Chinese lives in the source tables of `chapters/001–081.md`,
+which are the manuscript. This file is a convenience copy, and `tools/check_locks.py` has a
+`source-drift` rule that fails if the two ever disagree.
+
+*Transcription was checked against the **Chinese Text Project** (ctext.org), with thanks. Their
+structured data is licensed CC BY-NC-SA 3.0; nothing here depends on that licence, since what
+was taken is the ancient text, which is free.*
 
 ## Chapter 1
 
