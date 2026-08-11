@@ -14,9 +14,12 @@ The method in `CLAUDE.md` is stable enough to execute rather than remember. This
 ## 0. Before anything, check what is already decided
 
 ```bash
-python3 tools/check_locks.py --chapter N --severity info    # what this chapter already violates
+python3 tools/concordance.py --witnesses N                   # where the witnesses disagree
+python3 tools/check_locks.py --chapter N --severity info     # what this chapter already violates
 python3 tools/concordance.py --formulas | grep -n .          # segments this chapter shares
 ```
+
+**Run `--witnesses` first, before reading the base text closely.** Ch 21 was drafted over a chronology both Mawangdui silks reverse; Ch 25 was drafted with a king the oldest witnesses do not have. Neither was carelessness — nobody had looked. If the command reports nothing, read that as *nobody has checked this chapter yet*, not as *there are no forks*: `sources/variants.yaml` is built by hand, chapter by chapter.
 
 Read `process/shaloms-call.md`. If a call is in effect that touches this chapter, **the call wins** — say so once and proceed. Do not re-argue it.
 
@@ -33,6 +36,8 @@ Decompose the contested characters to radicals. This is where the real findings 
 ## 2. Check the witnesses, then the commentaries
 
 Wang Bi is the base text. Check Mawangdui, Guodian, Fu Yi, and Beida for **meaning-bearing** forks only — orthographic variants are not findings. Then Wang Bi's, Heshang Gong's, and Han Feizi's commentaries.
+
+**Record what you find in `sources/variants.yaml`** — as *facts*, never as transcriptions, and never by copying anyone's reconstruction of a damaged graph. `sources/PROVENANCE.md` explains why, and it is a licensing rule, not a preference. Once recorded, `check_locks.py`'s `unlogged-variant` rule will fail the build if a meaning-bearing fork has no logged decision, so the apparatus and `notes/manuscript.md` cannot drift apart.
 
 **Consult sources for *meaning*, never for *phrasing*.** Pre-1931 public domain only. Waley (1934) and everything later is off-limits. If a phrase arrives in your head fully formed and elegant, be suspicious of where it came from.
 

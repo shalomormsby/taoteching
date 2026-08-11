@@ -32,6 +32,7 @@ from pathlib import Path
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 from lib.corpus import (  # noqa: E402
     ROOT, UNTRANSLATED_MARKER, load_base_text, load_calls, load_chapters, load_terms,
+    load_variants,
 )
 
 ERROR, WARN, INFO = "error", "warn", "info"
@@ -421,6 +422,47 @@ def rule_repeated_formula(chapters, verbose=False, **_):
     return out
 
 
+def rule_unlogged_variant(**_):
+    """A meaning-bearing fork must have a logged decision somewhere.
+
+    This is the rule the sources library exists to make possible. Ch 21 was
+    drafted over a reversed chronology in both Mawangdui silks with nothing
+    recording that a choice had been made; Ch 25 was drafted with a king the
+    oldest witnesses do not have. Neither was dishonest — nobody knew. Once the
+    apparatus exists, translating over a known fork without saying so becomes a
+    build failure rather than an accident.
+    """
+    out = []
+    for v in load_variants():
+        if not v.meaning_bearing:
+            continue
+        if not v.logged or v.logged.lower() == "false":
+            out.append(Finding(
+                "unlogged-variant", ERROR, v.chapter, 1,
+                f"{v.base} in {v.line} diverges meaningfully in the witnesses "
+                f"({', '.join(sorted(v.witnesses)) or 'editorial'}), and no decision "
+                f"is logged — record it in notes/manuscript.md and set `logged:`",
+                "", "sources/variants.yaml", {"unlogged-variant"},
+            ))
+            continue
+        target = ROOT / v.logged
+        if target.exists() and f"Ch {v.chapter} " not in target.read_text(encoding="utf-8"):
+            out.append(Finding(
+                "unlogged-variant", WARN, v.chapter, 1,
+                f"{v.base} claims to be logged in {v.logged}, but that file has no "
+                f'"Ch {v.chapter}" entry',
+                "", "sources/variants.yaml", {"unlogged-variant"},
+            ))
+        if v.our_call == "undecided":
+            out.append(Finding(
+                "unlogged-variant", WARN, v.chapter, 1,
+                f"{v.base} is recorded as undecided — the verse has to say something, "
+                f"so decide it or note why it is left open",
+                "", "sources/variants.yaml", {"unlogged-variant"},
+            ))
+    return out
+
+
 def rule_shaloms_call_unparsed(calls, **_):
     """Every dated heading in the ledger must have produced a call.
 
@@ -472,6 +514,7 @@ RULES = {
     "source-drift": rule_source_drift,
     "repeated-formula": rule_repeated_formula,
     "em-dash": rule_em_dash,
+    "unlogged-variant": rule_unlogged_variant,
     "stale-shaloms-call": rule_stale_shaloms_call,
     "shaloms-call-unparsed": rule_shaloms_call_unparsed,
 }

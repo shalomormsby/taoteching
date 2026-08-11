@@ -377,6 +377,45 @@ class SourceDrift(unittest.TestCase):
             C.load_base_text = original
 
 
+class Variants(unittest.TestCase):
+    """The apparatus, and the rule that keeps it honest."""
+
+    def test_the_apparatus_parses(self):
+        from lib.corpus import load_variants
+        vs = load_variants()
+        self.assertTrue(vs, "sources/variants.yaml parsed to nothing")
+        for v in vs:
+            self.assertTrue(v.chapter, "a variant has no chapter")
+            self.assertTrue(v.base, f"ch {v.chapter} variant has no base reading")
+            self.assertIn(v.our_call,
+                          {"base", "punctuation", "undecided"} | set(v.witnesses),
+                          f"ch {v.chapter}: our_call must be 'base', 'punctuation', "
+                          f"'undecided', or one of its own witnesses")
+
+    def test_chapter_filter(self):
+        from lib.corpus import load_variants
+        self.assertTrue(all(v.chapter == 25 for v in load_variants(25)))
+
+    def test_every_meaning_bearing_fork_is_logged(self):
+        # The whole point of the apparatus: a fork translated over without a
+        # recorded decision is a build failure, not an accident.
+        errors = [f for f in C.rule_unlogged_variant() if f.severity == C.ERROR]
+        self.assertEqual(errors, [])
+
+    def test_an_unlogged_fork_would_fire(self):
+        from lib.corpus import Variant
+        original = C.load_variants
+        C.load_variants = lambda chapter=None: [Variant(
+            chapter=63, line="夫輕諾必寡信", base="諾", witnesses={"mawangdui-a": "許"},
+            meaning_bearing=True, our_call="base", note="", logged="")]
+        try:
+            found = C.rule_unlogged_variant()
+            self.assertEqual(len(found), 1)
+            self.assertEqual(found[0].severity, C.ERROR)
+        finally:
+            C.load_variants = original
+
+
 class TheCorpusItself(unittest.TestCase):
     """Guards on the live manuscript, not on synthetic fixtures."""
 

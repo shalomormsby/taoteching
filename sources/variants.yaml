@@ -1,0 +1,223 @@
+# variants.yaml — the variant apparatus, as facts
+#
+# One entry per meaning-bearing divergence between our base text (the Wang Bi
+# received recension) and the older witnesses. Read by:
+#
+#   python3 tools/concordance.py --witnesses 21
+#   python3 tools/check_locks.py --rule unlogged-variant
+#
+# WHY FACTS AND NOT TRANSCRIPTIONS. The Mawangdui silks were excavated in 1973
+# and the Guodian slips in 1993. Every transcription of them is modern, and
+# reconstructing the damaged graphs is genuine editorial work by living
+# scholars. "Mawangdui A and B read 自今及古 where Wang Bi reads 自古及今" is a
+# fact about a text, and facts are not copyrightable. See PROVENANCE.md.
+#
+# Witness ids: wangbi (our base) · mawangdui-a (甲本, c. 200 BCE) ·
+# mawangdui-b (乙本, c. 175 BCE) · guodian (~300 BCE) · beida (early Han) ·
+# fuyi (Tang) · heshanggong · hanfeizi (解老 / 喻老, oldest commentary)
+#
+# Fields:
+#   chapter          int
+#   line             the base-text line the fork sits in
+#   base             our reading (the contested characters only)
+#   witnesses        {witness-id: reading}
+#   meaning_bearing  true when the fork changes what the line says
+#   our_call         base | <witness-id> | punctuation | undecided
+#   note             one sentence on what turns on it
+#   logged           where the reasoning lives, or false
+
+- chapter: 21
+  line: "自古及今，其名不去"
+  base: "自古及今"
+  witnesses: { mawangdui-a: "自今及古", mawangdui-b: "自今及古" }
+  meaning_bearing: true
+  our_call: base
+  note: >
+    Reverses the direction of the inquiry. Mawangdui makes the chapter start
+    from the present and trace backward; Wang Bi makes it arrive at the
+    present. We render the arrival, which is the movement of the chapter.
+  logged: notes/manuscript.md
+
+- chapter: 21
+  line: "以閱眾甫"
+  base: "閱"
+  witnesses: { mawangdui-a: "順", mawangdui-b: "順" }
+  meaning_bearing: true
+  our_call: base
+  note: >
+    閱 is to observe; 順 is to follow along with. The chapter closes on a
+    knowledge question (吾何以知), which the epistemic verb fits.
+  logged: notes/manuscript.md
+
+- chapter: 21
+  line: "以閱眾甫"
+  base: "甫"
+  witnesses: { mawangdui-a: "父", mawangdui-b: "父" }
+  meaning_bearing: false
+  our_call: base
+  note: >
+    No decision needed. Ch 42 already settled that 父 here means origin or
+    root, not father in the personal sense, so both give "origin" in English.
+  logged: notes/manuscript.md
+
+- chapter: 21
+  line: "吾何以知眾甫之狀哉"
+  base: "狀"
+  witnesses: { mawangdui-a: "然", mawangdui-b: "然" }
+  meaning_bearing: true
+  our_call: base
+  note: >
+    之狀 asks after its shape; 之然 asks whether it is so. The witness reading
+    would have harmonised this closing question with Ch 54 and Ch 57, which
+    both read 之然. That is the one real cost of keeping 狀.
+  logged: notes/manuscript.md
+
+- chapter: 25
+  line: "故道大，天大，地大，王亦大"
+  base: "王"
+  witnesses: { mawangdui-a: "人", mawangdui-b: "人" }
+  meaning_bearing: true
+  our_call: mawangdui-a
+  note: >
+    King or human among the four greats. Both silks read 人, and the older silk
+    reads 人 in the following line too, so it has no king in the passage at all.
+    The received text then contradicts itself with 人法地. See DISCOVERIES.md §1.
+  logged: notes/manuscript.md
+
+- chapter: 25
+  line: "域中有四大，而王居其一焉"
+  base: "王"
+  witnesses: { mawangdui-a: "人", mawangdui-b: "王" }
+  meaning_bearing: true
+  our_call: mawangdui-a
+  note: >
+    Silk B is caught mid-drift: 人 in the list of four, 王 here. The throne can
+    be watched arriving between the two silks.
+  logged: notes/manuscript.md
+
+- chapter: 25
+  line: "域中有四大"
+  base: "域"
+  witnesses: { mawangdui-a: "國", mawangdui-b: "國" }
+  meaning_bearing: false
+  our_call: base
+  note: >
+    域 is a bounded domain, 國 a state. Both are spatial and "within the realm"
+    serves either, so this is logged rather than decided.
+  logged: notes/manuscript.md
+
+- chapter: 25
+  line: "有物混成"
+  base: "混"
+  witnesses: { mawangdui-a: "昆", mawangdui-b: "昆" }
+  meaning_bearing: false
+  our_call: base
+  note: "Graphic variant only; both read as merged, undifferentiated."
+  logged: notes/manuscript.md
+
+- chapter: 32
+  line: "道常無名。樸雖小"
+  base: "道常無名。樸雖小"
+  witnesses: {}
+  meaning_bearing: true
+  our_call: punctuation
+  note: >
+    A punctuation fork, not a textual one, and the Chinese carries no
+    punctuation at all. Received breaks after 無名, making 樸 the subject that
+    is small. We read 無名樸 as one attribute of the Tao, making the Tao what
+    is small.
+  logged: notes/manuscript.md
+
+- chapter: 41
+  line: "大器晚成"
+  base: "晚成"
+  witnesses: { mawangdui-a: "免成", guodian: "曼成" }
+  meaning_bearing: true
+  our_call: mawangdui-a
+  note: >
+    Completed late, against never completed. We follow the witnesses because it
+    completes the parallel with 無隅 / 希聲 / 無形, each "the great X lacks its
+    defining mark."
+  logged: notes/manuscript.md
+
+- chapter: 42
+  line: "吾將以為教父"
+  base: "教父"
+  witnesses: { mawangdui-a: "學父" }
+  meaning_bearing: true
+  our_call: mawangdui-a
+  note: >
+    Father of teaching, against father of learning. We follow the silk — the
+    bolder reading and the older one. 父 means origin or root here.
+  logged: notes/manuscript.md
+
+- chapter: 46
+  line: "禍莫大於不知足"
+  base: "(two calamity clauses)"
+  witnesses: { mawangdui-a: "罪莫大於可欲 (a third, prior clause)", fuyi: "罪莫大於可欲" }
+  meaning_bearing: true
+  our_call: base
+  note: >
+    The older witnesses remember a rising three-beat — crime/desire,
+    disaster/discontent, fault/greed — that the received text trimmed to two.
+    We keep the received pair and note the fuller crescendo.
+  logged: notes/manuscript.md
+
+- chapter: 47
+  line: "不見而名"
+  base: "名"
+  witnesses: { mawangdui-a: "明" }
+  meaning_bearing: true
+  our_call: mawangdui-a
+  note: >
+    The homophone pair, both míng. We follow 明 (clear-seeing): it completes the
+    parallel of know / see-clearly / accomplish, each without its usual means.
+  logged: notes/manuscript.md
+
+- chapter: 53
+  line: "是謂盜夸"
+  base: "夸"
+  witnesses: { mawangdui-a: "竽", mawangdui-b: "竽", hanfeizi: "竽" }
+  meaning_bearing: true
+  our_call: mawangdui-a
+  note: >
+    夸 is swagger; 竽 is the great reed mouth-organ that led the ancient
+    ensemble. 盜竽 makes the gleaming ruler not merely a loud thief but the
+    ringleader whose tune the rest play along to. Han Feizi reads it so.
+  logged: notes/manuscript.md
+
+- chapter: 55
+  line: "未知牝牡之合而全作"
+  base: "全"
+  witnesses: { mawangdui-a: "朘", fuyi: "朘" }
+  meaning_bearing: true
+  our_call: base
+  note: >
+    朘 is specifically the infant boy's member. We keep our base text's 全
+    (whole) in its plain sense, which preserves the point about desireless
+    potency while keeping the emblem available to infants of every gender.
+  logged: notes/manuscript.md
+
+- chapter: 61
+  line: "大國者下流 … (國 ×7)"
+  base: "國"
+  witnesses: { mawangdui-a: "邦", mawangdui-b: "邦" }
+  meaning_bearing: false
+  our_call: base
+  note: >
+    The systematic Han name-taboo avoiding the personal name of the founding
+    emperor Liu Bang (劉邦). Meaning-neutral, logged once rather than at each
+    of the seven occurrences.
+  logged: notes/manuscript.md
+
+- chapter: 61
+  line: "小國以下大國，則取大國"
+  base: "則取大國"
+  witnesses: { }
+  meaning_bearing: true
+  our_call: base
+  note: >
+    Not a witness fork but an editorial one: some editions supply 於 (取於大國)
+    to license a passive reading. We keep the active in both halves, since the
+    chiastic repetition is the argument. Heshang Gong reads it actively too.
+  logged: notes/manuscript.md

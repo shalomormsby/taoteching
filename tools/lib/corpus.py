@@ -29,6 +29,7 @@ CHAPTERS = ROOT / "chapters"
 GLOSSARY = ROOT / "glossary"
 SOURCE = ROOT / "source" / "chinese.md"
 CALLS = ROOT / "process" / "shaloms-call.md"
+VARIANTS = ROOT / "sources" / "variants.yaml"
 
 # A chapter's Source table marks its header row with 原文 ("original text")
 # and its alignment row with colons and dashes. Both are skipped.
@@ -369,3 +370,86 @@ def load_calls():
             retired=retired_at != -1 and m.start() > retired_at,
         ))
     return calls
+
+
+# -------------------------------------------------------------------- variants
+
+@dataclass
+class Variant:
+    """One divergence between our base text and an older witness.
+
+    A fact about a text, not a transcription of one — see sources/PROVENANCE.md
+    for why the excavated manuscripts are recorded this way and never copied.
+    """
+    chapter: int
+    line: str
+    base: str
+    witnesses: dict
+    meaning_bearing: bool
+    our_call: str
+    note: str
+    logged: str
+
+    @property
+    def followed_a_witness(self):
+        return self.our_call not in ("base", "punctuation", "undecided", "")
+
+    def __str__(self):
+        others = " · ".join(f"{k}: {v}" for k, v in sorted(self.witnesses.items()))
+        return f"ch {self.chapter} · {self.base} ({others or 'editorial'})"
+
+
+def load_variants(chapter=None):
+    """Parse sources/variants.yaml. Hand-rolled, like everything else here."""
+    if not VARIANTS.exists():
+        return []
+    out, cur = [], None
+
+    def flush():
+        if not cur:
+            return
+        out.append(Variant(
+            chapter=int(cur.get("chapter", 0)),
+            line=cur.get("line", ""),
+            base=cur.get("base", ""),
+            witnesses=cur.get("witnesses", {}),
+            meaning_bearing=str(cur.get("meaning_bearing", "")).lower() == "true",
+            our_call=cur.get("our_call", ""),
+            note=" ".join(cur.get("note", "").split()),
+            logged=cur.get("logged", ""),
+        ))
+
+    key = None
+    for raw in VARIANTS.read_text(encoding="utf-8").split("\n"):
+        if raw.lstrip().startswith("#"):
+            continue
+        if raw.startswith("- "):
+            flush()
+            cur = {}
+            raw = "  " + raw[2:]
+        if cur is None:
+            continue
+        m = re.match(r"^\s{2}(\w+):\s*(.*)$", raw)
+        if m:
+            key, val = m.group(1), m.group(2).strip()
+            if key == "witnesses":
+                cur[key] = dict(
+                    (k.strip(), v.strip().strip('"'))
+                    for k, v in (p.split(":", 1) for p in _split_inline(val))
+                ) if val.strip("{} ") else {}
+            elif val == ">":
+                cur[key] = ""
+            else:
+                cur[key] = val.strip('"')
+        elif key and raw.strip():
+            cur[key] = (cur.get(key, "") + " " + raw.strip()).strip()
+    flush()
+    if chapter is not None:
+        out = [v for v in out if v.chapter == chapter]
+    return out
+
+
+def _split_inline(val):
+    """Split `{a: x, b: y}` on commas that are not inside a reading."""
+    inner = val.strip().lstrip("{").rstrip("}").strip()
+    return [p for p in (s.strip() for s in inner.split(",")) if p and ":" in p]

@@ -120,7 +120,13 @@ Encoding it makes the method **portable and repeatable** — identical whether C
 
 Not in the original plan, and the reason this one could be written at all. `process/shaloms-call.md` records a rule Shalom has set aside, with scope, expiry, and reason. Suspensions are never silent (the checker prints a footer naming them) and an expired call is an error, so each is renewed or retired deliberately. Without it, an override lived only as a sentence in one conversation — invisible in the repo, and leaving the AI to re-argue a settled decision next session.
 
-## 8. `sources/` — the witnesses and commentaries, in the repo 📋 **SPEC'D, not built**
+## 8. `sources/` — the witnesses and commentaries, in the repo ⚠️ **PART BUILT (2026-08-11)**
+
+**Built:** `sources/PROVENANCE.md` (the admission rules), `sources/variants.yaml` (17 forks recorded as facts), `concordance.py --witnesses N`, and `check_locks.py`'s `unlogged-variant` rule. 48 tests.
+
+**Not built, and not buildable yet:** the commentary text itself. `sources/commentaries/` is empty because **no source meeting the admission rules has been obtained.** ctext is CC BY-NC-SA and Chinese Wikisource is CC BY-SA; neither can be relicensed CC0, and the NonCommercial clause is incompatible with the companion volume. A verified **pre-1929 scan** — the *Sibu congkan* (1919–) or *Sibu beiyao* (1920s, Ming-based) — or a CC0-dedicated digital edition is required first. See `sources/PROVENANCE.md` → *`commentaries/` is empty, and that is not an oversight*.
+
+*Better an empty directory with rules than a full one with a licence nobody can defend.*
 
 *Proposed 2026-08-11, after Ch 21 required fetching Wang Bi, Heshang Gong, and both Mawangdui silks from the open web to answer one question about one line. **Needs its own `shaloms-call`** — the existing suspension of the no-new-tooling rule covers phases A–F only, and this is new scope.*
 

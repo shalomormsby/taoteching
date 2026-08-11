@@ -172,6 +172,8 @@ process/method.md     the full working guide (this file is its compression)
 process/shaloms-call.md   rules Shalom has set aside, and why — read at session start
 process/skills/       the method, made executable (chapter-review · glossary-entry)
 process/overlay-audit.md
+sources/PROVENANCE.md what may live in sources/, and on what authority — read before adding
+sources/variants.yaml the witness apparatus, as facts (never transcriptions)
 tools/                check_locks.py (the gate) · concordance.py (the evidence)
 process/legacy-tao-source-code.md   ⚠ archived, contains SUPERSEDED renderings
 DISCOVERIES.md        ★ the findings worth writing about — read when taking stock
@@ -191,6 +193,7 @@ python3 tools/check_locks.py --chapter 61       # while drafting
 python3 tools/concordance.py 明                  # every chapter, line, gloss, verse
 python3 tools/concordance.py --english "clarity"  # is a rendering backed by its character?
 python3 tools/concordance.py --formulas          # segments repeated across chapters
+python3 tools/concordance.py --witnesses 25      # where the older manuscripts disagree
 ```
 
 **`check_locks.py` optimizes precision.** It exits non-zero, gates the pre-commit hook and CI, and must never cry wolf — so **no rule fires on English alone.** "virtue" is an error only when 德 is in *that chapter's own* Chinese; otherwise it drops to `info` in a separate false-friends list. That evidence gate is what makes it usable: it took the first run's error list to **9 findings with zero false positives**.
@@ -198,6 +201,8 @@ python3 tools/concordance.py --formulas          # segments repeated across chap
 **`concordance.py` optimizes recall.** It judges nothing and never fails. Use it for the evidence a glossary entry or a chapter review needs. **Do not merge the two** — a tool that gates and searches at once ends up too noisy to gate and too quiet to search.
 
 **When a check is wrong, there are two answers and they are different sizes.** A `lock-ok` comment in the chapter's `## Notes` waives **one finding** and must carry a reason; an unused waiver is itself an error, so the files self-clean. A `shaloms-call` sets aside **a whole rule** — see `process/shaloms-call.md`. Never delete a rule to silence it.
+
+**Check the witnesses before drafting, not after.** `concordance.py --witnesses N` reports the recorded forks for a chapter. Ch 21 was drafted over a chronology both Mawangdui silks reverse, and Ch 25 over a king the oldest witnesses do not have — neither was carelessness, nobody had looked. **A blank result means nobody has checked that chapter yet**, not that there are no forks: `sources/variants.yaml` is built by hand. Record new forks there as **facts, never transcriptions** — `sources/PROVENANCE.md` explains why that is a licensing rule and not a preference.
 
 **Do not trust the literal glosses in the source tables.** They speak pre-lock English — "virtue", "the ten thousand things", "mysterious" — which is exactly what this edition rejects. They are a starting point, not a reading, and matching a locked term against its own gloss fails precisely where the locks matter most.
 
