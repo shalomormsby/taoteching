@@ -237,7 +237,7 @@ python3 tools/concordance.py --commentary 63     # Wang Bi and Heshang Gong on a
 
 ## Current state — read before starting
 
-**★ `DISCOVERIES.md` holds the findings that want essays.** First entry: **no heaven, and no king** — in the oldest witnesses Ch 25 reads *"the Tao is vast, the sky is vast, the earth is vast, and the human is vast."* Both Mawangdui silks read 人 (*rén* — human) where our base text reads 王 (*wáng* — king), and the older silk has no king in the passage at all. Two layers of accretion, Chinese scribes then English missionaries, both adding hierarchy. Possibly a book.
+**★ `DISCOVERIES.md` holds the findings that want essays — read it when taking stock of what to write.** Two so far, and they are complements. **§2, the question is "is it so?", not "what is it?"** — 自然 (*zìrán* — the self-so) is 自 (*zì* — self) + 然 (*rán* — **so, that it is the case**), and 然 alone closes chapters 21, 54 and 57 on one formula: 吾何以知…然哉？以此, *"how do I know it is so? By this."* Not what a thing **is** but whether it **is so**, answered not by authority but by *this, here, now*. An ontology and an epistemology in twenty characters. **§1, no heaven and no king** — in the oldest witnesses Ch 25 reads *"the Tao is vast, the sky is vast, the earth is vast, and the human is vast."* Both Mawangdui silks read 人 (*rén* — human) where our base text reads 王 (*wáng* — king), and the older silk has no king in the passage at all. Two layers of accretion, Chinese scribes then English missionaries, both adding hierarchy. Possibly a book.
 
 
 - **Chapters 1–60 and 65:** drafted, and **swept clean against every lock**. All 61 carry `retrofit: []`. The 2026-08-10 sweep resolved the accumulated debt; do not assume the early chapters are still pre-lock.

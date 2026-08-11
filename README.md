@@ -39,7 +39,7 @@ Start at [`chapters/001.md`](chapters/001.md). Each chapter carries the English 
 | [`sources/`](sources/PROVENANCE.md) | The classical commentaries — Wang Bi (71 ch.) and Heshang Gong (81 ch.) — the variant apparatus, and per-file provenance |
 | `tools/` | The harness — see below |
 | `CLAUDE.md` · `AGENTS.md` | Operating context for AI collaborators and tools |
-| [`DISCOVERIES.md`](DISCOVERIES.md) | **The findings worth writing about** — start here for what this research turned up |
+| [`DISCOVERIES.md`](DISCOVERIES.md) | **The findings worth writing about** — start here for what this research turned up: what later hands added, and what the book says once it comes off |
 | `RETROFIT.md` | Known consistency debt across chapters |
 | `PLAN.md` | The harness: what is built, what is deliberately not |
 
