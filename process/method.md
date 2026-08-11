@@ -92,6 +92,20 @@ When readings conflict, decide in this order:
 
 **When genuinely unresolvable:** choose one reading for the verse, and **log the fork** in the notes. Never paper over a real ambiguity — surface it.
 
+### Intuition is last as an arbiter, and often **first as a detector**
+
+The order above is about **deciding**, and putting Shalom's intuition last is right for that: a feeling cannot settle what a character means, and a rendering that feels good is not thereby true.
+
+But that ordering describes only half of what intuition does here. In practice it is frequently what **starts** the inquiry — and the list above, read carelessly, suggests it arrives at the end.
+
+**The case that earned this note (Ch 25, 2026-08-11).** Shalom rendered 王 (*wáng* — king) as *the aligned human* because a monarch **sat wrong in the line**. No variant had been flagged, no tool had fired, no research was underway. He said the word didn't feel right and asked whether there was any evidence Laozi had absolutely meant a male ruler. There was, and it was decisive: **both Mawangdui silks read 人** (*rén* — human), and the older silk has no king anywhere in the passage. Nobody would have gone looking without the feeling that went first. *(See `DISCOVERIES.md` §1.)*
+
+**So treat the feeling as data.** A word that sits wrong is a signal that something in the line is carrying weight it has not earned — an imported frame, a supplied subject, an overlay, or a transmitted interpolation. The feeling cannot say which. It is very good at saying *there is one*.
+
+For the AI collaborator this is a specific instruction: **when Shalom says a word feels off, that is a research assignment, not a preference to accommodate.** Do not reach for a synonym that feels better. Go find out what the discomfort is detecting — characters, witnesses, commentaries, the lot — and report what is actually there. Sometimes the answer is that the instinct was wrong, and that is a real answer too. But the instinct earns the search.
+
+**Feelings matter in this process. They are an instrument in it, not decoration on it.**
+
 ---
 
 ## 5. The notes system — three layers

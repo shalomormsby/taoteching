@@ -217,7 +217,16 @@ class Waivers(unittest.TestCase):
         self.assertEqual(len(stale), 1)
         self.assertEqual(stale[0].severity, C.ERROR)
 
-    def _run(self, ch, calls=()):
+    def test_a_filtered_run_never_calls_a_waiver_dead(self):
+        # A partial run cannot know: --rule leaves the consuming rule unrun, and
+        # --chapter drops cross-chapter findings filed under another number.
+        # Reporting a live waiver as dead would teach you to delete good waivers.
+        ch = chapter(22, "The sage does their work.", "聖人")
+        ch.waivers = [Waiver("repeated-formula", "deliberate, see notes", 40)]
+        findings, _, _ = self._run(ch, rule_filter={"unused-waiver"})
+        self.assertEqual([f for f in findings if f.rule == "unused-waiver"], [])
+
+    def _run(self, ch, calls=(), rule_filter=None):
         """Exercise run()'s waiver and suppression logic against one chapter."""
         original_chapters, original_terms, original_calls = (
             C.load_chapters, C.load_terms, C.load_calls)
@@ -225,7 +234,7 @@ class Waivers(unittest.TestCase):
         C.load_terms = lambda: []
         C.load_calls = lambda: list(calls)
         try:
-            return C.run(rule_filter={"sage-pronoun", "unused-waiver"})
+            return C.run(rule_filter=rule_filter)
         finally:
             C.load_chapters, C.load_terms, C.load_calls = (
                 original_chapters, original_terms, original_calls)

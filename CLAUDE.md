@@ -139,6 +139,8 @@ Also watch **register**, not just vocabulary: KJV cadence, devotional capitaliza
 
 **Tie-breaking order:** characters/radicals → oldest witnesses → classical commentaries → internal consistency and locks → this edition's ethos → Shalom's poetic intuition (final arbiter, exercised *after* the deepest reading is on the table).
 
+**But intuition is last as an *arbiter* and often first as a *detector*.** When Shalom says a word feels off, that is **a research assignment, not a preference to accommodate.** Do not offer a synonym that feels better — go find what the discomfort is detecting. Ch 25's *king* was caught exactly this way, and the oldest witnesses proved him right. *(`DISCOVERIES.md` §1; `process/method.md` §4.)*
+
 ---
 
 ## The notes system — three layers
@@ -166,6 +168,7 @@ process/skills/       the method, made executable (chapter-review · glossary-en
 process/overlay-audit.md
 tools/                check_locks.py (the gate) · concordance.py (the evidence)
 process/legacy-tao-source-code.md   ⚠ archived, contains SUPERSEDED renderings
+DISCOVERIES.md        ★ the findings worth writing about — read when taking stock
 RETROFIT.md           the debt list
 PLAN.md               the harness — phases A–F built 2026-08-11; build.py still deferred
 ```
@@ -195,6 +198,9 @@ python3 tools/concordance.py --formulas          # segments repeated across chap
 ---
 
 ## Current state — read before starting
+
+**★ `DISCOVERIES.md` holds the findings that want essays.** First entry: **no heaven, and no king** — in the oldest witnesses Ch 25 reads *"the Tao is vast, the sky is vast, the earth is vast, and the human is vast."* Both Mawangdui silks read 人 (*rén* — human) where our base text reads 王 (*wáng* — king), and the older silk has no king in the passage at all. Two layers of accretion, Chinese scribes then English missionaries, both adding hierarchy. Possibly a book.
+
 
 - **Chapters 1–60 and 65:** drafted, and **swept clean against every lock**. All 61 carry `retrofit: []`. The 2026-08-10 sweep resolved the accumulated debt; do not assume the early chapters are still pre-lock.
 - **Chapters 61–64 and 66–81:** still to draft. **This is the active frontier.**

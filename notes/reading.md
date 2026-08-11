@@ -75,4 +75,34 @@ What makes the chain worth following is where it starts: 知常, *knowing the ev
 
 ---
 
+**Ch 29 · 神器 — the sacred vessel is a bronze, and it was already lost.** ⟡ *research lead, to develop*
+
+天下神器 (*tiān xià shén qì*) is usually read as an abstraction — the world is sacred, do not meddle. But 器 (*qì*) is a concrete object, and in the late Zhou a **神器** was concrete indeed: the **ritual bronzes**, above all the 九鼎 (*jiǔ dǐng* — the **nine cauldrons**), legendarily cast by Yu the Great and passed from dynasty to dynasty as the visible warrant of the mandate to rule. To hold the cauldrons was to hold the world. 神器 later comes to mean the throne itself.
+
+So Ch 29 opens on 將欲**取**天下 — *wishing to **seize** the world* — and answers: the world is a sacred vessel, 不可執, **it cannot be grasped**. To a contemporary ear that is not a metaphor. It is a sentence about reaching for the cauldrons.
+
+**Two things make this sharper than a passing allusion.**
+
+**A near-contemporary text asks exactly this question and gives Laozi's answer in Laozi's vocabulary.** In the *Zuo Zhuan* (*Xuangong* 3, **606 BCE**), King Zhuang of Chu masses troops on the Zhou border and asks after "the size and weight of the cauldrons" — 問鼎, which becomes the idiom for coveting a throne. The Zhou envoy Wangsun Man answers: **在德不在鼎** — *"it lies in 德, not in the cauldrons."* **德** — the word this edition locks as **integrity**. Two texts of the same era, one in court and one in verse, both saying the vessel is not the thing.
+
+**And the nine cauldrons were themselves lost in the late Zhou** — vanished, their whereabouts unknown by the time Qin unified in 221 BCE. The supreme sacred vessel disappeared precisely amid the grasping for it. 執者失之: *those who grasp it lose it.* The chapter's warning had already come true, in the most literal way available, within living memory of its composition.
+
+**To develop.** Shalom has stood in front of Zhou bronzes at the Smithsonian and was moved by them — the patterns, and the meanings worked into them. That is the right way into this note: the 饕餮 (*tāotiè*) mask, the 雷紋 (*léi wén* — thunder pattern), the inscriptions cast *inside* the vessel where only the ancestor and the spirits would read them. A vessel whose most important writing faces inward is a good emblem for a chapter about not grasping. Worth expanding for the companion volume, and worth checking against the *Zuo Zhuan* passage in full.
+
+---
+
+**Thread · Reading past the throne — and past the male default.** ⟡ *research lead; may be worth a chapter of its own*
+
+The Tao Te Ching exalts the feminine as a **principle** — 母 (*mǔ* — mother), 牝 (*pìn* — the female animal), 雌 (*cí* — the female bird), 谷 (*gǔ* — valley), 柔 (*róu* — the yielding) — while assuming, as a text of its age, two cultural defaults it never argues for: that the exemplary person is **male**, and that the exemplary agent is a **ruler**. This edition reads past both, and notes the seam each time. Gathered here because the seam has a pattern, and the pattern may be the more interesting subject.
+
+**Where the manuscripts side with us.** Ch 25's four greats: our base text reads 王 (*wáng* — king), but **both Mawangdui silks read 人** (*rén* — human), and the older silk has no king anywhere in the passage. The received text then contradicts itself one line later with 人法地 ("humans follow earth"). So on the book's most famous cosmological ladder, the throne appears to be a **later overlay**, and the older reading is the universal one. *("Overlay," not "interpolation": 王 standing where 人 stood is a substitution, not inserted material — and it makes the same phenomenon this project already names in the translation layer. See `DISCOVERIES.md` §1.)* *(Apparatus in the Manuscript Notes; rendering in the Translation Notes.)*
+
+**Where we universalize on our own authority, and say so.** Ch 16's 公乃王 becomes *"impartiality leads to sovereignty"* — a quality, not a monarch. Ch 55's 朘 (*zuī*), specifically the infant boy's member in the older witnesses, is read through our base text's 全 (*quán* — whole) as *"their whole being quickens with life,"* keeping the emblem available to infants of every gender. Every 聖人 (*shèng rén* — the sage) takes singular *they*.
+
+**Where the text needs no help.** Ch 61 makes the most explicit case for feminine power in the book — 天下之牝 ("the female of the world"), 牝常以靜勝牡 ("the female always overcomes the male through stillness") — and argues it entirely with 牝 / 靜 (*jìng* — stillness) / 下 (*xià* — below), without one syllable of 陰 (*yīn*). 陰 appears **once in all 81 chapters**, in Ch 42, paired with 陽 (*yáng*), and never as the feminine principle. The popular yin-yang framing of Laozi is imported.
+
+**The questions worth a chapter.** Is 王 even a person? The graph is read as an axe-head, the emblem of authority — or as three horizontals (sky, human, earth) crossed by one vertical: **the one who joins the three realms**, a *function* rather than a sex or a station. The *Shuowen Jiezi* (~100 CE) glosses 王 as 天下所歸往, "that to which the world turns," which is a description of gravitational pull, not of a man on a seat. And if the throne is an overlay in Ch 25, where else? The book is addressed to rulers throughout — 侯王 (*hóu wáng* — lords and kings) in 32 and 37, 治國 (*zhì guó* — governing the state), 聖人之治 (the sage's governing). How much of that is Laozi, and how much is the text's transmission through court libraries by scribes for whom the reader was self-evidently a prince?
+
+---
+
 *To add an entry: chapter · title · the note (or **Thread · title · note** for a motif that runs across chapters) — reserve this layer for what illuminates *meaning* for the reader, not textual variants (Manuscript Notes) or word-choices (Translation Notes).*

@@ -38,6 +38,7 @@ Start at [`chapters/001.md`](chapters/001.md). Each chapter carries the English 
 | `process/skills/` | The method made executable, for AI collaborators |
 | `tools/` | The harness — see below |
 | `CLAUDE.md` · `AGENTS.md` | Operating context for AI collaborators and tools |
+| [`DISCOVERIES.md`](DISCOVERIES.md) | **The findings worth writing about** — start here for what this research turned up |
 | `RETROFIT.md` | Known consistency debt across chapters |
 | `PLAN.md` | The harness: what is built, what is deliberately not |
 

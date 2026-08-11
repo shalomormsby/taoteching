@@ -4,6 +4,18 @@
 
 ---
 
+**Ch 21 · 自古及今 / 自今及古 — and three more forks in the same two lines.**
+Our base reads 自**古**及**今** ("from ancient times until today"), 以**閱**眾**甫** ("thereby to observe the origin of the many"), and 眾甫之**狀** ("the *shape* of that origin"). **Both Mawangdui silks disagree on all four points**, reading 自**今**及**古** ("from **now back to** antiquity"), 以**順**眾**父** (順 = *follow along with*, not *observe*), and 眾父之**然** ("that it *is so*"). **We keep the base text on all four**, and log the forks because the first one is genuinely meaning-bearing: it reverses the direction of the inquiry. Mawangdui makes the chapter *start* from the present and trace backward; Wang Bi makes it *arrive* at the present. We render the arrival — the line ends on "today," and the closing "By this, here, now" completes the movement toward the reader, which is the movement of the whole chapter. (Two notes: 甫/父 needs no decision, since Ch 42 already settled that 父 here means *origin / root*, not "godfather" — both give "origin" in English. And Mawangdui's 之**然** would have harmonized Ch 21's closing question with Ch 54 and Ch 57, which both read 之然; that is the one real cost of keeping 狀.)
+
+---
+
+**Ch 25 · 王亦大 / 人亦大 — king or human among the four greats.**
+Our base reads 故道大，天大，地大，**王**亦大 ("the **king** is also great") and 域中有四大，而**王**居其一焉. **Both Mawangdui silks read 人 (*rén* — human) in the list of four**, and the older silk (甲本, c. 200 BCE) reads 人 in *both* places — 天大地大**人**亦大 … 而**人**居一焉. Silk B (乙本, c. 175 BCE) is caught mid-drift: 人 in the list, 王 in the line after. **We follow 人**, rendering *the aligned human*.
+
+Two further points. **The received text contradicts itself:** Wang Bi's own next line is 人法地 ("humans follow earth"), so the received recension makes the *king* one of the four greats and then instantly makes *humans* the bottom rung of the ladder. The silks are internally consistent; the received text is not. And **域 / 國** is a second fork in the same line — our base reads 域中 (*yù zhōng* — within the domain), both silks read 國中 (*guó zhōng* — within the state). Both are spatial and "within the realm" serves either, so it is logged rather than decided. *(Note also 有物**混**成 / 有物**昆**成 — a graphic variant only, both "merged, undifferentiated"; not meaning-bearing.)*
+
+---
+
 **Ch 41 · 大器晚成.**
 Received: 晚成, "completed **late**." Mawangdui reads 免成, Guodian reads 曼成 — both "**never** completed / free of completion." We follow the manuscript reading — *"the great vessel is never completed"* — because it completes the parallel with its neighbors (無隅 / 希聲 / 無形, each "the great X *lacks* its defining mark"). Flagged here rather than decided in silence.
 
@@ -21,6 +33,12 @@ Received: 盜**夸** (dào kuā) — "the *swagger* / boast / extravagance of th
 
 **Ch 55 · 未知牝牡之合而全作 / 朘作.**
 Received (Wang Bi, our base): 而**全**作 — 全 = *whole, complete* — "yet it quickens wholly." The older **Mawangdui** and **Fu Yi** texts read 而**朘**作, where 朘 (zuī) is specifically *the infant boy's member* — an explicit male erection. The traditional gloss takes both as the reflex erection (全 as a decorous stand-in for 朘). We keep our base text's **全** and read it in its plain sense — *the whole being quickens with life* — which preserves the point (精之至: desireless potency arising from fullness) while keeping the emblem universal, for infants of every gender. (See the paired Translation Note, and Process guide §0 on the incidental male-default.)
+
+**Ch 61 · 邦 / 國 — the Han name-taboo.**
+Where our received base reads 國 (*guó* — state) seven times in this chapter, the Mawangdui silks read 邦 (*bāng* — state). This is the systematic Han substitution avoiding the personal name of the founding emperor Liu Bang (劉邦), and it runs through the received text wherever 邦 stood. Meaning-neutral, logged once here rather than at every occurrence.
+
+**Ch 61 · 則取大國 — active, not passive.**
+Received: 小國以下大國，則**取**大國 — *"a small state, by going below a large state, then **takes** the large state."* The Chinese carries no passive marker, yet most translations render the second half passively ("is taken by the large state"), and some editions supply 於 (取**於**大國) to license it. We keep the **active** reading in both halves. The chiastic repetition is the argument: the same move, made by either party, acquires the other. Heshang Gong reads it so as well, glossing the pair as the large state gaining the small state's goodwill and the small state gaining the large state's favour. Making the second half passive restores exactly the ordinary power relation this chapter exists to invert.
 
 ---
 

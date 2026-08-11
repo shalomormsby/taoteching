@@ -48,7 +48,18 @@ class Finding:
     line: str = ""
     ref: str = ""                       # where the decision is written down
     tags: set = field(default_factory=set)   # what a lock-ok waiver may name
+    scope: set = field(default_factory=set)  # chapters whose Notes may waive this
     waived_by: object = None
+
+    def waivable_in(self):
+        """A finding about two chapters can be waived from either of them.
+
+        Cross-chapter findings are filed under one number for display, but the
+        decision they record may belong to the other — a formula deliberately
+        rendered two ways is Ch 23's choice, not Ch 17's, even though the
+        finding prints under 17.
+        """
+        return self.scope or {self.chapter}
 
     def as_dict(self):
         return {
@@ -395,7 +406,7 @@ def rule_repeated_formula(chapters, verbose=False, **_):
         out.append(Finding(
             "repeated-formula", WARN if divergent else INFO,
             nums[0], 1, msg, "", "CLAUDE.md · internal consistency",
-            {"repeated-formula"},
+            {"repeated-formula", g}, set(nums),
         ))
     return out
 
@@ -454,19 +465,27 @@ def run(chapter_filter=None, rule_filter=None, verbose=False, drafted_only=False
         call = suppressed.get(f.rule)
         if call and call.covers(f.chapter):
             continue
-        ch = by_number.get(f.chapter)
-        if ch:
-            for w in ch.waivers:
-                if w.rule in f.tags:
-                    w.used = True
-                    f.waived_by = w
-                    break
+        for number in sorted(f.waivable_in()):
+            ch = by_number.get(number)
+            if not ch:
+                continue
+            match = next((w for w in ch.waivers if w.rule in f.tags), None)
+            if match:
+                match.used = True
+                f.waived_by = match
+                break
         kept.append(f)
 
     # A waiver that no longer matches anything is itself a finding, so the
     # chapter files self-clean. (shaloms-call inverts this on purpose: an
     # unused override is fine, an expired one is not.)
-    if not rule_filter or "unused-waiver" in rule_filter:
+    #
+    # Only ever computed on a COMPLETE run. A filtered run cannot know whether a
+    # waiver was used: --rule leaves the rule that would consume it unrun, and
+    # --chapter drops cross-chapter findings filed under a number outside the
+    # filter — so both would report a live waiver as dead.
+    complete = chapter_filter is None and rule_filter is None
+    if complete:
         for ch in chapters:
             for w in ch.waivers:
                 if not w.used:
