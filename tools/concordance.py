@@ -27,7 +27,7 @@ from collections import defaultdict
 from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
-from lib.corpus import load_chapters, load_terms, load_variants  # noqa: E402
+from lib.corpus import ROOT, load_chapters, load_terms, load_variants  # noqa: E402
 
 BOLD, DIM, OFF = "\033[1m", "\033[2m", "\033[0m"
 
@@ -211,6 +211,46 @@ def show_formulas(chapters, min_len=4):
     return formulas
 
 
+# ------------------------------------------------------------------ commentary
+
+COMMENTATORS = [
+    ("wangbi", "王弼 (Wang Bi, d. 249 CE)", "Siku Quanshu, 1782"),
+    ("heshanggong", "河上公 (Heshang Gong, Han)", "Song woodblock via Sibu congkan, 1919"),
+]
+
+
+def show_commentary(number, quiet=False):
+    """The classical commentators on one chapter, from sources/commentaries/."""
+    shown = 0
+    for slug, who, ed in COMMENTATORS:
+        path = ROOT / "sources" / "commentaries" / slug / f"{number:03d}.md"
+        if not path.exists():
+            print(f"\n{BOLD}chapter {number}{OFF} — {who}: {DIM}not vendored{OFF}")
+            if slug == "wangbi":
+                print(f"  {DIM}The Siku transcription is unproofread for 10 chapters "
+                      f"(8, 14, 15, 19, 30, 54, 62, 70, 71, 78).{OFF}")
+            continue
+        text = path.read_text(encoding="utf-8")
+        title = ""
+        for line in text.split("\n"):
+            if line.startswith("chapter_title:"):
+                title = line.split('"')[1]
+        print(f"\n{BOLD}chapter {number}{OFF} — {who}   {DIM}{ed}{OFF}"
+              + (f"   〈{title}〉" if title else ""))
+        print()
+        for line in text.split("---", 2)[-1].split("\n"):
+            line = line.strip()
+            if not line or line.startswith("#") or line.startswith("*Commentary"):
+                continue
+            if line.startswith("**"):
+                print(f"  {BOLD}{line.strip('*` ')}{OFF}")
+            elif line.startswith(">"):
+                print(f"    {line.lstrip('> ')}")
+        shown += 1
+    print()
+    return shown
+
+
 # ------------------------------------------------------------------- witnesses
 
 def show_witnesses(number, chapters, quiet=False):
@@ -269,6 +309,8 @@ def main():
                    help="every Chinese segment shared by more than one chapter")
     p.add_argument("--witnesses", type=int, metavar="N",
                    help="where the older witnesses disagree with our base text, for chapter N")
+    p.add_argument("--commentary", type=int, metavar="N",
+                   help="Wang Bi's commentary on chapter N")
     p.add_argument("-q", "--quiet", action="store_true",
                    help="lines only — omit glosses and surrounding verse")
     p.add_argument("--json", action="store_true")
@@ -321,6 +363,9 @@ def main():
         return 0
 
     did = False
+    if args.commentary:
+        show_commentary(args.commentary, args.quiet)
+        did = True
     if args.witnesses:
         show_witnesses(args.witnesses, chapters, args.quiet)
         did = True

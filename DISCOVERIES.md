@@ -6,6 +6,68 @@
 
 ---
 
+## 2 · The question is not "what is it?" — it is "is it so?"
+
+### The finding
+
+**自然** (*zìrán*), the term this edition renders **the self-so**, is not a noun. It is 自 (*zì* — self) plus **然** (*rán* — **so, thus, that it is the case**). And 然 is not decoration on it: **然 standing alone is the word on which the book's central question turns.**
+
+Three chapters close on the same seven-character formula, and the answer is identical in all three:
+
+> **吾何以知…然哉？以此。**
+> *How do I know it is **so**? **By this.***
+
+| | Chinese | Rendered |
+|---|---|---|
+| Ch 54 | 吾何以知天下**然**哉？以此 | "How do I know the world is so? By precisely this." |
+| Ch 57 | 吾何以知其**然**哉？以此 | "How do I know this is so? By this:" |
+| Ch 21 | 吾何以知眾甫之**然**哉？以此 | "How do I know the origin of the many is so? By this, here, now." |
+
+So the question Laozi asks about the world, about the origin of everything, and about his own claims is **not what a thing is, or what it looks like, or what it means. It is whether it is so.** And the answer is never revelation, authority, or inference from first principles. It is 以此 — **by this**: the present, the near, the thing in front of you.
+
+### Why this is more than a grammatical curiosity
+
+**It tells you what 自然 actually is.** Not "Nature," not "spontaneity," not "the natural way" — the English tradition reaches for a **realm**, a **quality**, or a **path**, and all three are nouns. The Chinese is a **predicate turned back on itself**: *so-ing of itself*. Things are not *in* nature; things simply **are so, of themselves**. That is why Chapter 25's ladder can end 道法**自然** — *the Tao follows the self-so* — without putting anything above the Tao. There is no higher thing there. There is only the fact that things are so of their own accord, which even the Tao does not override.
+
+**And it means the epistemology matches the ontology exactly.** Things are so **of themselves** (自然); you know they are so **by this one, here** (以此). No mediation on either side. Nothing stands between a thing and its being so, and nothing stands between you and knowing it. That symmetry is the shape of the whole book, and it is carried by one small grammatical word used twice.
+
+**It also explains what the book refuses to do.** Chapter 1 says the Tao that can be spoken is not the Tao; Chapter 21 says that whatever the Tao is, it is only vague and elusive. A tradition asking *what is it?* would find this frustrating — and centuries of commentary have tried to answer anyway. But Laozi is not asking that question. He is asking **is it so**, and answering **look at this**. The refusal to define is not modesty or mysticism. It is a different question.
+
+**The near-miss makes the point visible.** Our base text reads **狀** (*zhuàng* — **shape, form**) at Chapter 21 instead of 然, and 狀 was very nearly kept. Hear the difference:
+
+> *"How do I know the **shape** of the origin of the many?"* — a question about form. Metaphysics. Speculation.
+> *"How do I know the origin of the many **is so**?"* — a question about the case. Attention.
+
+One word is the difference between a book that speculates about the structure of reality and a book that asks you to look at what is in front of you. **Four independent witnesses read 然** — both Mawangdui silks, the Song Heshang Gong edition, and the Siku Quanshu compilers' own note on the line, 〔案狀各本俱作然〕 (*"as for 狀, all editions read 然"*) — and 狀 occurs twice in the whole book against 然's twelve. The formula was there all along; our transcription had one word of it wrong.
+
+**And the etymology is almost too apt.** 然 began as a **picture of roasting** — meat, dog and flame. It meant *to burn*. It was then borrowed purely for its **sound** to serve as the connective *so, thus*, and the fire had to be given a new character of its own, 燃, to get its body back. So the word Laozi builds his central term from is **a burnt thing that lost its body and became pure relation.** The book's name for how things are is not an image of anything. It is grammar.
+
+### The relation to §1
+
+The first finding is about **subtraction** — a god and a king that later hands added, and that come off. This one is about what is **there** when they are gone.
+
+Strip the deity and the throne from Chapter 25 and you do not get a void. You get four great things, one of them you, and a ladder that ends not in a ruler or a creator but in **things being so of themselves**. Then Chapter 21 tells you how you know any of it: not by being told, but **by this, here, now.**
+
+That is a complete position — an ontology and an epistemology in about twenty characters — and it is what the overlays were covering.
+
+### Where the evidence lives
+
+- `glossary/ziran-自然.md` — 然's history, and the three-chapter formula
+- `notes/translation.md` — Ch 21's rendering, and the full argument for 然 over 狀
+- `notes/manuscript.md` — the witnesses, and why the base text still reads 狀
+- `sources/variants.yaml` — the fork, resolved
+- `sources/commentaries/` — Wang Bi glosses 此 as 上之所云 ("what was said above"); Heshang Gong glosses it 此**今**也 ("this means **now**"). Both are in the repo, and the English holds both.
+
+### How it was found — Shalom asked a question I had not thought to ask
+
+The decision to follow 然 had already been made, on manuscript evidence: four witnesses against one reading. Shalom then asked, in passing, *"This relates to zhiran, right?"*
+
+It does, and **the relation is a better argument than the manuscripts.** 狀 against 然 is a choice between a rare word and a common one; 然 against 狀 is a choice between a word that completes the book's central formula and one that breaks it. The manuscript evidence says our reading was unusual. The 自然 connection says it was reading the wrong question.
+
+This is the third finding in one working session to begin with Shalom rather than with the research: *"king" did not feel right* (the throne is a later addition), *"working" feels like a job* (the locked rendering had been quietly abandoned), and now this. See `process/method.md` §4 — **intuition is last as an arbiter and often first as a detector**, and a question asked in passing is data.
+
+---
+
 ## 1 · No heaven, and no king
 
 ### The finding

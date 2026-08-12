@@ -6,14 +6,28 @@
 
 ---
 
+## A correction, 2026-08-11
+
+**This file previously said Chinese Wikisource could not be used, because its content is CC BY-SA 4.0. That was wrong**, and the error was over-caution: it read the site-wide licence banner instead of the copyright policy.
+
+Wikisource's policy says the opposite, in terms:
+
+> *"the transcription of a work on Wikisource does not create a new copyright, so if the original work has entered the public domain the transcription here is also public domain"* … *"anything that could attract copyright would no longer be faithful to the original, and because of that, the CC BY-SA default license for contributions never comes into play for mainspace content."*
+
+That is Wikisource's own account of its own licence, and it matches the law it is reasoning from (*Feist* 1991; *Bridgeman v. Corel* 1999). **The blocker described here for three weeks did not exist.** The caution was cheap and the correction is cheaper; recorded rather than quietly edited away, because a provenance file that hides its own mistakes is worth nothing.
+
+**What does not change:** ctext.org's structured data really is **CC BY-NC-SA 3.0**, and NonCommercial really is incompatible with the companion volume. And the exclusion of the excavated manuscripts stands on entirely different grounds — see below.
+
+---
+
 ## Why stricter than the law requires
 
 The ancient texts are free. The Laozi is roughly 2,400 years old; Wang Bi died in 249 CE; Heshang Gong and Han Feizi are older still. No copyright subsists in any of them, and a faithful transcription of a public-domain text creates no new copyright — in the United States see *Feist v. Rural Telephone* (1991), rejecting "sweat of the brow," and *Bridgeman Art Library v. Corel* (1999) for faithful reproductions.
 
-**So why the caution?** Because "the characters are ancient, therefore the file is free" is an argument, and this repository should not require a reader to accept an argument in order to trust its licence. Two further reasons, both concrete:
+**So why keep rules at all?** Because "the characters are ancient, therefore the file is free" needs to be *true of the specific file in front of you*. Two things can make it untrue:
 
-1. **The obvious digital sources are not free.** The Chinese Text Project (ctext.org) licenses its structured data **CC BY-NC-SA 3.0**; Chinese Wikisource is **CC BY-SA 4.0**. ShareAlike cannot be relicensed CC0, and **NonCommercial is the sharper problem** — an NC-licensed source anywhere in the derivation chain of a book intended for sale is the wrong shape, regardless of whether the underlying characters are free.
-2. **Modern editions really do add protectable material.** Not the characters, but the **punctuation**, the collation apparatus, the emendations, the reconstruction of damaged graphs, the annotations, and the selection and arrangement. Some of that is thin; some of it is genuine scholarship by living people.
+1. **A source can have its own licence over its own additions.** ctext.org licenses its structured data **CC BY-NC-SA 3.0**. The characters are not theirs, but the database is.
+2. **Modern editions really do add protectable material.** Not the characters, but the **punctuation**, the collation apparatus, the emendations, the reconstruction of damaged graphs, the annotations, and the selection and arrangement. Some of that is thin; some is genuine scholarship by living people.
 
 ---
 
@@ -22,39 +36,77 @@ The ancient texts are free. The Laozi is roughly 2,400 years old; Wang Bi died i
 **A file may be added only if all four hold.**
 
 1. **The work itself is public domain by age** — pre-modern, and its author long dead.
-2. **The specific printing or transcription it came from is either pre-1929, or dedicated CC0 / marked public domain by its holder.** "Found on the open web" is not provenance.
-3. **Its frontmatter names that source exactly** — work, author, edition, publisher, year, and where it was obtained. A file whose edition cannot be named does not go in.
-4. **Any modern editorial layer is either excluded or marked as such.** Punctuation especially: note whether it is present and that it is editorial.
+2. **The specific printing or transcription is either pre-1929, or dedicated CC0 / marked public domain, or a faithful transcription of such a printing.** "Found on the open web" is not provenance; the *edition* must be nameable.
+3. **Its frontmatter names that source exactly** — work, author, edition, dates, host, and URL.
+4. **Any modern editorial layer is either absent, excluded, or marked.** Punctuation especially.
 
-**And two categories are excluded outright.**
+**And one category is excluded outright, on grounds unrelated to licence text.**
 
-**No transcriptions of the excavated manuscripts.** The **Mawangdui** silks were excavated in 1973 and the **Guodian** bamboo slips in 1993. Every transcription of them is modern, and reconstructing the damaged and missing graphs — the brackets, the □ marks, the conjectural readings — is **genuine editorial work by living scholars**. Reproducing someone's reconstruction is reproducing their scholarship.
+**No transcriptions of the excavated manuscripts.** The **Mawangdui** silks were excavated in 1973 and the **Guodian** slips in 1993. Reconstructing their damaged and missing graphs — the brackets, the □ marks, the conjectural readings — is **genuine editorial work by living scholars**, not faithful transcription of anything. Reproducing a reconstruction reproduces the scholarship.
 
-**Instead, record the facts.** See `variants.yaml`. "Mawangdui A and B read 自今及古 where Wang Bi reads 自古及今" is a **fact about a text**, and facts are not copyrightable. This is not merely the safe path; it is the better scholarly practice, because a fact can be cited and checked while a bulk transcription only invites trust.
+**Instead, record the facts.** See `variants.yaml`. "Mawangdui A and B read 自今及古 where Wang Bi reads 自古及今" is a **fact about a text**, and facts are not copyrightable. This is not merely the safe path; it is better practice, because a fact can be cited and checked while a bulk transcription only invites trust.
 
-**No modern translations, of anything, for any reason.** Consulting them for *meaning* is governed by `process/method.md` §3 — pre-1931 only. None of them belong in this repository.
+**No modern translations, of anything, for any reason.** Consulting them for *meaning* is governed by `process/method.md` §3 — pre-1931 only. None belong in this repository.
 
 ---
 
 ## What is here
 
-| Path | Contents | Status |
+| Path | Contents | Coverage |
 |---|---|---|
-| `variants.yaml` | The variant apparatus, as **facts** — chapter, base reading, witness readings, whether meaning-bearing, our call | **populated** |
-| `commentaries/` | Wang Bi, Heshang Gong, Han Feizi 解老 / 喻老 | **empty — see below** |
+| `variants.yaml` | The variant apparatus, as **facts** | 22 forks across 11 chapters |
+| `commentaries/wangbi/` | 王弼 (d. 249 CE) on the Laozi, lemma by lemma | **71 of 81 chapters** |
+| `commentaries/heshanggong/` | 河上公章句 (Han), lemma by lemma, with his own chapter titles | **81 of 81 chapters** |
+| `commentaries/hanfeizi/` | 韓非子 解老 / 喻老 — the oldest commentary on the Laozi | **the 17 chapters he discusses** |
+| `.cache/` | The fetched wikitext the import ran from | gitignored |
 
-### `commentaries/` is empty, and that is not an oversight
+### `commentaries/wangbi/` — 老子道徳經注
 
-No commentary text has been added, because **no source meeting rule 2 has been obtained yet.** The commentaries were consulted during translation by reading them online, which is entirely proper for research; what is not proper is copying that text into a CC0 repository on the strength of the ancient-characters argument alone.
+**Source:** 欽定四庫全書 (Siku Quanshu), 子部十四 · 道家類 — imperially commissioned 1773, completed 1782. Transcribed on Chinese Wikisource in mainspace, tagged `{{PD-old}}`, at [老子道徳經 (四庫全書本)](https://zh.wikisource.org/zh-hant/老子道徳經_(四庫全書本)). A scan of the same edition, digitised by Zhejiang University Library, is at [archive.org/details/06049303.cn](https://archive.org/details/06049303.cn).
 
-**To populate it, one of these is needed:**
+**Punctuation: none.** The transcription's own editorial policy excludes it — the wikitext opens *請根據四庫全書掃描版校對本頁 … 加標點請另外建立頁面* ("proofread against the Siku Quanshu scan … to add punctuation, create a separate page"). So the vendored text is the authorial layer only, which is both the cleanest rights position and the more faithful one.
 
-- A **scan of a pre-1929 printing**, from which the text is transcribed. The recension with Wang Bi's commentary is printed in the *Sibu congkan* (四部叢刊, Commercial Press, first series from 1919) and the *Sibu beiyao* (四部備要, Zhonghua, from the early 1920s, based on a Ming edition), among others. Scans of Republican-era collectanea appear on the Internet Archive and in HathiTrust; the specific volume and its printing date must be verified, not assumed.
-- Or a digital edition whose holder has **dedicated it CC0 or marked it public domain** in writing.
+**Imported by `tools/import_commentary.py`**, which is the point: the vendoring is **reproducible**, and it **verifies itself**. The source interleaves Laozi lemmas with Wang Bi's comment on each, so every lemma is matched against our own `source/chinese.md`:
 
-When such a source is in hand, the shape is one file per chapter — `commentaries/wangbi/021.md` — each opening with frontmatter naming the edition it was transcribed from, and each noting whether punctuation is present and editorial.
+```
+71/81 chapters · 328 lemma lines matched exactly, 26 with variants (93%) · 470 commentary lines
+```
 
-**Until then the honest state of this directory is: empty, with the acquisition path written down.** Better an empty directory with rules than a full one with a licence nobody can defend.
+A lemma that matches is direct evidence the transcription was carried across intact at that point. Lemmas that differ are **reported, never normalized away** — Siku glyph forms go in the importer's `ORTHOGRAPHIC` map, and genuine forks go in `variants.yaml`.
+
+**The 10 missing chapters — 8, 14, 15, 19, 30, 54, 62, 70, 71, 78** — are simply not yet transcribed on Wikisource. To add them: transcribe from the archive.org scan above, or wait for the proofreading, then re-run the importer. `concordance.py --commentary N` says so plainly rather than failing silently.
+
+**Preserved from the edition:** the Siku compilers' own collation notes, marked 〔…〕. They are 18th-century editorial matter, public domain by age, and immediately useful — the note at Ch 21, 〔案狀各本俱作然〕 ("for 狀, all editions read 然"), reopened a decision we had already made. **□** marks a glyph the transcribers could not encode; a gap is never passed off as text.
+
+### `commentaries/heshanggong/` — 老子道德經 河上公章句
+
+**Source:** *Sibu congkan* volume 0532, whose own colophon reads **景常熟瞿氏鐵琴銅劍樓藏宋刊本** — a photo-reproduction of the **Song** printed edition held in the Qu family's Iron-Qin-Copper-Sword Tower at Changshu. The commentary itself is Han. Transcribed on Chinese Wikisource in the `Page:` namespace against the djvu scan.
+
+**Assembled from 77 scan pages.** Unlike the Wang Bi text, this one is not a single page: it is transcluded page by page from `Sibu Congkan0532-河上公-老子道德經-1-1.djvu`, pages 16–51 (卷上) and 52–92 (卷下). `tools/import_commentary.py --source heshanggong --fetch` retrieves them with a 0.4s pause between requests, caches them, and concatenates **in order before parsing** — because the text runs across page boundaries and a lemma or an annotation column can be cut in half by the end of a page.
+
+**How the commentary is marked.** In the woodblock, Heshang Gong's notes are printed as **two columns of small type inline** with the main text. The transcription encodes each as `{{雙行註文|right|left}}` — "double-line annotation" — where the `|` is the column break, so the two halves join in reading order. Consecutive templates continue one note.
+
+**Coverage: 81 of 81 chapters, complete.** 752 lemma lines matched our base text exactly, 80 with variants (90%), and 1054 commentary blocks.
+
+**A bonus the edition carries: Heshang Gong titles every chapter himself** — 體道第一 (*"Embodying the Tao"*), 養身第二 (*"Nourishing the self"*), 安民第三 (*"Settling the people"*). These are preserved in each file's `chapter_title:` frontmatter. They are the oldest chapter names the text has, and they are interpretations in miniature.
+
+### `commentaries/hanfeizi/` — 韓非子 解老 / 喻老
+
+**The oldest surviving commentary on the Laozi**, by Han Fei (d. 233 BCE) — earlier than Heshang Gong and five centuries before Wang Bi. Chapters 20 (解老, *"Explaining Laozi"*) and 21 (喻老, *"Illustrating Laozi"*) of the 韓非子.
+
+**A different shape, and so a different importer.** Han Feizi does not gloss the text lemma by lemma; he **argues, and quotes**. The quotations sit in 「」, usually introduced by 故曰 (*"therefore it is said"*). So the chapter a passage belongs to is discovered by **matching each quotation against our own base text** — the same fidelity check the other two importers use, doing double duty here as the only way to index the essays at all.
+
+**Coverage: the 17 chapters he discusses** — 1, 14, 26, 27, 36, 38, 41, 46, 47, 50, 54, 58, 59, 60, 63, 64, 67 — with 53 quotations, **all 53 matching our base text exactly.** "Missing chapters" is the wrong frame for this source: he never set out to cover the book. The coverage is found by quotation, so a passage he paraphrases without quoting will not appear.
+
+**Punctuation: present, and retained.** This is the one vendored source that carries modern editorial punctuation, and the admission rules permit *marked* as well as absent or excluded. These are prose essays rather than lemma lists and are close to unreadable without it, so the punctuation stays and the frontmatter says so.
+
+**What he is worth having.** 解老 is a systematic philosophical reading — it opens on Ch 38's 上德不德 and works through it clause by clause. 喻老 is the opposite: **anecdote**. The great arises from the small, 千丈之堤，以螻蟻之穴潰 (*"a thousand-foot dyke is breached by a mole-cricket's hole"*), and then the story of Bian Que and the Duke of Cai, who would not treat an illness while it was still shallow. He is the only commentator in this collection who argues by narrative, and on Ch 63 he supplies a reading of 大小多少 — 大必起於小 (*"the great must arise from the small"*) — that neither Wang Bi nor the modern discussion offers.
+
+### Nothing is owed
+
+All three classical commentaries named in `process/method.md` §3 are now in the repository. **Every chapter has at least one**, because Heshang Gong covers the ten the Siku Wang Bi transcription lacks.
+
+What could still be added, in rough order of value: the **10 unproofread Wang Bi chapters** (8, 14, 15, 19, 30, 54, 62, 70, 71, 78), transcribed from the archive.org scan; the **Fu Yi** (傅奕) recension; and a **Guodian / Mawangdui variant sweep** for the chapters not yet in `variants.yaml`, recorded as facts.
 
 ---
 

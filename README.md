@@ -36,10 +36,10 @@ Start at [`chapters/001.md`](chapters/001.md). Each chapter carries the English 
 | `process/method.md` | The full working method |
 | `process/overlay-audit.md` | Reading Laozi without the missionary lens |
 | `process/skills/` | The method made executable, for AI collaborators |
-| [`sources/`](sources/PROVENANCE.md) | Primary material and the variant apparatus, with per-file provenance rules |
+| [`sources/`](sources/PROVENANCE.md) | The classical commentaries — Wang Bi (71 ch.) and Heshang Gong (81 ch.) — the variant apparatus, and per-file provenance |
 | `tools/` | The harness — see below |
 | `CLAUDE.md` · `AGENTS.md` | Operating context for AI collaborators and tools |
-| [`DISCOVERIES.md`](DISCOVERIES.md) | **The findings worth writing about** — start here for what this research turned up |
+| [`DISCOVERIES.md`](DISCOVERIES.md) | **The findings worth writing about** — start here for what this research turned up: what later hands added, and what the book says once it comes off |
 | `RETROFIT.md` | Known consistency debt across chapters |
 | `PLAN.md` | The harness: what is built, what is deliberately not |
 
@@ -53,6 +53,7 @@ python3 tools/concordance.py 明             # every chapter, line, gloss and re
 python3 tools/concordance.py --english "clarity"   # is a rendering backed by its character?
 python3 tools/concordance.py --formulas    # Chinese segments repeated across chapters
 python3 tools/concordance.py --witnesses 25 # where the older manuscripts disagree
+python3 tools/concordance.py --commentary 63 # Wang Bi and Heshang Gong on a chapter
 python3 tools/build_index.py               # regenerate glossary/INDEX.md and terms.yaml
 python3 tools/fix-linebreaks.py            # restore the verse's hard line breaks
 python3 -m unittest discover -s tools/tests
@@ -72,7 +73,28 @@ The hook checks only the chapters you are committing, only at error severity, an
 
 The base text is the **Wang Bi** received recension. Where the older witnesses — **Guodian** (~300 BCE), **Mawangdui** (before 168 BCE), **Beida**, **Fu Yi** — differ in a way that changes meaning, the fork is logged and the choice explained.
 
-Contested lines are read four ways before rendering: the **characters themselves** (Shuowen Jiezi, oracle-bone and bronze forms, radical decomposition), the **manuscript witnesses**, the **classical commentaries** (Wang Bi, Heshang Gong, Han Feizi's 解老 / 喻老), and the **internal evidence** of how a term behaves across all 81 chapters.
+Contested lines are read four ways before rendering: the **characters themselves** (Shuowen Jiezi, oracle-bone and bronze forms, radical decomposition), the **manuscript witnesses**, the **classical commentaries**, and the **internal evidence** of how a term behaves across all 81 chapters.
+
+### The primary sources are in the repository
+
+The commentaries are not consulted from memory or from a search engine. They are **in `sources/`**, with per-file provenance, and one command away:
+
+```bash
+python3 tools/concordance.py --commentary 21   # Wang Bi and Heshang Gong on a chapter
+python3 tools/concordance.py --witnesses 21    # where the older manuscripts disagree
+```
+
+| Commentary | Date | Coverage | Edition |
+|---|---|---|---|
+| **王弼** Wang Bi | d. 249 CE | 71 of 81 chapters | 欽定四庫全書 (Siku Quanshu), 1782 |
+| **河上公** Heshang Gong | Han | **81 of 81** | Song woodblock, via *Sibu congkan* 0532 |
+| **韓非** Han Feizi, 解老 / 喻老 | d. 233 BCE | 17 chapters he discusses | 韓非子, chs. 20–21 |
+
+Every file names the printing it was transcribed from. Everything is public domain by age; the reasoning, and the rules for what may be added, are in [`sources/PROVENANCE.md`](sources/PROVENANCE.md). **The excavated manuscripts are deliberately *not* reproduced** — reconstructing the damaged graphs of the Mawangdui silks (1973) and Guodian slips (1993) is living scholarship, so the repository records the *fact* of each variant in [`sources/variants.yaml`](sources/variants.yaml) instead, which can be cited and checked.
+
+The imports are reproducible (`tools/import_commentary.py`) and **they verify themselves**: each source interleaves or quotes the Laozi, so every quotation is matched against this edition's own base text. Wang Bi matches at 93%, Heshang Gong at 90%, Han Feizi at 100%. Lines that differ are reported as candidate variants, never quietly normalized.
+
+**This is not decoration.** Having the sources to hand has already changed the translation. Wang Bi's own gloss settled what "this" refers to at the end of Chapter 21; the Siku compilers' collation note on the same line, 〔案狀各本俱作然〕, reopened a decision that had just been made; Heshang Gong's reading of Chapter 21 turned out to be a fourth witness against it; and Han Feizi supplied a reading of Chapter 63's hardest line that no modern discussion of it had suggested.
 
 Terms are **locked**: once a rendering is settled it applies everywhere, and departures are logged. Where this translation departs from the English convention — *integrity* not "virtue," *sky and earth* not "heaven and earth," *the Tao* left untranslated — the reasoning is in [`glossary/`](glossary/) and [`process/overlay-audit.md`](process/overlay-audit.md).
 

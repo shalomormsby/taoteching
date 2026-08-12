@@ -130,13 +130,38 @@ Also watch **register**, not just vocabulary: KJV cadence, devotional capitaliza
 
 ---
 
+## Consult the sources — they are in the repo, and this is not optional
+
+**The classical commentaries live in `sources/commentaries/`, and every piece of translation or refinement work consults them.** Not from memory, not from a search engine: from the files.
+
+```bash
+python3 tools/concordance.py --commentary N    # 王弼 and 河上公 on chapter N
+python3 tools/concordance.py --witnesses N     # where the older manuscripts disagree
+```
+
+| | Date | Coverage |
+|---|---|---|
+| **王弼** (*Wáng Bì*) | d. 249 CE | 71 of 81 chapters — Siku Quanshu, 1782 |
+| **河上公** (*Héshàng Gōng*) | Han | **all 81** — Song woodblock, and it covers the ten Wang Bi lacks |
+| **韓非** (*Hán Fēi*), 解老 / 喻老 | d. 233 BCE | the 17 chapters he discusses — the oldest commentary there is |
+
+**Run them before drafting a chapter and before changing a settled line.** Three of this session's findings came from exactly that and could not have come from anywhere else: Wang Bi's gloss 此上之所云也 settled the referent of 此 in Ch 21; the Siku compilers' note 〔案狀各本俱作然〕 reopened a decision made an hour earlier; Han Feizi's 大必起於小 supplied a reading of Ch 63's hardest line.
+
+**Quote, gloss, and cite them — never copy their English.** There is no English in these files; they are the Chinese. The pre-1931 rule in standing rule 3 governs *translations*, and none are in this repository.
+
+**When they disagree, that is the finding.** Convergence is strong evidence; divergence gets logged in `notes/manuscript.md` and, if it is a textual fork, in `sources/variants.yaml`. Do not average them into a consensus.
+
+**Adding to `sources/` has rules.** Read `sources/PROVENANCE.md` first. The short version: public domain by age, a *nameable* edition, provenance in the frontmatter, and **never a transcription of the Mawangdui or Guodian manuscripts** — reconstructing damaged graphs is living scholarship, so record the *fact* of the variant instead.
+
+---
+
 ## Per-chapter workflow
 
 *Encoded as a skill: `process/skills/chapter-review`. Invoke it rather than working from memory.*
 
-1. Read the Chinese cold. Decompose contested characters to radicals.
+1. Read the Chinese cold. Decompose contested characters to radicals. **Then run `--commentary` and `--witnesses` on the chapter.**
 2. Check the witnesses (Wang Bi base; Mawangdui, Guodian, Fu Yi, Beida) for meaning-bearing forks.
-3. Check the classical commentaries (Wang Bi, Heshang Gong, Han Feizi).
+3. Check the classical commentaries — `concordance.py --commentary N`, not from memory.
 4. Check the locks table above and the overlay watchlist.
 5. **Take a stand** — lead with the deepest claim, then the smaller precisions.
 6. Offer clay: a full rendering Shalom can accept, reject, or reshape.
@@ -174,6 +199,7 @@ process/skills/       the method, made executable (chapter-review · glossary-en
 process/overlay-audit.md
 sources/PROVENANCE.md what may live in sources/, and on what authority — read before adding
 sources/variants.yaml the witness apparatus, as facts (never transcriptions)
+sources/commentaries/  Wang Bi (71 ch.) · Heshang Gong (all 81) · Han Feizi (17 ch., oldest)
 tools/                check_locks.py (the gate) · concordance.py (the evidence)
 process/legacy-tao-source-code.md   ⚠ archived, contains SUPERSEDED renderings
 DISCOVERIES.md        ★ the findings worth writing about — read when taking stock
@@ -194,6 +220,7 @@ python3 tools/concordance.py 明                  # every chapter, line, gloss, 
 python3 tools/concordance.py --english "clarity"  # is a rendering backed by its character?
 python3 tools/concordance.py --formulas          # segments repeated across chapters
 python3 tools/concordance.py --witnesses 25      # where the older manuscripts disagree
+python3 tools/concordance.py --commentary 63     # Wang Bi and Heshang Gong on a chapter
 ```
 
 **`check_locks.py` optimizes precision.** It exits non-zero, gates the pre-commit hook and CI, and must never cry wolf — so **no rule fires on English alone.** "virtue" is an error only when 德 is in *that chapter's own* Chinese; otherwise it drops to `info` in a separate false-friends list. That evidence gate is what makes it usable: it took the first run's error list to **9 findings with zero false positives**.
@@ -210,7 +237,7 @@ python3 tools/concordance.py --witnesses 25      # where the older manuscripts d
 
 ## Current state — read before starting
 
-**★ `DISCOVERIES.md` holds the findings that want essays.** First entry: **no heaven, and no king** — in the oldest witnesses Ch 25 reads *"the Tao is vast, the sky is vast, the earth is vast, and the human is vast."* Both Mawangdui silks read 人 (*rén* — human) where our base text reads 王 (*wáng* — king), and the older silk has no king in the passage at all. Two layers of accretion, Chinese scribes then English missionaries, both adding hierarchy. Possibly a book.
+**★ `DISCOVERIES.md` holds the findings that want essays — read it when taking stock of what to write.** Two so far, and they are complements. **§2, the question is "is it so?", not "what is it?"** — 自然 (*zìrán* — the self-so) is 自 (*zì* — self) + 然 (*rán* — **so, that it is the case**), and 然 alone closes chapters 21, 54 and 57 on one formula: 吾何以知…然哉？以此, *"how do I know it is so? By this."* Not what a thing **is** but whether it **is so**, answered not by authority but by *this, here, now*. An ontology and an epistemology in twenty characters. **§1, no heaven and no king** — in the oldest witnesses Ch 25 reads *"the Tao is vast, the sky is vast, the earth is vast, and the human is vast."* Both Mawangdui silks read 人 (*rén* — human) where our base text reads 王 (*wáng* — king), and the older silk has no king in the passage at all. Two layers of accretion, Chinese scribes then English missionaries, both adding hierarchy. Possibly a book.
 
 
 - **Chapters 1–60 and 65:** drafted, and **swept clean against every lock**. All 61 carry `retrofit: []`. The 2026-08-10 sweep resolved the accumulated debt; do not assume the early chapters are still pre-lock.

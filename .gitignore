@@ -3,3 +3,6 @@
 
 # machine-local editor workspace (references the private companion repo)
 *.code-workspace
+
+# fetched source material, re-derivable by tools/import_commentary.py
+sources/.cache/

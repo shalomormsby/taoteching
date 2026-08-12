@@ -120,13 +120,22 @@ Encoding it makes the method **portable and repeatable** — identical whether C
 
 Not in the original plan, and the reason this one could be written at all. `process/shaloms-call.md` records a rule Shalom has set aside, with scope, expiry, and reason. Suspensions are never silent (the checker prints a footer naming them) and an expired call is an error, so each is renewed or retired deliberately. Without it, an override lived only as a sentence in one conversation — invisible in the repo, and leaving the AI to re-argue a settled decision next session.
 
-## 8. `sources/` — the witnesses and commentaries, in the repo ⚠️ **PART BUILT (2026-08-11)**
+## 8. `sources/` — the witnesses and commentaries, in the repo ✅ **DONE (2026-08-11)**
 
-**Built:** `sources/PROVENANCE.md` (the admission rules), `sources/variants.yaml` (17 forks recorded as facts), `concordance.py --witnesses N`, and `check_locks.py`'s `unlogged-variant` rule. 48 tests.
+**Built:** `sources/PROVENANCE.md`, `sources/variants.yaml` (23 forks), **all three classical commentaries — Wang Bi (71 ch.), Heshang Gong (all 81), Han Feizi (the 17 he discusses)**, `tools/import_commentary.py`, `concordance.py --witnesses N` and `--commentary N`, and `check_locks.py`'s `unlogged-variant` rule. 53 tests.
 
-**Not built, and not buildable yet:** the commentary text itself. `sources/commentaries/` is empty because **no source meeting the admission rules has been obtained.** ctext is CC BY-NC-SA and Chinese Wikisource is CC BY-SA; neither can be relicensed CC0, and the NonCommercial clause is incompatible with the companion volume. A verified **pre-1929 scan** — the *Sibu congkan* (1919–) or *Sibu beiyao* (1920s, Ming-based) — or a CC0-dedicated digital edition is required first. See `sources/PROVENANCE.md` → *`commentaries/` is empty, and that is not an oversight*.
+**The licensing blocker did not exist.** This section previously said Wikisource was unusable because its content is CC BY-SA. Its *copyright policy* says the opposite — a faithful transcription of a public-domain work creates no new copyright, and "the CC BY-SA default license for contributions never comes into play for mainspace content." The Siku Quanshu (1782) transcription is tagged `{{PD-old}}` and, by its own editorial policy, carries **no punctuation** — the authorial layer only. Recorded as a correction in `PROVENANCE.md` rather than edited away.
 
-*Better an empty directory with rules than a full one with a licence nobody can defend.*
+**The import verifies itself**, which is what makes it trustworthy: the source interleaves Laozi lemmas with Wang Bi's comment on each, so every lemma is checked against our own `source/chinese.md`. 328 matched exactly, 26 with variants, 93%. Lemmas that differ are reported, never normalized.
+
+**And it paid for itself on the first run**, which is the argument for having done it:
+
+- **Ch 21** — the Siku compilers' own collation note reads 〔案狀各本俱作然〕, *"for 狀, all editions read 然."* Our reading is a minority one across the editions they knew, not merely a divergence from the silks. A decision made hours earlier now wants reopening.
+- **Ch 2** — the Siku Wang Bi reads 相較 / 相傾 where our base reads 相形 / 相盈, which are the *Mawangdui* readings. **Our "Wang Bi base text" already carries non-Wang-Bi readings.**
+- **Ch 55** — `notes/manuscript.md` claimed our base text reads 全 and that we kept it. Our source table reads 朘; the verse renders 全. The note misdescribed our own text.
+- **Ch 63** — Wang Bi sets 大小多少報怨以德 as **one lemma** and glosses it 小怨則不足以報…順天下之所同者徳也, which dissolves the "four bare characters" crux and makes 報怨以德 a rule against private revenge rather than personal forbearance.
+
+**Heshang Gong added the same day**, assembled from 77 scan pages of *Sibu congkan* 0532 (a Song woodblock), complete at 81/81 with his own chapter titles preserved. **Han Feizi added the same day** — the oldest commentary there is, indexed by matching his 「」 quotations against our base text, 53 of 53 exact. **Nothing in `process/method.md` §3 is now missing, and every chapter has at least one commentary.** What could still be added: the 10 unproofread Wang Bi chapters, the Fu Yi recension, and a variant sweep for chapters not yet in `variants.yaml`.
 
 *Proposed 2026-08-11, after Ch 21 required fetching Wang Bi, Heshang Gong, and both Mawangdui silks from the open web to answer one question about one line. **Needs its own `shaloms-call`** — the existing suspension of the no-new-tooling rule covers phases A–F only, and this is new scope.*
 
@@ -201,7 +210,7 @@ It also states plainly that **the punctuation is editorial and forms no part of 
 
 1. **Resolve the 8 open findings** in `RETROFIT.md` → *Open*. Each needs a rewrite, so each is Shalom's call. The build stays red until they are resolved or waived — which is the ratchet working, not a problem to route around.
 2. ~~**Re-provenance `source/chinese.md`** off ctext~~ ✅ **done 2026-08-11** (§8).
-3. **Build `sources/`** (§8) — its own PR, its own `shaloms-call`. Licensing verification is the slow part, not the code.
+3. ~~**Build `sources/`** (§8)~~ ✅ **done 2026-08-11** — all three commentaries in.
 4. **Draft chapters 61–64 and 66–81** with the hook live, through the `chapter-review` skill. This is the active frontier and the reason the harness was built now rather than at 81.
 5. **`build.py`**, when the text has stopped moving.
 
