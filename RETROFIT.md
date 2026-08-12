@@ -95,6 +95,23 @@ Three failure modes this sweep exposed. Build the checker against them:
 2. **Case-sensitivity cuts both ways.** A case-insensitive scan flags "the one" (correct) as "the One" (wrong), and a case-sensitive one misses "The cosmos" at the start of a line. The checker needs per-rule case policy, not one global flag.
 3. **Homophones and false friends are the real trap.** 常 (*cháng*, constant) vs 長 (*cháng*, long); 自然 (*self-so*) vs the ordinary English word "nature"; 一 (*one*) vs the English pronoun "one"; "Block the openings" (塞) vs "uncarved block" (樸). **Every flagged line must be verified against the Chinese in its own chapter before it is changed** — roughly a third of this sweep's initial 93 flags were false positives.
 
+## Open debts
+
+**事 (*shì* — affair, matter; to attend to) wants a glossary entry, and 無事 is rendered two ways.**
+Ch 48 and Ch 57 render 無事 as **"non-interference"**; Ch 63 renders it inside the triple 為無為，事無事，味無味 as **"tend the not-tending"**. Both are defensible where they stand — 48 and 57 use it as a standalone noun phrase, 63 needs a monosyllabic verb to hold the parallel — but the divergence is unlogged in the glossary because 事 has no entry. Raised drafting Ch 63, 2026-08-11. Not urgent; it becomes urgent the moment 事 is locked. Ch 64 also carries 無事-adjacent material and should be drafted with this open.
+
+**Ch 34 and Ch 63 share 故能成其大 and do not chime.**
+Ch 34 renders the formula *"Making no effort to appear great, / The Tao shows true greatness"* — which drops 成 (*chéng* — to complete, accomplish) entirely. Ch 63 renders *"So the sage never does the great, / and so completes their greatness."* The subjects differ (the Tao vs the sage) and the surrounding Chinese differs (以其終不自為大 vs 是以聖人終不為大), so this is not automatically an error — but `repeated-formula` will flag it, and Ch 34's line is the weaker of the two. Worth a look when Ch 34 is next open.
+
+**Ch 27 · 無棄人 is softened to "no one is lost"; Ch 62 renders 棄 as "throw away".**
+棄 (*qì*) is a graph of an infant in a basket being cast out — child-abandonment, literally. Ch 27's 故無棄人 currently reads *"ensures that no one is lost"*, which is gentler than the character and gentler than Ch 62's 何棄之有 (*"why would you throw them away?"*). The two lines are making one argument and should sound like it. Raised drafting Ch 62, 2026-08-11. Needs a rewrite of Ch 27's line, not a term-swap, so it goes to Shalom rather than being applied.
+
+**`tools/import_commentary.py` mis-splits chapters when a chapter heading sits mid-block.**
+Wang Bi's commentary on Ch 62 is in the repo but filed inside `sources/commentaries/wangbi/061.md`, because the Siku printing runs 62 on into 61's block behind the heading 六十二章. `--commentary 62` therefore reports it *not vendored*, and 62 is listed among the ten "unproofread" chapters when in fact its text is present and complete. Worth auditing the other nine (8, 14, 15, 19, 30, 54, 70, 71, 78) the same way before assuming any of them is missing. Raised drafting Ch 62, 2026-08-11.
+
+**公 (*gōng*) is rendered three ways in three chapters and has no glossary entry.**
+Ch 16 renders 公 as **impartiality** (容乃公，公乃王), which is what the character says — 八 (to divide) over 厶 (private, self); *Shuowen*: 公，平分也, "fair division." Ch 42's 王公 reads *"kings and lords"*. Ch 62's 三公 reads *"the three ministers"*. All three are defensible in place and none of them know about the others. When 公 is given an entry, Ch 42 and Ch 62 must answer to Ch 16. Raised drafting Ch 62, 2026-08-11. Related: 王 (*wáng*) is itself unsettled — see the "reading past the throne" thread in `notes/reading.md`.
+
 **Solved by the evidence gate.** Because every chapter file carries its own Chinese, a rule never fires on English alone: "virtue" is an error only when 德 is in *that* chapter's source rows, and otherwise drops to `info` in a separate false-friends list. On the first run this took the error list to **9 findings with zero false positives**, from a naive scan's 20.
 
 Three further lessons, from building it:
