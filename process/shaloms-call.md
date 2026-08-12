@@ -47,7 +47,28 @@ reason: >
 
 ## Calls in effect
 
-## 2026-08-11 · no-new-tooling (sources library, continued)
+## 2026-08-11 · shaloms-call
+
+rule: shaloms-call
+source: this file — the mechanism itself
+scope: repo
+until: standing
+reason: >
+  Establishes the override mechanism. Shalom is the decider; the rules in this
+  repo are his to set aside. Until now an override existed only as a sentence in
+  a conversation: it did not survive the session, it was invisible to anyone
+  reading the repo, and it left the AI in the position of correctly objecting on
+  the next session to work that had already been authorized — re-arguing a
+  settled decision, which is the opposite of what the prime directive is for.
+
+---
+
+## Retired calls
+
+*A call that has expired and been deliberately retired moves here rather than being deleted, so the history of the process stays readable.*
+
+
+## 2026-08-11 · no-new-tooling (sources library, continued) — **retired 2026-08-11 by Shalom, condition met**
 
 rule: no-new-tooling
 source: PLAN.md — "the one rule this plan exists to protect: do not stop drafting to build tooling"
@@ -70,27 +91,17 @@ reason: >
   Han Feizi's 解老 / 喻老. On completion the rule resumes and drafting continues
   at Ch 63.
 
+**Why retired:** the `until:` condition is met. All three classical commentaries named in
+`process/method.md` §3 are vendored — 王弼 (*Wáng Bì*, 71 chapters), 河上公 (*Héshàng Gōng*, all 81),
+and 韓非 (*Hán Fēi*, the 17 he discusses) — with per-file provenance, a reproducible importer, and
+self-verification against our own base text. **The no-new-tooling rule is back in force. Drafting
+resumes at Ch 63.**
 
-## 2026-08-11 · shaloms-call
-
-rule: shaloms-call
-source: this file — the mechanism itself
-scope: repo
-until: standing
-reason: >
-  Establishes the override mechanism. Shalom is the decider; the rules in this
-  repo are his to set aside. Until now an override existed only as a sentence in
-  a conversation: it did not survive the session, it was invisible to anyone
-  reading the repo, and it left the AI in the position of correctly objecting on
-  the next session to work that had already been authorized — re-arguing a
-  settled decision, which is the opposite of what the prime directive is for.
+**Retired by Shalom, which matters.** The previous call in this series was retired by the AI on its
+own initiative and had to be reinstated. Only Shalom creates a call, and retiring one is the same
+kind of act. This retirement was his instruction.
 
 ---
-
-## Retired calls
-
-*A call that has expired and been deliberately retired moves here rather than being deleted, so the history of the process stays readable.*
-
 
 ## 2026-08-11 · no-new-tooling (harness phases A–F) — **retired 2026-08-11, condition met**
 
