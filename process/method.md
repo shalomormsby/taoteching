@@ -16,9 +16,9 @@ Shalom is doing this as a labor of love, and as the founder of **OpenCosmos.ai**
 **The edition's ethos** — the spine that every decision serves:
 
 - **Fidelity and poetry, together.** The literal meaning is honored; the English is living verse, not a gloss. Neither is sacrificed to the other.
-- **The feminine at the center.** The Mother (母), the mysterious female (玄牝), the valley (谷), the yielding (柔) — Laozi's generative, receptive imagery — is kept warm and bodily, never abstracted into a sexless "Source." (See the 生 and 母 entries and the feminine Reading-Note thread.)
+- **The feminine at the center.** The mother (母), the mysterious female (玄牝), the valley (谷), the yielding (柔) — Laozi's generative, receptive imagery — is kept warm and bodily, never abstracted into a sexless "Source." (See the 生 and 母 entries and the feminine Reading-Note thread.)
 - **Universality — reading past the text's incidental male-default.** The Tao Te Ching exalts the feminine as a *principle* (雌, 牝, 母, 柔), yet, born of a patriarchal age, it quietly assumes the male as its cultural *default* — the son as the stock "newborn," the male body as the reference example (as in Ch 55's 朘, the infant boy's member). Where the two collide, we **render toward the universal** (honoring the philosophy) and **note the seam** (honoring the evidence). Never erase the male-centrism silently; read past it deliberately, and say so. The gift is for all — so the translation must actually *be* for all.
-- **The naturalistic razor.** Strip the overlays translators impose — the theistic ("Heaven/God"), the moralistic ("virtue"), and, our own besetting temptation, the mechanistic ("operating system," "generate"). Restore the text's own images: water, root, valley, uncarved wood, the newborn, the Mother.
+- **The naturalistic razor.** Strip the overlays translators impose — the theistic ("Heaven/God"), the moralistic ("virtue"), and, our own besetting temptation, the mechanistic ("operating system," "generate"). Restore the text's own images: water, root, valley, uncarved wood, the newborn, the mother.
 - **Honesty over false closure.** Where the text is genuinely uncertain or double, we say so, and leave the tension open rather than pretending to resolve it.
 
 ---
@@ -87,7 +87,7 @@ When readings conflict, decide in this order:
 2. **The oldest witnesses** — where Guodian / Mawangdui differ meaningfully from the received text, weigh the older reading seriously.
 3. **The classical commentaries** — Wang Bi, Heshang Gong, Han Feizi; convergence is strong evidence.
 4. **Internal consistency** — how the term is used elsewhere in the Tao Te Ching, and the glossary locks (§6).
-5. **This edition's ethos** — where two readings are equally defensible, prefer the one truer to the text's own imagery (water, valley, root, Mother) over an imported frame (theistic, moralistic, mechanistic).
+5. **This edition's ethos** — where two readings are equally defensible, prefer the one truer to the text's own imagery (water, valley, root, mother) over an imported frame (theistic, moralistic, mechanistic).
 6. **Shalom's poetic intuition** — the final arbiter of the verse, exercised *after* §1 has put the deepest reading on the table.
 
 **When genuinely unresolvable:** choose one reading for the verse, and **log the fork** in the notes. Never paper over a real ambiguity — surface it.
@@ -113,8 +113,8 @@ For the AI collaborator this is a specific instruction: **when Shalom says a wor
 Everything we decide gets recorded in one of three running files, so a future reader (or Fable) sees not just *what* but *why*.
 
 - **Manuscript Notes** — textual forks *between the witnesses* (which recension reads what, and which we follow). Format: `chapter · line · fork · our call`. Log only meaning-bearing variants. *(e.g., 41 免/晚成; 42 學/教父; 47 名/明; 53 盜竽/盜夸.)*
-- **Translation Notes** — *our own* rendering decisions: deliberate departures from the literal, for meaning, ethos, or clarity. Format: `chapter · phrase · choice · why`. *(e.g., 48 取天下 → "comes to you"; 52 其母 → "our Mother"; 53 是謂 → "exposes.")*
-- **Reading Notes** — reader-facing interpretive footnotes that illuminate *meaning*; chapter-anchored, or cross-cutting **Threads**. Format: `chapter/Thread · title · note`. *(e.g., 50 the empty tenth; Thread: the Mother and her kin.)*
+- **Translation Notes** — *our own* rendering decisions: deliberate departures from the literal, for meaning, ethos, or clarity. Format: `chapter · phrase · choice · why`. *(e.g., 48 取天下 → "comes to you"; 52 其母 → "our mother"; 53 是謂 → "exposes.")*
+- **Reading Notes** — reader-facing interpretive footnotes that illuminate *meaning*; chapter-anchored, or cross-cutting **Threads**. Format: `chapter/Thread · title · note`. *(e.g., 50 the empty tenth; Thread: the mother and her kin.)*
 
 **Rule of thumb:** a variant between texts → **Manuscript**; a choice about our English → **Translation**; something that helps the reader understand → **Reading**.
 

@@ -72,7 +72,7 @@ Apply consistently across all 81 chapters. Departures require a logged reason.
 | 道 | **the Tao** (untranslated) | "the Way" — carries *Logos* freight | `glossary/dao-道.md` |
 | 德 | **integrity** | "virtue" | `glossary/de-德.md` |
 | 生 | **give birth to / bear / bring forth** | "generate", "produce", "manufacture" | `glossary/sheng-生.md` |
-| 母 | **Mother** | "the Source", "the Origin", "Ground of Being" | `glossary/mu-母.md` |
+| 母 | **mother** | "the Source", "the Origin", "Ground of Being" | `glossary/mu-母.md` |
 | 常 | **the ever-present / the abiding** | "eternal", "true" | `glossary/chang-常.md` |
 | 天地 | **sky and earth** | "heaven and earth", "the cosmos" | `glossary/tiandi-天地.md` |
 | 天下 | **the world** | — | same |

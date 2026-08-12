@@ -6,6 +6,57 @@
 
 ---
 
+## 3 · The overlay that was never in the Chinese
+
+### The finding
+
+Chapter 62 names the apex of the Zhou state — 故立**天子**，置三公, *"so they raise up a 天子 and install the three ministers"* — and every English Tao Te Ching renders 天子 as **"Son of Heaven."**
+
+Take the phrase apart and nothing in it survives.
+
+**天** (*tiān*) is a picture of **a standing person with the head marked** — 大 (a human, arms out) under a stroke. The *Shuowen Jiezi* (~100 CE) is explicit: 天，顛也，至高無上，从一大 — *"天 is 顛 (diān — the crown of the head); the highest, with nothing above it."* The word is **the top of a person**, hence what is overhead, hence sky. There is no realm in it and nobody lives there.
+
+**子** (*zǐ*) is a **swaddled infant** — big head, two arms, legs wrapped. And this book uses it that way in the two places it matters: Ch 4's 吾不知誰之**子**, *"I do not know whose child it is,"* said of the Tao; and Ch 52's 既得其母，以知其**子**, where 子 is fixed by direct opposition to 母, the mother.
+
+**天子 is "the sky's child."** Every element of "Son of Heaven" — the capital, the realm, the Son — is added.
+
+### Why this is a different finding from §1, and why the pair is the point
+
+§1 found the Ch 25 throne: our base text reads 王 (*wáng* — king) where **both Mawangdui silks read 人** (*rén* — human). There, the distortion was **Chinese**. Han scribes put a king into a cosmological ladder that had a human in it, and the missionaries then found a throne already waiting for them.
+
+**Chapter 62 is the other case, and it had to be checked to be found.** The silks were consulted precisely because 天子 looked like a Ch 25-style accretion — the Zhou minted the title, along with 天命 (*tiān mìng* — the sky's mandate), to explain why the Shang's own high god 帝 had let them be conquered. A legitimation device made by the winners: exactly the profile.
+
+**And the silks have it.** 立天子 stands in the Mawangdui text. The Chinese is clean. **The entire distortion happened in English.**
+
+So there are two mechanisms, not one, and they need to be told apart:
+
+| | Ch 25 · 王 | Ch 62 · 天子 |
+|---|---|---|
+| Chinese witnesses | silks read 人; the throne is added | silks read 天子; nothing added |
+| What English did | inherited a throne and capitalized it | manufactured *Son of Heaven* from *sky's child* |
+| The fix | follow the older witness | translate the characters |
+
+**A translator who only checks manuscripts finds §1 and misses this. A translator who only reads characters finds this and misses §1.** The overlay audit needs both hands.
+
+### The part that makes it worth writing
+
+**Laozi's own cosmology already deflates the title, and the English was preventing it.**
+
+> 人法地，地法天，**天法道**，道法自然 (Ch 25)
+> *the human follows earth, earth follows the sky, **the sky follows the Tao**, the Tao follows the self-so.*
+
+The sky is not the top of anything. It is a rung, with something above it — and the Tao is 先天地生, *born before sky and earth*. **The sky is itself a child.** So inside this book, calling a ruler 天子 is not a claim of divine descent. It is kinship with a junior member of the family, whose actual parent is the 母 — the mother, which is the Tao.
+
+Read as *"Son of Heaven,"* the title is the highest thing in the sentence. Read as *"a child of the sky,"* it is two rungs down a ladder the book has already published, in a chapter whose entire argument is that the whole apparatus — the enthronement, the three ministers, the jade discs borne ahead of four-horse teams — is worth less than sitting still: 不如坐**進**此道.
+
+**The deflation is the chapter. The English had been holding it up.**
+
+### Where the evidence sits
+
+`notes/translation.md` (天子, and 三公 — where the silks write 鄉, read as 卿, the word that simply means *minister*, vindicating "the three ministers" over the conventional "Three Dukes") · `notes/manuscript.md` · `sources/variants.yaml` ch 62 · and `chapters/062.md`. Companion finding at §1.
+
+---
+
 ## 2 · The question is not "what is it?" — it is "is it so?"
 
 ### The finding

@@ -32,7 +32,7 @@ They **live** — 萬物恃之以生, *the countless things rely on it to live* 
 
 Above all they are **born**. 道生之 (51) — the Tao gives birth to them. 三生萬物 (42) — the three gives birth to them. They are 萬物之母's brood (1), and Chapter 52 names them plainly: 其**子**, *her children*.
 
-**The countless things are the Mother's offspring.** That is the register the English must protect.
+**The countless things are the mother's offspring.** That is the register the English must protect.
 
 ### Why not "the ten thousand things"
 

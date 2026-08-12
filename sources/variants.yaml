@@ -308,3 +308,96 @@
     to license a passive reading. We keep the active in both halves, since the
     chiastic repetition is the argument. Heshang Gong reads it actively too.
   logged: notes/manuscript.md
+
+- chapter: 63
+  line: "大小多少，報怨以德"
+  base: "報怨以德"
+  witnesses: { mawangdui-a: "報怨以德" }
+  meaning_bearing: false
+  our_call: base
+  note: >
+    Not a fork but an attestation, and it settles a long-standing suspicion.
+    The line is routinely treated as a stray from Ch 79 (和大怨) that migrated
+    here. Mawangdui A has it in this chapter, immediately after 大小多少, so it
+    is original to Ch 63 and the collision with Analects 14.34 is the text's
+    own.
+  logged: notes/manuscript.md
+
+- chapter: 63
+  line: "夫輕諾必寡信"
+  base: "輕諾必寡信"
+  witnesses: { mawangdui-b: "damaged — two graphs illegible in the 輕…信 span" }
+  meaning_bearing: false
+  our_call: base
+  note: >
+    Both silks are damaged through this line and B preserves only part of it,
+    so the 信 → trust lock rests here on the received text alone. Recorded as
+    the fact of the damage, not as anyone's reconstruction of the lost graphs.
+  logged: notes/manuscript.md
+
+- chapter: 62
+  line: "美言可以市尊，美行可以加人"
+  base: "市尊，美行"
+  witnesses: { wangbi: "市 | 尊行", heshanggong: "市 | 尊行" }
+  meaning_bearing: true
+  our_call: heshanggong
+  note: >
+    A punctuation fork that is also a character fork. Our base splits after 尊
+    and reads 美行 (fine conduct), giving a 美/美 parallel. Both classical
+    commentators split after 市 and read 尊行 (honored conduct): Heshang Gong's
+    lemmas are printed separately as 美言可以市 and 尊行可以加人, and Wang Bi's
+    comment does the same (故曰美言可以市也 … 故曰可以加於人也). We follow the
+    commentators; 市 becomes a plain verb, "to be traded in the market."
+  logged: notes/manuscript.md
+
+- chapter: 62
+  line: "道者萬物之奧"
+  base: "奧"
+  witnesses: { mawangdui-a: "注", mawangdui-b: "注" }
+  meaning_bearing: true
+  our_call: base
+  note: >
+    The chapter's opening word, and the oldest witnesses do not have it. Gao
+    Ming's Boshu Laozi Jiaozhu reads the silks' 注 as a loan for 主 (zhu —
+    master), giving "the Tao is the master of the countless things", and cites
+    Zheng Xuan on Liji Liyun (奧猶主也) and Zuozhuan Zhao 13 (國有奧主) to show
+    that 奧 itself bore that sense. We keep 奧 and decline the mastery reading,
+    because Ch 34 denies it twice in the identical words — 衣養萬物而不為主 and
+    萬物歸焉而不為主. Both of the silks' available senses (注 as "pour into",
+    or 主 by way of 奧's own "one who presides at the corner") run through a
+    place, and the place is the older layer of the word. See notes/translation.md.
+  logged: notes/manuscript.md
+
+- chapter: 62
+  line: "故立天子，置三公"
+  base: "三公"
+  witnesses: { mawangdui-a: "三鄉 (read by editors as 三卿)", mawangdui-b: "三鄉 (read by editors as 三卿)" }
+  meaning_bearing: false
+  our_call: base
+  note: >
+    The silks write 鄉, which editors read as a loan for 卿 (qing — high
+    minister). Not meaning-bearing, and logged because it settles an English
+    question: 公 is conventionally rendered "duke", but the oldest witness names
+    the office with the word that means minister. Our "the three ministers"
+    is the older reading's own word. The same line confirms 天子 stands in the
+    silks — the title is not a later accretion.
+  logged: notes/manuscript.md
+
+- chapter: 62
+  line: "善人之寶，不善人之所保"
+  base: "寶 … 保"
+  witnesses: { mawangdui-a: "one graph used in both positions", mawangdui-b: "one graph used in both positions", dunhuang: "所不保" }
+  meaning_bearing: true
+  our_call: base
+  note: >
+    Two separate forks. (1) Where our base uses two different graphs, 寶
+    (treasure) then 保 (keep safe), the silks use the same graph twice —
+    published transcriptions differ on which, and that disagreement is itself
+    modern editorial work. So the received text's pair may be a later
+    differentiation of one word. (2) Dunhuang manuscripts, Yan Zun and Zhao
+    Zhijian read 不善人之所不保 — with a negation, reversing the clause. Yan
+    Kejun reports all editions reading 所保. We keep the base text; the
+    negation would make the Tao what the unmasterful fail to keep, which
+    contradicts the chapter's 何棄之有.
+  logged: notes/manuscript.md
+

@@ -13,8 +13,8 @@ A from-the-source translation of the Tao Te Ching, built chapter by chapter from
 The work rests on three commitments:
 
 - **Fidelity and poetry, together.** The literal meaning is honored; the English is living verse, not a gloss.
-- **The feminine at the center.** The Mother (母), the dark female (玄牝), the valley (谷), the yielding (柔) — Laozi's generative imagery kept warm and bodily, never abstracted into a sexless "Source."
-- **The naturalistic razor.** The overlays come off — theistic ("Heaven"), moralistic ("virtue"), and mechanistic alike — and the text's own images are restored: water, root, valley, uncarved wood, the newborn, the Mother.
+- **The feminine at the center.** The mother (母), the dark female (玄牝), the valley (谷), the yielding (柔) — Laozi's generative imagery kept warm and bodily, never abstracted into a sexless "Source."
+- **The naturalistic razor.** The overlays come off — theistic ("Heaven"), moralistic ("virtue"), and mechanistic alike — and the text's own images are restored: water, root, valley, uncarved wood, the newborn, the mother.
 
 Every consequential decision is documented. Nothing is asserted without evidence, and genuine ambiguities are left open rather than resolved by fiat.
 

@@ -53,7 +53,7 @@ And the closing couplet states the principle:
 > 天下萬物生於**有**，**有**生於**無**。
 > *The ten-thousand things of the world are born from presence; presence is born from absence.*
 
-A cosmogony, and asymmetric: 無 comes first, 有 second, the world third. Note the verb — 生, *to give birth to*, the Mother's word. Absence does not *cause* presence; it **bears** it.
+A cosmogony, and asymmetric: 無 comes first, 有 second, the world third. Note the verb — 生, *to give birth to*, the mother's word. Absence does not *cause* presence; it **bears** it.
 
 **Chapter 2** puts them side by side:
 
