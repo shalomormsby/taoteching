@@ -25,7 +25,7 @@ That is why the standard English Laozi reads like scripture. It was, in a real i
 | **道** | "the Way," capitalized — and, in Chinese Bibles, *Logos* itself | **kept untranslated: the Tao.** Our strongest defense; an untranslated word cannot be quietly re-theologized. |
 | **玄** | "mystery," "the occult," "the arcane" | **dark / profound** — a dye-color and a night sky, not an esoteric doctrine. See the 玄 & 妙 entry. |
 | **生** | "create," "generate" — the maker-God, the engineer | **give birth to / bear.** See the 生 entry. |
-| **母** | "the Source," "the Origin," "the Ground of Being" | **Mother** — bodily, nursing, unsentimental. See the 母 entry. |
+| **母** | "the Source," "the Origin," "the Ground of Being" | **mother** — bodily, nursing, unsentimental. See the 母 entry. |
 | **常** | "eternal" — a timeless realm outside the world | **the ever-present / the abiding.** See the 常 entry. |
 
 ### Tier 2 — The live watchlist
