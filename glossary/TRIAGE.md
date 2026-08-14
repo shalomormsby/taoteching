@@ -87,7 +87,7 @@
 
 Each is 6–14 lines; these are seeds, not drafts.
 
-**事** (14 chapters — most undervalued of the group) · **容** (4) · **愚** (3) · **命** (2) · ~~**腹**~~ *(absorbed into `xin-心.md`)* · **敦** (1) · **芻狗** (1) · **上善** (1) · **大制** (1)
+~~**事**~~ *(entry written 2026-08-12 — `shi-事.md`; a hand holding the badge of office, the second hand beside 為's elephant. 無事 left open)* · **容** (4) · **愚** (3) · **命** (2) · ~~**腹**~~ *(absorbed into `xin-心.md`)* · **敦** (1) · **芻狗** (1) · **上善** (1) · **大制** (1)
 
 ---
 
@@ -96,7 +96,7 @@ Each is 6–14 lines; these are seeds, not drafts.
 | Entry | Destination | Why |
 |---|---|---|
 | **利 / 用** | `notes/translation.md` | Not what the characters mean — a choice made in English ("stripping the capitalist static"). A rendering decision. |
-| **公 / 仁** | `notes/translation.md` | Same. |
+| ~~**公**~~ / **仁** | `notes/translation.md` | 公 has its own entry as of 2026-08-12 — `gong-公.md`; the Shuowen cites Han Feizi for its etymology. 仁 still here. |
 | **經**, **老子** | Companion front matter | Zero occurrences in the text. |
 
 ---

@@ -7,7 +7,7 @@
 python3 tools/build_index.py
 ```
 
-**21 entries.** Sorted by how much of the book each term touches.
+**24 entries.** Sorted by how much of the book each term touches.
 
 | Term | Say | Render as | Never | Chapters | Entry |
 |---|---|---|---|---|---|
@@ -16,8 +16,10 @@ python3 tools/build_index.py
 | **道** | *dào* | the Tao (left untranslated) | "the Way", "the Path" | 37 | [`dao-道.md`](dao-道.md) |
 | **常** | *cháng* | the ever-present / the abiding | "eternal", "everlasting", "the eternal" | 19 | [`chang-常.md`](chang-常.md) |
 | **生** | *shēng* | give birth to / bear / bring forth | "generate", "produce", "manufacture", "create" | 19 | [`sheng-生.md`](sheng-生.md) |
+| **善** | *shàn* | masterful / masterful at · the masterful & the unmasterful (of people) · good (only where the text names the category) | "virtuous", "righteous", "saintly", "benevolent" | 18 | [`shan-善.md`](shan-善.md) |
 | **德** | *dé* | integrity | "virtue", "moral excellence", "power" | 16 | [`de-德.md`](de-德.md) |
 | **萬物** | *wàn wù* | the countless things | "the ten thousand things", "all things", "the myriad things", "beings" | 16 | [`wanwu-萬物.md`](wanwu-萬物.md) |
+| **事** | *shì* | affairs / undertakings (noun) · to serve, to attend to (verb) | "techniques", "processes" | 14 | [`shi-事.md`](shi-事.md) |
 | **明** | *míng* | clear-seeing / clarity | "enlightenment", "illumination", "brilliance" | 12 | [`ming-明.md`](ming-明.md) |
 | **無為** | *wú wéi* | non-doing | "non-action", "effortless action", "inaction", "doing nothing" | 10 | [`wuwei-無為.md`](wuwei-無為.md) |
 | **器** | *qì* | vessel / tool / implement | "system", "mechanism", "machine", "utensil" | 9 | [`qi-器.md`](qi-器.md) |
@@ -30,6 +32,7 @@ python3 tools/build_index.py
 | **眾** | *zhòng* | the crowd / the many | "the masses", "the multitude", "the people" | 6 | [`zhong-眾.md`](zhong-眾.md) |
 | **母** | *mǔ* | mother | "the Source", "the Origin", "the Ground of Being" | 5 | [`mu-母.md`](mu-母.md) |
 | **自然** | *zì rán* | the self-so / of itself | "Nature", "spontaneity" | 5 | [`ziran-自然.md`](ziran-自然.md) |
+| **公** | *gōng* | impartiality / impartial (the quality) · lord / minister (the office) | "duke", "equanimity", "justice" | 3 | [`gong-公.md`](gong-公.md) |
 | **知足** | *zhī zú* | knowing you have enough / contentment | "sufficiency", "fulfilled" | 3 | [`zhizu-知足.md`](zhizu-知足.md) |
 | **精** | *jīng* | vital essence / essence | "primordial mass", "soul", "spirit" | 2 | [`jing-精.md`](jing-精.md) |
 
@@ -45,6 +48,7 @@ python3 tools/build_index.py
 | **忠** | loyalty | [`xin-信.md`](xin-信.md) — 信 |
 | **物** | things / something | [`wanwu-萬物.md`](wanwu-萬物.md) — 萬物 |
 | **用** | use | [`wu-you-無有.md`](wu-you-無有.md) — 無 & 有 |
+| **私** | the private / the private self | [`gong-公.md`](gong-公.md) — 公 |
 | **腹** | belly | [`xin-心.md`](xin-心.md) — 心 |
 | **萬** | countless | [`wanwu-萬物.md`](wanwu-萬物.md) — 萬物 |
 
