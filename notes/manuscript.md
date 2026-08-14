@@ -50,13 +50,23 @@ We follow the second, on three grounds. **(1) The parallel with Chapter 37** is 
 
 *(A side benefit: with 樸 read attributively, the English needs no article, so nothing reifies the uncarved into an object — the same correction made when "block" was retired. See `glossary/pu-樸.md`.)*
 
-### Ch 62 · 美言可以市尊，美行可以加人 — both commentators punctuate against our base
+### Ch 62 · 美言可以市尊，美行可以加人 — **resolved 2026-08-12: we keep the base text**
 
-Our received base splits the line after 尊 and reads 美行 (*měi xíng* — fine conduct), producing a tidy 美 / 美 parallel: *"fine words can buy honor; fine conduct can raise a person above others."* **Neither classical commentator reads it that way.** Heshang Gong's lemmas are printed as two separate units — 美言可以市 and 尊行可以加人 — and Wang Bi's comment splits identically, closing each half with its own 故曰 (故曰美言可以市也 … 故曰可以加於人也). Both therefore take the second subject as 尊行 (*zūn xíng* — honored conduct), not 美行.
+**Shalom's call, made against the recommendation.** Both readings are set out here in full, because the evidence is genuinely split and the argument on the losing side is worth preserving.
 
-**The manuscript evidence, gathered afterwards, splits both ways — and the older manuscript sides with the commentators.** For the split: **both Mawangdui silks** divide after 市 and read 尊行, and so do the **Fu Yi** and **Fan Yingyuan** editions (which write 美言可以于市，尊言可以加于人 — note 尊**言**, so even this camp disagrees internally). Against it: the ***Huainanzi*** (c. 139 BCE) quotes the line **twice** — in 人間訓 and 道應訓 — with the 美言 / 美行 parallel our base text has, and Yu Yue and Zhu Qianzhi follow the *Huainanzi* on that ground.
+**The fork.** Our received base divides the line after 尊 and reads 美行 (*měi xíng* — fine conduct), giving a 美 / 美 parallel: *"fine words can buy honor; fine conduct can raise a person above others."* **Both Mawangdui silks**, the **Fu Yi** and **Fan Yingyuan** editions, and **both classical commentaries** instead divide after 市 and read 尊行 (*zūn xíng* — honored conduct). Heshang Gong's lemmas are printed as two separate units — 美言可以市 and 尊行可以加人 — and Wang Bi's comment splits identically, closing each half with its own 故曰 (故曰美言可以市也 … 故曰可以加於人也).
 
-**We follow the commentators and the silks.** The *Huainanzi* is an old and independent witness and this fork is genuinely open, but it is a **quotation** and Mawangdui A is a **manuscript**, and older. 市 (*shì* — market) becomes a plain verb, which is what Heshang Gong is glossing when he writes 夫市，交易而退 — *"the market: you exchange, and you withdraw."* The base text in the Source table is unchanged; only the translation follows the older split, as at Ch 21, 41, 42, 47 and 53. **Worth keeping in view: the English changes less than the apparatus does.** Either way the line says fine words buy something and fine bearing lifts a person, and either way the next line asks why anyone is abandoned.
+**For the base, which is where we land.** The ***Huainanzi*** (c. 139 BCE) quotes the line **twice**, in 人間訓 and 道應訓, with the 美 / 美 parallel — the oldest *quotation* of the line, against the oldest *manuscripts*. **Yu Yue** and **Zhu Qianzhi** both followed it. And the split camp is not unanimous: **Fu Yi reads 尊言, not 尊行**, so the witnesses that agree against our base do not agree with each other.
+
+**The case against this call, recorded so it stays available.**
+
+**1. Lectio difficilior.** Our base is the **smooth** reading — fully parallel, 美 answering 美. The split is **rough**: an asymmetric pair with 市 (*shì* — market) left standing alone as a bare verb. In a text this full of parallel couplets, a copyist meeting the rough reading has an obvious motive to regularize it and none to break a clean parallel, so the drift would run from the split toward our base rather than the reverse.
+
+**2. Wang Bi's text contradicts Wang Bi's commentary**, and that is a documented systematic feature of this recension — some seventy-nine places where the Laozi transmitted *over* the commentary differs from readings quoted *inside* it, the received text having been supplanted by Heshang Gong-line readings. On that reasoning the text Wang Bi actually had read the split, and our base is later here than the commentary printed above it.
+
+**What the call changed.** The verse, which had been drafted on the split. Chapter 62 now reads *"Fine words can buy honor. / Fine conduct can raise a person above others."* The line's function is unaffected either way — fine words and fine bearing have purchase, therefore no one is beyond reach, therefore 何棄之有.
+
+**Still open, and a different question:** the line's **tone**. Heshang Gong reads it as a put-down (美言者獨可於市耳 — *"fine words are good for the marketplace, and that is all"*), Wang Bi as praise of the Tao, and Ch 81 will say 信言不美，美言不信. That is a reading question, not a textual one, and it lives in the Translation Notes.
 
 ---
 

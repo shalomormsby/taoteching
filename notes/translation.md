@@ -137,6 +137,32 @@ Four entries were written together (`xin-信.md`, `jing-精.md`, `qi-器.md`, `z
 
 ## Chapter notes
 
+### Ch 7
+
+#### 非以其無私邪？故能成其私 → "Is it not because they have no private self? / And so their private self is fulfilled"
+
+*(restored 2026-08-12. The second line had no English at all.)*
+
+Block 2 has four Chinese lines, and the fourth had been replaced rather than translated. 故能**成其私** is *therefore they can **complete their own***; the verse read *"The sage simply does what needs to be done"*, in which no character of the Chinese survives — nothing there means *need*, *do*, or *done*. And the third line had lost its question: 非…邪 is an explicit rhetorical frame, *is it not because…?*, which exists to set up the fourth line as its answer. Flattened to *"Free of selfish desires,"* it became a description, and the answer had nothing to answer.
+
+**私 is the hinge and it appears twice** — 無私 then 成其私, emptied then fulfilled. The graph is 禾 (*hé* — standing grain) beside 厶 (*sī* — a self-enclosing curl): **grain held back for yourself**, the harvest withheld. One English word has to carry both halves or the paradox does not close. We use **private self** in both, which is also the wording of the 公 entry, where 私 is the counter-term (`glossary/gong-公.md`).
+
+**This is the chapter's third self-negation, not its first.** 後其身而**身先** and 外其身而**身存** run the same move on 身 (*shēn* — a picture of a pregnant body, the physical person). So the stanza is three paradoxes in a row, and the last was missing.
+
+**In the same pass: 身存 → "their selves endure"** *(was "their spirits endure")*. 身 is the body, and it is the same character rendered *themselves* one line above; *spirit* is the opposite register and it broke the 身 / 身 / 身 chain the couplet runs on.
+
+### Ch 31
+
+#### 吉事尚左，凶事尚右 → "Auspicious occasions honor the left; inauspicious occasions honor the right"
+
+*(2026-08-12. Was: "Life-generating processes amplify creative energy. Life-negating processes invoke destruction.")*
+
+**Four inventions in three lines.** *Processes* is the mechanistic overlay, and it turns a room of people observing a protocol into physics. 尚 (*shàng*) means only *to esteem, to place above* — nothing in the line says *amplify* or *invoke*. And the next line's *"the place of creation"* / *"the place of destruction"* are supplied outright: 偏將軍居左，上將軍居右 is simply *the secondary general stands left, the highest general stands right*.
+
+Those glosses also buried the point. 吉事 and 凶事 are the Zhou ritual categories — 吉禮 (auspicious rites) and 凶禮 (rites of mourning) — and the chapter's shock is that **the more senior your command, the more you are seated as a mourner.** The text says so itself in the line that follows, 言以喪禮處之, *that is to say, they are placed by the rites of mourning*, which needed no help from us.
+
+*(With this repaired, `"processes"` was added to 事's `forbidden:` list; see `glossary/shi-事.md`.)*
+
 ### Ch 14
 
 #### 無物 → "no-thing," both times
@@ -302,6 +328,32 @@ Where the received text has 王 (*wáng* — king), we render **the aligned huma
 
 **To develop.** Shalom flags this as possibly worth a chapter of its own. The thread runs wider than Ch 25 — see the Reading Notes thread on reading past the throne, and `DISCOVERIES.md` §1 and §3.
 
+### Ch 27
+
+#### 救 → "rescue", never "drawing in" — and the couplet's lost axis
+
+*(2026-08-12, prompted by the Ch 62 retrofit. The line had read "masterful at drawing in people, ensures that no one is lost.")*
+
+**The couplet had no axis.** 常善**救**人，故無**棄**人 turns on a pair of opposites: 救 (*jiù* — **rescue**) and 棄 (*qì* — **abandon**). The 故 (*gù* — "therefore") only does work because they pull against each other — *always masterful at rescuing, therefore no one is abandoned.* The English had paired *"drawing in"* with *"lost"*, which are not opposites and not even on one axis, so the "therefore" joined two unrelated observations.
+
+**救 is not "drawing in."** The graph is 求 (*qiú* — to seek, to beg) beside 攴 (*pū* — a hand holding a stick, the action radical): intervening to pull someone out of trouble. Both commentators are explicit — Heshang Gong on 常善救物: 聖人所以教民順四時，以**救**萬物之殘傷, *"the sage teaches the people to follow the four seasons, in order to **rescue** the countless things from injury and mutilation"*; and on 常善救人: 欲以**救**人在命, *"wishing thereby to save people's lives."*
+
+**"Rescue" and not "save," deliberately.** *Save* is the obvious English and it fails the hymn test outright — *"the sage is always good at saving people"* belongs in a sermon, and 救 has no soteriology in it. *Rescue* keeps the physical act. **This is also simply the house word already:** Ch 52 renders 終身不救 as *"your life is beyond saving"* — Ch 27 was the outlier, not the precedent. 救 also stands at Ch 67 (天將救之), still undrafted, which should follow.
+
+#### 物 → "things", never "entities"
+
+*"Entities"* occurred **exactly once in all 81 chapters of verse** — this line — and was tied to no locked term. 物 (*wù*) is a mottled ox: things, kinds, stuff. Heshang Gong's gloss settles the register: 聖人不賤石而貴玉，視之如一, *"the sage does not despise stone and prize jade; he sees them as one."* Stones and jade, not entities. The 萬物 lock forbids *"beings"* for the same reason — see `glossary/wanwu-萬物.md` — and *entities* is that abstraction in a lab coat.
+
+#### 襲明 → "inherited clarity", not "innate clarity"
+
+`glossary/ming-明.md` had already ruled this: 襲明 → **"inherited clarity."** The verse said *innate*, which claims the opposite about where it comes from — 襲 (*xí*) is to inherit, to receive in succession, to put on in layers. *Innate* says it was born in you; *inherited* says it was handed to you. The glossary decided; the verse had not been told.
+
+#### 常 restored
+
+常 (*cháng* — always) had been dropped from both halves. It is the word that makes this a standing disposition rather than an occasion, and it is why the sage's rescuing is the *reason* nobody ends up discarded.
+
+**Retrofit closed.** This was the debt opened when Ch 62 settled 棄 → *abandon*; `RETROFIT.md` can drop it. The wider point is logged as a Thread in `notes/reading.md`: Wang Bi glosses this very line with 不造進向以殊**棄不肖** — *"does not create tracks of advancement that single out and discard **the unfit**"* — and 不肖 is Ch 62's 不善人.
+
 ### Ch 29
 
 #### 天下神器 → "the world is a sacred vessel"
@@ -347,6 +399,71 @@ The literal 取 is *seize / take* — its graph is a hand (又) gripping an ear 
 - The failure-clause 及其有事 (literally "once there are affairs / once one meddles") we render **"the moment you grab at it, it slips away,"** letting "grab" carry the 取/執 grasping-image and echo 執者失之.
 
 Net: fidelity to the *word* traded for fidelity to the *teaching*. A conscious choice, logged here.
+
+### Ch 48
+
+#### The closing stanza was drafted twice, and the superseded draft was kept
+
+*(repaired 2026-08-12)*
+
+Block 2 carries **two** lines of Chinese — 取天下常以無事 and 及其有事，不足以取天下 — and the English rendered them **four** times: the logged reading, then a second, more literal pass that had lost its subject (*"always won by non-interference."*) and used *"win the world,"* the exact word the 取天下 entry above argues against. The second stanza was dead draft. It is deleted, not repaired.
+
+#### 取天下常以無事 → "The world always comes to you by not meddling with it"
+
+The couplet is **framed and pivoted**, and the English had kept neither. 取天下 opens it and closes it; between those, one character flips — **無事 → 有事**, absence of undertaking to presence of it, built on the 無/有 pair this edition locks as *absence / presence*.
+
+The old second line rendered 有事 as *"you grab at it."* Grabbing is 執 (*zhí*), a hand seizing — Chapter 29's word, and not in this chapter. **有事 is milder and more insidious: having a project.** Wang Bi glosses it 自已造也, *"manufactured by oneself"*; Heshang Gong, 好有事，則政教煩, *"fond of having undertakings, and governance turns troublesome."* Officiousness, not violence.
+
+Now: *"The world always comes to you by not meddling with it. / The moment you meddle, it stops coming."* 常 (*cháng* — always) returns; 取天下 frames it twice as *comes to you* / *stops coming*, keeping the logged decision that 取 is reception and not conquest; and 無事/有事 becomes one English word negated and then affirmed, so the line turns on a hinge instead of drifting.
+
+**Still open here:** 取天下 reads *"comes to you"* in this chapter and *"win the world"* in Ch 57, which the Ch 29 note already flagged as wanting one treatment across 29 / 48 / 57. Not addressed.
+
+### Ch 57
+
+#### 無事 → "I do not meddle"
+
+*(was: "I practice non-interference")*
+
+The line sits third in a quartet, and it was the only member that was not a plain saying:
+
+> 我**無為**，而民自化 — *I do not do, and the people transform themselves*
+> 我好靜，而民自正 — *I love stillness, and the people right themselves*
+> 我**無事**，而民自富 — *I do not meddle, and the people enrich themselves*
+> 我無欲，而民自樸 — *I am desireless, and the people become plain of themselves*
+
+In the Chinese, 無為 and 無事 are visibly the same construction — the same negation over two different hands (`glossary/shi-事.md`). Four plain statements now, and the pairing is audible. The chapter's other 無事, 以無事取天下, follows: *"win the world by not meddling."*
+
+### Ch 49
+
+#### 善者，吾善之 → "The masterful, I count as masterful"
+
+*(2026-08-14. Was: "The good, I am good to.")*
+
+善 stands four times in two lines — twice for the kind of person, twice as a **verb**, *to reckon as 善*. Rendering it *good* made this a chapter about kindness to the wicked. It is not; it is a chapter about **refusing to grade people**, which is a stranger and better claim, and the same one Ch 27 (無棄人) and Ch 62 (何棄之有) make.
+
+**Wang Bi decided it, by reading Ch 49 in Ch 27's own vocabulary.** On the couplet: 各**因**其**用**，則善不失也, *"go along with each according to their **use**, and then 善 is not lost."* On the tag 德善, three characters: **無棄人也**, *"there are no discarded people"* — Ch 27's own line. And at the chapter's close: 能者與之，**資**者取之, *"those with ability, go along with; those who are **raw material**, take them up"* — 資 being the exact character Ch 27 gives the unmasterful. Heshang Gong reads it morally instead (百姓雖有不善者，聖人化之使善也) and that stays on the record. Full argument in `glossary/shan-善.md`.
+
+#### 德善 / 德信 → "Integrity is mastery" / "Integrity is trust"
+
+*(was: "for integrity is good" / "for integrity is trustworthy")*
+
+Two characters, no verb, and **no causal word** — no 故, no 因. The English had supplied a *because*, turning a bare tag into a moral premise. Removing it makes the stronger claim: **integrity is not the reason for the refusal to grade; integrity *is* the refusal to grade.**
+
+*Rejected: reading 德 as its homophone 得 (dé — to obtain), giving "and so mastery is gained."* It is a common reading and Wang Bi's 無棄人也 fits it, but this edition locks 德 → integrity everywhere and a search-level consensus is not sufficient warrant to break a lock. **Shalom's call.**
+
+#### 歙歙焉 → "breathes gently" · 渾其心 → "let their heart go muddy"
+
+歙 (*xī*) is to draw in, to inhale. Wang Bi glosses 歙歙焉 as 心無所主也, *"the heart presides over nothing."* **"Breathes gently"** keeps the breath; what it lets go is the self-effacement Wang Bi hears. *(An edition fork, undecided: Heshang Gong's text reads 怵怵 — chù chù, wary — and the 釋文 records 惵惵.)*
+
+渾 (*hún*) is to blend, to make turbid. The earlier *"merges their heart with the world"* had the sense and lost the water. **Muddy** chimes with Ch 15's 混兮其若濁, *"Mixed, like muddy water"* — where muddiness is the good state you sit still inside until it clears. Wang Bi: 意無所適莫也, *"the intention has no for and no against."*
+
+#### 百姓皆注其耳目，聖人皆孩之 → "The people pour out their attention, all eyes and ears; / the sage sees them pure as infants"
+
+**注** (*zhù*) is water pouring — the same character the Mawangdui silks put at the head of Ch 62. Both commentators gloss it as 用 (*yòng* — to use). English supplies the gift here: ***all eyes and ears*** is a live idiom for rapt attention **and is literally 耳目**, so the idiom carries the sense while the organs survive.
+
+**孩** (*hái*) is not primarily *child*. The *Shuowen* defines its older form 咳 as 小兒笑也, **"a small child's laughing"** — the sense *child* came from the smile. And Ch 20 uses it that way: 如嬰兒之未**孩**, *"like an infant that has not yet smiled."* Those two are the only occurrences in the book, so Ch 20 is our dictionary for Ch 49. *(The Siku editors note the 釋文's claim that Wang Bi's text read 咳 here — the same word, the older graph.)*
+
+**Why "sees them" and not "makes them."** 孩之 is grammatically causative, and Wang Bi reads it so (皆使和而無欲，如嬰兒也). But **the chapter's machinery is three acts of regard, not three interventions** — 吾善之 (*I count them masterful*), 吾信之 (*I trust them*), 孩之 (*the sage sees them as infants*). Rendering the last as something done *to* the people breaks that, in a chapter whose whole subject is not managing them. It leans to Heshang Gong's 愛念 (*cherishes, holds in mind*) over Wang Bi's causative, and *pure* is supplied — it does the work of telling a modern reader which property of infancy is meant, since English *infantile* runs the wrong way. **Both costs are Shalom's call, taken deliberately.**
 
 ### Ch 52
 
@@ -472,9 +589,9 @@ Heshang Gong confirms the register from the other end. His gloss on 有罪 is no
 
 Ch 62 grants 美言 (*měi yán* — fine words) real purchase: they can be traded, and honored conduct can set a person apart. **Ch 81 flatly distrusts them:** 信言不美，美言不信 — *"trustworthy words are not beautiful; beautiful words are not trustworthy."* The commentators split on the tone here too: Heshang Gong reads the line as a put-down (美言者獨可於市耳 — *"fine words are good for the marketplace, and that is all"*; 未足以尊道 — *"not enough to honor the Tao"*), while Wang Bi reads it as praise of the Tao, whose good report 奪衆貨之賈, *"outbids the price of every other good."*
 
-We render it **positively and plainly**, because the line that follows depends on it: fine words and honored conduct work even on the inept, therefore no one is beyond reach, therefore 何棄之有 — why abandon them? Under Heshang Gong's dismissal that sentence does not follow from anything. But the tension with Ch 81 is genuine and stays open; it is not to be smoothed when Ch 81 is drafted.
+We render it **positively and plainly**, because the line that follows depends on it: fine words and fine conduct work even on the inept, therefore no one is beyond reach, therefore 何棄之有 — why abandon them? Under Heshang Gong's dismissal that sentence does not follow from anything. But the tension with Ch 81 is genuine and stays open; it is not to be smoothed when Ch 81 is drafted.
 
-*(The punctuation fork in this line — both commentators and both silks split after 市 and read 尊行 — is in the Manuscript Notes.)*
+*(The line also carries a textual fork — the silks and both commentaries divide it differently — resolved 2026-08-12 in favour of our base text. See the Manuscript Notes. The verse now reads "Fine words can buy honor. / Fine conduct can raise a person above others.")*
 
 #### 何棄之有 → "why abandon them?"
 
@@ -537,11 +654,19 @@ It still drops the 公 etymology, and Ch 42's 王公 currently reads *"kings and
 
 ### Ch 63
 
-#### 事無事 → "tend the not-tending"
+#### 事無事 → "serve the not-serving"
 
-The triple 為無為，事無事，味無味 is the line that forced the 無為 → *non-doing* lock (see `glossary/wuwei-無為.md`), because only a verb that also works as a noun survives all three members. The glossary entry illustrates 事 with *"attend the not-attending"*; we render **tend**. Same act, but *tend* keeps a hand in it and *attend* is a Latinate abstraction, and three plain monosyllables are what make the parallel audible.
+*(2026-08-12. Was "tend the not-tending," briefly; the glossary entry had illustrated it as "attend the not-attending.")*
 
-*Open seam:* 無事 is rendered **"non-interference"** at Ch 48 and Ch 57, where it stands alone as a noun phrase. That does not chime with *tend* here. Both are defensible in place, but 事 has not been given a glossary entry and probably wants one; see `RETROFIT.md`.
+The triple 為無為，事無事，味無味 is the line that forced the 無為 → *non-doing* lock (`glossary/wuwei-無為.md`). **Each beat is one character twice with 無 (*wú* — there is no) between them**, so the verb has to hold in two positions at once — as a verb, and as the thing that verb is done to. That constrains the middle beat in a way the other 無事 lines are not constrained, because at Ch 48 and Ch 57 無事 stands alone with nothing to rhyme against.
+
+**The verb must also be neutral.** *Do* is neutral, *taste* is neutral, and the paradox lives in the negation. *Meddle* — the word chosen for 48 and 57 — fails twice here: you meddle *in* something, so the bare transitive is not English, and a verb that is already a rebuke flattens the line into a plain prohibition, which is the one thing it must not become.
+
+**Serve** is 事's oldest verb sense and the one the graph draws — a hand holding the badge of office is a hand *in service*. It is also already this edition's word for 事 at Ch 59 (治人**事**天 → *governing people and serving nature*) and Ch 61 (入**事**人 → *enter and serve people*), so the middle beat now ties to the two chapters where 事 is unambiguously *serve*. And it is one syllable, which keeps the three beats even against *do* and *taste*.
+
+*A loss the triple already accepts:* 味無味 reads **"taste the flavorless"** — two English words for one character — because *flavorless* buys the chime with Ch 35's 淡乎其無味, where the Tao itself is bland and flavorless. The internal echo is worth having and is not sacred.
+
+*Why "tend" was retired within the day:* tending is what you do to a garden to make it grow, so *not tending* implies neglect that kills — the reverse of what these chapters claim, which is that things flourish once the hand comes off (民自富, *the people grow rich of themselves*). Caught by Shalom.
 
 #### 味無味 → "taste the flavorless"
 
