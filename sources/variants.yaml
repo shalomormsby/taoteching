@@ -338,16 +338,21 @@
 - chapter: 62
   line: "美言可以市尊，美行可以加人"
   base: "市尊，美行"
-  witnesses: { wangbi: "市 | 尊行", heshanggong: "市 | 尊行" }
+  witnesses: { mawangdui-a: "市 | 尊行", mawangdui-b: "市 | 尊行", wangbi: "市 | 尊行 (in the commentary, not the transmitted text)", heshanggong: "市 | 尊行", fuyi: "于市 | 尊言", huainanzi: "市尊 | 美行 (quoted twice)" }
   meaning_bearing: true
-  our_call: heshanggong
+  our_call: base
   note: >
-    A punctuation fork that is also a character fork. Our base splits after 尊
-    and reads 美行 (fine conduct), giving a 美/美 parallel. Both classical
-    commentators split after 市 and read 尊行 (honored conduct): Heshang Gong's
-    lemmas are printed separately as 美言可以市 and 尊行可以加人, and Wang Bi's
-    comment does the same (故曰美言可以市也 … 故曰可以加於人也). We follow the
-    commentators; 市 becomes a plain verb, "to be traded in the market."
+    RESOLVED 2026-08-12 by Shalom, against the recommendation, and the
+    recommendation is recorded because the evidence is genuinely split. The
+    silks, Fu Yi, Fan Yingyuan and both commentaries divide after 市 and read
+    尊行; our base divides after 尊 and reads 美行, and the Huainanzi (c. 139
+    BCE) quotes the base reading twice, in 人間訓 and 道應訓, with Yu Yue and
+    Zhu Qianzhi following it. We keep the base: the 美 / 美 parallel is the
+    reading our own recension carries and the oldest quotation supports, and
+    the split camp is not unanimous either (Fu Yi reads 尊言, not 尊行). The
+    arguments on the other side — lectio difficilior, and Wang Bi's commentary
+    disagreeing with the text printed over it — are set out in
+    notes/manuscript.md and stand as the case against this call.
   logged: notes/manuscript.md
 
 - chapter: 62

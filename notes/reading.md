@@ -65,6 +65,26 @@ The Tao Te Ching exalts the feminine as a **principle** — 母 (*mǔ* — mothe
 
 **The questions worth a chapter.** Is 王 even a person? The graph is read as an axe-head, the emblem of authority — or as three horizontals (sky, human, earth) crossed by one vertical: **the one who joins the three realms**, a *function* rather than a sex or a station. The *Shuowen Jiezi* (~100 CE) glosses 王 as 天下所歸往, "that to which the world turns," which is a description of gravitational pull, not of a man on a seat. And if the throne is an overlay in Ch 25, where else? The book is addressed to rulers throughout — 侯王 (*hóu wáng* — lords and kings) in 32 and 37, 治國 (*zhì guó* — governing the state), 聖人之治 (the sage's governing). How much of that is Laozi, and how much is the text's transmission through court libraries by scribes for whom the reader was self-evidently a prince?
 
+### Thread · Nobody is written off — and it is not forgiveness
+
+⟡ *research lead; three chapters already, and it may be four or five*
+
+**Three chapters make one claim in three different vocabularies, and none of them is about mercy.**
+
+> **Ch 27** · 常善救人，故無**棄**人 — *always masterful at rescuing people, and so no one is **abandoned**.*
+> **Ch 49** · 善者，吾善之；**不善**者，吾亦善之 — *the good, I am good to; the **not good**, I am also good to.*
+> **Ch 62** · 人之**不善**，何**棄**之有？ — *when a person is **unmasterful**, why **abandon** them?*
+
+They interlock on their own vocabulary. 棄 (*qì* — abandon) binds 27 to 62; 不善 (*bù shàn* — not-good, unmasterful) binds 49 to 62. **And Wang Bi ties 27 to the others himself**, glossing its line: 聖人…不造進向以殊**棄不肖** — *"the sage does not create tracks of advancement that single out and discard **the unfit**."* 不肖 (*bù xiào* — the unworthy, those who don't measure up) is Ch 62's 不善人 in another word.
+
+**What makes the thread worth an essay is what it refuses.** The obvious Western frames are *forgiveness* and *mercy*, and neither fits — both presuppose a ledger. Forgiveness cancels a debt; mercy waives a penalty; each requires you first to have written the entry. **These chapters decline to open the account.** Ch 49's sage has 無常心, *no fixed heart*, and so has nothing to sort people into. Ch 27's sage does not build the ranking apparatus (Wang Bi's 進向, tracks of advancement) that would produce a discard pile. Ch 62 does not pardon the unmasterful; it asks what abandoning would even consist of. And **Ch 63**'s 報怨以德, *repay resentment with integrity*, is the same refusal one step further out — it declines to price a grievance that has already landed, which is exactly the accounting Confucius defends in *Analects* 14.34 when he insists on 以直報怨, proportion.
+
+**Why the 善 = "masterful" reading matters here.** Held as *good/bad*, this is a doctrine of grace toward sinners and the whole thread collapses into Christian charity. Held as *masterful/unmasterful*, it is a claim about **competence and use**: Ch 27 goes straight on to say the masterful are the teachers of the unmasterful and the unmasterful are their 資 (*zī* — raw material, stock-in-trade), and that failing to value either is 大迷, great confusion. **Nobody is discarded because nobody is waste.** That is an argument from resourcefulness, not from pity — and it is why Ch 27 puts it beside a locksmith and a knot-tier.
+
+**The seam is now closed.** 善 reads **masterful** in all three chapters as of 2026-08-14, so the thread rests on one word. Ch 49's 吾善之 is 善 used as a **verb** — *to reckon as 善* — and renders *"I count as masterful,"* which is appraisal rather than kindness: the sage is not being nice to the incompetent, they are refusing to run the grading. **Wang Bi tied the chapters together himself**, glossing Ch 49's 德善 with 無棄人也 — Ch 27's own line — and closing that chapter with 資 (*zī* — raw material), the character Ch 27 gives the unmasterful. See `glossary/shan-善.md`.
+
+**Where it may still reach.** Ch 79 (和大怨, *reconciling a great resentment*) is undrafted and belongs here. So, possibly, does Ch 41's 不笑不足以為道 — the laughter of the lowest sort of student, which the text takes as confirmation rather than as grounds for dismissal.
+
 ---
 
 ## Chapter notes

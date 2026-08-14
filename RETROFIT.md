@@ -103,14 +103,28 @@ Ch 48 and Ch 57 render 無事 as **"non-interference"**; Ch 63 renders it inside
 **Ch 34 and Ch 63 share 故能成其大 and do not chime.**
 Ch 34 renders the formula *"Making no effort to appear great, / The Tao shows true greatness"* — which drops 成 (*chéng* — to complete, accomplish) entirely. Ch 63 renders *"So the sage never does the great, / and so completes their greatness."* The subjects differ (the Tao vs the sage) and the surrounding Chinese differs (以其終不自為大 vs 是以聖人終不為大), so this is not automatically an error — but `repeated-formula` will flag it, and Ch 34's line is the weaker of the two. Worth a look when Ch 34 is next open.
 
-**Ch 27 · 無棄人 is softened to "no one is lost"; Ch 62 renders 棄 as "throw away".**
-棄 (*qì*) is a graph of an infant in a basket being cast out — child-abandonment, literally. Ch 27's 故無棄人 currently reads *"ensures that no one is lost"*, which is gentler than the character and gentler than Ch 62's 何棄之有 (*"why would you throw them away?"*). The two lines are making one argument and should sound like it. Raised drafting Ch 62, 2026-08-11. Needs a rewrite of Ch 27's line, not a term-swap, so it goes to Shalom rather than being applied.
+**~~Ch 27 · 無棄人 softened to "no one is lost"~~ — CLOSED 2026-08-12.**
+Applied with Shalom's approval, and the fix was larger than the debt: the couplet had also lost 救 (*jiù* — rescue) to *"drawing in"*, 物 to *"entities"* (its only occurrence in the verse), 襲明 to *"innate clarity"* against the 明 glossary's own ruling, and 常 (always) entirely. Now: *"Therefore the sage is always masterful at rescuing people, and so no one is abandoned."* Reasoning in `notes/translation.md` → Ch 27; the cross-chapter argument is a new Thread in `notes/reading.md`.
+
+**~~善 rendered two ways~~ — CLOSED 2026-08-14.** Entry written (`shan-善.md`) and **Ch 49 resolved**: 善 is locked as *masterful* for the skill sense, for 善人/不善人 at 27, 49 and 62, and as the verb *count as masterful* at 49; *good* is kept only where the text names the category (2, 20, 58). Ch 79 (常與善人) and Ch 81 (善者不辯) inherit this when drafted. **Still open: 上善若水** (8) reads *"Supreme goodness is like water"* above eight lines of pure competence, and may want *the highest excellence*.
 
 **`tools/import_commentary.py` mis-splits chapters when a chapter heading sits mid-block.**
 Wang Bi's commentary on Ch 62 is in the repo but filed inside `sources/commentaries/wangbi/061.md`, because the Siku printing runs 62 on into 61's block behind the heading 六十二章. `--commentary 62` therefore reports it *not vendored*, and 62 is listed among the ten "unproofread" chapters when in fact its text is present and complete. Worth auditing the other nine (8, 14, 15, 19, 30, 54, 70, 71, 78) the same way before assuming any of them is missing. Raised drafting Ch 62, 2026-08-11.
 
 **公 (*gōng*) is rendered three ways in three chapters and has no glossary entry.**
 Ch 16 renders 公 as **impartiality** (容乃公，公乃王), which is what the character says — 八 (to divide) over 厶 (private, self); *Shuowen*: 公，平分也, "fair division." Ch 42's 王公 reads *"kings and lords"*. Ch 62's 三公 reads *"the three ministers"*. All three are defensible in place and none of them know about the others. When 公 is given an entry, Ch 42 and Ch 62 must answer to Ch 16. Raised drafting Ch 62, 2026-08-11. Related: 王 (*wáng*) is itself unsettled — see the "reading past the throne" thread in `notes/reading.md`.
+
+**~~Ch 48's closing stanza~~ — CLOSED 2026-08-12.** Two Chinese lines had been rendered four times; the superseded draft was deleted and the couplet's 取天下 frame and 無事/有事 hinge restored.
+
+**~~無事 rendered two ways~~ — CLOSED 2026-08-12.** Resolved as a **licensed split**, not a single token: **meddle** at 48 and 57, where 無事 names a policy and stands alone; **serve** at 63, where 事 appears twice in one line and the verb must be neutral for the paradox to work. The lock on 事 is on its register, never a single English word. See `glossary/shi-事.md`.
+
+**~~Ch 31 · 吉事/凶事 as "processes"~~ — CLOSED 2026-08-12.** Repaired, along with three further inventions in the same three lines. `"processes"` is now armed in 事's `forbidden:` list.
+
+**無事 is rendered two ways and the entry recommends one.** *"Non-interference"* at Ch 48 and Ch 57; *"tend the not-tending"* at Ch 63. `glossary/shi-事.md` recommends making Ch 63's word the standard, on the strength of Ch 57's quartet, where 無事 is the only member that is not a plain statement. Not applied: the sweep touches drafted verse in two chapters, one of which (48) needs separate repair first.
+
+**~~Ch 7 · 故能成其私 missing~~ — CLOSED 2026-08-12.** The line is restored as *"And so their private self is fulfilled"*, with the question frame put back in the line above it and 身存 corrected from *"their spirits endure"* to *"their selves endure"*.
+
+**私 (*sī*) is rendered two ways and shelters under 公's `covers:`.** *"Private self"* at Ch 7 (settled 2026-08-12) and *"the self"* at Ch 19 (少私寡欲 → "Diminish the self, diminish desire"). Ch 19's is arguably right in place — 私 beside 欲 wants a short word — but 私 is load-bearing enough for the 公 argument that it may want its own entry rather than a `covers:` line.
 
 **Solved by the evidence gate.** Because every chapter file carries its own Chinese, a rule never fires on English alone: "virtue" is an error only when 德 is in *that* chapter's source rows, and otherwise drops to `info` in a separate false-friends list. On the first run this took the error list to **9 findings with zero false positives**, from a naive scan's 20.
 

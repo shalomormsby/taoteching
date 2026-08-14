@@ -102,6 +102,9 @@ Apply consistently across all 81 chapters. Departures require a logged reason.
 | 精 | **vital essence / essence** | "primordial mass", "soul", "spirit" — and never 氣's *energy* | `glossary/jing-精.md` |
 | 器 | **vessel / tool / implement** | "system", "mechanism", "machine" | `glossary/qi-器.md` |
 | 眾 | **the crowd** (people) · **the many / all** (things) | "the masses", "the multitude" — and never 民's *the people* | `glossary/zhong-眾.md` |
+| 公 | **impartiality** (quality) · **lord / minister** (office) | "duke", "equanimity", "justice" | `glossary/gong-公.md` |
+| 事 | **affairs / undertakings** · **serve / attend to** | "techniques", "processes" | `glossary/shi-事.md` |
+| 善 | **masterful / masterful at** · *good* only where the text names the category | "virtuous", "righteous", "saintly", "benevolent" | `glossary/shan-善.md` |
 
 *為 is a hand on an elephant — handling, not neutral doing. 無為 is taking your hand off it. "Non-doing" is required by Ch 63's triple parallel (為無為，事無事，味無味), which only survives with a verb that also works as a noun. Sweep pending: ch 2, 3, 10, 37, 38, 43, 48, 57, 63, 64.*
 
