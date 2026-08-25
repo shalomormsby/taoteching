@@ -1,0 +1,267 @@
+# guodian-inventory.yaml — what the oldest witness contains, as facts
+#
+# The Guodian Chu slips (郭店楚墓竹簡) were excavated in October 1993 from Tomb
+# No. 1 at Guodian, Jingmen, Hubei, and date to roughly 300 BCE — at least a
+# century older than the Mawangdui silks and some five centuries older than our
+# Wang Bi base text. They are the oldest witness to the Laozi that exists.
+#
+# WHY THIS FILE IS AN INVENTORY AND NOT A TEXT.
+#
+# There is no public-domain transcription of these slips and there cannot be
+# one yet. The slips are damaged; the standard 釋文 (shìwén — the reading of the
+# Chu-script graphs into modern characters) was made by the Jingmen Museum team
+# and published by 文物出版社 (Wenwu Chubanshe) in May 1998. Reconstructing
+# damaged and missing graphs is genuine editorial work by living scholars, and
+# reproducing a reconstruction reproduces the scholarship. sources/PROVENANCE.md
+# excludes such transcriptions outright, on grounds independent of any licence
+# text, and this repository is dedicated CC0 with no exceptions.
+#
+# But WHICH CHAPTERS ARE ON WHICH SLIPS, AND IN WHAT ORDER, IS A FACT — about a
+# physical object recovered from the ground. Facts are not copyrightable
+# (Feist v. Rural Telephone, 1991), and this one is directly useful: before
+# drafting any chapter it answers whether the oldest witness even has it.
+#
+# WHAT THIS FILE DELIBERATELY DOES NOT CONTAIN: no Chu graphs, no 釋文, no
+# reconstructed characters, no variant readings, no slip transcriptions, no
+# bracketed conjectures. Where a Guodian reading actually bears on a decision,
+# it is recorded as a fact in variants.yaml, one fork at a time, with the
+# reasoning in notes/manuscript.md.
+#
+# READ BY: tools/concordance.py --witnesses N
+#
+# SOURCE OF THE FACTS. The bundle-and-unit arrangement below follows the
+# excavation report's grouping as reported in the secondary literature —
+# Franklin Perkins, "The Guodian Laozi Materials," in Dao Companion to the
+# Excavated Guodian Bamboo Manuscripts (Springer, 2019), and the summary at
+# en.wikipedia.org/wiki/Bamboo_Texts_of_Guodian. Cross-checked: the distinct
+# chapters listed here total 31, spanning chapters 2 to 66, which is the count
+# and range the literature consistently reports.
+#
+# A CAVEAT KEPT RATHER THAN SMOOTHED. Sources differ on the slip count for
+# bundle C — 14 is usually given for its Laozi portion, 28 where the count
+# includes 太一生水 (Tàiyī Shēng Shuǐ, "The Great One Gives Birth to Water"),
+# the separate cosmological text copied with it. Slip counts are not recorded
+# per chapter below, because the mapping of slips to chapters is itself part of
+# the editorial reconstruction.
+#
+# Fields:
+#   chapter   int
+#   bundles   which of A (甲) / B (乙) / C (丙) carry it
+#   extent    complete | opening | middle | end | first-half | second-half
+#   units     bundle and slip-unit position, as "A.1" — the sequence matters,
+#             because the Guodian order is not the received order
+#   note      only where something turns on it
+
+corpus:
+  chapters_attested: 31
+  range: "2–66"
+  bundles: [A, B, C]
+  not_attested: >
+    The 50 chapters absent from Guodian are not thereby late. The tomb held a
+    selection, not an edition, and bundle B is visibly a partial gathering.
+    Absence here means the oldest witness is silent, not that it dissents.
+
+# The received order is not the Guodian order. Bundle A's sequence, in its own
+# slip order, runs: 19 · 66 · 46 · 30 · 15 · 64b · 37 · 63 · 2 · 32 || 25 · 5
+# || 16 || 64a · 56 · 57 || 55 · 44 · 40 · 9. Nothing in that resembles the
+# received arrangement, and the 道經 / 德經 division does not appear at all.
+
+- chapter: 2
+  bundles: [A]
+  extent: complete
+  units: [A.1]
+
+- chapter: 5
+  bundles: [A]
+  extent: middle
+  units: [A.2]
+  note: >
+    Only the middle span is present. The chapter's opening — 天地不仁，以萬物為
+    芻狗 ("sky and earth are not humane; they treat the countless things as
+    straw dogs") — is not attested at Guodian.
+
+- chapter: 9
+  bundles: [A]
+  extent: complete
+  units: [A.5]
+
+- chapter: 13
+  bundles: [B]
+  extent: complete
+  units: [B.1]
+
+- chapter: 15
+  bundles: [A]
+  extent: complete
+  units: [A.1]
+
+- chapter: 16
+  bundles: [A]
+  extent: opening
+  units: [A.3]
+  note: >
+    Opening span only, and it stands alone as its own slip-unit. 致虛極，守靜篤
+    ("reach utmost emptiness, hold fast to stillness") is attested; the chapter's
+    later movement through 常 (cháng — the ever-present) is not.
+
+- chapter: 17
+  bundles: [C]
+  extent: complete
+  units: [C.1]
+  note: >
+    Runs continuously into Ch 18 on the slips, with no chapter division between
+    them — see the note at Ch 18.
+
+- chapter: 18
+  bundles: [C]
+  extent: complete
+  units: [C.1]
+  note: >
+    Copied continuously with Ch 17, as one passage. The received division into
+    two chapters is not present in the oldest witness. Bears directly on our
+    reading: the collapse of 大道 (dà dào — the great Tao) into 仁義 (rén yì —
+    humaneness and duty) reads as the consequence of Ch 17's ladder of rulers,
+    not as a fresh assertion.
+
+- chapter: 19
+  bundles: [A]
+  extent: complete
+  units: [A.1]
+  note: >
+    Opens bundle A, and the best-known meaning-bearing divergence in the whole
+    Guodian Laozi sits in this chapter — the received text's attack on 聖 (shèng
+    — sagehood) and 仁義 (humaneness and duty) is not what the slips carry. The
+    fork is not recorded here; it belongs in variants.yaml, as a fact, when the
+    chapter is reviewed. FLAGGED: ch 19 is drafted and this has not been done.
+
+- chapter: 20
+  bundles: [B]
+  extent: opening
+  units: [B.1]
+
+- chapter: 25
+  bundles: [A]
+  extent: complete
+  units: [A.2]
+  note: >
+    CHECKED 2026-08-20, and it settled a fork the other way. Guodian reads 王
+    (wáng — king) in both places, and orders the four greats 天大，地大，道大，
+    王亦大 — sky and earth BEFORE the Tao, where the received text puts the Tao
+    first. This flag stood open for weeks; when it was finally run down it
+    overturned DISCOVERIES.md §1. Standing lesson: a blank witness line is not
+    evidence of agreement.
+
+- chapter: 30
+  bundles: [A]
+  extent: complete
+  units: [A.1]
+
+- chapter: 31
+  bundles: [C]
+  extent: end
+  units: [C.3]
+
+- chapter: 32
+  bundles: [A]
+  extent: complete
+  units: [A.1]
+
+- chapter: 35
+  bundles: [C]
+  extent: complete
+  units: [C.2]
+
+- chapter: 37
+  bundles: [A]
+  extent: complete
+  units: [A.1]
+
+- chapter: 40
+  bundles: [A]
+  extent: complete
+  units: [A.5]
+
+- chapter: 41
+  bundles: [B]
+  extent: complete
+  units: [B.2]
+  note: Stands alone as its own slip-unit.
+
+- chapter: 44
+  bundles: [A]
+  extent: complete
+  units: [A.5]
+
+- chapter: 45
+  bundles: [B]
+  extent: complete
+  units: [B.3]
+
+- chapter: 46
+  bundles: [A]
+  extent: end
+  units: [A.1]
+
+- chapter: 48
+  bundles: [B]
+  extent: opening
+  units: [B.1]
+
+- chapter: 52
+  bundles: [B]
+  extent: middle
+  units: [B.3]
+
+- chapter: 54
+  bundles: [B]
+  extent: complete
+  units: [B.3]
+
+- chapter: 55
+  bundles: [A]
+  extent: complete
+  units: [A.5]
+
+- chapter: 56
+  bundles: [A]
+  extent: complete
+  units: [A.4]
+
+- chapter: 57
+  bundles: [A]
+  extent: complete
+  units: [A.4]
+
+- chapter: 59
+  bundles: [B]
+  extent: complete
+  units: [B.1]
+  note: Opens bundle B.
+
+- chapter: 63
+  bundles: [A]
+  extent: complete
+  units: [A.1]
+  note: >
+    Attested, and Han Feizi quotes this chapter too — so Ch 63 is one of the
+    few carrying both the oldest manuscript witness and the oldest commentary.
+
+- chapter: 64
+  bundles: [A, C]
+  extent: split
+  units: [A.1, A.4, C.4]
+  note: >
+    The only chapter copied twice in the Guodian Laozi, and the halves are
+    never joined. Bundle A carries the second half (為者敗之 onward) in unit 1
+    and the first half (其安易持 onward) in unit 4, six chapters apart; bundle C
+    carries the second half again. Strong evidence the received chapter is two
+    circulating sayings joined later. See notes/manuscript.md, Ch 64.
+
+- chapter: 66
+  bundles: [A]
+  extent: complete
+  units: [A.1]
+  note: >
+    The highest-numbered chapter attested anywhere at Guodian. Everything from
+    67 to 81 — fifteen of the twenty chapters still to draft — rests on the
+    Mawangdui silks and later witnesses alone.
