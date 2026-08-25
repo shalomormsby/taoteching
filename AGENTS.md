@@ -68,7 +68,7 @@ Several renderings depart from the English convention **on purpose**, because th
 | 妙 | *subtle* | "mystery" | fineness at the edge of perception |
 | 無為 | *non-doing* | "non-action", "effortless action" | Ch 63's triple parallel only survives with a verb that is also a noun |
 | 萬物 | *the countless things* | "the ten thousand things" | 萬 is a scorpion borrowed for its sound; the number is not a count |
-| 自然 | *the self-so* | "Nature" | that sense is a modern import; in Ch 25 it would place something above the Tao |
+| 自然 | *of itself / of themselves* | "Nature", "self-so" | modern import; in Ch 25 it would place something above the Tao. The one noun slot (Ch 25) takes a clause: "being what it is" |
 | 樸 | *uncarved wood* (lowercase) | "the Uncarved Block" | "block" is an English interpolation, not in the Chinese |
 | 心 | *heart* | "mind", "heart-mind" | an anatomical drawing of the organ; English idiom never fully split the two |
 | 無 / 有 | *absence / presence* | "Non-Being / Being" | these are verbs (*there is / there isn't*), not Greek substances |

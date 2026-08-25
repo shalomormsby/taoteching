@@ -6,6 +6,70 @@
 
 ---
 
+## 4 · The throne was installed four times, and one of them was ours
+
+> **⚠ ONE OF THE FOUR IS WITHDRAWN — 2026-08-20.** Installation **2**, "into the line — Han scribes," does not survive: every excavated witness at Ch 25 reads 王, Guodian included, and 人 is a transmitted reading (傅奕, Tang; 范應元, Song). See §1's banner and `notes/manuscript.md` · Ch 25.
+>
+> **The other three stand, and the section's argument is unharmed** — because it was never a manuscript argument. Installation 1 (Dong Zhongshu into the graph), 3 (the missionaries into the English), and 4 (*"wise rulers"* into our own draft) are all intact, as is the eight-chapter count showing that no 王 in this book ever commands anything. If anything the section gets cleaner: **three installations, none of them in the transmitted Chinese, all of them in how the word was later explained, translated, or flattered.**
+
+### The finding
+
+王 (*wáng*) is an **axe**. The oldest form of the graph is a broad bronze axe-head, blade downward — the ceremonial 鉞 (*yuè*) carried before a war leader, the instrument of execution, and so the emblem of power over life and death. There is no person in it: no head, no body, no gender. An implement.
+
+By the time the word reaches an English reader it is a **male monarch on a throne, mediating between heaven and earth**. Nothing in that came from the character. It was added in four distinct operations, by four different agents, across two thousand years — and the fourth was performed in this repository, by us, in 2026.
+
+### The four installations
+
+**1 · Into the graph — 董仲舒 (*Dǒng Zhòngshū*, c. 179–104 BCE).** The architect of Han state Confucianism explains 王 in his 春秋繁露 (*Chūnqiū Fánlù*): the three horizontal strokes are sky, earth and humanity, and the vertical stroke is **the king who joins them**. The *Shuowen Jiezi* takes it up, and from the *Shuowen* it enters every dictionary compiled since. It is roughly **fourteen centuries younger than the graph it purports to explain**, and it converts a man holding an axe into a structural necessity of the cosmos.
+
+**2 · Into the line — Han scribes, and this is §1.** Chapter 25's received text lists the four great things as 道大，天大，地大，**王**亦大. **Both Mawangdui silks read 人** (*rén* — human), and the older silk carries no 王 in the passage at all. The same claim Dong Zhongshu made about the graph, made about a sentence, in the same century. One program, two surfaces.
+
+**3 · Into the English — the missionary translators.** 王 has no gender; Chinese nouns carry none, and the graph holds no male element. English *king* is lexically male, paired against *queen*, and no context neutralises it. So the standard rendering does not translate a gender. **It adds one** — and seats it on a throne, in eight chapters whose entire argument is that authority is what lies underneath.
+
+**4 · Into our own draft — us, and this is the uncomfortable one.** Chapter 39 renders 侯王 (*hóu wáng* — the lords-and-kings, a flat class term) as **"wise rulers,"** three times. The Chinese never calls them wise. We had already dropped the gender; we then handed the office a compliment it had not earned, in a chapter whose actual line is 是以侯王自謂孤、寡、不穀 — *"this is why rulers call themselves orphaned, meagre, unworthy."* The verse says they abase themselves and our English called them wise.
+
+It was found only because the other three were being chased. **That is the argument for chasing them.**
+
+### Why this is distortion and not interpretation
+
+Because the text says the opposite, and says it eight times out of eight. Read every chapter where 王 appears and **not one of them shows a 王 commanding anything**:
+
+- **Ch 66** — 江海所以能為百谷王者，以其善下之: rivers and seas rule the hundred valleys **because they stay below them**.
+- **Ch 78** — 受國之不祥，是謂天下王: *"the one who takes on the state's misfortune is called sovereign of the world."* The title is earned by absorbing what nobody else will touch.
+- **Ch 39, Ch 42** — the ruler **calls themselves orphaned, meagre, unworthy**.
+- **Ch 32, Ch 37** — 侯王**若能**守之: *if* they can hold to it. Conditional, and the outcome belongs to the countless things, not to them.
+- **Ch 16** — 公乃王，王乃天: a **stage in a sequence**, between impartiality and nature. No person in the sentence.
+- **Ch 25** — in the oldest witnesses, **not there at all**.
+
+A word defined seven times over by what it goes *under* does not want an English word meaning the thing on top. The overlay does not merely add a connotation. **It inverts the political claim of the book.**
+
+### The antidote — four checks, one per mechanism
+
+The mechanisms are different, so no single method catches them. This is the practical yield of the finding:
+
+| Where the throne enters | The check |
+|---|---|
+| the **graph** | read the oldest form, not the received etymology. Dictionaries carry the *Shuowen*, and the *Shuowen* carries the Han. |
+| the **line** | run `concordance.py --witnesses N` before drafting. Ch 25 was drafted over a king the silks do not have. |
+| the **English** | ask whether the word adds rank or gender the Chinese does not carry. *King* is male; 王 is not. *Son of Heaven* is a realm; 天子 is a child. |
+| **your own draft** | ask what you added that no character licenses. *Wise*, *great*, *aligned*, *true* — the flattering adjectives are where a translator's politics leak. |
+
+**A translator who only checks manuscripts finds §1 and misses §3. One who only reads characters finds §3 and misses §1. One who does both can still write "wise rulers."**
+
+### Why it is essential, and not merely tidy
+
+The Tao Te Ching has been read for two thousand years as a manual for rulers — 河上公 divides it into 治身 (*governing the self*) and 治國 (*governing the state*), and every court that adopted it read the second half as advice on holding power. That reading is not baseless: chapters 32 and 37 really do address 侯王 directly.
+
+But the throne overlay decides that question before a reader can weigh it. Meet *king* in Ch 66, *Son of Heaven* in Ch 62, *the King is also great* in Ch 25, and the book has already told you what it is. Remove the four installations and Ch 66 stops being advice on how to reign and becomes what the Chinese says: a demonstration that the sea governs the valleys **by lying beneath them**, with no throne in the sentence and nobody male in it either.
+
+**The cleansing is not decoration. It is the difference between a book that flatters power and a book that dissolves it** — and the case that it is the second is made by the characters, by the oldest manuscripts, and by counting.
+
+### Where the evidence sits
+
+`glossary/wang-王.md` (the axe, Dong Zhongshu, the eight-chapter table, and the lock) · `notes/translation.md` · `sources/variants.yaml` ch 25 · `chapters/039.md`, `042.md`, `066.md`, swept 2026-08-19. Companion findings at **§1** (the Ch 25 king, in the Chinese) and **§3** (天子, entirely in the English) — this section is what those two have in common.
+
+---
+
 ## 3 · The overlay that was never in the Chinese
 
 ### The finding
@@ -23,6 +87,8 @@ Take the phrase apart and nothing in it survives.
 ### Why this is a different finding from §1, and why the pair is the point
 
 §1 found the Ch 25 throne: our base text reads 王 (*wáng* — king) where **both Mawangdui silks read 人** (*rén* — human). There, the distortion was **Chinese**. Han scribes put a king into a cosmological ladder that had a human in it, and the missionaries then found a throne already waiting for them.
+
+*(⚠ 2026-08-20: the contrast drawn below with §1 is withdrawn — the Ch 25 silks do **not** read 人. The finding itself is unaffected, and arguably strengthened: with the Ch 25 accretion gone, **both** cases turn out to be distortions made in English, which is the pattern worth writing about. See §1's banner.)*
 
 **Chapter 62 is the other case, and it had to be checked to be found.** The silks were consulted precisely because 天子 looked like a Ch 25-style accretion — the Zhou minted the title, along with 天命 (*tiān mìng* — the sky's mandate), to explain why the Shang's own high god 帝 had let them be conquered. A legitimation device made by the winners: exactly the profile.
 
@@ -43,7 +109,7 @@ So there are two mechanisms, not one, and they need to be told apart:
 **Laozi's own cosmology already deflates the title, and the English was preventing it.**
 
 > 人法地，地法天，**天法道**，道法自然 (Ch 25)
-> *the human follows earth, earth follows the sky, **the sky follows the Tao**, the Tao follows the self-so.*
+> *the human follows earth, earth follows the sky, **the sky follows the Tao**, the Tao models itself on being what it is.*
 
 The sky is not the top of anything. It is a rung, with something above it — and the Tao is 先天地生, *born before sky and earth*. **The sky is itself a child.** So inside this book, calling a ruler 天子 is not a claim of divine descent. It is kinship with a junior member of the family, whose actual parent is the 母 — the mother, which is the Tao.
 
@@ -61,7 +127,7 @@ Read as *"Son of Heaven,"* the title is the highest thing in the sentence. Read 
 
 ### The finding
 
-**自然** (*zìrán*), the term this edition renders **the self-so**, is not a noun. It is 自 (*zì* — self) plus **然** (*rán* — **so, thus, that it is the case**). And 然 is not decoration on it: **然 standing alone is the word on which the book's central question turns.**
+**自然** (*zìrán*), the term this edition renders **of itself**, is not a noun. It is 自 (*zì* — self) plus **然** (*rán* — **so, thus, that it is the case**). And 然 is not decoration on it: **然 standing alone is the word on which the book's central question turns.**
 
 Three chapters close on the same seven-character formula, and the answer is identical in all three:
 
@@ -78,7 +144,7 @@ So the question Laozi asks about the world, about the origin of everything, and 
 
 ### Why this is more than a grammatical curiosity
 
-**It tells you what 自然 actually is.** Not "Nature," not "spontaneity," not "the natural way" — the English tradition reaches for a **realm**, a **quality**, or a **path**, and all three are nouns. The Chinese is a **predicate turned back on itself**: *so-ing of itself*. Things are not *in* nature; things simply **are so, of themselves**. That is why Chapter 25's ladder can end 道法**自然** — *the Tao follows the self-so* — without putting anything above the Tao. There is no higher thing there. There is only the fact that things are so of their own accord, which even the Tao does not override.
+**It tells you what 自然 actually is.** Not "Nature," not "spontaneity," not "the natural way" — the English tradition reaches for a **realm**, a **quality**, or a **path**, and all three are nouns. The Chinese is a **predicate turned back on itself**: *so-ing of itself*. Things are not *in* nature; things simply **are so, of themselves**. That is why Chapter 25's ladder can end 道法**自然** — *the Tao models itself on being what it is* — without putting anything above the Tao. There is no higher thing there. There is only the fact that things are so of their own accord, which even the Tao does not override.
 
 **And it means the epistemology matches the ontology exactly.** Things are so **of themselves** (自然); you know they are so **by this one, here** (以此). No mediation on either side. Nothing stands between a thing and its being so, and nothing stands between you and knowing it. That symmetry is the shape of the whole book, and it is carried by one small grammatical word used twice.
 
@@ -120,6 +186,16 @@ This is the third finding in one working session to begin with Shalom rather tha
 ---
 
 ## 1 · No heaven, and no king
+
+> **⚠ SUPERSEDED IN ITS CENTRAL CLAIM — 2026-08-20. Do not write from this section until it is rewritten.**
+>
+> The king half of this finding is **false as stated.** It says the oldest witnesses read 人 (*rén* — human) and that the throne was added by later Chinese hands. The reverse is the case. **Every excavated witness reads 王** (*wáng* — king): Guodian (~300 BCE, the oldest there is, and never consulted when this was written), both Mawangdui silks, the Beida Han slips. There is no "silk B caught mid-drift" — that image came from a bad source and should be struck. 人 enters the record with **傅奕** (Tang) and **范應元** (Song), who argued for it on internal grounds.
+>
+> **What survives, and it is most of the section.** The *heaven* half is untouched — 天 (*tiān*) is in every witness and the distortion is entirely English. The internal seam is untouched and is now the whole case for 人: the next line is 人法地, *humans follow earth*. And the argument that 王 does not mean a throne never depended on the manuscripts — it rests on the graph (an axe) and on the eight chapters where a 王 does nothing but go underneath (§4, and `glossary/wang-王.md`).
+>
+> **What the rewrite should probably become**, because it is truer and more interesting than what it replaces: the distortions in this book are overwhelmingly in the **English**, not in the Chinese transmission — and where the Chinese *does* carry a throne, it was **Chinese editors** who argued it out, on internal evidence, a thousand years before any missionary or any translator in this repository. Fu Yi, Fan Yingyuan, Xi Tong. That is a better story than scribal drift, and it does not need a villain either.
+>
+> Apparatus and the account of how the error entered: `notes/manuscript.md` · Ch 25. §3 and §4 carry the same correction.
 
 ### The finding
 

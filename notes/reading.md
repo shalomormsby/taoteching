@@ -200,3 +200,209 @@ Two things make this more than a coincidence of phrasing. **The saying predates 
 **And the chapter's placement argues for it.** 報怨以德 arrives one line after 為無為 (*wéi wú wéi* — do the not-doing). Proportionate retribution is a *hand on the elephant*: it requires you to weigh the offence, price the response, and administer it. Answering from 德 requires none of that machinery, which is precisely why it belongs in this chapter and not in a chapter about kindness.
 
 **And it pairs with Ch 62.** Both chapters ask what is owed to someone who has done wrong, and both answer by refusing to run the ledger — 62 by declining to abandon the unmasterful, 63 by declining to price the grievance. *(Worth developing for the companion volume. The 直 / 德 contrast in particular is a clean way into what this edition means by* integrity*, stated by an opponent who understood it well enough to object.)*
+
+### Ch 64 · the journey begins where you are standing
+
+The best-known sentence in the book outside Chapter 1 is, in English, an inspirational one: *a journey of a thousand miles begins with a single step.* The Chinese does not say that. 足下 is **under the foot** — not a step taken but the ground already beneath you.
+
+Read the three proverbs together and the correction is obvious. A tree wide enough to need both arms around it is born from **a hair's tip**. A nine-tiered terrace rises from **a heap of dirt**. A thousand-mile journey begins **beneath your feet**. Small, low, near. Heshang Gong glosses them in exactly those three words: 從小成大, 從卑至高, 從近至遠. Nothing in the set is about resolve. Everything in it is about the thing being still tiny, still close, still catchable — which is the argument of the chapter's opening, that what has not yet cracked into a sign is easy to plan for.
+
+The step-version quietly moves the emphasis from *where you are* to *what you do*. That is the reverse of the chapter, which ends by telling the sage not to push at all.
+
+### Thread · take your hand off it — Ch 63 and Ch 64 are one argument in two halves
+
+These two chapters share a grammar and split a claim. Ch 63 opens 為無為，事無事，味無味 (*do the not-doing, serve the not-serving, taste the flavorless*); Ch 64 answers with 欲不欲 (*want the not-wanting*) and 學不學 (*learn the not-learning*). Five instances of the same move: take the verb, negate its object, and hand the result back as a practice.
+
+Wang Bi supplies what the move is **for**. Glossing 學不學 he writes 不學而能者自然也 — *"what one is capable of without learning is what is so of itself."* The not-learned is not ignorance; it is the part of you that already works. So the whole construction points at 自然 (*zìrán* — so of itself), and the chapter's last line says so outright: 以輔萬物之自然，而不敢為 — support the countless things in being so of themselves, and never push them.
+
+That is the ground of non-doing stated as plainly as the book states it. You can take your hand off the thing because the thing goes of itself.
+
+### Ch 64 · the seam at "those who handle it ruin it"
+
+The chapter turns without warning. Six lines of practical counsel about catching things early, three proverbs about small beginnings — and then 為者敗之，執者失之, *those who handle it ruin it, those who grasp it lose it*, which appears verbatim in Chapter 29 and argues something close to the opposite: don't handle it at all.
+
+The join may be physical. Chapter 64 is the one chapter the Guodian bamboo slips carry **twice**, its opening span and its closing span in different bundles. Whether or not the received chapter is two sayings sewn together, the tension is real and worth leaving open: *act early* and *do not act* are not the same instruction, and the chapter offers no bridge between them. What it offers instead is a scale. Early enough, and handling is barely handling — it is a hand on a hair's tip.
+
+### Ch 66 · the sage never climbs — they sink, and are carried
+
+The chapter inverts the direction of elevation, and the hinge is one verb: 推 (*tuī* — to push). **The world pushes them forward.** They do not rise; they are raised, and only because they went down first.
+
+The image is hydraulic and it needs no metaphysics. Rivers and seas are king of the hundred valleys for one reason — they lie lower, and water goes where water goes. Nothing is commanded. 善下之 (*shàn xià zhī*) makes lowness an *act* and not a condition: 下 is a verb here, and 善 is the lock's *masterful at*. The sea is not passively low. It is skilled at being low.
+
+Then the political translation, in a pair worth noticing: to be above the people you go below **in speech** (以言下之), and to be ahead of them you put **your self** behind (以身後之). 言 (*yán* — word) and 身 (*shēn* — body, person). Humility in what you say; deference in where you stand. Two different organs of the same movement.
+
+河上公 gives the consequence an image the English should not lose sight of: 民戴而不為重 — *"the people **carry them on their heads**, and it is not a weight."* 戴 (*dài*) is specifically to bear on the head, the way a load is carried in a village. The leader is not on a throne above the people; they are on the people's heads, and light enough that nobody minds.
+
+### Thread · going low — Ch 8, Ch 61, Ch 66
+
+One argument, made three times, in three registers, and the book never names it as a doctrine.
+
+- **Ch 8, in water.** 上善若水 — water benefits the countless things without competing, and *dwells where the crowd will not go*. The ethical register.
+- **Ch 61, in the feminine.** 大國者下流 — the large state is the downstream flow, and 牝常以靜勝牡, the female overcomes the male by stillness. The erotic and diplomatic register. Argued entirely with 牝 (*pìn* — female animal) and 下 (*xià* — below), with no 陰 anywhere.
+- **Ch 66, in hydraulics.** Rivers and seas rule the valleys by lying beneath them. The political register, and the plainest of the three: no gender, no ethics, just the fact that water goes down.
+
+The through-line is 下 — *below* as an action you take. Read together they say the same thing about power that Ch 64 says about timing: the effective move is the one that costs nothing because it goes with what already happens. And all three end in the same place, which is Ch 66's last line and Ch 22's: **because they do not compete, no one can compete with them.**
+
+### Ch 65 · the chapter that gets Laozi called an authoritarian
+
+This is the chapter people quote to show that the Tao Te Ching is a manual for keeping subjects docile — *"the ancients did not enlighten the people but kept them ignorant."* Four things are wrong with that sentence, and three of them are in the Chinese.
+
+**1. 明 here is not clarity, it is cunning.** Wang Bi glosses it in the chapter itself: 明謂多見巧詐，蔽其樸也 — *"明 means seeing much and artful deceit, screening over their uncarved."* Not the 明 of Ch 33's *"to know oneself is clear-seeing."* Nobody is withholding insight.
+
+**2. 愚 is what the sage claims for themselves.** Ch 20: 我愚人之心也哉 — *"I have the heart of a fool!"* — said as a boast. The ruler here is not pushing the people below themselves; they are bringing everyone to where the sage already stands.
+
+**3. The chapter's target is the ruler's cleverness, not the people's.** This is the part that gets missed, and Wang Bi spells out the mechanism as an escalation spiral: 以智術動民，邪心既動，復以巧術防民之偽，民知其術防，隨而避之 — *"use clever technique on the people and their crooked hearts stir; once stirred, you use more artifice to guard against their deceit; the people learn the technique and evade it in turn."* Each round of official cleverness manufactures the popular cleverness it was meant to contain. 以智治國，國之賊 — **the thief of the state is the clever ruler.** The people are hard to govern because they have been taught to be.
+
+**4. And the honest caveat.** Strip all three and something still stands: 非以明民 does say *do not make the people knowing*, and the chapter nowhere distinguishes manipulation from learning in general. Laozi is genuinely suspicious of sophistication as such — Ch 19's 絕聖棄智 and Ch 48's *"in pursuit of learning you increase daily"* say the same thing without the political framing. **This edition does not rescue that.** What it declines to do is translate a suspicion of cleverness as a policy of enforced ignorance, when both classical commentators read it the other way and the sage applies the word to themselves.
+
+### Ch 20 · the loneliest chapter, and it opens with a joke
+
+Chapter 20 is the one place the book sounds like a person rather than a position — 我 (*wǒ*, the self seen) appears seven times, and every appearance is a complaint. But it opens in comedy, and the comedy is the argument.
+
+**唯 and 阿 are both ways of saying yes.** One is the assent you give a superior; the other is the grunt you give a friend. 河上公: 同為應對 — *"both are ways of answering."* And the question is: 相去幾何, how far apart are they? Then immediately: and good and bad, how far apart are *those*? The joke sets the trap. If you concede that the gap between *yes sir* and *yeah* is trivially small, you have already conceded something about the gap between good and bad — which is the distinction the entire apparatus of learning exists to police. That is why 絕學無憂 stands at the head: **abandon learning and there is no worry**, because the worry was manufactured by the distinctions.
+
+王弼 gives the mechanism, and it is one of the best lines in his commentary: 自然已足，益之則憂 — ***"what is so of itself is already enough; add to it and you get worry."*** He illustrates it with 續鳧之足，何異截鶴之脛 — *"lengthening a duck's legs: how does that differ from cutting short a crane's shins?"* Both are improvements. Both are injuries.
+
+**Then the chapter refuses its own consolation.** 人之所畏，不可不畏 — *what people fear must be feared*. Wang Bi does not soften it: 故人之所畏，吾亦畏焉 — *"what people fear, I fear too."* The speaker has seen through the distinctions and is **still afraid**, and says so before saying anything else about their own state. No enlightenment is claimed. That single line is what keeps the rest of the chapter from being a boast.
+
+**And then the long descent**, in which every term of praise is inverted. The crowd is at the feast; the speaker is an infant who cannot yet smile. The crowd has more than enough; the speaker has missed out. The worldly are bright and sharp; the speaker is dark and dull. Muddled. Stubborn. Coarse.
+
+The last word is where it resolves, and it resolves without arguing: 而貴食母 — *I prize feeding from the mother.* Everyone else is at the great feast, 太牢, the ox-sacrifice. The speaker is at the breast. Not a lesser meal — the **first** one, the one that comes before food is something you choose. 王弼: 食母，生之本也, *"the feeding mother is the root of what lives."*
+
+*(See the feminine thread: this is 母 as sustenance rather than origin, and it is the same mother as Ch 1's 萬物之母 and Ch 52's 天下母, met at the point of contact rather than described.)*
+
+### Ch 67 · the first treasure is a mother's love, and it wins wars
+
+Laozi names three treasures and puts **慈 (*cí*)** first — then returns to it twice more, which he does for neither of the others. It is the most emphatic thing in the chapter and the English tradition has quietly neutered it.
+
+慈 is not compassion. It is what a parent feels for a child, and Chinese marks the direction: in the pair 孝慈, 孝 runs **up** from child to parent and 慈 runs **down** from parent to child. 慈母 is how you say *loving mother*. Heshang Gong will not let it float free either — his gloss on the first treasure is 愛百姓若赤子, *"loving the people as newborn infants."*
+
+So the book's first treasure is **maternal love**, named as such, in a chapter about war.
+
+**And the chapter claims it is the strongest thing there is.** 慈故能勇 — from tenderness, courage. 夫慈，以戰則勝，以守則固 — fight with it and you win, defend with it and you hold. That is not a metaphor and the commentators do not treat it as one. 王弼: 相慜而不避於難，故勝也 — *"they feel for one another and do not shirk danger, therefore they win."* 河上公: 百姓親附，并心一意 — *"the people draw close, joining hearts into one intent."* Both are describing unit cohesion. **An army whose people love each other does not break**, and armies are lost when they break.
+
+The chapter then names the failure mode with unusual violence. 王弼 glosses the particle 且 as 取, *to grab*: 今捨慈且勇 is **abandon tenderness and grab at courage** — courage taken directly, without the love it was supposed to come from. Same for reach without frugality, and the front without the rear. The verdict is two characters: 死矣. *That is death.*
+
+Read with the feminine thread, this is the sharpest instance in the book. Chapter 61 argues that the female overcomes the male through stillness. Chapter 6 makes the valley spirit 玄牝, the dark female, the root of sky and earth. **Chapter 67 puts a mother's love at the head of a list of what makes a state survive a war** — and then says that a state which trades it for courage is already dead.
+
+*(See also the reading note on Ch 66: rivers and seas rule by lying beneath. The three treasures are the same argument in another register — tenderness, frugality, and refusing to go first are all ways of being underneath.)*
+
+### Ch 73 · two directions of courage, and a chapter that admits it does not know
+
+The chapter opens on a distinction English keeps losing: **courage stands on both sides of it.**
+
+> 勇於敢則殺，勇於不敢則活
+> *"Brave in pushing, and you are killed. Brave in not pushing, and you live."*
+
+勇 (*yǒng* — courage) is not what separates the two. What separates them is 敢 (*gǎn*) — the forward press to take, the hand going after the boar. Both people are brave. One of them presses forward and dies of it.
+
+That is why *"daring"* cannot carry 敢 here: it makes the second line read as cowardice rewarded, when the Chinese says there is a **bravery in not pressing** which is harder than the other kind. 河上公 puts the target plainly — the thing being refused is 有為 (*yǒu wéi* — having-doing, acting) — which makes this chapter 無為's clearest statement in the language of the battlefield.
+
+**Then the chapter does something rare: it stops and admits ignorance.** 天之所惡，孰知其故？ — *what nature hates, who knows why?* No answer follows in our base text. Both classical commentaries had one more line here — 是以聖人猶難之, *"therefore even the sage finds it difficult"* — and Wang Bi's comment on it is the most humane sentence in his commentary: 夫聖人之明，猶難於勇敢，況無聖人之明而欲行之也 — *"the sage's own clarity still finds this hard; how much more someone without it who means to act anyway."* (See the Manuscript Notes; the line's absence from our base is unresolved.)
+
+**And then the four negations, which are the answer the question did not get.**
+
+> It does not contend, yet is masterful at overcoming.
+> It does not speak, yet is masterful at answering.
+> It does not summon, yet things come of themselves.
+> It is unhurried, yet masterful at planning.
+
+Four refusals, four competences. Nothing here is *doing* anything, and everything gets done — 不召而自來 is 自然 (*zìrán* — so of itself) stated as a fact about arrival rather than a principle.
+
+**The last image is the one to be careful with.** 天網恢恢，疏而不失 — *nature's net is vast; its mesh is wide, and nothing slips through* — became, in later Chinese, a slogan about divine justice catching criminals, and Heshang Gong already reads it that way: 司察人善惡, *"it watches over human good and evil."*
+
+There is no watcher in the Chinese. There is a net with wide holes and nothing getting out. **That is a statement about how consequence works** — loosely, slowly, at a distance, and completely — and it is far more unnerving than surveillance, because nobody has to be paying attention for it to hold.
+
+### Ch 68 · a chapter about war in which nobody fights
+
+Four clauses, each opening on 善 (*shàn* — masterful at), and each one takes the obvious competence and removes what everyone thinks it is made of.
+
+> One masterful as a warrior is not martial.
+> One masterful at fighting does not rage.
+> One masterful at overcoming enemies does not engage them.
+> One masterful at using people puts themselves below them.
+
+王弼 explains the first by pointing at Chapter 67: 武尚**先**陵人也 — *"martiality prizes going **first** and trampling people."* 先 (*xiān* — first, ahead) is the very thing Chapter 67 makes the third treasure of refusing. And he explains the second the same way: 後而不**先**，應而不**唱** — *"behind and not first, responding and not leading off."* 唱 (*chàng*) is to lead off in song, the same word Heshang Gong used for the third treasure at Ch 67, 不為**倡**始.
+
+So Chapter 68 is Chapter 67 put into uniform. Tenderness, frugality and not pushing to the front become: not martial, not enraged, not engaging, underneath.
+
+**And the third clause is the one that startles.** 善勝敵者，不與 — *one masterful at overcoming enemies does not engage them.* Not *defeats them easily*: **does not meet them at all.** 河上公 spells out what replaces the battle — 附近以仁，來遠以德 — *"draws the near with humaneness, brings the distant with integrity"* — and then the outcome, 敵**自**服也, *the enemy submits **of itself**.* The 自 is the same of-itself that runs the rest of the book. Nobody was defeated. The opposition simply stopped being opposition.
+
+**Then the closing triple names it, and the name is a lock we already hold.** 是謂**不爭**之德 — *this is called the integrity of not contending.* 爭 (*zhēng*) is two hands pulling at one object, and this chapter has just spent four lines describing a soldier who never takes hold of the rope.
+
+The last claim is the largest in the book's political vocabulary: 是謂配天 — *this is called being **matched with** nature.* 配 is the word for a spouse. Not obeying nature, not imitating it. Paired with it, as an equal — which is the only place in the Tao Te Ching where a human practice is said to stand alongside 天 rather than beneath it.
+
+### Ch 69 · the war chapter that never lets you win one
+
+Ch 69 completes a run: **30, 31, 68, 69** are the book's military chapters, and not one of them describes a victory worth having. This one is the strangest, because it is built entirely out of a soldier's saying and then takes the saying somewhere no soldier would.
+
+The saying looks prudent: don't start it, give ground. But 河上公 (*Héshàng Gōng*) tells us what its two verbs actually mean, and it is not doctrine at all. 進 (*jìn* — advance) is **crossing another's border to take their things**; 退 (*tuì* — retreat) is **shutting your own gate**. So the inch and the foot are not a measure of nerve, they are an argument: an inch of someone else's ground is not worth a foot of your own. Then Laozi comments, and the comment is not prudent at all. Four gestures of aggression, and each one closes on nothing: the army marches and there are no ranks, the arm bares and there is no arm, the hand hauls and there is no enemy, the fist grips and there is no weapon. This is 無為 (*wúwéi* — non-doing) put in armour. The enemy has not been defeated. The enemy has been **declined**.
+
+And then the last line, which is the one to sit with. When two armies are evenly matched, the thing that decides it is not doctrine, or numbers, or terrain. **It is which side is already grieving.** Not the angrier side, not the more righteous. The side that has understood in advance what is about to happen to everyone.
+
+That is the same claim as Ch 31's *a victory in battle should be treated like a funeral rite*, made earlier — before the battle rather than after it — and turned from an ethic into a mechanism.
+
+**Thread · the treasures.** Ch 67 names three (tenderness, frugality, never first). Ch 69 spends two of them without renaming them: *I do not push to move first* is *never pushing to be first*, and *the one who grieves wins* is *tenderness*. The middle treasure, frugality, is what the retreat is — an inch of ground is not worth what it costs.
+
+### Ch 70 · the chapter that is not complaining
+
+Read cold, Chapter 70 sounds like a grievance: *my words are easy, and nobody follows them.* Almost every English rendering leans that way, and some of them let contempt in. **河上公 (*Héshàng Gōng*) closes that reading off at both hinges, and the last line proves him right.**
+
+On 天下莫能知 (*"none in the world can know"*) he does not say the world is stupid. He says: **人惡柔弱好剛強也** — *"people hate the soft and weak and love the hard and strong."* The obstacle is not comprehension, it is **appetite**. They understood it perfectly well and wanted the other thing. That is a diagnosis the book makes again at Ch 76, where 柔弱 (*róu ruò* — soft and weak) is what living things are and 剛強 (*gāng qiáng* — hard and strong) is what corpses are.
+
+On 夫唯無知 he turns the sentence the other way round entirely: **是我德之暗，不見於外** — *"this is my integrity being unlit, not seen on the outside."* There is nothing on display. Not being known is not a failure that happened to the sage; **it is the sage's own arrangement.**
+
+And then the image, which is the whole chapter compressed: 被褐而懷玉 — **the sage wears coarse cloth and carries jade against the chest.** 褐 (*hè*) is a labourer's sacking; 玉 (*yù*) is jade, held inside the robe. Note that the line is made of layers — a garment word outside, a garment word inside (懷, *huái*, is 心 wrapped in cloth), and the treasure between them. **Nobody dressed the sage in sacking. The sage put it on.**
+
+Which makes Chapter 70 a portrait of the book itself. Plain surface, easy sentences, nothing that glitters — and the reason it is not understood is the same reason it is worth understanding.
+
+**Thread · the three lonely chapters.** `notes/manuscript.md` §6 argues that **20, 67 and 70 are one chapter in three voices**, all first-person, all about being misread by 天下 (*tiān xià* — the world). Chapter 70 is the one that explains the other two. Ch 20: *I alone am stubborn, and look coarse* (似鄙). Ch 67: *everyone says I am vast, and look like nothing* (似不肖). Ch 70 supplies the mechanism both were describing — **looking like nothing is the practice, not the accident.** The English keeps the seam visible: Ch 20's *look coarse* and Ch 70's *coarse cloth*.
+
+### Thread · 希 — the loosely woven cloth
+
+**希 (*xī*) is one character doing one thing in six places, and this edition has been rendering it three different ways without noticing.**
+
+The graph is 爻 (crossed threads) over 巾 (a cloth): **fabric woven so loosely you can see through it.** *Sparse.* Every use in the book is that, applied to a different medium:
+
+| | | |
+|---|---|---|
+| ch 14 | 名曰希 | sparse **to the ear** → *the inaudible* |
+| ch 23 | 希言自然 | sparse **speech** → *speak sparingly* |
+| ch 41 | 大音希聲 | the great sound is **sparse of tone** |
+| ch 43 | 天下希及之 | sparse **in number** → *few ever reach this* |
+| ch 70 | 知我者希 | *those who know me are **few*** |
+| ch 74 | 希有不傷其手 | **rarely** without cutting the hand |
+
+Rarity and inaudibility are not two meanings. They are the same property — *thinly distributed* — read once across a crowd and once across a sound. The book's ideal of speech (ch 23) and the book's account of its own reception (ch 70) turn out to be **the same word**: Laozi speaks sparsely, and is sparsely heard.
+
+**And then the couplet does something with it.** 知我者希，則我者貴 — *those who know me are few; those who pattern themselves on me are precious.* 希 (few) is followed immediately by 貴 (*guì* — precious), and the pairing is not accidental: scarcity is where value comes from, an association old enough in Chinese to be proverbial. **河上公 makes the link explicit — 希少也…故為貴也**, *"希 means few… therefore they are precious."* It is the only warmth in the chapter, and it is addressed to whoever is still reading.
+
+**則 is worth a second look, too.** 則 (*zé*) is 鼎 (a bronze cauldron) beside 刀 (a knife): **a law cut into bronze.** Hence "rule, pattern", and as a verb, *to take as one's pattern*. 則我者 is not merely someone who agrees — it is someone who has **cut this into their own metal**. Rendered *"those who pattern themselves on me"* rather than "those who follow me": following is a direction, patterning is a shape.
+
+### Ch 71 · the sickness is not ignorance
+
+Read quickly, this is the Socratic chapter — *I know that I know nothing* — and it gets quoted that way. It is not quite that.
+
+**Nothing here says ignorance is the problem.** The problem is 不知知: the ignorance *plus the claim*. 河上公 names the disease precisely — 強知 (*qiáng zhī*), **forced knowing** — and he names its motive: 妄行強知之爭，以自顯著, *"recklessly practicing the contention of forced knowing, in order to make oneself conspicuous."* 爭 (*zhēng* — contend) is the book's word for the whole grasping posture; **knowledge here is just another arena for it.** The person who claims to know is doing the same thing as the person who climbs, hoards, or fights. That is the finding: this chapter is not about epistemology. It is chapter 8 and chapter 22 applied to the mind.
+
+**And the cure is not humility, exactly.** 夫唯病病 — the sage does not become modest, they become **sick of the sickness**. 河上公 makes the sage's condition sympathetic rather than superior: they are 病苦 (*pained and distressed*) by watching everyone else force it. What keeps them clear is that the spectacle hurts them.
+
+**What the diseased actually lose, on 河上公's reading, is their lives.** His last clause: 内傷精神，減壽消年 — *"inwardly it wounds the vital essence and the spirit; it shortens the span and eats the years."* Claiming to know is not a mere error of manners. It burns something up.
+
+**Thread · 70 → 71, one gesture.** Chapter 70 ends with the sage in coarse cloth, jade **held against the chest** (懷). 河上公 closes chapter 71 with the same verb: 夫聖人懷通逹之知，託於不知者 — *"the sage carries penetrating knowledge against the breast, and lodges it in not-knowing."* The sage **has** the knowledge. Putting it away is the practice. So the first line of 71 is not a confession of emptiness; it is a description of the same concealment 70 just explained — 是我德之暗，不見於外, *"this is my integrity being unlit, not seen on the outside."* Chapter 56 supplies the third side: 知者不言，言者不知. Three chapters, one move.
+
+### Ch 72 · the chapter says why rulers crowd people
+
+Two halves that look unrelated — *do not crowd the people* and *the sage does not display themselves* — and 王弼 joins them in five characters. On 不自貴 he writes **自貴則物狎厭居生**: *"exalt yourself, and things crowd and weary dwelling and living."*
+
+**Self-display is the motive for the crowding.** The ruler presses on the people's houses and livelihoods because they need to be seen doing it. Dread has to be demonstrated or it is not dread; a ruler who has priced themselves high has to keep collecting on the price. Remove 自見 (self-display) and 自貴 (self-pricing) and the pressing loses its engine — there is nothing left it was for.
+
+That is why the chapter's cure is not *govern gently*. It is **自知，自愛** — know yourself, love yourself. A ruler who already knows what they are does not need the people to keep confirming it.
+
+**And the opening line is not a threat, though nearly every English makes it one.** 民不畏威，則大威至 is usually read as *fear my authority, or a greater authority will come.* Both commentators read the opposite: 王弼 has 上下大潰矣 (*high and low collapse utterly*) and 天誅將至 (*the reckoning of nature is coming*); 河上公 has 大害至，謂死亡也 (*the great harm arrives, meaning death*). **When authority stops working, nothing arrives to enforce it for you.** What arrives is the end of the arrangement.
+
+**Nor is it a consolation.** The opposite error is just as available and slightly more seductive: *when people stop fearing authority, true authority arises* — the illegitimate giving way to the legitimate. There is no such thing in the chapter. 至 (*zhì*) is an arrow striking ground, not a dawn. **Coercion has a floor, and the floor is not held up by anything.**
+
+**Thread · the two chapters inside Ch 72.** 其 (*qí* — their/its) has no antecedent, and the commentators supply opposite ones. For 王弼 it is the people's dwelling and livelihood, and the chapter is political. For 河上公 it is **your own** — 其所居 is the heart, where the spirit dwells; 其所生 is the vital essence that keeps you alive; and the offence is not taxation but appetite (飲食不節…邪僻滿腹，爲伐本厭神 — *"eating without restraint… depravity filling the belly: this cuts down the root and crushes the spirit"*). His title for the chapter is 〈愛己〉, **loving oneself**.
+
+We render 王弼, because 民 is the topic of the previous line and 河上公 has to import two characters the chapter does not contain. But he is reading something real: **the second half is four 自 in two lines** — 自知, 不自見, 自愛, 不自貴 — the densest run of *self* anywhere in the book. The chapter opens on the people and closes on the person. His reading is what you get if you take the ending as the key to the beginning, and the ending does invite it. `notes/manuscript.md` has the apparatus.

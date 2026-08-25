@@ -46,7 +46,7 @@ Our base text is the received **Wang Bi** recension (via the Chinese Text Projec
 - **Received:** 道常無名**。**樸雖小，天下莫能臣也。 — *"The Tao is ever nameless. Though uncarved wood is small, nothing can subordinate it."* (樸 is the subject; the wood is what is small.)
 - **Ours:** 道常無名**樸。**雖小，天下莫能臣也。 — *"The Tao is ever nameless, uncarved. Though small, nothing in the world can make it a subject."* (無名樸 is a compound attribute of the Tao; **the Tao** is what is small.)
 
-We follow the second, on three grounds. **(1) The parallel with Chapter 37** is near-decisive — both chapters run *道常 + [attribute]*, then the identical sentence about rulers: 道常**無為**。侯王若能守之，萬物將自化 (37) / 道常**無名樸**。侯王若能守之，萬物將自賓 (32). Same frame, same rulers, same self-so outcome. **(2) The pronoun.** 侯王若能守**之** — *if lords and kings can hold **it*** — takes the Tao as its antecedent naturally; under the received parse the nearest antecedent is a piece of timber. **(3) Chapter 34 already says the Tao is small**: 常無欲，可名於**小** — *"ever without desire, it may be named small"* — and, in the next breath, 可名為**大**, *"it may be named great."* Chapter 32 is that claim made a second time; 天下莫能臣也 is a real assertion about the Tao and a puzzle about wood.
+We follow the second, on three grounds. **(1) The parallel with Chapter 37** is near-decisive — both chapters run *道常 + [attribute]*, then the identical sentence about rulers: 道常**無為**。侯王若能守之，萬物將自化 (37) / 道常**無名樸**。侯王若能守之，萬物將自賓 (32). Same frame, same rulers, same of-itself outcome. **(2) The pronoun.** 侯王若能守**之** — *if lords and kings can hold **it*** — takes the Tao as its antecedent naturally; under the received parse the nearest antecedent is a piece of timber. **(3) Chapter 34 already says the Tao is small**: 常無欲，可名於**小** — *"ever without desire, it may be named small"* — and, in the next breath, 可名為**大**, *"it may be named great."* Chapter 32 is that claim made a second time; 天下莫能臣也 is a real assertion about the Tao and a puzzle about wood.
 
 *(A side benefit: with 樸 read attributively, the English needs no article, so nothing reifies the uncarved into an object — the same correction made when "block" was retired. See `glossary/pu-樸.md`.)*
 
@@ -98,11 +98,23 @@ The two oldest commentaries gloss 以此 differently, and the English *"By this,
 
 ### Ch 25 · 王亦大 / 人亦大 — king or human among the four greats
 
-Our base reads 故道大，天大，地大，**王**亦大 ("the **king** is also great") and 域中有四大，而**王**居其一焉. **Both Mawangdui silks read 人 (*rén* — human) in the list of four**, and the older silk (甲本, c. 200 BCE) reads 人 in *both* places — 天大地大**人**亦大 … 而**人**居一焉. Silk B (乙本, c. 175 BCE) is caught mid-drift: 人 in the list, 王 in the line after. **We follow 人**, rendering *the aligned human*.
+**⚠ Corrected 2026-08-20. What stood here before was wrong, and wrong in the direction that flattered the edition.** It recorded that both Mawangdui silks read 人 (*rén* — human), that the older silk had no king in the passage at all, and that silk B could be caught "mid-drift." None of that survives checking. The correction was forced by `concordance.py --witnesses 25`, which had been flagging for some time that Guodian was never consulted here.
 
-Two further points. **The received text contradicts itself:** Wang Bi's own next line is 人法地 ("humans follow earth"), so the received recension makes the *king* one of the four greats and then instantly makes *humans* the bottom rung of the ladder. The silks are internally consistent; the received text is not. And **域 / 國** is a second fork in the same line — our base reads 域中 (*yù zhōng* — within the domain), both silks read 國中 (*guó zhōng* — within the state). Both are spatial and "within the realm" serves either, so it is logged rather than decided. *(Note also 有物**混**成 / 有物**昆**成 — a graphic variant only, both "merged, undifferentiated"; not meaning-bearing.)*
+**Every excavated witness reads 王** (*wáng* — king). Guodian (~300 BCE, bundle A) reads 王 in both places — and orders the list 天大，地大，道大，王亦大, sky and earth *before* the Tao, where the received text puts the Tao first. Both Mawangdui silks and the Beida Han slips read 而王居一焉. So does 河上公. There is no excavated witness for the human reading and no visible moment of arrival: **the throne is in the oldest text we have.**
 
-*This is `DISCOVERIES.md` §1.*
+**人 is a transmitted reading, and a late one.** 傅奕 (*Fù Yì*, 555–639, Tang) carries 人亦大 and claims descent from a 古本 (*gǔ běn* — an ancient exemplar). The earliest extant witness for the second line, 人居其一焉, is 范應元 (*Fàn Yìngyuán*, Song) in 老子道德經古本集註; his own note reads that 人 follows Fu Yi and the ancient text, while 河上公 has 王. 奚侗 (*Xī Tóng*, early 20th c.) argued in 老子集解 that both should be 人 and that 王 was 尊君者之妄改 — *"a reckless emendation by those who revered the ruler."* Modern critical and popular editions often print 人 following this line of argument, **usually without marking it as an emendation** — which is how a translator working from a "帛書版" text online can come to believe the silks read 人. That is what happened here.
+
+**We still follow 人 — and the grounds are now entirely different.** Not manuscript age, which runs the other way. Three things, in order of weight:
+
+1. **The received text contradicts itself.** The next line is 人法地 ("humans follow earth"). A text that makes the *king* one of the four greats and then instantly makes *humans* the bottom rung of the ladder has a seam in it. This is Fan Yingyuan's argument and Xi Tong's, made on internal evidence centuries before any manuscript was dug up, and it is untouched by the excavations.
+2. **The reading Fu Yi and Fan preserve may still be old.** A transmitted edition is not automatically younger than a buried one; it is only less certain. The claim is unprovable either way, and should not be leaned on.
+3. **Standing rule 2**, universality over the incidental male-default — an *editorial* ground this edition avows openly. Note that it does not depend on the fork at all: 王 is not gendered in Chinese, and `glossary/wang-王.md` renders it *ruler / sovereign* everywhere, never *king*. Reading 王 here would still not produce a king in the English.
+
+**域 / 國.** Our base reads 域中 (*yù zhōng*); Guodian, both silks and Beida all read 國中 (*guó zhōng* — within the state). Not meaning-bearing — 域 and 國 are one root 或 (*huò*) with two different classifiers, soil under it or a wall around it — but worth noticing that the **state** word is the one every excavated witness carries. The territorial frame is the oldest layer here. *(Note also 有物**混**成 / 有物**昆**成 — a graphic variant only, both "merged, undifferentiated"; not meaning-bearing.)*
+
+**Source quality, stated honestly.** These readings were established from converging Chinese-language secondary sources, not from a printed critical apparatus. Before any of this is published, check against 高明 *帛書老子校注* and the 文物出版社 excavation reports. The convergence is strong — the sources agree on the non-obvious specifics, including Fan Yingyuan as the earliest 人居其一焉 — but it is not the same as having seen the plates.
+
+*`DISCOVERIES.md` §1 and §4 rest on the superseded version of this note and both need rewriting. See the correction banners there.*
 
 ### Ch 41 · 大器晚成 / 免成 — late, or never
 
@@ -150,7 +162,7 @@ Both Mawangdui silks read **注** (*zhù*) where our base text reads **奧** (*�
 
 #### 天子 stands in the silks
 
-立天子 is present in the Mawangdui text, so the title is **not** a later accretion of the kind found at Ch 25, where our base reads 王 (king) and both silks read 人 (human). The grandeur is Laozi's own, put there to be knocked down. This settles the question left open when the chapter was drafted; see the Translation Notes on 天子 → *"a child of the sky,"* and `DISCOVERIES.md` §3.
+立天子 is present in the Mawangdui text, so the title is **not** a later accretion. *(This sentence formerly contrasted Ch 25, on the claim that the silks read 人 there. That claim was wrong — see the corrected Ch 25 note — and the contrast is withdrawn. The point stands on its own: 天子 is in the silks, so the distortion in "Son of Heaven" is entirely English.)* The grandeur is Laozi's own, put there to be knocked down. This settles the question left open when the chapter was drafted; see the Translation Notes on 天子 → *"a child of the sky,"* and `DISCOVERIES.md` §3.
 
 #### 三公 / 三鄉 — the silks name the office with the word that means minister
 
@@ -167,3 +179,111 @@ The line 報怨以德 (*bào yuàn yǐ dé* — "repay resentment with integrity
 #### 夫輕諾必寡信 — damaged in both silks
 
 The 輕諾 / 寡信 line is broken in both Mawangdui manuscripts; B preserves only fragments of the span between 輕 (*qīng* — light) and 信 (*xìn* — trust), with graphs missing. Our reading of it therefore rests on the **received text alone**, and so does the *trust* rendering of 信 at this line. Worth stating rather than rendering as though the witnesses concurred. (We record the fact of the damage and not any modern reconstruction of the lost graphs — see `sources/PROVENANCE.md`.)
+
+### Ch 64 · 泮 or 破 — a brittle thing thaws or snaps
+
+Our Wang Bi base reads 其脆易**泮** (*pàn*), a water-radical graph whose sense is ice going soft; Heshang Gong's lemma text reads 其脆易**破** (*pò* — to shatter). The Siku editors flag the head character as well, with 〔案脆釋文云一作膬〕 — the *Shiwen* reporting 膬 for 脆 (*cuì* — brittle). **We keep the base graph and render toward shattering**, because that is what brittleness does; a thing that thaws was never brittle. Small, but it is the difference between dissolving and snapping, and the chapter's whole point is that the thing is still catchable.
+
+### Ch 64 · at Guodian the two halves are separate, and the second half is copied twice
+
+*Corrected 2026-08-17. The first version of this note said the two halves sat in different bundles. That is not what the slips show, and the truth is sharper.*
+
+**Bundle A carries both halves, far apart.** The second half (為者敗之 onward) stands in its first slip-unit, between Ch 15 and Ch 37; the first half (其安易持 onward) stands in its fourth unit, before Ch 56 and Ch 57. Six chapters lie between them. **Bundle C then carries the second half again** — making it the only passage in the Guodian Laozi copied twice.
+
+So the two halves of our Chapter 64 never appear joined, in either bundle, in the order our base text gives them. What the received text presents as one chapter, the oldest witness presents as two circulating sayings, one of which was popular enough to be copied into two different collections.
+
+**The seam is visible in the sense at exactly the point the slips break it.** The proverb-triad ends at 千里之行，始於足下 and a different argument starts at 為者敗之，執者失之 — *act early* giving way to *do not act*, with no bridge. We had already flagged that tension in the Reading Notes as something to leave open rather than smooth. The manuscript evidence says the tension is not Laozi's inconsistency; it is a join.
+
+**We keep the received chapter.** Our base text is Wang Bi and the whole book is transmitted through it; unpicking a chapter our own recension presents as whole would be editing, not translating. But the note stands with the chapter. See `sources/guodian-inventory.yaml` for the full slip arrangement.
+
+### Ch 65 · 稽式 or 楷式 — the same standard, two glosses
+
+Our Wang Bi base reads 稽式 (*jī shì*), Heshang Gong's text reads 楷式 (*kǎi shì*), and the Siku compilers note it in the margin themselves: 〔案河上公注本稽作楷下同〕 — *"in the Heshang Gong recension 稽 is written 楷, and likewise below."* Both compounds name a standard or model, so nothing in the English turns on it.
+
+**What does turn on it is the gloss, and there the two commentators part.** Wang Bi reads 稽 as 同 (*tóng* — held in common): 今古之所同則不可廢, *"what past and present hold in common cannot be discarded."* The standard is what does not change across time. Heshang Gong reads 楷式 as 法式 — the working pattern for governing self and state, a template you apply. Metaphysical against practical, from one graph. **We keep the base text and render 式 as "pattern",** which is already Ch 28's word for 為天下式.
+
+### Ch 67 · 我道大 or 我大 — **resolved 2026-08-19: the chapter is about Laozi**
+
+Our base reads 天下皆謂**我道**大 — *"everyone says my Tao is vast."* Heshang Gong's lemma reads 天下皆謂**我**大, *"everyone says **I** am vast."* **We follow Heshang Gong, against our own base text.** Six arguments converge, and only the second is about manuscripts.
+
+**1 · 不肖 is a first-person humility word.** 肖 (*xiào*) is *to resemble*, and 不肖 (*bù xiào*) is a **self-deprecating pronoun** in classical Chinese — *"I, the unworthy one"* — built on the idea of a child who does not resemble its father. It survives in 不肖子 (*bù xiào zǐ* — unworthy son) and 不肖徒 (unworthy student). It is a word people apply **to themselves**. Applied to the Tao it is strained; applied to a speaker it is the ordinary idiom.
+
+**2 · Heshang Gong's comment is unmistakably personal.** 老子言天下謂我德大，**我則佯愚似不肖** — *"Laozi says the world calls my integrity great; **I then feign foolishness** and seem unworthy."* 佯愚 (*yáng yú*) is to put on stupidity deliberately. That is a man doing something, not a Tao being something. He continues in the same register: 唯獨名德大者為**身**害 — *"only those whose name and integrity are called great suffer harm to their **person**."*
+
+**3 · He reads 細 as a petty person, not a small thing.** 言辨惠者唯如**小人**也，非**長者** — *"the clever are just like **petty men**, not **elders**."* This is where the argument for the base text collapsed. The first version of this note kept 道 on the grounds that the following lines "argue about a thing." They do not. On the oldest full commentary they argue about a man.
+
+**4 · The chapter does not change subject.** Line four is 我有三寶，持而保之 — *"I have three treasures; I hold them and keep them safe."* Under 我大 the chapter runs continuously in the first person from its first character. Under 我道大 the subject switches abruptly after three lines and switches back.
+
+**5 · The pronoun is the right one, by our own glossary.** `glossary/wo-wu-我吾.md` settles 我 (*wǒ*) as **the self seen** — "the self that is positioned, contrasted, felt: I, as against others" — where 吾 (*wú*) is the self seeing. 天下皆謂**我** is literally *the world's verdict on me*, which is precisely 我's work.
+
+**6 · Ch 20 and Ch 70 are this chapter in other words.** All three are first-person and all three are about being misread by 天下 (*tiān xià* — the world). Ch 20: 我獨異於人 (*"I alone differ from others"*) and 而我獨頑**似**鄙 (*"I alone am stubborn and **seem** coarse"*). Ch 70: 天下莫能知 (*"no one in the world can understand"*), 不**我**知 (*"they do not know **me***"), 知**我**者希 (*"those who know **me** are few"*). Chapter 67 shares Ch 20's 我 … 似 X shape exactly: 天下皆謂我大，**似**不肖.
+
+**How 道 got in.** *"Everyone says I am vast"* reads at first glance as a boast, and a copyist who feels that inserts 道 to make it modest — *my Tao is vast*. Copyists move from the harder reading to the smoother one, not the reverse. And the boast dissolves the moment the line is finished: the second half is self-deprecation. **People say I am vast, and I look like nothing.**
+
+**The base text and the Source table keep 道**; only the verse follows the witness. That is the practice already used at Ch 21, 41, 42, 47 and 53.
+
+### Ch 67 · 器 or 事 — the oldest witness reads "affairs"
+
+The Siku compilers note it in the margin: 〔案器韓非子作事〕 — *"for 器, the Han Feizi text reads 事."* Han Fei died in 233 BCE, which makes his the oldest witness to this passage by four centuries.
+
+So: 成**器**長, *chief of vessels* (our base), against 成**事**長, *chief of affairs* (Han Feizi). Not a small difference. 器 (*qì* — vessel) is the counter-term to 樸 (*pǔ* — uncarved wood), and Ch 28 supplies the mechanism: 樸散則為器, *"when the uncarved is scattered it becomes vessels."* Under 器 the line says the one who refuses to be first becomes what all the specialised things answer to — precisely because they were never carved into one. Under 事 it says something much flatter about precedence in undertakings.
+
+**We keep 器**, on Ch 28's support and because the vessel reading is what makes the third treasure a claim rather than a maxim. The older reading is logged rather than buried.
+
+### Ch 73 · a line missing from our base text — **restored 2026-08-20**
+
+After 天之所惡，孰知其故？ (*"what nature hates, who knows why?"*) the received Wang Bi and Heshang Gong texts both read **是以聖人猶難之** — *"therefore even the sage finds it difficult."* **Our base text does not have it,** in the Source table or in `source/chinese.md`.
+
+This is not a variant reading. It is an absent line, and it is absent from a text we describe as the Wang Bi recension while the Siku printing of Wang Bi has it in the lemma.
+
+**Both commentators build their reading of the chapter on it.**
+
+- **王弼:** 孰，誰也。言誰能知天下之所惡意故耶？其唯聖人。夫聖人之明，猶難於勇敢，況無聖人之明而欲行之也 — *"孰 means 'who'. Who can know the reason for what is hated? Only the sage. And the sage's own clarity still finds daring difficult — how much more someone without the sage's clarity who means to act on it anyway."*
+- **河上公:** 言聖人之明德猶難於勇敢，況无聖人之德而欲行之乎 — the same argument in almost the same words.
+
+**Why it was probably deleted.** The identical six characters stand in Ch 63, followed there by 故終無難矣 (*"and so in the end has no difficulty"*). Modern editors — Ma Xulun among them — read Ch 73's occurrence as a copyist's importation from Ch 63 and strike it. That judgement is modern, and it is made against two commentaries that had the line in front of them and reasoned from it.
+
+**What turns on it.** Without the line, 孰知其故？ hangs unanswered and the chapter jumps straight to 天之道. With it, the question gets its beat: *who knows? — even the sage finds this hard.* The whole chapter is about the unknowability of what nature refuses, and the line is where the speaker admits he does not know either.
+
+**RESTORED, by Shalom's call.** The row now stands in `chapters/073.md` and in the derived `source/chinese.md`. **This is the first base-text addition in the project** — every earlier departure from the base left the Source table untouched and moved only the verse (Ch 21, 41, 42, 47, 53, 67). The distinction matters: those were places where we preferred another witness's *reading* of a line we had; this was a line we did not have at all, and no amount of choosing between readings could have recovered it.
+
+*(The second time our base has proved not to be the Wang Bi recension at a given point — see Ch 2, where the Siku Wang Bi reads 相較 … 相傾 against our 相形 … 相盈. Worth a systematic check of the base against the Siku printing, now that both are in the repository.)*
+
+### Ch 68 · 善勝敵者 or 善勝戰者 — the lemma slips, the commentary does not
+
+Our base reads 善勝**敵**者，不與 — *"one masterful at overcoming **enemies** does not engage them."* Heshang Gong's lemma prints 善勝**戰**者, *"one masterful at winning **battles**."*
+
+**His own commentary settles it against his lemma.** He glosses the line 不與**敵**爭而**敵**自服也 — *"does not contend with the **enemy**, and the **enemy** submits of itself"* — using 敵 twice. The text he was reading had 敵; the lemma has assimilated to 善**戰**者 in the line directly above.
+
+Not meaning-bearing, and logged only because the four parallel 善X者 clauses are this chapter's entire structure — warrior, fighting, enemies, people — and a witness that repeats 戰 in two of them collapses one of the four.
+
+### Ch 69 · 相若 or 相加 — our base leaves the Siku Wang Bi for the third time
+
+Our base text reads 故抗兵**相若** (*gù kàng bīng xiāng ruò* — "so when the raised armies are alike"). The Siku printing of 王弼 and the Song 河上公 both lemmatise 故抗兵**相加**, and Wang Bi glosses the character: 抗舉也，加當也 — *"抗 means to raise; 加 means to be a match for."* Both readings arrive at *evenly matched*, so nothing in the English turns on it and we keep the base.
+
+It is logged for a different reason. This is the **third** point at which the text we call the Wang Bi recension does not agree with the Siku printing of Wang Bi — chapter 2 (相形 … 相盈 against 相較 … 相傾), chapter 73 (a whole line missing), and now this. The systematic check of our base against the Siku text, suggested at Ch 73, is owed.
+
+**Also noted and not logged as a fork:** 河上公's lemma prints 仍無敵 where our base has 扔無敵. His own gloss, 雖欲仍引之 (*"though you would drag at it"*), gives 仍 the sense of 扔, so the two are the same word with two graphs.
+
+### Ch 72 · 狎 or 狹 — and the fork is not orthographic, it is the whole chapter
+
+Our base reads 無**狎**其所居 (*wú xiá qí suǒ jū*). 河上公's lemma prints 無**狹**其所居 — same sound, different graph, and a different sentence.
+
+- **狎** is 犭 (the dog radical) beside 甲 — to crowd in, to grow over-familiar, to make light of. Something **done to** the people from outside.
+- **狹** is 犭 beside 夾 (*jiā* — squeezed between) — narrow, cramped. A **condition of** the space itself.
+
+**We keep the base.** 王弼 uses 狎 in his own commentary — 自貴則物狎厭居生, *"exalt yourself, and things crowd and weary dwelling and living"* — so the reading is secure on the base side, and the graph he read is the one our text has.
+
+**But the variant is exactly what 河上公's reading of the chapter needs**, which is why it is worth recording rather than filing as a copyist's slip. He glosses the line 謂心居神，當寬柔，不當急狹也 — *"this speaks of the heart as where the spirit dwells; it should be broad and yielding, not tight and cramped."* With 狹 the sentence stops being an instruction to a ruler about houses and becomes an instruction to anyone about their own interior. A one-graph fork carries an entire school's reading. Recorded in `sources/variants.yaml`.
+
+### Ch 72 · 其 has no antecedent, and the two commentators supply different ones
+
+無狎其所居，無厭其所生 — *"do not crowd **their** place of dwelling, do not weary **what gives them** life."* Classical Chinese lets 其 (*qí*) float; English cannot.
+
+**王弼 reads it as the people's.** His note is entirely political: 離其清淨，行其躁欲，棄其謙後，任其威權，則物擾而民僻 — *"leave that pure stillness, act on restless desire, abandon humble deference, rely on awe and power: then the countless things are disturbed and the people turn crooked."* The subject is a ruler and the objects are subjects.
+
+**河上公 reads it as your own.** 其所居 is where the **spirit** dwells — the heart. 其所生 is what **keeps you alive** — 人所以生者爲有精神，託空虛，喜清淨, *"what makes a person alive is having vital essence and spirit, lodged in emptiness, delighting in pure stillness."* The offence is not taxation but appetite: 飲食不節，忽道念色，邪僻滿腹，爲伐本厭神 — *"eating without restraint, neglecting the Tao and dwelling on lust, depravity filling the belly: this cuts down the root and crushes the spirit."* His chapter title is 〈愛己〉, **loving oneself**.
+
+**Our call: 王弼.** 民 (*mín* — the people) is the topic of the line immediately before, and 其 takes the nearest available antecedent; 河上公 has to import 心 (heart) and 神 (spirit), neither of which appears anywhere in the chapter. That is his physiological school reading itself into the text, and it is the same move that turns Ch 6's valley spirit into an organ.
+
+**It is not thereby worthless, and this is not averaged into a consensus.** The chapter's second half is four 自 (*zì* — self) in two lines — 自知, 不自見, 自愛, 不自貴 — the densest reflexive run in the book. The chapter really does turn inward, and 河上公's title names where it lands. See `notes/reading.md`.

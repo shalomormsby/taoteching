@@ -60,7 +60,7 @@ Capitalized, this is Neoplatonism and monotheism — the One of Plotinus, the Go
 The moral good/evil binary is a Christian inheritance; 善 frequently means **skilled, adept, good *at*** something. Chapter 27's run — 善行, 善言, 善數, 善閉, 善結 — is entirely about *skill*: the skilled traveler leaves no tracks. Read for competence first, morality only where the context demands it.
 
 **自然 — "Nature"** *(17, 23, 25, 51, 64)*
-Capital-N "Nature" is Romanticism, not Laozi — and in one place the mistranslation is **catastrophic**. Chapter 25's 道法自然 rendered "the Tao follows Nature" makes *Nature superior to the Tao*, inverting the entire chapter. 自然 is **"self-so," "of-itself-so"**: the Tao takes as its model *its own spontaneous being-so*. There is nothing above it to follow.
+Capital-N "Nature" is Romanticism, not Laozi — and in one place the mistranslation is **catastrophic**. Chapter 25's 道法自然 rendered "the Tao follows Nature" makes *Nature superior to the Tao*, inverting the entire chapter. 自然 is **"of itself," "so of itself"**: the Tao takes as its model *being what it is*. There is nothing above it to follow. (Never "self-so" — a calque, and a noun where both commentators refuse to name a thing; see `glossary/ziran-自然.md`.)
 
 ### Tier 3 — Register, not vocabulary
 
