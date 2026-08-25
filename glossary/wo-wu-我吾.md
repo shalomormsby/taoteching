@@ -34,7 +34,7 @@ And the tradition made the rhyme explicit. A generation or two past Laozi, Zhuan
 
 ### How Laozi held it — not a theory, a stance
 
-Laozi never lectures on an "observer self." He does something quieter: he **enacts** it. Chapter 16 is the clearest window. First *致虛極，守靜篤* — empty yourself to the limit, hold still to the depths — *and then* *萬物並作，吾以觀復*: the ten-thousand things rise and stir, and "*I* watch them return." Notice the order. The 吾 that watches is not attained by *adding* anything; it is what is *left* when the gripping self grows quiet. Chapter 10 hands us the image for it: *滌除玄覽* — wash the dark mirror clean. The 吾 is the mirror that reflects without reaching for what it reflects. And set beside its cousin-pair **吾 / 身** (the observer and the body-bound, status-anxious self — its own entry), the picture closes: loosen 身, set down 我, and 吾 remains — clear, still, watching, unarmed.
+Laozi never lectures on an "observer self." He does something quieter: he **enacts** it. Chapter 16 is the clearest window. First *致虛極，守靜篤* — empty yourself to the limit, hold still to the depths — *and then* *萬物並作，吾以觀復*: the countless things rise and stir, and "*I* watch them return." Notice the order. The 吾 that watches is not attained by *adding* anything; it is what is *left* when the gripping self grows quiet. Chapter 10 hands us the image for it: *滌除玄覽* — wash the dark mirror clean. The 吾 is the mirror that reflects without reaching for what it reflects. And set beside its cousin-pair **吾 / 身** (the observer and the body-bound, status-anxious self — its own entry), the picture closes: loosen 身, set down 我, and 吾 remains — clear, still, watching, unarmed.
 
 ### The lived seam
 

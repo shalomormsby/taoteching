@@ -51,7 +51,7 @@ And the closing couplet states the principle:
 **Chapter 40** puts them in sequence:
 
 > 天下萬物生於**有**，**有**生於**無**。
-> *The ten-thousand things of the world are born from presence; presence is born from absence.*
+> *The countless things of the world are born from presence; presence is born from absence.*
 
 A cosmogony, and asymmetric: 無 comes first, 有 second, the world third. Note the verb — 生, *to give birth to*, the mother's word. Absence does not *cause* presence; it **bears** it.
 
@@ -69,9 +69,9 @@ These two claims are not obviously compatible, and this edition does not reconci
 Chapter 1 gives the pair its most famous appearance, and the received punctuation makes 無 and 有 modify *name*:
 
 > 無名，天地之始；有名，萬物之母。
-> *Nameless: the beginning of sky and earth. Named: the mother of the ten-thousand things.*
+> *Nameless: the beginning of sky and earth. Named: the mother of the countless things.*
 
-But the Chinese carries no marks, and an old and serious alternative reads 無 and 有 as the **subjects**: *"Absence — name it the beginning of sky and earth; presence — name it the mother of the ten-thousand things."* This edition follows the received reading (see `notes/manuscript.md`), but the fork is genuine, and it is why the pair feels present in Chapter 1 even when the English says only "nameless" and "named."
+But the Chinese carries no marks, and an old and serious alternative reads 無 and 有 as the **subjects**: *"Absence — name it the beginning of sky and earth; presence — name it the mother of the countless things."* This edition follows the received reading (see `notes/manuscript.md`), but the fork is genuine, and it is why the pair feels present in Chapter 1 even when the English says only "nameless" and "named."
 
 ### What we set aside
 

@@ -34,7 +34,7 @@
 | Entry | Why |
 |---|---|
 | 成 (Chéng), "Compiled" | 28 framework markers, the most contaminated in the file. The etymology (戊, the battleaxe; the decisive strike ending a process) is sound and worth keeping — but as a *note*, not this entry. The rendering is an artifact. |
-| 天 (Tiān), "The Cosmos" | Superseded and disproven by `tiandi-天地.md`. |
+| ~~天 (Tiān), "The Cosmos"~~ | ✅ **DONE & LOCKED** → `tian-天.md`, 2026-08-24. "The Cosmos" superseded. 92 occurrences, the book's most frequent content character: 61 are 天下, 9 are 天地, **19 stand alone** and split — **sky** where 地 is in the series (7, 16, 25, 39), **nature** where 天 takes a verb (9, 47, 59, 67, 73, 77, 79, 81). Shuowen: 天，顛也 — *the crown of the head*. A body part, not a realm. 配天 (68) left open. |
 
 **Not glossary entries at all** — zero occurrences in the text:
 
@@ -77,11 +77,15 @@
 | ~~12~~ | ~~**信** (Xìn) — "trust"~~ | 8 | 42L | ✅ **DONE & LOCKED** → `xin-信.md`. 人 beside 言 — a person by their word — and also a **split tally** (符契), so 信 is *correspondence that can be checked*, not an inner feeling. That is why "sincerity" and "faith" both fail. Kept being given 德's word: fixed in Ch 23 and Ch 38. Ch 49's 德信 puts both characters in one compound and settles it. 忠 (loyalty) absorbed here. Ch 81's 信言 left open until that chapter is drafted. |
 | 13 | **王** (Wáng) | 8 | 41L, 11 marks | **Raised in priority.** Both Mawangdui silks read 人 (human) where our base reads 王 (king) in Ch 25's four greats, and the older silk has no king in the passage. See `DISCOVERIES.md` §1 — this entry now has a real argument to make. |
 | 14 | **先** (Xiān) | 6 | 42L, 13 marks | |
+| 14b | **希** (Xī) | 6 | — | **New, raised from Ch 70, 2026-08-24.** The graph is 爻 (crossed threads) over 巾 (cloth) — **loosely woven fabric you can see through.** *Sparse*, in six places and one sense, which this edition has been rendering three ways without noticing: ch 14 *the inaudible*, ch 23 *speak sparingly*, ch 41 大音希聲, ch 43 *few ever reach this*, ch 70 *those who know me are few*, ch 74 *rarely*. Rarity and inaudibility are the same property read across a crowd and across a sound — so Laozi's ideal of speech (23) and his account of his own reception (70) are **the same word**. Ch 70 also pairs it with 貴 (*guì* — precious): scarcity is where value comes from, and 河上公 makes the link explicit (希少也…故為貴也). |
 | ~~15a~~ | ~~**精** (Jīng) — "vital essence"~~ | 2 | 36L | ✅ **DONE & LOCKED** → `jing-精.md`. 米 (rice) + 青; *Shuowen*: **擇也**, to sift. **Hulled grain** — what is left when the bulk is removed, which is why Ch 21's "primordial mass" was the exact inversion. Written **standalone, not paired with 氣**: Ch 55 sets them against each other (精 a reserve, 氣 a current), and a paired entry would blur the distinction the chapter is built on. |
 | 15b | **氣** (Qì) | 3 | 21L | **Now owed.** 精 is locked and argues against it by contrast, so 氣 needs its own entry to complete the pair. Note that "energy" cannot go on 精's forbidden list precisely because 氣 claims it in Ch 55. |
 | 16 | **混** (Hùn) | 3 | 29L | Ch 25's 有物混成. |
 | 17 | **反 / 復** | 4 | 6L stub | A true pairing — the movement of the Tao. Currently framed as "a thermodynamic loop"; needs full rewrite. |
 | 18 | **仁** (Rén) | 5 | 21L | Overlay watchlist — Legge's "benevolence," never "charity." |
+| ~~19~~ | ~~**爭** (Zhēng) — "contend"~~ | 9 | — | ✅ **DONE & LOCKED** → `zheng-爭.md`. Two hands pulling one object; *Shuowen* 引也, "to pull," and the classical gloss 引之使歸於己 — *pulling a thing so it comes to oneself*. **All nine occurrences are negated** — the word never appears as something done. Ch 73's 不爭而善勝 decided it against "compete", which collapses into 勝 (overcome). Swept ch 3, 8, 22, 66.
+| ~~20~~ | ~~**王** (Wáng) — "ruler"~~ | 13 | — | ✅ **DONE & LOCKED** → `wang-王.md`. The graph is a **broad axe-head**, not a person — no gender in it. The "three strokes are sky/earth/human and the king joins them" reading is **董仲舒** (c. 179–104 BCE), fourteen centuries after the graph, and it entered every dictionary via the *Shuowen*. All eight chapters define 王 by **lowness**. Swept ch 39, 42, 66. Absorbs 侯. See `DISCOVERIES.md` §4. |
+| ~~21~~ | ~~**敢** (Gǎn) — "push / venture"~~ | 10 | — | ✅ **DONE & LOCKED** → `gan-敢.md`. A hand with a hunting weapon going after a **boar**; *Shuowen*: 進取也, "to advance and take." **Appetite, not bravery.** "Not daring" reads as cowardice and inverts Ch 73's 勇於不敢則活, *"courage in not-venturing lives."* Caught by Shalom. Swept ch 30, 64, 67. *presume* blocked by 恃 — see RETROFIT. |
 
 ## Tier 4 — Stubs needing commission
 
