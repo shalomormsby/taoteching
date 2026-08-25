@@ -30,6 +30,7 @@ GLOSSARY = ROOT / "glossary"
 SOURCE = ROOT / "source" / "chinese.md"
 CALLS = ROOT / "process" / "shaloms-call.md"
 VARIANTS = ROOT / "sources" / "variants.yaml"
+GUODIAN = ROOT / "sources" / "guodian-inventory.yaml"
 
 # A chapter's Source table marks its header row with 原文 ("original text")
 # and its alignment row with colons and dashes. Both are skipped.
@@ -453,3 +454,76 @@ def _split_inline(val):
     """Split `{a: x, b: y}` on commas that are not inside a reading."""
     inner = val.strip().lstrip("{").rstrip("}").strip()
     return [p for p in (s.strip() for s in inner.split(",")) if p and ":" in p]
+
+
+# --------------------------------------------------------------------- guodian
+
+@dataclass
+class GuodianEntry:
+    """What the oldest witness carries for one chapter — an inventory fact.
+
+    Never a text. The Guodian slips are excluded from sources/ as transcriptions
+    (PROVENANCE.md); what chapters sit on which slips, in what order, is a fact
+    about an excavated object and is recorded instead.
+    """
+    chapter: int
+    bundles: list
+    extent: str
+    units: list
+    note: str
+
+    @property
+    def partial(self):
+        return self.extent not in ("complete", "")
+
+    def __str__(self):
+        where = "+".join(self.bundles)
+        return f"ch {self.chapter} · bundle {where} · {self.extent}"
+
+
+def load_guodian(chapter=None):
+    """Parse sources/guodian-inventory.yaml. Hand-rolled, like the rest."""
+    if not GUODIAN.exists():
+        return {} if chapter is None else None
+    out, cur, key = {}, None, None
+
+    def flush():
+        if not cur or "chapter" not in cur:
+            return
+        n = int(cur["chapter"])
+        out[n] = GuodianEntry(
+            chapter=n,
+            bundles=_split_list(cur.get("bundles", "")),
+            extent=cur.get("extent", ""),
+            units=_split_list(cur.get("units", "")),
+            note=" ".join(cur.get("note", "").split()),
+        )
+
+    for raw in GUODIAN.read_text(encoding="utf-8").split("\n"):
+        if raw.lstrip().startswith("#"):
+            continue
+        if raw.startswith("- "):
+            flush()
+            cur, key = {}, None
+            raw = "  " + raw[2:]
+        if cur is None:
+            continue
+        stripped = raw.strip()
+        if not stripped:
+            continue
+        if raw.startswith("    ") and key:          # folded continuation
+            cur[key] = (cur.get(key, "") + " " + stripped).strip()
+            continue
+        if ":" in stripped:
+            k, _, v = stripped.partition(":")
+            key = k.strip()
+            v = v.strip()
+            cur[key] = "" if v == ">" else v
+    flush()
+    return out if chapter is None else out.get(chapter)
+
+
+def _split_list(val):
+    """Split `[A, B]` into ['A', 'B']."""
+    inner = val.strip().lstrip("[").rstrip("]").strip()
+    return [p.strip() for p in inner.split(",") if p.strip()]

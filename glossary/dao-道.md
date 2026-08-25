@@ -33,7 +33,7 @@ Here is the pun that makes Chapter 1 turn, and that nearly all English loses. �
 Watch how he actually uses it, and a shape appears that is neither god nor thing:
 
 - *有物混成，先天地生… 字之曰道* (Ch 25) — "something formed in the undifferentiated, born before heaven and earth… I *style* it 'Tao'" — and he adds, 強為之名, "forcing a name on it." He tells us to our face that "Tao" is a stopgap.
-- *道法自然* (Ch 25) — the Tao takes its law from nothing outside itself; it follows only its own *self-so*. Nothing stands above it to command it.
+- *道法自然* (Ch 25) — the Tao takes its law from nothing outside itself; it *models itself on being what it is*. Nothing stands above it to command it.
 - *象帝之先* (Ch 4) — it seems to come *before God* (帝, the high ancestor-deity). Not a creator — the condition prior to creators.
 - *反者道之動；弱者道之用* (Ch 40) — its *movement* is return; its *use* is yielding. Note the words: 動 (motion), 用 (function). 道 is described by what it *does*, not what it *is* — a verb wearing the mask of a noun.
 - *道生一* (Ch 42), *道生之* (Ch 51) — it gives birth, it gives life: the generative source.

@@ -79,7 +79,7 @@ Hence the rule: **the marks are ours; the music is the source's.** Lay the Engli
 - **天地** → **sky and earth** — always both nouns, never fused into one
 - **天下** → **the world** (locked at 48, 56, 57; literally *under-sky*, idiomatically the human realm)
 - **天 alone, as the impersonal ordering principle** — 天之道, 天道, 事天 → **nature / the natural**: "the way of nature," "serving nature"
-- **天 as a rung in the four-greats ladder** (25) → **sky**: *humans follow earth, earth follows sky, sky follows the Tao, the Tao follows its own self-so*
+- **天 as a rung in the four-greats ladder** (25) → **sky**: *humans follow earth, earth follows sky, sky follows the Tao, the Tao models itself on being what it is*
 
 **Why not "heaven."** The cadence "the beginning… heaven and earth" is Genesis 1:1 nearly verbatim — it installs a creator in the very chapter denying that the source can be named. And the word is not a neutral convention but a **missionary inheritance** (see Process guide §3, and the overlay audit).
 
@@ -274,7 +274,7 @@ The line's last content word is contested. Our base text reads **狀** (*zhuàng
 
 **Then the witnesses, all agreeing:** both Mawangdui silks read 然; the Song Heshang Gong edition reads 然; and the Siku Quanshu compilers wrote a collation note on this very line — 〔案狀各本俱作然〕, *"as for 狀, all editions read 然."* Our 狀 may be close to unique.
 
-**And the word is load-bearing elsewhere.** 然 is the second half of **自然** (*zìrán* — the self-so): 自 (*zì* — self) + 然 (*rán* — so). The character that closes these three questions is the one Laozi builds his term for *being as one is, of oneself* out of. So the question "how do I know it is **so**?" is asked in the vocabulary of self-so-ness, and answered 以此 — *by this, here, now*: by the thing in front of you, being what it is of its own accord. *(See `glossary/ziran-自然.md` for 然's history — it began as a picture of roasting and was borrowed for its sound, so it is grammar rather than image.)*
+**And the word is load-bearing elsewhere.** 然 is the second half of **自然** (*zìrán* — so of itself): 自 (*zì* — self) + 然 (*rán* — so). The character that closes these three questions is the one Laozi builds his term for *being as one is, of oneself* out of. So the question "how do I know it is **so**?" is asked in the vocabulary of self-so-ness, and answered 以此 — *by this, here, now*: by the thing in front of you, being what it is of its own accord. *(See `glossary/ziran-自然.md` for 然's history — it began as a picture of roasting and was borrowed for its sound, so it is grammar rather than image.)*
 
 **The base text is unchanged.** The Source table keeps 狀, and only the translation follows the older reading — the practice already established at Ch 41 (免成), Ch 42 (學父), Ch 47 (明) and Ch 53 (竽). `source/chinese.md` stays a faithful transcription of one recension rather than becoming a composite.
 
@@ -300,33 +300,66 @@ The seven characters 信不足焉，有不信焉 (*xìn bù zú yān, yǒu bù x
 
 ### Ch 25
 
-#### 域中有四大 → "Within the realm there are four vast things"
+*(revised 2026-08-20 — three decisions in one pass, each of which uncovered the next. The passage remains open pending Guodian; see the note at the foot.)*
 
-*(was: "Within this system of four vast things")*
+#### 天下母 → "the mother of the world"
 
-**域** (*yù*) is a **bounded stretch of ground** — 土 (*tǔ* — earth) beside 或, an enclosed area held under guard; it is the root of 區域 (*qūyù* — region) and 領域 (*lǐngyù* — domain). It occurs **exactly once in all 81 chapters**, here, so there is no consistency question — only what the word does in this line.
+*(was: "the mother of creation")*
 
-"System" was wrong in a specific way, not merely in register: **a system is a set of relations, where 域 is an extent of ground.** The line is spatial, and that spatiality is the point of what follows — 人法地，地法天，天法道 (humans follow earth, earth follows sky, sky follows the Tao). **A ladder needs somewhere to stand.** "System" turned a stack of places into a diagram.
+可以為天下母. **天下** (*tiān xià* — under-sky) is locked to **the world**, and the previous rendering deleted the locked term in favour of **creation** — a word `glossary/tiandi-天地.md` sets aside outright: *it implies a creator, and this cosmos was borne, not made.* In a chapter whose opening line is 先天地生 (*born before sky and earth*), installing a creation is the precise overlay the 天-family policy exists to prevent.
 
-Two smaller repairs in the same line. The Chinese has **no demonstrative** — 域中 is simply *within the bounds*, and "this system of four vast things" implied the four *constitute* the realm, where 域 is the container they sit inside. And 居其一 is given as "is one of them"; 居 (*jū*) is properly *to dwell, to occupy a position*, so "occupies one place among them" is closer, but it reads worse and loses little.
+Now consistent with Ch 52, which renders 以為天下母 as *"which serves as the mother of the world."*
 
-#### 王 → "the aligned human"
+**Worth recording as a checker gap, not just a fix.** `check_locks.py` keys off the Chinese to judge the English, so it fires when a *wrong* word is present. It cannot fire on a **locked word that is absent** — a rendering that simply deletes 天下 passes every rule silently. Same class of blind spot as the empty `## Translation` blocks found in Ch 20 and Ch 65: the tools cannot see what is not there. A candidate rule for `PLAN.md`.
 
-*(the deliberate removal of the throne, and of the gender)* ⟡ *research lead, to develop*
+#### 人 → "humans are also vast" / "one of them is human"
 
-Where the received text has 王 (*wáng* — king), we render **the aligned human**. This was chosen on the edition's own grounds — standing rule 2, *universality over the incidental male-default* — and it deserves stating plainly rather than passing unremarked, because a reader will want to see it was chosen.
+*(was: "the aligned human," in both lines. Supersedes the entry written when the throne was first removed.)*
 
-**The manuscript evidence independently supports it, and this was found only afterward.** Both Mawangdui silks read **人** (*rén* — human) in the list of four greats, and the older silk reads 人 in both places, with no king anywhere in the passage. So the rendering does not remove a king Laozi installed; it restores the reading the oldest witnesses carry. Full apparatus in the Manuscript Notes.
+**⚠ The manuscript grounds collapsed the same day this entry was written, and the reading survives on other grounds.** It is not true that the silks read 人. **Every excavated witness reads 王** (*wáng* — king) — Guodian (~300 BCE), both Mawangdui silks, the Beida Han slips. 人 is a *transmitted* reading: 傅奕 (Tang) for the first line, 范應元 (Song) for the second. We follow it because **the received text contradicts itself** — the next line is 人法地, "humans follow earth" — an internal argument Fan Yingyuan and 奚侗 both made long before the excavations, and one the excavations do not touch. Full apparatus, and the honest account of how the error entered, in the Manuscript Notes.
 
-**Three further supports, for the fuller treatment this deserves:**
+**This does not disturb the English.** 王 is not gendered in Chinese and `glossary/wang-王.md` renders it *ruler / sovereign* in all eight chapters, never *king*. Even reading 王 here, the line would not have produced a throne.
 
-- **The received text argues against itself.** Wang Bi's very next line is 人法地 — *humans* follow earth. A text that makes the king one of the four greats and humans the bottom rung in consecutive lines has a seam in it.
-- **王 is not grammatically gendered, and may not even be personal.** Classical Chinese marks no gender on the word; the maleness is cultural default, not lexical — exactly the collision standing rule 2 exists for. And the graph is read two ways: as an axe-head (the emblem of authority), or as three horizontal strokes — sky, human, earth — joined by one vertical: **the one who connects the three realms.** Under the second reading 王 names a *function*, not a person or a sex. The *Shuowen Jiezi* (~100 CE) glosses it 天下所歸往, "that to which the world turns."
-- **This edition already de-thrones 王 elsewhere.** Ch 16's ladder renders 公乃王 as *"Impartiality leads to sovereignty"* — an abstraction, not a monarch. Ch 25 is now consistent with that.
+**What changed: "aligned" is gone.** Nothing in the Chinese licenses it. 人 is simply *human*, and the qualifier was deciding **which** humans are among the four vast things — doing in miniature what the throne did in full. It was ours, not the text's, and it has been deleted.
 
-*Cost, on the record:* **"aligned" is supplied.** 人 is simply *human*; nothing in the line says *aligned*. It is doing the work of explaining why this human is 大 (*dà* — vast) — namely that they model earth, sky, and the Tao in the lines that follow. Defensible as a gloss made visible, but it is ours, not the text's.
+**Then the real difficulty surfaced, and it is not solvable by word choice.** Three of the four items are **definite singular uniques** — there is one Tao, one sky, one earth. The fourth is a **class term**. English "the human" tries to make it a unique too and lands in taxonomic register (*the human, the domestic cat*): a specimen, not us. "Humans are one of them" fails the other way, on number agreement.
 
-**To develop.** Shalom flags this as possibly worth a chapter of its own. The thread runs wider than Ch 25 — see the Reading Notes thread on reading past the throne, and `DISCOVERIES.md` §1 and §3.
+**The asymmetry is in the Chinese and cannot be dissolved, so it should not be disguised.** 人 is deliberately the odd item — the one category in the list that contains the reader.
+
+The solution is to change grammatical strategy between the two lines. The list line takes the natural English **plural** (*humans are also vast*); the count line makes 人 a **predicate** rather than a counted item (*one of them is human*), so nothing has to agree in number. It also puts **human** in final stressed position — the slot the received text gave the king, and the last word before the ladder begins.
+
+This also settles the passage internally: the ladder three lines down already reads *"Humans model themselves on the earth"* (人法地), which is the very line the received text contradicts. Nothing in the passage now argues with it.
+
+**Cost, on the record: 居 flattens to "is."** 居 (*jū*) is properly *to dwell, to occupy a position*. Both commentaries read it here as rank rather than residence — Wang Bi glosses 而王居其一焉 as 處人主之大也 (*"occupies* [處 *chǔ*] *the greatness of the lord of people"*), and Heshang Gong's edition carries the note 居一作處, *"居 is written 處 in one edition."* A verb of position, close to a copula. The loss is small and the gain in the line is large.
+
+**而 is kept as "and."** A draft dropped it for compression; Shalom restored it. It is in the Chinese — 而人居其一焉.
+
+**Correction to the earlier version of this entry**, which offered the three-strokes reading of 王 (sky, human, earth joined by one vertical) as a co-equal etymology. It is not one. That reading is **董仲舒** (*Dǒng Zhòngshū*, c. 179–104 BCE), roughly fourteen centuries younger than the graph, and it entered the dictionaries through the *Shuowen*. The graph is an axe. See `glossary/wang-王.md` and `DISCOVERIES.md` §4.
+
+#### 域中 → "Within all bounds"
+
+*(was: "Within the realm"; before that, "Within this system of four vast things")*
+
+**域** (*yù*) is a **bounded stretch of ground**. The older graph underneath it is 或 (*huò*) — a dagger-axe 戈 (*gē*) standing over a walled enclosure 囗 (*wéi*) on a line — and the *Shuowen Jiezi* reads it 或，邦也。从口从戈以守一。一，地也 (*"或 is a state; 囗 and 戈, guarding 一; 一 is the ground"*). 或 was then borrowed for its sound to mean *or*, and the territorial sense was rebuilt twice: **域** with soil under it, **國** (*guó*) with a wall around it. 域 occurs **exactly once in all 81 chapters**, here.
+
+That fact resolves the witness fork rather than deepening it. **Both silks read 國中有四大** where the base reads 域中. These are not two words but **one root with two classifiers**, which is why `sources/variants.yaml` logs the fork as non-meaning-bearing. Whichever is written, the word means *bounded territory*.
+
+**Why "realm" had to go, and it is our own besetting error.** A realm is **what a king rules**. Having taken 王 out of the line, the container word put the throne back one word to the left — in the English only, with nothing in the Chinese asking for it. That is `DISCOVERIES.md` §4's third installation, committed by us, in the same sentence from which we had just removed the fourth.
+
+**Why Laozi could not have used 天下 here, and why the choice looks deliberate.** 天下 means *under-sky*: it is defined by lying beneath 天. This sentence **counts 天 as one of the four vast things**, and it must also hold the Tao, which the same chapter calls 先天地生 (*born before sky and earth*). A container named *the part underneath the sky* excludes two of the four items by construction. And the proof it is deliberate stands three lines earlier in this very chapter — 可以為天下母. He has 天下 in hand, uses it for what the Tao mothers, then **switches** the moment he needs a container wide enough to hold the sky. Two container words, one chapter, doing two jobs. That is about as strong an argument for intent as this text ever offers.
+
+**The commentaries split here, and we follow Heshang Gong.** He reads 域 concretely — 八極之内有四大, *"within the eight extremities there are four vast things"*: a place, out to the horizon. **Wang Bi reads it as the un-nameable** — 無稱不可得而名曰域也…道天地王皆在乎無稱之内, *"what has no designation cannot be named; we call it 域. The Tao, sky, earth and the ruler are all inside the un-designated."*
+
+**We reject Wang Bi's reading, on this chapter's own last line.** His gloss puts a container **around** the Tao — something the Tao is merely one item within. That is the identical inversion this edition refuses in 道法自然 (*dào fǎ zìrán*), where "the Tao follows Nature" installs a higher thing. He is solving a puzzle the chapter does not pose, and paying for it with the cosmology. He is also visibly uncomfortable, which is itself the tell: 國 is a *state* word, and the oldest witnesses put the four vast things inside a walled political territory. The territorial frame is older than the throne — a separate finding, and a live one.
+
+**"Within the bounds of this world" — drafted and rejected the same day.** The demonstrative was reaching for something right: pointing is this book's own epistemic move, 以此 (*yǐ cǐ* — *by this*), the answer Chapters 21, 54 and 57 all give. But **"this world" in English carries a built-in opposite — the next one** (*not of this world*, John 18:36). 域 has an **edge, not an elsewhere**. And it collided: with 天下母 now correctly rendered *the world*, the word *world* would have done two different jobs eight words apart, erasing on the page the very distinction that justified the word choice. An earlier pass on this line had already recorded that 域中 carries **no demonstrative**.
+
+**Cost, on the record:** *all bounds* is slightly strange English, and it drops the **ground** that 土 puts under 域. Accepted for now, and the frame may reopen.
+
+#### Open — this passage is not settled
+
+`sources/variants.yaml` records **Mawangdui only** for Chapter 25, and `concordance.py --witnesses 25` flags it: Guodian (~300 BCE, bundle A) **carries this chapter and has never been checked at the four greats.** `DISCOVERIES.md` §1 rests on the claim that the oldest witnesses read 人. Until Guodian is recorded, that claim is supported by the silks alone, and 域/國, 王/人, and the whole container frame stay open.
+
 
 ### Ch 27
 
@@ -628,7 +661,7 @@ So the register is exposure, banishment, a person put outside where they cannot 
 **Why "child of the sky" is right, and the argument is internal.** In this book the sky is not the top of anything:
 
 > 人法地，地法天，**天法道**，道法自然 (25)
-> *the human follows earth, earth follows the sky, **the sky follows the Tao**, the Tao follows the self-so.*
+> *the human follows earth, earth follows the sky, **the sky follows the Tao**, the Tao models itself on being what it is.*
 
 And the Tao is 先天地生, *born before sky and earth*. **The sky is itself a child.** Ch 4 leaves the Tao's own parentage unknown and puts it before 帝; Ch 52 gives the world a mother. So within Laozi's own cosmology, 天子 is not a claim of divine descent — it is kinship with a junior member of the family, whose actual parent is the 母. **The title deflates on contact with Ch 25.** "Son of Heaven" prevents that; "a child of the sky" performs it. In a chapter whose whole argument is that this apparatus is worth less than sitting down, the smaller-sounding phrase is the more accurate one.
 
@@ -679,7 +712,7 @@ Ch 35 already renders 淡乎其無味 as *"It is bland and flavorless"* — and 
 Four bare characters — 大 (*dà* — great), 小 (*xiǎo* — small), 多 (*duō* — many), 少 (*shǎo* — few) — with no grammar between them. Three readings are genuinely available, and each classical commentator takes a different one:
 
 - **王弼 (Wang Bi):** binds them to the clause that follows. His comment on the joint lemma 大小多少報怨以徳 is entirely about resentment — 小怨則不足以報，大怨則天下之所欲誅，順天下之所同者，德也, *"a small resentment is not worth repaying; a great resentment is what the whole world wishes to punish; to go along with what the world holds in common — that is integrity."* So: **great or small, many or few [resentments]**, repay resentment with integrity.
-- **河上公 (Heshang Gong):** 欲大反小，欲多反少，自然之道也 — *"want the great, revert to the small; want the many, revert to the few — this is the way of the self-so."* So: shrink the large.
+- **河上公 (Heshang Gong):** 欲大反小，欲多反少，自然之道也 — *"want the great, revert to the small; want the many, revert to the few — this is the way of what is so of itself."* So: shrink the large.
 - **The common modern reading**, supported obliquely by Han Feizi's 敬細以遠大 (*"respect the minute in order to keep the great at a distance"*): magnify the small — *treat the small as great, the few as many*.
 
 **We follow Wang Bi**, on three grounds. He is the commentator on our own base text. His is the only reading under which the eight characters of the line form one thought rather than two unrelated ones — which matters now that Mawangdui A confirms 報怨以德 belongs here (see the Manuscript Notes). And the scale-doctrine the other two readings extract is already stated outright two lines down, in 圖難於其易，為大於其細 — the chapter does not need 大小多少 to say it a second time.
@@ -689,3 +722,600 @@ Four bare characters — 大 (*dà* — great), 小 (*xiǎo* — small), 多 (*d
 #### 細 → "slight", never "small"
 
 細 (*xì*) is 糸 (*mì* — silk thread) over 田 — **thread-fineness**, not size, and the distinction is the chapter's. Han Feizi's illustrations of 細 are all hairline things: a thousand-yard dike bursting through **an ant's hole** (螻蟻之穴), a hundred-foot house burning from **smoke in a crack** (突隙之煙), a disease caught at the 腠理 (*còu lǐ* — the pores of the skin). Those are not small. They are *thin*. 小 (*xiǎo*) keeps *small*; 細 takes **slight**. The two must not collapse into one English word, here or at Ch 67's 其細也夫.
+
+### Ch 64 · 始於足下 → "begins beneath your feet", never "with a single step"
+
+There is no step in the line. 足下 (*zú xià*) is 足 (*zú* — foot) under 下 (*xià* — below): **under the foot**, the ground you are standing on. The received English — *"a journey of a thousand miles begins with a single step"* — inserts a step, and with it a whole doctrine of effortful beginnings that the chapter does not hold.
+
+The commentaries settle it. 河上公 glosses the three proverbs in three matched phrases: 從小成大 (*"from small it becomes great"*), 從卑至高 (*"from low it reaches high"*), 從近至遠 (*"**from near** it reaches far"*). **Near**, not *few*. The axis is distance from where you stand, not a count of steps.
+
+**What "a single step" drops:** the chapter's argument. Every other image here is of a thing that is small and close and *not yet anything* — 未兆 (not yet cracked into a sign), 微 (faint), 毫末 (a hair's tip), 累土 (a heap of dirt). "A single step" converts that into motivation. "Beneath your feet" keeps it as location — *this, here, now*, which is the same epistemology as the 以此 formula in `DISCOVERIES.md` §2.
+
+### Ch 64 · 毫末 → "a hair's tip", never "a tiny sprout"
+
+毫 (*háo*) is the fine hair of an animal's winter coat; 末 (*mò*) is 木 (tree) with a stroke marking the **tip** of the branch. **The tip of a hair.** Our source-table gloss reads "a tiny sprout," which domesticates the image into botany to match the tree — and loses the scale, which is the point. Laozi is not saying a big tree starts as a small tree. He is saying it starts as something as fine as a hair.
+
+### Ch 64 · 未兆 → "gives no sign" — and a note on keeping research out of the verse
+
+兆 (*zhào*) is the **fissure in a heated oracle bone or turtle plastron** — the crack the diviner reads. That is a real finding and it settles the reading: 未兆 is not "before it shows signs" in some loose metaphorical sense but *before anything readable has appeared*, which is why the paired verb is 謀 (*móu* — to plan, to lay a scheme). Wang Bi ties the whole opening to it — 謀之無功之勢, *"you plan it while the situation has not yet yielded any result"* — and Heshang Gong glosses the state as 未有形兆, *"has not yet taken shape or sign."*
+
+**But the etymology stays in this file.** The line was first drafted as *"What has not yet cracked into a sign is easy to plan for"* and Shalom caught it as awkward, which it was, in two ways worth naming because the failure will recur:
+
+1. **The research was in the poem.** The oracle-bone crack explains why the reading is right; it is not what a listener heard. Laozi's audience heard *before there is any sign of it*. Run the pointing test on the English, not only on the Chinese.
+2. **The proportion was wrong.** The Chinese quatrain runs 4–5–4–4 characters — 其安易持 · 其未兆易謀 · 其脆易泮 · 其微易散. The draft ran 7–13–7–7 words. The Chinese lengthens that line by one character; the English nearly doubled it, and a stanza built on parallel shows the bulge immediately. **Count the characters before deciding an English line is finished.**
+
+**Settled: "What shows no sign is easy to plan for."** Eight words against the neighbours' seven, matching the slight stretch the Chinese itself allows. It keeps 兆's own noun.
+
+*The accepted loss:* 未 (*wèi*) is "not **yet**," and *shows no sign* drops the *yet*. The stanza recovers it two lines down, where 為之於未有 reads *"handle it while it is not yet there"* — so the temporal frame is stated once rather than twice. Alternates considered and set aside: *"What shows no sign yet"* (keeps 未 exactly, costs a beat on the trailing word) and *"What has not yet shown itself"* (closest to Heshang Gong's 未有形兆, but ten words, and the bulge returns).
+
+### Ch 64 · 復眾人之所過 → "brings the crowd back from where they have gone too far"
+
+過 (*guò*) carries both *pass by* and *go too far*, and English can hold both — going past **is** overshooting. The commentaries take the second, and they agree:
+
+- **王弼:** 不學而能者自然也，喻於不學者過也，故學不學以復衆人之過 — *"what one is capable of **without** learning is what is so of itself; being instructed away from the unlearned is the **overshooting**; so one learns the not-learning in order to bring back the crowd's overshooting."*
+- **河上公:** 衆人學問反過本為末，過實為華 — *"the crowd's learning turns the wrong way: they **overshoot** the root for the branch, overshoot the substance for the flower"* — and 復之者使反本也, *"to 復 them is to make them return to the root."*
+
+So 復 (*fù*) is **bring back**, not *recover*, and what is brought back is people, not lost knowledge. The common English *"restores what the multitude has passed over"* reads 過 as *passed by* and turns the sage into an archivist of neglected things.
+
+**Wang Bi's gloss is the chapter's hinge**, and worth stating plainly: he equates 不學 (*bù xué* — the unlearned) with 自然 (*zìrán* — so of itself). That makes the last line, 以輔萬物之自然，the thesis rather than the coda, and makes 學不學 the same move as 為無為 — get your hand off the thing that already works.
+
+### Ch 64 · 欲不欲 / 學不學 keep Ch 63's shape
+
+欲不欲 (*yù bù yù*) and 學不學 (*xué bù xué*) are grammatically identical to Ch 63's triple 為無為，事無事，味無味, rendered there *"Do the not-doing, serve the not-serving, taste the flavorless."* So here: **"wants the not-wanting"** — and, by an accepted departure, **"learns to unlearn."**
+
+*Why the second one breaks the pattern.* The parallel wants "learns the not-learning," and 不學 is strictly the capacity that **precedes** learning — Wang Bi's 不學而能者自然也, *"what one is capable of without learning is what is so of itself"* — where *unlearn* implies erasing something already acquired. Related, not identical. Shalom kept "learns to unlearn" for its compression, with the cost named: the four-line series loses one of its two matched hinges. Logged so the departure is visible rather than looking like drift.
+
+Heshang Gong reads both lines differently — 聖人欲人所不欲, *"the sage desires what people do not desire"* — a comparative rather than a reflexive. We keep the reflexive, on internal consistency: this construction is a signature of the book and it must not shift shape between adjacent chapters.
+
+### Ch 64 · 自然 → "being so of themselves", and 不敢為 → "never pushes them"
+
+Two closing decisions, both about resisting a smoother English.
+
+**以輔萬物之自然** was drafted as *"supports the countless things in being what they truly are."* That is lovely and it imports a metaphysics the Chinese does not have: *truly* implies a false self to be told apart from a real one. 自然 (*zìrán*) is **so-of-itself** — process, not essence, and nothing underneath it to be true to. Settled as **"in being so of themselves."**
+
+**而不敢為** was drafted as *"without forcing anything."* Two losses. First, 為 (*wéi*) is already rendered **handle** twelve lines above, in 為者敗之 — the same character cannot be two English words inside one chapter. Second, 敢 (*gǎn*) disappears altogether: the sage *could* and refuses to, which is restraint before what is so of itself rather than a description of manner. It also matters for this chapter specifically, whose logic is also the logic of preemption (see the Reading Notes on the shadow). 不敢為 is the constraint that keeps the chapter honest, and a prohibition must not soften into a style.
+
+**First settled as "and does not dare to do," then superseded on 2026-08-20 by the 敢 lock** — see `glossary/gan-敢.md` and the sweep note below. *Dare* reads as fear in modern English and Ch 73 makes 不敢 a form of courage. **Now "and never pushes them,"** which carries 敢為 as one verb rather than splitting it; the argument above stands unchanged, only the English moved.
+
+*A limit of the harness, recorded because it will recur:* **"force" cannot be forbidden for 為 mechanically.** Six chapters carry both 為 and 強 (*qiáng* — strong, to force), and Ch 25's *"Forcing a label upon it"* renders 強 legitimately. The checker's evidence gate cannot say *right for that character, wrong for this one, same chapter*. So this stays a judgment call, and the Ch 29 debt in `RETROFIT.md` has to be argued rather than swept.
+
+### Ch 66 · 處前而民不害 → "the people are not hindered" — and the reading we did not take
+
+害 (*hài*) is *harm*, and the line is genuinely double.
+
+**河上公 reads it as the people's intent:** 民親之若父母，無有欲害之心也 — *"the people are close to them as to father and mother, and have no heart wishing to harm them."* On that reading, 不害 describes what the people do **not want to do to the leader**.
+
+**We read it as the people's experience**, on the parallel. The couplet is built as 處**上**而民不**重** / 處**前**而民不**害** — position, then consequence, twice. Above produces weight; in front produces obstruction. Reading the second half as a shift from the people's burden to the people's intent breaks a parallel the Chinese builds carefully.
+
+And Heshang Gong supplies the obstruction reading himself, in the same breath: 不以光明蔽後 — *"does not use their brilliance to **eclipse** those behind."* 蔽 (*bì*) is to screen or cover over. That is the harm of standing in front, and 害 carries *hinder* within its range (cf. 妨害). **Settled as "the people are not hindered."** The alternative is real and is recorded here rather than dissolved.
+
+### Ch 66 · 爭 → "compete", carried forward — but the term is owed an entry now
+
+爭 (*zhēng*) is two hands, 爪 above and 又 below, pulling at one object between them: a tug of war. Rendered **"compete"** here to match the three drafted chapters that already use it — ch 3 (使民不爭), ch 8 (twice), and ch 22, which shares this chapter's closing formula 故天下莫能與之爭 verbatim and reads *"no one in the world can compete with them."*
+
+**But "compete" is not obviously right, and the decision is about to get expensive.** 爭 is elemental grabbing, not rule-governed rivalry; modern English "compete" carries sport and markets. *Contend* is closer to the two hands. Three undrafted chapters are queued on this word — **68** (不爭之德, "the integrity of not-爭"), **73** (不爭而善勝), and **81** (為而不爭) — and 68's line in particular reads very differently as *the integrity of not contending*.
+
+**Recommendation: settle 爭 with a glossary entry before drafting 68.** Deciding it now costs one entry; deciding it after 68, 73 and 81 costs a four-chapter retrofit on a term that appears in seven.
+
+### Ch 65 · 明 → "clever" — a licensed departure from the lock, on Wang Bi's authority
+
+明 (*míng*) is locked to **clear-seeing / clarity**, never "enlightenment" or "brilliance." **Ch 65 departs from it**, rendering 非以明民 as *"did not use it to make the people clever."* The departure is deliberate and is the only one in the book.
+
+**Wang Bi defines the word himself, in this chapter, and defines it against the lock:**
+
+> 明謂多見巧詐，蔽其樸也 — *"明 here means seeing much and artful deceit, screening over their uncarved."*
+> 愚謂無知守真，順自然也 — *"愚 here means without cunning, holding fast to the true, following what is so of itself."*
+
+That is not the 明 of Ch 33 (自知者明 — *"to know oneself is clear-seeing"*) or Ch 52. Here 明 is transitive and causative — 明民, *to make the people 明* — and what it produces, on Wang Bi's reading, is **巧詐** (*qiǎo zhà* — artifice and deceit). Heshang Gong reads it identically: 不以道教民明知巧詐也, *"does not use the Tao to teach the people bright-knowing and artful deceit."*
+
+**So the lock is not broken; the character is being used in a second sense, and both classical commentators say so in as many words.** Rendering "clear-seeing" here would produce the opposite of the chapter: it would have the ancients withholding clarity from the people, which is precisely the authoritarian misreading this chapter has suffered for a century.
+
+*This is the case `CLAUDE.md` anticipates — "departures require a logged reason." The reason is above.*
+
+### Ch 65 · 愚 → "guileless", not "ignorant"
+
+愚 (*yú*) is the word that makes this chapter look like a programme for keeping subjects stupid. It is not, and the evidence is internal.
+
+**The sage claims 愚 for themselves.** Ch 20, already drafted, renders 我愚人之心也哉 as *"I have the heart of a fool!"* — a boast, in a passage where the speaker is proud to be the dull one among the bright. The ruler in Ch 65 is not lowering the people beneath themselves. They are bringing everyone to where the sage already stands. That is levelling, not subjugation, and it collapses the standard reading.
+
+**And both commentators gloss 愚 with this edition's own locked terms.** Wang Bi: 無知守真，**順自然**也 — following what is **so of itself**. Heshang Gong: 使**朴質**不詐偽 — making them **plain and uncarved**, not deceitful. 愚 is the uncarved state, not a deprivation.
+
+**"Guileless" over "simple" or "ignorant".** *Simple* is ambiguous in English and slides toward *simple-minded*; *ignorant* imports exactly the deprivation the Chinese does not have. *Guileless* says what both commentaries say — **without 巧詐, artifice** — and is unambiguously a virtue. The cost: it loses the verbal link to Ch 20's *fool*, which the Reading Notes carry instead.
+
+### Ch 65 · 福 → "good fortune", never "blessing"
+
+福 (*fú*) sits on the overlay watchlist, and the literal gloss in this chapter's own Source table says **"a blessing to the state."** *Blessing* imports a blesser — an agent who confers favor — and there is none here. 國之福 is the state's **good fortune**, the plain counterpart of 國之賊, *the state's thief*. Rendered as the pair the Chinese builds: *robs the state* / *is the state's good fortune*.
+
+### Ch 65 · 與物反矣 → "turns back together with things" — 反 holds both senses, and the book already chose
+
+反 (*fǎn*) is 厂 (a slope) with 又 (a hand) — a hand turning something over, or a climb back across a ridge. From that one gesture come **reverse**, **oppose**, and **return**. The two commentators take different halves:
+
+- **王弼:** 反其真也 — *"it returns to **their** true."* 反 as *return*.
+- **河上公:** 玄德之人與萬物反異，萬物欲益己，玄德施與人也 — *"runs **counter** to the countless things: they wish to benefit themselves; profound integrity gives to others."* 反 as *contrary*.
+
+**The line was first drafted on Heshang Gong's reading** — *"It runs contrary to things"* — argued from the 反/順 hinge, since 順 (going with the current) is 反's natural opposite and the paradox needs the opposition. **That was wrong, and for a reason worth recording: the argument never checked what 反 already means elsewhere in our own translation.**
+
+- **Ch 25:** 遠曰**反** → *"going far means **returning**."*
+- **Ch 40:** **反**者道之動 → *"**Returning** is the Tao's movement."*
+
+**And Ch 65 puts 反 immediately after 遠, which is Ch 25's exact sequence.** 深矣，遠矣，與物反矣 traces the same arc as 大曰逝，逝曰遠，遠曰反 — deep, far, and then the turn. The chapter is not making a new claim about opposition; it is saying that profound integrity moves the way the Tao moves.
+
+**The grammar settles it too.** 與 (*yǔ*) marks accompaniment — *together with*. Laozi did not write 逆物 (*against things*) or 反於物 (*opposed to things*), but 與物反: *with things, turned back*. Under the contrary reading, 與 is left doing nothing.
+
+**Settled as "and turns back together with things."** *Turns back* carries both senses in ordinary English — you turn back toward home, and you turn back an advance — so the paradox survives intact without the book contradicting itself. **The paradox is inside the character**, and it is a physical fact rather than a mystical one: turning around and going against are the same act, seen from two positions. To anyone still walking forward, the one who has turned for home is coming straight at them.
+
+### Ch 65 · 大順 → "runs with the great current", never "the great accord"
+
+順 (*shùn*) is 川 (*chuān* — a river, three strokes of running water) over 頁 (*yè* — a head, the radical in 頭, 顏, 頸). **A head facing downstream.** Not agreement — *orientation*. Its opposite is 逆 (*nì*), an inverted person plus the movement radical: going upstream.
+
+Drafted first as **"the great accord"** and caught by Shalom as vague. It was, in three ways: Latinate and abstract where 順 is a picture; *bilateral* (accord is mutual agreement) where 順 is unilateral and directional; and it flattened the chapter's close into conflict resolution — *runs contrary… then reaches agreement* — when the claim is that you turn from what things grab for and the current takes you.
+
+**How the error happened, since the mechanism will recur:** *harmony* was unavailable — it belongs to 和 (*hé*) at ch 18, 42 and 55 — so the draft reached for the nearest synonym instead of going back to the character. A thesaurus standing in for a radical.
+
+**Two facts raise the stakes.** 順 appears **exactly once in the whole book**, this line; 逆 never appears at all. It is a hapax at a chapter's final word, so it gets one shot and no consistency constraint. Rendered **"and only then runs with the great current"** — one verb, two prepositions, so the English performs the reversal the Chinese performs. *Current* keeps the water without taking 流's *flow* at Ch 61's 下流.
+
+### Ch 65 · 智 → "guile", and why not "clever" or "cunning"
+
+**The draft collapsed two characters into one word.** 明民 read *"make the people clever"* and 以其智多 read *"they are too clever"* — 明 (*míng*) and 智 (*zhì*), four lines apart, both *clever*. The same fault as 眾人/俗人 in Ch 20, and the checker cannot see it for the same reason.
+
+**"Cunning" was the obvious repair and is already spoken for three times over:** ch 3 uses it for **知** (無知無欲) *and* for **智** (使夫智者) in adjacent lines, ch 57 for **巧** (人多伎巧), and ch 58 once more. A fourth character would make it useless.
+
+**愚 and 智 are this chapter's own antonym pair** — 將以**愚**之 against 以其**智**多 — and 愚 is already rendered *guileless*. So 智 takes **guile**, and the English pair mirrors the Chinese pair exactly, in the same proportion: 愚 once and 智 three times, *guileless* once and *guile* three times.
+
+**It is also what the commentators say.** 王弼: 多**智巧詐** — *"much 智, artful deceit."* 河上公: 以其**智**多，故為**巧偽** — *"because their 智 is much, they practise artifice and falsity."* Neither reads 智 here as innocent intelligence.
+
+*The cost, stated:* 智 is a Confucian **virtue** — one of 仁義禮智 (humaneness, duty, ritual, wisdom) — so a neutral English word keeps Laozi's polemic sharp, attacking a thing everyone admires. *Guile* pre-loads the verdict. **We accept that here and not elsewhere:** the polemic lives in Ch 19's 絕聖棄智, which keeps *cleverness*. In Ch 65 both commentators say 智 has already curdled into artifice. A licensed split by chapter, like 無事.
+
+### 王 → "ruler / sovereign / to rule", never "king" — swept 2026-08-19
+
+The full argument is in `glossary/wang-王.md` and `DISCOVERIES.md` §4. The rendering decisions, chapter by chapter:
+
+| Chapter | Chinese | was | now |
+|---|---|---|---|
+| 16 | 公乃王，王乃天 | sovereignty | **unchanged** — already ungendered |
+| 25 | 王亦大 *(silks: 人)* | the aligned human | **unchanged** — already follows the witnesses |
+| 32, 37 | 侯王 | rulers | **unchanged** |
+| 39 | 侯王 ×3 | **wise** rulers | **rulers** |
+| 42 | 王公 | **kings** and lords | **rulers and lords** |
+| 66 | 百谷王 ×2 | **king** of the hundred valleys | **rule** the hundred valleys |
+
+**The principle: 王 carries no gender and English *king* cannot shed one.** Chinese nouns have no grammatical gender and the graph is an axe-head, not a person. So *king* does not translate a gender; it adds one — and seats it on a throne in eight chapters that define authority by lowness.
+
+**Ch 66 takes the verb.** 王 works verbally in classical Chinese (*wàng* — to reign over), and 能為百谷王 accepts it: *rivers and seas can **rule** the hundred valleys.* The verb keeps the power and seats nobody. Shalom's line.
+
+**Ch 39's "wise" was ours.** 侯王 is a flat class term for the ruling stratum. Rendering it *wise rulers* three times handed the office a compliment the Chinese withholds — in the chapter whose own line is 是以侯王自謂孤、寡、不穀, *"this is why rulers call themselves orphaned, meagre, unworthy."* Deleted. Recorded rather than quietly fixed, because it is the clearest instance in this repository of the translator's politics leaking into the verse, and it was found only because three older overlays were being chased.
+
+**Ch 42 keeps 公's word.** 王公 is 王 + 公, and 公 is locked to *lord / minister*, so the compound reads *rulers and lords*.
+
+**Left open, and proposed rather than applied: Ch 25's "the aligned human."** Both silks read 人 (*rén* — human) where the received text reads 王, and our verse follows them — correctly. But it renders bare 人 as *the aligned human*, and nothing in the Chinese licenses *aligned*. The qualifier does in miniature what the throne did in full: it decides which humans are among the four great things. `DISCOVERIES.md` §1 rests on the line reading simply **the human**. Recommended deletion; a different character from 王 and Shalom's own word, so it waits on him.
+
+### Ch 66 · 百谷王 → "rule the hundred valleys"
+
+Two further reasons beyond the gender, both about this chapter specifically.
+
+**The referent is water.** 百谷王 is said of rivers and seas. There is no monarch in the sentence to be male or female, so standing rule 2's *note the seam* does not apply — there is no seam in the Chinese to note, only one we would be making.
+
+**And the chapter is arguing against the throne's own metaphor.** 以其善下之 — the sea rules the valleys *because it is masterful at staying below them*. Every English monarch-word encodes elevation, which is precisely the spatial claim being inverted. 河上公 keeps the water in view: 江海以卑故眾流歸之 — *"rivers and seas, being low, so the many streams come home to them."*
+
+### Ch 67 · 慈 → "tenderness", never "compassion" or "mercy"
+
+**慈 (*cí*) is a parent's love for a child, and the direction is the whole word.** It lives in the pair 孝慈 (*xiào cí*), which this book uses twice — Ch 18's 六親不和，有孝慈 and Ch 19's 絕仁棄義，民復孝慈. The two halves run opposite ways: 孝 is the child's devotion **upward** to the parent, 慈 is the parent's love **downward** to the child. 慈母 (*cí mǔ*) is the ordinary Chinese phrase for a loving mother.
+
+河上公 glosses the first treasure with no abstraction at all: 一曰慈 → **愛百姓若赤子**, *"loving the hundred surnames as if they were **newborn infants**."* 赤子 is a just-born child.
+
+**Why "compassion" fails.** *Com-passion* is suffering-with: a response to another's pain, horizontal, offered to anyone. 慈 is not a response to anything. It is the standing disposition of a parent toward a child, present whether or not the child suffers, and pointed at one's own. The received word also fails the hymn test on contact — *"the sage is full of compassion"* is a sermon — and it carries Buddhist freight (慈悲, *cíbēi*, is the standard Buddhist compound) that postdates this text.
+
+**Why "mercy" is worse.** Mercy is punishment withheld. It requires a judge, a sentence, and a power to inflict it. Nothing in 慈 has any of that.
+
+**Why not simply "love".** English *love* covers eros, liking, charity and God, and carries none of 慈's direction. It is not wrong, and it is the alternate if *tenderness* proves too soft.
+
+**Why "tenderness", including the objection to it.** It is bodily rather than moral — you can point at someone handling an infant tenderly, and you cannot point at compassion. It is not a virtue-word in English, so the naturalistic razor leaves it intact.
+
+The objection is that it sounds passive, in a chapter that claims this treasure **wins wars**. That softness is the point and should not be engineered away. **The chapter's rhetorical structure is: here is the softest thing there is, and it is the most powerful** — so an English word that already sounds strong pre-resolves the paradox the Chinese builds. Ch 78's 柔弱勝剛強 is the same move.
+
+**And the mechanism is not sentimental.** Both commentators explain how tenderness wins, and neither appeals to providence. 王弼: 相慜而不避於難，故勝也 — *"they feel for one another and do not shirk danger, therefore they win."* 河上公: 百姓親附，并心一意 — *"the people draw close and attach, joining hearts into one intent."* Unit cohesion. People who love each other do not run.
+
+*Consequence, and it is owed:* Ch 18 currently renders 孝慈 as **"filial piety"** alone — 慈 is dropped outright — and Ch 19 renders it *"filial piety and love."* Logged in `RETROFIT.md`.
+
+### Ch 67 · 儉 → "frugality", and 且 → "grab at"
+
+**儉 (*jiǎn*)** appears only in this chapter, and it is economic rather than ascetic. 王弼: 節儉愛費，天下不匱 — *"sparing, and careful of expenditure, so the world does not run short."* 河上公 makes it fiscal: 賦儉若取之於己也 — *"taxing sparingly, as if taking from one's own."* Hence **frugality**, and the paradox stands as the Chinese has it: 儉故能廣, *spend little and your reach is wide.*
+
+**且 (*qiě*)** in 今捨慈且勇 is usually read as a bland conjunction, *and*. 王弼 says otherwise, in three characters: 且猶取也 — ***"且 is like 取 (to grab, to take)."*** So the line is not "abandon tenderness and be brave" but **"abandon tenderness and grab at courage."** The grabbing is what makes the triple an indictment rather than a description, and it is why the verdict is 死矣, *that is death*.
+
+### Ch 67 · 成器長 → "chief of the vessels"
+
+器 is locked to **vessel / tool / implement**, and Ch 28 supplies the reading: 樸散則為器 — *"when the uncarved is scattered it becomes vessels."* Vessels are the specialised things, each carved into one use. So 成器長 says the one who refuses to go first becomes what all the specialised things answer to, **because they were never carved into a use of their own.** 王弼: 唯後外其身，為物所歸 — *"only by putting themselves behind and outside do they become what things return to."*
+
+Left visible rather than smoothed: 河上公 reads 成器長 as 得道人 — the chief of those who have attained the Tao, so a leader of people rather than of implements. And **Han Feizi's text reads 事 (affairs) for 器**, which is the older witness. See the Manuscript Notes.
+
+### Ch 67 · 守 → "defend" — a licensed flexion
+
+守 (*shǒu*) is locked to **hold fast to**, paired against 抱 (embrace). In 以守則固 it is plainly military — to hold a position under siege, against 戰 (*zhàn* — to give battle) in the same line. 河上公 writes it out: 以守衛則堅固, *"used in defending the walls, it is solid."* Rendered **"defend with it and you hold firm"**, which keeps *hold* audible without pretending the lock's sense is the one operating.
+
+### Ch 67 · 天將救之 — the strain case, kept open
+
+Already flagged in this file as one of the readings that will not settle: **天將救之，以慈衛之 reads agentive.** 天 is locked to *nature / the natural* and never *Heaven*, but this line has nature **doing** something — rescuing, and then guarding.
+
+河上公 does not soften it either: 天將救助善人，必與慈仁之性 — *"when nature is about to help a good person, it necessarily **gives** them a nature of loving-kindness."* On his reading nature hands over the tenderness, which then does the guarding.
+
+**Rendered "When nature would rescue someone, it guards them with tenderness."** *Would rescue* keeps the conditional 將 and stops short of a promise; *rescue* rather than *save* follows the decision already logged at Ch 27 and Ch 52 — 救 has no soteriology in it. The agency stays where the Chinese puts it, and the strain stays named.
+
+### Ch 67 · 似不肖 → "look like nothing", and 細 → "petty"
+
+**The chapter opens on Laozi, not on the Tao** — see the Manuscript Notes, where the base text's 道 is set aside on six converging arguments.
+
+**似不肖 carries a pun and English can hold it.** 肖 (*xiào*) is *to resemble*; 不肖 (*bù xiào*) is both **not resembling anything** and, as a fixed humility term, **a nobody**. 王弼 takes the first — 肖則失其所以為大矣, *"if it resembled, it would lose what makes it great"* — and 河上公 takes the second, glossing the whole line as 佯愚, *feigning foolishness*. Rendered **"look like nothing"**, which in English means both *resembles nothing* and *appears to be no one*, and which lets the next two lines run as a chain: *look like nothing · look like nothing · looked like something*.
+
+**細 → "petty" here, "slight" at Ch 63 — a licensed flexion.** The Ch 63 decision established that 細 (*xì*) is thread-fineness and must never collapse into 小 (*xiǎo* — small). *Petty* keeps that distinction and fits the subject, which on the settled reading is a **person**: 河上公 glosses 其細 as 唯如小人也，非長者 — *"just like a petty man, not an elder."* *Slight* is right for a task at Ch 63 and wrong for a man here.
+
+**The line, settled:**
+
+> Everyone says I am vast, and look like nothing.
+> Only because I am vast do I look like nothing.
+> If I looked like something, I would long ago have become petty.
+
+### 敢 → "push / venture", never "dare" — swept 2026-08-20
+
+Full argument in `glossary/gan-敢.md`. The short of it: **"not daring" reads as fear in modern English, and the book says the reverse.** Chapter 73 — 勇於敢則殺，勇於**不敢**則活, *"courage in 敢 kills; courage in **not**-敢 lives"* — makes 不敢 a form of courage, which *not daring* cannot carry.
+
+敢 is a hand with a hunting weapon going after a boar; the *Shuowen* has 進取也, *"to advance and take."* **Appetite, not bravery.** And 不敢 is a politeness formula in classical Chinese — 不敢高攀, *"I could not presume upon your attention"* — the language of declining to help yourself, not of being afraid.
+
+| Chapter | Chinese | was | now |
+|---|---|---|---|
+| 30 | 不敢以取強 | doesn't **dare** to seize dominance | never **pushes on** to seize dominance |
+| 64 | 而不敢為 | and never **dares** to handle them | and never **pushes** them |
+| 67 | 不敢為天下先 ×2 | not **daring** to be first in the world | never **pushing** to be first in the world |
+
+**Ch 64 renders 不敢為 as a unit.** *"And never pushes them"* carries 敢為 in one English verb, because *push to handle* will not stand. The chapter's contrast is sharper for it: 輔 (*fǔ*) is the spare timber lashed alongside a cart-wheel to brace it, and a brace holds from the side where a push moves from behind. **Support them; do not push them.**
+
+**On sharing "push" with 推.** Ch 66's 天下樂推 reads *"the world gladly pushes them forward"*, so one English word now covers 推 (*tuī*) and 敢 in adjacent chapters. Accepted deliberately, and it is not the 眾人/俗人 fault: those two collapsed **inside one chapter** and hid a distinction that chapter was drawing. These two sit in neighbouring chapters doing **complementary** work — the same physical act with opposite agents. *They never push themselves forward; the world pushes them forward.* That is what Chapters 66 and 67 jointly argue, and the shared verb states it.
+
+### Ch 73 · 敢 stays "pushing" even where the grammar would allow "pursuit"
+
+`glossary/gan-敢.md` left one question open: Ch 73 holds the book's **only affirmative 敢**, nominalised after 於 in 勇於敢則殺, so the slot wants a noun and *pursuit* — the word closest to the character's boar-hunting picture — becomes grammatically available for the first time.
+
+**Settled as "pushing", on 河上公's gloss.** He reads 敢 here as 有為 (*yǒu wéi* — having-doing, acting): 勇敢**有為**即殺身也, *"brave-daring and **acting** is killing yourself,"* and 勇於不敢**有為**則活其身, *"brave in not-daring-to-act keeps the body alive."* And on 天之所惡 he is blunter still — 惡**有為**也, *"what it hates is **acting**."*
+
+So 敢 in this chapter is not chasing a quarry. It is **pressing forward to act at all**, which is the same forward press rendered *push* at Chapters 30, 64 and 67. *Pursuit* would import a target the chapter does not have, and would split the term across the one chapter that defines it.
+
+**The line reads:** *"Brave in pushing, and you are killed. Brave in not pushing, and you live."* 勇 (*yǒng* — courage) sits on both sides, which is the point: this is not courage against cowardice but two directions of courage.
+
+### Ch 73 · 繟然 → "unhurried", and the net that is not a watcher
+
+**繟然 (*chǎn rán*)** is glossed by 河上公 in two characters — 繟，寬也, *"繟 means wide, loose."* Wang Bi fills in the behaviour: 安而不忘危，未召而謀之 — *"at ease and not forgetting danger; plans before being summoned."* Rendered **"unhurried"**: it keeps the ease and avoids *slack*, which is a fault in English. The looseness echoes 疏 (*shū* — wide-meshed) two lines later, and a reader who hears that is hearing the chapter's shape.
+
+**天網恢恢，疏而不失 must not become surveillance.** 河上公 reads it morally — 司察人善惡，無有所失, *"it watches over human good and evil, and nothing is lost"* — and that reading is the seed of every later use of 天網恢恢 as a slogan about divine justice catching criminals.
+
+**We decline it.** There is no watcher in the Chinese, only a net; 失 (*shī*) is *to lose*, not *to convict*. Rendered **"Nature's net is vast. Its mesh is wide, and nothing slips through."** That is a statement about how consequence works — loosely, at a distance, without haste, and completely — not about anyone keeping a ledger. The naturalistic razor applies here as much as to 天 itself, and the moral reading is exactly the overlay this edition strips.
+
+**天之所惡 stays agentive, and is flagged.** *What nature hates* has nature doing something, as 天將救之 does at Ch 67. Both commentators read it that way and neither softens it. Kept, and named here rather than dissolved — the same strain case, now in a second chapter.
+
+### Ch 73 · 天之道 → "the way of nature"
+
+Established at Ch 9 (*"This is the way of nature"*) and Ch 47, and not a breach of the 道 lock: the lock forbids **the Way** as a rendering of 道 standing alone, where it carries *Logos*. 天之道 is a possessive — nature's way of going about things — and lowercase *way* inside it is ordinary English. Chapters 77, 79 and 81 all carry 天之道 or 天道 and should follow.
+
+### Ch 73 · 惡 → "turns against", and 難 → "finds this hard"
+
+**惡 (*wù*) is to loathe, not to dislike.** The first draft read *"what nature hates"*; the revision tried *dislikes*, which weakens a word this chapter makes lethal — a nature that merely dislikes pressing forward does not get people killed for it. But *hates* gives nature a feeling, which is the agentive strain already flagged at Ch 67's 天將救之.
+
+**Settled as "what nature turns against."** It keeps 惡's full aversive force and makes it an orientation rather than an emotion, which is the naturalistic razor applied to a verb rather than a noun.
+
+**難 (*nán*) is difficult, not unknown.** 是以聖人猶難之 was drafted as *"Even the sage doesn't know"* — a natural reading of the English sequence, since the line follows 孰知其故？ (*"who knows the reason?"*). Both commentators refuse it, and Wang Bi refuses it in four characters:
+
+> 言誰能知天下之所惡意故耶？**其唯聖人。**夫聖人之明，猶難**於勇敢**，況無聖人之明而欲行之也
+> *"Who can know the reason for what is hated? **Only the sage.** And the sage's own clarity still finds it difficult **with respect to daring** — how much more someone lacking that clarity who means to act anyway."*
+
+其唯聖人 says the sage **does** know. And both gloss 難 as 難**於勇敢** — difficult *with respect to pressing forward*. The sage's difficulty is about **acting**, not about **knowing**.
+
+**Settled as "Even the sage finds this hard."** The true reading is the harder one: not that everyone is equally in the dark, which would be a comfort, but that the person best equipped to judge when to press forward is the one most reluctant to.
+
+### Ch 68 · 不與 → "does not engage them" — Wang Bi glosses it with 爭
+
+不與 (*bù yǔ*) is two characters and no verb: *does not [go] with.* 與 (*yǔ*) is the accompaniment marker already met at Ch 65's 與物反 (*turns back together with things*) and at Ch 22 and 66's 莫能與之爭 (*no one can contend **with** them*).
+
+**王弼 supplies the missing verb in three characters:** 不與**爭**也 — *"does not contend with them."* So 不與 is the same refusal as 不爭, stated by dropping the verb rather than negating it. Rendered **"does not engage them"** — a military idiom in English, which is the register the whole chapter is in, and which keeps *contend* free for the 不爭之德 three lines later where 爭 actually appears.
+
+河上公 reads the mechanism rather than the word: 不與敵爭而敵**自**服也 — *"does not contend with the enemy, and the enemy submits **of itself**."* 自 (*zì* — self) again, doing the work 自然 does everywhere else in this book.
+
+### Ch 68 · 士 → "warrior", and the term is rendered three ways across the book
+
+**王弼 defines it in this chapter:** 士，卒之帥也 — *"士 is the commander of troops."* So in Ch 68 the word is unambiguously military, and the paradox is built on it: *one masterful as a **warrior** is not **martial**.*
+
+**But 士 is doing different work elsewhere and our English shows it:**
+
+| Chapter | Chinese | rendered |
+|---|---|---|
+| 15 | 古之善為**士**者 | "The ancient **masters**" |
+| 41 | 上**士** · 中**士** · 下**士** | *(undrafted)* |
+| 68 | 善為**士**者 | "One masterful as a **warrior**" |
+
+Ch 15 and Ch 68 open on the **identical construction** — 善為士者, *"one masterful at being a 士"* — and take different English. Some spread is legitimate: 士 named the warrior-retainer class of the Zhou and drifted toward the scholar-official, and Ch 41's 上士/中士/下士 hearing the Tao are men of rank rather than soldiers. But Ch 15 also collapses 善為 entirely, and *masters* sits close to a word `CLAUDE.md` forbids for 聖人. Logged in `RETROFIT.md`.
+
+### Ch 68 · 配天 → "matched with nature", and 極 is a ridgepole
+
+**配 (*pèi*)** is the character of pairing — it is the word in 配偶 (*pèi ǒu* — a spouse). Not *accords with*, not *corresponds to*: **matched with**, as one of a pair. 河上公: 能行此者，德**配**天地 — *"one who can do this, their integrity is matched with sky and earth."*
+
+**極 (*jí*)** is the **ridgepole** — the highest beam of a house — and from there the utmost, the pole, the limit. 古之極 is not "the ancient principle" but *the furthest the ancients got*. 河上公: 是乃古之極要道也.
+
+Rendered **"being matched with nature, the utmost the ancients reached."**
+
+### Ch 68 · the fourth clause breaks the pattern, and should
+
+Three clauses negate — 不武, 不怒, 不與 — and the fourth does not: 善用人者，**為之下**, *"one masterful at using people **puts themselves below** them."* Three refusals, then one positive act, and the positive one is the one the chapter names twice more in its closing triple.
+
+王弼 says why it has to be an act rather than an abstention: 用人而不為之下，則力不為用也 — *"use people and fail to put yourself below them, and their strength will not be usable."* The lowness is not modesty. It is the mechanism.
+
+### Ch 69 · 吾寶 is Ch 67's 三寶, and Wang Bi says so
+
+The line is 輕敵幾**喪吾寶** (*qīng dí jī sàng wú bǎo* — "making light of the enemy comes close to losing my treasures"). **王弼 glosses it in four characters: 寳，三寳也** — *"寶 means the three treasures"* — and closes 故曰幾亡吾寶.
+
+Two chapters back, Ch 67: 我有**三寶**，持而保之 — *"I have three treasures. I hold them and keep them safe."* 慈 (*cí* — tenderness), 儉 (*jiǎn* — frugality), 不敢為天下先 (*bù gǎn wéi tiān xià xiān* — never pushing to be first in the world).
+
+**So Ch 69 is Ch 67's treasures worked out on a battlefield, and the chapter's two ends are its first and third treasures.** The opening 吾不敢**為主** (*"I do not push to move first"*) is 不敢**為天下先** in military dress — the third treasure, the refusal to go first. The closing 哀者勝矣 (*"the one who grieves wins"*) is the first, 慈, in its hardest case. 河上公 makes the same connection from the other end: 哀者，**慈**仁 — *"the one who grieves is tender and humane."*
+
+**河上公 reads 寶 as 身 instead** — 寶身也，欺輕敵者近喪身也, *"寶 means the body; one who makes light of the enemy comes near to losing his life."* That is the prudential reading and it is flatter. We follow Wang Bi, on the strength of the verbal echo: 吾寶 two chapters after 我有三寶 is not an accident.
+
+**Rendered "my treasures", plural and undefined**, so a reader who has come through Ch 67 hears it and a reader who has not is not told something Laozi does not say here.
+
+**喪 is *lose*, not *destroy*** — the mourning word, and 王弼 glosses the line with 亡 (*wáng* — to lose, to perish). *Destroy* would make it something an enemy does to you from outside; the chapter says the opposite, that contempt is how you let go of your own tenderness. Rendered **"nearly costs me my treasures"**, which keeps 輕敵 as the agent, as the Chinese grammar has it, without the wrecking.
+
+### Ch 69 · 主 / 客 — the image is jargon, and jargon has to be translated
+
+不敢**為主**，而**為客**. The characters are lovely: 主 (*zhǔ*) is a **lamp with its flame standing on it** — whoever keeps the fire, so whoever's house it is. 客 (*kè*) is 宀 (a roof) over 各 (a foot arriving at a threshold) — whoever comes under someone else's roof.
+
+**Drafted first as "I do not push to be the host. I come as the guest," and changed on Shalom's objection: he could not tell what the saying meant, and neither could any reader who had not been told.** The objection is correct, and the reason is that **主/客 was a term of art**, not an image. Warring States military writing used the pair the way English uses *offense* and *defense*. A reader in 400 BCE heard technical vocabulary; a modern English reader hears a dinner party. **Jargon rendered as image is a mistranslation, not fidelity** — the same argument that sends 天 to *nature* rather than *Heaven*.
+
+The reason first given for keeping the image also fails. It was said to preserve the link to Ch 34's 衣養萬物**而不為主**, the identical construction — but Ch 34's English already reads *master* and *owner*, not *host*. The link was broken at the far end before this chapter was drafted.
+
+**河上公 supplies the sense outright:** 主先也，不敢先舉兵 — *"主 means **first**; he does not push to be the first to raise troops"* — and 客者和而不倡 — *"the 客 harmonises and does not **initiate**."*
+
+Drafted next as *"I do not push to move first. I answer the one who does,"* **and objected to again on the same ground**: the reader has to carry *moves first* across the sentence boundary and supply it, and *answer* is a literary word doing the work of *respond*. Two demands on one short line.
+
+Rendered **"I do not push to move first. I move second."** 河上公's sense, with nothing left to infer — 客 is the second party by definition. *First* is deliberate: it puts the line in the same words as Ch 67's third treasure, 不敢為天下先, *"never pushing to be first in the world."* The lamp and the threshold live in this note.
+
+### Ch 69 · 進寸 / 退尺 — an inch of whose ground?
+
+不敢**進寸**，而**退尺**. Read bare, this is *"advance not an inch, retreat a foot"* — and it sounds like flinching, which is precisely the charge `glossary/gan-敢.md` exists to prevent.
+
+**河上公 says what the two verbs denote, and it is not tactical at all:** 侵**人**境界，利人財寶為**進**；閉門守城為**退** — *"to cross into **another's** borders and take profit from their goods is what **進** means; to shut your gate and hold your own city is what **退** means."*
+
+So 進 is **trespass**, and 退 is **staying home**. Which makes the inch and the foot an argument rather than a ratio of nerve: **an inch of someone else's ground is not worth a foot of your own.** 寸 (*cùn*) is the inch measured at the wrist-pulse and 尺 (*chǐ*) is ten of them; English inch-to-foot is twelve, close enough, and both are body-measures, so the pointing test holds.
+
+Drafted as **"I do not push an inch into another's ground. I give up a foot of my own"** — the English naming what the Chinese leaves implicit, on 河上公's authority, and closing off the purely tactical reading (*give ground to draw the enemy in*, ordinary Sunzi, which the bare characters permit).
+
+**Shortened on 2026-08-24 to "I do not push forward an inch. I give up a foot."** The gain is the line: the long version was the only place in the chapter where the English ran past its Chinese, and it sat badly against the plain second half of the couplet.
+
+**The cost, stated plainly, because it is real.** The bare English loses the *asymmetry* that was the note's whole finding — an inch of **someone else's** ground is not worth a foot of **your own** — and it reopens the tactical reading. Two things hold the line up anyway, neither of them as strong as naming it. *Push forward* carries 敢 (*gǎn* — the forward press to take), so the refusal is of appetite and not of nerve; and *give up* implies what is given up is one's own. The 河上公 gloss now lives in the reader-facing note at `notes/reading.md`, which is where a claim the verse does not make belongs.
+
+### Ch 69 · 行無行 — the one line where the character repeats, and the English can too
+
+The four negations are not all the same shape. Three are verb-無-noun: 攘無臂, 扔無敵, 執無兵. **The first repeats the graph**: 行無行 — but 行 is two words in one character, *xíng* (to go, to march) and *háng* (a row, a rank), and the line uses both. 王弼 settles which is which: 行謂行陳也, *"行 here means 行陣, the battle formation."* If both instances were ranks the line would have no verb at all.
+
+**So all four are verb-無-noun after all**, and the English should say so. Drafted as *"forming ranks where there are no ranks,"* which preserved the repetition at the price of making the first member the odd one out. **Changed 2026-08-24 to "marching where there are no ranks"** — the plainer verb sense, and the four-line parallel becomes true rather than merely claimed. Then *baring / hauling / gripping where there is no X*. Descending length, 4-3-3-3, as in the Chinese.
+
+What is lost is the graph's own echo, which no English can carry without inventing a pun the Chinese is not making.
+
+**攘 and 扔 are Ch 38's pair, negated.** Ch 38: 則**攘臂**而**扔**之 — ritual, when no one answers it, *"bares its arms and hauls them in."* Ch 69 takes the identical gesture and empties it. The aggression makes every motion it knows and each one closes on nothing. 王弼: 言無有與之抗也 — *"there is nothing there to push back against."*
+
+### Ch 69 · 哀 is grief, not compassion — and Ch 31 is the proof
+
+哀 (*āi*) is 口 (a mouth) enclosed in 衣 (a garment): a cry inside mourning clothes. It occurs **twice in the book**, and the other is Ch 31: 殺人之眾，以悲**哀**泣之 … 戰勝以**喪**禮處之 — *"when many have been killed, weep for them with sorrow and grief … a victory in battle is handled by the rites of mourning."* Same subject, same battlefield, same word.
+
+Both commentators pull it toward 慈 (*cí* — tenderness), and they are right about where it leads, but the character is **mourning**, and the claim is stronger for staying there. 王弼 gives the mechanism exactly: 哀者必相惜而不趣利避害，故必勝 — *"those who grieve necessarily cherish one another, and do not chase advantage or dodge harm, and so they must win."* **The grieving army does not calculate.** That is why it wins — not because grief is admirable but because a soldier already in mourning has nothing left to protect.
+
+Rendered **"the one who grieves wins."** Not "the sorrowful", not "the compassionate", not "the one who mourns the war" — the text does not say what the grief is for, and naming it would decide something the Chinese leaves open.
+
+### Ch 69 · 禍莫大於 matches Ch 46, and 兵 puns across the chapter
+
+**禍莫大於輕敵** takes Ch 46's English for the identical formula 禍莫大於不知足: *"there is no greater disaster than …"* Kept parallel deliberately.
+
+**兵 (*bīng*) — two hands holding an axe — opens and closes the chapter.** 用**兵**有言 and 執無**兵**. The graph means both *the weapon* and *the people carrying it*, and the chapter uses one sense at each end: the saying belongs to the people who hold the thing that turns out not to be there.
+
+**Drafted as *"among those who wield weapons there is a saying"* so that the English repeated *weapons* at both ends and the pun survived. Changed 2026-08-24 to "Soldiers have a saying," and the pun is the price.** The objection was register: the long form is stiff and archaic. *Warriors* was proposed and rejected — the word is ennobling in modern English (warrior spirit, the inner warrior) and this chapter deflates the whole enterprise; Ch 31 calls 兵 不祥之器, *instruments of ill omen*. **The honest cost of *soldiers* is twofold**: the English echo at the two ends is gone, and 用兵 is strictly what a *commander* does — 河上公 glosses the line 不敢先舉兵, *does not push to be first to raise troops*, which is a command decision, not a private's. Plainness was judged worth both. Ch 31 renders 兵 as *weapons*; Ch 30 renders 不以兵強天下 as *military force*, which is the looser use and stands.
+
+**執 → "gripping", not "grasping."** 執 is a kneeling figure with the hands manacled — a physical seizing. Ch 29's 執者失之 (*"those who grasp it lose it"*) is the abstract sense and keeps *grasp*; here the hand is on a hilt.
+
+### Ch 69 · whose "I" this is
+
+河上公 flags the voice before anything else: 老子疾時用兵，故託巳設其義也 — *"Laozi loathed the militarism of his age, so he borrowed the first person to set out its meaning."* The 吾 of 吾不敢為主 is a **quoted** I, and 用兵有言 is rendered as an explicit attribution — *"soldiers have a saying"* — so the borrowing is visible on the page. By 吾寶 in the last movement the voice has come back to Laozi's own, which is what makes 吾寶 reach for Ch 67's 我有三寶.
+
+### Ch 69 · 不敢 twice, and the lock makes the Ch 67 link audible
+
+The chapter opens with 敢 (*gǎn*) twice — 吾**不敢**為主 … **不敢**進寸 — and `glossary/gan-敢.md` forbids *dare* outright: in modern English *he did not dare* means *he was afraid*, and Ch 73's 勇於不敢 (*"courage in not-敢"*) requires a word that can be brave. 敢 is a hand with a hunting weapon going after a boar; the *Shuowen* glosses it 進取 — **to advance and take**.
+
+Rendered **"I do not push to move first … I do not push forward an inch."** The repetition is the Chinese's own. And *push* is the verb Ch 67 already uses for the third treasure — *"never pushing to be first in the world"* — so the reader hears the treasure being spent without being told about it, which is the whole argument of the note above.
+
+### 自然 · "the self-so" retired — the lock committed the error it was written to prevent
+
+**Reopened by Shalom, 2026-08-24, on the grounds that the word felt wrong.** It was, and the fault was structural rather than stylistic. Full argument in `glossary/ziran-自然.md` → *Why "the self-so" was retired*. The three findings:
+
+**1 · It was a noun, and both commentators refuse to name a thing.** 王弼 on 道法自然: 自然者，**無稱之言**，窮極之辭也 — *"自然 is a term that **designates nothing**, an expression of the ultimate."* 河上公 on the same line: 道性自然，**無所法也** — *"the Tao's nature is 自然; **there is nothing it takes as a model**."* English *"the self-so"* is a definite noun phrase, and *the* instructs a reader to go looking for a thing. Once they look, 自然 becomes a fifth rung on a ladder whose whole point is that it has four. **That is the same structural error as "Nature," smaller in degree and identical in kind** — and this entry's own case against "Nature" is what convicts it.
+
+**2 · It failed the pointing test.** 河上公 shows what passing looks like, glossing Ch 23: 雲從龍，風從虎，水流濕，火就燥 — *"clouds follow the dragon, wind follows the tiger, water flows toward the damp, fire goes toward the dry."* He points at **water finding the low ground**. Nobody can point at *the self-so*. It is a calque that lives only inside sinology and survived in the verse only because a note explained it.
+
+**3 · The lock had already lost.** Its stated fear was that local renderings would make the term invisible. Three of five lines paraphrased anyway — 17, 51, 64 — and those three read *well*. What the lock preserved was the calque in the two lines it damaged.
+
+**Now locked: 自然 → "of itself / of themselves · so of itself."** *"Self-so" is forbidden.* Only two verse lines moved.
+
+### Ch 25 · 道法自然 → "the Tao models itself on being what it is"
+
+**Shalom's rendering, and the reason it is right is that it declines to be a noun.** 法 (*fǎ* — to take as one's model) stays *models itself on* through all four rungs, so the pattern holds; what changes is that the object stops being a **name** (earth, sky, the Tao) and becomes a **clause**. The dissolution of the regress is made grammatically visible. A ladder that ends in *A is A* has ended, and Wang Bi's 窮極之辭 — *an expression of the ultimate*, what you say when there is nothing further to say — is exactly that shape.
+
+**Both commentators gloss this line with 性** (*xìng* — inherent nature): 王弼's 道不違自然乃得其**性** and 河上公's 道**性**自然. *"Being what it is"* is 性 in plain English, so the essence-flavoured reading is not an import here — it is what the commentary tradition already does with this line.
+
+**The precedent that does not bind it.** `notes/translation.md` (Ch 64, above) rejected *"in being what they truly are"* for 萬物之自然, because *truly* implies a false self to be told apart from a real one. That rejection stands and does not transfer: at Ch 64 the subject is **creatures**, where a true-self/false-self split is a live theological import; at Ch 25 the subject is **the Tao**, of which both commentators already predicate 性.
+
+**The cost, named rather than hidden.** *"Being what it is"* spends the **自**. It names the state but not its provenance, and the whole force of the nose-character is that the being-so comes **from the thing itself and nowhere else**. That loss is accepted at Ch 25 and paid back at the other four, which all carry *itself / themselves*. **The one place 自然 sits in a noun slot is the one place we decline to translate it as a noun** — which is probably the truest thing available to say about the word.
+
+### Ch 23 · 希言自然 → "Speak sparingly, for things go of themselves" — a strain case
+
+A-自然 compressed to four characters, and **English has no predicate slot that fits it.** Recorded as a strain case rather than smoothed.
+
+**"For," not "and."** Shalom's call, and it is the right dependency: *for* makes sparing speech follow **from** things going of themselves, which is 自然 as the **ground**. *And* would make it a consequence, reversing the direction. 河上公 supports the ground reading — 希言者是愛言也，愛言者**自然之道** — *"sparing speech is being sparing with speech; being sparing with speech is the **Tao of 自然**"* — and it is the mechanism of Ch 17, where the ruler says little and the people say *we did this ourselves*.
+
+**What it adds.** The English supplies the consequence clause the Chinese only implies. 王弼 licenses it: 無味不足聽之言，乃是**自然之至言**也 — *"speech that is flavourless and not worth listening to: this is 自然's utmost speech."*
+
+### Ch 25 · two changes made in the working tree, logged after the fact
+
+Found unlogged during the 自然 sweep and recorded now rather than left silent.
+
+- **萬物之母 area — "mother of creation" → "mother of the world."** Correct: the line is 可以為**天下**母, and 天下 (*tiān xià*) is locked to **the world**. *Creation* also imports a created order with a creator behind it, which is the theistic overlay this edition strips.
+- **"the aligned human" → "humans."** 域中有四大，而**人**居其一焉 says *humans* with no qualifier. *The aligned human* smuggled in a spiritual grade the Chinese does not have, and made the fourth of the four greats a subset of people rather than people. *(Note that 人 here is itself the editorial reading — every excavated witness reads 王, "king." See `DISCOVERIES.md` §1 and the Ch 25 entry in `notes/manuscript.md`.)*
+
+**The closest rival at Ch 25 — *"the Tao models itself on its own nature"* — was tested and refused, 2026-08-24.** It is the strongest alternative available: 性 (*xìng* — inherent nature) is the word both commentators use of this line, and *its own* carries the 自 lexically. Three things defeat it, and the argument is recorded in full in `glossary/ziran-自然.md` → *The closest rival, and why it was refused*: **nature is 天's word in this edition** (nine occurrences, none from 自然) and 天 is the rung two lines above; **河上公 reaches for 性 to cancel the modelling relation** (無所法也 — *"there is nothing it models itself on"*), not to fill it; and a possessed noun **re-posits a thing**, which is the axis the line was rewritten to clear.
+
+### Ch 16 · 復命 → "returning to what was given" — and the pronoun that changed the subject
+
+Was *"returning to your original nature."* Three faults, in rising order.
+
+**命 (*mìng*) is a command issued to you, not an essence inside you.** The graph is 口 (a mouth) and 卩 (a kneeling figure) under a roof: **a mouth giving an order to someone kneeling.** From there, what is ordered *for* you — an allotment, a span. *Original nature* points inward at what you already are; 命 points outward at what you were handed. The book uses it that way two chapters later: Ch 51's 莫之**命** is rendered *"no one **commands** it."*
+
+**It also spent 天's English.** *Nature* is this edition's word for 天 acting as an agent (9, 47, 59, 67, 73). Ch 16 has no 天 in the line, so the rendering was borrowing from a character that was not there — found while auditing the 自然 revision, `concordance.py --english "nature"`.
+
+**And "your" is not in the Chinese.** The passage is about 萬物: 夫物芸芸，各復歸其根 — *"the things flourish; each returns to its root."* 是謂復命 refers to **that**. The pronoun swung the camera onto the reader and turned a cosmological observation into a personal instruction. This was the worst of the three, because it is invisible — nothing in the English looks wrong.
+
+**Why "given" and not "nature," when both commentators gloss 復命 with 性命.** They do — 王弼: 復命則得**性命**之常; 河上公: 是為**復還性命**. But watch what 河上公 attaches: **使不死也**, *"so that they do not die,"* and on the line above 各復反其根而**更生**也, *"each returns to its root and is **born again**."* The weight is on the **allotted life**, not on a spiritual essence to be recovered. *What was given* keeps the issuing, keeps the life, and takes no pronoun.
+
+**The more literal alternative is "what was allotted,"** which is nearer to 命 and stiffer; *given* was chosen for the verse and the argument recorded here.
+
+### 天 · the split between "sky" and "nature", written down at last
+
+Entry: `glossary/tian-天.md`, 2026-08-24. **The rule was already the practice; it had never been recorded**, and the lock table pointed at `glossary/tiandi-天地.md` — an entry for the *compound* 天地, not for the solo character.
+
+**92 occurrences, the book's most frequent content character** — more than 道. 61 are 天下 (*tiān xià* — the world), 9 are 天地 (*tiān dì* — sky and earth), and **19 stand alone**. Those nineteen split cleanly:
+
+- **8 are a tier in a cosmological series, with 地 (*dì* — earth) beside them → *sky*.** Ch 7 天長地久, Ch 16 王乃天，天乃道, Ch 25 the four greats and the ladder, Ch 39 天得一以清 against 地得一以寧. **地 is physical, so 天 is physical**; a thing and a principle cannot stand in one series.
+- **11 take verbs — giving, hating, rescuing, having a way → *nature*.** 天之道 six times (9, 47, 73, 77 ×2, 81), plus 事天 (59), 天將救之 (67), 天之所惡 and 天網 (73), 天道無親 (79). **地 is absent from every one.**
+
+**The split is forced, not chosen.** English has no word with 天's range: *sky* cannot say 天之道, *nature* cannot say 天地. A language that lacks a term's range either splits the word or flattens the text, and flattening is what produced *Heaven*.
+
+**The mechanical form of the rule, for drafting: if 地 is in the line or the series, it is *sky*.** That decides every clear case. The one contested line is 配天 (Ch 68) — see `RETROFIT.md`.
+
+**Chapters 77, 79 and 81 are undrafted and all three carry 天之道 / 天道.** They take **"the way of nature,"** matching Ch 9, 47 and 73. The book writes the formula with and without the particle 之; nothing turns on it and both take one English.
+
+### Ch 70 · 行 — not "execute", and not "do" either
+
+The Source table glosses 行 (*xíng*) as **"execute"** — twice — which is pre-lock English and mechanistic on its face. But the trap underneath is subtler. The obvious repair is *"easy to do"*, and **為 (*wéi* — do / handle) does not occur anywhere in Chapter 70.** Handing 為's locked word to a chapter that has no 為 is precisely what the `--english` direction of the checker exists to catch: a lock is a two-way claim.
+
+**Shalom's choice: "follow."** The AI argued for **"walk"** — 行 is a picture of **a crossroads**, four ways meeting, going on foot, and in a book whose title character 道 (*dào*) is a road (辵 walking + 首 head) the foot metaphor is native rather than imposed. *"Practise"* was rejected by both as abstraction drift.
+
+**The cost of "follow", recorded so it is not rediscovered later.** The word already carries **four other characters** in this manuscript — 從 (*cóng*, ch 21, *"simply follows the Tao"*), 隨 (*suí*, ch 2 and 29), 徒 (*tú*, ch 50), and a bare 之 (ch 14). 行 makes five. It also lands two lines above 則我者 (*"those who pattern themselves on me"*), where *follow* and *pattern oneself on* read as a strong and a weak form of one idea rather than as two different things. Accepted anyway: the line is plainer, and plainness is what 河上公 says the words have (省…約, *pared down… bound tight*).
+
+### Ch 70 · 君 takes "ruler", and the overlap with 王 is deliberate
+
+言有宗，事有君 — *words have an ancestor, affairs have a* 君 (*jūn*). 君 is 尹 (a hand gripping the staff of office) over 口 (mouth): the hand that governs and the mouth that commands.
+
+**Rendered "ruler", which is also 王's (*wáng*) locked word.** Two reasons this is safe and one reason it is right. Safe: 王 does not appear in Chapter 70, so nothing collides on the page, and "ruler" is not on 王's forbidden list — that list forbids *" king"*, not the word we chose. Right: **internal consistency already decided it.** Ch 26's 靜為躁君 stands as *"silence is the ruler of the agitated."* One character, one English.
+
+**"Lord" and "master" were both rejected.** *Lord* fails the hymn test in a chapter already speaking in the first person about being unknown. *Master* is forbidden outright for 聖人 (*shèng rén* — the sage), and 聖人 is in this chapter's last line; the collision would be two lines apart.
+
+### Ch 70 · 宗 and 君 are people, and stay people
+
+The besetting error in this couplet is not a wrong word, it is **abstraction**: 宗 becomes "a principle" and 君 becomes "a governing authority", and the line turns into epistemology. Both characters are persons. 宗 (*zōng*) is 宀 (a roof) over 示 (an altar tablet) — **the ancestral shrine inside the house**, hence lineage, hence ancestor. 河上公 keeps them concrete too: 有宗祖根本 (*"an ancestral root"*) and 事有君臣 (*"affairs have lord and vassal"*).
+
+Held as **"Words have an ancestor. Affairs have a ruler."** Two short sentences, two people, no dash — the couplet's whole force is that the thing behind speech is *someone you could stand in front of*. The pointing test passes; "a principle behind words" does not.
+
+### Ch 70 · 夫唯無知 — left double on purpose
+
+夫唯無知，是以不我知 (*fú wéi wú zhī, shì yǐ bù wǒ zhī*) forks, and the fork changes the chapter's temperature:
+
+- **A — the majority reading.** *Because they have no understanding, they do not understand me.* The crowd is at fault. This is the reading that makes Ch 70 a complaint.
+- **B — 河上公's reading.** 是我德之暗，不見於外，窮極微妙，故无知也 — *"this is my 德 (integrity) being unlit, not seen on the outside, reaching the limit of the subtle — therefore there is no knowing."* He attaches 無知 to **the speaker's own hiddenness**. Nothing is on show, so nothing is known. Nobody is at fault.
+
+Reading B is what the chapter's closing image says out loud — the sage **put the sacking on** — and it is what 河上公 says one line earlier as well: 人惡柔弱好剛強也, *"people hate the soft and weak and love the hard and strong."* Not stupidity. **Preference.**
+
+**Rendered so that English holds both:** *"Only because there is no knowing it / do they not know me."* "No knowing it" reads either as *it cannot be known* (B) or as *they do not know* (A). This is honesty over false closure, executed in the verse rather than only in the note. The 夫唯 → **"only because"** construction matches Ch 67's 夫唯大，故似不肖.
+
+### Ch 70 · 被褐而懷玉 — coarse cloth, and the echo with Ch 20
+
+被 (*pī*) is to drape over; 褐 (*hè*) is 衤 (cloth) with a coarse hair-fibre, **a labourer's sacking**; 懷 (*huái*) is 忄 (heart) inside 褱, a garment-graph — something carried **inside the robe, against the chest**.
+
+Note the shape: **a clothing word outside, a clothing word inside, and jade between them.** The line is built out of layers, and that is the argument.
+
+**"Coarse cloth" was chosen over "sacking" for a cross-chapter reason.** Ch 20 renders 而我獨頑似鄙 as *"I alone am stubborn, and look coarse."* 鄙 (*bǐ* — the outskirts, rustic) and 褐 are different characters, but they are the same claim — *this one looks low-born* — and letting the English rhyme makes the 20 ↔ 70 thread audible to a reader who has no Chinese. Logged rather than left to chance.
+
+**"Against the chest", not "at the heart",** even though 懷 carries the 忄 radical. 心 (*xīn* — heart) is locked, and the character is absent from this chapter; a radical is not a licence.
+
+
+### Ch 70 · 知 stays one word in English, because it is one act in the Chinese
+
+**知 (*zhī*) occurs five times in twelve lines** — 易知, 莫能知, 無知, 不我知, 知我者 — and it is the most concentrated run of the book's central verb anywhere in the text (47 chapters carry it). A first pass rendered the first two as *"understand"* and the last three as *"know"*, which is the natural English reflex: you understand a sentence, you know a person.
+
+**Reverted to "know" throughout, and the reason is structural rather than cosmetic.** The couplet in the middle — 言有宗，事有君, *words have ancestors, affairs have rulers* — exists to say that the words come from someone. So comprehending the sentences and knowing the speaker are **not two acts**. That is why one character does both jobs, and why 不我知 (*"they do not know me"*) is offered as the *explanation* for 莫能行 (*"none can follow"*). Split the English and the chapter appears to describe two separate failures — they missed the argument, and separately they missed the man. The Chinese names one failure five times.
+
+**Two supports.** *"Easy to know"* is idiomatic English about **people** ("she's easy to know"); applied to words it is faintly odd, and the oddness quietly makes the words person-like — which is what 言有宗 then says outright. And **Chapter 71 is built entirely out of 知** (知不知，上；不知知，病 — *"knowing not-knowing is highest; not knowing yet knowing is sickness"*). 70 and 71 are adjacent on purpose; an *understand* in 70 breaks the hinge before 71 is drafted.
+
+### Ch 70 · 被 and 懷 are two different verbs, and the line is made of the difference
+
+A pass through the last line rendered both as *wear*: *"wears coarse cloth, but wears jade against their chest."* The repetition flattens the only architecture the line has.
+
+被 (*pī*) is **draped over the outside**. 懷 (*huái*) is 忄 (heart) inside 褱, a garment-graph — **held within the robe, at the breast**. A cloth word outside, a cloth word inside, and the jade between them. 河上公 reads it exactly so: 被褐者薄外，懷玉者厚内 — *"wearing coarse cloth is thin outside; holding jade is thick within."* **懷 takes a verb of carrying**, not of wearing.
+
+*(A smaller open question in the same line: 而 is held as **"but."** 河上公's 薄外／厚内 treats the two halves as a **matched pair** describing one person rather than as a contradiction, which argues faintly for "and". "But" was kept for the reader's ear.)*
+
+### Ch 71 · 不知知 renders toward the mouth, not the mind
+
+**Every standard English reads the second half as self-deception** — *"not to know, yet think you know."* We read it as **profession**: *"not to know and to claim you know."* Three supports, in the tie-breaking order.
+
+**The graph.** 知 (*zhī*) is 矢 (*shǐ* — an arrow) over 口 (*kǒu* — a mouth): speech that flies straight to the target. The word has a mouth in it before it has a mind in it.
+
+**The commentary.** 河上公 inserts 言 (*yán* — to say) into *both* halves, which he did not have to do: 知道**言**不知，是乃德之上 — *"to know the Tao and **say** you do not know: this is the height of integrity"* — and 不知道**言**知，是乃德之病, *"not to know the Tao and **say** you know: this is integrity's disease."* On his reading the chapter is not about the limits of knowledge at all. It is about the gap between what you hold and what you profess.
+
+**Internal consistency.** Ch 56 opens 知者不言，言者不知 — *those who know do not speak; those who speak do not know* — which is this chapter's first line with the 言 already in it. And Ch 70 ends with the sage carrying jade **against the chest** under coarse cloth. 河上公 closes his note on 71 with the same gesture and nearly the same verb: 夫聖人**懷**通逹之知，託於不知者 — *"the sage **carries** penetrating knowledge against the breast, and lodges it in not-knowing."* 懷 is the character Ch 70 ends on. **70 and 71 are one gesture, and the commentator says so.**
+
+*The interior reading is not wrong and is not erased — it is named in the chapter's `## Notes`. English forces a choice here that the Chinese does not force; we chose the reading the evidence favors and the one a reader is least likely to already have.*
+
+### Ch 71 · "sick of the sickness" — one English word for one Chinese word
+
+**病病 is the chapter's whole engine**: the first 病 verbal, the second nominal. The literal gloss in the source table says *"recognizing the disease as a disease"* — cool, diagnostic, and wrong about the verb. 河上公 supplies the sense: 夫唯能**病苦**衆人有強知之病 — *"only because they are **pained and distressed by** the crowd having the disease of forced knowing."* 病苦 is to suffer over, not to classify.
+
+**English "sick of" is the only construction that keeps one word doing both jobs**, and it happens to carry exactly 病苦's sense of being wearied and pained by a thing. **Cost, logged:** *"sick of"* can read as impatient — sick of your nagging. The context defuses most of it, and the alternative (*troubled by the trouble*, *pained by the sickness*) either breaks the doubling or loses the body. 病 is 疒 (*nè* — a person lying against a bed-plank) over a phonetic; *Shuowen* has it as 疾加也, illness intensified. There is a body in this word and the English must keep it.
+
+**Do not vary the repetition — but distinguish two kinds of it.** 病 falls seven times in four lines. Every instinct of English prose style wants to alternate *sickness / ailment / affliction*; the Chinese hammers one syllable, and the hammering is the argument. **That lexical repetition is kept entire.**
+
+**The structural repetition is not.** The last line is 聖人不病，以其病病，是以不病 — literally **A, because B, therefore A.** Classical Chinese closes a period by restating its opening; English carries the conclusion inside the causal clause already, so *"the sage is not sick because they are sick of the sickness"* says the whole line. **Shalom cut the trailing 是以不病 (2026-08-24)** as an editorial redundancy, and it is one: nothing in the sense is lost, and the cut leaves the last two lines in exact chiasmus — *sick of the sickness → not sick*, then *not sick → sick of the sickness* — which is the shape the Chinese has underneath the padding.
+
+*Recorded because it is a **cut**, not a rendering. 河上公 lemmatizes both halves, so the doubled text was in place by the Han and this is our edition's decision, not a witness's.*
+
+**And 不病 stays flat.** A pass rendered 是以不病 as *"do you become no longer sick"* — six English words for two characters, carrying a **recovery arc** the Chinese does not have. 河上公 reads the line the other way: 是以**不自病**也, *"therefore they do not sicken themselves."* He adds 自 (*zì* — self). The cure is **not contracting it**, not getting over it, and "no longer" points backward at an illness the commentary says was never caught. Held at *"are you not sick"*, which also keeps the last two lines in exact chiasmus.
+
+### Ch 72 · 大威 is not a bigger stick
+
+**The standard English makes this line a threat**, and our own source table's literal gloss invites it: 民不畏威，則大威至 → *"when the people do not fear authority, then great authority arrives."* Read that way the chapter opens by telling a ruler that a larger power is waiting to enforce what theirs cannot — which is precisely the theology-of-office this edition exists to strip out.
+
+**Both commentators read it as collapse.** 王弼: 民不能堪其威，則上下大潰矣，天誅將至 — *"the people cannot bear that dread; then high and low collapse utterly, and the reckoning of nature is coming."* 河上公, flatly: 威害也…大害至，謂死亡也 — *"威 means harm… the great harm arrives, meaning death."* Neither has anything arriving to enforce the ruler's will. **What arrives when your dread stops working is the end of the arrangement.**
+
+**The English gives the first 威 an owner and leaves the second unowned** — *"when the people no longer fear **your** dread, **the** great dread arrives"* — because that asymmetry is the sentence. One dread belongs to somebody. The other does not belong to anyone, which is why it cannot be used.
+
+**One character, two referents — so the English splits the word.** 威 (*wēi*) is 戌 (a great axe) over 女: the fear a figure commands and the figure commanding it, in one word. 王弼 glosses the ruler's 威 as **威權** (*wēiquán* — awe-power, **authority**) and the second as **天誅** (nature's reckoning). The Chinese runs one word through both slots and the shock is that the two are *not the same thing*; English cannot hold that in one word without asserting something false, so it renders *authority* / *the great collapse* and lets the difference be audible. The noun comes from 王弼's own gloss: 上下**大潰**矣, where 潰 (*kuì*) is a **dyke bursting**. A collapse answers to nobody, which is exactly the property the second 威 has and the first does not.
+
+*A draft that kept the repetition — "when the people no longer fear **your dread**, the great dread arrives" — was killed by Shalom. You fear a thing; dread is the feeling. 畏威 works in Chinese and "fear dread" does not work in English, and the repetition was not worth the sentence. Also rejected, from the other direction: **"true authority arises"**, which makes 大威 a legitimate power replacing an illegitimate one. That is a larger inversion than the threat-reading it was meant to fix, and it is what the hymn test is for — the line would sit very comfortably in a sermon.* **Overlay watch:** 王弼's 天誅 is 天 (*tiān* — sky, nature) plus 誅 (*zhū* — to condemn, to execute) — **nature's reckoning**, not divine punishment. The pull toward "Heaven's judgment" is strong here and it is strongest in the commentary, where no checker is looking.
+
+### Ch 72 · 厭 is a pun, and English happens to have the same one
+
+厭 (*yàn* / *yā*) is 甘 (sweet) over 肉 (meat) under 厂 (a cliff): **sated with rich food**, hence *fed up with, sick of*; and by way of the cliff-graph it is the ancestor of 壓 (*yā* — to press down, to crush). One character, both senses live.
+
+夫唯不厭，是以不厭 uses both in six characters: *do not press them down, and they will not be fed up with you.* 王弼 spells the second one out — 不自厭，是以天下莫之厭, *"does not make themselves loathsome, therefore no one in the world loathes them."*
+
+**"Oppress" carries the pressing half exactly** — *ob-premere*, to press against — and it is the plainer, more pointable word. But the second 厭 is **not pressure, it is loathing**, and 王弼 spells it out: 不自厭，是以天下**莫之厭**, *"therefore no one in the world loathes them."* So the two halves take two Englishes: *when you do not oppress them, they will not tire of you.*
+
+**Ch 66 fixes the second half** and the two chapters are twins: 是以天下樂推而不厭 → *"the world gladly pushes them forward and never tires of them"*, sitting directly under 聖人處上而民不重 — *the sage stands above and the people are not weighed down.* Ch 53's 厭飲食 → *"gorged on food and drink"* holds the root sense of the graph.
+
+**"When", not "because" — and the cost is 唯.** Chs 2, 8 and 22 all render 夫唯…是以 as *"Because…"*, and a fourth is a tic; Shalom moved this one to *"when"*. What that drops is 唯 (*wéi*), 隹 (a short-tailed bird) beside 口 (mouth) — **solely, and nothing else**. 河上公 will not even leave it at one exclusive: he writes 夫唯**獨**不厭精神之人, stacking 獨 (*dú* — alone) on top of 唯. Without *only*, the line can be heard as a prediction rather than a mechanism. Logged as a known loss rather than repaired, because *"only when you do not oppress them do they not tire of you"* buys 唯 back at the price of a clanking double-negative inversion, and this chapter's other lines are plain.
+
+*A draft rendered both with "weary" — "only when you do not weary them do they not weary of you" — on the grounds that one English word should do the work of one Chinese character. It bought the doubling at the price of "weary what gives them life", which is not a thing English does to a livelihood. **Two accurate words beat one clever one.***
+
+**Second chapter running on the same device.** Ch 71: 夫唯病病，是以不病. Ch 72: 夫唯不厭，是以不厭. In both, a doubled character does two jobs and the English survives only by finding one word with two senses — *sick of the sickness*, *weary of you*. Worth watching for in 73–81 rather than being surprised by it again.
+
+### Ch 72 · "loves themselves and does not hold themselves precious"
+
+自愛，不自貴 turns on a distinction English usually blurs. 貴 (*guì*) sits on 貝, a **cowrie shell** — it means *costly* before it means *honoured*, and ch 70 already renders it *precious*. **You can love a thing without pricing it.** That is the line, and it is the answer to the chapter's first half: a ruler who has set their own price high has to keep collecting on it, which is what the crowding is.
+
+*Not "exalt" — ch 3 already spends that word on 尚 (尚賢, "exalting the exceptional"). 河上公 splits the pair cleanly: 自愛其身以保精氣也 (bodily — preserving vital essence and energy) against 不自貴高榮名於世 (social — glory and fame).*
+
+**故去彼取此 names its axis.** Ch 12 (*"rejects the hungry gaze, chooses gut wisdom"*) and ch 38 (*"rejects surfaces and embraces life's thickness"*) both fill in the referents. A draft here left *that* and *this* bare instead, on the grounds that the referents sit in the line immediately above and 河上公 spells them out: 去彼**自見自貴**，取此**自知自愛**. Shalom killed it for a structural reason: the preceding line carries **four** items, and English *that/this* cannot sort four things into two pairs.
+
+**The characters supply the sorting principle, and it is spatial.** 彼 (*bǐ*) is 彳 (a step) beside 皮 — *yonder, over there*. 此 (*cǐ*) is *this, here*. And the axis is exactly the right one: 自見 (display) and 自貴 (self-pricing) **require an audience** — they are out there. 自知 (knowing) and 自愛 (loving) require nobody — they are here. Hence *"they let go of what is out there and take what is here."*
+
+Keeping **here** also holds the chapter inside the 以此 thread that closes chapters 21, 54 and 57 — *how do I know it is so? By this* — which a bare "this" was carrying but not communicating. See `DISCOVERIES.md` §2.

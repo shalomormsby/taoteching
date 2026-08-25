@@ -61,7 +61,7 @@ Checks:
 - **The Sage pronoun rule** — any `he/his/him` within a sentence of "Sage" or "Master". Zero tolerance; this is a standing rule.
 - **Repeated-formula consistency** — lines identical in Chinese across chapters (知常曰明 in 16/55; 生而不有 in 10/51; 不道早已 in 30/55; 玄德 refrains) must be identical in English. Detect by matching source rows, then diff the corresponding English.
 - **Devotional capitalization** — flag capitalized Way, Virtue, Heaven, Nature, Being, One outside sentence start.
-- **Status coherence** — `status: drafted` with an empty translation block, or a chapter whose `terms:` frontmatter omits a term present in its source rows.
+- **Status coherence** — `status: drafted` with an empty translation block, or a chapter whose `terms:` frontmatter omits a term present in its source rows. **⚠ NOT BUILT.** This is the one bullet in the spec that was never implemented, and the section is stamped ✅ DONE above it. Two chapters (65, 20) later turned out to be exactly what it describes and were found by hand instead. Carried forward as `incomplete-draft` under *Proposed rules, unbuilt*.
 
 Output: grouped by chapter, with the rule cited and the glossary entry linked. Exit non-zero on violations so it can run in CI.
 
@@ -73,6 +73,14 @@ Output: grouped by chapter, with the rule cited and the glossary entry linked. E
 - **`--staged` mode, error-only, skipping `status: untranslated`** — so a half-drafted chapter never argues with the hook.
 
 </details>
+
+### Proposed rules, unbuilt
+
+*Both are blocked on the same thing: `no-new-tooling` is back in force, so each needs its own `shaloms-call`. Both close a hole a human sweep has already fallen through, which is the argument for them.*
+
+- [ ] **`incomplete-draft`** — error when `status: drafted` but the `## Translation` block is empty, is placeholder text, or has fewer verse lines than a floor derived from the chapter's source rows. **This was in the §2 spec as "status coherence" and never built.** The cost of not having it is measured: Ch 65 carried `status: drafted` over three ellipses and a fragment, and Ch 20 over 10 verse lines against 25 source rows, missing its whole opening movement. Both survived the 2026-08-10 hand sweep and every session after it, and both were found by Shalom reading the page. **No existing rule can catch this** — every lock keys off the Chinese to judge the English, so a chapter with no English passes all of them trivially.
+
+- [ ] **`glossary-self-check`** — run the forbidden-rendering rules over `glossary/*.md` as well as `chapters/*.md`. **The locks are currently enforced against the manuscript but never against the files that define them.** Found 2026-08-23: a single line of `glossary/ziran-自然.md` carried two violations at once — a stale "dare" for 敢 and "the ten-thousand things" for 萬物, which is forbidden outright — inside a `status: locked` entry. *Design note: this cannot reuse the chapter rule as-is, because a glossary entry **has to** print the forbidden word — quoting it and arguing against it is the entry's whole job, and `gan-敢.md` says "dare" eleven times on purpose. So invert the chapter rule's default: instead of scanning everything and excluding, scan **only the entry's own English** and ignore the argument around it. That means the `> *…*` gloss lines under a quoted Chinese line, plus the `render:` frontmatter and the "Where it stands" table — which is exactly where the two `ziran-自然.md` violations sat. Everything else in an entry is prose about words and must stay exempt.*
 
 ## 3. `tools/concordance.py` — term in, evidence out ✅ **DONE (2026-08-11)**
 
@@ -211,8 +219,28 @@ It also states plainly that **the punctuation is editorial and forms no part of 
 1. **Resolve the 8 open findings** in `RETROFIT.md` → *Open*. Each needs a rewrite, so each is Shalom's call. The build stays red until they are resolved or waived — which is the ratchet working, not a problem to route around.
 2. ~~**Re-provenance `source/chinese.md`** off ctext~~ ✅ **done 2026-08-11** (§8).
 3. ~~**Build `sources/`** (§8)~~ ✅ **done 2026-08-11** — all three commentaries in.
-4. **Draft chapters 61–64 and 66–81** with the hook live, through the `chapter-review` skill. This is the active frontier and the reason the harness was built now rather than at 81.
+4. **Draft chapters 70–81** with the hook live, through the `chapter-review` skill. This is the active frontier and the reason the harness was built now rather than at 81. *(1–69 are drafted; 69 drafted 2026-08-23.)*
 5. **`build.py`**, when the text has stopped moving.
+
+---
+
+## Open todos — the Guodian debts
+
+*Opened 2026-08-17, from building `sources/guodian-inventory.yaml`. The inventory answered a question nobody had been able to ask before — **does the oldest witness even carry this chapter?** — and asking it across all 81 surfaced work owed on chapters already drafted. Each of these is a fact-recording job, not a transcription: see `PROVENANCE.md` → "The Guodian question, asked properly and answered no."*
+
+- [ ] **G1 · Ch 19 — the largest unrecorded divergence in the book.** The best-known meaning-bearing fork in the entire Guodian Laozi sits in this chapter: the received text's attack on 聖 (*shèng* — sagehood) and 仁義 (*rén yì* — humaneness and duty) is **not** what the slips carry. Ch 19 is drafted, carries `retrofit: []`, and our apparatus is silent. Record the fork in `variants.yaml` as a fact, decide, and log in `notes/manuscript.md`. **Highest value of anything on this list** — it may change a drafted chapter's argument, and it bears directly on the overlay watchlist, since 聖 and 仁義 are two of its flagged characters.
+
+- [ ] **G2 · Ch 25 — `DISCOVERIES.md` §1 is missing its oldest witness.** The no-heaven-no-king finding rests on both Mawangdui silks reading 人 (*rén* — human) where our base reads 王 (*wáng* — king). Guodian carries Ch 25 too (bundle A, unit 2) and is roughly a century older than the silks. The finding is possibly a book; it should not rest on the second-oldest witness when the oldest is available. Check, then update `variants.yaml`, `notes/manuscript.md`, and `DISCOVERIES.md` §1.
+
+- [ ] **G3 · Ch 17–18 are one passage at Guodian, with no chapter division.** The slips run them continuously. If that holds, the collapse of 大道 (*dà dào* — the great Tao) into 仁義 in Ch 18 reads as the *consequence* of Ch 17's ladder of rulers rather than a fresh assertion — an interpretive shift across two drafted chapters. Belongs in `notes/reading.md` as a Thread, not just an apparatus line.
+
+- [ ] **G4 · Ch 5 and Ch 16 — the famous parts are the missing parts.** Guodian carries only the *middle* of Ch 5, so 天地不仁 ("sky and earth are not humane") is unattested there; and only the *opening* of Ch 16, so its movement through 常 (*cháng* — the ever-present) is unattested. Both are drafted. Worth a reading note: the oldest witness is silent exactly where the chapters are most quoted.
+
+- [ ] **G5 · A Guodian sweep of the remaining 26 attested chapters.** The inventory names 31; G1–G4 cover five. The rest have no Guodian line in `variants.yaml` at all. Work chapter by chapter, recording facts only. Low urgency per chapter, high value in aggregate.
+
+- [ ] **G6 · Chapters 67–81 have no Guodian witness — say so once, in the apparatus.** 66 is the highest-numbered chapter attested anywhere at Guodian. Twelve of the chapters still to draft rest on the Mawangdui silks and later witnesses alone. `--witnesses N` now prints this per chapter; the *pattern* deserves a note, because it is a fact about the book's formation and not only about our sources.
+
+**Not on this list, deliberately: vendoring a Guodian text.** Asked and answered 2026-08-17 — there is no public-domain transcription and there cannot be one yet. The 釋文 is 1998 living scholarship. See `PROVENANCE.md`; a `shaloms-call` cannot reach it, because it is someone else's copyright and not our rule.
 
 *Steps 1–2 of the original ordering are already done: the Google Docs import is complete and the Doc retired; `terms.yaml` was built 2026-08-10. The open locks 明 and 無為 were settled before this build, so the sweep happened once, as intended.*
 

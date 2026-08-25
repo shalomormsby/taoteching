@@ -76,7 +76,7 @@ Apply consistently across all 81 chapters. Departures require a logged reason.
 | 常 | **the ever-present / the abiding** | "eternal", "true" | `glossary/chang-常.md` |
 | 天地 | **sky and earth** | "heaven and earth", "the cosmos" | `glossary/tiandi-天地.md` |
 | 天下 | **the world** | — | same |
-| 天 (as principle) | **nature / the natural** | "Heaven" | same |
+| 天 (alone) | **sky** with 地 near · **nature / the natural** as an agent | "Heaven", "Providence", "the Cosmos" | `glossary/tian-天.md` |
 | 玄 | **dark** (standing alone) · **profound** (in compounds) | "mystery", "the occult" | `glossary/xuan-miao-玄妙.md` |
 | 妙 | **subtle / subtlety** | "mystery" | same |
 | 徼 | **boundaries** | "surfaces" | same |
@@ -86,7 +86,6 @@ Apply consistently across all 81 chapters. Departures require a logged reason.
 | 守 / 抱 | **hold fast to** / **embrace** | (do not swap) | — |
 | 聖人 | **the sage** — lowercase, and always *they/their* | "Holy Man", "saint", "the Master", capitalized "the Sage" | — |
 | 我 / 吾 | the self **seen** / the self **seeing** | (both "I"; note the pairing) | `glossary/wo-wu-我吾.md` |
-| 自然 | **self-so / of-itself-so** | capital-N "Nature" | — |
 
 **Recently locked:**
 
@@ -95,7 +94,7 @@ Apply consistently across all 81 chapters. Departures require a logged reason.
 | 為 | **do / handle / serve as** | "execute", "function as" | `glossary/wei-為.md` |
 | 無為 | **non-doing** | "non-action", "effortless action", "inaction" | `glossary/wuwei-無為.md` |
 | 明 | **clear-seeing / clarity / sees clearly** | "enlightenment", "illumination", "brilliance" | `glossary/ming-明.md` |
-| 自然 | **the self-so / of itself / of themselves** | capital-N "Nature", "spontaneity" | `glossary/ziran-自然.md` |
+| 自然 | **of itself / of themselves · so of itself** | capital-N "Nature", "spontaneity", "self-so" | `glossary/ziran-自然.md` |
 | 樸 | **uncarved wood / the uncarved** (lowercase) | "simplicity", "purity", capitalized "Uncarved Block" | `glossary/pu-樸.md` |
 | 無 / 有 | **absence / presence**; *empty / filled space* in ch 11 | "Being"/"Non-Being", "existence", "the Void", "nothingness" | `glossary/wu-you-無有.md` |
 | 信 | **trust / trustworthy** | "faith", "sincerity", "belief" — and never 德's *integrity* | `glossary/xin-信.md` |
@@ -105,6 +104,9 @@ Apply consistently across all 81 chapters. Departures require a logged reason.
 | 公 | **impartiality** (quality) · **lord / minister** (office) | "duke", "equanimity", "justice" | `glossary/gong-公.md` |
 | 事 | **affairs / undertakings** · **serve / attend to** | "techniques", "processes" | `glossary/shi-事.md` |
 | 善 | **masterful / masterful at** · *good* only where the text names the category | "virtuous", "righteous", "saintly", "benevolent" | `glossary/shan-善.md` |
+| 敢 | **push / venture** — the forward press to take | "dare", "daring" | `glossary/gan-敢.md` |
+| 爭 | **contend / contention** | "compete", "competition" | `glossary/zheng-爭.md` |
+| 王 | **ruler / sovereign** · *to rule* (verb) | "king", "monarch", "emperor" | `glossary/wang-王.md` |
 
 *為 is a hand on an elephant — handling, not neutral doing. 無為 is taking your hand off it. "Non-doing" is required by Ch 63's triple parallel (為無為，事無事，味無味), which only survives with a verb that also works as a noun. Sweep pending: ch 2, 3, 10, 37, 38, 43, 48, 57, 63, 64.*
 
@@ -112,7 +114,11 @@ Apply consistently across all 81 chapters. Departures require a logged reason.
 
 *萬物: 萬 is a **scorpion** borrowed for its sound — the number is a phonetic accident, not a count — and 物 is a **mottled ox** (kinds, varieties). "Ten thousand" now reads as a ceiling to modern ears; 萬 meant *beyond reckoning*. The creatureliness lives in the **verbs** (生 gives birth · 畜 rears · 衣養 clothes and feeds) — never let those become "generates"/"produces".*
 
-*自然 is "self-so" (自 = a nose, the thing you point at to mean "me"), not "Nature" — that sense is a modern import, and in Ch 25's ladder it puts something above the Tao and inverts the cosmology. 自然 is also the **ground of 無為**: you can take your hand off because things go of themselves. Sweep pending: ch 17, 23, 25, 51, 64.*
+*自然 is 自 (a nose — the thing you point at to mean "me") + 然 (*rán* — **so, thus**): so because of itself. Not "Nature" — that sense is a modern import, and in Ch 25's ladder it puts something above the Tao and inverts the cosmology. 自然 is also the **ground of 無為**: you can take your hand off because things go of themselves. **Revised 2026-08-24 — "the self-so" is retired and now forbidden.** It was a calque, and a *definite noun* where 王弼 (自然者，無稱之言 — "a term that designates nothing") and 河上公 (道性自然，無所法也 — "there is nothing it models itself on") both refuse to name an entity: the same error as "Nature", smaller in degree. **Ch 25 is the deliberate exception** — the one noun slot is answered with a clause: 道法自然 → "the Tao models itself on being what it is." Swept ch 17, 23, 25, 51, 64.*
+
+*敢 is **a hand with a hunting weapon going after a boar** — *Shuowen*: 進取也, "to advance and take." **Appetite, not bravery**, which is why "not daring" inverts the book: Ch 73's 勇於**不敢**則活 (*yǒng yú bù gǎn zé huó* — "courage in not-敢 lives") makes 不敢 *a form of courage*, and "not daring" cannot be brave. Caught by Shalom, 2026-08-19, after the reading had passed three chapters unexamined. Swept ch 30, 64, 67, 69.*
+
+*王 reads **ruler**, not *king* — and note the forbidden string is `" king"` with a leading space, so "kingdom" stays legal. See `DISCOVERIES.md` §1, whose central claim this entry corrected.*
 
 **Still open — decide and then lock:**
 
@@ -202,6 +208,7 @@ process/skills/       the method, made executable (chapter-review · glossary-en
 process/overlay-audit.md
 sources/PROVENANCE.md what may live in sources/, and on what authority — read before adding
 sources/variants.yaml the witness apparatus, as facts (never transcriptions)
+sources/guodian-inventory.yaml  what the oldest witness (~300 BCE) contains — an inventory, never a text
 sources/commentaries/  Wang Bi (71 ch.) · Heshang Gong (all 81) · Han Feizi (17 ch., oldest)
 tools/                check_locks.py (the gate) · concordance.py (the evidence)
 process/legacy-tao-source-code.md   ⚠ archived, contains SUPERSEDED renderings
@@ -232,7 +239,7 @@ python3 tools/concordance.py --commentary 63     # Wang Bi and Heshang Gong on a
 
 **When a check is wrong, there are two answers and they are different sizes.** A `lock-ok` comment in the chapter's `## Notes` waives **one finding** and must carry a reason; an unused waiver is itself an error, so the files self-clean. A `shaloms-call` sets aside **a whole rule** — see `process/shaloms-call.md`. Never delete a rule to silence it.
 
-**Check the witnesses before drafting, not after.** `concordance.py --witnesses N` reports the recorded forks for a chapter. Ch 21 was drafted over a chronology both Mawangdui silks reverse, and Ch 25 over a king the oldest witnesses do not have — neither was carelessness, nobody had looked. **A blank result means nobody has checked that chapter yet**, not that there are no forks: `sources/variants.yaml` is built by hand. Record new forks there as **facts, never transcriptions** — `sources/PROVENANCE.md` explains why that is a licensing rule and not a preference.
+**Check the witnesses before drafting, not after.** `concordance.py --witnesses N` opens with whether **Guodian** (~300 BCE, the oldest witness there is) carries the chapter at all — it carries only 31 of 81, and *not attested* means the chapter rests on the silks and later, which changes how much weight they bear. Then it reports the recorded forks. Ch 21 was drafted over a chronology both Mawangdui silks reverse, and Ch 25 over a king the oldest witnesses do not have — neither was carelessness, nobody had looked. **A blank result means nobody has checked that chapter yet**, not that there are no forks: `sources/variants.yaml` is built by hand. Record new forks there as **facts, never transcriptions** — `sources/PROVENANCE.md` explains why that is a licensing rule and not a preference.
 
 **Do not trust the literal glosses in the source tables.** They speak pre-lock English — "virtue", "the ten thousand things", "mysterious" — which is exactly what this edition rejects. They are a starting point, not a reading, and matching a locked term against its own gloss fails precisely where the locks matter most.
 
@@ -240,17 +247,20 @@ python3 tools/concordance.py --commentary 63     # Wang Bi and Heshang Gong on a
 
 ## Current state — read before starting
 
-**★ `DISCOVERIES.md` holds the findings that want essays — read it when taking stock of what to write.** Two so far, and they are complements. **§2, the question is "is it so?", not "what is it?"** — 自然 (*zìrán* — the self-so) is 自 (*zì* — self) + 然 (*rán* — **so, that it is the case**), and 然 alone closes chapters 21, 54 and 57 on one formula: 吾何以知…然哉？以此, *"how do I know it is so? By this."* Not what a thing **is** but whether it **is so**, answered not by authority but by *this, here, now*. An ontology and an epistemology in twenty characters. **§1, no heaven and no king** — in the oldest witnesses Ch 25 reads *"the Tao is vast, the sky is vast, the earth is vast, and the human is vast."* Both Mawangdui silks read 人 (*rén* — human) where our base text reads 王 (*wáng* — king), and the older silk has no king in the passage at all. Two layers of accretion, Chinese scribes then English missionaries, both adding hierarchy. Possibly a book.
+**★ `DISCOVERIES.md` holds the findings that want essays — read it when taking stock of what to write.** Two so far, and they are complements. **§2, the question is "is it so?", not "what is it?"** — 自然 (*zìrán* — so of itself) is 自 (*zì* — self) + 然 (*rán* — **so, that it is the case**), and 然 alone closes chapters 21, 54 and 57 on one formula: 吾何以知…然哉？以此, *"how do I know it is so? By this."* Not what a thing **is** but whether it **is so**, answered not by authority but by *this, here, now*. An ontology and an epistemology in twenty characters. **§1, no heaven and no king** — **⚠ superseded in its central claim on 2026-08-20 and awaiting rewrite; read the banner in the file before using any of it.** The *heaven* half stands: 天 (*tiān* — sky) is in every witness, "Heaven" is a missionary import, and the distortion is entirely English. The *king* half was backwards. **Every excavated witness at Ch 25 reads 王** (*wáng* — king), Guodian (~300 BCE) included; 人 (*rén* — human) is a transmitted reading from 傅奕 (Tang) and 范應元 (Song), argued on the internal seam — the next line is 人法地, *humans follow earth*. We still read 人, now as an editorial call, logged as one. The lesson worth keeping: **a popular "帛書版" text online had already been silently emended to 人**, and we took it for the silks. `sources/variants.yaml` is the apparatus; do not trust a manuscript claim that is not in it.
 
 
-- **Chapters 1–60 and 65:** drafted, and **swept clean against every lock**. All 61 carry `retrofit: []`. The 2026-08-10 sweep resolved the accumulated debt; do not assume the early chapters are still pre-lock.
-- **Chapters 61–64 and 66–81:** still to draft. **This is the active frontier.**
+- **Chapters 1–72:** drafted, and swept against every lock. The 2026-08-10 sweep resolved the accumulated debt; do not assume the early chapters are still pre-lock. *(Ch 69 drafted 2026-08-23; Ch 70, 71 and 72, 2026-08-24.)*
+- **Chapters 73–81:** still to draft. **This is the active frontier.** None of them is attested at Guodian — 66 is the highest-numbered chapter the oldest witness carries, so from here on the text rests on the Mawangdui silks and later.
+- **⚠ `status: drafted` has been proved unreliable once. Do not trust it without looking at the page.** On 2026-08-17 Shalom found Ch 65's `## Translation` block was three ellipses and a fragment, carrying `status: drafted` and `retrofit: []`. An audit of all 81 then found **Ch 20** the same way — 10 verse lines against 25 source rows, missing its entire opening movement (絕學無憂 through 荒兮其未央哉). Both had been counted as finished by the 2026-08-10 hand sweep, by `CLAUDE.md`, and by every session since. Both are now genuinely complete. **No checker rule catches this** — every lock keys off the Chinese to judge the English, and a chapter with no English trivially passes all of them. A proposed `incomplete-draft` rule is in `PLAN.md` → *Proposed rules, unbuilt*, pending a call on `no-new-tooling`. **It was in the original §2 spec as "status coherence" and never built, inside a section stamped ✅ DONE** — which is how the gap stayed invisible.
+- **⚠ `check_locks.py` does not scan `glossary/`.** The locks are enforced against the manuscript but never against the files that *define* them, so a glossary entry can contradict its own lock indefinitely. Found 2026-08-23: one line of `glossary/ziran-自然.md` carried **two** violations — a stale "dare" for 敢 and "the ten-thousand things" for 萬物, the latter forbidden outright. A proposed `glossary-self-check` rule is in `PLAN.md`, unbuilt. Until it exists, **sweep `glossary/` by hand whenever a lock is settled** — the entries are prose and the retrofit policy applies to them too.
 - **Two locks have held clean from the beginning:** 德 → *integrity* (zero "virtue" ever appeared) and the sage pronoun rule (zero "he/his/him"). Keep them that way.
 
 ### Open items — the short list
 
-1. **Draft Chapter 61 onward.** Twenty chapters remain. Ch 61 is where "yin" will try the door: it is the book's most explicit case for feminine power (天下之牝, 牝常以靜勝牡), argued entirely with 牝/靜/下 and not one syllable of 陰. Laozi never uses 陰 for the feminine principle — it appears **once** in the whole book, in Ch 42, paired with 陽. See `glossary/mu-母.md` and the feminine thread in `notes/reading.md`.
-2. **Continue the glossary harvest** from `glossary/TRIAGE.md`. Tier 2 is complete except **一** (*yī* — "one"), which is already lowercased in the text and owed only its entry. Tier 3 opens with **名** (*míng* — "name"), which pairs with the 無名/有名 of Ch 1.
+1. **Draft Chapter 73 onward.** Nine chapters remain, none attested at Guodian. **Ch 71 and 72 are done (2026-08-24).** 71 extends the 20/67/70 thread: 河上公 closes it with 夫聖人**懷**通逹之知，託於不知者 — *"the sage carries penetrating knowledge against the breast and lodges it in not-knowing"* — the same verb 懷 (*huái*) Ch 70 ends on, so **70, 71 and 56 are one gesture**; and he reads 不知知 with an inserted 言 (*yán* — to say), moving the chapter off self-deception and onto **profession**. 72 is where the two commentators split hardest: 其 (*qí*) has no antecedent, 王弼 makes it the people's dwelling and 河上公 makes it your own heart, and the fork is logged rather than averaged. **Watch for the doubled-character device** — 71's 夫唯病病，是以不病 and 72's 夫唯不厭，是以不厭 both needed one English word carrying two senses (*sick of*, *weary of*). **Ch 73 is next**; note `notes/manuscript.md` already flags a whole line missing from the Siku 王弼 there. Wang Bi's commentary is unproofread in the Siku transcription for 8, 14, 15, 19, 30, 54, 62, 70, 71 and 78, so run `--commentary` before assuming both voices are available. Ch 78 brings 王 (*wáng* — ruler) and 天下王, freshly locked.
+
+2. **Continue the glossary harvest** from `glossary/TRIAGE.md`. Tier 2 is complete except **一** (*yī* — "one"), which is already lowercased in the text and owed only its entry. Tier 3 opens with **名** (*míng* — "name"), which pairs with the 無名/有名 of Ch 1. **New candidate, raised by Ch 70: 希** (*xī* — sparse) — 爻 (crossed threads) over 巾 (cloth), *loosely woven fabric you can see through*. Six occurrences, one sense, three different Englishes in the manuscript already (ch 14 *the inaudible*, ch 23 *speak sparingly*, ch 43 *few ever reach this*). Rarity and inaudibility are the same property; see the thread in `notes/reading.md`.
 3. **Em-dashes in the verse — unreviewed.** Seventeen lines still contain — or –, in chapters 10, 14, 15, 28, 29, 43, 44, 51, 53, 55, 58. Some are good (Ch 44's *"Reputation or your self — which is dearer?"*), some strand subjects. Removing them means restructuring real lines, so this is a chapter-by-chapter conversation, not a sweep.
 4. **Activate the glossary skill** if it is not already linked:
    `ln -s "$(pwd)/process/skills/glossary-entry" ~/.claude/skills/glossary-entry`

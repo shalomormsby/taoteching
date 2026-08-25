@@ -46,6 +46,24 @@ The ancient texts are free. The Laozi is roughly 2,400 years old; Wang Bi died i
 
 **Instead, record the facts.** See `variants.yaml`. "Mawangdui A and B read 自今及古 where Wang Bi reads 自古及今" is a **fact about a text**, and facts are not copyrightable. This is not merely the safe path; it is better practice, because a fact can be cited and checked while a bulk transcription only invites trust.
 
+### The Guodian question, asked properly and answered no — 2026-08-17
+
+*Shalom asked for a public-domain Guodian concordance to be vendored. It was searched for rather than ruled out from memory, because this file has been wrong about a licence once before. The search is recorded so nobody repeats it.*
+
+**There is no public-domain transcription of the Guodian slips, and there cannot be one yet.** The slips were excavated in October 1993; the standard 釋文 (*shìwén* — the reading of the Chu-script graphs into modern characters) was produced by the Jingmen Museum team and published by 文物出版社 (Wenwu Chubanshe) in May 1998. That is 28 years old and squarely in copyright, in China and everywhere else.
+
+**Chinese Wikisource does host a 郭店楚墓竹簡 page with the Laozi bundles in full.** It was checked, because the correction above establishes that a Wikisource mainspace transcription of a public-domain work is itself public domain. **That reasoning does not reach this page**, for three separate reasons, any one of which is sufficient:
+
+1. **Wikisource's own logic does not apply.** Its policy holds that "anything that could attract copyright would no longer be faithful to the original." A 釋文 of damaged bamboo is *precisely* something that attracts copyright, because it is not a faithful transcription of anything legible — it is a reconstruction. The policy exempts faithful copies of readable printings; that is not what this is.
+2. **It names no edition.** Admission rule 2 requires a *nameable* printing and rule 3 requires the frontmatter to cite it exactly. The page cites no scholarly source for its 釋文 at all. "Found on the open web is not provenance" is this file's own sentence, and it applies here more than anywhere.
+3. **It carries annotations and variant readings** — a modern editorial layer that is neither absent, excluded, nor marked. That fails rule 4 outright.
+
+And a fourth blocker that would stand even if all three fell: the page's content, whatever its status, would arrive under **CC BY-SA 4.0** if the site banner did govern. ShareAlike is copyleft. This repository is **CC0 with no exceptions** and the companion volume is **intended to be sold**. We could not dedicate it CC0 and we could not sell alongside it.
+
+**A `shaloms-call` cannot fix this one.** A call sets aside a rule of this repository. It cannot set aside someone else's copyright, and it cannot make a CC0 dedication true of material we do not own. This is the rare case where the constraint is not ours to suspend.
+
+**What was built instead: `guodian-inventory.yaml`.** Which chapters sit on which slips, in which bundle and in what order, is a **fact about an object recovered from the ground** — not a transcription, not a reconstruction, not a reading. It contains no Chu graphs, no 釋文, no reconstructed characters, and no bracketed conjectures. It answers the question that actually blocks work: *before drafting chapter N, does the oldest witness even have it?* `concordance.py --witnesses N` now prints the answer first, above the forks.
+
 **No modern translations, of anything, for any reason.** Consulting them for *meaning* is governed by `process/method.md` §3 — pre-1931 only. None belong in this repository.
 
 ---
@@ -54,7 +72,8 @@ The ancient texts are free. The Laozi is roughly 2,400 years old; Wang Bi died i
 
 | Path | Contents | Coverage |
 |---|---|---|
-| `variants.yaml` | The variant apparatus, as **facts** | 22 forks across 11 chapters |
+| `variants.yaml` | The variant apparatus, as **facts** | 24 forks across 12 chapters |
+| `guodian-inventory.yaml` | What the **oldest witness** contains, as facts — never a text | 31 chapters, 3 bundles |
 | `commentaries/wangbi/` | 王弼 (d. 249 CE) on the Laozi, lemma by lemma | **71 of 81 chapters** |
 | `commentaries/heshanggong/` | 河上公章句 (Han), lemma by lemma, with his own chapter titles | **81 of 81 chapters** |
 | `commentaries/hanfeizi/` | 韓非子 解老 / 喻老 — the oldest commentary on the Laozi | **the 17 chapters he discusses** |
@@ -106,7 +125,9 @@ A lemma that matches is direct evidence the transcription was carried across int
 
 All three classical commentaries named in `process/method.md` §3 are now in the repository. **Every chapter has at least one**, because Heshang Gong covers the ten the Siku Wang Bi transcription lacks.
 
-What could still be added, in rough order of value: the **10 unproofread Wang Bi chapters** (8, 14, 15, 19, 30, 54, 62, 70, 71, 78), transcribed from the archive.org scan; the **Fu Yi** (傅奕) recension; and a **Guodian / Mawangdui variant sweep** for the chapters not yet in `variants.yaml`, recorded as facts.
+What could still be added, in rough order of value: the **10 unproofread Wang Bi chapters** (8, 14, 15, 19, 30, 54, 62, 70, 71, 78), transcribed from the archive.org scan; the **Fu Yi** (傅奕) recension, which is a *received* text and therefore admissible in full where the excavated manuscripts are not; and a **Guodian / Mawangdui variant sweep** for the chapters not yet in `variants.yaml`, recorded as facts.
+
+**The Guodian sweep is now the highest-value item on that list**, and `guodian-inventory.yaml` says where to point it. Two chapters are flagged in the inventory as owing work: **Ch 19**, where the best-known divergence in the entire Guodian Laozi sits and our apparatus is silent, and **Ch 25**, where `DISCOVERIES.md` §1 rests on the Mawangdui silks without consulting the older witness that also carries the chapter.
 
 ---
 

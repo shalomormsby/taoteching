@@ -36,10 +36,10 @@ Put the two together and 天地 is what it has always been: **the overhead and t
 
 The text itself forecloses the theistic reading, five times over.
 
-- **It is not kind.** 天地不仁，以萬物為芻狗 (5) — sky and earth are *not benevolent*; they treat the ten-thousand things as straw dogs, the ritual effigies burned once and swept away. A God who numbers your hairs is precisely what this is not.
+- **It is not kind.** 天地不仁，以萬物為芻狗 (5) — sky and earth are *not benevolent*; they treat the countless things as straw dogs, the ritual effigies burned once and swept away. A God who numbers your hairs is precisely what this is not.
 - **It was born, and it has a womb.** 玄牝之門，是謂**天地根** (6) — the gate of the dark female is called *the root of sky and earth.* Sky and earth come out of a birth-gate. The Christian heaven cannot be born; this one is.
 - **It is not first.** 有物混成，**先天地生** (25) — something formed in the undifferentiated, *born before sky and earth.* They are derivative — latecomers to a source that precedes them.
-- **It is not sovereign.** 人法地，地法天，**天法道**，道法自然 (25) — humans follow earth, earth follows sky, *sky follows the Tao*, and the Tao follows its own self-so. 天 takes its law from something above it. A heaven that must obey is not Heaven.
+- **It is not sovereign.** 人法地，地法天，**天法道**，道法自然 (25) — humans follow earth, earth follows sky, *sky follows the Tao*, and the Tao models itself on being what it is. 天 takes its law from something above it. A heaven that must obey is not Heaven.
 - **It is not even durable.** 天地尚不能久 (23) — a whirlwind does not last a morning, a rainstorm not a day; and *even sky and earth* cannot make such things last. Finite, limited, subject to the same measure as everything else.
 
 ### The evidence: this is a pair, not a totality
@@ -52,7 +52,7 @@ And here is why "the cosmos" — the reasonable correction, the one that flees t
 - **They take separate predicates.** 天長地久 (7) — *the sky is lasting, the earth enduring.* Split down the middle, each with its own verb.
 - **They mate.** 天地相合，以降甘露 (32) — *sky and earth join together, and sweet dew descends.* Rain as a coupling of above and below, the union that feeds everyone with no one giving an order. Only two things can come together.
 
-There is also an architecture to protect. Chapter 1 moves *nameless → 天地 → 萬物*: the undifferentiated, then the primal **pair**, then the ten-thousand. That is Chapter 42 in miniature — 一生二，二生三，三生萬物 — where 天地 is the classic reading of the **two**. Render it as a single abstraction and the arithmetic of emergence quietly breaks: the middle term stops being a two and becomes a fog.
+There is also an architecture to protect. Chapter 1 moves *nameless → 天地 → 萬物*: the undifferentiated, then the primal **pair**, then the countless things. That is Chapter 42 in miniature — 一生二，二生三，三生萬物 — where 天地 is the classic reading of the **two**. Render it as a single abstraction and the arithmetic of emergence quietly breaks: the middle term stops being a two and becomes a fog.
 
 ### What we set aside
 

@@ -14,7 +14,14 @@
 #
 # Witness ids: wangbi (our base) · mawangdui-a (甲本, c. 200 BCE) ·
 # mawangdui-b (乙本, c. 175 BCE) · guodian (~300 BCE) · beida (early Han) ·
-# fuyi (Tang) · heshanggong · hanfeizi (解老 / 喻老, oldest commentary)
+# fuyi (Tang) · fanyingyuan (范應元, Song) · heshanggong ·
+# hanfeizi (解老 / 喻老, oldest commentary)
+#
+# EXCAVATED vs TRANSMITTED. guodian, mawangdui-a/b and beida came out of the
+# ground; fuyi, fanyingyuan, heshanggong and wangbi came down by copying. A
+# transmitted edition may still preserve an old reading — but "the oldest
+# witness" means the excavated ones, and an entry that follows a transmitted
+# reading against all of them must say so in its note. See ch 25.
 #
 # Fields:
 #   chapter          int
@@ -95,35 +102,44 @@
 - chapter: 25
   line: "故道大，天大，地大，王亦大"
   base: "王"
-  witnesses: { mawangdui-a: "人", mawangdui-b: "人" }
+  witnesses: { guodian: "王", mawangdui-a: "王", mawangdui-b: "王", beida: "王", fuyi: "人" }
   meaning_bearing: true
-  our_call: mawangdui-a
+  our_call: fuyi
   note: >
-    King or human among the four greats. Both silks read 人, and the older silk
-    reads 人 in the following line too, so it has no king in the passage at all.
-    The received text then contradicts itself with 人法地. See DISCOVERIES.md §1.
+    CORRECTED 2026-08-20. This entry previously recorded "both silks read 人"
+    and was wrong in the opposite direction. Every EXCAVATED witness reads 王
+    (wáng — king), Guodian (~300 BCE) included. 人 (rén — human) is a
+    TRANSMITTED reading: 傅奕 (Fu Yi, Tang) carries it and claims a 古本
+    ancestor. We still follow 人, but on internal grounds — the next line is
+    人法地 — and not on manuscript age. See notes/manuscript.md.
   logged: notes/manuscript.md
 
 - chapter: 25
   line: "域中有四大，而王居其一焉"
   base: "王"
-  witnesses: { mawangdui-a: "人", mawangdui-b: "王" }
+  witnesses: { guodian: "王", mawangdui-a: "王", mawangdui-b: "王", beida: "王", fanyingyuan: "人" }
   meaning_bearing: true
-  our_call: mawangdui-a
+  our_call: fanyingyuan
   note: >
-    Silk B is caught mid-drift: 人 in the list of four, 王 here. The throne can
-    be watched arriving between the two silks.
+    CORRECTED 2026-08-20; the "silk B caught mid-drift" reading recorded here
+    before was an artefact of a bad source. Guodian, both silks and the Beida
+    Han slips all read 而王居一焉. The earliest extant witness for 人居其一焉 is
+    范應元 (Fan Yingyuan, Song), 老子道德經古本集註. We follow it as an editorial
+    call, logged as such.
   logged: notes/manuscript.md
 
 - chapter: 25
   line: "域中有四大"
   base: "域"
-  witnesses: { mawangdui-a: "國", mawangdui-b: "國" }
+  witnesses: { guodian: "國", mawangdui-a: "國", mawangdui-b: "國", beida: "國" }
   meaning_bearing: false
   our_call: base
   note: >
-    域 is a bounded domain, 國 a state. Both are spatial and "within the realm"
-    serves either, so this is logged rather than decided.
+    域 (bounded ground: 土 + 或) and 國 (a wall around the same 或) are one root
+    with two classifiers, so the fork is not meaning-bearing. Worth keeping in
+    view all the same: every excavated witness reads the STATE word, so the
+    territorial frame is the oldest layer in this passage — older than the
+    throne debate sitting beside it.
   logged: notes/manuscript.md
 
 - chapter: 25
@@ -406,3 +422,165 @@
     contradicts the chapter's 何棄之有.
   logged: notes/manuscript.md
 
+
+- chapter: 64
+  line: "其脆易泮，其微易散"
+  base: "泮"
+  witnesses: { heshanggong: "破" }
+  meaning_bearing: true
+  our_call: base
+  note: >
+    Our Wang Bi base reads 泮 (pàn — to thaw; the water radical, ice going
+    soft), Heshang Gong's lemma text reads 破 (pò — to shatter). Thaw versus
+    break, for a thing described as 脆 (cuì — brittle). The Siku editors flag
+    the head character too — 〔案脆釋文云一作膬〕, the Shiwen reporting 膬 for
+    脆. We keep the base graph and render toward shattering, which is what
+    brittleness does; the fork is small but it is the difference between a
+    thing dissolving and a thing snapping.
+  logged: notes/manuscript.md
+
+- chapter: 64
+  line: "whole chapter"
+  base: "one continuous chapter"
+  witnesses: { guodian: "halves separated; second half copied twice" }
+  meaning_bearing: false
+  our_call: base
+  note: >
+    At Guodian the two halves of this chapter are not adjacent and not
+    equally attested. Bundle A carries the second half (為者敗之 onward) in its
+    first slip-unit and the first half (其安易持 onward) in its fourth, with
+    other chapters between them; bundle C carries the second half again. So the
+    second half is the only passage in the Guodian Laozi copied twice, and the
+    two halves never appear joined in the order our base text gives them. A
+    fact about how the material circulated around 300 BCE, not a fork to
+    decide — but strong evidence the received chapter is two sayings joined,
+    and the seam is visible in the sense at exactly the point the slips break
+    it. See sources/guodian-inventory.yaml.
+  logged: notes/manuscript.md
+
+- chapter: 65
+  line: "知此兩者亦稽式"
+  base: "稽"
+  witnesses: { heshanggong: "楷" }
+  meaning_bearing: false
+  our_call: base
+  note: >
+    Our Wang Bi base reads 稽式 (jī shì); Heshang Gong's text reads 楷式 (kǎi
+    shì), and the Siku editors flag it themselves — 〔案河上公注本稽作楷下同〕,
+    "in the Heshang Gong recension 稽 is written 楷, and likewise below." Both
+    compounds mean a standard or model, so the English is the same either way.
+    Recorded because the two commentators gloss it differently and the reading
+    turns on that, not on the graph: Wang Bi takes 稽 as 同 (tóng — held in
+    common), 今古之所同則不可廢, "what past and present hold in common cannot be
+    discarded"; Heshang Gong takes 楷式 as 法式, the working pattern for
+    governing self and state.
+  logged: notes/manuscript.md
+
+- chapter: 67
+  line: "天下皆謂我道大，似不肖"
+  base: "我道大"
+  witnesses: { heshanggong: "我大" }
+  meaning_bearing: true
+  our_call: heshanggong
+  note: >
+    RESOLVED 2026-08-19 — we follow 我大, "I am vast," against our own base text.
+    Six arguments converge. (1) 不肖 is a self-deprecating FIRST-PERSON term in
+    classical Chinese — "I, the unworthy one," from a child not resembling its
+    father; it is a person-word. (2) Heshang Gong's lemma omits 道 and his
+    comment is unmistakably personal: 我則佯愚似不肖, "I then feign foolishness
+    and seem unworthy." (3) He reads 細 as 小人, a petty person, not a small
+    thing — which is where the earlier argument for the base text collapsed.
+    (4) The chapter continues 我有三寶 with no change of subject. (5) 我 is the
+    self SEEN (glossary/wo-wu-我吾.md), which is exactly what 天下皆謂我 needs.
+    (6) Ch 20 and Ch 70 are the same chapter in other words, both first-person,
+    both about being misperceived by 天下, and Ch 20 shares the 我…似X shape
+    verbatim. 道 looks like a copyist softening an apparent boast. The base text
+    and Source table keep 道; only the verse follows the witness, as at Ch 21.
+  logged: notes/manuscript.md
+
+- chapter: 67
+  line: "不敢為天下先，故能成器長"
+  base: "器"
+  witnesses: { hanfeizi: "事" }
+  meaning_bearing: true
+  our_call: base
+  note: >
+    The Siku compilers flag it themselves — 〔案器韓非子作事〕, "for 器, the Han
+    Feizi text reads 事." So the oldest witness to this passage reads 成事長,
+    chief of affairs, where our base reads 成器長, chief of vessels. The
+    difference is real: 器 (vessel, and the counter-term to 樸, uncarved wood)
+    makes the line say that the uncarved comes to lead the carved; 事 (affairs)
+    makes it an ordinary claim about precedence in undertakings. We keep 器,
+    which Ch 28's 樸散則為器 supports, and log the older reading rather than
+    bury it.
+  logged: notes/manuscript.md
+
+- chapter: 73
+  line: "天之所惡，孰知其故？"
+  base: "line absent"
+  witnesses: { wangbi: "是以聖人猶難之", heshanggong: "是以聖人猶難之" }
+  meaning_bearing: true
+  our_call: wangbi
+  note: >
+    RESOLVED 2026-08-20 — the line is RESTORED to the Source table and to
+    source/chinese.md, by Shalom's call. Our base text had OMITTED a line that both classical commentaries carry after
+    孰知其故 — 是以聖人猶難之, "therefore even the sage finds it difficult." It
+    is not a variant reading but a missing line, and both commentators build
+    their argument on it: Wang Bi writes 夫聖人之明猶難於勇敢，況無聖人之明而欲行之也
+    ("the sage's own clarity still finds daring difficult; how much more one
+    who lacks it and means to act anyway"), and Heshang Gong glosses it almost
+    identically. Modern editors delete it as an importation from Ch 63, where
+    the same six characters stand followed by 故終無難矣. But the deletion is
+    editorial and modern, and the two oldest commentaries on our own base
+    recension both had the line in front of them. UNDECIDED: restoring it means
+    adding a row to the Source table, which is a base-text change and Shalom's
+    call. The verse is currently drafted without it.
+  logged: notes/manuscript.md
+
+- chapter: 68
+  line: "善勝敵者，不與"
+  base: "敵"
+  witnesses: { heshanggong: "戰" }
+  meaning_bearing: false
+  our_call: base
+  note: >
+    Our base reads 善勝敵者, "one masterful at overcoming enemies"; Heshang
+    Gong's lemma reads 善勝戰者, "one masterful at winning battles." His own
+    comment then uses 敵 twice — 不與敵爭而敵自服也 — so the reading behind the
+    commentary is our base's, and the lemma looks like a copyist's assimilation
+    to 善戰者 in the line above. Not meaning-bearing; logged because the
+    chapter's four parallel 善X者 clauses are its whole structure, and a witness
+    that repeats 戰 in two of them flattens it.
+  logged: notes/manuscript.md
+
+- chapter: 69
+  line: "故抗兵相若，哀者勝矣"
+  base: "相若"
+  witnesses: { wangbi: "相加", heshanggong: "相加" }
+  meaning_bearing: false
+  our_call: base
+  note: >
+    Our base text reads 相若 (xiāng ruò — "are alike"), but the Siku printing of
+    Wang Bi and the Song Heshang Gong both lemmatise 相加 (xiāng jiā), and Wang Bi
+    glosses it 加當也 — "加 means to be a match for." Both readings land on
+    "evenly matched," so nothing in the English turns on it. Logged because this
+    is the third place our so-called Wang Bi base departs from the Siku Wang Bi
+    (see Ch 2 and Ch 73), which is a fact about the base text rather than about
+    this chapter.
+  logged: notes/manuscript.md
+
+- chapter: 72
+  line: "無狎其所居"
+  base: "狎"
+  witnesses: { heshanggong: "狹" }
+  meaning_bearing: true
+  our_call: base
+  note: >
+    Two homophones, xiá. 狎 is 犭 (dog) beside 甲 — to crowd in, to grow
+    over-familiar, to make light of. 狹 is 犭 beside 夾 (squeezed between) —
+    narrow, cramped. The base reading is an act done to the people from
+    outside; 河上公's is a condition of the space itself, which is what his
+    reading of the chapter needs (心居神…當寬柔，不當急狹 — "the heart is where
+    the spirit dwells; it should be broad and yielding, not tight and cramped").
+    王弼 has 狎 in his own commentary (自貴則物狎厭居生), so the base is secure.
+  logged: notes/manuscript.md

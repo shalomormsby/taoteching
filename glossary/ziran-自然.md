@@ -1,17 +1,19 @@
 ---
 term: "自然"
 pinyin: "zì rán"
-render: "the self-so / of itself"
-forbidden: ["Nature", "spontaneity"]
+render: "of itself / of themselves · so of itself"
+forbidden: ["Nature", "spontaneity", "self-so"]
 chapters: [17, 23, 25, 51, 64]
 status: locked
 pairing: false
 ---
-## 自然 (Zìrán) — The Self-So
+## 自然 (Zìrán) — Of Itself
 
-*Say "dzuh rahn," the first falling, the second rising. Five appearances only — 17, 23, 25, 51, 64 — and one of them is the last line of Chapter 25, where Laozi names the thing the Tao itself takes as its model. Few words in the book carry more weight per occurrence.*
+*Say "dzuh rahn," the first falling, the second rising. Five appearances only — 17, 23, 25, 51, 64 — and one of them is the last line of Chapter 25, where the Tao is said to take its model from this and nothing further. Few words in the book carry more weight per occurrence.*
 
-**Locked: 自然 → "the self-so" / "of itself" / "of themselves."** *(Never capital-N "Nature.")*
+**Locked: 自然 → "of itself" / "of themselves" / "so of itself."** *(Never capital-N "Nature." Never "self-so" — see below.)*
+
+**Revised 2026-08-24.** This entry previously locked **"the self-so,"** and Shalom reopened it on the grounds that the word felt wrong. It was. The reasoning is in *Why "the self-so" was retired*, below, and it is worth reading before the rest, because the error it describes is one this entry itself was written to prevent.
 
 There are two dangers here, and the second is subtler than the first.
 
@@ -27,31 +29,55 @@ The **quieter** danger is inconsistency. 自然 appears only five times, and if 
 
 **And 然 does that work alone, three times, in one formula.** Chapters 21, 54 and 57 all close on 吾何以知…**然**哉？以此 — *"how do I know it is **so**? By this."* (Ch 21's is a witness reading; our base text has 狀 there, and the Manuscript Notes carry the argument.) The question Laozi asks about the world, about the origin of the many, and about his own claims is not *what is its shape* but **is it so** — and he asks it in the word he builds 自然 out of. So the formula and the term are the same thought at two scales: *is it so?* / *it is so of itself.* The answer, 以此, is the same in all three: **by this, here, now.**
 
-Put them together and 自然 is exactly, literally: **self-so.** *Thus-of-itself.* So because of itself and nothing else. It is not a place, not a realm, not a collection of trees and animals. It is a **way of being so** — the condition of a thing whose being-that-way comes from nowhere but itself.
+Put them together and 自然 is, literally, **self + so**: so because of itself and nothing else. It is not a place, not a realm, not a collection of trees and animals. It is a **way of being so** — the condition of a thing whose being-that-way comes from nowhere but itself.
 
 ### Chapter 25 — the ladder that must terminate
 
 The book's most famous ascent closes on this word:
 
 > 人法地，地法天，天法道，道法自然。
-> *Humans model themselves on earth; earth models itself on sky; sky models itself on the Tao; and the Tao models itself on the self-so.*
+> *Humans model themselves on earth; earth models itself on sky; sky models itself on the Tao; and the Tao models itself on being what it is.*
 
 **法** (*fǎ*) is *law, pattern, to take as one's model*. Each rung takes its pattern from the rung above. And then the ladder stops — and *how* it stops is the entire point.
 
 Render 自然 as "Nature" and the line says *the Tao follows Nature*, which places something **above the Tao**. That contradicts the book at its foundation: this same chapter says the Tao was 先天地生 — *born before sky and earth* — and Chapter 4 calls it older than any ancestor. Nothing precedes it. A translation that puts Nature on top has not made a small slip; it has inverted the cosmology and broken the chapter it appears in.
 
-Read correctly, the ladder is a **regress that dissolves**. Each thing patterns itself on something further up, until you reach the Tao, which patterns itself on — *being so of itself.* There is no fifth term. The climb ends not by arriving somewhere higher but by discovering that the top of the ladder is standing on its own ground. Wang Bi, our base commentator, says as much: 自然 is 無稱之言，窮極之辭 — *a word that designates nothing, an expression of the ultimate.* It is what you say when there is nothing further to say.
+Read correctly, the ladder is a **regress that dissolves**. Each thing patterns itself on something further up, until you reach the Tao, which patterns itself on — *being what it is.* There is no fifth term. The climb ends not by arriving somewhere higher but by discovering that the top of the ladder is standing on its own ground.
+
+**Both commentators say this outright, and they say it in the same word.** 王弼: 道不違自然乃得其**性**…自然者，無稱之言，窮極之辭也 — *"the Tao does not go against 自然 and so attains its **nature** … 自然 is a term that **designates nothing**, an expression of the ultimate."* 河上公, blunter: 道**性**自然，無所法也 — *"the Tao's **nature** is 自然; **there is nothing it takes as a model**."* Both gloss the line with 性 (*xìng* — inherent nature), and both insist the ladder has no fourth rung above it.
+
+**So the English at this one place refuses to supply a noun** — *"the Tao models itself on being what it is"* — and that is the deliberate exception the working register records below. 法 stays *models itself on* through all four rungs, so the pattern holds; what changes is that the object stops being a **name** (earth, sky, the Tao) and becomes a **clause**. The dissolution is made grammatically visible. A ladder that ends in *A is A* has ended. *(Shalom's rendering, 2026-08-24.)*
+
+#### The closest rival, and why it was refused
+
+Anyone working on this line arrives sooner or later at:
+
+> *"The Tao models itself on **its own nature**."*
+
+**It is the strongest alternative there is, and it should be understood before it is dismissed.** It is not a paraphrase — it is 性 (*xìng* — inherent nature), the exact word **both** commentators reach for here: 王弼's 道不違自然乃得其**性** and 河上公's 道**性**自然. It reads cleanly. And it carries the **自** lexically, in *its own*, which is the one thing the chosen rendering does not do with a dedicated word. *(Tested and set aside by Shalom, 2026-08-24.)*
+
+Three things defeat it.
+
+**1 · *Nature* is already spoken for, by 天 — though more loosely than first stated here.** `concordance.py --english "nature"` returns nine lines across the book and **not one is backed by 自然**. Seven render 天 (*tiān*) where it acts as an agent: *the way of nature* (9, 47, 73), *serving nature* (59), *when nature would rescue someone* (67), *nature's net is vast* (73). *(The other two are Ch 16's "returning to your original nature," which renders 復命 — fù mìng, returning to the allotted course — and is a separate looseness, flagged in `RETROFIT.md`.)*
+
+**This objection is real but weaker than the two below, and the correction is worth recording.** 天 is **split** in this edition, coherently: **as a cosmic tier it is *sky*** (天地; 39's 天得一以清; both ascent ladders), and **as an agent that gives, hates or judges it is *nature***. So on the page of Chapter 25 the third rung reads **sky**, not *nature*, and there is no collision in the line itself. The collision is at book level — a reader who has met *the way of nature* knows the word points at 天 — and it puts the alternative one syllable from *"the Tao follows Nature,"* the mistranslation this entry exists to prevent. That is enough to weigh, not enough to decide. *(Caught by Shalom, 2026-08-24: the first version of this paragraph claimed all nine lines and read the split as though 天 were only ever *nature*.)*
+
+**2 · 河上公 reaches for 性 in order to *cancel* the modelling, not to supply it.** His sentence does not stop at 道性自然. It runs 道性自然，**無所法也** — *"the Tao's nature is 自然, **and so there is nothing it models itself on.**"* The alternative keeps the modelling relation intact and fills its empty slot with a noun, which is the opposite of the conclusion he draws from the word he is being quoted for.
+
+**3 · It re-posits a thing.** *Its own nature* is a possessed noun, so there are now two items — the Tao, and the nature it conforms to. That is milder than *the self-so*, since a possessive is weaker than a definite article, but it is **the same axis**, and it is the axis this line was rewritten to clear. 王弼's 無稱之言 — *a term that designates nothing* — tolerates neither.
+
+**And the 自 is less lost than it looks.** English carries the reflexive in its pronouns where Chinese carries it in a morpheme: *models **itself** on being what **it** is* holds the self-reference twice, and *what it is* sits close to *how it is*, which is 然. The chosen line does more of the work than a first reading credits.
 
 ### Why this is the ground beneath 無為
 
 Here is the structural point that makes 自然 more than a curiosity, and it is worth stating plainly.
 
-**無為** (*wúwéi* — "non-doing") asks you to take your hand off the elephant. But why would that be wise rather than negligent? Only if the elephant is going somewhere on its own. **自然 is that guarantee.** Things are self-so: they have their own direction, their own unfolding, their own sufficiency. Non-doing is not abandonment because there is something there to trust.
+**無為** (*wúwéi* — "non-doing") asks you to take your hand off the elephant. But why would that be wise rather than negligent? Only if the elephant is going somewhere on its own. **自然 is that guarantee.** Things are so of themselves: they have their own direction, their own unfolding, their own sufficiency. Non-doing is not abandonment because there is something there to trust.
 
 Chapter 64 puts both words in a single line, and it is the most compact statement of the whole ethic:
 
 > 以輔萬物之自然，而不敢為。
-> *…to assist the self-so of the ten-thousand things, and not dare to handle them.*
+> *…to support the countless things in being so of themselves, and never push them.*
 
 **Assist**, not manage. 輔 (*fǔ*) is the word for a support strut, a brace on a cart. You may prop something up in the direction it is already going. You may not steer it.
 
@@ -67,13 +93,27 @@ The best ruler is the one whose work is invisible, because those who lived throu
 The nose-character does not appear only in this compound. It threads through some of the book's most important lines, and once the lock is in place a reader can follow it:
 
 - **Chapter 57**, four times in four lines, each ending in 自: 民**自**化 · 民**自**正 · 民**自**富 · 民**自**樸 — the people transform, right, enrich, and simplify **themselves**.
-- **Chapters 32 and 37**: 萬物將**自**賓 · 萬物將**自**化 — the ten-thousand things submit, transform, *of themselves*.
+- **Chapters 32 and 37**: 萬物將**自**賓 · 萬物將**自**化 — the countless things submit, transform, *of themselves*.
 - **Chapter 73**: 不召而**自**來 — *not summoned, yet it comes of itself.*
 - **Chapter 51**: 莫之命而常**自然** — *no one commands it, and it is ever so of itself.*
 
 The pattern is the argument: nobody is in charge, and things happen anyway. Better, in fact, than when someone is.
 
+### Why "the self-so" was retired
+
+This entry locked **"the self-so"** from its writing until 2026-08-24, and the case against it is the entry's own case against "Nature," turned around.
+
+**It is a noun, and both commentators say there is no thing there.** 王弼's 無稱之言 — *a term that designates nothing* — and 河上公's 無所法也 — *there is nothing it models itself on* — are refusals to name an entity. English **"the self-so"** is a definite noun phrase, and *the* is an instruction to the reader to go looking for a thing. Once they look, 自然 becomes something the Tao defers to: a fifth rung. That is the same structural error as "Nature," smaller in degree and identical in kind. This entry diagnosed the disease and then carried a milder strain of it.
+
+**It fails the pointing test, and 河上公 shows what passing looks like.** Glossing Chapter 23 he writes 雲從龍，風從虎，水流濕，火就燥，自然之□也 — *"clouds follow the dragon, wind follows the tiger, water flows toward the damp, fire goes toward the dry — this is 自然's [way]."* He points at **water finding the low ground.** Nobody can point at *the self-so*. It is a calque: it lives only inside sinology, and in the verse it survived only because a note explained it. A term that needs its own footnote to be read has failed the poetry half of this edition's brief.
+
+**And the lock had already lost.** Its stated fear was that local renderings would make the term invisible. Three of the five lines paraphrased anyway — 17, 51 and 64 — and those three read *well*. What the lock actually preserved was the calque in the two lines it damaged.
+
+**What is kept is the analysis, which was right and which produced the answer**: the nose, the roasting-fire borrowed for its sound, and the 吾何以知…然哉 formula. Retiring the calque in fact makes that analysis *audible in the verse for the first time*. The claim of `DISCOVERIES.md` §2 is that 然 means **so** — and *things go of themselves*, *always so of itself*, *so of themselves* all say **so**. A hyphen had buried it.
+
 ### What we set aside
+
+**"The self-so."** Forbidden. A calque that names a thing where the Chinese and both commentators refuse to. Retained nowhere.
 
 **"Nature," capitalized.** An anachronism and, in Chapter 25, an inversion. It also drags in Romanticism — Nature as a numinous presence to commune with, the sublime, the wilderness — which is a European inheritance, not a Chinese one. Laozi is not a nature poet; he is describing a *mode of causation*.
 
@@ -87,10 +127,19 @@ The pattern is the argument: nobody is in charge, and things happen anyway. Bett
 
 ### The working register
 
-- as the term or noun → **the self-so** (道法自然 → "the Tao models itself on the self-so"; 萬物之自然 → "the self-so of the ten-thousand things")
-- adverbial → **of itself / of themselves** (常自然 → "ever so of itself")
-- in the people's mouth (17) → **"we did this ourselves"** — keep the plain human voice; a peasant does not say *self-so*
-- as an adjective, sparingly → **self-so**, occasionally *natural* where no noun-drift is possible (希言自然 → "sparing speech is self-so")
+**The rule: 自然 is rendered as a movement, never as a name.** Four of the five occurrences are adverbial and take the plain English; the fifth is the exception, and it is an exception in the direction of *less* noun, not more.
+
+| Ch | Chinese | Rendered | Slot |
+|---|---|---|---|
+| 17 | 我**自然** | "We did this by ourselves." | in the people's mouth — keep the plain human voice |
+| 23 | 希言**自然** | "Speak sparingly, for things go of themselves." | 自然 as the **ground**, not the consequence |
+| 25 | 道法**自然** | "The Tao models itself on being what it is." | the one noun slot, answered with a **clause** |
+| 51 | 常**自然** | "It is always so, of itself." | adverbial |
+| 64 | 萬物之**自然** | "in being so of themselves" | possessed — a gerund, not a noun |
+
+**Chapter 23 takes "for," not "and."** 希言自然 is A-自然 compressed to four characters and English has no predicate slot that fits it; this is a **strain case**, logged as one in `notes/translation.md`. *For* makes sparing speech follow **from** things going of themselves, which is 河上公's 愛言者自然之道 and the mechanism of Chapter 17. *And* would make it a consequence, which reverses the dependency.
+
+**The trade to keep in view.** Chapter 25 spends the 自 — *"being what it is"* names the state but not its provenance, and the whole force of the nose-character is that the being-so comes **from the thing itself and nowhere else**. That loss is accepted there and paid back everywhere else: the four adverbial cases all carry *itself / themselves*. **The one place the term is a noun is the one place we decline to translate it as one** — which may be the truest thing this entry can say about the word.
 
 
 ### A note on Alan Watts

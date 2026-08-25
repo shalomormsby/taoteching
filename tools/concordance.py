@@ -27,7 +27,8 @@ from collections import defaultdict
 from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
-from lib.corpus import ROOT, load_chapters, load_terms, load_variants  # noqa: E402
+from lib.corpus import (ROOT, load_chapters, load_guodian, load_terms,  # noqa: E402
+                        load_variants)
 
 BOLD, DIM, OFF = "\033[1m", "\033[2m", "\033[0m"
 
@@ -253,6 +254,27 @@ def show_commentary(number, quiet=False):
 
 # ------------------------------------------------------------------- witnesses
 
+def _show_guodian(number):
+    """Whether the oldest witness carries this chapter at all.
+
+    An inventory, never a text — see sources/guodian-inventory.yaml for why the
+    slips are recorded as facts and never transcribed. Printed above the forks
+    because "the oldest witness does not have this chapter" changes how much
+    weight the later ones carry, and that is worth knowing before drafting.
+    """
+    g = load_guodian(number)
+    if not g:
+        print(f"  {DIM}guodian (~300 BCE): not attested — this chapter rests on "
+              f"the silks and later witnesses.{OFF}")
+        return
+    where = " + ".join(f"bundle {b}" for b in g.bundles)
+    extent = "" if g.extent == "complete" else f", {g.extent} only"
+    print(f"  {BOLD}guodian (~300 BCE){OFF}: attested — {where}{extent}"
+          f"  {DIM}[{', '.join(g.units)}]{OFF}")
+    if g.note:
+        print(f"      {DIM}{g.note}{OFF}")
+
+
 def show_witnesses(number, chapters, quiet=False):
     """Where the older witnesses disagree with our base text, for one chapter.
 
@@ -267,6 +289,8 @@ def show_witnesses(number, chapters, quiet=False):
     if ch and not ch.drafted:
         print(f"  {DIM}[{ch.status}]{OFF}", end="")
     print()
+
+    _show_guodian(number)
 
     if not variants:
         print(f"  {DIM}no forks recorded. That may mean none exist, or that no "
@@ -348,6 +372,10 @@ def main():
                  "witnesses": v.witnesses, "meaning_bearing": v.meaning_bearing,
                  "our_call": v.our_call, "note": v.note, "logged": v.logged}
                 for v in load_variants(args.witnesses)]
+            g = load_guodian(args.witnesses)
+            payload["guodian"] = None if not g else {
+                "attested": True, "bundles": g.bundles, "extent": g.extent,
+                "units": g.units, "note": g.note}
         if args.formulas:
             index = defaultdict(set)
             for ch in chapters.values():

@@ -53,7 +53,7 @@ It is easy to read 無為 as private spirituality. In the text it is overwhelmin
 > 我無事，而民自富 — *I do not interfere, and the people enrich themselves.*
 > 我無欲，而民自樸 — *I am without desire, and the people become plain of themselves.*
 
-Every line ends in **自** (*zì* — "of itself, by itself"). That is the engine. 無為 works because things are 自然 (*zìrán* — "self-so"): they have their own nature and their own direction. The ruler who stops steering is not neglecting the people; they are trusting a momentum that was always there. And the parallel chapters show the alternative — the more laws proclaimed, the more thieves (57); *the one who handles it ruins it* (29, 64).
+Every line ends in **自** (*zì* — "of itself, by itself"). That is the engine. 無為 works because things are 自然 (*zìrán* — "so of itself"): they have their own nature and their own direction. The ruler who stops steering is not neglecting the people; they are trusting a momentum that was always there. And the parallel chapters show the alternative — the more laws proclaimed, the more thieves (57); *the one who handles it ruins it* (29, 64).
 
 ### The lock: why "non-doing" and not "non-action"
 
