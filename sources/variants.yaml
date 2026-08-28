@@ -584,3 +584,74 @@
     the spirit dwells; it should be broad and yielding, not tight and cramped").
     王弼 has 狎 in his own commentary (自貴則物狎厭居生), so the base is secure.
   logged: notes/manuscript.md
+
+- chapter: 74
+  line: "夫代司殺者殺，是謂代大匠斫"
+  base: "代司殺者殺"
+  witnesses: { heshanggong: "代司殺者" }
+  meaning_bearing: false
+  our_call: base
+  note: >
+    Our base doubles 殺 — "to stand in for the one who presides over killing
+    and kill." 河上公's lemma has it once: 夫代司殺者是謂代大匠斵. The Siku
+    editors flag the divergence inside 王弼's own commentary text
+    〔案河上公注本作夫代司殺者是謂代大匠斲〕, so both printings in this
+    repository agree that the two recensions differ here. Nothing in the
+    English turns on it: an office named "the one whose work is the killing"
+    already contains the act. Logged because it is a fourth place our base
+    departs from a Siku-flagged reading (see Ch 2, 68, 73).
+  logged: notes/manuscript.md
+
+- chapter: 75
+  line: "民之輕死，以其上求生之厚，是以輕死"
+  base: "以其上求生之厚"
+  witnesses: { wangbi: "以其求生之厚", heshanggong: "以其求生之厚" }
+  meaning_bearing: true
+  our_call: base
+  note: >
+    Our base has 上 (shàng — those above) in the third charge; the lemmas in
+    both commentary printings vendored here lack it, which throws 其 back onto
+    the people and reverses who is being accused. 河上公's gloss reads it as the
+    people; 王弼's comment — 皆由上不由其下也, "entirely due to those above, not
+    those below" — reads the sense our base spells out. We keep the base for the
+    triple parallel and for 王弼's 皆. Logged in notes/manuscript.md.
+  logged: notes/manuscript.md
+
+- chapter: 76
+  line: "是以兵強則不勝，木強則折"
+  base: "木強則折"
+  witnesses: { wangbi: "木強則兵", heshanggong: "木強則共" }
+  meaning_bearing: true
+  our_call: base
+  note: >
+    A three-way split, and both commentary printings vendored here depart from
+    our base. 折 (zhé — to snap) is the base. 王弼's lemma reads 兵 (bīng —
+    weapons), and his gloss commits to it: 物所加也, "it is what gets applied to
+    it" — the strong tree draws the axe, so strength attracts violence rather
+    than causing failure. 河上公's lemma reads 共 (gòng — together), glossed
+    木強大枝弱共生其上也, "the tree being big and strong, the weak branches grow
+    together above it" — which turns the line into a setup for the closing
+    couplet about below and above. We keep 折: the chapter's argument is
+    physical throughout (corpse, green stem, dry stick), and 兵 would repeat the
+    character from the clause immediately before it.
+  logged: notes/manuscript.md
+
+- chapter: 80
+  line: "使有什伯之器而不用"
+  base: "什伯之器"
+  witnesses: { heshanggong: "什伯人之器" }
+  meaning_bearing: false
+  our_call: base
+  note: >
+    The Siku editors flag it inside 王弼's own text — 〔案什伯下河上公注本及各本
+    俱有人字〕, "below 什伯, 河上公's commentary edition and all editions have the
+    character 人" — and 河上公's lemma confirms it, splitting at exactly that seam
+    (使有什伯 / 人之器而不用). With 人 the phrase is "tools for tens and hundreds of
+    people"; without it, "ten- and hundred-fold tools." Both land on labour that
+    many hands would otherwise do, which is what 王弼 reads anyway (無所用，何患
+    不足 — "nowhere to use them; why worry about not enough?"). Logged because it
+    is a fifth place our base departs from a Siku-flagged reading (see Ch 2, 68,
+    73, 74), and because 河上公 takes his 人 in a different direction from
+    王弼: 器謂農人之器 — the tools are the *farmers'*, and 不用 means the state
+    does not requisition them (不徵召奪人良時也).
+  logged: notes/manuscript.md

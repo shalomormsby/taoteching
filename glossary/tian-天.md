@@ -60,7 +60,7 @@ Here 地 is absent every time, and 天 takes verbs. *The sky rescues someone* an
 
 More than half the solo occurrences are one compound, which makes it the load-bearing case.
 
-**It is not divine will.** Chapter 77 says what it is: 天之道，其猶張弓與？高者抑之，下者舉之 — *"the way of nature: is it not like drawing a bow? The high is pressed down, the low is raised."* A bow being strung is a **mechanism**, and what it describes is **levelling** — the surplus taken, the deficit filled. Chapter 81 makes the same word do ethics without a legislator: 天之道，利而不害 — *"the way of nature benefits and does not harm."*
+**It is not divine will.** Chapter 77 says what it is: 天之道，其猶張弓與？高者抑之，下者舉之 — *"the way of nature: is it not like stringing a bow? The high end is pressed down, the low end lifted."* 河上公 glosses 張弓 with 和調 (*hé tiáo* — harmonize and tune), so the image is a bowyer bracing a bow, not an archer aiming one, and 王弼 names the mechanism 均 (*jūn* — to make even). What it describes is **levelling** — the surplus taken, the deficit mended. Chapter 81 makes the same word do ethics without a legislator: 天之道，利而不害 — *"the way of nature benefits and does not harm."*
 
 **And the book blocks the personal reading itself.** Chapter 5: 天地不仁 — *"sky and earth are not humane."* A 天 that has no 仁 (*rén* — humaneness) is not a judge, a father, or a lawgiver. Chapter 79's 天道無親 says it again from the other side: **無親**, *without partiality, playing no favourites*. The Zhou dynasty's 天 issued the 天命 (*tiān mìng* — the mandate of heaven) to kings and withdrew it from tyrants. **Laozi keeps the word and empties the throne.**
 
