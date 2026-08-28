@@ -287,3 +287,41 @@ Our base reads 無**狎**其所居 (*wú xiá qí suǒ jū*). 河上公's lemma 
 **Our call: 王弼.** 民 (*mín* — the people) is the topic of the line immediately before, and 其 takes the nearest available antecedent; 河上公 has to import 心 (heart) and 神 (spirit), neither of which appears anywhere in the chapter. That is his physiological school reading itself into the text, and it is the same move that turns Ch 6's valley spirit into an organ.
 
 **It is not thereby worthless, and this is not averaged into a consensus.** The chapter's second half is four 自 (*zì* — self) in two lines — 自知, 不自見, 自愛, 不自貴 — the densest reflexive run in the book. The chapter really does turn inward, and 河上公's title names where it lands. See `notes/reading.md`.
+
+### Ch 74 · the two commentators disagree about who does the killing, and it is not a textual fork
+
+常有司殺者殺 — *"there is always one whose work is the killing."* The base text names an office and never fills it. Both commentators fill it, differently, and neither reaches for a god.
+
+**河上公 fills it with nature.** 司殺者天 — *"the one who presides over killing is 天 (tiān — sky/nature)"* — and he immediately makes it impersonal and seasonal: 天道至明，司殺者常，猶春生夏長秋□冬藏 — *"the way of nature is utterly clear; the one who presides over killing is ever-present, like spring giving birth, summer growing, autumn [reaping], winter storing."* He closes the gloss on 天網恢恢踈而不失, **the line Ch 73 ends on**, which makes 73 and 74 one argument in his reading: the net already catches everything, so the ruler's axe is surplus.
+
+**王弼 fills it with other people.** 為逆順者之所惡忿也，不仁者人之所疾也，故曰常有司殺也 — *"one who goes against the grain is what the compliant hate and resent; the un-humane (不仁, bù rén) is what people loathe; therefore it says there is always one who presides over killing."* No cosmology at all. The deviant is destroyed by the ordinary revulsion they provoke, and that revulsion is the standing executioner.
+
+**Not averaged.** They agree on the only thing the chapter needs — that the office is already filled and the ruler is not in it — and they disagree about everything else. Our English keeps the office and names no occupant, which is what the base text does. This is the second chapter running where 王弼 and 河上公 supply different referents for a gap classical Chinese leaves open and English usually closes; see the Ch 72 entry above on 其.
+
+### Ch 74 · 殺 once or twice
+
+Our base: 夫**代司殺者殺**，是謂代大匠斫. 河上公's lemma: 夫**代司殺者**是謂代大匠斵 — one 殺, not two. The Siku editors record the divergence inside 王弼's own commentary text, 〔案河上公注本作夫代司殺者是謂代大匠斲〕. We keep the base; nothing in the English turns on it, because an office called *the one whose work is the killing* already carries the verb. Recorded in `sources/variants.yaml` as the fourth Siku-flagged departure of our base text (Ch 2, 68, 73).
+
+### Ch 75 · the third charge, with or without 上
+
+Our base text: 民之輕死，以其**上**求生之厚，是以輕死 — *"the people make light of death because **those over them** want their own lives so rich."*
+
+**Both commentary printings in this repository lack the 上.** 王弼's Siku lemma runs 民之輕死以其求生之厚是以輕死, and 河上公's lemma is the same. Without 上, 其 (*qí*) falls back to 民 (*mín* — the people), and the sentence reverses its aim: the people make light of death because **they themselves** seek to live too thickly. That is not a copyist's shrug. It breaks the chapter's triple parallel — two charges against the rulers, then one against the governed — and it converts the line into a near-duplicate of Ch 50's 以其生生之厚.
+
+**河上公 read it that way.** His gloss is unambiguous: 人民輕犯死者以其求生活之道太厚，貪利以自危 — *"the people make light of risking death because their way of seeking to live is too rich; they covet gain and so endanger themselves."* The subject is the people.
+
+**王弼 did not, even though his lemma lacks the character.** His entire comment on the chapter is 言民之所以僻，治之所以亂，皆由上，不由其下也，民從上也 — *"this says that the reason the people go crooked and government falls into disorder is due **entirely to those above**, not to those below. The people follow those above."* 皆 (*jiē* — entirely, all of them) covers all three charges. He is reading the sense our base spells out, whichever graph sat in front of him.
+
+**Our call: the base.** The 上 is in our text, the triple parallel is the chapter's whole rhetorical engine, and 王弼's 皆由上 licenses it explicitly. But the fork is real and it is doctrinal, not orthographic — it is the difference between a chapter about rulers and a chapter about appetite as such, and 河上公's whole physiological school lives on the second reading. The same split as Ch 72's floating 其, one chapter's distance away, and logged rather than averaged. Recorded in `sources/variants.yaml`.
+
+*Also noted, not logged as a fork:* our base writes 飢 (*jī* — a person's hunger) where 王弼's Siku lemma writes 饑 (*jī* — crop failure, famine). Interchangeable in this period and nothing in the English turns on it; "the people go hungry" serves both.
+
+### Ch 76 · 木強則折 — three readings, and both commentators leave our base
+
+Our base has 折 (*zhé* — to snap). **王弼's lemma has 兵** (*bīng* — weapons), and his gloss commits to it: 物所加也, *"it is what gets applied to it."* The strong tree draws the axe — strength **attracts violence** rather than causing its own failure. **河上公's lemma has 共** (*gòng* — together), glossed 木強大枝弱共生其上也, *"the tree being big and strong, the weak branches grow together above it"* — which makes the line a setup for the closing couplet about below and above rather than an image of breaking.
+
+We keep 折. The chapter's engine is physical from the first line (a corpse, a green stem, a dry stick), and 折 is the physics; 兵 imports an agent. And 兵 would repeat the character from the clause immediately before it, 兵強則不勝, which reads as transmission rather than design. Logged because this is the fifth place our base departs from a reading in the Siku 王弼 (see Ch 2, 68, 69, 73, 74).
+
+### Ch 80 · 什伯之器 — a fifth Siku-flagged 人
+
+Our base reads 什伯之器 (*shí bǎi zhī qì* — "ten- and hundred-fold tools"). The Siku compilers note inside 王弼's own text that 河上公's edition **and all editions** carry a 人 (*rén* — person) there: 〔案什伯下河上公注本及各本俱有人字〕. 河上公's lemma splits at that seam and confirms it. We keep the base; nothing in the English turns on it, since both readings mean tools that stand in for many hands. Recorded in `sources/variants.yaml`, with the fuller point that 河上公 takes his 人 somewhere 王弼 does not — 器謂農人之器, the tools are the *farmers'*, and 不用 is the state declining to requisition them and their season.

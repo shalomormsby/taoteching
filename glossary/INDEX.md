@@ -7,7 +7,7 @@
 python3 tools/build_index.py
 ```
 
-**28 entries.** Sorted by how much of the book each term touches.
+**32 entries.** Sorted by how much of the book each term touches.
 
 | Term | Say | Render as | Never | Chapters | Entry |
 |---|---|---|---|---|---|
@@ -24,6 +24,7 @@ python3 tools/build_index.py
 | **明** | *míng* | clear-seeing / clarity | "enlightenment", "illumination", "brilliance" | 12 | [`ming-明.md`](ming-明.md) |
 | **無為** | *wú wéi* | non-doing | "non-action", "effortless action", "inaction", "doing nothing" | 10 | [`wuwei-無為.md`](wuwei-無為.md) |
 | **器** | *qì* | vessel / tool / implement | "system", "mechanism", "machine", "utensil" | 9 | [`qi-器.md`](qi-器.md) |
+| **一** | *yī* | the one (lowercase) · one thing (ch 22) · plain numeral where it counts | "the One", "Oneness", "the Absolute" | 8 | [`yi-一.md`](yi-一.md) |
 | **信** | *xìn* | trust / trustworthy | "faith", "sincerity", "belief" | 8 | [`xin-信.md`](xin-信.md) |
 | **王** | *wáng* | ruler / sovereign · to rule (verb) | " king", "kings", "monarch", "emperor" | 8 | [`wang-王.md`](wang-王.md) |
 | **天地** | *tiān dì* | sky and earth | "heaven and earth", "the cosmos", "the universe" | 7 | [`tiandi-天地.md`](tiandi-天地.md) |
@@ -31,14 +32,17 @@ python3 tools/build_index.py
 | **敢** | *gǎn* | push / venture — the forward press to take | "dare", "dares", "dared", "daring" | 7 | [`gan-敢.md`](gan-敢.md) |
 | **爭** | *zhēng* | contend / contention | "compete", "competes", "competing", "competition" | 7 | [`zheng-爭.md`](zheng-爭.md) |
 | **玄 & 妙** | *xuán / miào* | dark or profound / subtle | "mystery", "mysterious", "the occult" | 7 | [`xuan-miao-玄妙.md`](xuan-miao-玄妙.md) |
+| **弱** | *ruò* | yielding — and *weaken* only where it takes an object | "frail", "feeble", "feebleness", "powerless" | 6 | [`ruo-弱.md`](ruo-弱.md) |
 | **心** | *xīn* | heart | "mind", "heart-mind", "the wise core", "consciousness" | 6 | [`xin-心.md`](xin-心.md) |
 | **樸** | *pǔ* | uncarved wood / the uncarved | "uncarved block", "simplicity", "purity" | 6 | [`pu-樸.md`](pu-樸.md) |
 | **眾** | *zhòng* | the crowd / the many | "the masses", "the multitude", "the people" | 6 | [`zhong-眾.md`](zhong-眾.md) |
+| **恃** | *shì* | rely on — the heart putting its weight on something | "presume", "presuming", "dependency" | 5 | [`shi-恃.md`](shi-恃.md) |
 | **母** | *mǔ* | mother | "the Source", "the Origin", "the Ground of Being" | 5 | [`mu-母.md`](mu-母.md) |
 | **自然** | *zì rán* | of itself / of themselves · so of itself | "Nature", "spontaneity", "self-so" | 5 | [`ziran-自然.md`](ziran-自然.md) |
 | **公** | *gōng* | impartiality / impartial (the quality) · lord / minister (the office) | "duke", "equanimity", "justice" | 3 | [`gong-公.md`](gong-公.md) |
 | **知足** | *zhī zú* | knowing you have enough / contentment | "sufficiency", "fulfilled" | 3 | [`zhizu-知足.md`](zhizu-知足.md) |
 | **精** | *jīng* | vital essence / essence | "primordial mass", "soul", "spirit" | 2 | [`jing-精.md`](jing-精.md) |
+| **全** | *quán* | whole · stay whole · keep whole (transitive) | "complete", "perfect", "flawless", "restore", "made whole" | 1 | [`quan-全.md`](quan-全.md) |
 
 ## Secondary characters
 
@@ -51,6 +55,7 @@ python3 tools/build_index.py
 | **天** | nature (as ordering principle) | [`tiandi-天地.md`](tiandi-天地.md) — 天地 |
 | **天下** | the world | [`tiandi-天地.md`](tiandi-天地.md) — 天地 |
 | **忠** | loyalty | [`xin-信.md`](xin-信.md) — 信 |
+| **曲** | bend / bent | [`quan-全.md`](quan-全.md) — 全 |
 | **物** | things / something | [`wanwu-萬物.md`](wanwu-萬物.md) — 萬物 |
 | **用** | use | [`wu-you-無有.md`](wu-you-無有.md) — 無 & 有 |
 | **私** | the private / the private self | [`gong-公.md`](gong-公.md) — 公 |

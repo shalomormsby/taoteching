@@ -406,3 +406,168 @@ That is why the chapter's cure is not *govern gently*. It is **自知，自愛**
 **Thread · the two chapters inside Ch 72.** 其 (*qí* — their/its) has no antecedent, and the commentators supply opposite ones. For 王弼 it is the people's dwelling and livelihood, and the chapter is political. For 河上公 it is **your own** — 其所居 is the heart, where the spirit dwells; 其所生 is the vital essence that keeps you alive; and the offence is not taxation but appetite (飲食不節…邪僻滿腹，爲伐本厭神 — *"eating without restraint… depravity filling the belly: this cuts down the root and crushes the spirit"*). His title for the chapter is 〈愛己〉, **loving oneself**.
 
 We render 王弼, because 民 is the topic of the previous line and 河上公 has to import two characters the chapter does not contain. But he is reading something real: **the second half is four 自 in two lines** — 自知, 不自見, 自愛, 不自貴 — the densest run of *self* anywhere in the book. The chapter opens on the people and closes on the person. His reading is what you get if you take the ending as the key to the beginning, and the ending does invite it. `notes/manuscript.md` has the apparatus.
+
+### Ch 74 · the argument is about competence, not mercy
+
+This is the death-penalty chapter, and it is easy to read as a humane plea. It is not, or not only. Laozi does not say killing is wrong. He says **it is not your craft, and someone is already doing it.**
+
+The chapter moves in three beats. First, the deterrent has already failed: people who do not fear death cannot be frightened with it. Second, a fantasy is offered — suppose they did fear it, and I had the power to seize and kill the crooked ones. Third, the fantasy is taken away, not on moral grounds but on grounds of category. There is an office here, and it is filled. Step into it and you are an amateur with a master's axe.
+
+**The image is exact and worth slowing over.** A master carpenter's hand knows where the grain runs. The blade goes where the wood already wants to part. Take that axe up without the hand, and the thing you cut is yourself — not as punishment, but as physics. Nothing in the chapter threatens the ruler with retribution. It tells them what happens to a hand on a tool it has not learned.
+
+**Who holds the axe is left open, and both classical answers are naturalistic.** 河上公 says nature does — the seasons kill on schedule, and Ch 73's net has already caught everything worth catching. 王弼 says other people do — the deviant is destroyed by the revulsion they provoke, without anyone deciding. Neither is a god, and neither is the state. See `notes/manuscript.md`.
+
+**The 樸 parallel is load-bearing** — see the 大制不割 entry below.
+
+### Ch 74 · when *do* people not fear death? 河上公 answers in his first sentence
+
+民不畏死 (*mín bù wèi sǐ*) reads at first like a puzzle — fearing death is the ordinary human condition, so what scenario is being described? Not a spiritual attainment, and not bravado. **Desperation.**
+
+河上公, on the opening line: 治國者刑罰酷深，民不聊生，故不畏死也 — *"when the one governing the state makes punishments cruel and deep, the people have nothing to live on, and so they do not fear death."* 不聊生 is the hinge: to have nothing left worth living for. Squeeze people hard enough and the death penalty stops working, because what you are threatening to confiscate has already lost its value. **The ruler has spent the fear.** It is a resource, and cruelty is what exhausts it.
+
+This makes the chapter's structure a chain rather than a list. 72 opens 民不畏威 — *"when the people no longer fear authority."* 74 opens 民不畏死 — *"when the people do not fear death."* And **75, the very next chapter, states the mechanism outright**: 民之輕死，以其上求生之厚，是以輕死 — *"the people take death lightly because those above grasp so thickly at life."* Read in order: first they stop dreading your power, then they stop dreading death, and 75 names the greed that did it. Ch 74's opening line is not a hypothetical. It is a diagnosis, and the patient is upstream.
+
+**河上公 runs it on the personal register too**, as he runs everything: 治身者嗜欲傷神，貪財殺身，民不知畏之也 — *"one governing the self: appetites wound the spirit, greed for wealth kills the body, and people do not know to fear it."* Same shape, inward. The thing that will kill you is the thing you have stopped being afraid of.
+
+### Ch 74 · 大制不割 and 代大匠斫 are one argument
+
+Ch 28 ends 是以大制不割 — *"therefore the great orchestrator itself does not carve"* — in the chapter where 樸散則為器, the uncarved scattered into tools. Ch 74 ends with a hand on the master carpenter's axe and blood on it.
+
+They are the same shop. 28 says the great one does not carve; 74 says what happens when you carve in a master's place. The book's counsel to leave the uncarved uncarved is not a prohibition on all cutting — someone in these chapters is a master, and the mastery is real. It is a claim about **whose hand knows where the grain runs.** A master carpenter's blade goes where the wood already wants to part; that is what makes it look effortless, and it is the same thing 無為 (*wúwéi* — non-doing) names everywhere else in the book. The ruler in 74 wants the effortlessness without the hand.
+
+*An earlier draft of this chapter kept 斫 as "hewing" and fenced the 樸 connection off as a resonance not to be pressed. Shalom overruled it, and the overruling is right: the English should let a reader see the join and decide, not decide for them by choosing a word that hides it.*
+
+### Thread · 民不畏X — the ruler's appetite, chapters 72 → 74 → 75
+
+Three consecutive chapters open on the same collapse and give it three different depths.
+
+**72** — 民不畏威，則大威至. *When the people no longer fear authority, the great collapse comes.* The fact is stated.
+
+**74** — 民不畏死，奈何以死懼之？ *When the people do not fear death, why try to frighten them with death?* The fact is turned back on the ruler as a question about the futility of the axe.
+
+**75** — 民之輕死，以其上求生之厚. *The people make light of death because those over them want their own lives so rich.* The cause is finally named, and it is not the people's hardness. It is the ruler's appetite.
+
+The arc is worth reading as one movement. 72 says the fear is gone. 74 says you cannot restore it with more killing. 75 says you spent it yourself, on your own living. And 75 escalates through three appetites to get there — for grain, for control, for life — which is why its answer is not a policy but a release: 無以生為, *make no doing of your living*. The ruler who stops making a project of being alive stops charging the people for it.
+
+And the closing line reaches back to 72 by its own character. 貴生 (*guì shēng* — a life held precious) is the 貴 of 不自貴 (*bù zì guì*), two chapters earlier: *"loves themselves and does not hold themselves precious."* 72 asks it of a self; 75 shows what it costs a country when a ruler will not.
+
+Ch 50's 生生之厚 is the same diagnosis without the throne: *because they cling too tightly to life.* Laozi aims it at rulers in 75 and at everyone in 50.
+
+### Ch 76 · the one chapter where being low is the bad news
+
+The book's steadiest piece of advice is to go low. Water dwells where the crowd will not go (ch 8). A great state wins by taking the lower place (ch 61). The sea rules a hundred valleys because it lies beneath them (ch 66). Then Ch 76 closes: **the strong and the big dwell below, the soft and the weak dwell above.**
+
+Both classical commentators resolve it the same way, and the resolution is that this is not a landscape, it is a tree. 王弼 glosses 強大處下 with four characters — 木之本也, *"it is the tree's trunk"* — and 柔弱處上 with 枝條是也, *"these are the branches."* The thick, hard, strong part is at the bottom and it is the part that will be cut. The thin green part is at the top and it is the part that is alive. Height here is not status; it is where the growth is.
+
+河上公 lets it be both at once: 興物造功大木處下小物處上，大道抑強扶弱，自然之效 — *"in raising things and getting work done, big timber sits below and small things sit above; the great Tao presses down the strong and holds up the weak, and this is the effect of things being so of themselves."* He reads the tree and the principle in one breath, which is probably right, but the English does not need to choose. We keep the verb **dwell**, the same word ch 8 and ch 66 use, so a reader who notices the collision is noticing something real rather than a translator's slip.
+
+### Ch 76 · the argument is a corpse, a green stem, and a dry stick
+
+This is the most physical argument in the book, and it is nearly the only one that would survive being made without words. Press a living body: it gives. Press a dead one: it does not. Bend a green shoot: it bends. Bend a dry one: it breaks. From that, and nothing else, the chapter draws its conclusion — **hardness is not a form of strength, it is a symptom of death.**
+
+Which is why the translation keeps calling the corpse *strong*. 堅強 (*jiān qiáng* — hard and strong) is the flattering word, and Ch 76 spends it on rigor mortis before spending it on an army four lines later. By then the word has been ruined on purpose. 河上公 tracks it physiologically: alive, 含和氣抱精神 — *"holding harmonious energy, embracing the vital spirit"*; dead, 和氣竭精神亡 — *"the harmonious energy exhausted, the vital spirit gone."* Softness is not a virtue being recommended. It is what being alive feels like from the outside.
+
+### Ch 77 · the bow is 弱's own picture
+
+弱 (*ruò* — yielding) is two 弓 (*gōng* — bow) side by side. Chapter 77 is the chapter that puts a bow in your hands, and 河上公's gloss on its central lines closes the circle without being asked to: 夫抑高舉下，損強益弱，天之道也 — *"pressing down the high and raising the low, diminishing the strong and increasing the yielding: this is the way of nature."*
+
+So the argument for the 弱 lock and the image at the heart of Ch 77 are the same object. A bow works because it bends; a bow is brought into use by having its high end pressed down and its low end lifted; and the way of nature does to the world what a bowyer does to a stave. **Ch 40's 弱者道之用** — *"yielding is the Tao's use"* — is not a separate claim. It is this one, with the picture removed.
+
+### Ch 77 · the chapter that names the mechanism of inequality
+
+Ch 75 says the people go hungry because those over them eat up so much in taxes. Ch 77 says why that is not merely cruel but **backwards**, and it does so by putting the human arrangement and the natural one in the same grammar, one line apart:
+
+天之道，損有餘而補不足 — *the way of nature takes from what has too much and mends what falls short.*
+人之道，則不然，損不足以奉有餘 — *the way of people is not like this. It takes from those who have too little and offers it up to those who have too much.*
+
+Two clauses, the same four terms, the arrows reversed. This is the most explicitly political sentence in the book, and it is also its plainest piece of physics: a strung bow, water finding its level, a garment patched where it wore thin. Nothing here appeals to justice or to a judge. 天 (*tiān* — nature) has no partiality to exercise — Ch 79 says so outright, 天道無親 — so the levelling is not a verdict. It is what happens when nobody is holding the thing up.
+
+Which is why the last movement is not a policy either. 孰能有餘以奉天下？ *Who has more than enough, and offers it up to the world?* The question expects one answer, and the answer is a person, not a law. 王弼 reads the sage's refusal of display as itself the levelling instrument — 不欲示其賢以均天下, *"does not display their worth, so as to level the world"* — which links this chapter's ending back to Ch 3's 不尚賢, *"by not exalting the exceptional."* Standing out is how the arrow gets pointed the wrong way.
+
+### Ch 78 · the low place is where the filth arrives
+
+河上公 reaches for Chapter 66 without being asked. Glossing 受國之垢 — *take on the state's filth* — he writes 君能愛國垢濁者，**若江海不逆小流**，則能長保其社稷 — *"a ruler who can love the state's dirt and murk, like the rivers and seas that do not refuse the small streams, can long preserve its altars."* That is Ch 66's opening image (江海所以能為百谷王者，以其善下之) arriving unprompted, and it turns the two chapters into one argument.
+
+Ch 66 makes the case for the low place and leaves it attractive: lie beneath the valleys and they flow to you. Ch 78 says what actually flows downhill. 垢 (*gòu*) is 土 (soil) + 后 — grime, silt, disgrace. The sea does not get to accept the streams and decline what they carry. So the political payoff is not that humility is winning strategy; it is that **the position everyone wants comes attached to everything nobody wants**, and the willingness to take the second is the whole qualification for the first.
+
+河上公 makes the second couplet a substitution rather than a scapegoating: 君能引過自與，**代民**受不祥之殃 — *"a ruler who can draw the fault to himself and receive, in the people's place, the calamity of ill omen."* 代 (*dài* — in place of) is his word, not the text's, and it is the difference between a ruler who is blamed and one who volunteers.
+
+### Ch 78 · Chapter 70 inside out
+
+Ch 70 opens 吾言甚易知，甚易行 — *my words are very easy to know, very easy to follow* — and then 天下莫能知，莫能行: **no one can know them, no one can follow them.** Ch 78 closes on the same verb with the premise reversed: 天下莫不知，莫能行 — **everyone knows this, no one can follow it.**
+
+The English keeps *follow* in both so the pair is audible. What changes between them is where the failure sits. In 70 the words themselves are unreachable, and the chapter ends on the sage in coarse cloth with jade against the chest. In 78 nothing is hidden at all — the claim is public, obvious, and universally assented to — and it still does not get done. 河上公 gives the reason 70 did not need: 恥謙卑，好強梁 — *"they are ashamed of humility and lowliness; they love force."*
+
+That is not an epistemological problem. It is a matter of what people are willing to be seen as.
+
+### Ch 79 · the surplus that nature cannot drain
+
+必有**餘**怨 — *there is always grudge left over* — uses the same 有餘 (*yǒu yú* — surplus, more than enough) that Chapter 77 makes the whole business of the natural order: 天之道，損**有餘**而補不足, *the way of nature takes from what has too much and mends what falls short.*
+
+Put the two chapters side by side and 79 is naming an exception. Nature levels every surplus there is — the strung bow, the water finding its level — but the surplus of resentment is one it does not reach, because it was never a natural excess in the first place. It is manufactured, by someone holding a claim. Which is why the remedy in 79 is not levelling but **declining to hold the claim at all**.
+
+### Ch 79 · the last line points backwards, not upwards
+
+天道無親，常與善人 is the sentence that has done the most damage in this chapter's English history: *"Heaven has no favourites; it is always with the good man."* Read that way it installs a reward economy — behave well, and the universe pays out — inside a poem whose entire argument is *do not collect what you are owed*. The chapter would be refuting itself in its last breath.
+
+河上公 will not let it. Glossing the line he writes 唯**與善人**，則**與司契者**也 — *"it is only with the masterful person, that is, with the one who keeps the tally."* The 善人 of line nine **is** the sage of line four. The line is not opening onto a moral cosmos; it is closing the loop on the figure already in the poem.
+
+And 無親 makes the reward reading impossible on its own terms. 親 (*qīn*) is kinship, the closeness you owe your own. Nature having none of it is precisely why it cannot be currying anyone's favor. It stays with the masterful the way water stays downhill: not as a preference, as a consequence. Compare ch 77's 損有餘而補不足 — a levelling that is not a verdict.
+
+### Ch 79 · the tally is what trust looked like before writing
+
+河上公 on 執左契 supplies a piece of material history the text assumes and we do not have: 古者聖人執左契，**合符信**也。**無文書法律**，刻契合符以為信也 — *"in antiquity the sage held the left tally, matching the token of trust. There were no documents or laws; they notched a tally and matched the halves, and that served as trust."*
+
+That lands on 信 (*xìn* — trust), the locked term, and it makes the chapter's central image concrete. A tally is a stick — the graph 契 is 丯 (notch marks) with 刀 (*dāo* — a knife) — notched across with the terms and then split lengthwise, one half to each party. **Neither half proves anything alone.** The claim becomes real only at 合符, the matching, when the two are brought back together.
+
+So the sage holding their half and never asking for the other is not generosity. It is the deliberate refusal to complete a mechanism, and it leaves the obligation permanently unenforceable — the only condition under which it cannot curdle into a grudge. 王弼 says exactly this and says it as prevention: 左契防怨之**所由生**也, *"the left tally guards against **that from which** grudges arise."* Not a debt forgiven. A debt never activated.
+
+**This is why the tally cannot be modernized into a note or an IOU**, however much more legible those are. A note is one-sided paper: you hold it, it is enforceable, you decline to enforce. The tally requires the other party to be standing there with their half. That difference is the chapter's own next line — 有德司契，無德司徹 sets an instrument that needs the other party's participation against a ledger you can run on someone without them. Flatten the first and the contrast is gone before the reader arrives at it.
+
+Set that against 司徹, keeping score, and the contrast is between an instrument that requires the other party's consent to operate and a ledger you can run on someone without them.
+
+### Ch 80 · not a utopia — both commentators say so in their first line
+
+This is the chapter that gave English the primitivist idyll: the tiny village, the unused boats, the neighbours who never speak. **Neither classical commentator reads it that way, and they refuse it independently, on the opening four characters.**
+
+王弼 (*Wáng Bì*) reads 小國寡民 (*xiǎo guó guǎ mín* — "small state, few people") as an **a fortiori illustration**: 國既小民又寡，尚可使反古，况國大民衆乎？故舉小國而言也 — *"The state being small and the people few, one can still bring them back to the old way. How much more so a large state with many people! So he raises the small state and speaks by it."* The smallness is the example, not the policy.
+
+河上公 (*Héshàng Gōng*) goes further and reads 小 and 寡 as **verbs of the ruler's own handling**: 聖人雖治大國猶以為小，儉約不奢泰；民雖衆猶若寡少，不敢勞之也 — *"Though the sage governs a large state, they still treat it as small — frugal, not extravagant. Though the people are many, they still regard them as few, and do not presume to belabor them."*
+
+Between them the chapter is about **the scale at which you handle a place, not the size of the place**. That is why the three 使 (*shǐ* — let, cause) matter so much in English: this is a set of instructions to whoever is in charge, and the picture of thatch and roosters and dogs is what those instructions produce. Read as scenery it is a fantasy about small towns. Read as causatives it is the most concrete governance chapter in the book.
+
+The 4th-century-BCE joke underneath it: a small state with few people is precisely the state a Warring States ruler was trying to stop being.
+
+### Ch 80 · a portrait of 知足, drawn from behind
+
+Ch 46 states it — 知足之足，常足矣, *"the contentment of knowing you have enough is ever-present contentment."* Ch 80 does not state it; it shows what a place looks like from inside when it is true. The tools that could do the work of a hundred sit unused. The boats are not boarded. And the food, per 河上公, is 蔬食 — coarse vegetable fare — and they find it sweet.
+
+王弼 names the connection outright, on the tools: 雖有什伯之器而無所用，**何患不足也** — *"though they have ten- and hundred-fold tools, there is nowhere to use them; why worry about not having enough?"* The labour-saving device is the thing you need only if you are short. Nobody here is short.
+
+### Ch 80 · knotted cord is what 信 looked like before writing
+
+使民復結繩 — going back to keeping records in knotted cord. 河上公: 去文反質，**信**無欺也 — *"put away writing and refinement, return to the plain; trust, and no deceit."* This is the same move Ch 79 makes with the tally (契) — 河上公 glosses that one 無文書法律，刻契合符以為信也, *"with no documents or statutes, they cut a tally and matched the halves, and that was 信 (xìn — trust)."*
+
+Two chapters running, the oldest commentary we have reaches for a **pre-literate instrument of trust** — a knot, a notched stick — as the image of a society that does not need enforcement. Not because record-keeping is bad, but because a knot cannot be argued with, cannot be revised, and cannot be read by only one party.
+
+### Ch 80 · what the neighbours are not doing
+
+不相往來 has meant *"they never visit one another"* in English for a century, and it makes the chapter's last line xenophobic. Both commentators read it as the absence of an **errand**, not of affection. 王弼's whole gloss on the closing block is four characters — 無所欲求, *"nothing they want to seek."* 河上公: 其無情欲, *"they have no craving."*
+
+The neighbouring state is in **sight**. Its roosters and dogs are **audible**. The text is at pains to say these people are not isolated; they are close enough to hear each other's roosters. What they lack is a reason to go — no trade they need, no market that has what they don't, nothing over there they want. The distance is not geographic and it is not social. It is appetitive.
+
+### Ch 81 · the book's last verb is 為, not 無為
+
+The Tao Te Ching ends on 聖人之道，為而不爭 — *"the way of the sage acts and does not contend."* 為 (*wéi* — to do, to handle) is the positive verb, and the only thing qualifying it is 不爭 (*bù zhēng* — not contending), our locked term.
+
+This matters because the book is read, and taught, as a doctrine of 無為 (*wúwéi* — non-doing). Its final line does not say 無為而不爭. It says **do**. Whatever 無為 has meant across eighty chapters, the closing statement of the whole text is not withdrawal from action but action with the contending taken out of it — and it is placed in exact parallel with what nature does: 天之道，利而不害, *"the way of nature benefits and does not harm."*
+
+王弼 reads the pair as one motion. On 利而不害: 動常生成之也 — *"in moving, it is ever giving birth to them and completing them."* On 為而不爭: 順天之利，不相傷也 — *"following nature's benefit, they do not harm one another."* Nature is not still. Neither is the sage. The verb was never the problem.
+
+### Ch 81 · three ways to mistake the ornament for the thing
+
+The opening triplet is one claim told three times, ascending: words (信/美), argument (善/辯), knowledge (知/博). Trustworthy speech is not pretty; mastery does not argue; knowing is not breadth. In each pair the prized quality is the **surface** and the thing itself is plain.
+
+王弼 collapses all three into four characters — 極在一也, *"the ultimate lies in the one"* — and 河上公 says the same about 博 alone: 不博者守一元也, *"the un-博 holds fast to the one origin."* The chapter's positive claim is **concentration**, not ignorance. It is not anti-intellectual; it is against the substitution of range for depth, which is a recognisable enough disease that the third couplet needs no translation into modern terms.
+
+**And it is the book about itself.** 信言不美 is a poem, at its close, telling you not to trust it because it is beautiful.

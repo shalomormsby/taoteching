@@ -66,7 +66,9 @@
 | ~~6~~ | ~~**無 / 有** — "absence / presence"~~ | 40 | — | ✅ **DONE & LOCKED** → `wu-you-無有.md`. 有 is a hand holding meat; 無 was originally a **dancer**. Ch 11's 無 is a literal hole. **Absorbs the old 利/用 pairing.** |
 | ~~7~~ | ~~**萬物** — "the countless things"~~ | 27/16/17 | — | ✅ **DONE & LOCKED** → `wanwu-萬物.md`. **Three entries consolidated into one.** 萬 is a scorpion; 物 is a mottled ox. |
 | ~~8~~ | ~~**心** (Xīn) — "heart"~~ | 6 | — | ✅ **DONE & LOCKED** → `xin-心.md`. The character is an **anatomical drawing** of the organ. English idiom (*learn by heart*, *change of heart*) never fully split heart from mind, so no hyphen needed. **Absorbs the old 腹 entry** — 腹 = *belly*, its counter-term, not "the wise core." |
-| 9 | **一** (Yī) | 8 | 37L, 14 marks | Overlay watchlist — capital-O "the One" imports Neoplatonism. In Ch 42 the Tao *gives birth to* it, so it cannot be ultimate. |
+| ~~9~~ | ~~**一** (Yī)~~ | 8 | 37L, 14 marks | ✅ **DONE & LOCKED** → `yi-一.md`, 2026-08-27. **The graph is a single stroke — nothing is depicted, so every mystical reading has to be imported.** 王弼 refuses it outright at Ch 22: 一，少之極也, *"the one is the extreme of few,"* anchored in 少則得，多則惑 one line above. Ch 42's 道生一 is the text's own refutation of a capital-O One: whatever 一 is, it is **borne**. Two registers held apart — the arithmetic (10, 11, 22, 67) and the cosmological (14, 39, 42). **Ch 22's *one thing* is a licensed per-chapter exception**, taken because *"the One"* now reads in English as a chosen-one trope. |
+
+**✅ Tier 2 complete.**
 
 ## Tier 3 — Worth writing
 
@@ -85,7 +87,10 @@
 | 18 | **仁** (Rén) | 5 | 21L | Overlay watchlist — Legge's "benevolence," never "charity." |
 | ~~19~~ | ~~**爭** (Zhēng) — "contend"~~ | 9 | — | ✅ **DONE & LOCKED** → `zheng-爭.md`. Two hands pulling one object; *Shuowen* 引也, "to pull," and the classical gloss 引之使歸於己 — *pulling a thing so it comes to oneself*. **All nine occurrences are negated** — the word never appears as something done. Ch 73's 不爭而善勝 decided it against "compete", which collapses into 勝 (overcome). Swept ch 3, 8, 22, 66.
 | ~~20~~ | ~~**王** (Wáng) — "ruler"~~ | 13 | — | ✅ **DONE & LOCKED** → `wang-王.md`. The graph is a **broad axe-head**, not a person — no gender in it. The "three strokes are sky/earth/human and the king joins them" reading is **董仲舒** (c. 179–104 BCE), fourteen centuries after the graph, and it entered every dictionary via the *Shuowen*. All eight chapters define 王 by **lowness**. Swept ch 39, 42, 66. Absorbs 侯. See `DISCOVERIES.md` §4. |
-| ~~21~~ | ~~**敢** (Gǎn) — "push / venture"~~ | 10 | — | ✅ **DONE & LOCKED** → `gan-敢.md`. A hand with a hunting weapon going after a **boar**; *Shuowen*: 進取也, "to advance and take." **Appetite, not bravery.** "Not daring" reads as cowardice and inverts Ch 73's 勇於不敢則活, *"courage in not-venturing lives."* Caught by Shalom. Swept ch 30, 64, 67. *presume* blocked by 恃 — see RETROFIT. |
+| ~~21~~ | ~~**敢** (Gǎn) — "push / venture"~~ | 10 | — | ✅ **DONE & LOCKED** → `gan-敢.md`. A hand with a hunting weapon going after a **boar**; *Shuowen*: 進取也, "to advance and take." **Appetite, not bravery.** "Not daring" reads as cowardice and inverts Ch 73's 勇於不敢則活, *"courage in not-venturing lives."* Caught by Shalom. Swept ch 30, 64, 67. *presume* blocked by 恃 (→ `shi-恃.md`, locked as *rely on*). |
+| ~~22~~ | ~~**全** (Quán) — "whole"~~ | 1 | *(never triaged)* | ✅ **DONE & LOCKED** → `quan-全.md`, 2026-08-28. **Never triaged because it looked too small** — three occurrences, all Ch 22 — and it turned out to be the chapter's whole argument. The graph is 入 (*rù* — bring in) over **玉 (*yù* — jade)**: *"pure jade is called 全."* **You cannot repair jade**, which is why every repair verb had to go: 全 is **preservation, not restoration** (河上公: 全其身, *"keep their body whole"*). Two collisions found by the reverse check — *complete* belongs to 成 (14 chapters; and Ch 41's 大器晚成 shows the book distrusts completion), and *flawless* is already carrying 瑕 (*xiá* — a flaw in jade) at Ch 27. **Absorbs 曲** (*qū* — bend), also Ch 22 only, and blocks *yield* for it, which is 弱's locked word. |
+
+**A note this entry earned: frequency is not importance.** 全 has three occurrences and sat below every triage threshold for the life of this project. It is also the only word Ch 22 states, quotes back, and closes on.
 
 ## Tier 4 — Stubs needing commission
 

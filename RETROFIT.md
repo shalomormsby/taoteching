@@ -240,3 +240,67 @@ The evidence pulls both ways, which is why it is here rather than swept. 河上�
 各復歸其根 is *"each returns to its root."* There is no 氣 (*qì*) in Chapter 16 at all — `concordance.py --english "energy"` shows four lines carrying the word, and only Ch 10 (專**氣**致柔) and Ch 55 (心使**氣**曰強) have the character to license it.
 
 **Also flagged in the same run: Ch 28's *"assertive energy" / "yielding energy"*** for 知其**雄**，守其**雌** — 雄 (*xióng*) and 雌 (*cí*) are a **rooster and a hen**. Rendering the book's central feminine image as an abstract polarity of energies is a live cost, and 雌 is load-bearing for the feminine thread. **Both are Shalom's call**, as they are rewrites rather than swaps.
+
+### 民 and 人 — the whole book at once, deliberately deferred to a holistic pass
+
+**Raised 2026-08-25 at Ch 74, and parked by Shalom for a single decision across all 81 chapters rather than chapter-by-chapter drift.** Ch 74 reads *"the people"* in the meantime; that is a hold, not a settlement.
+
+**Two characters, and English has been treating them as one word.**
+
+- **民** (*mín*) — the **governed**. The graph is an eye pierced by a blade: a subject population, no dignity implied. Always the counterpart of a ruler.
+- **人** (*rén*) — a **person, a human being**. The graph is a standing figure in profile. No political relation at all.
+
+**Where it stands today.** 民 appears in 13 chapters, 32 lines, and renders **"the people" in every one of them** — consistent, unlogged, and never argued for. 人 renders inconsistently, and Ch 57 does both **two lines apart**:
+
+- 人多利器，國家滋昏 → *"The more sharp weapons **the people** have, the darker the state becomes."*
+- 人多伎巧，奇物滋起 → *"The more cunning **people** become, the more strange contrivances appear."*
+
+Same character, same chapter, two Englishes. That one is ours and it is a genuine drift.
+
+**What is actually at stake, and it is not tidiness.**
+
+1. **Structural rhymes across chapters.** Ch 72 opens 民不畏威 and Ch 74 opens 民不畏死 — the identical three-character frame, two chapters apart. *"When the people no longer fear authority"* and *"When the people do not fear death"* rhyme; drop the article from one and the pair goes silent. `notes/reading.md` builds a chain on that twinning (72 → 74 → 75). Any decision here has to check what else it breaks.
+2. **河上公's second register.** He reads every chapter twice — 治國 (governing the state) and 治身 (governing the self) — and on Ch 74's opening line he does both. **"The people" bolts a line to statecraft; "people" lets a reader hear it about themselves.** This is the real argument for the bare noun and it is not a small one.
+3. **Whether the distinction is worth an English marker at all.** *The people / people* is one available answer. It is not the only one, and it is doing the work with an article, which is thin.
+
+**Why holistic and not per-chapter.** 民 and 人 run through the most political chapters in the book (3, 10, 17, 19, 32, 57, 58, 65, 66, 72, 74, 75, 80). A rule settled at one chapter propagates to twelve others and to the reading notes that depend on them. This is the shape of decision the glossary exists for.
+
+**Ch 80 adds five more 民 lines to the pile (2026-08-26)**, all rendering *"the people"* on the same hold — and one of them, 使民重死, is load-bearing for the Ch 75 rhyme (民之輕死). Any settlement has to check that pair too.
+
+**Owed:** a `glossary/min-民.md` entry (and very likely a 人 entry or a `covers:` on it), a full sweep, and a `notes/reading.md` pass on any cross-chapter rhyme the call disturbs. **Shalom's call, deferred by Shalom.**
+
+## Ch 52 · 守柔曰強 — the one line the 弱 lock cost
+
+**Raised 2026-08-26, held for Shalom.** Ch 52 currently reads *"To stay with the yielding is strength."* The character is **柔** (*róu* — soft), not 弱. Under the four-word table the 弱 lock forces — 柔 **soft** · 剛 **hard** · 弱 **yielding** · 強 **strong**, required because Ch 78 splits the compound at 弱之勝強，柔之勝剛 — 柔 cannot keep *yielding*.
+
+Not swept, because it is a rewrite rather than a term-swap and the retrofit policy says propose first. *"To stay with the soft is strength"* is the mechanical answer and it is flatter than what is there. Candidates worth weighing against it: *"staying soft is strength"*, or a recast that keeps 守 (*shǒu* — to guard, hold fast to) doing real work, since 守 is itself a locked term (**hold fast to**) and the current line has already softened it to *stay with*. That second point makes this a two-character question, not one.
+
+Also owed: `glossary/rou-柔.md`, which the 弱 entry currently absorbs via `covers:`.
+
+## 恃 — *presuming* → *relying* — ✅ **DONE 2026-08-26**
+
+Raised at Ch 77, settled the same day. 恃 (*shì*) is 忄 (heart) + 寺 — **the heart putting its weight on something**; *Shuowen*: 恃，賴也. *Presume* rendered an imagined attitude rather than the character. Locked as **rely on** in `glossary/shi-恃.md`, which fired as three build errors the moment it was written — the mechanism doing its job.
+
+**Swept: ch 2, 10, 51** (為而不恃 → *acts yet relies on nothing*, one formula in place of three Englishes) **and ch 34** (萬物恃之以生 → *the countless things rely on it to live*, restoring the book's only positive 恃). Ch 77 was drafted correct.
+
+*Not a candidate for `lean on`, though it is the truer picture: 倚 (*yǐ* — to lean against) already holds that word at Ch 58.*
+
+## Ch 22 · the 不自X stanza — ✅ **DONE 2026-08-27**
+
+**Raised at Ch 81, 2026-08-26; resolved the next day, and the chapter turned out to hold two larger errors than the one that opened the debt.** Full argument in `notes/translation.md` · Ch 22.
+
+Ch 22 line: 不自是，故彰 — currently *"Does not debate, therefore is unrivaled."* Both halves are off the Chinese.
+
+- **是 (*shì*) is not 辯.** 是 is *to affirm as right*; 自是 is **to hold oneself right**. *Debate* is the English for 辯 (*biàn* — words between two disputants), which does not occur in ch 22 at all. `concordance.py --english` cannot catch this yet because 辯 has no glossary entry, but it is exactly the class of error the `--english` direction exists to find: a rendering applied in a chapter where the licensing character is **absent**.
+- **彰 (*zhāng*) is not "unrivaled."** 彰 is 章 (a pattern) with 彡 (strokes): **to show up plainly, to be distinct.** *Unrivaled* imports a comparison the character does not make.
+
+**Complication that makes it a stanza-level fix, not a line-level one.** The line sits in a four-part parallel — 不自見故明 · 不自是故彰 · 不自伐故有功 · 不自矜故長 — and the first member currently reads *"The sage does not display self, and is therefore luminous."* That 明 (*míng*) is **locked to clear-seeing**, and *luminous* is emission, precisely the reading `glossary/ming-明.md` rejects. So the stanza owes at least two corrections, and they interact: the four 自 (*zì* — self) are one construction and should read as one in English.
+
+**What was actually done.** All four 不自X lines rewritten as one construction, following 王弼's one-to-one mapping of the stanza onto the chapter's four opening paradoxes. *luminous* → **see clearly** (the `ming-明.md` entry had already decided this line; the verse was stale against its own glossary). *does not debate* → **do not insist they are right**. *unrivaled* → **their rightness shows**. *boast* → **claim the work** (河上公: 伐，取也). *takes pride* → **make themselves great** (矜，大也).
+
+**And two larger errors surfaced in the same pass.** 誠全而歸之 had no English at all — the line read *"Try and see for yourself"* — which forced 曲則全 → *"Bend, and stay whole"* so the chapter's closing quote-back would land. And 抱一 was de-mystified to **"embraces one thing"** on 王弼's 一，少之極也, a per-chapter call recorded in the new `glossary/yi-一.md`.
+
+**Two new debts opened by this chapter:**
+
+1. **Ch 28 · 為天下式, twice.** Currently *"Embody the pattern of the world."* 式 (*shì*) is a carpenter's template, not a moral example, and ch 28's own next line proves it — 常德**不忒** (*tè* — to deviate off true) requires a standard to deviate from. Ch 22 now reads *"sets a pattern for the world."* Mechanical enough to sweep, but ch 28's three-fold 谿 / 式 / 谷 series means the parallel has to be checked before touching one member of it.
+2. **Ch 24 · 自伐 → "boasts."** 河上公 glosses 伐 flatly as 取也, *"to take"* — so it is claiming credit, not bragging. Ch 22 now reads *claim the work*. Ch 24 is the negative twin of the same stanza (自見者不明，自是者不彰，自伐者無功，自矜者不長) and its other three members are already correct, so this is a one-word question, not a stanza. **Shalom's call.**

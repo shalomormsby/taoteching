@@ -6,6 +6,76 @@
 
 ---
 
+## 5 · Home was in the word, and we left it out
+
+### The finding
+
+Chapter 22 closes on 誠全而歸之 (*chéng quán ér guī zhī*). The verb is **歸** (*guī*) — to return — and it carries **homecoming**. The graph turns on going where one belongs, and every destination this book gives the verb is the original state: 根 (*gēn* — the root, ch 16), 樸 (*pǔ* — the uncarved, ch 28), 嬰兒 (*yīng ér* — the infant, ch 28), 無物 (*wú wù* — no-thing, ch 14). *Return home* is not a stretch. It is the deep sense of the line.
+
+**It was drafted, argued for, adopted — and then withdrawn by Shalom within the same session, on the ground that it was right in the wrong place.** The line now reads *"These words hold. Return to them. Stay whole,"* rendering 之 (*zhī* — it) as the ancient saying quoted one line above, which is what the grammar most plainly supports.
+
+His reason is the finding:
+
+> *"Even if the words point to 'home' as the deeper meaning, I don't want to supply that for the reader, but rather allow them to find this themselves."*
+
+### Why this is a different kind of finding from §1–§4
+
+The other four are about meanings **added** to the text by people who did not find them there — Heaven, the king, the throne, the missionary's Logos. Each is an overlay imported from outside, and the remedy in every case is subtraction.
+
+**This one inverts that.** The meaning under consideration was **correct**. The homecoming really is in 歸, licensed by the graph and by the book's own usage in four other chapters. Nothing had to be smuggled in.
+
+And it still had to stay out.
+
+So the rule this yields is stronger than *don't import foreign meanings*. It is: **don't hand over the native ones either.** A reader's arrival at a meaning is not a delivery problem to be solved by the translator. It is part of what the text does.
+
+### The line that makes the principle usable
+
+Restraint that cannot be bounded is just timidity, and this edition supplies plenty. It supplied *"have heard it all"* for 博 at ch 81; it supplied *"the world's eyes"* reading for 明 at ch 22. So where is the boundary?
+
+> **Supply what a character *means*. Do not supply what a passage *points at*.**
+
+- **博 → "have heard it all"** is 河上公 telling us what the character means: 博者多見聞, *"the 博 has seen and heard much."* Lexical. Legitimate, even though the English word is borrowed from the commentary.
+- **歸 → "home"** is nobody telling us anything. The text names no destination; it writes 之, *it*. Home is the reader's inference, and a good one. Interpretive. Refused.
+
+One translates a word. The other answers a question the text deliberately leaves open.
+
+### Why the book itself demands this, and this is the part worth an essay
+
+The Tao Te Ching closes three chapters — 21, 54, 57 — on a single formula:
+
+> 吾何以知…**然**哉？**以此**
+> *"How do I know it is so? **By this.**"*
+
+Not by authority, not by scripture, not by the teacher's explanation. **By this — the thing in front of you, now.** That is the book's entire epistemology, and it is the subject of §2 in this file.
+
+A translation that pre-digests its own depths **takes away the one operation the book asks the reader to perform.** If the verse says *home*, the reader receives a conclusion. If the verse says *return to them*, the reader has to sit with a returning that is not yet named, and may — or may not — arrive at what it is a returning to. The second is what 以此 describes.
+
+The same argument runs through **自然** (*zìrán* — so of itself), the term §2 is built on. It means *so because of itself*, and it is the ground of 無為 (*wúwéi* — non-doing): you can take your hand off because things go of themselves. **A translator who explains the poem has not taken their hand off.** A book whose central claim is that things unfold without interference is badly served by a rendering that interferes to make sure the point lands.
+
+That is the claim in one sentence: **a text about things happening of themselves cannot be well translated by someone doing the reader's arriving for them.**
+
+### The cost, stated honestly
+
+Restraint has a price and it should not be pretended away. *"Return to them"* is flatter than *"return home."* It is possible to read the line, correctly, and feel nothing. Some readers will never reach the homecoming, and a warmer rendering would have given it to all of them.
+
+**The answer is the apparatus, and it is structural rather than consoling.** This project is a translation *with a full research record beside it*, given away entire, plus a companion volume beyond that. The glossary, the notes, and the companion exist precisely so the verse does not have to say everything it knows. **The verse delivers the text; the apparatus delivers the depth; the reader's own arrival is left intact between them.**
+
+That division of labor is only available to a translation built this way. It is worth naming as one of the reasons to build it this way.
+
+### Where the evidence sits
+
+- `notes/translation.md` · Ch 22 → *之 → "them" — and home refused on principle*, with the full drafting history — eight states, each rejection recorded with what it was detecting: *makes you whole* → *restores your wholeness* → *return to it* → *come home* → *return home* → *stay whole, and return to them* → *return to them, and stay whole* → *return to them. Stay whole.*
+- `chapters/022.md` → the compressed note.
+- **`glossary/quan-全.md` → the other half of the same line, and the same instinct caught twice.** 誠**全**而**歸之** has two content words, and English tried to add something to **both**. Onto 歸 it wanted a destination (*home*). Onto 全 it wanted a **repair verb** — *makes you whole*, *restores your wholeness* — importing a breakage the chapter never concedes. The 全 entry is where that half is argued, and its evidence is the graph: 全 is 入 (*rù* — bring in) over 玉 (*yù* — jade), and **you cannot repair jade.** A cracked piece is not restorable; it is a different, lesser object. Wholeness there is a survival, not an achievement — 河上公: 全其身, *"keep their body whole."* **One line, two characters, two unbidden additions.** That the same reflex fired twice in seven Chinese characters is the strongest single piece of evidence that the reflex is real and needs a named rule.
+- `glossary/yi-一.md` → the same session's other de-mystification, 抱一 → *embraces one thing*, which is the **opposite** move: there a supplied mystical register was **removed**. The two decisions bound the principle from either side — do not add awe, and do not add answers.
+- **Owed: `glossary/gui-歸.md`.** 歸 has no entry, and it runs through ch 14, 16, 20, 22, 25, 28, 34, 40, 52 — one of the book's central verbs, and the vehicle of 反者道之動 (ch 40, *"returning is the Tao's movement"*).
+
+### How it was found
+
+By reversal. Shalom proposed *return home*, was given the argument for it, adopted it, kept it for a while — and then took it out. **The withdrawal is the finding, not the drafting**, and it could not have been reached by the AI, which had argued for the warmer line and would have left it standing.
+
+---
+
 ## 4 · The throne was installed four times, and one of them was ours
 
 > **⚠ ONE OF THE FOUR IS WITHDRAWN — 2026-08-20.** Installation **2**, "into the line — Han scribes," does not survive: every excavated witness at Ch 25 reads 王, Guodian included, and 人 is a transmitted reading (傅奕, Tang; 范應元, Song). See §1's banner and `notes/manuscript.md` · Ch 25.

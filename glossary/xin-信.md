@@ -21,7 +21,9 @@ The cost is precision at the exact places the text is most careful. And Chapter 
 
 ### The character, read slowly — a person beside their word
 
-信 is 人 (*rén* — a person) beside 言 (*yán* — speech). The *Shuowen Jiezi* (~100 CE) glosses it in one word: **誠也** — *truthful*. The picture is a **person standing next to what they said.**
+信 is 人 (*rén* — a person) beside 言 (*yán* — speech). The picture is a **person standing next to what they said.**
+
+The *Shuowen Jiezi* (~100 CE) glosses it in one word: **誠也**. That is usually Englished as *truthful*, and the gloss repays decomposing rather than translating: **誠 (*chéng*) is 言 (*yán* — words) + 成 (*chéng* — to complete)** — **words carried through to completion.** Not *the word matches the fact*; **the word is made good.** The distinction matters, because it means the oldest dictionary definition of 信 points at **dependability, not accuracy** — the same direction as the character's own picture.
 
 That is already more specific than "faith," but the decisive detail is elsewhere in the word's early use. 信 also names a **符契** (*fú qì*) — a **split tally**: a token broken in two, one half held by each party, so that the halves can later be **matched**. A messenger carried a 信. A credential was a 信.
 
@@ -48,7 +50,7 @@ No agent is named, and none is needed: withhold trust and distrust is what comes
 
 **"Faith"** is the theistic overlay, and an unusually direct one: 信 is the standard word for *faith* in Chinese Christian and Buddhist usage — 信仰 (*xìn yǎng*), 信心 (*xìn xīn*). Importing it here makes Chapter 21's 其中有信 read as *there is faith within it*, which turns a claim about reliability into a claim about devotion, and installs a believer where the text has only a tally. Fails the hymn test on sight.
 
-**"Sincerity"** relocates the word from the space between people to the inside of one of them. 信不足焉 is not *insufficient sincerity*; it is trust that has not been established or has been withdrawn. Sincerity cannot be split, held by two parties, and matched later. *(The Shuowen's 誠 is often Englished as "sincerity," but 誠 there means* truthful *— saying what is so — not* heartfelt.*)*
+**"Sincerity"** relocates the word from the space between people to the inside of one of them. 信不足焉 is not *insufficient sincerity*; it is trust that has not been established or has been withdrawn. Sincerity cannot be split, held by two parties, and matched later. *(The Shuowen's 誠 is often Englished as "sincerity." Its graph refuses that: 言 + 成 is a word **completed**, an act, not a feeling.)*
 
 **"Belief"** and **"believe"** put the word in the head. Chapter 49's sage does not *believe* the untrustworthy person; the sage remains trustworthy toward them.
 
@@ -70,15 +72,21 @@ No agent is named, and none is needed: withhold trust and distrust is what comes
 
 **Never** "faith," "sincerity," "belief," and never the word that belongs to 德.
 
-### The tension, left open
+### The tension, closed at Chapter 81 (2026-08-26)
 
 **Chapter 81 opens the book's final chapter with 信 used of speech**, and there the word leans toward a sense the rest of the book does not need:
 
 > 信言不美，美言不信
-> *trustworthy words are not beautiful; beautiful words are not trustworthy*
+> *trustworthy words are not pretty; pretty words are not trustworthy*
 
-Read with the tally, this is exact: words that match the world are plain, because ornament is added at the seam where the match fails. But 信言 also shades toward **true words** — 信 as *accurate* rather than *reliable* — and English cannot hold both at once. "Trustworthy words are not beautiful" keeps the relational sense and sounds slightly administrative; "true words are not beautiful" is the better line and quietly swaps in a different claim.
+Read with the tally, this is exact: words that match the world are plain, because ornament is added at the seam where the match fails. But 信言 also shades toward **true words** — 信 as *accurate* rather than *reliable*.
 
-We do not settle it here, because Chapter 81 is not yet drafted and the line deserves to be decided in its own chapter, with the whole ending in view. Flagged so it is decided rather than defaulted.
+**Settled: 信言 stays *trustworthy words*.** Two candidates were argued and set aside.
+
+**"honest words."** English *honest* has a builder's sense — *honest materials*, honest weight — that is very close to 王弼's gloss on this line, 本在樸也, *"the root lies in the uncarved"* (樸, our locked term). But *honest* is a **character trait**: it praises the speaker, where 信 describes whether the word holds. And couplet two of that chapter is 善者不辯 — the 善 (*shàn* — masterful) we fought out of the moral register at ch 79. A virtue word in couplet one drags couplet two straight back into virtue.
+
+**"truthful words."** Better than *honest*, because it describes the utterance rather than the speaker, and it mirrors 信言不美，美言不信 exactly. It was proposed on the strength of this entry's own gloss of 誠 as *truthful* — which, as corrected above, the graph does not support: 誠 is 言 + 成, **word completed**, not word-matching-fact. The decisive objection is Chapter 21, which sets 真 and 信 in one line — 其精甚真，其中有信 — and needs them distinct: **真 is *being* so; 信 is *reliably* so.** *Truthful* collapses them. 真 is also still unsettled, carrying three Englishes (*real* at 21, *authentic* at 54, *the most solid truth* at 41), so lending it out here would be premature.
+
+*The remaining discomfort is real and is with the adjective, not the word: **trustworthy** is four Latinate syllables on a plain noun, in the one line whose content is plain speech. A recast onto the verb — "words that can be trusted are not pretty; pretty words cannot be trusted" — was offered and declined, because it loosens the chiasmus the Chinese holds exactly. Noted, not resolved.*
 
 **And one thing worth noticing rather than resolving.** Chapter 49's sage trusts the untrustworthy, which makes 信 the one term in this glossary that Laozi asks us to extend **without** the verification the character is built on. Either the sage has moved past the tally, or the sage understands that offering your half is how the matching starts. The text does not say which, and the difference is most of what the chapter is for.

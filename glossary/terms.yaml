@@ -109,6 +109,14 @@
   status: locked
   entry: glossary/qi-器.md
 
+- term: "一"
+  pinyin: "yī"
+  render: "the one (lowercase) · one thing (ch 22) · plain numeral where it counts"
+  forbidden: ["the One", "Oneness", "the Absolute"]
+  chapters: [10, 11, 14, 22, 25, 39, 42, 67]
+  status: locked
+  entry: glossary/yi-一.md
+
 - term: "信"
   pinyin: "xìn"
   render: "trust / trustworthy"
@@ -169,6 +177,14 @@
   status: locked
   entry: glossary/xuan-miao-玄妙.md
 
+- term: "弱"
+  pinyin: "ruò"
+  render: "yielding — and *weaken* only where it takes an object"
+  forbidden: ["frail", "feeble", "feebleness", "powerless"]
+  chapters: [3, 36, 40, 55, 76, 78]
+  status: locked
+  entry: glossary/ruo-弱.md
+
 - term: "心"
   pinyin: "xīn"
   render: "heart"
@@ -193,6 +209,14 @@
   chapters: [1, 8, 20, 21, 31, 64]
   status: locked
   entry: glossary/zhong-眾.md
+
+- term: "恃"
+  pinyin: "shì"
+  render: "rely on — the heart putting its weight on something"
+  forbidden: ["presume", "presuming", "dependency"]
+  chapters: [2, 10, 34, 51, 77]
+  status: locked
+  entry: glossary/shi-恃.md
 
 - term: "母"
   pinyin: "mǔ"
@@ -234,3 +258,12 @@
   chapters: [21, 55]
   status: locked
   entry: glossary/jing-精.md
+
+- term: "全"
+  pinyin: "quán"
+  render: "whole · stay whole · keep whole (transitive)"
+  forbidden: ["complete", "perfect", "flawless", "restore", "made whole"]
+  chapters: [22]
+  status: locked
+  entry: glossary/quan-全.md
+  # covers 曲 -> bend / bent
