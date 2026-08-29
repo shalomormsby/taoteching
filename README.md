@@ -40,7 +40,7 @@ Start at [`chapters/001.md`](chapters/001.md). Each chapter carries the English 
 | `tools/` | The harness — see below |
 | `CLAUDE.md` · `AGENTS.md` | Operating context for AI collaborators and tools |
 | [`DISCOVERIES.md`](DISCOVERIES.md) | **The findings worth writing about** — start here for what this research turned up: what later hands added, and what the book says once it comes off |
-| `RETROFIT.md` | Known consistency debt across chapters |
+| `WORKLIST.md` | Known consistency debt across chapters |
 | `PLAN.md` | The harness: what is built, what is deliberately not |
 
 ## The tools
@@ -100,12 +100,44 @@ Terms are **locked**: once a rendering is settled it applies everywhere, and dep
 
 ## Status
 
-| Chapters | State |
-|---|---|
-| 1–60, 65 | First draft complete |
-| 61–64, 66–81 | In progress |
+**The first draft is complete — all 81 chapters, as of 2026-08-26.**
 
-A full editing pass follows the completed first draft. Early chapters predate several later decisions; see [`RETROFIT.md`](RETROFIT.md).
+The editing pass is now the work. Early chapters predate several later decisions,
+a number of renderings are still open, and the glossary covers 35 of the terms
+that want entries. See [`WORKLIST.md`](WORKLIST.md) for what the manuscript still
+owes.
+
+A translation of this book is never finished. This one is readable now and will
+keep moving.
+
+## Take part
+
+**You do not need to read Chinese to help, and the most useful contribution
+doesn't require it.**
+
+I have been inside this text long enough that I can no longer hear it cold. If a
+line reads awkwardly, or sounds like a sermon, or simply thuds — say so. Open an
+issue with the chapter and the line. No fix required, no reason required. That is
+a complete contribution, and it is the one I cannot make myself.
+
+If you want something more concrete:
+
+- **389 of the book's 798 characters have no English gloss yet** — 87 of them
+  appear three or more times. Each is small, self-contained, and useful.
+- **32 chapters still carry em-dashes in the verse**, which the style forbids
+  because a dash can hide a missing subject.
+- **One decision is deferred across the whole book** — 民 (*mín* — the governed)
+  against 人 (*rén* — a person). Chapter 57 currently renders 人 two ways, two
+  lines apart.
+
+[**CONTRIBUTING.md**](CONTRIBUTING.md) has the full map, including the part worth
+saying plainly here: **I make the final call on every line.** A pull request is a
+proposal to an editor, not a change to a commons — and disagreement is genuinely
+wanted anyway. Several settled readings in this book exist because someone said
+"that word feels wrong" and turned out to be right.
+
+Longer conversation about *why this text still matters* happens at
+[shalomormsby.substack.com](https://shalomormsby.substack.com/).
 
 ## License
 

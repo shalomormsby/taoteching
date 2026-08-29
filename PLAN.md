@@ -6,6 +6,8 @@
 
 **The rule this plan originally protected — do not stop drafting to build tooling — resumes when phases A–F are done.** `build.py` remains deferred on its own merits: the text moves in 19 more chapters, and every edition built now would be built twice.
 
+> **⚠ Superseded 2026-08-28. The rule above is set aside permanently** — Shalom's call, logged at `process/shaloms-call.md` → *2026-08-28 · no-new-tooling*, `until: standing`. It existed to keep tooling from displacing the first round of translation, and that round closed at 81 of 81 on 2026-08-26. The sentence stays where it is written, per that ledger's doctrine that a call suspends and never deletes; read it as history, not as a live constraint. **`build.py` is still deferred, but now on its own merits alone** — the text is still moving.
+
 ---
 
 ## Why this ordering
@@ -35,7 +37,7 @@ The glossary entries are essays; they carry the reasoning and must stay prose. T
 
 - term: 明
   pinyin: míng
-  render: null              # UNDECIDED — see RETROFIT.md
+  render: null              # UNDECIDED — see WORKLIST.md
   candidates: [clear-seeing, illumination]
   status: open
   chapters: [10, 16, 22, 24, 27, 33, 36, 41, 52, 55, 65]
@@ -43,13 +45,13 @@ The glossary entries are essays; they carry the reasoning and must stay prose. T
 
 Fields: `term · pinyin · render · forbidden · status (locked|open|watchlist) · entry · chapters · notes`.
 
-**Seed it from:** the locks table in `CLAUDE.md`, the watchlist in `process/overlay-audit.md`, and `RETROFIT.md`.
+**Seed it from:** the locks table in `CLAUDE.md`, the watchlist in `process/overlay-audit.md`, and `WORKLIST.md`.
 
 </details>
 
 ## 2. `tools/check_locks.py` — principles become tests ✅ **DONE (2026-08-11)**
 
-*Nine rules, 39 tests, 0.16s on the whole book. The design decision that made it usable is the **evidence gate**: no rule fires on English alone, because every chapter file carries its own Chinese. First run found 9 errors with zero false positives — see `RETROFIT.md` → Open. Two rules were not in this spec and earned their place: `mechanistic-register` (which found "source code" live in ch 21) and `stale-shaloms-call`.*
+*Nine rules, 39 tests, 0.16s on the whole book. The design decision that made it usable is the **evidence gate**: no rule fires on English alone, because every chapter file carries its own Chinese. First run found 9 errors with zero false positives — see `WORKLIST.md` → Open. Two rules were not in this spec and earned their place: `mechanistic-register` (which found "source code" live in ch 21) and `stale-shaloms-call`.*
 
 <details><summary>Original spec, and what changed</summary>
 
@@ -76,7 +78,9 @@ Output: grouped by chapter, with the rule cited and the glossary entry linked. E
 
 ### Proposed rules, unbuilt
 
-*Both are blocked on the same thing: `no-new-tooling` is back in force, so each needs its own `shaloms-call`. Both close a hole a human sweep has already fallen through, which is the argument for them.*
+*~~Both are blocked on the same thing: `no-new-tooling` is back in force, so each needs its own `shaloms-call`.~~ **Unblocked 2026-08-28** — the rule is set aside permanently, so neither needs a call. Both close a hole a human sweep has already fallen through, which is the argument for them.*
+
+*Where they stand now. **`glossary-self-check` is the live one**, and independent of any other work — build it. **`incomplete-draft` is subsumed**: it and the thin-translation heuristic in `WORKLIST.md` T5-1 are both ratio statistics over the corpus, and both fall out of the witness database's analysis layer rather than needing a separate rule. Doing it there once beats doing it here twice.*
 
 - [ ] **`incomplete-draft`** — error when `status: drafted` but the `## Translation` block is empty, is placeholder text, or has fewer verse lines than a floor derived from the chapter's source rows. **This was in the §2 spec as "status coherence" and never built.** The cost of not having it is measured: Ch 65 carried `status: drafted` over three ellipses and a fragment, and Ch 20 over 10 verse lines against 25 source rows, missing its whole opening movement. Both survived the 2026-08-10 hand sweep and every session after it, and both were found by Shalom reading the page. **No existing rule can catch this** — every lock keys off the Chinese to judge the English, so a chapter with no English passes all of them trivially.
 
@@ -145,7 +149,7 @@ Not in the original plan, and the reason this one could be written at all. `proc
 
 **Heshang Gong added the same day**, assembled from 77 scan pages of *Sibu congkan* 0532 (a Song woodblock), complete at 81/81 with his own chapter titles preserved. **Han Feizi added the same day** — the oldest commentary there is, indexed by matching his 「」 quotations against our base text, 53 of 53 exact. **Nothing in `process/method.md` §3 is now missing, and every chapter has at least one commentary.** What could still be added: the 10 unproofread Wang Bi chapters, the Fu Yi recension, and a variant sweep for chapters not yet in `variants.yaml`.
 
-*Proposed 2026-08-11, after Ch 21 required fetching Wang Bi, Heshang Gong, and both Mawangdui silks from the open web to answer one question about one line. **Needs its own `shaloms-call`** — the existing suspension of the no-new-tooling rule covers phases A–F only, and this is new scope.*
+*Proposed 2026-08-11, after Ch 21 required fetching Wang Bi, Heshang Gong, and both Mawangdui silks from the open web to answer one question about one line. ~~**Needs its own `shaloms-call`** — the existing suspension of the no-new-tooling rule covers phases A–F only, and this is new scope.~~ **Built 2026-08-11**, and the rule that gated it is set aside permanently as of 2026-08-28.*
 
 ### Why
 
@@ -216,7 +220,7 @@ It also states plainly that **the punctuation is editorial and forms no part of 
 
 ## What is left
 
-1. **Resolve the 8 open findings** in `RETROFIT.md` → *Open*. Each needs a rewrite, so each is Shalom's call. The build stays red until they are resolved or waived — which is the ratchet working, not a problem to route around.
+1. **Resolve the 8 open findings** in `WORKLIST.md` → *Open*. Each needs a rewrite, so each is Shalom's call. The build stays red until they are resolved or waived — which is the ratchet working, not a problem to route around.
 2. ~~**Re-provenance `source/chinese.md`** off ctext~~ ✅ **done 2026-08-11** (§8).
 3. ~~**Build `sources/`** (§8)~~ ✅ **done 2026-08-11** — all three commentaries in.
 4. **Draft chapters 70–81** with the hook live, through the `chapter-review` skill. This is the active frontier and the reason the harness was built now rather than at 81. *(1–69 are drafted; 69 drafted 2026-08-23.)*
@@ -264,3 +268,50 @@ Kept here because the next tool in this repo should start from it.
 - **A translation memory / alignment database.** The glossary already does this, in prose, better.
 - **Automated quality scoring.** The whole method rests on human judgment sharpened by argument; a metric would be a false authority.
 - **Anything that suggests renderings.** The AI's role is to argue for the deepest reading, not to autocomplete the verse. The verse stays Shalom's own.
+
+---
+
+## The 2026-08-10 hand sweep — the record
+
+| Term | → | Chapters fixed |
+|---|---|---|
+| **樸** | uncarved wood *(lowercase)* | 15, 19, 28, 32, 37 — plus 2 dependent lines in 32 |
+| **萬物** | **the countless things** *(re-locked; see below)* | 1, 2, 4, 8, 10, 16, 32, 34, 37, 39, 40, 41, 42, 51 |
+| **天地 / 天下 / 天** | sky and earth · the world · nature | 7, 9, 10, 22, 23, 25, 32, 37, 39, 40, 47, 59 |
+| **玄** | dark · profound | 4, 6, 10, 15, 51, 65 |
+| **常** | the ever-present | 16, 34, 46 |
+| **一** | lowercase *the one* | 10, 22, 39, 42 |
+| **明** | clear-seeing · clarity | 33, 36, 52 |
+| **無為** | non-doing | 37, 43, 48, 57 |
+| **無 / 有** | absence / presence | 2, 40 |
+| **自然** | of itself / of themselves · so of itself | 23, 25 |
+| **義 / 仁** | duty · humaneness | 18, 19, 38 |
+| **知足** | knowing you have enough | 33, 46 |
+| **天** (Ch 16 ladder) | the open sky | 16 — see below |
+
+**萬物 re-locked as "the countless things"** *(was briefly "the ten-thousand things")*. 萬 is a **scorpion** borrowed for its sound — the quantity is a phonetic accident, and 萬 meant *beyond reckoning*, which "ten thousand" now inverts for a reader who knows the scale of the universe. Rejected: *"all things"* (a totality where 萬物 is a teeming plurality) and *"beings"* (imports Buddhist 眾生, over-narrows to inner life, and collides with the "Being/Non-Being" rendering already rejected for 有/無). *Ruling: `glossary/wanwu-萬物.md`.*
+
+**Three corrections the verification pass caught:**
+
+> **ch 30 / ch 55** — 物壯則老 is **verbatim in both** and was rendered two different ways. Now identical in both: *"When things reach their peak strength, they decay."*
+> **ch 25** — "All matter was formed from the formless" → *"**Something** formed in the undifferentiated."* 有物混成 says *there is a **something***, singular and indefinite — not "all matter," which makes it plural and material and quietly turns the pre-cosmic Tao into stuff.
+> **ch 10, 41** — both contained "the ten-thousand things" where the Chinese has **no 物 at all** (生之畜之 in 10; 善貸且成 in 41 — the object is only the pronoun 之, *them*). Swept for consistency, but flagged: the noun is **supplied by the translator**, not present in the source.
+
+**Ch 16's ladder, resolved.** 王乃天，天乃道 now reads *"Sovereignty leads to the open sky. / The open sky leads to the Tao."* Two constraints decided it: Ch 16 and Ch 25 share this exact 天→道 step, so both must say **sky**; and the passage is *anadiplosis* (each line ends on the word the next begins with), so the qualifier had to repeat rather than be introduced once and dropped. **公 was corrected in the same pass** — "equanimity" → **"impartiality"** (公 is the opposite of 私, *private/selfish*), which makes the whole ladder legible as one continuous widening beyond the self. *Logged in `notes/translation.md` and `notes/reading.md`.*
+
+**Also corrected in passing:** Ch 36's "the tools of nature" → *"the sharp instruments of the state"* (國之利器 — 國 is the **state**; "nature" was simply wrong). Ch 22's "therefore is eternal" → *"therefore endures"* (長, not 常). Ch 7's whole opening — 天長地久 is 長/久 (*lasting/enduring*), not 常.
+
+---
+
+## What the 2026-08-10 sweep taught the checker
+
+*All three below are implemented, and each has a test in `tools/tests/test_check_locks.py` named after it. Three further lessons the build itself taught are at the foot of this section.*
+
+Three failure modes this sweep exposed. Build the checker against them:
+
+1. **Match stems, not whole words.** `\beternal\b` misses "eternal**ly**" — which hid two chapters. Use `eternal`, `everlast`, `illuminat`, `righteous`.
+2. **Case-sensitivity cuts both ways.** A case-insensitive scan flags "the one" (correct) as "the One" (wrong), and a case-sensitive one misses "The cosmos" at the start of a line. The checker needs per-rule case policy, not one global flag.
+3. **Homophones and false friends are the real trap.** 常 (*cháng*, constant) vs 長 (*cháng*, long); 自然 (*of itself*) vs the ordinary English word "nature"; 一 (*one*) vs the English pronoun "one"; "Block the openings" (塞) vs "uncarved block" (樸). **Every flagged line must be verified against the Chinese in its own chapter before it is changed** — roughly a third of this sweep's initial 93 flags were false positives.
+
+*Moved here from `WORKLIST.md` on 2026-08-28, when that file was merged into `WORKLIST.md`. It is a record of what was done and learned, not work owed, so it belongs beside *What the building taught* rather than in a forward-looking list.*
+

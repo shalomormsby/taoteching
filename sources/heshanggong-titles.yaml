@@ -1,0 +1,346 @@
+# 河上公 (Héshàng Gōng) — his own chapter titles, glossed
+#
+# The titles are his: 老子道德經 河上公章句, Han commentary, from the Song woodblock
+# reproduced in 四部叢刊 0532. Public domain by age. They are vendored in the
+# `chapter_title:` frontmatter of sources/commentaries/heshanggong/NNN.md by
+# tools/import_commentary.py, and they are the oldest chapter names the text has
+# — interpretations in miniature, two characters wide.
+#
+# The pinyin and the English here are OURS, and are CC0 like everything else in
+# this repository.
+#
+# ⚠ STATUS: working renderings, not settled translation. They were written to
+# satisfy standing rule 0 — the titles were entering the corpus as bare glyphs,
+# and tools/export.py refuses to emit Chinese that nothing on the row can read.
+# They follow the locks (道 the Tao · 德 integrity · 明 clear-seeing · 心 heart ·
+# 民 the people · 樸/朴 uncarved wood · 無為 non-doing · 守 hold fast to ·
+# 強 strong · 信 trust · 天 sky/nature), but they have NOT been through the
+# chapter-review workflow and no commentary was consulted for them. Shalom's to
+# accept, reject, or reshape.
+#
+# Fields: chapter · title (his Chinese) · pinyin · english (ours)
+
+- chapter: 1
+  title: "體道"
+  pinyin: "tǐ dào"
+  english: "Embodying the Tao"
+- chapter: 2
+  title: "養身"
+  pinyin: "yǎng shēn"
+  english: "Nourishing the self"
+- chapter: 3
+  title: "安民"
+  pinyin: "ān mín"
+  english: "Settling the people"
+- chapter: 4
+  title: "無源"
+  pinyin: "wú yuán"
+  english: "The sourceless"
+- chapter: 5
+  title: "虛用"
+  pinyin: "xū yòng"
+  english: "The use of emptiness"
+- chapter: 6
+  title: "成象"
+  pinyin: "chéng xiàng"
+  english: "Taking form"
+- chapter: 7
+  title: "韜光"
+  pinyin: "tāo guāng"
+  english: "Sheathing the light"
+- chapter: 8
+  title: "易性"
+  pinyin: "yì xìng"
+  english: "An easy nature"
+- chapter: 9
+  title: "運夷"
+  pinyin: "yùn yí"
+  english: "Keeping level"
+- chapter: 10
+  title: "能為"
+  pinyin: "néng wéi"
+  english: "What can be done"
+- chapter: 11
+  title: "無用"
+  pinyin: "wú yòng"
+  english: "The use of absence"
+- chapter: 12
+  title: "檢欲"
+  pinyin: "jiǎn yù"
+  english: "Reining in desire"
+- chapter: 13
+  title: "猒恥"
+  pinyin: "yàn chǐ"
+  english: "Shrinking from disgrace"
+- chapter: 14
+  title: "贊玄"
+  pinyin: "zàn xuán"
+  english: "In praise of the dark"
+- chapter: 15
+  title: "顯德"
+  pinyin: "xiǎn dé"
+  english: "Integrity made visible"
+- chapter: 16
+  title: "歸根"
+  pinyin: "guī gēn"
+  english: "Returning to the root"
+- chapter: 17
+  title: "淳風"
+  pinyin: "chún fēng"
+  english: "Unspoiled ways"
+- chapter: 18
+  title: "俗薄"
+  pinyin: "sú bó"
+  english: "When custom wears thin"
+- chapter: 19
+  title: "還淳"
+  pinyin: "huán chún"
+  english: "Back to the unspoiled"
+- chapter: 20
+  title: "異俗"
+  pinyin: "yì sú"
+  english: "Apart from custom"
+- chapter: 21
+  title: "虛心"
+  pinyin: "xū xīn"
+  english: "Emptying the heart"
+- chapter: 22
+  title: "益謙"
+  pinyin: "yì qiān"
+  english: "The gain in humility"
+- chapter: 23
+  title: "虛無"
+  pinyin: "xū wú"
+  english: "Emptiness and absence"
+- chapter: 24
+  title: "苦恩"
+  pinyin: "kǔ ēn"
+  english: "Favour turned bitter"
+- chapter: 25
+  title: "象元"
+  pinyin: "xiàng yuán"
+  english: "Figuring the origin"
+- chapter: 26
+  title: "重德"
+  pinyin: "zhòng dé"
+  english: "The weight of integrity"
+- chapter: 27
+  title: "巧用"
+  pinyin: "qiǎo yòng"
+  english: "Deft use"
+- chapter: 28
+  title: "反朴"
+  pinyin: "fǎn pǔ"
+  english: "Back to uncarved wood"
+- chapter: 29
+  title: "無為"
+  pinyin: "wú wéi"
+  english: "Non-doing"
+- chapter: 30
+  title: "儉武"
+  pinyin: "jiǎn wǔ"
+  english: "Sparing with arms"
+- chapter: 31
+  title: "偃武"
+  pinyin: "yǎn wǔ"
+  english: "Laying arms down"
+- chapter: 32
+  title: "聖德"
+  pinyin: "shèng dé"
+  english: "The integrity of the sage"
+- chapter: 33
+  title: "辯德"
+  pinyin: "biàn dé"
+  english: "Telling integrity apart"
+- chapter: 34
+  title: "任成"
+  pinyin: "rèn chéng"
+  english: "Letting things complete"
+- chapter: 35
+  title: "仁德"
+  pinyin: "rén dé"
+  english: "Humane integrity"
+- chapter: 36
+  title: "微明"
+  pinyin: "wēi míng"
+  english: "Subtle clear-seeing"
+- chapter: 37
+  title: "為政"
+  pinyin: "wéi zhèng"
+  english: "Handling government"
+- chapter: 38
+  title: "論德"
+  pinyin: "lùn dé"
+  english: "On integrity"
+- chapter: 39
+  title: "法本"
+  pinyin: "fǎ běn"
+  english: "Following the root"
+- chapter: 40
+  title: "去用"
+  pinyin: "qù yòng"
+  english: "Putting use aside"
+- chapter: 41
+  title: "同異"
+  pinyin: "tóng yì"
+  english: "Same and different"
+- chapter: 42
+  title: "道化"
+  pinyin: "dào huà"
+  english: "The Tao transforming"
+- chapter: 43
+  title: "徧用"
+  pinyin: "biàn yòng"
+  english: "Use that reaches everywhere"
+- chapter: 44
+  title: "立戒"
+  pinyin: "lì jiè"
+  english: "A standing caution"
+- chapter: 45
+  title: "洪德"
+  pinyin: "hóng dé"
+  english: "Vast integrity"
+- chapter: 46
+  title: "儉欲"
+  pinyin: "jiǎn yù"
+  english: "Sparing desire"
+- chapter: 47
+  title: "鑒逺"
+  pinyin: "jiàn yuǎn"
+  english: "Seeing far"
+- chapter: 48
+  title: "忘知"
+  pinyin: "wàng zhī"
+  english: "Forgetting what you know"
+- chapter: 49
+  title: "任德"
+  pinyin: "rèn dé"
+  english: "Trusting to integrity"
+- chapter: 50
+  title: "貴生"
+  pinyin: "guì shēng"
+  english: "Holding life dear"
+- chapter: 51
+  title: "養德"
+  pinyin: "yǎng dé"
+  english: "Nourishing integrity"
+- chapter: 52
+  title: "歸元"
+  pinyin: "guī yuán"
+  english: "Returning to the origin"
+- chapter: 53
+  title: "益證"
+  pinyin: "yì zhèng"
+  english: "Gain as the proof"
+- chapter: 54
+  title: "修觀"
+  pinyin: "xiū guān"
+  english: "Cultivating how you look"
+- chapter: 55
+  title: "玄符"
+  pinyin: "xuán fú"
+  english: "The dark tally"
+- chapter: 56
+  title: "玄徳"
+  pinyin: "xuán dé"
+  english: "Profound integrity"
+- chapter: 57
+  title: "淳風"
+  pinyin: "chún fēng"
+  english: "Unspoiled ways"
+- chapter: 58
+  title: "順化"
+  pinyin: "shùn huà"
+  english: "Going along with change"
+- chapter: 59
+  title: "守道"
+  pinyin: "shǒu dào"
+  english: "Holding fast to the Tao"
+- chapter: 60
+  title: "居位"
+  pinyin: "jū wèi"
+  english: "Keeping your place"
+- chapter: 61
+  title: "謙德"
+  pinyin: "qiān dé"
+  english: "Humble integrity"
+- chapter: 62
+  title: "為道"
+  pinyin: "wéi dào"
+  english: "Practising the Tao"
+- chapter: 63
+  title: "恩始"
+  pinyin: "ēn shǐ"
+  english: "Favour at the beginning"
+- chapter: 64
+  title: "守微"
+  pinyin: "shǒu wēi"
+  english: "Holding fast to the slight"
+- chapter: 65
+  title: "淳德"
+  pinyin: "chún dé"
+  english: "Unspoiled integrity"
+- chapter: 66
+  title: "後巳"
+  pinyin: "hòu jǐ"
+  english: "Putting the self last"
+- chapter: 67
+  title: "三寳"
+  pinyin: "sān bǎo"
+  english: "The three treasures"
+- chapter: 68
+  title: "配天"
+  pinyin: "pèi tiān"
+  english: "Matching the sky"
+- chapter: 69
+  title: "玄用"
+  pinyin: "xuán yòng"
+  english: "Profound use"
+- chapter: 70
+  title: "知難"
+  pinyin: "zhī nán"
+  english: "Hard to be known"
+- chapter: 71
+  title: "知病"
+  pinyin: "zhī bìng"
+  english: "Knowing the sickness"
+- chapter: 72
+  title: "愛己"
+  pinyin: "ài jǐ"
+  english: "Cherishing yourself"
+- chapter: 73
+  title: "任為"
+  pinyin: "rèn wéi"
+  english: "Leaving doing alone"
+- chapter: 74
+  title: "制惑"
+  pinyin: "zhì huò"
+  english: "Curbing delusion"
+- chapter: 75
+  title: "貪損"
+  pinyin: "tān sǔn"
+  english: "What greed costs"
+- chapter: 76
+  title: "戒強"
+  pinyin: "jiè qiáng"
+  english: "A caution against the strong"
+- chapter: 77
+  title: "天道"
+  pinyin: "tiān dào"
+  english: "The Tao of nature"
+- chapter: 78
+  title: "任信"
+  pinyin: "rèn xìn"
+  english: "Relying on trust"
+- chapter: 79
+  title: "任契"
+  pinyin: "rèn qì"
+  english: "Holding to the tally"
+- chapter: 80
+  title: "獨立"
+  pinyin: "dú lì"
+  english: "Standing alone"
+- chapter: 81
+  title: "顯質"
+  pinyin: "xiǎn zhì"
+  english: "Showing what is plain"

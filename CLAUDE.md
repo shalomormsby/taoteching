@@ -4,6 +4,25 @@
 
 ---
 
+# ⛔ BEFORE YOU WRITE ANYTHING: gloss every Chinese character, every time
+
+**Shalom does not read Chinese.** Never write a Chinese character, word, phrase, line, or chapter title — in conversation, in a document, in a commit message, in a table, anywhere — without an English rendering immediately beside it.
+
+**The format, always:** 為 (*wéi* — "to do / to handle"). Character, pinyin with tone marks, English. Never a bare 為.
+
+**This applies even when:**
+- the term was glossed earlier in the same session, or in the same message
+- it is a chapter title, a compound, a commentator's name, or a quoted line
+- it is "obviously" familiar — 道, 德, 天, 無為 all still get glossed
+- you are quoting 王弼 (*Wáng Bì*) or 河上公 (*Héshàng Gōng*); **quoted commentary gets a full English rendering, not a paraphrase**
+- you are asking a question and think the answer is obvious
+
+A working approximation is fine and expected; the *deep* meaning is what the glossary entry is for. **Unglossed Chinese makes the work unreadable to the person whose work it is** — it silently converts a question into a thing he cannot answer.
+
+*This is standing rule 0 below. It is repeated here because it is the rule most often broken, and it was broken repeatedly on 2026-08-28 despite being written down.*
+
+---
+
 ## What this is
 
 A from-the-source English translation of the Tao Te Ching by **Shalom Ormsby**, built chapter by chapter from the original Chinese, decades of study and meditation, and AI collaboration — **never** from other people's translations.
@@ -32,7 +51,7 @@ The single most valuable thing the AI does here is **help Shalom see what he can
 
 ## Standing rules — non-negotiable
 
-0. **Shalom does not read Chinese. Gloss every character, every time.** Never write a Chinese character, phrase, or line in conversation or in a document without an immediate English rendering beside it — e.g. 為 (*wéi* — "to do / to handle"), not bare 為. This includes chapter titles, compounds, and terms already discussed earlier in the session. A working approximation is fine and expected; the *deep* meaning is what the glossary entry itself is for. Unglossed Chinese makes the work unreadable to the person whose work it is.
+0. **Shalom does not read Chinese. Gloss every character, every time — see the banner at the top of this file.** Never write a Chinese character, phrase, or line in conversation or in a document without an immediate English rendering beside it — e.g. 為 (*wéi* — "to do / to handle"), not bare 為. This includes chapter titles, compounds, and terms already discussed earlier in the session. A working approximation is fine and expected; the *deep* meaning is what the glossary entry itself is for. Unglossed Chinese makes the work unreadable to the person whose work it is.
 1. **Never refer to the Sage as "he."** Use singular *they/their*, or recast. This is an impermissible gender bias. Applies to all archetypal figures.
 2. **Universality over the incidental male-default.** The text exalts the feminine as principle yet assumes the male as cultural default. Where they collide: **render toward the universal, note the seam.** Never erase the male-centrism silently.
 3. **Consult sources for *meaning*, never for *phrasing*.** Pre-1931 public domain only. Waley (1934) and later are off-limits.
@@ -110,6 +129,7 @@ Apply consistently across all 81 chapters. Departures require a logged reason.
 | 弱 | **yielding** · *weaken* only where it takes an object | "frail", "feeble", "powerless" — and never 柔's *soft* | `glossary/ruo-弱.md` |
 | 一 | **the one** (lowercase) · *one thing* at ch 22 only | "the One", "Oneness", "the Absolute" | `glossary/yi-一.md` |
 | 全 | **whole** · *stay whole* · *keep whole* (transitive) | "complete", "perfect", "flawless", and every verb of repair | `glossary/quan-全.md` |
+| 強 | **strong** · *strengthen* (with an object) · *forcing* (straining a nature) | "mighty", "forceful", "brute strength", "perseverance" — and never 力's *force* | `glossary/qiang-強.md` |
 
 *為 is a hand on an elephant — handling, not neutral doing. 無為 is taking your hand off it. "Non-doing" is required by Ch 63's triple parallel (為無為，事無事，味無味), which only survives with a verb that also works as a noun. Sweep pending: ch 2, 3, 10, 37, 38, 43, 48, 57, 63, 64.*
 
@@ -122,6 +142,8 @@ Apply consistently across all 81 chapters. Departures require a logged reason.
 *敢 is **a hand with a hunting weapon going after a boar** — *Shuowen*: 進取也, "to advance and take." **Appetite, not bravery**, which is why "not daring" inverts the book: Ch 73's 勇於**不敢**則活 (*yǒng yú bù gǎn zé huó* — "courage in not-敢 lives") makes 不敢 *a form of courage*, and "not daring" cannot be brave. Caught by Shalom, 2026-08-19, after the reading had passed three chapters unexamined. Swept ch 30, 64, 67, 69.*
 
 *弱 is **two 弓** (*gōng* — a bow) with 彡 (fine strokes): a bow is useful *because* it bends. Not one classical gloss in this repository reads deficiency — 王弼 on ch 40 says 柔弱同通不可窮極, *"soft and 弱 alike **pass through**; they cannot be exhausted"*; 河上公 on ch 78 answers 弱之勝強 with 水能滅火, *"water can put out fire."* **Ch 78 splits the compound** (弱之勝強，柔之勝剛) and so forces four distinct words: 柔 **soft** · 剛 **hard** · 弱 **yielding** · 強 **strong**. Swept ch 36, 55, 76; **ch 40 needed no change**, which is how the error was caught. Two lines keep *weaken* on grammar — ch 3 弱其志 and ch 36 將欲弱之 take an object, and a stance word cannot.*
+
+*強 completes the four-word table 弱 already forced (柔 **soft** · 剛 **hard** · 弱 **yielding** · 強 **strong**). The graph is a **grain weevil** (說文: 蚚也，从虫弘聲) borrowed for its sound from the Qin onward, displacing 彊 — 弓有力也, **"a bow having force."** So 強 and 弱 are one instrument in two states, and ch 76's 木強則折 ("a tree that is 強 snaps") is a bow drawn past its give. **The book uses 強 for both the disease and the cure and never resolves it** — 王弼 on ch 52: 守強不強，守柔乃強也, *"holding to 強 is not 強; holding to the soft is truly 強."* An English carrying a verdict cannot do both, which is why *forcing* and *true strength* both fail. 河上公 names the whole quartet at ch 42: 去弱為強，去柔為剛 is what the crowd teaches; 去強為弱，去剛為柔 is what Laozi teaches. **力 is `covers:`-ed as *force*** — ch 33 sets 有力 against 強 and our text had the pair inverted. Swept ch 30, 55; ch 15, 33, 42, 52, 55 owed a rewrite.*
 
 *王 reads **ruler**, not *king* — and note the forbidden string is `" king"` with a leading space, so "kingdom" stays legal. See `DISCOVERIES.md` §1, whose central claim this entry corrected.*
 
@@ -181,7 +203,7 @@ python3 tools/concordance.py --witnesses N     # where the older manuscripts dis
 5. **Take a stand** — lead with the deepest claim, then the smaller precisions.
 6. Offer clay: a full rendering Shalom can accept, reject, or reshape.
 7. **Log** what was decided (below). Add a glossary entry for any term that earned one.
-8. Note any **retrofit** the decision creates in earlier chapters → `RETROFIT.md`.
+8. Note any **retrofit** the decision creates in earlier chapters → `WORKLIST.md`.
 
 **Tie-breaking order:** characters/radicals → oldest witnesses → classical commentaries → internal consistency and locks → this edition's ethos → Shalom's poetic intuition (final arbiter, exercised *after* the deepest reading is on the table).
 
@@ -219,7 +241,8 @@ sources/commentaries/  Wang Bi (71 ch.) · Heshang Gong (all 81) · Han Feizi (1
 tools/                check_locks.py (the gate) · concordance.py (the evidence)
 process/legacy-tao-source-code.md   ⚠ archived, contains SUPERSEDED renderings
 DISCOVERIES.md        ★ the findings worth writing about — read when taking stock
-RETROFIT.md           the debt list
+WORKLIST.md           ★ the one forward-looking file — what the manuscript still owes
+                      (was RETROFIT.md + EDITING-PASS.md, merged 2026-08-28)
 PLAN.md               the harness — phases A–F built 2026-08-11; build.py still deferred
 ```
 
@@ -258,8 +281,8 @@ python3 tools/concordance.py --commentary 63     # Wang Bi and Heshang Gong on a
 
 - **Chapters 1–79:** drafted, and swept against every lock. The 2026-08-10 sweep resolved the accumulated debt; do not assume the early chapters are still pre-lock. *(Ch 69 drafted 2026-08-23; Ch 70, 71 and 72, 2026-08-24; Ch 73–77, 2026-08-25/26; Ch 78 and 79, 2026-08-26.)*
 - **Chapters 80 and 81:** drafted 2026-08-26. **The first draft of all 81 chapters is complete.** Neither is attested at Guodian; 66 is the highest-numbered chapter the oldest witness carries, so both rest on the Mawangdui silks and later.
-- **The frontier has moved.** With drafting done, `PLAN.md`'s `no-new-tooling` rule has nothing left to protect in its original form — the harness and the editing pass are now the work. That is a call for Shalom, not a decision the AI makes.
-- **⚠ `status: drafted` has been proved unreliable once. Do not trust it without looking at the page.** On 2026-08-17 Shalom found Ch 65's `## Translation` block was three ellipses and a fragment, carrying `status: drafted` and `retrofit: []`. An audit of all 81 then found **Ch 20** the same way — 10 verse lines against 25 source rows, missing its entire opening movement (絕學無憂 through 荒兮其未央哉). Both had been counted as finished by the 2026-08-10 hand sweep, by `CLAUDE.md`, and by every session since. Both are now genuinely complete. **No checker rule catches this** — every lock keys off the Chinese to judge the English, and a chapter with no English trivially passes all of them. A proposed `incomplete-draft` rule is in `PLAN.md` → *Proposed rules, unbuilt*, pending a call on `no-new-tooling`. **It was in the original §2 spec as "status coherence" and never built, inside a section stamped ✅ DONE** — which is how the gap stayed invisible.
+- **The frontier has moved, and the call was made.** With drafting done, `PLAN.md`'s `no-new-tooling` rule had nothing left to protect — the harness and the editing pass are now the work. **Shalom set the rule aside permanently on 2026-08-28** (`process/shaloms-call.md`, `until: standing`). The rule stays written in `PLAN.md` with an override banner beside it. Tooling no longer needs a call; it needs a reason, like any other work. Unblocked by it: the **witness database** (`tools/build_db.py`, `export.py`, `analyze.py`), and `glossary-self-check`. `build.py` stays deferred on its own merits — the text is still moving.
+- **⚠ `status: drafted` has been proved unreliable once. Do not trust it without looking at the page.** On 2026-08-17 Shalom found Ch 65's `## Translation` block was three ellipses and a fragment, carrying `status: drafted` and `retrofit: []`. An audit of all 81 then found **Ch 20** the same way — 10 verse lines against 25 source rows, missing its entire opening movement (絕學無憂 through 荒兮其未央哉). Both had been counted as finished by the 2026-08-10 hand sweep, by `CLAUDE.md`, and by every session since. Both are now genuinely complete. **No checker rule catches this** — every lock keys off the Chinese to judge the English, and a chapter with no English trivially passes all of them. A proposed `incomplete-draft` rule is in `PLAN.md` → *Proposed rules, unbuilt*; the call it waited on was made 2026-08-28, and it is now **subsumed by the witness database's thin-translation analysis**, which measures the same thing as a ratio over the corpus. **It was in the original §2 spec as "status coherence" and never built, inside a section stamped ✅ DONE** — which is how the gap stayed invisible.
 - **⚠ `check_locks.py` does not scan `glossary/`.** The locks are enforced against the manuscript but never against the files that *define* them, so a glossary entry can contradict its own lock indefinitely. Found 2026-08-23: one line of `glossary/ziran-自然.md` carried **two** violations — a stale "dare" for 敢 and "the ten-thousand things" for 萬物, the latter forbidden outright. A proposed `glossary-self-check` rule is in `PLAN.md`, unbuilt. Until it exists, **sweep `glossary/` by hand whenever a lock is settled** — the entries are prose and the retrofit policy applies to them too.
 - **Two locks have held clean from the beginning:** 德 → *integrity* (zero "virtue" ever appeared) and the sage pronoun rule (zero "he/his/him"). Keep them that way.
 
@@ -268,7 +291,7 @@ python3 tools/concordance.py --commentary 63     # Wang Bi and Heshang Gong on a
 1. **The first draft is complete — 81 of 81.** Ch 81 closed on 2026-08-26 with three findings. **The book's last verb is 為, not 無為** (為而不爭 — the sage *acts*, qualified only by not contending), which is a reading finding worth an essay. **不積 is not "owns nothing"** — 河上公 resolves it against ch 59's 重積德 in five characters: 聖人積德不積財, *"the sage accumulates integrity, not wealth."* And **the third couplet is the chapter's hinge**: 博 (*bó* — wide) is 多見聞, knowledge held as a stockpile, and the very next line is 聖人不積 — the same accumulation, two objects. Also settled: 辯 → *argue* (the graph is two 辛 tattooing-knives facing off with 言 between them — a courtroom, not a stage); 美 → *pretty*, with ch 62's *fine words* deliberately left alone; 博 → *have heard it all*, a borrowed rendering waived and argued in `notes/translation.md`. **The 信言 question — *trustworthy* vs *honest* vs *truthful* — is now closed in `glossary/xin-信.md`**, and correcting it turned up an error in our own entry: 誠 is 言 + 成, **word completed**, not *truthful*, so the oldest gloss of 信 points at dependability, not accuracy.
 
 2. **Continue the glossary harvest** from `glossary/TRIAGE.md`. Tier 2 is complete except **一** (*yī* — "one"), which is already lowercased in the text and owed only its entry. Tier 3 opens with **名** (*míng* — "name"), which pairs with the 無名/有名 of Ch 1. **New candidate, raised by Ch 70: 希** (*xī* — sparse) — 爻 (crossed threads) over 巾 (cloth), *loosely woven fabric you can see through*. Six occurrences, one sense, three different Englishes in the manuscript already (ch 14 *the inaudible*, ch 23 *speak sparingly*, ch 43 *few ever reach this*). Rarity and inaudibility are the same property; see the thread in `notes/reading.md`.
-3. **民 / 人 — one decision, whole book, deferred by Shalom (2026-08-25).** 民 (*mín* — the governed, an eye pierced by a blade) reads *"the people"* in all 32 of its lines; 人 (*rén* — a person) drifts, and **Ch 57 renders it both ways two lines apart**. Raised at Ch 74 and parked deliberately: a rule settled at one chapter propagates to thirteen others and to the cross-chapter rhymes in `notes/reading.md` (72 → 74 → 75 turns on 民不畏X). Ch 74 currently reads *"the people"* as a **hold, not a precedent**. Full statement of what is at stake in `RETROFIT.md` → *民 and 人*. Owed: a `glossary/min-民.md` entry, then a sweep.
+3. **民 / 人 — one decision, whole book, deferred by Shalom (2026-08-25).** 民 (*mín* — the governed, an eye pierced by a blade) reads *"the people"* in all 32 of its lines; 人 (*rén* — a person) drifts, and **Ch 57 renders it both ways two lines apart**. Raised at Ch 74 and parked deliberately: a rule settled at one chapter propagates to thirteen others and to the cross-chapter rhymes in `notes/reading.md` (72 → 74 → 75 turns on 民不畏X). Ch 74 currently reads *"the people"* as a **hold, not a precedent**. Full statement of what is at stake in `WORKLIST.md` → *民 and 人*. Owed: a `glossary/min-民.md` entry, then a sweep.
 4. **Em-dashes in the verse — unreviewed.** Seventeen lines still contain — or –, in chapters 10, 14, 15, 28, 29, 43, 44, 51, 53, 55, 58. Some are good (Ch 44's *"Reputation or your self — which is dearer?"*), some strand subjects. Removing them means restructuring real lines, so this is a chapter-by-chapter conversation, not a sweep.
 5. **Activate the glossary skill** if it is not already linked:
    `ln -s "$(pwd)/process/skills/glossary-entry" ~/.claude/skills/glossary-entry`
@@ -278,7 +301,7 @@ python3 tools/concordance.py --commentary 63     # Wang Bi and Heshang Gong on a
 He decides; the AI argues. Bring him a **clear recommendation with the evidence and the cost**, not a menu — then do what he says. He will push back hard and specifically when something is off, and that pushback is usually right: he caught the 樸 "block" error, the missing 心 subject, the "wise core" abstraction, and the process noise in the glossary entries. Treat a challenge as a finding, not a complaint. He does not read Chinese, so **gloss every character, every time**.
 - **Order of work:** finish the first draft to 81, *then* the harness (`PLAN.md`). **Do not stop drafting to build tooling.**
 - **Retrofit policy — fix on discovery, not in a deferred batch.** When a lock is settled, sweep the affected chapters *immediately*. Mechanical term-swaps: just apply them. Lines needing a rewrite: propose to Shalom first, then apply. *(This reverses the original plan, which batched retrofits to the editing pass — that made sense only while `chapters/` were regenerated from the Google Doc and hand-edits would be clobbered. The Doc is retired; the constraint is gone.)*
-- **Always verify a flagged line against the Chinese in its own chapter before changing it.** Roughly a third of the first automated sweep's flags were false positives — 常 (*cháng*, constant) vs 長 (*cháng*, long), "the one" the pronoun vs 一, "Block the openings" (塞) vs "uncarved block" (樸). See the lessons at the foot of `RETROFIT.md`.
+- **Always verify a flagged line against the Chinese in its own chapter before changing it.** Roughly a third of the first automated sweep's flags were false positives — 常 (*cháng*, constant) vs 長 (*cháng*, long), "the one" the pronoun vs 一, "Block the openings" (塞) vs "uncarved block" (樸). See `PLAN.md` → *What the 2026-08-10 sweep taught the checker*.
 
 ## Source of truth — **`chapters/001–081.md`**
 
