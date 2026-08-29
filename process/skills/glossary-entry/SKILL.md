@@ -61,7 +61,7 @@ The rule most often broken. An entry is not a work log.
 **Purge on sight:**
 
 - **Draft-state commentary** — *"the draft currently renders this three ways," "at present the manuscript has…"* Stale the moment a sweep runs, and meaningless to a reader.
-- **Work-tracking** — *"Sweep required: chapters 3, 8, 12," "Swept 2026-08-10."* That belongs in `RETROFIT.md`.
+- **Work-tracking** — *"Sweep required: chapters 3, 8, 12," "Swept 2026-08-10."* That belongs in `WORKLIST.md`.
 - **Harvest provenance** — *"the early glossary," "the old entry," "rejected with the framework it came from."* Reject the *rendering* on its merits; the reader does not need its biography.
 - **Editorial asides** — *"pending confirmation," "our only quarrel is," "build the others toward this," "worth logging as an exception."*
 - **Instructions to the project** — *"a Reading Note should connect…"* Put the note in `notes/reading.md`; do not write about writing it.

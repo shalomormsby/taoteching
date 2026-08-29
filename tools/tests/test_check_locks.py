@@ -7,7 +7,7 @@ Tests for check_locks.py, built from the traps the 2026-08-10 sweep actually hit
 The point of this file is not coverage. It is that roughly a third of that
 sweep's 93 flags were false positives, and a checker that cries wolf gets
 switched off. So every case below is either a real error that must fire, or a
-real false friend that must not — taken from RETROFIT.md's own record.
+real false friend that must not — taken from WORKLIST.md's own record.
 
 The false-friend cases are the important half. If one of them starts failing,
 the checker has become noise.
@@ -62,7 +62,7 @@ class ForbiddenRenderings(unittest.TestCase):
     """The locks, and the false friends that look like them."""
 
     def test_stem_match_catches_the_adverb(self):
-        # RETROFIT.md lesson 1: \beternal\b misses "eternally", which is exactly
+        # WORKLIST.md lesson 1: \beternal\b misses "eternally", which is exactly
         # how two chapters hid from the sweep.
         found = rendering_errors([chapter(1, "The Tao is eternally so.", "常道")], [CHANG])
         self.assertEqual(len(found), 1)

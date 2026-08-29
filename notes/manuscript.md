@@ -72,6 +72,20 @@ We follow the second, on three grounds. **(1) The parallel with Chapter 37** is 
 
 ## Witness forks
 
+### Ch 19 · 絕聖棄智 / 絕仁棄義 — the oldest witness does not attack the Confucians
+
+**The best-known meaning-bearing divergence in the whole Guodian Laozi, and it sits in a chapter we drafted with the apparatus silent.** Recorded 2026-08-28; this closes `PLAN.md` → G1.
+
+Our base text severs three pairs: 絕**聖**棄**智** (sagehood and knowing), 絕**仁**棄**義** (humaneness and duty), 絕**巧**棄**利** (cunning and profit). **The Guodian slips (~300 BCE, bundle A, where this passage opens the bundle) carry neither 聖 nor 仁 nor 義 anywhere in it.** The reported readings are 絕**智**棄**辯** (*zhì / biàn* — knowing and disputation) and 絕**偽**棄**慮** (*wěi / lǜ* — artifice and anxious scheming), with 絕巧棄利 shared verbatim. That shared couplet is what makes the other two legible as **substitutions** rather than as a different passage altogether.
+
+**We keep the base text**, and the reason is the same one that governs Ch 25: our edition is of the received recension, and a fork this size is a fact to record, not a text to replace. But it changes how the chapter should be *read*, and that belongs in the reading notes rather than here.
+
+**What is solid and what is not.** That 仁義 and 聖 are absent is not in dispute and is reported consistently across the scholarship. The reconstruction of the second graph in 絕偽棄慮 **is** contested among editors — the slips are damaged and the 釋文 is 1998 living scholarship, which is also why no transcription appears in this repository. We record the absence, which is a fact about a text, and not the reconstruction, which is someone's editorial work. See `sources/PROVENANCE.md`.
+
+**Why it matters beyond the apparatus.** Ch 18 and Ch 19 are the book's two most-quoted anti-Confucian passages, and 王弼's own commentary does not read them as an attack on goods: 聖智，才之善也；仁義，人之善也；巧利，用之善也 — *"sagehood and knowing are the best of talent; humaneness and duty are the best of persons; cunning and profit are the best of use."* Three pairs of **goods**, said to be insufficient as 文 (*wén* — cultural form), not three evils. The Guodian reading and the oldest commentary point the same way, from opposite ends of the transmission.
+
+**A transmitted echo of the same seam.** The Siku Wang Bi runs Ch 18 and Ch 19 together, and its compilers note 〔永樂大典此章與上章合為一章〕 — *"the Yongle Dadian joins this chapter with the previous as one chapter."* Guodian runs Ch 17 and Ch 18 together (see `guodian-inventory.yaml`). The chapter divisions here are late and unstable in both directions.
+
 ### Ch 21 · 道之為物 / 道之物 — the silks drop the copula
 
 Our base reads 道之**為**物，惟恍惟惚. Both Mawangdui silks read **道之物** with no 為, leaving 之 as a plain possessive: *the Tao's thingness*, rather than *the Tao's being a thing*. **Both point at the same sense**, so the reading is not in doubt — but the fork is worth logging because it settles what the line's **topic** is: not the Tao itself but *what the Tao amounts to as an entity*, which is a topic-comment construction and wants topic-comment English. Hence *"Whatever the Tao is, it is only vague, only elusive."* We keep the base text; nothing turns on 為. (The silks also read 唯 for 惟 and 望/朢 for 恍 — graphic and phonetic variants, not meaning-bearing.)
@@ -170,7 +184,7 @@ Where our base reads 三**公** (*sān gōng*), the silks write 三**鄉**, whic
 
 #### Apparatus note · Wang Bi's commentary on this chapter is filed under Chapter 61
 
-`tools/concordance.py --commentary 62` reports Wang Bi as *not vendored*, and the importer lists 62 among ten chapters whose Siku transcription is unproofread. But the text is present: the Siku printing runs Chapter 62 on into Chapter 61's block, opening with the chapter heading and the compilers' own collation note 〔案河上公注本此為為道章〕 (*"in the Heshang Gong recension this is the chapter titled 為道"*), and the whole of Wang Bi's Ch 62 commentary follows inside `sources/commentaries/wangbi/061.md`. Ch 62 was drafted with it. **The importer's chapter-splitting needs a look** — wherever else a chapter heading sits mid-block, the same thing will have happened. Logged in `RETROFIT.md`.
+`tools/concordance.py --commentary 62` reports Wang Bi as *not vendored*, and the importer lists 62 among ten chapters whose Siku transcription is unproofread. But the text is present: the Siku printing runs Chapter 62 on into Chapter 61's block, opening with the chapter heading and the compilers' own collation note 〔案河上公注本此為為道章〕 (*"in the Heshang Gong recension this is the chapter titled 為道"*), and the whole of Wang Bi's Ch 62 commentary follows inside `sources/commentaries/wangbi/061.md`. Ch 62 was drafted with it. **The importer's chapter-splitting needs a look** — wherever else a chapter heading sits mid-block, the same thing will have happened. Logged in `WORKLIST.md`.
 
 ### Ch 63 · 報怨以德 is native to this chapter, not a stray from Ch 79
 

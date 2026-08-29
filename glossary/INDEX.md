@@ -7,7 +7,7 @@
 python3 tools/build_index.py
 ```
 
-**32 entries.** Sorted by how much of the book each term touches.
+**35 entries.** Sorted by how much of the book each term touches.
 
 | Term | Say | Render as | Never | Chapters | Entry |
 |---|---|---|---|---|---|
@@ -21,6 +21,7 @@ python3 tools/build_index.py
 | **德** | *dé* | integrity | "virtue", "moral excellence", "power" | 16 | [`de-德.md`](de-德.md) |
 | **萬物** | *wàn wù* | the countless things | "the ten thousand things", "all things", "the myriad things", "beings" | 16 | [`wanwu-萬物.md`](wanwu-萬物.md) |
 | **事** | *shì* | affairs / undertakings (noun) · to serve, to attend to (verb) | "techniques", "processes" | 14 | [`shi-事.md`](shi-事.md) |
+| **強** | *qiáng* | strong — *strengthen* where it takes an object, *forcing* where it strains against a thing's nature | "mighty", "forceful", "brute strength", "perseverance" | 12 | [`qiang-強.md`](qiang-強.md) |
 | **明** | *míng* | clear-seeing / clarity | "enlightenment", "illumination", "brilliance" | 12 | [`ming-明.md`](ming-明.md) |
 | **無為** | *wú wéi* | non-doing | "non-action", "effortless action", "inaction", "doing nothing" | 10 | [`wuwei-無為.md`](wuwei-無為.md) |
 | **器** | *qì* | vessel / tool / implement | "system", "mechanism", "machine", "utensil" | 9 | [`qi-器.md`](qi-器.md) |
@@ -36,10 +37,12 @@ python3 tools/build_index.py
 | **心** | *xīn* | heart | "mind", "heart-mind", "the wise core", "consciousness" | 6 | [`xin-心.md`](xin-心.md) |
 | **樸** | *pǔ* | uncarved wood / the uncarved | "uncarved block", "simplicity", "purity" | 6 | [`pu-樸.md`](pu-樸.md) |
 | **眾** | *zhòng* | the crowd / the many | "the masses", "the multitude", "the people" | 6 | [`zhong-眾.md`](zhong-眾.md) |
+| **仁** | *rén* | humaneness | "benevolence", "charity", "goodwill" | 5 | [`ren-仁.md`](ren-仁.md) |
 | **恃** | *shì* | rely on — the heart putting its weight on something | "presume", "presuming", "dependency" | 5 | [`shi-恃.md`](shi-恃.md) |
 | **母** | *mǔ* | mother | "the Source", "the Origin", "the Ground of Being" | 5 | [`mu-母.md`](mu-母.md) |
 | **自然** | *zì rán* | of itself / of themselves · so of itself | "Nature", "spontaneity", "self-so" | 5 | [`ziran-自然.md`](ziran-自然.md) |
 | **公** | *gōng* | impartiality / impartial (the quality) · lord / minister (the office) | "duke", "equanimity", "justice" | 3 | [`gong-公.md`](gong-公.md) |
+| **慈** | *cí* | tenderness | "compassion", "mercy", "maternal love", "filial piety" | 3 | [`ci-慈.md`](ci-慈.md) |
 | **知足** | *zhī zú* | knowing you have enough / contentment | "sufficiency", "fulfilled" | 3 | [`zhizu-知足.md`](zhizu-知足.md) |
 | **精** | *jīng* | vital essence / essence | "primordial mass", "soul", "spirit" | 2 | [`jing-精.md`](jing-精.md) |
 | **全** | *quán* | whole · stay whole · keep whole (transitive) | "complete", "perfect", "flawless", "restore", "made whole" | 1 | [`quan-全.md`](quan-全.md) |
@@ -52,8 +55,10 @@ python3 tools/build_index.py
 |---|---|---|
 | **侯** | ruler (inside 侯王) | [`wang-王.md`](wang-王.md) — 王 |
 | **利** | advantage | [`wu-you-無有.md`](wu-you-無有.md) — 無 & 有 |
+| **力** | force | [`qiang-強.md`](qiang-強.md) — 強 |
 | **天** | nature (as ordering principle) | [`tiandi-天地.md`](tiandi-天地.md) — 天地 |
 | **天下** | the world | [`tiandi-天地.md`](tiandi-天地.md) — 天地 |
+| **孝** | devotion | [`ci-慈.md`](ci-慈.md) — 慈 |
 | **忠** | loyalty | [`xin-信.md`](xin-信.md) — 信 |
 | **曲** | bend / bent | [`quan-全.md`](quan-全.md) — 全 |
 | **物** | things / something | [`wanwu-萬物.md`](wanwu-萬物.md) — 萬物 |

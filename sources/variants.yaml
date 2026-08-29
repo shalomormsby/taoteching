@@ -655,3 +655,44 @@
     王弼: 器謂農人之器 — the tools are the *farmers'*, and 不用 means the state
     does not requisition them (不徵召奪人良時也).
   logged: notes/manuscript.md
+
+# --- Ch 19 · the Guodian fork, recorded 2026-08-28 (EDITING-PASS Pass B / PLAN G1) ---
+# The best-known meaning-bearing divergence in the whole Guodian Laozi. Recorded as
+# facts about which characters are present, not as a transcription: the Guodian
+# 釋文 is 1998 living scholarship. See PROVENANCE.md.
+
+- chapter: 19
+  line: "絕聖棄智，民利百倍"
+  base: "絕聖棄智"
+  witnesses: { guodian: "絕智棄辯" }
+  meaning_bearing: true
+  our_call: base
+  note: >
+    聖 (shèng — sagehood) is not among the terms the oldest witness severs here;
+    the slips pair 智 (zhì — knowing) with 辯 (biàn — disputation) instead.
+  logged: notes/manuscript.md
+
+- chapter: 19
+  line: "絕仁棄義，民復孝慈"
+  base: "絕仁棄義"
+  witnesses: { guodian: "絕偽棄慮" }
+  meaning_bearing: true
+  our_call: base
+  note: >
+    The received attack on 仁義 (rén yì — humaneness and duty) is absent from
+    Guodian, which severs 偽 (wěi — artifice) and 慮 (lǜ — anxious scheming).
+    Neither 仁 nor 義 appears in the passage at all. The reconstruction of the
+    second graph is contested among editors; the fact that 仁義 is absent is not.
+  logged: notes/manuscript.md
+
+- chapter: 19
+  line: "絕巧棄利，盜賊無有"
+  base: "絕巧棄利"
+  witnesses: { guodian: "絕巧棄利" }
+  meaning_bearing: false
+  our_call: base
+  note: >
+    The one couplet of the three that Guodian and the received text share. Its
+    agreement is what makes the other two forks legible as substitutions rather
+    than as a different passage.
+  logged: notes/manuscript.md

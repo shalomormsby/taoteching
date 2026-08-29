@@ -251,7 +251,7 @@ class Term:
     chapters: list
     status: str
     entry: str
-    case: str = "insensitive"       # per-rule case policy; see RETROFIT.md lesson 2
+    case: str = "insensitive"       # per-rule case policy; see WORKLIST.md lesson 2
     match: str = "substring"        # substring catches "eternally"; lesson 1
     severity: str = "error"
 
