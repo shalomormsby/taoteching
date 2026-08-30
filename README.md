@@ -4,6 +4,8 @@
 
 **Everything here is public domain (CC0). It is a gift — take it, use it, build on it. No permission needed, no attribution required.**
 
+*First draft complete — all 81 chapters. The editing pass is the work now; see [`WORKLIST.md`](WORKLIST.md).*
+
 ---
 
 ## What this is
@@ -17,6 +19,20 @@ The work rests on three commitments:
 - **The naturalistic razor.** The overlays come off — theistic ("Heaven"), moralistic ("virtue"), and mechanistic alike — and the text's own images are restored: water, root, valley, uncarved wood, the newborn, the mother.
 
 Every consequential decision is documented. Nothing is asserted without evidence, and genuine ambiguities are left open rather than resolved by fiat.
+
+## How it works
+
+**This is a translation that behaves like a codebase.** Every settled decision about a Chinese word is written once — as an essay, with its evidence — and then enforced mechanically across all 81 chapters, so it cannot quietly come undone.
+
+- **The glossary is both the ruling and the rule.** Each of the 35 entries argues a term from its oldest written form forward, quotes the classical commentators, and names what is set aside and why. Its frontmatter carries the settled English and the renderings that are forbidden; a build step turns that into machine-readable locks.
+- **The checker is a gate, not advice.** It reads those locks and fails the build wherever the manuscript contradicts a decision already made. It never fires on English alone — *"virtue"* is an error only when 德 (*dé* — integrity) is in that chapter's own Chinese, and otherwise it is just an English word.
+- **The evidence is in the repository, not in a bibliography.** Three classical commentaries in full — 王弼 (*Wáng Bì*, d. 249 CE, 71 chapters), 河上公 (*Héshàng Gōng*, Han, all 81) and 韓非 (*Hán Fēi*, d. 233 BCE, the oldest there is) — the 說文解字 (*Shuōwén Jiězì*, c. 100 CE) analysis of all 711 characters in the book, and an apparatus of 45 places where the excavated manuscripts disagree with the received text.
+- **Where the manuscripts fork, the fork is recorded rather than resolved silently.** A meaning-bearing divergence with no logged decision fails the build.
+- **Overrides are recorded and cost something.** A single finding can be waived with a reason; a whole rule can be set aside, but only with a scope and an expiry — and an unused waiver is itself an error, so the record cannot rot.
+
+None of this decides anything. It only makes sure that what was decided once, on evidence, is still true on page 340 — and that a reader can check any of it without taking a word on trust.
+
+[`ARCHITECTURE.md`](ARCHITECTURE.md) maps the whole system: what holds authority, what is generated, and what each gate covers.
 
 ## Read it
 
@@ -60,9 +76,7 @@ python3 tools/fix-linebreaks.py            # restore the verse's hard line break
 python3 -m unittest discover -s tools/tests
 ```
 
-[`ARCHITECTURE.md`](ARCHITECTURE.md) maps the whole system — what holds authority, what is generated from it, how a decision becomes an enforced rule, and what each gate covers.
-
-`check_locks.py` is a gate: it reads the locked renderings out of the glossary entries' own frontmatter and reports where the manuscript contradicts a decision already made. It never rewrites the verse, and it never fires on the English alone — a forbidden rendering is only an error when the character licensing it is present in that same chapter's Chinese. `concordance.py` is the opposite kind of tool: it judges nothing and never fails.
+The two are opposite kinds of tool, deliberately. `check_locks.py` gates: it reads the locks out of the glossary entries' own frontmatter, reports where the manuscript contradicts a decision already made, and **never rewrites the verse**. `concordance.py` reports: it judges nothing and never fails. See [`ARCHITECTURE.md`](ARCHITECTURE.md) for why merging them would ruin both.
 
 To have the locks checked before every commit:
 
