@@ -90,7 +90,13 @@ EXPORTS = {
                ifnull(g.gloss,'')   AS gloss,
                c.role,
                CASE
-                 WHEN g.gloss IS NOT NULL THEN 'glossed'
+                 -- A character whose apparatus glosses did not converge carries
+                 -- an empty gloss on purpose (gloss_source 'apparatus-split').
+                 -- Reporting that as 'glossed' would hand a reader a blank cell
+                 -- labelled as filled.
+                 WHEN g.gloss IS NOT NULL AND trim(g.gloss) <> '' THEN 'glossed'
+                 WHEN g.gloss IS NOT NULL AND trim(g.gloss) = ''
+                   THEN 'the apparatus glosses this character several ways and none won a majority'
                  WHEN c.role = 'phonetic'
                    THEN 'no gloss needed: present for sound, not meaning'
                  ELSE 'not yet glossed — see sources/component-glosses.yaml'

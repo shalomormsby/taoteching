@@ -232,6 +232,53 @@ def load_chapters(only=None):
     return out
 
 
+# ---------------------------------------------------- glyph folding, shared
+#
+# Lives here rather than in import_commentary.py because check_locks.py's
+# unmarked-lemma rule must fold exactly as the importer folded, or it would
+# flag printing variants as textual ones. Two copies would drift apart.
+
+# Include CJK Extension B: the Siku form of 玄 is 𤣥 (U+24465), outside the BMP.
+# Omitting it silently deletes the character, which turned 玄德 into 徳 and
+# 玄牝 into 牝 on the first pass through this data.
+CJK = r"[㐀-鿿豈-﫿\U00020000-\U0002ebef]"
+
+# Orthographic variants: the Siku printing's glyph forms for characters our base
+# text writes differently. Harvested empirically by aligning every non-matching
+# lemma line against our base text and collecting single-character
+# substitutions, then filtered by hand to forms that are the SAME WORD.
+# Applied for matching only — the vendored text always keeps the original glyph.
+ORTHOGRAPHIC = {
+    "徳": "德", "强": "強", "争": "爭", "𤣥": "玄", "衆": "眾", "静": "靜",
+    "髙": "高", "盗": "盜", "徃": "往", "逺": "遠", "兊": "兌", "竒": "奇",
+    "虚": "虛", "緜": "綿", "乗": "乘", "㣲": "微", "舍": "捨", "饑": "飢",
+    "巳": "已", "絶": "絕", "况": "況", "賔": "賓", "氾": "汎", "隐": "隱",
+    "隂": "陰", "沒": "没", "寳": "寶", "刋": "刊", "㝠": "冥", "㫖": "旨",
+    "劔": "劍", "隣": "鄰", "耶": "邪",   # 耶/邪 are interchangeable final particles
+    # Further forms from the Song woodblock behind the Heshang Gong edition.
+    "爲": "為", "乆": "久", "户": "戶", "奥": "奧", "愼": "慎", "剋": "克",
+    "踈": "疏", "柰": "奈", "䘮": "喪", "𥙷": "補", "轝": "輿", "田": "畋",
+    # From the Wikisource 韓非子 transcription. Printing variants only: 脩/修 is
+    # deliberately NOT mapped, being a lexical choice rather than a glyph form.
+    "晩": "晚", "牗": "牖",
+}
+
+def cjk(s):
+    return "".join(re.findall(CJK, s))
+
+
+def fold(s):
+    """Normalize Siku glyph forms, for comparison only.
+
+    Strips 〔…〕 first. Those are the Siku compilers' collation notes, and
+    folding their characters into the comparison probe makes the lemma they
+    annotate fail to match — which silently reclassified 揣而梲之 (a real
+    variant against our 揣而銳之) as commentary on the first run.
+    """
+    return "".join(ORTHOGRAPHIC.get(c, c) for c in cjk(re.sub(r"〔[^〕]*〕", "", s)))
+
+
+
 def load_base_text():
     """source/chinese.md, keyed by chapter number. Derived, not authoritative."""
     if not SOURCE.exists():

@@ -445,6 +445,38 @@ class CommentaryImport(unittest.TestCase):
         fm = parse_frontmatter((d / "001.md").read_text(encoding="utf-8"))
         self.assertEqual(fm.get("chapter_title"), "體道")
 
+    def test_every_divergent_lemma_carries_its_mark(self):
+        """The header's `*` promise, enforced.
+
+        The Han Feizi importer wrote every quotation as an exact lemma because
+        _parse_essays never ran the fidelity check the other two importers run.
+        35 divergences went unmarked, in the oldest witness to the text there is.
+        """
+        findings = C.rule_unmarked_lemma()
+        errors = [f for f in findings if f.severity == C.ERROR]
+        self.assertEqual(errors, [], "\n".join(f.message for f in errors))
+
+    def test_unmarked_lemma_rule_actually_fires(self):
+        """A rule that cannot fail is not a check.
+
+        Folds the lemma through the same map the importer uses, so a printing
+        variant never counts as a textual one.
+        """
+        from lib.corpus import fold, load_base_text
+        base = {n: fold(t) for n, t in load_base_text().items()}
+        hf = pathlib.Path(__file__).resolve().parents[2] / "sources/commentaries/hanfeizi"
+        marked = [ln for p in sorted(hf.glob("[0-9]*.md"))
+                  for ln in p.read_text(encoding="utf-8").split("\n")
+                  if ln.startswith("**") and ln.rstrip().endswith("`*`")]
+        self.assertTrue(marked, "no marked lemmas to test against")
+        import re as _re
+        for ln in marked:
+            m = _re.match(r"^\*\*(.+?)\*\*\s*`\*`\s*$", ln)
+            self.assertIsNotNone(m)
+            probe = fold(m.group(1))
+            self.assertFalse(any(probe in b for b in base.values()),
+                             f"marked lemma actually agrees with the base text: {ln}")
+
     def test_no_wiki_markup_leaked(self):
         # {{SKchar|N}} nested inside a {{雙行註文|…}} annotation broke the outer
         # regex and leaked into the text as "{{SKchar3932".

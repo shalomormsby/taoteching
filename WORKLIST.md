@@ -14,7 +14,7 @@
 
 ## The list
 
-**⬜ open · 🔶 part done · ✅ done · ⏸ deferred by Shalom.** Detail for every row is below, under the matching heading. 46 open · 13 done.
+**⬜ open · 🔶 part done · ✅ done · ⏸ deferred by Shalom.** Detail for every row is below, under the matching heading. 48 open · 13 done.
 
 | # | | Item | Ch | Pass |
 |---|---|---|---|---|
@@ -77,6 +77,8 @@
 | T3-5 | ⬜ | Three four-beat stanzas rendered as prose | 28 | D |
 | T3-6 | ⬜ | The 得一 / 無以 mirror breaks at its sixth pair | 39 | D |
 | T3-7 | ⬜ | 寄/託 are a pair, rendered *entrusted with* / *truly care for* | 13 | D |
+| R1 | ⬜ | ★ **Harvest 韓非's 35 divergent lemmas into `variants.yaml`** — the oldest witness to this text, currently marked but unexploited | 1 27 36 38 46 47 50 54 58 59 60 63 64 67 | E |
+| R2 | ⬜ | **義 (yì) wants a glossary entry** — reads *duty* in all 5 lines, unlocked, and the atlas therefore publishes *righteousness* | 18 19 38 | E |
 | | | **Tier 4 · Deferred by Shalom** | | |
 | T4-1 | ⏸ | **民 / 人** — one decision, whole book. Consider taking 身 (T2-1) with it | 13 chapters | F |
 | T4-2 | ⏸ | **正 / 奇** — five Englishes | 37 45 57 58 78 | F |
@@ -232,6 +234,54 @@ Structure the Chinese has and the English does not. These are rewrites, and they
 6. **Ch 39 — the 得一 and 無以 lists are a mirror, and the sixth pair breaks.** The first ends 侯王得一以為天下**貞**, the second 侯王無以**貴高**; our English answers *"true anchors"* with *"their anchoring."*
 7. **Ch 13 — 寄/託 are a pair**, rendered *"entrusted with"* and *"truly care for."*
 8. **Ch 33 — 力/強** — closed by Pass A, but the chapter's remaining couplets are worth a look when 智 is settled.
+
+---
+
+## Research · R1 — 韓非's divergent lemmas
+
+*Opened 2026-08-29, after the `unmarked-lemma` defect was fixed. The marks now exist; nothing has been done with what they reveal.*
+
+**Why this is worth a pass of its own.** 韓非 (*Hán Fēi*) died in **233 BCE**. His quotations in 解老 (*Jiě Lǎo* — "Explaining Laozi") and 喻老 (*Yù Lǎo* — "Illustrating Laozi") are **the oldest witness to the Laozi text in existence** — older than the Mawangdui silks (c. 200 BCE) and roughly contemporary with the tail of the Guodian tradition. And unlike Guodian and Mawangdui, **his text is vendored in this repository and quotable**: it is public domain by age, so `PROVENANCE.md`'s "record the fact, never the transcription" rule does not bind here. We can cite the reading directly.
+
+**35 of his 53 lemmas differ from our base text**, every one now carrying `*`. Four more differ only in printed glyph and are correctly unmarked. The divergences are **not yet in `sources/variants.yaml`, so `--witnesses N` shows nothing for any of these chapters.**
+
+**Five of them bear directly on decisions already open on this list**, which is the real argument for doing it:
+
+| ch | 韓非 reads | our base | bears on |
+|---|---|---|---|
+| 60 | 聖人亦不傷**民** | 聖人亦不傷**人** | **T4-1**, the deferred 民/人 decision — the oldest witness has 民 where we have 人 |
+| 27 | 雖**知**大迷 | 雖**智**大迷 | **T2-2**, 智 rendered four ways; 韓非 reads the other character |
+| 64 | **恃**萬物之自然 | **以輔**萬物之自然 | 恃 (*shì* — rely on) against 輔 (*fǔ* — assist), on a line swept for 敢; 恃 was itself settled 2026-08-26 |
+| 67 | **吾**有三寶，持而**寶**之 | **我**有三寶，持而**保**之 | the locked 我/吾 pair (`glossary/wo-wu-我吾.md`), and 保/寶 feeds **T2-19**'s holding family |
+| 36 | **邦**之利器 | **國**之利器 | the 邦/國 Han name-taboo already logged at ch 61 in `notes/manuscript.md` |
+
+**Substantive forks worth their own entries**, beyond those five:
+
+| ch | 韓非 | our base | what turns on it |
+|---|---|---|---|
+| 38 | 失道而後**失**德，失德而後**失**仁… | 失道而後德，失德而後仁… | he repeats 失 (*shī* — to lose) in all four clauses: *"lose the Tao, then lose integrity"* rather than *"lose the Tao, and then integrity."* **A different chapter**, and we edited it in Pass B without knowing |
+| 58 | 廉而不**穢** | 廉而不**劌** | 劌 (*guì* — to wound) against 穢 (*huì* — foul, weed-choked); our verse reads *"sharp but does not wound"* |
+| 50 | 虎無所**錯**其爪 | 虎無所**用**其爪 | 錯 (*cuò* — to set down) against 用 (*yòng* — to use) |
+| 36 | 將欲**取**之 | 將欲**奪**之 | 奪 (*duó* — to seize by force) against 取 (*qǔ* — to take); **T3-4** is rewriting these four conditionals |
+| 36 | 魚不可脫於**深**淵 | 魚不可脫於淵 | 韓非 adds 深 (*shēn* — deep) |
+| 67 | 故能為成**事**長 | 故能成**器**長 | 器 (*qì* — vessel) is locked; 韓非 reads 事 (*shì* — affairs), also locked |
+| 54 | **脩**之身 | 修之**於**身 | 脩/修 is a lexical choice, deliberately **not** folded as a printing variant; he also drops 於 |
+| 59 | 治人事天莫**如**嗇 | 莫**若**嗇 | same sense, real variant |
+| 47 | 不出**於**戶，**可以**知天下 | 不出戶知天下 | he adds 於 and 可以 throughout |
+
+**Noise to record but not to log.** Roughly a third of the 35 are 也 / 矣 / 乎 / 之 particles added or dropped — 韓非 is quoting inside prose essays, often from memory, and pads for rhythm. Ch 1's 道**之**可道，非常道**也** is the clearest case. **Mark them, do not give them `variants.yaml` entries**, or the apparatus fills with noise and the real forks stop standing out.
+
+**How to do it accurately.**
+
+1. **Read the lemma in its essay, not alone.** 韓非 sometimes quotes a line to argue against a reading, and the surrounding 〔解老〕 or 〔喻老〕 prose says which. The vendored file has both.
+2. **Use the existing schema** — `chapter · line · base · witnesses · meaning_bearing · our_call · note · logged`, with `hanfeizi` as the witness id, which `sources/variants.yaml` already declares in its header.
+3. **`our_call: base` unless there is a reason** — this is an edition of the received recension, as settled at ch 25 and ch 19.
+4. **Set `meaning_bearing` honestly.** Particle padding is `false`; a different content word is `true`. Every `true` needs a `notes/manuscript.md` entry or `check_locks.py` will fail the build — which is the ratchet working.
+5. **Regenerate**: `python3 tools/build_db.py && python3 tools/export.py`, then `--witnesses N` on the affected chapters.
+
+**The command that produces the evidence table:** fold each `*`-marked lemma with `lib.corpus.fold`, align it against `load_base_text()` with `difflib.SequenceMatcher`, and print the non-equal opcodes. That is how the tables above were generated; it takes about fifteen lines.
+
+**Do not start this before Pass D.** Ch 36, 38, 54, 64 and 67 are all being rewritten, and a variant entry written against a line that is about to change will have to be written twice.
 
 ---
 

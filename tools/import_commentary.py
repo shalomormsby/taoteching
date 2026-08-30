@@ -51,7 +51,8 @@ import urllib.request
 from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
-from lib.corpus import ROOT, load_chapters  # noqa: E402
+from lib.corpus import (ROOT, load_chapters,  # noqa: E402
+                        CJK, ORTHOGRAPHIC, cjk, fold)
 
 SCRATCH = ROOT / "sources" / ".cache"
 COMMENTARIES = ROOT / "sources" / "commentaries"
@@ -105,27 +106,6 @@ SOURCES = {
     },
 }
 
-# Orthographic variants: the Siku printing's glyph forms for characters our base
-# text writes differently. Harvested empirically by aligning every non-matching
-# lemma line against our base text and collecting single-character
-# substitutions, then filtered by hand to forms that are the SAME WORD.
-# Applied for matching only — the vendored text always keeps the original glyph.
-ORTHOGRAPHIC = {
-    "徳": "德", "强": "強", "争": "爭", "𤣥": "玄", "衆": "眾", "静": "靜",
-    "髙": "高", "盗": "盜", "徃": "往", "逺": "遠", "兊": "兌", "竒": "奇",
-    "虚": "虛", "緜": "綿", "乗": "乘", "㣲": "微", "舍": "捨", "饑": "飢",
-    "巳": "已", "絶": "絕", "况": "況", "賔": "賓", "氾": "汎", "隐": "隱",
-    "隂": "陰", "沒": "没", "寳": "寶", "刋": "刊", "㝠": "冥", "㫖": "旨",
-    "劔": "劍", "隣": "鄰", "耶": "邪",   # 耶/邪 are interchangeable final particles
-    # Further forms from the Song woodblock behind the Heshang Gong edition.
-    "爲": "為", "乆": "久", "户": "戶", "奥": "奧", "愼": "慎", "剋": "克",
-    "踈": "疏", "柰": "奈", "䘮": "喪", "𥙷": "補", "轝": "輿", "田": "畋",
-}
-
-# Include CJK Extension B: the Siku form of 玄 is 𤣥 (U+24465), outside the BMP.
-# Omitting it silently deletes the character, which turned 玄德 into 徳 and
-# 玄牝 into 牝 on the first pass through this data.
-CJK = r"[㐀-鿿豈-﫿\U00020000-\U0002ebef]"
 
 _NUM = {c: i for i, c in enumerate("〇一二三四五六七八九")}
 
@@ -135,21 +115,6 @@ def cn2int(s):
         return sum(_NUM[c] for c in s)
     a, _, b = s.partition("十")
     return (_NUM[a] if a else 1) * 10 + (sum(_NUM[c] for c in b) if b else 0)
-
-
-def cjk(s):
-    return "".join(re.findall(CJK, s))
-
-
-def fold(s):
-    """Normalize Siku glyph forms, for comparison only.
-
-    Strips 〔…〕 first. Those are the Siku compilers' collation notes, and
-    folding their characters into the comparison probe makes the lemma they
-    annotate fail to match — which silently reclassified 揣而梲之 (a real
-    variant against our 揣而銳之) as commentary on the first run.
-    """
-    return "".join(ORTHOGRAPHIC.get(c, c) for c in cjk(re.sub(r"〔[^〕]*〕", "", s)))
 
 
 def strip_markup(line):
@@ -346,9 +311,19 @@ def _parse_essays(src, path):
                     hits.setdefault(best, []).append(q)
             for n, qs in hits.items():
                 d = parsed.setdefault(n, {"rows": [], "lemma_ok": 0, "lemma_var": 0})
+                base = fold(chapters[n].chinese)
                 for q in qs:
-                    d["rows"].append(("lemma", q))
-                    d["lemma_ok"] += 1
+                    # The same fidelity check the interleaved importers apply. It
+                    # was missing here, so every Han Feizi quotation was written
+                    # as an exact lemma and the header's `*` convention silently
+                    # asserted agreement it had never tested. 韓非 died in 233 BCE
+                    # and is the oldest witness to this text there is, so his
+                    # divergences are evidence, not noise.
+                    if fold(q) in base:
+                        d["rows"].append(("lemma", q)); d["lemma_ok"] += 1
+                    else:
+                        d["rows"].append(("lemma*", q)); d["lemma_var"] += 1
+                        residual.append((n, fold(q), ""))
                 d["rows"].append(("comment", f"〔{essay}〕 " + para))
     return parsed, residual
 

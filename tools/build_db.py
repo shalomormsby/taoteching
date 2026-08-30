@@ -361,6 +361,24 @@ def parse_translation(path):
     return out
 
 
+# Words the sentence owns, not the character. The bracket regex captures
+# everything between one \[pin\] and the next, so a conjunction or article
+# carried over from the English sentence lands inside the gloss: 義 (yì — duty)
+# came out as "and righteousness" where the same character reads "righteousness"
+# one chapter later, and the two then failed to agree. Stripped only from the
+# front, and never down to nothing — 而 (ér) really is glossed "and".
+_CARRIER = ("and ", "or ", "the ", "a ", "an ", "to ", "of ", "is ", "are ", "be ",
+            "then ", "there ", "its ", "their ", "his ", "her ")
+
+
+def _trim_carrier(english):
+    low = english.lower()
+    for w in _CARRIER:
+        if low.startswith(w) and english[len(w):].strip():
+            return english[len(w):].strip()
+    return english
+
+
 def apparatus_glosses(pairs, literal):
     """Per-character English from the `\\[pinyin\\]` apparatus in some Literal cells.
 
@@ -388,6 +406,7 @@ def apparatus_glosses(pairs, literal):
     brackets = []
     for m in re.finditer(r"([A-Za-z][A-Za-z' /-]*?)\s*\\\[([^\]\\]+)\\\]", literal):
         english, pin = m.group(1).strip(), m.group(2).strip()
+        english = _trim_carrier(english)
         if len(pin.split()) == 1 and english:
             brackets.append((english, strip_tone(pin)))
 
@@ -691,8 +710,19 @@ def build(conn, report=False):
         if c in gloss:
             continue
         english, n = counter.most_common(1)[0]
-        gloss[c] = (english, "apparatus")
-        agreement[c] = f"{n}/{sum(counter.values())}"
+        total = sum(counter.values())
+        agreement[c] = f"{n}/{total}"
+        # A plurality is not a definition. Counter.most_common breaks a tie by
+        # insertion order, so on 1-1 it publishes whichever chapter came first —
+        # which is how 義 (yì — duty) shipped glossed "and", from a single
+        # misplaced bracket in ch 18 beating a correct one in ch 19. The comment
+        # above already states the principle ("a character glossed six different
+        # ways in six places has a context, not a definition"); this enforces it.
+        # The ratio is recorded either way, so the evidence survives the refusal.
+        if n * 2 > total:
+            gloss[c] = (english, "apparatus")
+        else:
+            gloss[c] = ("", "apparatus-split")
 
     pin_of = dict(cur.execute(
         "SELECT char, pinyin FROM token WHERE pinyin IS NOT NULL GROUP BY char"

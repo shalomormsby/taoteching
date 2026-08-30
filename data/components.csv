@@ -1,13 +1,13 @@
 component,pinyin,gloss,role,gloss_status,builds_characters,characters
-人,rén,people's,semantic,glossed,36,"亡,什,仁,介,代,企,伎,伏,伐,伯,何,作,佳,使,侮,俗,保,信,倍,倚,偏,傷,儉,儼,光,化,千,及,咎,寒,死,老,色,負,身,鬼"
+人,rén,,semantic,the apparatus glosses this character several ways and none won a majority,36,"亡,什,仁,介,代,企,伎,伏,伐,伯,何,作,佳,使,侮,俗,保,信,倍,倚,偏,傷,儉,儼,光,化,千,及,咎,寒,死,老,色,負,身,鬼"
 水,shuǐ,water,semantic,glossed,34,"冰,梁,汎,江,沖,没,治,況,法,泣,注,泮,泰,活,海,淡,深,淳,淵,混,清,渙,渝,渾,湛,滅,滋,滌,滿,澹,濁,濟,益,谷"
 口,kǒu,mouths,semantic,glossed,24,"中,加,召,可,右,各,合,同,名,含,吹,吾,味,命,和,哀,哉,唯,如,害,曰,甘,知,言"
 心,xīn,heart,semantic,glossed,24,"忌,忒,志,忠,怒,怨,恃,恐,恢,恬,悠,患,悲,悶,惑,惟,惡,愚,慈,慎,慧,應,懷,懼"
 宀,mián,a roof; under a house,semantic,glossed,20,"奧,字,守,安,宗,官,客,室,宰,害,家,容,寄,富,寒,察,寡,實,寵,寶"
 手,shǒu,,semantic,not yet glossed — see sources/component-glosses.yaml,20,"失,奉,扔,投,抗,拔,拙,拱,持,挫,捨,推,握,揣,損,搏,據,攘,攝,攫"
 木,mù,,semantic,not yet glossed — see sources/component-glosses.yaml,17,"奈,末,本,枉,果,枯,柔,柢,根,梁,楗,極,榮,樸,甲,相,陳"
-言,yán,words,semantic,glossed,17,"信,計,託,訥,詰,誠,誰,諱,諾,謀,謂,謫,識,譬,譽,辯,音"
-大,dà,great,semantic,glossed,15,"交,亦,去,天,夫,央,夷,夸,奇,契,奢,爽,立,美,赤"
+言,yán,,semantic,the apparatus glosses this character several ways and none won a majority,17,"信,計,託,訥,詰,誠,誰,諱,諾,謀,謂,謫,識,譬,譽,辯,音"
+大,dà,,semantic,the apparatus glosses this character several ways and none won a majority,15,"交,亦,去,天,夫,央,夷,夸,奇,契,奢,爽,立,美,赤"
 貝,bèi,"a cowrie shell — money, worth",semantic,glossed,15,"則,寶,負,財,貧,貨,責,貴,貸,費,資,賓,賢,賤,質"
 辵,chuò,"walking, going along a road",semantic,glossed,15,"從,迎,迷,通,逝,進,遂,遇,過,道,達,遠,遺,還,隨"
 土,tǔ,,semantic,not yet glossed — see sources/component-glosses.yaml,13,"在,地,均,坐,垢,埏,埴,基,堂,堅,塞,里,金"
@@ -27,7 +27,7 @@ component,pinyin,gloss,role,gloss_status,builds_characters,characters
 刀,dāo,a knife,semantic,glossed,8,"利,制,則,剛,割,劌,絕,解"
 力,lì,force,semantic,glossed,8,"功,加,勇,動,勝,勢,勤,筋"
 肉,ròu,flesh,semantic,glossed,8,"昔,筋,肖,能,脫,腹,臂,骨"
-下,xià,lower/inferior,semantic,glossed,7,"字,安,寒,至,辱,雨,非"
+下,xià,,semantic,the apparatus glosses this character several ways and none won a majority,7,"字,安,寒,至,辱,雨,非"
 之,zhī,it,semantic,glossed,7,"央,棄,民,甲,立,臺,辯"
 八,bā,"eight; to divide, to part",semantic,glossed,7,"介,公,六,小,尚,平,必"
 十,shí,,semantic,not yet glossed — see sources/component-glosses.yaml,7,"丈,千,博,古,士,直,計"
@@ -37,8 +37,8 @@ component,pinyin,gloss,role,gloss_status,builds_characters,characters
 欠,qiàn,"a person with the mouth open — breath, wanting",semantic,glossed,6,"吹,次,欲,歇,歔,歙"
 禾,hé,standing grain,semantic,glossed,6,"私,稅,稱,稷,穀,積"
 耳,ěr,ears,semantic,glossed,6,"取,聖,聞,聲,聽,聾"
-門,mén,The gate/door,semantic,glossed,6,"閉,開,閱,闔,闚,關"
-上,Shàng,The highest/supreme,semantic,glossed,5,"光,前,患,早,立"
+門,mén,,semantic,the apparatus glosses this character several ways and none won a majority,6,"閉,開,閱,闔,闚,關"
+上,Shàng,,semantic,the apparatus glosses this character several ways and none won a majority,5,"光,前,患,早,立"
 也,yě,particle,semantic,glossed,5,"如,甚,至,隨,雨"
 囗,wéi,"an enclosure, a boundary",semantic,glossed,5,"固,國,圖,或,日"
 廾,gǒng,two hands raised together,semantic,glossed,5,"兵,奉,棄,泰,異"
@@ -48,7 +48,7 @@ component,pinyin,gloss,role,gloss_status,builds_characters,characters
 牛,niú,an ox,semantic,glossed,5,"牝,牡,牢,物,解"
 虫,chóng,"an insect, a crawling creature",semantic,glossed,5,"強,螫,蟲,雖,風"
 衣,Yī,,semantic,not yet glossed — see sources/component-glosses.yaml,5,"被,裂,補,褐,襲"
-見,jiàn,see,semantic,glossed,5,"視,親,覽,觀,谷"
+見,jiàn,,semantic,the apparatus glosses this character several ways and none won a majority,5,"視,親,覽,觀,谷"
 邑,yì,"a settlement, a town",semantic,glossed,5,"邦,邪,郊,鄙,鄰"
 二,èr,,semantic,not yet glossed — see sources/component-glosses.yaml,4,"五,仁,白,門"
 寸,cùn,,semantic,not yet glossed — see sources/component-glosses.yaml,4,"守,將,專,辱"
@@ -59,19 +59,19 @@ component,pinyin,gloss,role,gloss_status,builds_characters,characters
 至,zhì,,semantic,not yet glossed — see sources/component-glosses.yaml,4,"室,至,致,臺"
 隹,zhuī,a short-tailed bird,phonetic,glossed,4,"唯,惟,推,誰"
 隹,zhuī,a short-tailed bird,semantic,glossed,4,"雄,雌,雞,離"
-食,shí,feeding/eating,semantic,glossed,4,"倉,飢,養,餘"
+食,shí,,semantic,the apparatus glosses this character several ways and none won a majority,4,"倉,飢,養,餘"
 㞷,,,phonetic,"no gloss needed: present for sound, not meaning",3,"往,枉,狂"
 丂,,,semantic,not yet glossed — see sources/component-glosses.yaml,3,"兮,可,寧"
 之,zhī,it,phonetic,glossed,3,"事,市,志"
 乚,,,semantic,not yet glossed — see sources/component-glosses.yaml,3,"亡,直,真"
 也,yě,particle,phonetic,glossed,3,"地,施,馳"
 亼,jí,to gather together,semantic,glossed,3,"今,令,合"
-今,jīn,present/current,phonetic,glossed,3,"含,矜,金"
+今,jīn,,phonetic,the apparatus glosses this character several ways and none won a majority,3,"含,矜,金"
 余,yú,"a shelter; and, borrowed, 'I'",phonetic,glossed,3,"徐,除,餘"
 兌,duì,,phonetic,"no gloss needed: present for sound, not meaning",3,"稅,脫,銳"
 冂,jiōng,"the far borders, open country",semantic,glossed,3,"央,市,高"
 匕,bǐ,"a spoon, a ladle",semantic,glossed,3,"此,長,鳥"
-古,gǔ,the ancient,phonetic,glossed,3,"固,故,枯"
+古,gǔ,ancient,phonetic,glossed,3,"固,故,枯"
 台,,,phonetic,"no gloss needed: present for sound, not meaning",3,"始,殆,治"
 夊,suī,"walking slowly, dragging the feet",semantic,glossed,3,"愛,憂,致"
 寺,,,phonetic,"no gloss needed: present for sound, not meaning",3,"恃,持,時"
@@ -91,8 +91,8 @@ component,pinyin,gloss,role,gloss_status,builds_characters,characters
 矢,shǐ,an arrow,semantic,glossed,3,"矣,知,短"
 羊,yáng,a sheep,semantic,glossed,3,"善,美,羸"
 蜀,shǔ,a caterpillar,phonetic,glossed,3,"屬,濁,獨"
-谷,Gǔ,valley/basin,phonetic,glossed,3,"俗,卻,欲"
-象,xiàng,The image/representation,semantic,glossed,3,"民,甲,豫"
+谷,Gǔ,,phonetic,the apparatus glosses this character several ways and none won a majority,3,"俗,卻,欲"
+象,xiàng,,semantic,the apparatus glosses this character several ways and none won a majority,3,"民,甲,豫"
 辟,,,phonetic,"no gloss needed: present for sound, not meaning",3,"璧,臂,譬"
 高,gāo,,semantic,not yet glossed — see sources/component-glosses.yaml,3,"亭,至,臺"
 丁,,,phonetic,"no gloss needed: present for sound, not meaning",2,"亭,成"
@@ -109,7 +109,7 @@ component,pinyin,gloss,role,gloss_status,builds_characters,characters
 亾,,,phonetic,"no gloss needed: present for sound, not meaning",2,"喪,長"
 仌,bīng,ice,semantic,glossed,2,"冬,冰"
 入,rù,,semantic,not yet glossed — see sources/component-glosses.yaml,2,"六,白"
-其,qí,its,phonetic,glossed,2,"基,斯"
+其,qí,,phonetic,the apparatus glosses this character several ways and none won a majority,2,"基,斯"
 兹,,,phonetic,"no gloss needed: present for sound, not meaning",2,"慈,滋"
 内,,,semantic,not yet glossed — see sources/component-glosses.yaml,2,"央,訥"
 几,jī,"a low table, a stool",semantic,glossed,2,"且,處"
@@ -121,9 +121,9 @@ component,pinyin,gloss,role,gloss_status,builds_characters,characters
 卪,,,semantic,not yet glossed — see sources/component-glosses.yaml,2,"卻,色"
 厂,hǎn,"a cliff, an overhang",semantic,glossed,2,"厚,厭"
 厶,sī,enclosing for oneself — the private,semantic,glossed,2,"公,鬼"
-古,gǔ,the ancient,semantic,glossed,2,"居,民"
+古,gǔ,ancient,semantic,glossed,2,"居,民"
 召,zhào,,phonetic,"no gloss needed: present for sound, not meaning",2,"昭,超"
-可,kě,they can,phonetic,glossed,2,"何,阿"
+可,kě,,phonetic,the apparatus glosses this character several ways and none won a majority,2,"何,阿"
 吉,Jí,,phonetic,"no gloss needed: present for sound, not meaning",2,"結,詰"
 含,Hán,,semantic,not yet glossed — see sources/component-glosses.yaml,2,"甘,音"
 咼,,,phonetic,"no gloss needed: present for sound, not meaning",2,"禍,過"
@@ -144,15 +144,15 @@ component,pinyin,gloss,role,gloss_status,builds_characters,characters
 攸,,,phonetic,"no gloss needed: present for sound, not meaning",2,"修,悠"
 敫,,,phonetic,"no gloss needed: present for sound, not meaning",2,"徼,皦"
 月,yuè,the moon,semantic,glossed,2,"明,有"
-未,wèi,has not yet,phonetic,glossed,2,"味,昧"
+未,wèi,,phonetic,the apparatus glosses this character several ways and none won a majority,2,"味,昧"
 此,Cǐ,this,phonetic,glossed,2,"疵,雌"
 殳,,,semantic,not yet glossed — see sources/component-glosses.yaml,2,"投,殺"
 無,Wú,absence,phonetic,glossed,2,"無,蕪"
 熒,,,phonetic,"no gloss needed: present for sound, not meaning",2,"榮,營"
 爿,,,phonetic,"no gloss needed: present for sound, not meaning",2,"壯,狀"
-玉,yù,and jade,semantic,glossed,2,"瑕,璧"
+玉,yù,jade,semantic,glossed,2,"瑕,璧"
 用,yòng,use,semantic,glossed,2,"周,甫"
-甫,fǔ,the origin/father,phonetic,glossed,2,"補,輔"
+甫,fǔ,origin/father,phonetic,glossed,2,"補,輔"
 甬,,,phonetic,"no gloss needed: present for sound, not meaning",2,"勇,通"
 田,tián,,semantic,not yet glossed — see sources/component-glosses.yaml,2,"當,里"
 甲,jiǎ,,semantic,not yet glossed — see sources/component-glosses.yaml,2,"早,甲"
@@ -162,7 +162,7 @@ component,pinyin,gloss,role,gloss_status,builds_characters,characters
 皮,,,phonetic,"no gloss needed: present for sound, not meaning",2,"彼,被"
 石,shí,,phonetic,"no gloss needed: present for sound, not meaning",2,"斫,橐"
 禺,,,phonetic,"no gloss needed: present for sound, not meaning",2,"遇,隅"
-立,lì,stand,semantic,glossed,2,"立,竭"
+立,lì,,semantic,the apparatus glosses this character several ways and none won a majority,2,"立,竭"
 米,mǐ,grains of rice,semantic,glossed,2,"氣,精"
 系,xì,"to tie, to connect",semantic,glossed,2,"孫,綿"
 网,wǎng,a net,semantic,glossed,2,"罪,置"
@@ -173,9 +173,9 @@ component,pinyin,gloss,role,gloss_status,builds_characters,characters
 豆,,,semantic,not yet glossed — see sources/component-glosses.yaml,2,"豈,豐"
 貫,,,semantic,not yet glossed — see sources/component-glosses.yaml,2,"實,患"
 走,zǒu,,semantic,not yet glossed — see sources/component-glosses.yaml,2,"起,超"
-足,zú,sufficient,semantic,glossed,2,"跨,蹶"
+足,zú,,semantic,the apparatus glosses this character several ways and none won a majority,2,"跨,蹶"
 金,Jīn,Gold,semantic,glossed,2,"銳,鑿"
-門,mén,The gate/door,phonetic,glossed,2,"悶,聞"
+門,mén,,phonetic,the apparatus glosses this character several ways and none won a majority,2,"悶,聞"
 青,qīng,"blue-green, the colour of growing things",phonetic,glossed,2,"清,精"
 頁,yè,a head,semantic,glossed,2,"順,頑"
 風,fēng,,semantic,not yet glossed — see sources/component-glosses.yaml,2,"飂,飄"
@@ -209,7 +209,7 @@ component,pinyin,gloss,role,gloss_status,builds_characters,characters
 䇂,,,phonetic,"no gloss needed: present for sound, not meaning",1,言
 䝿,,,phonetic,"no gloss needed: present for sound, not meaning",1,遺
 丄,shàng,above (the old form of 上),semantic,glossed,1,帝
-不,bù,does not,semantic,glossed,1,金
+不,bù,,semantic,the apparatus glosses this character several ways and none won a majority,1,金
 与,,,semantic,not yet glossed — see sources/component-glosses.yaml,1,與
 丘,,,semantic,not yet glossed — see sources/component-glosses.yaml,1,虛
 丙,,,phonetic,"no gloss needed: present for sound, not meaning",1,病
@@ -219,11 +219,11 @@ component,pinyin,gloss,role,gloss_status,builds_characters,characters
 丰,,,phonetic,"no gloss needed: present for sound, not meaning",1,邦
 丶,zhǔ,"a mark, a point",phonetic,glossed,1,主
 丶,zhǔ,"a mark, a point",semantic,glossed,1,主
-主,zhǔ,lord/master,phonetic,glossed,1,注
+主,zhǔ,,phonetic,the apparatus glosses this character several ways and none won a majority,1,注
 丿,piě,a stroke slanting left,phonetic,glossed,1,少
 丿,piě,a stroke slanting left,semantic,glossed,1,弗
 乀,,,semantic,not yet glossed — see sources/component-glosses.yaml,1,弗
-乃,nǎi,then leads to,phonetic,glossed,1,扔
+乃,nǎi,leads to,phonetic,glossed,1,扔
 乇,,,phonetic,"no gloss needed: present for sound, not meaning",1,託
 乍,,,semantic,not yet glossed — see sources/component-glosses.yaml,1,作
 乑,,,semantic,not yet glossed — see sources/component-glosses.yaml,1,眾
@@ -242,7 +242,7 @@ component,pinyin,gloss,role,gloss_status,builds_characters,characters
 亾,,,semantic,not yet glossed — see sources/component-glosses.yaml,1,喪
 代,dài,,phonetic,"no gloss needed: present for sound, not meaning",1,貸
 令,lìng,cause,semantic,glossed,1,命
-以,yǐ,using,phonetic,glossed,1,矣
+以,yǐ,,phonetic,the apparatus glosses this character several ways and none won a majority,1,矣
 來,lái,,semantic,not yet glossed — see sources/component-glosses.yaml,1,嗇
 侌,,,phonetic,"no gloss needed: present for sound, not meaning",1,陰
 俞,,,phonetic,"no gloss needed: present for sound, not meaning",1,渝
@@ -252,7 +252,7 @@ component,pinyin,gloss,role,gloss_status,builds_characters,characters
 元,,,phonetic,"no gloss needed: present for sound, not meaning",1,頑
 兄,,,phonetic,"no gloss needed: present for sound, not meaning",1,況
 免,miǎn,,phonetic,"no gloss needed: present for sound, not meaning",1,晚
-六,Liù,The six,semantic,glossed,1,冥
+六,Liù,six,semantic,glossed,1,冥
 兮,xī,oh,semantic,glossed,1,乎
 共,gòng,share/unite,phonetic,glossed,1,拱
 兼,jiān,,phonetic,"no gloss needed: present for sound, not meaning",1,廉
@@ -283,14 +283,14 @@ component,pinyin,gloss,role,gloss_status,builds_characters,characters
 厶,sī,enclosing for oneself — the private,phonetic,glossed,1,私
 厷,,,phonetic,"no gloss needed: present for sound, not meaning",1,雄
 厹,,,semantic,not yet glossed — see sources/component-glosses.yaml,1,萬
-去,qù,removes,semantic,glossed,1,法
+去,qù,,semantic,the apparatus glosses this character several ways and none won a majority,1,法
 叀,,,phonetic,"no gloss needed: present for sound, not meaning",1,專
 又,yòu,,phonetic,"no gloss needed: present for sound, not meaning",1,有
 反,fǎn,returning/reverting,semantic,glossed,1,司
 叕,,,phonetic,"no gloss needed: present for sound, not meaning",1,輟
 叚,,,phonetic,"no gloss needed: present for sound, not meaning",1,瑕
 句,,,phonetic,"no gloss needed: present for sound, not meaning",1,狗
-可,kě,they can,semantic,glossed,1,奇
+可,kě,,semantic,the apparatus glosses this character several ways and none won a majority,1,奇
 史,,,semantic,not yet glossed — see sources/component-glosses.yaml,1,事
 号,,,semantic,not yet glossed — see sources/component-glosses.yaml,1,號
 各,Gè,Each,phonetic,glossed,1,客
@@ -328,7 +328,7 @@ component,pinyin,gloss,role,gloss_status,builds_characters,characters
 壽,shòu,has true longevity,phonetic,glossed,1,籌
 夅,,,phonetic,"no gloss needed: present for sound, not meaning",1,降
 夗,,,phonetic,"no gloss needed: present for sound, not meaning",1,怨
-大,dà,great,phonetic,glossed,1,泰
+大,dà,,phonetic,the apparatus glosses this character several ways and none won a majority,1,泰
 夭,,,semantic,not yet glossed — see sources/component-glosses.yaml,1,走
 央,yāng,reached the center/end,phonetic,glossed,1,殃
 夸,kuā,,phonetic,"no gloss needed: present for sound, not meaning",1,跨
@@ -341,14 +341,14 @@ component,pinyin,gloss,role,gloss_status,builds_characters,characters
 孚,,,semantic,not yet glossed — see sources/component-glosses.yaml,1,甲
 孝,xiào,devotion,semantic,glossed,1,教
 孟,,,phonetic,"no gloss needed: present for sound, not meaning",1,猛
-守,shǒu,guarding/holding,semantic,glossed,1,負
+守,shǒu,,semantic,the apparatus glosses this character several ways and none won a majority,1,負
 宮,,,semantic,not yet glossed — see sources/component-glosses.yaml,1,營
 害,hai,,phonetic,"no gloss needed: present for sound, not meaning",1,割
 寍,,,phonetic,"no gloss needed: present for sound, not meaning",1,寧
 尃,,,phonetic,"no gloss needed: present for sound, not meaning",1,搏
 尃,,,semantic,not yet glossed — see sources/component-glosses.yaml,1,博
-小,xiǎo,is small,phonetic,glossed,1,肖
-小,xiǎo,is small,semantic,glossed,1,少
+小,xiǎo,small,phonetic,glossed,1,肖
+小,xiǎo,small,semantic,glossed,1,少
 尤,yóu,blame/fault,semantic,glossed,1,稽
 尹,,,semantic,not yet glossed — see sources/component-glosses.yaml,1,君
 屋,,,phonetic,"no gloss needed: present for sound, not meaning",1,握
@@ -371,13 +371,13 @@ component,pinyin,gloss,role,gloss_status,builds_characters,characters
 弗,fú,,phonetic,"no gloss needed: present for sound, not meaning",1,費
 弘,,,phonetic,"no gloss needed: present for sound, not meaning",1,強
 彗,,,phonetic,"no gloss needed: present for sound, not meaning",1,慧
-復,Fù,their return/reversion,phonetic,glossed,1,覆
-微,wēi,intangible/formless,phonetic,glossed,1,豈
+復,Fù,,phonetic,the apparatus glosses this character several ways and none won a majority,1,覆
+微,wēi,,phonetic,the apparatus glosses this character several ways and none won a majority,1,豈
 徹,chè,,phonetic,"no gloss needed: present for sound, not meaning",1,轍
 戊,,,semantic,not yet glossed — see sources/component-glosses.yaml,1,成
 戌,,,semantic,not yet glossed — see sources/component-glosses.yaml,1,威
 戍,,,semantic,not yet glossed — see sources/component-glosses.yaml,1,幾
-成,chéng,compiled/completed,phonetic,glossed,1,誠
+成,chéng,,phonetic,the apparatus glosses this character several ways and none won a majority,1,誠
 我,Wǒ,the self seen,semantic,glossed,1,義
 戔,,,phonetic,"no gloss needed: present for sound, not meaning",1,賤
 或,huò,sometimes,phonetic,glossed,1,惑
@@ -396,7 +396,7 @@ component,pinyin,gloss,role,gloss_status,builds_characters,characters
 數,shù,,semantic,not yet glossed — see sources/component-glosses.yaml,1,三
 文,wén,culture/adornment,semantic,glossed,1,民
 斦,,,semantic,not yet glossed — see sources/component-glosses.yaml,1,質
-新,xīn,newly,phonetic,glossed,1,新
+新,xīn,,phonetic,the apparatus glosses this character several ways and none won a majority,1,新
 方,fāng,,phonetic,"no gloss needed: present for sound, not meaning",1,妨
 旨,,,phonetic,"no gloss needed: present for sound, not meaning",1,稽
 早,zǎo,,phonetic,"no gloss needed: present for sound, not meaning",1,草
@@ -406,7 +406,7 @@ component,pinyin,gloss,role,gloss_status,builds_characters,characters
 有,yǒu,presence,semantic,glossed,1,骨
 朕,,,phonetic,"no gloss needed: present for sound, not meaning",1,勝
 朢,,,phonetic,"no gloss needed: present for sound, not meaning",1,望
-未,wèi,has not yet,semantic,glossed,1,制
+未,wèi,,semantic,the apparatus glosses this character several ways and none won a majority,1,制
 朿,cì,a thorn,semantic,glossed,1,棘
 杀,,,phonetic,"no gloss needed: present for sound, not meaning",1,殺
 杖,,,semantic,not yet glossed — see sources/component-glosses.yaml,1,父
@@ -443,7 +443,7 @@ component,pinyin,gloss,role,gloss_status,builds_characters,characters
 王,wáng,ruler / sovereign · to rule (verb),semantic,glossed,1,寶
 瓜,,,phonetic,"no gloss needed: present for sound, not meaning",1,孤
 甘,gān,,semantic,not yet glossed — see sources/component-glosses.yaml,1,甚
-甚,shèn,is very,phonetic,glossed,1,湛
+甚,shèn,,phonetic,the apparatus glosses this character several ways and none won a majority,1,湛
 甛,,,phonetic,"no gloss needed: present for sound, not meaning",1,恬
 生,shēng,give birth to / bear / bring forth,phonetic,glossed,1,姓
 生,shēng,give birth to / bear / bring forth,semantic,glossed,1,姓
@@ -478,7 +478,7 @@ component,pinyin,gloss,role,gloss_status,builds_characters,characters
 禾,hé,standing grain,phonetic,glossed,1,和
 秝,,,semantic,not yet glossed — see sources/component-glosses.yaml,1,兼
 穴,,,semantic,not yet glossed — see sources/component-glosses.yaml,1,窈
-立,lì,stand,phonetic,glossed,1,泣
+立,lì,,phonetic,the apparatus glosses this character several ways and none won a majority,1,泣
 章,,,phonetic,"no gloss needed: present for sound, not meaning",1,彰
 章,,,semantic,not yet glossed — see sources/component-glosses.yaml,1,彰
 竹,zhú,bamboo,phonetic,glossed,1,篤
@@ -507,12 +507,12 @@ component,pinyin,gloss,role,gloss_status,builds_characters,characters
 臤,,,semantic,not yet glossed — see sources/component-glosses.yaml,1,堅
 臾,,,phonetic,"no gloss needed: present for sound, not meaning",1,貴
 舁,yú,four hands lifting together,phonetic,glossed,1,輿
-與,yǔ,and,phonetic,glossed,1,譽
+與,yǔ,,phonetic,the apparatus glosses this character several ways and none won a majority,1,譽
 舉,jǔ,,semantic,not yet glossed — see sources/component-glosses.yaml,1,父
 舍,,,phonetic,"no gloss needed: present for sound, not meaning",1,捨
 舟,zhōu,,phonetic,"no gloss needed: present for sound, not meaning",1,受
 艮,,,phonetic,"no gloss needed: present for sound, not meaning",1,根
-若,ruò,Like,phonetic,glossed,1,諾
+若,ruò,,phonetic,the apparatus glosses this character several ways and none won a majority,1,諾
 茻,,,semantic,not yet glossed — see sources/component-glosses.yaml,1,莫
 菐,,,phonetic,"no gloss needed: present for sound, not meaning",1,樸
 虍,,,phonetic,"no gloss needed: present for sound, not meaning",1,虛
@@ -530,7 +530,7 @@ component,pinyin,gloss,role,gloss_status,builds_characters,characters
 詹,,,phonetic,"no gloss needed: present for sound, not meaning",1,澹
 誩,,,semantic,not yet glossed — see sources/component-glosses.yaml,1,善
 說,,,phonetic,"no gloss needed: present for sound, not meaning",1,閱
-谷,Gǔ,valley/basin,semantic,glossed,1,谿
+谷,Gǔ,,semantic,the apparatus glosses this character several ways and none won a majority,1,谿
 豆,,,phonetic,"no gloss needed: present for sound, not meaning",1,短
 豊,,,phonetic,"no gloss needed: present for sound, not meaning",1,禮
 豊,,,semantic,not yet glossed — see sources/component-glosses.yaml,1,禮
@@ -549,10 +549,10 @@ component,pinyin,gloss,role,gloss_status,builds_characters,characters
 釆,,,semantic,not yet glossed — see sources/component-glosses.yaml,1,釋
 重,Zhòng,Heavy/mass,phonetic,glossed,1,動
 重,Zhòng,Heavy/mass,semantic,glossed,1,多
-長,cháng,is long-lasting,phonetic,glossed,1,張
+長,cháng,,phonetic,the apparatus glosses this character several ways and none won a majority,1,張
 閒,,,semantic,not yet glossed — see sources/component-glosses.yaml,1,辯
 閵,,,phonetic,"no gloss needed: present for sound, not meaning",1,進
-隨,suí,Following,semantic,glossed,1,如
+隨,suí,,semantic,the apparatus glosses this character several ways and none won a majority,1,如
 雚,,,phonetic,"no gloss needed: present for sound, not meaning",1,觀
 雨,yǔ,,semantic,not yet glossed — see sources/component-glosses.yaml,1,露
 雲,,,semantic,not yet glossed — see sources/component-glosses.yaml,1,雨
