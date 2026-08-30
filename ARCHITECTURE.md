@@ -8,9 +8,9 @@
 
 **This repository is a translation that behaves like a codebase.** Every settled decision about a Chinese word is written once, in prose, with its evidence — and then enforced mechanically across all 81 chapters, so it cannot quietly come undone.
 
-Five sentences:
+Five things, and the first is the one to remember:
 
-1. **Three things hold authority** — the 81 chapter files, the glossary entries, and the vendored classical sources. Everything else in the repository is generated from them and can be deleted and rebuilt.
+1. **If a command can rebuild it, never edit it by hand.** Three directories are edited by hand and hold the truth — `chapters/`, `glossary/`, and the YAML in `sources/`. Everything else, including the vendored commentaries, is generated and can be deleted and rebuilt.
 2. **A glossary entry is both an essay and a machine-readable rule.** Its YAML frontmatter names the locked English and the forbidden alternatives; a build step turns that into `glossary/terms.yaml`, which the checker reads.
 3. **The checker never fires on English alone.** A forbidden word is an error only when the Chinese character licensing it is present in *that same chapter's* source table. This is the design decision that makes the tool trustworthy enough to gate on.
 4. **Two tools, opposite contracts.** `check_locks.py` optimizes precision and fails the build; `concordance.py` optimizes recall, judges nothing, and never fails.
@@ -19,10 +19,10 @@ Five sentences:
 ```
   ┌── AUTHORITY ─ edited by hand ──────────────────────────────────────────────┐
   │                                                                            │
-  │   chapters/001-081.md        glossary/*.md            sources/             │
-  │     verse                      essay                    commentaries       │
-  │     source table               frontmatter              variants.yaml      │
-  │     notes, frontmatter          (render, forbidden)     shuowen, guodian   │
+  │   chapters/001-081.md        glossary/*.md            sources/*.yaml       │
+  │     verse                      essay                     variants.yaml     │
+  │     source table               frontmatter               guodian-inventory │
+  │     notes, frontmatter          (render, forbidden)      component-glosses │
   └────────┬───────────────────────────┬──────────────────────────┬────────────┘
            │                           │                          │
            ├───────────────────────────┼──────────────────────────┤
@@ -48,6 +48,9 @@ Five sentences:
   check_locks.py also reads chapters/ directly — it needs each chapter's own
   Chinese to decide whether a forbidden English is an error or a false friend.
 
+  sources/commentaries/ and sources/shuowen/ are omitted above: they are build
+  products too, written by the importers from gitignored wikitext caches.
+
   Everything below the AUTHORITY box is generated. Delete data/ and one command
   rebuilds it; delete chapters/ and the translation is gone.
 ```
@@ -56,13 +59,26 @@ Five sentences:
 
 ## The one rule that explains most of the design
 
-**Authority is prose. Everything queryable is generated.**
+> **If a command can rebuild it, never edit it by hand.**
 
-The manuscript lives in Markdown that a person edits by hand. The database, the CSVs, the explorer page, the graph JSON, the glossary index and the machine-readable locks are all **build products**. None of them is ever edited directly, and each carries a header saying so.
+**Every file here is either edited or generated, and none is both.** Before changing any file, ask whether some command produces it. If one does, you are in the wrong file: your change will be silently overwritten by the next build, and whatever you meant to fix lives upstream in the file the tool read.
 
-This is why the repository can be aggressive about tooling without the tooling becoming the work. Delete `data/` entirely and one command rebuilds it. Delete `chapters/` and the translation is gone.
+**Three directories are edited by hand, and they are the truth:**
 
-**The one exception, and it is deliberate:** `source/chinese.md` is derived from the chapters' own source tables but is *committed*, because it is the convenient whole-text file that several tools read. If a source table changes, it must be rebuilt.
+- `chapters/001-081.md` — the manuscript, edited by Shalom (or another person)
+- `glossary/*.md` — the rulings, essay and frontmatter together
+- `sources/*.yaml` — the witness apparatus and the Guodian inventory, kept by hand as **facts**, never transcriptions
+
+**Everything else is a build product** — `data/taoteching.sqlite`, every CSV, `explorer.html`, the constellation JSON, `glossary/INDEX.md`, `glossary/terms.yaml`, and **`sources/commentaries/` and `sources/shuowen/`, which are written by importers**. The Markdown build products carry a header saying so; the CSVs cannot, since a comment line would break parsing, so [`data/README.md`](data/README.md) covers them instead.
+
+**`sources/` is therefore split, and the split matters:** the YAML files are hand-kept judgments about what the witnesses read, and the vendored directories are machine-written transcriptions of public-domain texts. Editing a commentary file by hand would break the guarantee that `import_commentary.py` reproduces it byte for byte.
+
+**Why the rule earns its place.** It is what lets the repository be aggressive about tooling without the tooling becoming the work. Delete `data/` entirely and one command rebuilds it. Delete `chapters/` and the translation is gone. It also tells you where a fix belongs: 義 (*yì* — duty) once shipped in the character atlas glossed *"and"*, and the repair was not in the CSV that showed it but two levels upstream — a misplaced bracket in ch 18's source table, and a tie-break in `build_db.py`.
+
+**Two places the rule bends, both deliberate:**
+
+- **`source/chinese.md`** is *derived* from the chapters' own source tables but is **committed and hand-maintained**, because it is the convenient whole-text file several tools read. Change a source table and it must be rebuilt by hand. The `source-drift` rule exists to catch the two falling out of step.
+- **`sources/commentaries/`** is generated by `import_commentary.py`, but from wikitext caches that are **gitignored**. So it is a build product whose inputs are not in the repository: re-runnable by anyone with network access, not by a fresh offline clone. That is the price of vendoring provenance rather than pasting text.
 
 ---
 
@@ -72,7 +88,7 @@ This is why the repository can be aggressive about tooling without the tooling b
 |---|---|---|
 | **`chapters/001–081.md`** | **The manuscript.** The `## Translation` block *is* the translation — there is no upstream and nothing regenerates over it. Each file also carries the chapter's Chinese source table, its per-chapter Notes, and frontmatter (`status`, `retrofit`). | One file per chapter |
 | **`glossary/*.md`** | **The rulings.** One entry per term: what the character is, what the conventional English gets wrong, what the classical commentators say, what is set aside and why. The frontmatter carries `render` and `forbidden`. | 35 entries, 13 secondary characters |
-| **`sources/`** | **The evidence.** Three classical commentaries vendored in full, the 說文解字 (*Shuōwén Jiězì* — the c. 100 CE etymological dictionary), the witness apparatus as facts, and the Guodian inventory. | See *Provenance* below |
+| **`sources/`** | **The evidence**, and the one mixed directory. Hand-kept: `variants.yaml` (the witness apparatus, as facts), `guodian-inventory.yaml`, `component-glosses.yaml`, `heshanggong-titles.yaml`. Machine-written: `commentaries/` (three classical commentaries in full) and `shuowen/` (說文解字 — *Shuōwén Jiězì*, the c. 100 CE etymological dictionary). | See *Provenance* below |
 
 Everything else supports these. `notes/` records decisions thinly in three layers — manuscript forks, our own rendering calls, reader-facing threads — and `WORKLIST.md` tracks what is still owed.
 
