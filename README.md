@@ -38,6 +38,7 @@ Start at [`chapters/001.md`](chapters/001.md). Each chapter carries the English 
 | `process/skills/` | The method made executable, for AI collaborators |
 | [`sources/`](sources/PROVENANCE.md) | The classical commentaries — Wang Bi (71 ch.) and Heshang Gong (81 ch.) — the variant apparatus, and per-file provenance |
 | `tools/` | The harness — see below |
+| [`ARCHITECTURE.md`](ARCHITECTURE.md) | **How the system fits together** — authorities, what is generated, the gates, the rules, provenance |
 | `CLAUDE.md` · `AGENTS.md` | Operating context for AI collaborators and tools |
 | [`DISCOVERIES.md`](DISCOVERIES.md) | **The findings worth writing about** — start here for what this research turned up: what later hands added, and what the book says once it comes off |
 | `WORKLIST.md` | Known consistency debt across chapters |
@@ -58,6 +59,8 @@ python3 tools/build_index.py               # regenerate glossary/INDEX.md and te
 python3 tools/fix-linebreaks.py            # restore the verse's hard line breaks
 python3 -m unittest discover -s tools/tests
 ```
+
+[`ARCHITECTURE.md`](ARCHITECTURE.md) maps the whole system — what holds authority, what is generated from it, how a decision becomes an enforced rule, and what each gate covers.
 
 `check_locks.py` is a gate: it reads the locked renderings out of the glossary entries' own frontmatter and reports where the manuscript contradicts a decision already made. It never rewrites the verse, and it never fires on the English alone — a forbidden rendering is only an error when the character licensing it is present in that same chapter's Chinese. `concordance.py` is the opposite kind of tool: it judges nothing and never fails.
 

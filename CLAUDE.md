@@ -244,6 +244,8 @@ DISCOVERIES.md        ★ the findings worth writing about — read when taking 
 WORKLIST.md           ★ the one forward-looking file — what the manuscript still owes
                       (was RETROFIT.md + EDITING-PASS.md, merged 2026-08-28)
 PLAN.md               the harness — phases A–F built 2026-08-11; build.py still deferred
+ARCHITECTURE.md       ★ how the system fits together — read before changing tooling
+                      (authorities · what is generated · the gates · the 12 rules)
 ```
 
 ---
