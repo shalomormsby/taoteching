@@ -100,7 +100,7 @@ character,pinyin,gloss,gloss_source,gloss_agreement,our_render,lock_status,never
 孰,Shú,Who,apparatus,3/3,,,,10,7,"15,23,44,58,73,74,77",15,77,1.89,
 小,xiǎo,small,apparatus,1/1,,,,10,7,"32,34,52,60,61,63,80",32,80,1.89,
 弱,ruò,yielding — and *weaken* only where it takes an object,locked,,yielding — and *weaken* only where it takes an object,locked,frail; feeble; feebleness; powerless,10,6,"3,36,40,55,76,78",3,78,1.89,glossary/ruo-弱.md
-心,xīn,heart,locked,,heart,locked,mind; heart-mind; the wise core; consciousness,10,6,"3,8,12,20,49,55",3,55,1.89,glossary/xin-心.md
+心,xīn,heart,locked,,heart,locked,mind; heart-mind; the wise core; consciousness; gut,10,6,"3,8,12,20,49,55",3,55,1.89,glossary/xin-心.md
 敢,gǎn,push / venture — the forward press to take,locked,,push / venture — the forward press to take,locked,dare; dares; dared; daring,10,7,"3,30,64,67,69,73,74",3,74,1.89,glossary/gan-敢.md
 爭,zhēng,contend / contention,locked,,contend / contention,locked,compete; competes; competing; competition,10,7,"3,8,22,66,68,73,81",3,81,1.89,glossary/zheng-爭.md
 矣,yǐ,particle,apparatus,1/1,,,,10,7,"31,46,63,65,67,69,74",31,74,1.89,
@@ -115,7 +115,7 @@ character,pinyin,gloss,gloss_source,gloss_agreement,our_render,lock_status,never
 焉,yān,here,apparatus,5/7,,,,9,7,"17,23,25,30,34,49,60",17,60,1.7,
 甚,shèn,,apparatus-split,1/2,,,,9,5,"21,29,44,53,70",21,70,1.7,
 病,bìng,,none,,,,,9,2,"44,71",44,71,1.7,
-盈,yíng,,apparatus-split,1/4,,,,9,7,"2,4,9,15,22,39,45",2,45,1.7,
+盈,yíng,,apparatus-split,2/5,,,,9,7,"2,4,9,15,22,39,45",2,45,1.7,
 眾,zhòng,the crowd / the many,locked,,the crowd / the many,locked,the masses; the multitude; the people,9,6,"1,8,20,21,31,64",1,64,1.7,glossary/zhong-眾.md
 美,měi,glorifying/beautifying,apparatus,1/1,,,,9,5,"2,31,62,80,81",2,81,1.7,
 觀,guān,,apparatus-split,1/2,,,,9,4,"1,16,26,54",1,54,1.7,
@@ -196,8 +196,8 @@ character,pinyin,gloss,gloss_source,gloss_agreement,our_render,lock_status,never
 致,zhì,,apparatus-split,1/2,,,,5,4,"10,14,16,39",10,39,0.94,
 虛,xū,empty,apparatus,1/1,,,,5,5,"3,5,16,22,53",3,53,0.94,
 親,qīn,,apparatus-split,1/2,,,,5,5,"17,18,44,56,79",17,79,0.94,
-象,xiàng,,apparatus-split,1/2,,,,5,5,"4,14,21,35,41",4,41,0.94,
-貨,huò,goods/wealth,apparatus,1/1,,,,5,5,"3,12,44,53,64",3,64,0.94,
+象,xiàng,,apparatus-split,1/3,,,,5,5,"4,14,21,35,41",4,41,0.94,
+貨,huò,goods,locked,,goods,locked,treasure; precious; scarce; riches,5,5,"3,12,44,53,64",3,64,0.94,glossary/huo-貨.md
 遠,yuǎn,,apparatus-split,1/2,,,,5,4,"25,47,65,80",25,80,0.94,
 門,mén,,apparatus-split,1/2,,,,5,5,"1,6,10,52,56",1,56,0.94,
 食,shí,,apparatus-split,1/2,,,,5,5,"20,24,53,75,80",20,80,0.94,
@@ -301,7 +301,7 @@ character,pinyin,gloss,gloss_source,gloss_agreement,our_render,lock_status,never
 歙,xì,,none,,,,,3,2,"36,49",36,49,0.57,
 氣,qì,vital breath,apparatus,1/1,,,,3,3,"10,42,55",10,55,0.57,
 水,shuǐ,water,apparatus,1/1,,,,3,2,"8,78",8,78,0.57,
-沖,chōng,,none,,,,,3,3,"4,42,45",4,45,0.57,
+沖,chōng,Tao is empty/hollow,apparatus,1/1,,,,3,3,"4,42,45",4,45,0.57,
 海,hǎi,sea,apparatus,1/1,,,,3,3,"20,32,66",20,66,0.57,
 深,Shēn,So deep,apparatus,1/1,,,,3,3,"15,59,65",15,65,0.57,
 淵,Yuān,good at depth/abyss,apparatus,1/1,,,,3,3,"4,8,36",4,36,0.57,
@@ -548,7 +548,7 @@ character,pinyin,gloss,gloss_source,gloss_agreement,our_render,lock_status,never
 層,céng,,none,,,,,1,1,64,64,64,0.19,
 屬,shǔ,,none,,,,,1,1,19,19,19,0.19,
 市,shì,,none,,,,,1,1,62,62,62,0.19,
-帝,dì,,none,,,,,1,1,4,4,4,0.19,
+帝,dì,god — *any god* at its one occurrence,locked,,god — *any god* at its one occurrence,locked,God; the Lord; Creator; heaven; emperor; the high god,1,1,4,4,4,0.19,glossary/di-帝.md
 帶,dài,,none,,,,,1,1,53,53,53,0.19,
 平,ping,,none,,,,,1,1,35,35,35,0.19,
 年,nián,year,apparatus,1/1,,,,1,1,30,30,30,0.19,
