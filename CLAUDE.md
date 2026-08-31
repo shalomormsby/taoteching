@@ -82,80 +82,21 @@ python3 tools/build_index.py
 
 Chapter lists are recomputed from `source/chinese.md` on every run, so they cannot go stale. Use `covers:` when an entry absorbs a secondary character (腹 inside 心, 器 inside 樸, 利/用 inside 無/有) so a reader looking up that character never dead-ends.
 
-## The locks — settled renderings
+## The locks — how they behave
 
-Apply consistently across all 81 chapters. Departures require a logged reason.
+**The locks themselves live in [`glossary/INDEX.md`](glossary/INDEX.md)** — every term, its rendering, what is forbidden, how much of the book it touches, and whether it is locked or still a recommendation. **It is generated from the entries' own frontmatter, so it is never stale. Read it; do not keep a second copy anywhere.**
 
-| Term | Render as | **Never** | Entry |
-|---|---|---|---|
-| 道 | **the Tao** (untranslated) | "the Way" — carries *Logos* freight | `glossary/dao-道.md` |
-| 德 | **integrity** | "virtue" | `glossary/de-德.md` |
-| 生 | **give birth to / bear / bring forth** | "generate", "produce", "manufacture" | `glossary/sheng-生.md` |
-| 母 | **mother** | "the Source", "the Origin", "Ground of Being" | `glossary/mu-母.md` |
-| 常 | **the ever-present / the abiding** | "eternal", "true" | `glossary/chang-常.md` |
-| 天地 | **sky and earth** | "heaven and earth", "the cosmos" | `glossary/tiandi-天地.md` |
-| 天下 | **the world** | — | same |
-| 天 (alone) | **sky** with 地 near · **nature / the natural** as an agent | "Heaven", "Providence", "the Cosmos" | `glossary/tian-天.md` |
-| 玄 | **dark** (standing alone) · **profound** (in compounds) | "mystery", "the occult" | `glossary/xuan-miao-玄妙.md` |
-| 妙 | **subtle / subtlety** | "mystery" | same |
-| 徼 | **boundaries** | "surfaces" | same |
-| 萬物 | **the countless things** | "the ten thousand things", "all things", "beings" | `glossary/wanwu-萬物.md` |
-| 心 / 腹 | **heart** / **belly** | "mind", "heart-mind", "the wise core", "consciousness" | `glossary/xin-心.md` |
-| 知足 | **knowing you have enough** · noun: **contentment** | "sufficiency", "fulfilled" | `glossary/zhizu-知足.md` |
-| 守 / 抱 | **hold fast to** / **embrace** | (do not swap) | — |
-| 聖人 | **the sage** — lowercase, and always *they/their* | "Holy Man", "saint", "the Master", capitalized "the Sage" | — |
-| 我 / 吾 | the self **seen** / the self **seeing** | (both "I"; note the pairing) | `glossary/wo-wu-我吾.md` |
+*A table used to sit here and was maintained by hand. It went stale twice in one week — 仁 and 慈 were locked and never reached it — while the generated index had them right the whole time. `check_locks.py` enforces the locks from `terms.yaml` regardless, so the copy was a reminder of a rule a tool already keeps.*
 
-**Recently locked:**
+What does not fit in a generated table, and does not go stale:
 
-| Term | Render as | **Never** | Entry |
-|---|---|---|---|
-| 為 | **do / handle / serve as** | "execute", "function as" | `glossary/wei-為.md` |
-| 無為 | **non-doing** | "non-action", "effortless action", "inaction" | `glossary/wuwei-無為.md` |
-| 明 | **clear-seeing / clarity / sees clearly** | "enlightenment", "illumination", "brilliance" | `glossary/ming-明.md` |
-| 自然 | **of itself / of themselves · so of itself** | capital-N "Nature", "spontaneity", "self-so" | `glossary/ziran-自然.md` |
-| 樸 | **uncarved wood / the uncarved** (lowercase) | "simplicity", "purity", capitalized "Uncarved Block" | `glossary/pu-樸.md` |
-| 無 / 有 | **absence / presence**; *empty / filled space* in ch 11 | "Being"/"Non-Being", "existence", "the Void", "nothingness" | `glossary/wu-you-無有.md` |
-| 信 | **trust / trustworthy** | "faith", "sincerity", "belief" — and never 德's *integrity* | `glossary/xin-信.md` |
-| 精 | **vital essence / essence** | "primordial mass", "soul", "spirit" — and never 氣's *energy* | `glossary/jing-精.md` |
-| 器 | **vessel / tool / implement** | "system", "mechanism", "machine" | `glossary/qi-器.md` |
-| 眾 | **the crowd** (people) · **the many / all** (things) | "the masses", "the multitude" — and never 民's *the people* | `glossary/zhong-眾.md` |
-| 公 | **impartiality** (quality) · **lord / minister** (office) | "duke", "equanimity", "justice" | `glossary/gong-公.md` |
-| 事 | **affairs / undertakings** · **serve / attend to** | "techniques", "processes" | `glossary/shi-事.md` |
-| 善 | **masterful / masterful at** · *good* only where the text names the category | "virtuous", "righteous", "saintly", "benevolent" | `glossary/shan-善.md` |
-| 敢 | **push / venture** — the forward press to take | "dare", "daring" | `glossary/gan-敢.md` |
-| 爭 | **contend / contention** | "compete", "competition" | `glossary/zheng-爭.md` |
-| 王 | **ruler / sovereign** · *to rule* (verb) | "king", "monarch", "emperor" | `glossary/wang-王.md` |
-| 弱 | **yielding** · *weaken* only where it takes an object | "frail", "feeble", "powerless" — and never 柔's *soft* | `glossary/ruo-弱.md` |
-| 一 | **the one** (lowercase) · *one thing* at ch 22 only | "the One", "Oneness", "the Absolute" | `glossary/yi-一.md` |
-| 全 | **whole** · *stay whole* · *keep whole* (transitive) | "complete", "perfect", "flawless", and every verb of repair | `glossary/quan-全.md` |
-| 強 | **strong** · *strengthen* (with an object) · *forcing* (straining a nature) | "mighty", "forceful", "brute strength", "perseverance" — and never 力's *force* | `glossary/qiang-強.md` |
-| 仁 | **humaneness** | "benevolence", "charity", "goodwill" | `glossary/ren-仁.md` |
-| 慈 / 孝 | **tenderness** / **devotion** | "compassion", "mercy", "maternal love", "filial piety" | `glossary/ci-慈.md` |
+- **A lock is on register, not on one English word.** Several terms carry licensed flexions — 事 (*shì* — affairs / to attend to), 弱 (*ruò* — yielding / *weaken*), 強 (*qiáng* — strong / *strengthen* / *forcing*). The entry states which, and why.
+- **Grammar overrides a lock.** 弱其志 (*ruò qí zhì* — "weaken their ambition") takes an object, and a stance word cannot. The split is marked in the Chinese, so it can be checked rather than argued.
+- **Some characters carry both valences, and the English must not resolve them.** 強 is the disease at ch 76 and the cure at ch 52 — 王弼: 守強不強，守柔乃強也, *"holding to 強 is not 強; holding to the soft is truly 強."* 執 (*zhí* — to grasp) is the wrong kind of taking-hold at ch 29 and an instruction at ch 14. An English carrying a verdict cannot do both jobs.
+- **A `forbidden:` entry cannot express *right for that character, wrong for this one, same chapter*.** So *integrity* cannot be forbidden for 信 (*xìn* — trust): chapters 21, 23, 38 and 49 hold both 信 and 德. Those distinctions live in the entry's prose and in the reader.
+- **A lock is a claim in both directions.** The checker can only test one — see the harness section on `--english`.
 
-*為 is a hand on an elephant — handling, not neutral doing. 無為 is taking your hand off it. "Non-doing" is required by Ch 63's triple parallel (為無為，事無事，味無味), which only survives with a verb that also works as a noun.*
-
-*明 is moonlight through a window, not the sun — reception, not emission. Ch 52 proves it by using 光 (outward light) and 明 in one line: 用其光，復歸其明.* *(swept)*
-
-*萬物: 萬 is a **scorpion** borrowed for its sound — the number is a phonetic accident, not a count — and 物 is a **mottled ox** (kinds, varieties). "Ten thousand" now reads as a ceiling to modern ears; 萬 meant *beyond reckoning*. The creatureliness lives in the **verbs** (生 gives birth · 畜 rears · 衣養 clothes and feeds) — never let those become "generates"/"produces".*
-
-*自然 is 自 (a nose — the thing you point at to mean "me") + 然 (*rán* — **so, thus**): so because of itself. Not "Nature" — that sense is a modern import, and in Ch 25's ladder it puts something above the Tao and inverts the cosmology. 自然 is also the **ground of 無為**: you can take your hand off because things go of themselves. **Revised 2026-08-24 — "the self-so" is retired and now forbidden.** It was a calque, and a *definite noun* where 王弼 (自然者，無稱之言 — "a term that designates nothing") and 河上公 (道性自然，無所法也 — "there is nothing it models itself on") both refuse to name an entity: the same error as "Nature", smaller in degree. **Ch 25 is the deliberate exception** — the one noun slot is answered with a clause: 道法自然 → "the Tao models itself on being what it is." Swept ch 17, 23, 25, 51, 64.*
-
-*敢 is **a hand with a hunting weapon going after a boar** — *Shuowen*: 進取也, "to advance and take." **Appetite, not bravery**, which is why "not daring" inverts the book: Ch 73's 勇於**不敢**則活 (*yǒng yú bù gǎn zé huó* — "courage in not-敢 lives") makes 不敢 *a form of courage*, and "not daring" cannot be brave. Caught by Shalom, 2026-08-19, after the reading had passed three chapters unexamined. Swept ch 30, 64, 67, 69.*
-
-*弱 is **two 弓** (*gōng* — a bow) with 彡 (fine strokes): a bow is useful *because* it bends. Not one classical gloss in this repository reads deficiency — 王弼 on ch 40 says 柔弱同通不可窮極, *"soft and 弱 alike **pass through**; they cannot be exhausted"*; 河上公 on ch 78 answers 弱之勝強 with 水能滅火, *"water can put out fire."* **Ch 78 splits the compound** (弱之勝強，柔之勝剛) and so forces four distinct words: 柔 **soft** · 剛 **hard** · 弱 **yielding** · 強 **strong**. Swept ch 36, 55, 76; **ch 40 needed no change**, which is how the error was caught. Two lines keep *weaken* on grammar — ch 3 弱其志 and ch 36 將欲弱之 take an object, and a stance word cannot.*
-
-*強 completes the four-word table 弱 already forced (柔 **soft** · 剛 **hard** · 弱 **yielding** · 強 **strong**). The graph is a **grain weevil** (說文: 蚚也，从虫弘聲) borrowed for its sound from the Qin onward, displacing 彊 — 弓有力也, **"a bow having force."** So 強 and 弱 are one instrument in two states, and ch 76's 木強則折 ("a tree that is 強 snaps") is a bow drawn past its give. **The book uses 強 for both the disease and the cure and never resolves it** — 王弼 on ch 52: 守強不強，守柔乃強也, *"holding to 強 is not 強; holding to the soft is truly 強."* An English carrying a verdict cannot do both, which is why *forcing* and *true strength* both fail. 河上公 names the whole quartet at ch 42: 去弱為強，去柔為剛 is what the crowd teaches; 去強為弱，去剛為柔 is what Laozi teaches. **力 is `covers:`-ed as *force*** — ch 33 sets 有力 against 強 and our text had the pair inverted. Swept ch 30, 55; ch 15, 33, 42, 52, 55 owed a rewrite.*
-
-*王 reads **ruler**, not *king* — and note the forbidden string is `" king"` with a leading space, so "kingdom" stays legal. See `DISCOVERIES.md` §1, whose central claim this entry corrected.*
-
-**Still open — decide and then lock:**
-
-- *(none currently — 為, 無為, and 明 are settled. Next candidates come from `glossary/TRIAGE.md`.)*
-- **正 / 奇** — the *straight / crooked* thread across 57–58 is now **unsettled by ch 78**, which locks 正言 as **words on the mark** on the graph (止 a foot on a target; 征 is the same word). 正 currently carries four Englishes — *uprightness* (57), *the straight* (58), *order* (45), *rights itself* (37) — and ch 78 makes a fifth. Owed: a decision across all five, then `glossary/zheng-正.md`. See `notes/translation.md` · Ch 78 for the argument and for the three rejected candidates.
-- **柔 → soft, 剛 → hard** — implied by the 弱 lock's four-word table, applied at ch 76 and now at ch 78, which is the line that forces it (弱之勝強，柔之勝剛). **Ch 52's 守柔曰強 now reads *"To stay with the soft is called strong"*** — revised again 2026-08-28 so that it and ch 55's 心使氣曰強 end on the same word; the two use one frame with opposite verdicts, and 王弼 refuses to resolve it (守強不強，守柔乃強也). 柔 is `covers:`-ed by `glossary/ruo-弱.md`; 剛 is still owed its own mention.
-
----
+**Open questions, and terms still owed an entry, are in `WORKLIST.md`.** Do not list them here.
 
 ## The overlay watchlist
 
@@ -178,11 +119,7 @@ python3 tools/concordance.py --commentary N    # 王弼 and 河上公 on chapter
 python3 tools/concordance.py --witnesses N     # where the older manuscripts disagree
 ```
 
-| | Date | Coverage |
-|---|---|---|
-| **王弼** (*Wáng Bì*) | d. 249 CE | 71 of 81 chapters — Siku Quanshu, 1782 |
-| **河上公** (*Héshàng Gōng*) | Han | **all 81** — Song woodblock, and it covers the ten Wang Bi lacks |
-| **韓非** (*Hán Fēi*), 解老 / 喻老 | d. 233 BCE | the 17 chapters he discusses — the oldest commentary there is |
+Three commentaries are vendored — 王弼 (*Wáng Bì*, d. 249 CE), 河上公 (*Héshàng Gōng*, Han) and 韓非 (*Hán Fēi*, d. 233 BCE, the oldest there is). **Which of them covers a given chapter is a question for the tool, not for a table:** `--commentary N` prints what exists and says *not vendored* for what does not. Coverage and per-file provenance live in `sources/PROVENANCE.md`.
 
 **Run them before drafting a chapter and before changing a settled line.** Three of this session's findings came from exactly that and could not have come from anywhere else: Wang Bi's gloss 此上之所云也 settled the referent of 此 in Ch 21; the Siku compilers' note 〔案狀各本俱作然〕 reopened a decision made an hour earlier; Han Feizi's 大必起於小 supplied a reading of Ch 63's hardest line.
 
@@ -196,20 +133,11 @@ python3 tools/concordance.py --witnesses N     # where the older manuscripts dis
 
 ## Per-chapter workflow
 
-*Encoded as a skill: `process/skills/chapter-review`. Invoke it rather than working from memory.*
+**Encoded as a skill: `process/skills/chapter-review`. Invoke it — do not work from memory, and do not keep a second copy of its steps here.** It carries the sequence, the watchlist pass, the typography rules, and the logging.
 
-1. Read the Chinese cold. Decompose contested characters to radicals. **Then run `--commentary` and `--witnesses` on the chapter.**
-2. Check the witnesses (Wang Bi base; Mawangdui, Guodian, Fu Yi, Beida) for meaning-bearing forks.
-3. Check the classical commentaries — `concordance.py --commentary N`, not from memory.
-4. Check the locks table above and the overlay watchlist.
-5. **Take a stand** — lead with the deepest claim, then the smaller precisions.
-6. Offer clay: a full rendering Shalom can accept, reject, or reshape.
-7. **Log** what was decided (below). Add a glossary entry for any term that earned one.
-8. Note any **retrofit** the decision creates in earlier chapters → `WORKLIST.md`.
+**Tie-breaking order:** characters and radicals → oldest witnesses → classical commentaries → internal consistency and the locks → this edition's ethos → Shalom's poetic intuition, exercised *after* the deepest reading is on the table.
 
-**Tie-breaking order:** characters/radicals → oldest witnesses → classical commentaries → internal consistency and locks → this edition's ethos → Shalom's poetic intuition (final arbiter, exercised *after* the deepest reading is on the table).
-
-**But intuition is last as an *arbiter* and often first as a *detector*.** When Shalom says a word feels off, that is **a research assignment, not a preference to accommodate.** Do not offer a synonym that feels better — go find what the discomfort is detecting. Ch 25's *king* was caught exactly this way, and the oldest witnesses proved him right. *(`DISCOVERIES.md` §1; `process/method.md` §4.)*
+**Adding or revising a glossary entry has its own skill:** `process/skills/glossary-entry`.
 
 ---
 
@@ -338,6 +266,7 @@ python3 -m unittest discover -s tools/tests      # the checker's own tests
 
 He decides; the AI argues. Bring him a **clear recommendation with the evidence and the cost**, not a menu — then do what he says. He will push back hard and specifically when something is off, and that pushback is usually right: he caught the 樸 "block" error, the missing 心 subject, the "wise core" abstraction, the process noise in the glossary entries, and — 2026-08-28 — that *"go unseen"* was handing a grasping figure the book's own compliment. Treat a challenge as a finding, not a complaint. He does not read Chinese, so **gloss every character, every time**.
 
+- **★ Intuition is last as an *arbiter* and often first as a *detector*.** When Shalom says a word feels off, that is **a research assignment, not a preference to accommodate.** Do not offer a synonym that feels better — go find what the discomfort is detecting. Ch 25's *king* was caught exactly this way, and the oldest witnesses proved him right (`DISCOVERIES.md` §1).
 - **★ One question at a time.** Do not stack four decisions into one message. Bring the deepest one, with a recommendation; take his answer; then bring the next. *(Said plainly on 2026-08-28: "You're asking too many questions at once.")*
 - **A commentator's gloss is not the text, and he will catch it.** 王弼 explaining 贅 (*zhuì* — superfluous) as 肬贅 (*yóu zhuì* — a wart) does not make *wart* a candidate rendering. Offer what the line says; keep the commentary as evidence for it.
 - **Order of work:** the first draft is done, so the passes in `WORKLIST.md` are the order. **Work by term, not chapter by chapter** — one decision touches a dozen chapters, and walking 1→81 re-opens the same argument twenty times.
