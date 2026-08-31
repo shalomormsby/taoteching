@@ -298,6 +298,8 @@ The things that must stay true. Most are enforced; the ones that are not are mar
 
 ## Runbook
 
+**This is the canonical list.** `README.md` and `CLAUDE.md` carry audience-shaped subsets and point here; when a tool or flag changes, change it here first.
+
 ```bash
 # before drafting or revising a chapter
 python3 tools/concordance.py --witnesses N      # do the oldest manuscripts disagree here?

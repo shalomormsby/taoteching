@@ -76,6 +76,8 @@ python3 tools/fix-linebreaks.py            # restore the verse's hard line break
 python3 -m unittest discover -s tools/tests
 ```
 
+*The complete runbook is in [`ARCHITECTURE.md`](ARCHITECTURE.md).*
+
 The two are opposite kinds of tool, deliberately. `check_locks.py` gates: it reads the locks out of the glossary entries' own frontmatter, reports where the manuscript contradicts a decision already made, and **never rewrites the verse**. `concordance.py` reports: it judges nothing and never fails. See [`ARCHITECTURE.md`](ARCHITECTURE.md) for why merging them would ruin both.
 
 To have the locks checked before every commit:

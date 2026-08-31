@@ -1,6 +1,8 @@
 # CLAUDE.md — operating context for this translation
 
-*Read this first, every session. It is the operating system for everything else. The full reasoning behind every rule here lives in `process/method.md`; this file is the compressed, always-loaded version.*
+*Read this first, every session.*
+
+**Three files, three questions, no overlap in authority.** This one answers **what to do now** — the rules, the ethos, and where to look. [`process/method.md`](process/method.md) answers **why**: the full reasoning behind every rule here, and the collaboration loop the two of us work in. [`process/skills/`](process/skills/README.md) answers **how**, step by step, and is invoked rather than remembered. Where this file compresses `method.md`, it must not contradict it — **if you find them disagreeing, that is a finding: fix both and say which was wrong.**
 
 ---
 
@@ -230,6 +232,8 @@ python3 tools/fix-linebreaks.py                  # REQUIRED after editing any ve
 python3 tools/build_db.py && python3 tools/export.py    # rebuild the atlas
 python3 -m unittest discover -s tools/tests      # the checker's own tests
 ```
+
+*The full runbook — every tool, every flag — is in [`ARCHITECTURE.md`](ARCHITECTURE.md). These are the ones that come up while working on the text.*
 
 **`check_locks.py` optimizes precision.** It exits non-zero, gates the pre-commit hook and CI, and must never cry wolf — so **no rule fires on English alone.** "virtue" is an error only when 德 is in *that chapter's own* Chinese; otherwise it drops to `info` in a separate false-friends list. That evidence gate is what makes it usable: it took the first run's error list to **9 findings with zero false positives**.
 

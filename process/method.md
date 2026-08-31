@@ -1,5 +1,7 @@
 # Process & Method — Translating the Tao Te Ching
 
+*This file answers **why**. [`../CLAUDE.md`](../CLAUDE.md) answers **what to do now** and is loaded into every session; [`skills/`](skills/README.md) answers **how**, step by step. The three must not contradict each other — if they do, that is a finding, not a preference. On 2026-08-30 this file was found rendering 玄牝 (*xuán pìn*) as "the mysterious female" where 玄 is locked to **dark** and the verse already read it correctly, so the compression was more current than the source.*
+
 *A working guide for Shalom, and for the AI collaborators (Claude now, Fable later) who help carry it. Read this first; it is the operating system for everything else.*
 
 ---
@@ -16,7 +18,7 @@ Shalom is doing this as a labor of love, and as the founder of **OpenCosmos.ai**
 **The edition's ethos** — the spine that every decision serves:
 
 - **Fidelity and poetry, together.** The literal meaning is honored; the English is living verse, not a gloss. Neither is sacrificed to the other.
-- **The feminine at the center.** The mother (母), the mysterious female (玄牝), the valley (谷), the yielding (柔) — Laozi's generative, receptive imagery — is kept warm and bodily, never abstracted into a sexless "Source." (See the 生 and 母 entries and the feminine Reading-Note thread.)
+- **The feminine at the center.** The mother (母), the dark female (玄牝), the valley (谷), the yielding (柔) — Laozi's generative, receptive imagery — is kept warm and bodily, never abstracted into a sexless "Source." (See the 生 and 母 entries and the feminine Reading-Note thread.)
 - **Universality — reading past the text's incidental male-default.** The Tao Te Ching exalts the feminine as a *principle* (雌, 牝, 母, 柔), yet, born of a patriarchal age, it quietly assumes the male as its cultural *default* — the son as the stock "newborn," the male body as the reference example (as in Ch 55's 朘, the infant boy's member). Where the two collide, we **render toward the universal** (honoring the philosophy) and **note the seam** (honoring the evidence). Never erase the male-centrism silently; read past it deliberately, and say so. The gift is for all — so the translation must actually *be* for all.
 - **The naturalistic razor.** Strip the overlays translators impose — the theistic ("Heaven/God"), the moralistic ("virtue"), and, our own besetting temptation, the mechanistic ("operating system," "generate"). Restore the text's own images: water, root, valley, uncarved wood, the newborn, the mother.
 - **Honesty over false closure.** Where the text is genuinely uncertain or double, we say so, and leave the tension open rather than pretending to resolve it.
