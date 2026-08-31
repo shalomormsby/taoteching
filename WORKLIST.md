@@ -8,7 +8,7 @@
 
 **The first draft is complete — 81 of 81, since 2026-08-26. The editing pass is the work now.**
 
-**Progress: Pass 0 ✅ · Pass A ✅ · Pass B ✅ · Pass C started (T3-1 ✅) — C–G open.** Gate green: 0 errors, 55 tests, hard breaks intact.
+**Progress: Pass 0 ✅ · Pass A ✅ · Pass B ✅ · Pass C ✅ (2026-08-31) — D–G open.** Pass D, the chapter-level rewrites, is the work now. Gate green: 0 errors, 95 tests, hard breaks intact, worklist consistent with itself.
 
 *Supersedes `RETROFIT.md` and `EDITING-PASS.md`, merged into this file on 2026-08-28 and both now deleted. This file is `RETROFIT.md` renamed, so `git log --follow WORKLIST.md` still reaches the project's start; the 2026-08-10 sweep record and the lessons it taught the checker moved to `PLAN.md`. Every item below was re-verified against the manuscript at the merge; the old file listed six repairs that had already been made.*
 
@@ -16,7 +16,7 @@
 
 ## The list
 
-**⬜ open · 🔶 part done · ✅ done · ⏸ deferred by Shalom.** Detail for every row is below, under the matching heading. 48 open · 13 done.
+**⬜ open · 🔶 part done · ✅ done · ⏸ deferred by Shalom.** Detail for every row is below, under the matching heading. **65 item rows: 51 open · 10 done · 1 part done · 3 deferred.** *(Counted from the table itself — a hand-kept tally drifts. It read "43 open · 18 done" and matched nothing.)*
 
 | # | | Item | Ch | Pass |
 |---|---|---|---|---|
@@ -24,8 +24,8 @@
 | P0 | ✅ | Text bugs — a stray word, a missing *of*, a junk row, a corrupted table, a double space | 5 8 39 42 59 | 0 |
 | PA | ✅ | **強 → strong**, completing the four-word table; 力 covered as *force* | 15 30 33 42 52 55 68 | A |
 | PB | ✅ | **仁 → humaneness · 慈 → tenderness · 孝 → devotion**; Guodian G1 closed | 5 18 19 20 38 | B |
-| PC | ⬜ | **The mirrors** — 11 cross-chapter formulas rendered two or three ways | see T3-1, T2-12→15 | C |
-| PD | ⬜ | **Chapter-level rewrites** — the real work, 17 chapters | 3 4 8 10 11 13 15 16 24 26 28 29 31 32 35 36 39 41 | D |
+| PC | ✅ | ~~**The mirrors**~~ — every C-tagged row closed (T3-1, T2-9→14); T2-15's remainder moved to D with ch 28 and T1-8 | T3-1 · T2-9→15 | C |
+| PD | ⬜ | **Chapter-level rewrites** — the real work, 18 chapters (22 and 64 only as the settled side of T2-15's pairs). *Ch is the union of the D-tagged rows below — recompute, do not hand-edit* | 3 4 8 10 11 13 16 22 28 29 31 32 35 36 38 39 41 64 | D |
 | PE | ⬜ | Entries and sweeps — **守 執 保** (T2-19 ★) · 身 氣 靜 君 士 智 事 志 谷 恃 | book-wide | E |
 | PF | ⬜ | The deferred calls | 民/人 · 正/奇 · em-dashes | F |
 | PG | ⬜ | `build.py` | — | G |
@@ -34,10 +34,10 @@
 | T1-2 | ⬜ | 道沖 inverted and given 器's *vessel*; 吾不知誰之子 dropped; 帝 erased | 4 | D |
 | T1-3 | ⬜ | 為無為 → *"Without effort"*; 敢 dropped | 3 | D |
 | T1-4 | ⬜ | 無為 → *"takes no action"* ×2; 上 rendered two ways; invented *pure* | 38 | D |
-| T1-5 | ⬜ | Bare 德 → *"profound integrity"* ×3 | 23 | C |
+| T1-5 | ✅ | ~~Bare 德 → *"profound integrity"* ×3~~ — 玄德's word, on a chapter with no 玄; triad restored | 23 | C |
 | T1-6 | ⬜ | 守 → *"Embrace"* — 守/抱 swapped | 16 | D |
 | T1-7 | ⬜ | 守 → *"attune to"* ×3; 常 dropped from all three 常德 | 28 | D |
-| T1-8 | ⬜ | 為 → *"force"* ×3; clashes with ch 64's *handle* | 29 | C |
+| T1-8 | ⬜ | 為 → *"force"* ×3; clashes with ch 64's *handle* | 29 | D |
 | T1-9 | ⬜ | 左/右 as *"creation"/"destruction"*, then literal four lines later | 31 | D |
 | T1-10 | ⬜ | 無身 → *"the separate self dissolves"* — an Advaita import | 13 | D |
 | T1-11 | ⬜ | 古始 → *"the primordial source"* — forbidden register | 14 | E |
@@ -61,15 +61,16 @@
 | T2-6 | ⬜ | **君** two ways three lines apart; 君子 → *"the sage"* | 26 31 | E |
 | T2-7 | ⬜ | **志** — *striving* / *will* | 3 33 | E |
 | T2-8 | ⬜ | Eight 善 rendered eight ways; 上善若水 a separate question | 8 | D |
-| T2-9 | ⬜ | **辯** → *"eloquence"* against ch 81's settled *argue* | 45 | C |
-| T2-10 | ⬜ | **襲** — *inherited clarity* vs *the practice of* | 27 52 | C |
-| T2-11 | ⬜ | **殆** → *"depletion"*; 没身不殆 two ways | 16 32 44 52 | C |
-| T2-12 | ⬜ | **以此** three ways — the formula `DISCOVERIES.md` §2 rests on | 21 54 57 | C |
-| T2-13 | ⬜ | **故去彼取此** three ways | 12 38 72 | C |
-| T2-14 | ⬜ | 難得之貨 ×3 · 信不足焉 ×2 · 挫其銳…同其塵 ×2 | 3 4 12 17 23 56 64 | C |
-| T2-15 | 🔶 | Formula pairs — **4 closed** (是謂玄德 · 故能成其大 · 可以長久 · 猶難之); 為天下式 → Pass D with ch 28; 為者敗之 → T1-8 | 10 22 24 28 29 31 34 44 51 59 63 64 65 66 73 | C |
+| T2-9 | ✅ | ~~**辯** → *"eloquence"*~~ — **argue** in both; the 大X若Y frame does not endorse its X | 45 81 | C |
+| T2-10 | ✅ | ~~**襲** — *inherited clarity* vs *the practice of*~~ — **two characters, not two readings**; 襲/習 fork recorded | 27 52 | C |
+| T2-11 | ✅ | ~~**殆** → *"depletion"*; 没身不殆 two ways~~ — **danger** ×5, one-to-one; ch 15's invented danger and ch 25's dropped 周行 fixed too | 15 16 25 32 44 52 | C |
+| T2-12 | ✅ | ~~**以此** three ways~~ — all three now *"By this."*; two stale notes corrected | 21 54 57 | C |
+| T2-13 | ✅ | ~~**故去彼取此** three ways~~ — all three now ch 72's line; *gut* locked; *embrace* freed | 12 38 72 | C |
+| T2-14 | ✅ | ~~難得之貨 ×3 · 信不足焉 ×2 · 挫其銳…同其塵 ×2~~ — last one's **nouns** unified, **subject** deferred to T1-2 | 3 4 12 17 23 56 64 | C |
+| T2-15 | 🔶 | Formula pairs — **4 closed** (是謂玄德 · 故能成其大 · 可以長久 · 猶難之); the remaining two are chapter rewrites: 為天下式 with ch 28, 為者敗之 with T1-8 | 22 28 29 64 | D |
 | T2-16 | ⬜ | **事** wants an entry; 無事's licensed split needs confirming | 48 57 63 | E |
 | T2-17 | ⬜ | **私** two ways, sheltering under 公's `covers:` | 7 19 | E |
+| T2-20 | ⬜ | **巧** — *skill* (45) vs *cunning* (19, 57); the same fault as 辯, one line above it | 19 45 57 | E |
 | T2-18 | ⬜ | 復命 → *"returning to what was given"* — still interpretive for 命 | 16 | D |
 | | | **Tier 3 · Missed parallelisms** | | |
 | T3-1 | ✅ | ~~★ **The 不自X / 自X者 mirror**~~ — ch 24 rewritten as ch 22's negative; ch 31 swept | 22↔24↔31 | C |
@@ -96,6 +97,20 @@
 | T5-5 | ⬜ | The 70-item false-friend `info` list is not being read | — | G |
 | T5-6 | ⬜ | `import_commentary.py` mis-splits when a heading sits mid-block | — | G |
 | T5-7 | ⬜ | `build.py` — deferred until the text stops moving | — | G |
+| T5-8 | ✅ | ~~`WORKLIST.md` keeps lists that restate its own table, ungated~~ — `check_worklist.py`, 16 tests, in CI | — | G |
+| T5-9 | ✅ | ~~`data/` is generated but nothing gates it~~ — atlas rebuilt-and-diffed in CI; `build_graph.py` made deterministic | — | G |
+
+**Why passes and not chapters.** Each pass closes **one decision and every chapter it touches**, in one sitting with the commentaries open, rather than walking 1→81 and re-opening the same argument twenty times.
+
+**Pass D is the real work and must not be rushed into a sweep.** Sixteen chapters needing rewrites, each a full `chapter-review` with the witnesses and the commentaries — plus ch 22 and ch 64, which are already sound and are visited only as the settled half of T2-15's two remaining formula pairs.
+
+*A second copy of this table, headed "The order of work," sat lower in this file and was deleted on 2026-08-31. It had drifted: it listed Pass D as seventeen chapters including 15, 26 and 30 — none of which has a D-tagged row — while omitting 38, which does, and it still showed Pass C unstarted. **The pass rows above are the only copy.** The `Ch` column for `PD` is the union of the `Ch` values on the D-tagged rows; when a row's pass changes, recompute it rather than editing it by hand.*
+
+### The harness — closed 2026-08-31
+
+**T5-8 · `tools/check_worklist.py`.** Four hand-kept lists went stale in three days and a person found every one by reading; `tools/` had no rule that read `WORKLIST.md` at all. Six rules, all enforcing something the file already says about itself: **pass-chapters** (a pass row's `Ch` is the union of its rows' `Ch`, and a cell that *points at rows* is never checked — declining to keep a list is the goal), **closed-pass** (no pass marked done over an open or part-done row; ⏸ does not block), **tally**, **pass-exists**, **duplicate-id**. 16 tests, each fixture a real failure this repo shipped. Wired into CI.
+
+**T5-9 · the atlas is gated, and `build_graph.py` is deterministic.** `data/constellation-chars.json` had **never agreed with `data/characters.csv`** — both entered in `2466b4d`, but the JSON was built from an older database than the CSV it shipped beside, so it published glosses the CSV had withdrawn (95 characters) and older wordings for 93 more (*"the sea"* against the CSV's *"sea"*). Nothing rebuilt it, and nothing compared them. CI now rebuilds `build_db → export → build_graph` and fails on `git diff --exit-code data/`, the same shape as the glossary gate. **That gate was only safe after fixing the generator:** `export.py` orders all 11 of its queries, `build_graph.py` ordered 1 of 8, so its row order came from SQLite's planner — stable on one machine, and exactly the kind of stability that breaks when the gate moves to another. Every query is now ordered and the co-occurrence map is emitted sorted, so the output is a function of the data alone. Verified: node and link **sets** are unchanged by the ordering fix; only order moved.
 
 ---
 
@@ -117,25 +132,6 @@ Chapters **56–81** were drafted *through* the locks, with `check_locks.py` liv
 
 ---
 
-## The order of work
-
-Grouped by **term**, so each pass closes a decision and every chapter it touches in one sitting with the commentaries open — rather than walking 1→81 and re-opening the same argument twenty times.
-
-| | Pass | Chapters | Closes |
-|---|---|---|---|
-| ~~0~~ | ~~Text bugs~~ ✅ | 5, 8, 39, 42, 59 | five defects that were simply broken |
-| ~~A~~ | ~~**強** + finish the four-word table~~ ✅ | swept 15, 30, 33, 42, 52, 55, 68 | `glossary/qiang-強.md` |
-| ~~B~~ | ~~**仁 · 慈 · 孝**, with Guodian G1~~ ✅ | swept 5, 18, 19, 20, 38 | `ren-仁.md` · `ci-慈.md` · G1 closed |
-| **C** | **The mirrors** | 24↔22 · 4↔56 · 29↔64 · 17↔23 · 12↔38↔72 · 21↔54↔57 · 34↔63 · 44↔59 · 63↔73 · 22↔28 · 24↔31 | Tier 3 §1 and Tier 2 §8–13 |
-| **D** | **Chapter-level rewrites — the real work** | 3, 4, 8, 10, 11, 13, 15, 16, 26, 28, 30, 31, 32, 35, 36, 39, 41 | Tier 1 and Tier 3, one `chapter-review` at a time |
-| **E** | **身 · 氣 · 靜 · 君 · 士 · 智 · 事 · 志** entries and sweeps | book-wide | Tier 2 §1–7 |
-| **F** | **The deferred calls** | 民/人 · 正/奇 · em-dashes | Tier 4 |
-| **G** | **`build.py`** | — | when the text stops moving |
-
-**Pass D is the real work** and should not be rushed into a sweep. Seventeen chapters, each a full `chapter-review` with the witnesses and the commentaries.
-
----
-
 ## Tier 1 · Wrong, not merely inconsistent
 
 Meaning changed. Each needs a decision; most need one line rewritten.
@@ -150,7 +146,7 @@ Meaning changed. Each needs a decision; most need one line rewritten.
 
 3. **Ch 3 — 為無為 → *"Without effort."*** The forbidden *effortless action* register on 無為's home formula. 不敢為 also drops 敢. Ch 3 is the most compressed chapter in the book (0.98 English words per Chinese character against a 1.31 median).
 4. **Ch 38 — 無為 → *"takes no action,"*** twice, in the opening stanza. Forbidden outright. The chapter also renders 上 as *highest* for 德 but *Ultimate* for 仁/義/禮, and 失道而後德 gains an invented *pure*.
-5. **Ch 23 — bare 德 rendered *"profound integrity"*** on three lines. 玄德 is profound integrity; 德 alone is **integrity**. Blurs the 道/德/失 triad the chapter is built on.
+5. ✅ **Closed 2026-08-31.** Bare 德 had been given **玄德**'s English on three lines, in a chapter containing no 玄. 德 is locked to *integrity*, and `--english "profound integrity"` now returns only 玄德's four lines (10, 51, 65 ×2). **The cost was structural:** the stanza is a three-term parallel — 道者同於道；德者同於德；失者同於失 — and an adjective on the middle term alone broke it. Second time this chapter has handed 德's slot to the wrong word; the first was 信 (*xìn* — trust) taking 德's.
 6. **Ch 16 — 守 → *"Embrace."*** 守 is *hold fast to*, 抱 is *embrace*; the lock says do not swap. **Ch 52 does it right.**
 7. **Ch 28 — 守 → *"attune to"*** on all three 知其X守其Y lines, and 常 dropped from all three 常德.
 8. **Ch 29 — 為 rendered *"force"* three times in four lines.** 為 is locked to *do / handle / serve as*. *Force* is a reading smuggled in as a translation: it supplies violence 為 only implies, and makes 無為 look like counsel against aggression rather than against handling as such. **Ch 64 carries 為者敗之，執者失之 verbatim and now reads *"Those who handle it ruin it."*** The shared formula must not read two ways. Line 1 also carries an em-dash.
@@ -211,12 +207,12 @@ Meaning changed. Each needs a decision; most need one line rewritten.
 6. **君 reads *ruler* then *mastery* three lines apart at ch 26 — and 君子 is rendered *"the sage"* at ch 26 and twice at ch 31.** Conflating 君子 with 聖人 erases a distinction the book draws deliberately.
 7. **志 (*zhì*) reads *striving* (3) and *will* (33).** Small, real, no entry.
 8. **Ch 8's eight 善 are rendered eight ways** — *goodness · a solid foundation · limitless depth · pure kindness · trustworthy · good order · skillful · good timing.* The 善 lock is not applied to its own showcase chapter. **上善若水 is the separate question**: *"Supreme goodness"* stands above eight lines of pure competence and may want *the highest excellence*.
-9. **辯 reads *"eloquence"* at ch 45**, against ch 81's settled *argue*.
-10. **襲**: *"inherited clarity"* (27, 襲明) against *"the practice of the ever-present"* (52, 襲常) — a deliberate formula pair rendered as two unrelated things.
-11. **殆 reads *"depletion"* at ch 32 and ch 44**; it is *danger*. And 没身不殆 reads two ways (16, 52).
-12. **以此 has three Englishes** — *"By this, here, now"* (21), *"By precisely this"* (54), *"By this:"* (57). **`notes/manuscript.md` calls this a fixed closing formula and `DISCOVERIES.md` §2 is built on it.** The manuscript does not show it.
-13. **故去彼取此 has three Englishes** (12, 38, 72). Ch 72's is the one actually translating 彼/此.
-14. **難得之貨 has three** (3, 12, 64). **信不足焉，有不信焉 has two** (17, 23) — the oldest open item; ch 23's text has changed since it was raised but still does not match ch 17. **挫其銳…同其塵 — four verbatim lines, two Englishes** (4, 56).
+9. ✅ **Closed 2026-08-31.** **argue** in both; ch 45 reads *"Great argument seems halting."* Ch 81's Notes had licensed the split on the premise that **辯 is praised at ch 45** — wrong. **The 大X若Y frame does not endorse its X**, and the proof is one line above: 大巧若拙 puts 巧 (*qiǎo*) in the frame, and 巧 is condemned at ch 19 (絕巧棄利) and ch 57 (人多伎巧). The commentators put the two chapters together, not apart — 王弼 on ch 45: 大辯因物而言，己**無所造** (*"great 辯 speaks according to things; the self invents nothing"*), against 河上公 on ch 81: **不綵文**也 (*"does not ornament their words"*). Not the 強 both-valences case: *eloquence* manufactured the appearance of a double. 說文 on 辯: 治也。从言在辡之閒 — words between **two tattooing knives**, a courtroom. 訥 → *halting* (說文 言難也, of speech specifically) rather than *awkward*, which overlapped 拙. **Spun off as T2-20:** 巧 has the identical fault, *skill* (45) against *cunning* (19, 57).
+10. ✅ **Closed 2026-08-31, and the cause was a manuscript fork nobody had logged.** The two Englishes were **not two readings of one character**: ch 27 rendered 襲 (*xí* — to layer a garment over another), ch 52 rendered **習** (*xí* — to practise), which our base text does not print. Both commentaries print 習 at ch 52 — 河上公 glosses it 習修常道 — and the Siku 王弼 carries 〔案習各本作襲〕. **We keep 襲 in both**, on the pair: 是謂襲明 / 是謂襲常 is one frame, and 明 / 常 are bonded by 知常曰明 (16, 55). **襲 is 說文's 左衽袍 — a robe closed to the left, i.e. grave-clothes**, one garment over another; *inherit* is a derived sense and lost the layering. Now *"clarity worn covered"* (27) and *"holding the ever-present covered"* (52). Fork recorded in `sources/variants.yaml` and `notes/manuscript.md`. **The `unlogged-variant` rule could never have caught this** — it fires only on variants a chapter *claims*, and an English quietly following an unrecorded reading is invisible to it.
+11. ✅ **Closed 2026-08-31.** 殆 (*dài*) had **five occurrences and four Englishes, none of them 殆**: *"Not even death threatens this"* (16), *"Inexhaustible"* (25), *"depletion"* (32, 44), *"no harm"* (52). All five now read **danger**, and *danger* renders nothing else — one-to-one in both directions. 說文 危也; the graph is 歺 (*è*), the **bare-bone radical** of 死 and 殃. **Both commentators converge in all five places** (河上公 不危殆 ×3; 王弼 免殆 at ch 25) — no divergence to preserve. Two of the four Englishes were other characters' words: *harm* is 害's (35, 56, 66, 73, 81), *inexhaustible* is 窮's (6, 35). **Ch 16 was a mistranslation, not a mismatch** — 没身 is "to the end of one's life," as ch 52 already had it, not *death*; and the sentence belonged to the person, not the Tao. **Two extras fixed on the way:** ch 25's 周行 (*zhōu xíng* — "moves in a circle") had been dropped entirely and is restored, and **ch 15's *"aware of danger from all sides"* was invented** — no 殆 in that chapter, no threat in the Chinese, and 河上公 has 畏四鄰**知之**, *the fear of being found out*; now *"Hesitant, as if wary of neighbors on four sides."* **殆 and 畏 both still owe glossary entries**, so *danger* is correct book-wide but unenforced.
+12. ✅ **Closed 2026-08-30.** All three read **"By this."** — ch 57 keeps its colon, which is punctuation and marks the only forward-pointing one of the three. *"Precisely"* had no warrant; *"here, now"* was 河上公 (*Héshàng Gōng*)'s gloss 此，今也 (*cǐ, jīn yě* — "'this' means now") lifted into the verse, and it picked his reading over 王弼 (*Wáng Bì*)'s anaphoric 此上之所云也 (*"'this' is what was said above"*), which the old note claimed it "held." **Two stale claims corrected** — `notes/manuscript.md` §*What the commentators say 此 means* and `DISCOVERIES.md` §2's table and evidence list. **Rider:** ch 57's 其 (*qí* — it) had been rendered *"this"*, colliding with 此 one clause apart; now *"it."* **Two standing principles added** to `notes/translation.md`: *the commentaries are evidence, never candidate renderings*, and *register — no modern spiritual idiom* (the "here, now" / *Be Here Now* family).
+13. ✅ **Closed 2026-08-30.** All three read **"They let go of what is out there and take what is here."** 彼 (*bǐ* — that, yonder) occurs **exactly three times in the book and all three are this tag**, so there was no competing context. Ch 12 and 38 had been rendering the *referents* and deleting the *deixis*; ch 72's axis-not-referent solution was right in all three. **Two side gains:** *embrace* freed from 取 (*qǔ* — to take) at ch 38 — it had been wearing four characters, and the other two are T2-19; and ch 12's *"gut wisdom"* turned out to be a **lock breach against its own entry**, which has a paragraph headed *"Why 'belly' and not 'gut'"* citing ch 12. **Harness hole found and closed:** `covers:` records a `render:` but no `forbidden:` list, so *gut* was unforbidden book-wide; `"gut"` is now on 心's `forbidden:` and verified firing. **Still owed on ch 38's stanza** (Pass D, T1-4): *"thickness **of being**"* and *"**life's** fruit"* invent words.
+14. 🔶 **難得之貨 — closed 2026-08-30.** All three read **"rare goods"**, and **貨 (*huò*) is now locked to *goods* with its own entry** (`glossary/huo-貨.md`, `status: locked`, forbidding *treasure · precious · scarce · riches*). The error was not inconsistency: all three Englishes put the value **in the object** — *the precious* (貴's word, and 貴 is the verb in the same line), *rare treasures* (寶's), *precious goods* — which made 不貴難得之貨 circular and dropped the ruler out of a sentence about what a ruler does. 貨 was also wearing 富's *wealth* at **ch 44**, now swept. *Rare* renders no character and that cost is recorded: **"hard" is 堅's**, and 難's own *difficult* will not go attributive. **Two general rules came out of it** — *one Chinese modifier, one English modifier* (no near-synonym doublets; they are a KJV tell), and the note that English has **no one-word adjective for "difficult to obtain" that is not also a value word**, which is why three chapters drifted the same way independently. **Ch 3 riders applied:** 民 restored to the middle clause of the triad, and 不貴 → *prizing* in both ch 3 and ch 64. **Still owed at ch 12:** 妨 (*fáng* — to hinder) reads *corrupt*, a moral word for an obstruction word. **信不足焉，有不信焉 — closed 2026-08-30**, the oldest open item in the debt list. Both chapters now read **"Where trust runs short, there is no trust,"** and **ch 23's `lock-ok` waiver is gone with it** — it said *"revisit in the editing pass,"* and this was that pass. The split had been argued on context (ch 17 political, ch 23 about 同 *tóng* — merging), and **the commentators cross it in both directions**: 王弼 reads the line at **ch 17** as impersonal natural law (此自然之道也), 河上公 supplies a ruler at **ch 23** (君信不足於下). **Ch 17 was also wrong, not just mismatched** — *"leaders don't trust the people"* made 信 an inner attitude, which `glossary/xin-信.md` forbids (信 is a 符契, a split tally — a correspondence that can be checked), and ran the failure backwards: 河上公 has the people **deceive** a ruler who could not be relied on. Both old versions asserted **reciprocity**, which is 河上公's reading; 王弼's is **emergence**, with no second party. The English is now agent-free and holds both. `glossary/xin-信.md` updated to match. **挫其銳…同其塵 — closed 2026-08-31, and the only Pass C item that does not fully unify.** Ch 4's four lines now carry ch 56's nouns and its couplet lineation: **"It blunts the sharpness, untangles the knots. / Dims its own light, merges with the dust."** The live error was a **lock breach** — *brilliance* is on 明's `forbidden:` list, 光 (*guāng*) is 明's counter-term, and `glossary/ming-明.md` had **already glossed both chapters together** as *dim your light*. `check_locks.py` could not see it (no 明 in ch 4, so the evidence gate drops it to `info`); only `--english` finds this class. **The subject is deliberately left split** and travels with ch 4's rewrite (T1-2): 王弼 reads ch 4's lines with **the Tao** as subject and ch 56's as **a person's practice**, and unlike ch 17/23 the frames do not appear in the wrong chapters. Ch 4's subject is downstream of 道沖 inverted, 吾不知誰之子 dropped, and 帝 erased — deciding it now means deciding it twice. **Ch 56 held the ground** because it is attested **complete at Guodian**; ch 4 is not attested at all.
 15. **Formula pairs the checker names:** 是謂玄德 (10 vs 51/65) · 故能成其大 (34 vs 63) · 可以長久 (44 vs 59) · 是以聖人猶難之 (63 vs 73) · 為者敗之，執者失之 (29 vs 64) · 為天下式 (22 vs 28) · 物或惡之 and 故有道者不處 (24 vs 31) · 不貴難得之貨 (3 vs 64).
 16. **事 wants an entry, and 無事's licensed split needs confirming.** *meddle* at 48 and 57, *serve the not-serving* at 63. `glossary/shi-事.md` recommends making ch 63's word the standard on the strength of ch 57's quartet. Not applied.
 17. **私 reads two ways** — *private self* (7) and *the self* (19) — sheltering under 公's `covers:`. Ch 19's is arguably right in place, but 私 may want its own entry rather than a `covers:` line.
@@ -345,3 +341,13 @@ Structure the Chinese has and the English does not. These are rewrites, and they
 | 2026-08-28 | **G1** — the ch 19 Guodian fork recorded as facts | `sources/variants.yaml` · `notes/manuscript.md` · Ch 19 |
 | 2026-08-28 | **T3-1** — ch 24 rewritten as ch 22's mirror; 物 → *living things*; ch 31 swept | `chapters/024.md` · Notes · `notes/translation.md` |
 | 2026-08-28 | **T2-15, four of six** — 是謂玄德 (10) · 故能成其大 (34) · 可以長久 (44, 59) · 猶難之 (63, 73) | `notes/translation.md` |
+| 2026-08-30 | **T2-12** — 以此 → *"By this."* in all three; 2 stale notes corrected; 2 standing principles added | `notes/translation.md` · `notes/manuscript.md` · `DISCOVERIES.md` · Ch 21/54/57 |
+| 2026-08-30 | **T2-13** — 故去彼取此 → ch 72's line in all three; `"gut"` locked onto 心; *embrace* freed from 取 | `notes/translation.md` · `glossary/xin-心.md` · Ch 12/38/72 |
+| 2026-08-30 | **T2-14a** — 難得之貨 → *rare goods*; **貨 locked to *goods***, new entry; ch 44 swept off 富's *wealth* | `glossary/huo-貨.md` · `notes/translation.md` · Ch 3/12/44/64 |
+| 2026-08-30 | **T2-14b** — 信不足焉 → *"Where trust runs short, there is no trust"* in both; ch 23's waiver removed | `notes/translation.md` · `glossary/xin-信.md` · Ch 17/23 |
+| 2026-08-31 | **T2-14c** — 挫其銳…同其塵: ch 4 takes ch 56's nouns and couplets; *brilliance* breach closed; subject deferred to T1-2. **Closes the eleven named mirrors; PC stays 🔶 for T2-9/10/11** | `notes/translation.md` · Ch 4/56 |
+| 2026-08-31 | **T5-8 · T5-9** — `check_worklist.py` (16 tests); atlas gated in CI; `build_graph.py` made deterministic | `tools/check_worklist.py` · `tools/build_graph.py` · `.github/workflows/checks.yml` |
+| 2026-08-31 | **T2-11** — 殆 → **danger** ×5, one-to-one; ch 16's 没身 mistranslation; ch 25's 周行 restored; ch 15's invented danger removed | `notes/translation.md` · Ch 15/16/25/32/44/52 |
+| 2026-08-31 | **T2-10** — 襲 → *covered* (27, 52); the 襲/習 fork found and recorded | `sources/variants.yaml` · `notes/manuscript.md` · `notes/translation.md` · Ch 27/52 |
+| 2026-08-31 | **T2-9 → Pass C ✅** — 辯 → *argue* (45, 81), 訥 → *halting*; 巧 spun off as T2-20 | `notes/translation.md` · Ch 45/81 |
+| 2026-08-31 | **T1-5** — ch 23's bare 德 off 玄德's word; the 道/德/失 triad restored | `chapters/023.md` |

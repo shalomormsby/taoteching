@@ -33,6 +33,24 @@
 #   note             one sentence on what turns on it
 #   logged           where the reasoning lives, or false
 
+- chapter: 52
+  line: "是謂襲常"
+  base: "襲"
+  witnesses: { wangbi: "習", heshanggong: "習" }
+  meaning_bearing: true
+  our_call: base
+  note: >
+    Two different characters, not two readings of one. 襲 (xi) is to layer a
+    garment over another; 習 (xi) is to practise. Both commentaries print 習
+    here — Heshang Gong glosses it 習修常道, "practising and cultivating the
+    constant Tao" — and the Siku edition of Wang Bi carries the collation note
+    〔案習各本作襲〕, "for 習, all editions read 襲." We follow the base text and
+    read 襲, because 是謂襲明 at ch 27 is structurally identical and 明 / 常 are
+    the book's own bonded pair (知常曰明, ch 16 and 55); reading 習 here
+    dissolves that pair into a coincidence. Our English at ch 52 had been
+    following 習 without anyone recording the fork.
+  logged: notes/manuscript.md
+
 - chapter: 21
   line: "道之為物，惟恍惟惚"
   base: "道之為物"

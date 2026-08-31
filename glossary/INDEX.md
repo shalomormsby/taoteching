@@ -7,7 +7,7 @@
 python3 tools/build_index.py
 ```
 
-**35 entries.** Sorted by how much of the book each term touches.
+**36 entries.** Sorted by how much of the book each term touches.
 
 | Term | Say | Render as | Never | Ch. | Status | Entry |
 |---|---|---|---|---|---|---|
@@ -34,13 +34,14 @@ python3 tools/build_index.py
 | **爭** | *zhēng* | contend / contention | "compete", "competes", "competing", "competition" | 7 | **locked** | [`zheng-爭.md`](zheng-爭.md) |
 | **玄 & 妙** | *xuán / miào* | dark or profound / subtle | "mystery", "mysterious", "the occult" | 7 | **locked** | [`xuan-miao-玄妙.md`](xuan-miao-玄妙.md) |
 | **弱** | *ruò* | yielding — and *weaken* only where it takes an object | "frail", "feeble", "feebleness", "powerless" | 6 | **locked** | [`ruo-弱.md`](ruo-弱.md) |
-| **心** | *xīn* | heart | "mind", "heart-mind", "the wise core", "consciousness" | 6 | **locked** | [`xin-心.md`](xin-心.md) |
+| **心** | *xīn* | heart | "mind", "heart-mind", "the wise core", "consciousness", "gut" | 6 | **locked** | [`xin-心.md`](xin-心.md) |
 | **樸** | *pǔ* | uncarved wood / the uncarved | "uncarved block", "simplicity", "purity" | 6 | **locked** | [`pu-樸.md`](pu-樸.md) |
 | **眾** | *zhòng* | the crowd / the many | "the masses", "the multitude", "the people" | 6 | **locked** | [`zhong-眾.md`](zhong-眾.md) |
 | **仁** | *rén* | humaneness | "benevolence", "charity", "goodwill" | 5 | **locked** | [`ren-仁.md`](ren-仁.md) |
 | **恃** | *shì* | rely on — the heart putting its weight on something | "presume", "presuming", "dependency" | 5 | **locked** | [`shi-恃.md`](shi-恃.md) |
 | **母** | *mǔ* | mother | "the Source", "the Origin", "the Ground of Being" | 5 | **locked** | [`mu-母.md`](mu-母.md) |
 | **自然** | *zì rán* | of itself / of themselves · so of itself | "Nature", "spontaneity", "self-so" | 5 | **locked** | [`ziran-自然.md`](ziran-自然.md) |
+| **貨** | *huò* | goods | "treasure", "precious", "scarce", "riches" | 5 | **locked** | [`huo-貨.md`](huo-貨.md) |
 | **公** | *gōng* | impartiality / impartial (the quality) · lord / minister (the office) | "duke", "equanimity", "justice" | 3 | **locked** | [`gong-公.md`](gong-公.md) |
 | **慈** | *cí* | tenderness | "compassion", "mercy", "maternal love", "filial piety" | 3 | **locked** | [`ci-慈.md`](ci-慈.md) |
 | **知足** | *zhī zú* | knowing you have enough / contentment | "sufficiency", "fulfilled" | 3 | **locked** | [`zhizu-知足.md`](zhizu-知足.md) |

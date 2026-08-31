@@ -92,7 +92,7 @@ Our base reads 道之**為**物，惟恍惟惚. Both Mawangdui silks read **道�
 
 #### 自古及今 / 自今及古 — the direction of the inquiry
 
-Our base reads 自**古**及**今** ("from ancient times until today"). **Both Mawangdui silks** read 自**今**及**古** ("from **now back to** antiquity"). **We keep the base text**, and log the fork because it is genuinely meaning-bearing: it reverses the direction of the inquiry. Mawangdui makes the chapter *start* from the present and trace backward; Wang Bi makes it *arrive* at the present. We render the arrival — the line ends on "today," and the closing "By this, here, now" completes the movement toward the reader, which is the movement of the whole chapter.
+Our base reads 自**古**及**今** ("from ancient times until today"). **Both Mawangdui silks** read 自**今**及**古** ("from **now back to** antiquity"). **We keep the base text**, and log the fork because it is genuinely meaning-bearing: it reverses the direction of the inquiry. Mawangdui makes the chapter *start* from the present and trace backward; Wang Bi makes it *arrive* at the present. We render the arrival — the line ends on "today," and the closing "By this." completes the movement toward the reader, which is the movement of the whole chapter. *(That closing line read "By this, here, now" until 2026-08-30; the movement survives the trim, because the arrival is carried by "today," not by the demonstrative.)*
 
 The same two lines carry two more forks. 以**閱**眾**甫** against the silks' 以**順**眾**父** (順 = *follow along with*, not *observe*) — we keep 閱; and 甫/父 needs no decision, since Ch 42 already settled that 父 here means *origin / root*, not "godfather," and both give "origin" in English.
 
@@ -106,9 +106,20 @@ Our base reads 眾甫之**狀** ("the *shape* of that origin"); four independent
 
 The same Siku file carries a second collation note, 〔案此二句一本在下二句之下〕, recording a **line-order** variant: in one edition the 象 couplet follows the 物 couplet rather than preceding it. Logged, not acted on.
 
-#### What the commentators say 此 means — and our line holds both
+#### What the commentators say 此 means — they diverge, and the English holds neither
 
-The two oldest commentaries gloss 以此 differently, and the English *"By this, here, now"* happens to carry both. **Wang Bi:** 此上之所云也 — *"'this' is what was said above,"* the whole descent through 象 / 物 / 精 / 信. **Heshang Gong:** 此今也 — *"'this' means **now**,"* glossing on to 以今萬物皆得道精氣而生 (*"because now the countless things all obtain the Tao's essence-qi and live"*). Heshang Gong's reading also independently supports the Mawangdui 自今及古 direction, from the opposite end of the tradition. *(Both quoted from `sources/commentaries/`.)*
+**⚠ Corrected 2026-08-30.** This section previously read *"our line holds both"* and claimed that the English *"By this, here, now"* carried Wang Bi and Heshang Gong at once. It did not: it carried Heshang Gong's gloss, dropped Wang Bi's entirely, and did it by lifting a commentator's word into the verse. The line now reads **"By this."** in all three chapters. See `notes/translation.md` → *以此 — one formula, one English*.
+
+The two oldest commentaries gloss 以此 (*yǐ cǐ* — "by this") **differently, and that divergence is the finding — not something to average.**
+
+- **王弼 (*Wáng Bì*), ch 21:** 此上之所云也…言吾何以知萬物之始於無哉，以此知之也 — *"'this' is what was said above… it says: how do I know the countless things begin in no-thing? By this I know it."* **Anaphoric** — 此 points back at the text, the whole descent through 象 (*xiàng* — image) / 物 (*wù* — thing) / 精 (*jīng* — vital essence) / 信 (*xìn* — trust).
+- **河上公 (*Héshàng Gōng*), ch 21:** 此，今也。以今萬物皆得道精氣而生 — *"'this' means **now**. Because now the countless things all obtain the Tao's essence-breath and live."* **Deictic, in time.**
+- **河上公, ch 57 — the same opening gloss, verbatim:** 此，今也…以今日所見知 — *"'this' means now… by what is seen today, he knows it."*
+- **河上公, ch 54:** 以此五事觀而知之也 — *"by observing these five matters, he knows it"* — naming the referent as the five cultivations (body, family, community, state, world).
+
+Two things follow. **Heshang Gong glosses ch 21 and ch 57 with the identical five characters**, which is independent evidence from the tradition that 吾何以知…然哉？以此 is one fixed formula — the claim `DISCOVERIES.md` §2 rests on. And **the two readings are incompatible**: *what was said above* is anaphora, *now* is time. A bare demonstrative in English holds both open; any English that specifies picks one and hides the fork.
+
+Heshang Gong's reading also independently supports the Mawangdui 自今及古 (*zì jīn jí gǔ* — "from now back to antiquity") direction, from the opposite end of the tradition. *(All quoted from `sources/commentaries/`.)*
 
 ### Ch 25 · 王亦大 / 人亦大 — king or human among the four greats
 
@@ -145,6 +156,16 @@ The received text gives **two** calamity-clauses: 禍莫大於不知足 (no *dis
 ### Ch 47 · 不見而名 / 不見而明 — the homophone fork
 
 Received: 不見而**名** (名, *to name / discern*) — "without seeing, discerns." Mawangdui reads 不見而**明** (明, *clarity / be clear*) — "without seeing, understands clearly." We follow **明**: it completes the parallel (*know / see-clearly / accomplish*, each without its usual means) and reads cleaner than 名 here. Worth noting the fork falls between two of our own glossary entries — 名 (the name / ledger) and 明 (clear-seeing) — the homophone pair, both *míng*.
+
+### Ch 52 · 是謂襲常 / 習常 — two characters, and our English had been following the one we do not print
+
+**Found 2026-08-31, by asking why ch 27 and ch 52 rendered the same character two ways.** They were not rendering the same character. Ch 27's *"inherited clarity"* read 襲 (*xí* — to layer a garment over another, hence to succeed to); ch 52's *"the practice of the ever-present"* read **習** (*xí* — to repeat, to drill). Our base text prints **襲** in both places, so ch 52's English was following a variant nobody had recorded.
+
+**Both commentaries print 習.** 河上公 (*Héshàng Gōng*) glosses it outright: 人能行此，是謂**習修**常道 — *"if a person can do this, it is called **practising and cultivating** the constant Tao."* The Siku edition of 王弼 (*Wáng Bì*) also sets 習 in the lemma and attaches the compilers' collation note 〔案**習各本作襲**〕 — *"for 習, all editions read 襲"* — with the gloss 道之常也, *"the constancy of the Tao."*
+
+**We keep the base text and read 襲, and the argument is structural rather than documentary.** 是謂襲明 (ch 27) and 是謂襲常 (ch 52) are the identical frame, and 明 (*míng* — clear-seeing) and 常 (*cháng* — the ever-present) are the book's own bonded pair: 知常曰明 (*zhī cháng yuē míng* — "knowing the ever-present is called clarity") stands verbatim at ch 16 and ch 55. **襲明 and 襲常 are one gesture applied to the two halves of that formula**, and reading 習 at ch 52 dissolves the pair into a coincidence. 習 is also the easier character of the two, which is the direction copying usually runs.
+
+*Recorded in `sources/variants.yaml`; the rendering decision is in `notes/translation.md`. The fork was invisible to `check_locks.py`'s `unlogged-variant` rule, which fires only on variants a chapter **claims** — an English that quietly follows an unrecorded reading is exactly what no check can see.*
 
 ### Ch 53 · 是謂盜夸 / 盜竽 — the boast, or the lead-pipe
 

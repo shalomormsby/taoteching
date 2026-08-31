@@ -2,7 +2,7 @@
 term: "心"
 pinyin: "xīn"
 render: "heart"
-forbidden: ["mind", "heart-mind", "the wise core", "consciousness"]
+forbidden: ["mind", "heart-mind", "the wise core", "consciousness", "gut"]
 chapters: [3, 8, 12, 20, 49, 55]
 status: locked
 pairing: false
@@ -50,6 +50,8 @@ And the register argument is the same one that settled 無為 → *non-doing* an
 **腹** (*fù*) is the belly — what actually needs feeding. Against it stand the heart (which grasps, schemes, wants) and the eye (which craves endlessly, since seeing never fills anything). The sage attends to the organ that can be **satisfied** and neglects the organs that cannot.
 
 Note that 虛 (*emptying*) is not an insult here. It is Laozi's highest practice — 致虛極 (16), *reach utmost emptiness*. To empty the heart is to unclutter it of grasping, not to make people stupid. (This chapter is often read as advocating a dull populace; the vocabulary argues otherwise, and it is a fair fight worth having in the open.)
+
+**"gut" is on 心's `forbidden:` list, and the reason it had to be.** *(Added 2026-08-30.)* 腹 sits inside this entry as a `covers:` character, and **`covers:` records a `render:` but never a `forbidden:` list** — so for as long as the argument below lived only in this prose, *gut* was unforbidden book-wide, and ch 12 line 19 read *"chooses **gut wisdom**"* one line beneath its own correctly rendered *belly*. The entry named the error, cited this very chapter as its evidence, and could not stop it. Hanging the word on **心** works because 心 is present in ch 3 and ch 12 — both of the chapters where 腹 appears — so the evidence gate fires, and nothing else in either chapter can legitimately claim *gut*.
 
 **Why "belly" and not "gut."** Chapter 3 decides it: 實其腹 is unambiguously about **food** — the line sits in a four-part anatomy of governance (empty the heart, fill the belly, weaken the will, strengthen the bones), and it means *feed them*. You fill a belly; you do not fill a gut. English "gut" has also drifted toward **instinct** (*trust your gut*) and **courage** (*guts*), and the first is precisely what must not be imported here: Chapter 12's contrast is *inner need against outer craving*, not *intuition against analysis*. The belly is the organ that can be **satisfied**; the eye is the one that cannot.
 

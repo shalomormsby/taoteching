@@ -197,7 +197,7 @@
 - term: "心"
   pinyin: "xīn"
   render: "heart"
-  forbidden: ["mind", "heart-mind", "the wise core", "consciousness"]
+  forbidden: ["mind", "heart-mind", "the wise core", "consciousness", "gut"]
   chapters: [3, 8, 12, 20, 49, 55]
   status: locked
   entry: glossary/xin-心.md
@@ -250,6 +250,14 @@
   chapters: [17, 23, 25, 51, 64]
   status: locked
   entry: glossary/ziran-自然.md
+
+- term: "貨"
+  pinyin: "huò"
+  render: "goods"
+  forbidden: ["treasure", "precious", "scarce", "riches"]
+  chapters: [3, 12, 44, 53, 64]
+  status: locked
+  entry: glossary/huo-貨.md
 
 - term: "公"
   pinyin: "gōng"

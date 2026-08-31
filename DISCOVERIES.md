@@ -206,9 +206,9 @@ Three chapters close on the same seven-character formula, and the answer is iden
 
 | | Chinese | Rendered |
 |---|---|---|
-| Ch 54 | 吾何以知天下**然**哉？以此 | "How do I know the world is so? By precisely this." |
-| Ch 57 | 吾何以知其**然**哉？以此 | "How do I know this is so? By this:" |
-| Ch 21 | 吾何以知眾甫之**然**哉？以此 | "How do I know the origin of the many is so? By this, here, now." |
+| Ch 54 | 吾何以知天下**然**哉？以此 | "How do I know the world is so? By this." |
+| Ch 57 | 吾何以知其**然**哉？以此 | "How do I know it is so? By this:" |
+| Ch 21 | 吾何以知眾甫之**然**哉？以此 | "How do I know the origin of the many is so? By this." |
 
 So the question Laozi asks about the world, about the origin of everything, and about his own claims is **not what a thing is, or what it looks like, or what it means. It is whether it is so.** And the answer is never revelation, authority, or inference from first principles. It is 以此 — **by this**: the present, the near, the thing in front of you.
 
@@ -233,7 +233,7 @@ One word is the difference between a book that speculates about the structure of
 
 The first finding is about **subtraction** — a god and a king that later hands added, and that come off. This one is about what is **there** when they are gone.
 
-Strip the deity and the throne from Chapter 25 and you do not get a void. You get four great things, one of them you, and a ladder that ends not in a ruler or a creator but in **things being so of themselves**. Then Chapter 21 tells you how you know any of it: not by being told, but **by this, here, now.**
+Strip the deity and the throne from Chapter 25 and you do not get a void. You get four great things, one of them you, and a ladder that ends not in a ruler or a creator but in **things being so of themselves**. Then Chapter 21 tells you how you know any of it: not by being told, but **by this.**
 
 That is a complete position — an ontology and an epistemology in about twenty characters — and it is what the overlays were covering.
 
@@ -243,7 +243,7 @@ That is a complete position — an ontology and an epistemology in about twenty 
 - `notes/translation.md` — Ch 21's rendering, and the full argument for 然 over 狀
 - `notes/manuscript.md` — the witnesses, and why the base text still reads 狀
 - `sources/variants.yaml` — the fork, resolved
-- `sources/commentaries/` — Wang Bi glosses 此 as 上之所云 ("what was said above"); Heshang Gong glosses it 此**今**也 ("this means **now**"). Both are in the repo, and the English holds both.
+- `sources/commentaries/` — Wang Bi glosses 此 as 上之所云 ("what was said above"); Heshang Gong glosses it 此**今**也 ("this means **now**"), *identically at ch 21 and ch 57*, which is the tradition's own evidence that this is one fixed formula. **The two glosses are incompatible** — anaphora against deixis in time — so the English stays a bare *this* and leaves both standing, rather than choosing one. *(Corrected 2026-08-30: this line previously claimed the English "holds both." It had "here, now" in it, which held only Heshang Gong.)*
 
 ### How it was found — Shalom asked a question I had not thought to ask
 
