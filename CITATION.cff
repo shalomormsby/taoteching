@@ -1,0 +1,60 @@
+cff-version: 1.2.0
+title: "道德經 · Tao Te Ching — a translation from the classical Chinese"
+message: >-
+  Citation is welcome but never required. This work is dedicated CC0: you may
+  reproduce, adapt, perform, sell, or build on it with no permission and no
+  attribution. This file exists so that anyone who *wants* to cite it has a
+  stable way to, not to attach a condition.
+type: dataset
+authors:
+  - family-names: Ormsby
+    given-names: Shalom
+    website: "https://shalomormsby.substack.com/"
+repository-code: "https://github.com/shalomormsby/taoteching"
+license: CC0-1.0
+abstract: >-
+  A from-the-source English translation of the Tao Te Ching, built chapter by
+  chapter from the classical Chinese — never from other people's translations.
+  The repository carries the translation, a radical-level glossary of settled
+  renderings, a variant apparatus recording where the oldest manuscripts
+  disagree, three classical commentaries (王弼 Wáng Bì, 河上公 Héshàng Gōng,
+  韓非 Hán Fēi), and dependency-free tools that check every rendering against
+  the Chinese it claims to translate.
+
+  Every consequential decision is documented, nothing is asserted without
+  evidence, and genuine ambiguities are left open rather than resolved by fiat.
+keywords:
+  - Tao Te Ching
+  - Daodejing
+  - Laozi
+  - classical Chinese
+  - translation
+  - textual criticism
+  - public domain
+  - CC0
+
+# ---------------------------------------------------------------------------
+# After the first Zenodo release, uncomment and paste the concept DOI here —
+# the one that always resolves to the newest version. Zenodo shows it on the
+# record page as "Cite all versions".
+#
+# identifiers:
+#   - type: doi
+#     value: 10.5281/zenodo.XXXXXXX
+#     description: The concept DOI, resolving to the latest version.
+# ---------------------------------------------------------------------------
+
+# The translation is the thing worth citing; the repository is where it lives.
+# `preferred-citation` gives the book form, so reference managers produce a
+# sensible entry rather than a software citation.
+preferred-citation:
+  type: book
+  title: "道德經 · Tao Te Ching — a translation from the classical Chinese"
+  authors:
+    - family-names: Ormsby
+      given-names: Shalom
+  year: 2026
+  url: "https://github.com/shalomormsby/taoteching"
+  notes: >-
+    A living text. Cite a specific version DOI or commit if the exact reading
+    matters — chapters are still being revised.

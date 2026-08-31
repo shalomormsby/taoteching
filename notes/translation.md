@@ -200,7 +200,7 @@ Two decisions in one line. **First, it stays "sky."** Ch 16 and Ch 25 share this
 
 #### 公 → "impartiality," not "equanimity"
 
-公 is the direct opposite of 私 (*sī* — private, selfish): the public, the common, what belongs to no one. Equanimity is inner calm and sends rung two back inside the person, stalling an ascent whose whole motion is *outward*. With "impartiality," the ladder reads as one continuous widening of the circle beyond the self. *(See the Ch 16 Reading Note. This is the rendering Ch 42 and Ch 62 will have to answer to when 公 is given a glossary entry — see `RETROFIT.md`.)*
+公 is the direct opposite of 私 (*sī* — private, selfish): the public, the common, what belongs to no one. Equanimity is inner calm and sends rung two back inside the person, stalling an ascent whose whole motion is *outward*. With "impartiality," the ladder reads as one continuous widening of the circle beyond the self. *(See the Ch 16 Reading Note. This is the rendering Ch 42 and Ch 62 will have to answer to when 公 is given a glossary entry — see `WORKLIST.md`.)*
 
 ### Ch 21
 
@@ -282,7 +282,7 @@ The line's last content word is contested. Our base text reads **狀** (*zhuàng
 
 ### Ch 22
 
-*(2026-08-27. The whole chapter was revisited from the `RETROFIT.md` debt on 不自是. Five decisions, and the stanza that opened the debt turned out to be the third-largest problem in the chapter.)*
+*(2026-08-27. The whole chapter was revisited from the `WORKLIST.md` debt on 不自是. Five decisions, and the stanza that opened the debt turned out to be the third-largest problem in the chapter.)*
 
 #### 抱一 → "embraces one thing"
 
@@ -312,7 +312,7 @@ Two repairs. **天下** (*tiān xià*) is locked to **the world** and had become
 
 *"Serves as the world's pattern"* was rejected because modern *pattern* means either wallpaper or an observed regularity, neither of which is normative. **"Sets a pattern for the world"** keeps the word but the preposition does the normative work the possessive could not. *(Shalom's rewrite, and better than the draft it replaced.)*
 
-*Owed: ch 28 carries 為天下式 twice, currently "Embody the pattern of the world," and should be brought into line. Logged in `RETROFIT.md`.*
+*Owed: ch 28 carries 為天下式 twice, currently "Embody the pattern of the world," and should be brought into line. Logged in `WORKLIST.md`.*
 
 #### The four 不自X lines are the four opening paradoxes restated
 
@@ -506,7 +506,7 @@ That fact resolves the witness fork rather than deepening it. **Both silks read 
 
 常 (*cháng* — always) had been dropped from both halves. It is the word that makes this a standing disposition rather than an occasion, and it is why the sage's rescuing is the *reason* nobody ends up discarded.
 
-**Retrofit closed.** This was the debt opened when Ch 62 settled 棄 → *abandon*; `RETROFIT.md` can drop it. The wider point is logged as a Thread in `notes/reading.md`: Wang Bi glosses this very line with 不造進向以殊**棄不肖** — *"does not create tracks of advancement that single out and discard **the unfit**"* — and 不肖 is Ch 62's 不善人.
+**Retrofit closed.** This was the debt opened when Ch 62 settled 棄 → *abandon*; `WORKLIST.md` can drop it. The wider point is logged as a Thread in `notes/reading.md`: Wang Bi glosses this very line with 不造進向以殊**棄不肖** — *"does not create tracks of advancement that single out and discard **the unfit**"* — and 不肖 is Ch 62's 不善人.
 
 ### Ch 29
 
@@ -761,7 +761,7 @@ So the register is exposure, banishment, a person put outside where they cannot 
 
 **Rejected as a trap:** *"what is there to abandon?"* is the most literal rendering of the idiom and the most misleading, because English hears it as *there is nothing in them worth keeping* — the reverse of the chapter's claim. *"How could they be abandoned?"* is closer to the idiom's flatness and was the runner-up; *"why abandon them?"* keeps the force and the mouth-feel.
 
-**Retrofit owed:** Ch 27's 故無棄人 currently reads *"ensures that no one is lost."* Same character, same argument, and Ch 27 is now the softer of the two. See `RETROFIT.md`.
+**Retrofit owed:** Ch 27's 故無棄人 currently reads *"ensures that no one is lost."* Same character, same argument, and Ch 27 is now the softer of the two. See `WORKLIST.md`.
 
 #### 立 → "raise up", to keep the 立 / 坐 axis
 
@@ -800,7 +800,7 @@ As an office title 公 is conventionally *duke*, a borrowed European feudal rank
 
 **The silks settle it in our favour:** where our base reads 三公 they write 三鄉, which editors read as a loan for 三**卿** (*sān qīng*) — the word that simply means *high minister*. Our "three ministers" turns out to be the oldest witness's own word.
 
-It still drops the 公 etymology, and Ch 42's 王公 currently reads *"kings and lords."* Three chapters, three treatments. **公 wants a glossary entry**, and when it gets one, Ch 42 and Ch 62 will have to answer to Ch 16. Logged in `RETROFIT.md`.
+It still drops the 公 etymology, and Ch 42's 王公 currently reads *"kings and lords."* Three chapters, three treatments. **公 wants a glossary entry**, and when it gets one, Ch 42 and Ch 62 will have to answer to Ch 16. Logged in `WORKLIST.md`.
 
 #### 拱璧以先駟馬 → "jade discs too wide for one pair of arms, borne ahead of a team of four horses"
 
@@ -898,7 +898,7 @@ Two closing decisions, both about resisting a smoother English.
 
 **First settled as "and does not dare to do," then superseded on 2026-08-20 by the 敢 lock** — see `glossary/gan-敢.md` and the sweep note below. *Dare* reads as fear in modern English and Ch 73 makes 不敢 a form of courage. **Now "and never pushes them,"** which carries 敢為 as one verb rather than splitting it; the argument above stands unchanged, only the English moved.
 
-*A limit of the harness, recorded because it will recur:* **"force" cannot be forbidden for 為 mechanically.** Six chapters carry both 為 and 強 (*qiáng* — strong, to force), and Ch 25's *"Forcing a label upon it"* renders 強 legitimately. The checker's evidence gate cannot say *right for that character, wrong for this one, same chapter*. So this stays a judgment call, and the Ch 29 debt in `RETROFIT.md` has to be argued rather than swept.
+*A limit of the harness, recorded because it will recur:* **"force" cannot be forbidden for 為 mechanically.** Six chapters carry both 為 and 強 (*qiáng* — strong, to force), and Ch 25's *"Forcing a label upon it"* renders 強 legitimately. The checker's evidence gate cannot say *right for that character, wrong for this one, same chapter*. So this stays a judgment call, and the Ch 29 debt in `WORKLIST.md` has to be argued rather than swept.
 
 ### Ch 66 · 處前而民不害 → "the people are not hindered" — and the reading we did not take
 
@@ -1036,7 +1036,7 @@ The objection is that it sounds passive, in a chapter that claims this treasure 
 
 **And the mechanism is not sentimental.** Both commentators explain how tenderness wins, and neither appeals to providence. 王弼: 相慜而不避於難，故勝也 — *"they feel for one another and do not shirk danger, therefore they win."* 河上公: 百姓親附，并心一意 — *"the people draw close and attach, joining hearts into one intent."* Unit cohesion. People who love each other do not run.
 
-*Consequence, and it is owed:* Ch 18 currently renders 孝慈 as **"filial piety"** alone — 慈 is dropped outright — and Ch 19 renders it *"filial piety and love."* Logged in `RETROFIT.md`.
+*Consequence, and it is owed:* Ch 18 currently renders 孝慈 as **"filial piety"** alone — 慈 is dropped outright — and Ch 19 renders it *"filial piety and love."* Logged in `WORKLIST.md`.
 
 ### Ch 67 · 儉 → "frugality", and 且 → "grab at"
 
@@ -1151,7 +1151,7 @@ Established at Ch 9 (*"This is the way of nature"*) and Ch 47, and not a breach 
 | 41 | 上**士** · 中**士** · 下**士** | *(undrafted)* |
 | 68 | 善為**士**者 | "One masterful as a **warrior**" |
 
-Ch 15 and Ch 68 open on the **identical construction** — 善為士者, *"one masterful at being a 士"* — and take different English. Some spread is legitimate: 士 named the warrior-retainer class of the Zhou and drifted toward the scholar-official, and Ch 41's 上士/中士/下士 hearing the Tao are men of rank rather than soldiers. But Ch 15 also collapses 善為 entirely, and *masters* sits close to a word `CLAUDE.md` forbids for 聖人. Logged in `RETROFIT.md`.
+Ch 15 and Ch 68 open on the **identical construction** — 善為士者, *"one masterful at being a 士"* — and take different English. Some spread is legitimate: 士 named the warrior-retainer class of the Zhou and drifted toward the scholar-official, and Ch 41's 上士/中士/下士 hearing the Tao are men of rank rather than soldiers. But Ch 15 also collapses 善為 entirely, and *masters* sits close to a word `CLAUDE.md` forbids for 聖人. Logged in `WORKLIST.md`.
 
 ### Ch 68 · 配天 → "matched with nature", and 極 is a ridgepole
 
@@ -1311,7 +1311,7 @@ Entry: `glossary/tian-天.md`, 2026-08-24. **The rule was already the practice; 
 
 **The split is forced, not chosen.** English has no word with 天's range: *sky* cannot say 天之道, *nature* cannot say 天地. A language that lacks a term's range either splits the word or flattens the text, and flattening is what produced *Heaven*.
 
-**The mechanical form of the rule, for drafting: if 地 is in the line or the series, it is *sky*.** That decides every clear case. The one contested line is 配天 (Ch 68) — see `RETROFIT.md`.
+**The mechanical form of the rule, for drafting: if 地 is in the line or the series, it is *sky*.** That decides every clear case. The one contested line is 配天 (Ch 68) — see `WORKLIST.md`.
 
 **Chapters 77, 79 and 81 are undrafted and all three carry 天之道 / 天道.** They take **"the way of nature,"** matching Ch 9, 47 and 73. The book writes the formula with and without the particle 之; nothing turns on it and both take one English.
 
@@ -1473,7 +1473,7 @@ A first draft of this chapter read *"whoever goes crooked"*, *"one whose work is
 
 **"When", not "if"** — 民不畏死 carries no conditional marker, while the next line does (若使), and that contrast is the chapter's spine: a fact, then a fantasy.
 
-**"The people", not bare "people" — and this one is a hold, not a decision.** A draft went bare. The evidence against: 民 (*mín*) renders *"the people"* in all 32 of its lines across the manuscript, and Ch 72 opens on the identical frame 民不畏威 — *"when the people no longer fear authority"* — two chapters before 74's 民不畏死, a rhyme the bare noun silences. The evidence for: 河上公 reads this very line at both registers, and *"the people"* bolts it to statecraft where *"people"* lets a reader hear it about themselves. **Shalom restored the article and parked the question for a decision across the whole book**, which is the right size for it — see `RETROFIT.md` → *民 and 人*. Ch 74 is not a precedent either way.
+**"The people", not bare "people" — and this one is a hold, not a decision.** A draft went bare. The evidence against: 民 (*mín*) renders *"the people"* in all 32 of its lines across the manuscript, and Ch 72 opens on the identical frame 民不畏威 — *"when the people no longer fear authority"* — two chapters before 74's 民不畏死, a rhyme the bare noun silences. The evidence for: 河上公 reads this very line at both registers, and *"the people"* bolts it to statecraft where *"people"* lets a reader hear it about themselves. **Shalom restored the article and parked the question for a decision across the whole book**, which is the right size for it — see `WORKLIST.md` → *民 and 人*. Ch 74 is not a precedent either way.
 
 **"frighten", not "threaten".** 懼 (*jù*) is causative — *to cause fear* — and it pairs in one line with 畏 (*wèi*), the fear itself. *Fear / frighten* keeps the pair audible; *threaten* is a different verb doing a different job.
 
@@ -1788,3 +1788,51 @@ The graph settles it. 辯 (*biàn*) is 辡 — **two 辛** (*xīn*, the tattooin
 既 (*jì*) is the perfective particle, not *if*. The standard English (*"the more he does for others…"*) turns a completed act into a rate of exchange, which makes the couplet a transaction. It is not one: 河上公 ends on 如日月之光，無有盡時也 — *"like the light of sun and moon, which has no time of running out."* The sage is not trading; they are a **source**, and a source does not deplete.
 
 Hence **"Having done for others, they have more. / Having given to others, they have more still."** The two verbs are the locked 為 (*wéi* — do/handle) and 與 (*yǔ* — give), and 有 (have) / 多 (more) are held apart as *more* / *more still* so the escalation of the doubled 愈 (*yù* — the more) survives.
+
+---
+
+## 強 — the fourth word of the table, 2026-08-28
+
+**Locked: strong.** Entry at `glossary/qiang-強.md`. The 弱 lock had already declared this in its four-word table (柔 soft · 剛 hard · 弱 yielding · 強 strong) without an entry to enforce it, and the manuscript carried six Englishes for 強 across twelve chapters — two of them four lines apart in ch 33.
+
+**What decided it: ch 52 and ch 55 use the same frame with opposite verdicts.** 守柔曰強 ("holding to the soft is called 強") and 心使氣曰強 ("the heart driving the energy is called 強"). One is praise, one is a warning, and the next line after the second is 物壯則老. Rendering the first *strength* and the second *forcing* answers a question the text leaves standing. 王弼 puts both on one page: 守強不強，守柔乃強也.
+
+**The graph.** 強 is 蚚 — a grain weevil (說文, 虫部), borrowed for its sound from the Qin onward and displacing 彊, which is 弓有力也, "a bow having force." 弱 is two bows that bend. They are one instrument in two states, and 木強則折 (ch 76) is a bow past its give. This is the second core term in the book whose graph is an insect conscripted by rhyme; 萬 in 萬物 is a scorpion.
+
+**Three flexions, all grammatically marked.** *Strengthen* where it takes an object — ch 3 強其骨 and ch 36 必固強之, the same two lines where 弱 is licensed to read *weaken*, because it is one grammar taken twice. *Forcing* where it strains a naming — ch 15 強為之容, ch 25 強字之曰道 (河上公's text carries the fanqie 強其文反, marking the *qiǎng* reading; the phonetic notes are later editorial additions). *Force / dominance* for ch 30's three coercive uses, where *strengthen* would be simply wrong — you do not strengthen a country by invading it. Everywhere else, **strong**.
+
+**力 is covered as *force*.** Ch 33's 勝人者有力，自勝者強 is plain force against achieved strength, rhyming with 智/明 in the line above. Our text had it inverted — 有力 as "aggressive power," 強 as "true strength" — while ch 68 already rendered 力 as "strength."
+
+**Two two-way violations, invisible to the checker.** 固 (*gù* — firm) at ch 55's 握固 and 壯 (*zhuàng* — in its prime) at 物壯則老 in ch 30 and 55 had both borrowed 強's English, in chapters that contain 強. The evidence gate that makes `check_locks.py` trustworthy is exactly what blinds it to these: the character is present, so no rule fires. Corrected by hand.
+
+---
+
+## Ch 24 — the mirror of Ch 22, 2026-08-28
+
+**Pass C.** Ch 22's 不自X (*bù zì X* — "does not X themselves") stanza was rebuilt 2026-08-27; ch 24 is its exact negative on the same four verbs — 見 (*jiàn* — display) · 是 (*shì* — affirm as right) · 伐 (*fá* — claim) · 矜 (*jīn* — magnify oneself) — and the two chapters had shared no English at all. Full argument in `chapters/024.md` · Notes; three findings are worth carrying here.
+
+**The mirror is in the verbs, not in matching predicates, and forcing the predicates together produced a punctuation hack.** The two chapters have different subjects: in ch 22 what becomes evident is *their rightness* (王弼 supplies it — 不自是則其是彰也), while in ch 24 it is *the person* who fails to appear (河上公 — 衆共蔽之，使不得彰明, "the crowd together obscures them"). An intermediate draft joined them with a colon; the fix was to stop trying.
+
+***"Go unseen" is praise in this book, and an intermediate draft used it as the punishment.*** Ch 17's best rulers are barely known; ch 41 has 道隱無名; ch 70's sage wears coarse cloth over jade. The stanza's logic is **grasp at a thing and lose it**, and what this figure grasps at is recognition — so the loss must read as failure. Caught by Shalom. **A rendering can satisfy the character and still invert the book.**
+
+**A commentator's gloss is not the text.** 餘食贅行 drew *wart* from 王弼 (肬贅) and *greed* from 河上公 (贅，貪也). Both were offered to Shalom as candidate renderings and both were correctly refused: the text has only 贅 (*zhuì* — superfluous, an appendage; 說文 以物質錢也, "to pawn a thing for money"). **Neither commentator's word is in the line.** *Wasted motion* keeps the plain sense and ties the summary back to the chapter's own opening images. 河上公's moral reading is separately declined on the naturalistic razor.
+
+**跨 (*kuà*) is an overstretched step, not a stride** — 足 (foot) beside 夸 (*kuā* — to boast). Rendering it *stride* left a near-synonym of *walk* and killed the paradox. 河上公 licenses the repair by glossing 不行 as 使不得行 ("so they cannot get anywhere").
+
+**物 → living things.** 河上公's 物無有不畏惡也 uses 畏 (*wèi* — fear), and rocks do not fear. 惡 read *wù* is aversion, not hatred → **recoil**. 或 (*huò*) is dropped deliberately. Swept into ch 31, which carries both closing lines verbatim.
+
+---
+
+## Four repeated formulas brought into line, 2026-08-28
+
+**Pass C, the mechanical half.** In each case one chapter already carried the formula correctly and the other did not; the work was choosing which side won, not inventing a rendering. Three `repeated-formula` warnings closed (17 → 14).
+
+**是謂玄德** (*shì wèi xuán dé* — "this is called profound integrity"). Ch 51 and ch 65 read *is called*; **ch 10 had dropped 謂** (*wèi* — is called) and asserted the identity flatly. Ch 10 now matches.
+
+**故能成其大** (*gù néng chéng qí dà* — "and so completes its greatness"). Ch 63 was right. **Ch 34 had lost 成** (*chéng* — to complete) altogether and invented an intensifier: *"The Tao shows **true** greatness."* Now *"It never makes itself great, and so completes its greatness"*, which also restores the parallel with ch 63's 終不為大 (*zhōng bù wéi dà* — "never does the great"). Note the two chapters differ in their first halves — ch 34 has 不**自**為大 (does not make **itself** great), ch 63 has 不為大 (does not do the great) — so only the second clause is shared and only it was matched.
+
+**可以長久** (*kě yǐ cháng jiǔ* — "can last long"). **Neither side carried it**: ch 44 had a noun phrase (*"you have long endurance"*) and ch 59 a different verb (*"one endures long"*). Both now read **can last long**, each keeping its own chapter's pronoun — the formula is the predicate, not the subject.
+
+**是以聖人猶難之** (*shì yǐ shèng rén yóu nán zhī* — "so the sage still finds it difficult"). Ch 63 was close; **ch 73 read *"Even the sage finds this hard,"* which attaches 猶** (*yóu* — still, even so) **to 聖人 rather than to 難**. The Chinese says the sage still treats the thing as difficult, not that even a sage finds it hard — a difference between a practice and a concession. Both now read identically, and *hard* gives way to *difficult*, which ch 63 uses four times in its 難/易 (*nán/yì* — difficult/easy) pairs.
+
+**為天下式** (*wéi tiān xià shì* — "serve as a pattern for the world") **was deliberately left.** Ch 22 reads *"sets a pattern for the world"*; ch 28 has it twice as *"Embody the pattern of the world."* Fixing it alone would mean touching ch 28 twice, since that chapter's three four-beat stanzas have to move as a unit — 守 is wrong in all three (`WORKLIST` T1-7), 常 is missing from all three 常德, and 谷/谿/官長 are open at T1-15. Deferred to the chapter's Pass D rewrite.

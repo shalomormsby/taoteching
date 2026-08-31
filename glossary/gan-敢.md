@@ -71,7 +71,7 @@ Host against guest is a question of **propriety** — who presides, who defers �
 
 **dare, daring** — the fear reading, which reverses Chapter 73 and makes Chapter 67's third treasure a confession of nerves. Forbidden outright. *(If a drafted chapter ever needs it — Chapter 73 is the only candidate, since 勇 stands beside 敢 there and blocks the timid reading — that is a `lock-ok` waiver with its reason stated, not a loosening of the lock.)*
 
-**presume** — the exact word for 不敢, and unavailable: 恃 (*shì*) holds it at Chapters 2, 10 and 51, where 為而不恃 reads *"acts but does not presume."* **That rendering is itself loose** — 恃 means *to rely on, to lean on*, as our own source tables gloss it every time and as Chapter 34's 萬物恃之以生 (*"the countless things rely on it to live"*) requires. If 恃 is ever corrected to *rely*, *presume* comes free and should be reconsidered here. Logged in `RETROFIT.md`.
+**presume** — the exact word for 不敢, and unavailable: 恃 (*shì*) holds it at Chapters 2, 10 and 51, where 為而不恃 reads *"acts but does not presume."* **That rendering is itself loose** — 恃 means *to rely on, to lean on*, as our own source tables gloss it every time and as Chapter 34's 萬物恃之以生 (*"the countless things rely on it to live"*) requires. If 恃 is ever corrected to *rely*, *presume* comes free and should be reconsidered here. Logged in `WORKLIST.md`.
 
 **fear, afraid, shrink, flinch, hesitate** — all import the timidity the lock exists to remove.
 

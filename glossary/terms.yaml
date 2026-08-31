@@ -85,6 +85,15 @@
   status: locked
   entry: glossary/shi-事.md
 
+- term: "強"
+  pinyin: "qiáng"
+  render: "strong — *strengthen* where it takes an object, *forcing* where it strains against a thing's nature"
+  forbidden: ["mighty", "forceful", "brute strength", "perseverance"]
+  chapters: [3, 15, 25, 29, 30, 33, 36, 42, 52, 55, 76, 78]
+  status: locked
+  entry: glossary/qiang-強.md
+  # covers 力 -> force
+
 - term: "明"
   pinyin: "míng"
   render: "clear-seeing / clarity"
@@ -210,6 +219,14 @@
   status: locked
   entry: glossary/zhong-眾.md
 
+- term: "仁"
+  pinyin: "rén"
+  render: "humaneness"
+  forbidden: ["benevolence", "charity", "goodwill"]
+  chapters: [5, 8, 18, 19, 38]
+  status: locked
+  entry: glossary/ren-仁.md
+
 - term: "恃"
   pinyin: "shì"
   render: "rely on — the heart putting its weight on something"
@@ -242,6 +259,15 @@
   status: locked
   entry: glossary/gong-公.md
   # covers 私 -> the private / the private self
+
+- term: "慈"
+  pinyin: "cí"
+  render: "tenderness"
+  forbidden: ["compassion", "mercy", "maternal love", "filial piety"]
+  chapters: [18, 19, 67]
+  status: locked
+  entry: glossary/ci-慈.md
+  # covers 孝 -> devotion
 
 - term: "知足"
   pinyin: "zhī zú"

@@ -116,7 +116,7 @@ python3 tools/build_index.py                   # if a glossary entry changed
 
 Set the chapter's frontmatter: `status: drafted`, and `retrofit: []` only if it truly is.
 
-**Retrofit policy — fix on discovery, not in a deferred batch.** If this chapter settles a term, sweep the affected chapters *now*. Mechanical term-swaps: apply them. Lines needing a rewrite: propose to Shalom first, then apply. Log anything left open in `RETROFIT.md`.
+**Retrofit policy — fix on discovery, not in a deferred batch.** If this chapter settles a term, sweep the affected chapters *now*. Mechanical term-swaps: apply them. Lines needing a rewrite: propose to Shalom first, then apply. Log anything left open in `WORKLIST.md`.
 
 **Always verify a flagged line against the Chinese in its own chapter before changing it.** Roughly a third of the first automated sweep's flags were false positives: 常 (*cháng* — constant) vs 長 (*cháng* — long); "Block the openings" (塞) vs "uncarved block" (樸). The checker's evidence gate handles most of this, but it cannot handle all of it.
 

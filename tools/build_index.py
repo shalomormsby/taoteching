@@ -78,16 +78,22 @@ def main():
         "",
         f"**{len(entries)} entries.** Sorted by how much of the book each term touches.",
         "",
-        "| Term | Say | Render as | Never | Chapters | Entry |",
-        "|---|---|---|---|---|---|",
+        "| Term | Say | Render as | Never | Ch. | Status | Entry |",
+        "|---|---|---|---|---|---|---|",
     ]
     for e in entries:
         never = ", ".join(f'"{x}"' for x in e.get("forbidden", [])) or "—"
         chs = e.get("chapters", [])
         span = f"{len(chs)}" if chs else "—"
+        # An entry may be written as a recommendation rather than a ruling —
+        # see the glossary-entry skill, §6. Without this column a `status: open`
+        # entry is indistinguishable from a lock, and the checker enforces only
+        # what is locked.
+        status = e.get("status", "").strip() or "?"
+        badge = {"locked": "**locked**", "open": "open — not yet a lock"}.get(status, status)
         out.append(
             f'| **{e.get("term","")}** | *{e.get("pinyin","")}* | {e.get("render","")} '
-            f'| {never} | {span} | [`{e["file"]}`]({e["file"]}) |'
+            f'| {never} | {span} | {badge} | [`{e["file"]}`]({e["file"]}) |'
         )
 
     covered = [(c, r, e) for e in entries for c, r in e.get("covers", [])]

@@ -87,7 +87,7 @@ Both are generated from the entries by `tools/build_index.py`; do not edit them 
 | 1–60, 65 | Drafted |
 | 61–64, 66–81 | Not yet translated |
 
-A full editing pass follows the completed first draft; see `RETROFIT.md` for known consistency debt.
+A full editing pass follows the completed first draft; see `WORKLIST.md` for known consistency debt.
 
 ## Citation
 

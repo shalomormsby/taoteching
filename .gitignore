@@ -6,3 +6,14 @@
 
 # fetched source material, re-derivable by tools/import_commentary.py
 sources/.cache/
+
+# generated corpus database — rebuild with tools/build_db.py.
+# The CSV exports in data/ ARE committed: they are diffable, and a change to the
+# manuscript should show up as a change in the data.
+data/*.sqlite
+
+# the character atlas — a rendering of data/*.csv, rebuilt by
+# tools/build_explorer.py. Not committed: it is 390KB of embedded JSON that
+# regenerates on every glossary edit, and its diff would bury the CSV diffs it
+# is derived from. The CSVs are the record; this is a view of them.
+data/explorer.html

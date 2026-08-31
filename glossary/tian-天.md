@@ -101,7 +101,7 @@ Three boundaries keep the rendering honest:
 
 **配天 at Chapter 68 is the one contested line, and it is contested in the manuscript itself.** 是謂配天，古之極 — *"this is called being 配 (pèi — matched, as one of a pair) with 天, the utmost of the ancients."* The chapter file reads *"partnered with the sky"*; `notes/translation.md` records the decision as *"matched with nature."* Both cannot be right.
 
-The evidence pulls both ways. 河上公 glosses it by **expanding 天 to the pair**: 能行此者，德配**天地** — *"one who can do this, their integrity is matched with sky and earth"* — which argues for *sky*. But nothing is being matched *spatially*; what is matched is a person's 德 (*dé* — integrity) against a standard, which is the agent sense. **Unresolved, and flagged in `RETROFIT.md`.**
+The evidence pulls both ways. 河上公 glosses it by **expanding 天 to the pair**: 能行此者，德配**天地** — *"one who can do this, their integrity is matched with sky and earth"* — which argues for *sky*. But nothing is being matched *spatially*; what is matched is a person's 德 (*dé* — integrity) against a standard, which is the agent sense. **Unresolved, and flagged in `WORKLIST.md`.**
 
 **天門 (Ch 10) and 天子 (Ch 62) are separate strain cases**, already logged in `notes/translation.md`. 天門開闔 — *"the gate of 天 opens and shuts"* — and 天子, *the child of 天*, the standing title for the king. Neither is covered by the split, because in both the compound has hardened into a name.
 

@@ -47,6 +47,40 @@ reason: >
 
 ## Calls in effect
 
+## 2026-08-28 · no-new-tooling — set aside permanently
+
+rule: no-new-tooling
+source: PLAN.md — "the one rule this plan exists to protect: do not stop drafting to build tooling"
+scope: repo
+until: standing
+reason: >
+  Shalom's call. The rule existed to keep tooling from displacing the first
+  round of translation. That round is complete at 81 of 81 (2026-08-26). More
+  work is owed on the text — the editing pass, the 民 (mín — the people) / 人
+  (rén — a person) decision, the em-dash review — but none of it is the drafting
+  the rule was protecting, and all of it is work the harness now serves rather
+  than competes with.
+
+  Standing, not conditional, and that is the difference from its two
+  predecessors. Both of those were scoped suspensions that named a condition and
+  expired when it was met, because drafting was still running underneath them.
+  Nothing is running underneath this one. The condition that made the rule
+  sensible has been met and will not recur, so a third suspension with a third
+  expiry would only schedule the same conversation again.
+
+  The rule stays written in PLAN.md, per this file's own doctrine that a call
+  suspends and never deletes. A future reader sees the rule, the override, and
+  the reason.
+
+  What it unblocks: the witness database (tools/build_db.py, tools/export.py,
+  tools/analyze.py, and the witness extension to import_commentary.py); both
+  proposed checker rules in PLAN.md, `incomplete-draft` and
+  `glossary-self-check`, which PLAN.md records as blocked on this rule alone;
+  and tools/build.py, which stays deferred on its own merits — the text is still
+  moving — rather than on a rule that no longer applies.
+
+---
+
 ## 2026-08-11 · shaloms-call
 
 rule: shaloms-call

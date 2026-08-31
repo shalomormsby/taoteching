@@ -31,8 +31,8 @@ from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 from lib.corpus import (  # noqa: E402
-    ROOT, UNTRANSLATED_MARKER, load_base_text, load_calls, load_chapters, load_terms,
-    load_variants,
+    ROOT, UNTRANSLATED_MARKER, fold, load_base_text, load_calls, load_chapters,
+    load_terms, load_variants,
 )
 
 ERROR, WARN, INFO = "error", "warn", "info"
@@ -505,6 +505,63 @@ def rule_stale_shaloms_call(calls, **_):
     return out
 
 
+COMMENTARY_NAMES = {"wangbi": "王弼", "heshanggong": "河上公", "hanfeizi": "韓非"}
+
+
+def rule_unmarked_lemma(**_):
+    """A vendored lemma that differs from our base text must carry its `*`.
+
+    Every file in sources/commentaries/ opens by promising the reader that
+    "Lemmas marked `*` differ from our base text." That promise is the only
+    thing telling a reader which quotations are evidence of a different text and
+    which are simply our own text quoted back. Unenforced, it lapsed silently:
+    the Han Feizi importer wrote 35 divergent quotations as exact lemmas, so the
+    file asserted an agreement it had never tested — and 韓非 died in 233 BCE,
+    which makes his quotations the oldest witness to the Laozi there is.
+
+    Folding is shared with the importer (lib/corpus.fold) precisely so that a
+    printing variant such as 爲/為 is never reported as a textual one.
+    """
+    out, base = [], {n: fold(t) for n, t in load_base_text().items()}
+    root = ROOT / "sources" / "commentaries"
+    if not root.is_dir():
+        return out
+    for src_dir in sorted(root.iterdir()):
+        if not src_dir.is_dir():
+            continue
+        who = COMMENTARY_NAMES.get(src_dir.name, src_dir.name)
+        for path in sorted(src_dir.glob("[0-9]*.md")):
+            try:
+                chapter = int(path.stem)
+            except ValueError:
+                continue
+            for i, line in enumerate(path.read_text(encoding="utf-8").split("\n"), 1):
+                m = re.match(r"^\*\*(.+?)\*\*(\s*`\*`)?\s*$", line)
+                if not m:
+                    continue
+                lemma, marked = m.group(1), bool(m.group(2))
+                probe = fold(lemma)
+                if not probe:
+                    continue
+                agrees = probe in base.get(chapter, "")
+                if not agrees and not marked:
+                    out.append(Finding(
+                        "unmarked-lemma", ERROR, chapter, i,
+                        f"{who} quotes {lemma[:28]} which differs from our base text, "
+                        f"but the lemma carries no `*` — the file header promises "
+                        f"divergent lemmas are marked",
+                        "", str(path.relative_to(ROOT)), {"unmarked-lemma"},
+                    ))
+                elif agrees and marked:
+                    out.append(Finding(
+                        "unmarked-lemma", WARN, chapter, i,
+                        f"{who}'s lemma {lemma[:28]} is marked `*` but agrees with our "
+                        f"base text once printing variants are folded",
+                        "", str(path.relative_to(ROOT)), {"unmarked-lemma"},
+                    ))
+    return out
+
+
 RULES = {
     "forbidden-rendering": rule_forbidden_rendering,
     "sage-pronoun": rule_sage_pronoun,
@@ -515,6 +572,7 @@ RULES = {
     "repeated-formula": rule_repeated_formula,
     "em-dash": rule_em_dash,
     "unlogged-variant": rule_unlogged_variant,
+    "unmarked-lemma": rule_unmarked_lemma,
     "stale-shaloms-call": rule_stale_shaloms_call,
     "shaloms-call-unparsed": rule_shaloms_call_unparsed,
 }
