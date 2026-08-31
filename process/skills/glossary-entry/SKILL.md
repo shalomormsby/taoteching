@@ -128,7 +128,7 @@ python3 tools/check_locks.py --severity info
 ```
 
 1. **Sweep the chapters** if a rendering changed. Fix on discovery; do not defer. Mechanical term-swaps: apply them. Lines needing a rewrite: propose to Shalom first.
-2. **Add the lock** to the table in `CLAUDE.md`.
+2. **Do not copy the lock anywhere.** `glossary/INDEX.md` and `terms.yaml` are generated from the frontmatter you just wrote, and they are the only lists. *(A hand-kept table in `CLAUDE.md` was deleted on 2026-08-28 after going stale twice in a week; see `CLAUDE.md` → The locks.)*
 3. **Log the reasoning** in `notes/translation.md` if the choice departs from convention.
 4. **Update `glossary/TRIAGE.md`** — strike the term through, record what was found.
 5. **Regenerate chapter frontmatter** so `retrofit:` reflects reality.

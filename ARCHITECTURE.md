@@ -132,12 +132,16 @@ This is the operational heart of the system. A question about one character beco
 |---|---|---|---|
 | `glossary/INDEX.md` · `glossary/terms.yaml` | `build_index.py` | every entry's frontmatter, plus chapter lists recomputed from `source/chinese.md` | yes — CI fails if stale |
 | `data/taoteching.sqlite` | `build_db.py` | `chapters/`, `glossary/`, `sources/` | yes |
-| `data/*.csv` | `export.py` | the sqlite | yes — a binary blob cannot be diffed or reviewed; the CSVs can |
+| `data/*.csv` | `export.py` | the sqlite | yes — **CI fails if stale**; a binary blob cannot be diffed or reviewed, the CSVs can |
 | `data/explorer.html` | `build_explorer.py` | the sqlite | yes — self-contained, no network |
-| `data/constellation-*.json` | `build_graph.py` | the sqlite | yes |
+| `data/constellation-*.json` | `build_graph.py` | the sqlite | yes — **CI fails if stale** |
 | `sources/commentaries/*/` | `import_commentary.py` | cached wikitext (gitignored) | yes — re-runnable to byte-identical output |
 | `sources/shuowen/entries.md` | `import_shuowen.py` | cached wikitext | yes |
 | `source/chinese.md` | *by hand, from the chapters' source tables* | — | yes |
+
+**Every committed generated file must be reproducible, and now every one is checked.** `data/constellation-chars.json` had **never agreed with `data/characters.csv`** — both entered the repository in `2466b4d`, but the JSON was built from an older database than the CSV beside it, so it published glosses the CSV had already withdrawn and older wordings for ninety more. Nothing rebuilt it and nothing compared them; a person found it, seven months later, by reading a diff. CI now rebuilds the atlas and fails on `git diff --exit-code data/`.
+
+**A diff gate is only as good as the generator's determinism.** `export.py` orders all eleven of its queries, which is why the CSVs never drifted. `build_graph.py` ordered one of eight, so its row order came from SQLite's query planner — stable for one machine and one planner version, which is exactly the stability that breaks when the gate runs on another. Every query there is now ordered and the co-occurrence map is emitted sorted: **the output is a function of the data alone.** Before adding a diff gate to any generator, make it deterministic first, or the gate produces noise instead of findings.
 
 **The importers verify themselves.** `import_commentary.py` checks every lemma it vendors against our own base text and marks the divergent ones with `*`. That check is what makes the vendored files evidence rather than decoration — and when it was missing for 韓非 (*Hán Fēi*), the files asserted an agreement nobody had tested.
 
@@ -176,7 +180,15 @@ Three, in widening scope.
 
 Install the hook with `git config core.hooksPath .githooks`. It is deliberately narrow: a half-drafted chapter must never have to argue with a tool.
 
-CI additionally runs the checker's own tests, verifies the verse's hard line breaks, and fails if `glossary/INDEX.md` or `terms.yaml` is stale — proving the generated files match the entries they came from.
+CI additionally runs the tools' own tests (95 of them) and verifies the verse's hard line breaks. It also runs three **staleness gates**, all the same shape — regenerate, then `git diff --exit-code`:
+
+| Gate | Proves |
+|---|---|
+| `glossary/INDEX.md` · `terms.yaml` | the generated locks match the entries they came from |
+| `data/` — the atlas | every committed CSV and JSON matches the manuscript and glossary it was built from |
+| `check_worklist.py` | `WORKLIST.md`'s pass rows, chapter lists and tally match its own table |
+
+**`check_worklist.py` is the odd one and earns its place.** Four hand-kept lists in this repository went stale in three days — `CLAUDE.md`'s lock table, the `glossary-entry` skill's instruction to update it, `WORKLIST.md`'s duplicate "order of work" table, and its item tally — and a person found every one by reading. Nothing in `tools/` read `WORKLIST.md` at all. Its six rules only enforce what the file already says about itself, and a `Ch` cell that *points at rows* rather than listing chapters is never checked: **declining to keep a second copy is the behaviour the tool exists to encourage.**
 
 **No dependency install step, deliberately.** Every tool is stdlib Python only, so a fresh clone can run the whole gate with nothing else present.
 

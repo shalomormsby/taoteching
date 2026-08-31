@@ -97,6 +97,12 @@ def text_graph(conn):
 def char_graph(conn):
     """Characters, the parts they are built from, and the chapters they live in."""
     nodes, links = [], []
+    # Every query below is ordered, and the co-occurrence map is emitted sorted.
+    # Not for tidiness: this file is committed, and CI rebuilds it and diffs it
+    # against the commit. Unordered SQLite results are stable for one machine
+    # and one planner version, which is exactly the kind of stability that
+    # breaks when the gate moves to another machine. Ordering makes the output
+    # a function of the data alone.
     seen = set()
 
     def add(node):
@@ -108,7 +114,8 @@ def char_graph(conn):
         SELECT c.char, c.pinyin, c.gloss, c.our_render, c.lock_status, c.tier,
                c.centrality, c.total, c.is_function_word, s.kind, s.radical
           FROM character c LEFT JOIN shuowen s ON s.char = c.char
-         WHERE c.is_function_word = 0"""):
+         WHERE c.is_function_word = 0
+         ORDER BY c.char"""):
         char, pin, gloss, render, lock, tier, cent, total, _fw, kind, rad = r
         label = f"{char} {pin}" + (f" · {gloss}" if gloss else "")
         add({
@@ -124,7 +131,8 @@ def char_graph(conn):
 
     for r in conn.execute("""
         SELECT DISTINCT c.component, c.role, g.pinyin, g.gloss
-          FROM component c LEFT JOIN glyph g ON g.char = c.component"""):
+          FROM component c LEFT JOIN glyph g ON g.char = c.component
+         ORDER BY c.component, c.role"""):
         comp, role, pin, gloss = r
         meaning = gloss or ("sound only — carries no meaning"
                             if role == "phonetic" else "not yet glossed")
@@ -139,7 +147,8 @@ def char_graph(conn):
 
     # A part builds a character. The edge type carries the one distinction a
     # radical index throws away, so the renderer can colour by it.
-    for r in conn.execute("SELECT DISTINCT char, component, role FROM component"):
+    for r in conn.execute("SELECT DISTINCT char, component, role FROM component"
+                          " ORDER BY char, component, role"):
         char, comp, role = r
         if f"char:{char}" in seen:
             links.append({"source": f"part:{comp}", "target": f"char:{char}",
@@ -161,7 +170,8 @@ def char_graph(conn):
     for r in conn.execute("""
         SELECT DISTINCT t.char, t.chapter FROM token t
           JOIN character c ON c.char = t.char
-         WHERE c.is_function_word = 0"""):
+         WHERE c.is_function_word = 0
+         ORDER BY t.char, t.chapter"""):
         char, n = r
         if f"char:{char}" in seen:
             links.append({"source": f"char:{char}", "target": f"ch:{n}",
@@ -172,14 +182,14 @@ def char_graph(conn):
     # together, so the book's own conceptual neighbourhoods emerge rather than
     # being asserted.
     pairs = {}
-    for (seg_id,) in conn.execute("SELECT id FROM segment").fetchall():
+    for (seg_id,) in conn.execute("SELECT id FROM segment ORDER BY id").fetchall():
         chars = sorted({r[0] for r in conn.execute(
             "SELECT t.char FROM token t JOIN character c ON c.char = t.char"
             " WHERE t.segment_id = ? AND c.is_function_word = 0", (seg_id,))})
         for i, a in enumerate(chars):
             for b in chars[i + 1:]:
                 pairs[(a, b)] = pairs.get((a, b), 0) + 1
-    for (a, b), n in pairs.items():
+    for (a, b), n in sorted(pairs.items()):
         if n >= MIN_COOCCURRENCE and f"char:{a}" in seen and f"char:{b}" in seen:
             links.append({"source": f"char:{a}", "target": f"char:{b}",
                           "type": "semantic", "weight": n})
