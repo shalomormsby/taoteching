@@ -6,6 +6,8 @@
 
 **Policy: fix on discovery, not in a deferred batch.** Mechanical term-swaps are applied immediately. Lines needing a rewrite are proposed to Shalom first, then applied. Each chapter carries its own debt in frontmatter (`retrofit: [...]`).
 
+**The first draft is complete — 81 of 81, since 2026-08-26. The editing pass is the work now.**
+
 **Progress: Pass 0 ✅ · Pass A ✅ · Pass B ✅ · Pass C started (T3-1 ✅) — C–G open.** Gate green: 0 errors, 55 tests, hard breaks intact.
 
 *Supersedes `RETROFIT.md` and `EDITING-PASS.md`, merged into this file on 2026-08-28 and both now deleted. This file is `RETROFIT.md` renamed, so `git log --follow WORKLIST.md` still reaches the project's start; the 2026-08-10 sweep record and the lessons it taught the checker moved to `PLAN.md`. Every item below was re-verified against the manuscript at the merge; the old file listed six repairs that had already been made.*

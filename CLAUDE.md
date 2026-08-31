@@ -23,6 +23,16 @@ A working approximation is fine and expected; the *deep* meaning is what the glo
 
 ---
 
+## Start here, every session
+
+1. **`WORKLIST.md`** — everything the manuscript owes, prioritized, with the pass order. **Work by term, in passes, not chapter by chapter:** one decision touches a dozen chapters, and walking 1→81 re-opens the same argument twenty times.
+2. **`process/shaloms-call.md`** — rules Shalom has currently set aside. Where a call is in effect, the call wins: say so once and proceed.
+3. **`DISCOVERIES.md`** — the findings worth an essay, newest first. **⚠ §1's central claim was superseded on 2026-08-20;** the file carries a banner. The *heaven* half stands, the *king* half was backwards, and the lesson worth keeping is that a popular "帛書版" (*bó shū bǎn* — "silk-manuscript edition") text online had been silently emended and we took it for the silks. **Do not trust a manuscript claim that is not in `sources/variants.yaml`.**
+
+**Three calls are deferred by Shalom and must not be quietly settled inside a chapter review** — 民/人 (*mín / rén* — the governed / a person), 正/奇 (*zhèng / qí* — straight / crooked), and the em-dashes in the verse. Argue them with new evidence if you have it; otherwise leave them. `WORKLIST.md` T4.
+
+---
+
 ## What this is
 
 A from-the-source English translation of the Tao Te Ching by **Shalom Ormsby**, built chapter by chapter from the original Chinese, decades of study and meditation, and AI collaboration — **never** from other people's translations.
@@ -48,6 +58,17 @@ The single most valuable thing the AI does here is **help Shalom see what he can
 - **Own misses cleanly** when Shalom catches something. No collapse, no over-apology — fix it and log it.
 
 ---
+
+## How Shalom works
+
+He decides; the AI argues. Bring him a **clear recommendation with the evidence and the cost**, not a menu — then do what he says. He will push back hard and specifically when something is off, and that pushback is usually right: he caught the 樸 "block" error, the missing 心 subject, the "wise core" abstraction, the process noise in the glossary entries, and — 2026-08-28 — that *"go unseen"* was handing a grasping figure the book's own compliment. Treat a challenge as a finding, not a complaint. He does not read Chinese, so **gloss every character, every time**.
+
+- **★ Intuition is last as an *arbiter* and often first as a *detector*.** When Shalom says a word feels off, that is **a research assignment, not a preference to accommodate.** Do not offer a synonym that feels better — go find what the discomfort is detecting. Ch 25's *king* was caught exactly this way, and the oldest witnesses proved him right (`DISCOVERIES.md` §1).
+- **★ One question at a time.** Do not stack four decisions into one message. Bring the deepest one, with a recommendation; take his answer; then bring the next. *(Said plainly on 2026-08-28: "You're asking too many questions at once.")*
+- **A commentator's gloss is not the text, and he will catch it.** 王弼 explaining 贅 (*zhuì* — superfluous) as 肬贅 (*yóu zhuì* — a wart) does not make *wart* a candidate rendering. Offer what the line says; keep the commentary as evidence for it.
+- **Order of work:** the first draft is done, so the passes in `WORKLIST.md` are the order. **Work by term, not chapter by chapter** — one decision touches a dozen chapters, and walking 1→81 re-opens the same argument twenty times.
+- **Retrofit policy — fix on discovery, not in a deferred batch.** When a lock is settled, sweep the affected chapters *immediately*. Mechanical term-swaps: just apply them. Lines needing a rewrite: propose to Shalom first, then apply. *(This reverses the original plan, which batched retrofits to the editing pass — that made sense only while `chapters/` were regenerated from the Google Doc and hand-edits would be clobbered. The Doc is retired; the constraint is gone.)*
+- **Always verify a flagged line against the Chinese in its own chapter before changing it.** Roughly a third of the first automated sweep's flags were false positives — 常 (*cháng*, constant) vs 長 (*cháng*, long), "the one" the pronoun vs 一, "Block the openings" (塞) vs "uncarved block" (樸). See `PLAN.md` → *What the 2026-08-10 sweep taught the checker*.
 
 ## Standing rules — non-negotiable
 
@@ -191,7 +212,7 @@ ARCHITECTURE.md       ★ how the system fits together — read before changing 
 
 ## The harness — two tools, opposite jobs
 
-*Stdlib only, so a fresh clone can run everything with no install step. `PLAN.md`'s no-new-tooling rule was set aside permanently on 2026-08-28 — tooling now needs a reason, like any other work, not a call.*
+*Stdlib only, so a fresh clone can run everything with no install step. `PLAN.md`'s no-new-tooling rule was set aside permanently on 2026-08-28 — **tooling now needs a reason, like any other work, not a call.** `build.py` stays deferred on its own merits: the text is still moving.*
 
 **Read `ARCHITECTURE.md` before changing any of it.** It maps what holds authority, what is generated, how a decision becomes an enforced rule, and what each gate covers.
 
@@ -220,58 +241,11 @@ python3 -m unittest discover -s tools/tests      # the checker's own tests
 
 **Check the witnesses before drafting, not after.** `concordance.py --witnesses N` opens with whether **Guodian** (~300 BCE, the oldest witness there is) carries the chapter at all — it carries only 31 of 81, and *not attested* means the chapter rests on the silks and later, which changes how much weight they bear. Then it reports the recorded forks. Ch 21 was drafted over a chronology both Mawangdui silks reverse, and Ch 25 over a king the oldest witnesses do not have — neither was carelessness, nobody had looked. **A blank result means nobody has checked that chapter yet**, not that there are no forks: `sources/variants.yaml` is built by hand. Record new forks there as **facts, never transcriptions** — `sources/PROVENANCE.md` explains why that is a licensing rule and not a preference.
 
+**⚠ `check_locks.py` does not scan `glossary/`.** The locks are enforced against the manuscript but never against the files that *define* them, so an entry can contradict its own lock indefinitely — `glossary/ziran-自然.md` once carried two violations in one line. A `glossary-self-check` rule is proposed and unbuilt (`WORKLIST` T5). Until it exists, **sweep `glossary/` by hand whenever a lock is settled.**
+
 **Do not trust the literal glosses in the source tables.** They speak pre-lock English — "virtue", "the ten thousand things", "mysterious" — which is exactly what this edition rejects. They are a starting point, not a reading, and matching a locked term against its own gloss fails precisely where the locks matter most.
 
 ---
-
-## Current state — read before starting
-
-**★ `DISCOVERIES.md` holds the findings that want essays — read it when taking stock of what to write.** Five so far:
-
-| | | |
-|---|---|---|
-| **§5** | Home was in the word, and we left it out | 歸 (*guī* — to return) |
-| **§4** | The throne was installed four times, and one of them was ours | 王 (*wáng* — king) |
-| **§3** | The overlay that was never in the Chinese | the missionary lexicon |
-| **§2** | The question is not "what is it?" — it is "is it so?" | 自然 (*zìrán* — so of itself) |
-| **§1** | No heaven, and no king | 天 (*tiān* — sky) · 王 |
-
-**⚠ §1's central claim was superseded on 2026-08-20 and the file carries a banner saying so — read it before using any of §1.** The *heaven* half stands: 天 is in every witness, "Heaven" is a missionary import, and the distortion is entirely English. The *king* half was backwards. **Every excavated witness at ch 25 reads 王**, Guodian (~300 BCE) included; 人 (*rén* — human) is a transmitted reading from 傅奕 (*Fù Yì*, Tang) and 范應元 (*Fàn Yìngyuán*, Song). We still read 人, now as an editorial call, logged as one. **The lesson worth keeping: a popular "帛書版" (*bó shū bǎn* — "silk-manuscript edition") text online had already been silently emended, and we took it for the silks.** `sources/variants.yaml` is the apparatus; do not trust a manuscript claim that is not in it.
-
-**★ `WORKLIST.md` is the one forward-looking file. Read it before starting work — it holds every open item, prioritized, and the pass order.** What follows here is operating context that does not change week to week; anything that *does* lives there.
-
-- **The first draft is complete — 81 of 81, since 2026-08-26. The editing pass is now the work.**
-- **⚠ This is two books, and the seam is around chapter 42.** Chapters **56–81** were drafted *through* the locks, with the checker live and the commentaries in the repo: 77% are clean. Chapters **1–41** were drafted in the Google Doc era and have only ever been *swept* — term-swapped against locks settled afterwards. **Only 7% are clean, and 54% need a chapter-level rewrite.** **Do not assume an early chapter is sound because it carries `status: drafted` and `retrofit: []`** — ch 4 drops a whole line, ch 25 drops 周行 (*zhōu xíng* — "moves in a circle"), ch 28 drops 常 (*cháng* — the ever-present) three times, and every one of them passes every check. A sweep is structurally blind to this: every lock keys off a character to judge the English, so a chapter that simply **does not render** the character passes trivially. Full statement and the chapter-by-chapter status in `WORKLIST.md`.
-- **Work in passes, grouped by term, not chapter by chapter.** A decision settled at one chapter propagates to a dozen others; walking 1→81 re-opens the same argument twenty times. Passes 0, A and B are done (text bugs · 強 · 仁/慈/孝) and C is in progress. The order and what each closes is in `WORKLIST.md`.
-- **Tooling no longer needs a call.** `PLAN.md`'s no-new-tooling rule was set aside permanently on 2026-08-28 (`process/shaloms-call.md`, `until: standing`). Built since: the corpus database (`build_db.py`, `export.py`), the character atlas in `data/`, and the `unmarked-lemma` rule. **Still unbuilt:** `glossary-self-check` and the **thin-translation** heuristic — the latter is the only proposed rule that would find *absence*, which is the failure mode the early chapters actually have. Both are `WORKLIST` T5. `build.py` stays deferred: the text is still moving.
-
-- **⚠ `status: drafted` has been proved unreliable once. Do not trust it without looking at the page.** On 2026-08-17 Shalom found Ch 65's `## Translation` block was three ellipses and a fragment, carrying `status: drafted` and `retrofit: []`. An audit of all 81 then found **Ch 20** the same way — 10 verse lines against 25 source rows, missing its entire opening movement (絕學無憂 through 荒兮其未央哉). Both had been counted as finished by the 2026-08-10 hand sweep, by `CLAUDE.md`, and by every session since. Both are now genuinely complete. **No checker rule catches this** — every lock keys off the Chinese to judge the English, and a chapter with no English trivially passes all of them. A proposed `incomplete-draft` rule is in `PLAN.md` → *Proposed rules, unbuilt*, still unbuilt; the **thin-translation** heuristic in `WORKLIST` T5-1 measures the same thing as a ratio over the corpus and would catch the thin chapters as well as the empty ones. **It was in the original §2 spec as "status coherence" and never built, inside a section stamped ✅ DONE** — which is how the gap stayed invisible.
-- **⚠ `check_locks.py` does not scan `glossary/`.** The locks are enforced against the manuscript but never against the files that *define* them, so a glossary entry can contradict its own lock indefinitely. Found 2026-08-23: one line of `glossary/ziran-自然.md` carried **two** violations — a stale "dare" for 敢 and "the ten-thousand things" for 萬物, the latter forbidden outright. A proposed `glossary-self-check` rule is in `PLAN.md`, unbuilt. Until it exists, **sweep `glossary/` by hand whenever a lock is settled** — the entries are prose and the retrofit policy applies to them too.
-- **Two locks have held clean from the beginning:** 德 → *integrity* (zero "virtue" ever appeared) and the sage pronoun rule (zero "he/his/him"). Keep them that way.
-
-### Deferred by Shalom — do not reopen without asking
-
-*These are parked deliberately. Argue them if you have new evidence; do not quietly settle one inside a chapter review.*
-
-1. **民 / 人 — one decision, whole book (2026-08-25).** 民 (*mín* — the governed, an eye pierced by a blade) reads *"the people"* in all 32 of its lines; 人 (*rén* — a person) drifts, and **ch 57 renders it both ways two lines apart**. A rule settled at one chapter propagates to twelve others and to the cross-chapter rhymes in `notes/reading.md`. Ch 74 reads *"the people"* as a **hold, not a precedent**. `WORKLIST` T4-1 — which also notes that 身 (*shēn* — body) is the same shape of problem and may want deciding with it.
-2. **正 / 奇** — five Englishes across ch 37, 45, 57, 58, 78. `WORKLIST` T4-2.
-3. **Em-dashes in the verse** — 17 lines. Some are good (ch 44's *"Reputation or your self — which is dearer?"*), some strand subjects. Removing them means restructuring real lines, so it is a conversation, not a sweep. `WORKLIST` T4-3.
-
-**Everything else that is owed — 48 open items, tiered and with a pass order — is in `WORKLIST.md`.** Do not maintain a second list here.
-
-*One setup step, if the skills are not linked:*
-`ln -s "$(pwd)/process/skills/glossary-entry" ~/.claude/skills/glossary-entry`
-
-### How Shalom works
-
-He decides; the AI argues. Bring him a **clear recommendation with the evidence and the cost**, not a menu — then do what he says. He will push back hard and specifically when something is off, and that pushback is usually right: he caught the 樸 "block" error, the missing 心 subject, the "wise core" abstraction, the process noise in the glossary entries, and — 2026-08-28 — that *"go unseen"* was handing a grasping figure the book's own compliment. Treat a challenge as a finding, not a complaint. He does not read Chinese, so **gloss every character, every time**.
-
-- **★ Intuition is last as an *arbiter* and often first as a *detector*.** When Shalom says a word feels off, that is **a research assignment, not a preference to accommodate.** Do not offer a synonym that feels better — go find what the discomfort is detecting. Ch 25's *king* was caught exactly this way, and the oldest witnesses proved him right (`DISCOVERIES.md` §1).
-- **★ One question at a time.** Do not stack four decisions into one message. Bring the deepest one, with a recommendation; take his answer; then bring the next. *(Said plainly on 2026-08-28: "You're asking too many questions at once.")*
-- **A commentator's gloss is not the text, and he will catch it.** 王弼 explaining 贅 (*zhuì* — superfluous) as 肬贅 (*yóu zhuì* — a wart) does not make *wart* a candidate rendering. Offer what the line says; keep the commentary as evidence for it.
-- **Order of work:** the first draft is done, so the passes in `WORKLIST.md` are the order. **Work by term, not chapter by chapter** — one decision touches a dozen chapters, and walking 1→81 re-opens the same argument twenty times.
-- **Retrofit policy — fix on discovery, not in a deferred batch.** When a lock is settled, sweep the affected chapters *immediately*. Mechanical term-swaps: just apply them. Lines needing a rewrite: propose to Shalom first, then apply. *(This reverses the original plan, which batched retrofits to the editing pass — that made sense only while `chapters/` were regenerated from the Google Doc and hand-edits would be clobbered. The Doc is retired; the constraint is gone.)*
-- **Always verify a flagged line against the Chinese in its own chapter before changing it.** Roughly a third of the first automated sweep's flags were false positives — 常 (*cháng*, constant) vs 長 (*cháng*, long), "the one" the pronoun vs 一, "Block the openings" (塞) vs "uncarved block" (樸). See `PLAN.md` → *What the 2026-08-10 sweep taught the checker*.
 
 ## Source of truth — **`chapters/001–081.md`**
 
@@ -282,6 +256,8 @@ He decides; the AI argues. Bring him a **clear recommendation with the evidence 
 - `source/chinese.md` is a **derived** convenience file (all 81 chapters' Chinese in one place). If the source tables in `chapters/` ever change, rebuild it from them.
 
 **Why this matters:** for the whole earlier history of this project the manuscript lived in Google Docs and the chapter files were generated from exports. That is over. A change made in a chapter file is now permanent, and a change made anywhere else is now invisible.
+
+**⚠ Do not trust a chapter's frontmatter as evidence that the chapter is sound.** `status: drafted` with `retrofit: []` has twice meant a chapter that was not translated at all — ch 65 was three ellipses, ch 20 was missing its whole opening movement — and both survived a hand sweep and every session after it. **The same flags now sit on chapters that are merely thin:** ch 4 drops a whole line, ch 25 drops 周行 (*zhōu xíng* — "moves in a circle"), ch 28 drops 常 (*cháng* — the ever-present) three times. **No check can catch this** — every lock keys off a character to judge the English, so a chapter that does not render the character passes trivially. Chapters 1–41 are the affected range and `WORKLIST.md` has the chapter-by-chapter status. **Read the page.**
 
 **Consequences worth keeping in mind:**
 - Git history is now the real edit history of the translation — commit meaningfully.
