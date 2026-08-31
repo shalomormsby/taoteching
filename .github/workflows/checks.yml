@@ -37,6 +37,29 @@ jobs:
             exit 1
           }
 
+      # data/constellation-chars.json sat in the repo for weeks carrying glosses
+      # that data/characters.csv had already withdrawn: two generated files
+      # publishing different things, because nothing rebuilt the second one.
+      # Found by a person, on 2026-08-31. The atlas is deterministic — two
+      # builds of the same manuscript are byte-identical — so it can be gated
+      # the same way the glossary is.
+      - name: generated atlas files are current
+        run: |
+          python3 tools/build_db.py
+          python3 tools/export.py
+          python3 tools/build_graph.py
+          git diff --exit-code data/ || {
+            echo "::error::data/ is stale — a generated file disagrees with its source."
+            echo "::error::run: python3 tools/build_db.py && python3 tools/export.py"
+            echo "::error::     && python3 tools/build_graph.py   then commit data/."
+            exit 1
+          }
+
+      # WORKLIST.md keeps lists that restate its own table. Four went stale in
+      # three days and a person found every one by reading.
+      - name: the worklist against itself
+        run: python3 tools/check_worklist.py
+
       # Errors only, so a failure shows just what has to change. Warnings and
       # info get their own step below, where they cannot be mistaken for it.
       - name: the locks

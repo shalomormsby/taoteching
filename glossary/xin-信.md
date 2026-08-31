@@ -36,9 +36,11 @@ Hold that against the two conventional renderings and both fall away. **Sincerit
 **It returns exactly what it is given.** The same seven characters close Chapters 17 and 23:
 
 > 信不足焉，有不信焉
-> *trust is not sufficient; there is distrust*
+> *where trust runs short, there is no trust*
 
-No agent is named, and none is needed: withhold trust and distrust is what comes back. This is Laozi's ordinary shape — 為者敗之 (29), *those who force it ruin it* — a consequence, not a punishment. Chapter 63 states the mechanism directly: 輕諾必寡信, *light promises inevitably run short on trust.* Say more than you will do and the tally stops matching.
+**No agent is named, and the English must not name one either** — because the two oldest commentaries read the consequence differently and both must stand. 河上公 (*Héshàng Gōng*) reads it as reciprocity: 君信不足於下，下則應之以不信而欺其君也 — *"the ruler's trustworthiness is insufficient toward those below; those below respond with untrust and deceive their ruler."* 王弼 (*Wáng Bì*) reads it as **emergence, with no second party at all**: 夫御體失性則疾病生…信不足焉，則有不信，此自然之道也 — *"govern the body and lose its nature, and sickness arises… where trust is insufficient, there is untrust; this is the way of things being so of themselves."* Nothing is given back in 王弼's version; the deficiency simply produces its own consequence, the way disease follows a violated nature. *(Both chapters read alike as of 2026-08-30; ch 17 had supplied "leaders" and "the people," which took 河上公's side and also ran the failure backwards — 信 is the ruler's **reliability**, not the ruler's trusting.)*
+
+**And the near-tautology is the point.** 不足 (*bù zú* — not enough) gives way to 不信 (*bù xìn* — no trust): a shortfall of trust does not stay partial, it goes to zero. There is no slightly-healthy body in 王弼's analogy either. This is Laozi's ordinary shape — 為者敗之 (29), *those who force it ruin it* — a consequence, not a punishment. This is Laozi's ordinary shape — 為者敗之 (29), *those who force it ruin it* — a consequence, not a punishment. Chapter 63 states the mechanism directly: 輕諾必寡信, *light promises inevitably run short on trust.* Say more than you will do and the tally stops matching.
 
 **It is a property of the Tao, not only of people.** Chapter 21, of the indistinct thing at the source: 其精甚真，其中有信 — *its essence is utterly real, and within it there is 信.* The Tao is trustworthy in the tally sense — it corresponds to itself, it does not say one thing and do another. That is why 信 can sit beside 真 (*zhēn* — real) in the same line without redundancy: 真 is *being* so, 信 is *reliably* so.
 
@@ -64,7 +66,7 @@ No agent is named, and none is needed: withhold trust and distrust is what comes
 
 ### The working register
 
-- as a noun → **trust** (信不足焉 → "where trust is withheld"; 寡信 → "short on trust")
+- as a noun → **trust** (信不足焉，有不信焉 → "where trust runs short, there is no trust," identically at ch 17 and ch 23; 寡信 → "short on trust")
 - as an adjective or the person who has it → **trustworthy** (信者 → "the trustworthy"; 不信者 → "the untrustworthy"; 德信 → "integrity is trustworthy")
 - as a verb → **trust** (吾信之 → "I trust them")
 - of words → **trustworthy** (信言 → "trustworthy words")

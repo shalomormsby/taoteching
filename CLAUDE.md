@@ -230,7 +230,8 @@ python3 tools/concordance.py --commentary 63     # Wang Bi and Heshang Gong on a
 python3 tools/build_index.py                     # REQUIRED after any glossary edit
 python3 tools/fix-linebreaks.py                  # REQUIRED after editing any verse
 python3 tools/build_db.py && python3 tools/export.py    # rebuild the atlas
-python3 -m unittest discover -s tools/tests      # the checker's own tests
+python3 tools/check_worklist.py                  # WORKLIST.md against its own table
+python3 -m unittest discover -s tools/tests      # the tools' own tests
 ```
 
 *The full runbook — every tool, every flag — is in [`ARCHITECTURE.md`](ARCHITECTURE.md). These are the ones that come up while working on the text.*

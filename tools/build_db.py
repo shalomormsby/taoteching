@@ -1042,7 +1042,7 @@ def print_report(cur, stats, align_stats):
 
 BASELINE = {
     "chapter": 81, "line": 798, "token": 5296, "character": 798,
-    "variant": 45, "verse_line": 835,
+    "variant": 47, "verse_line": 835,
 }
 
 

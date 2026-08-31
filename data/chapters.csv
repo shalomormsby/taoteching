@@ -1,8 +1,8 @@
 chapter,heshanggong_title,heshanggong_title_pinyin,heshanggong_title_english,status,han_chars,english_words,words_per_character,guodian_attested,guodian_extent,guodian_bundles,source_lines,verse_lines,variants
 1,體道,tǐ dào,Embodying the Tao,drafted,59,77,1.305,no,,,9,9,0
 2,養身,yǎng shēn,Nourishing the self,drafted,87,126,1.448,yes,complete,A,12,15,1
-3,安民,ān mín,Settling the people,drafted,67,69,1.03,no,,,9,9,0
-4,無源,wú yuán,The sourceless,drafted,42,47,1.119,no,,,7,8,0
+3,安民,ān mín,Settling the people,drafted,67,70,1.045,no,,,9,9,0
+4,無源,wú yuán,The sourceless,drafted,42,56,1.333,no,,,7,7,1
 5,虛用,xū yòng,The use of emptiness,drafted,45,65,1.444,yes,middle,A,5,6,0
 6,成象,chéng xiàng,Taking form,drafted,25,30,1.2,no,,,6,4,0
 7,韜光,tāo guāng,Sheathing the light,drafted,49,51,1.041,no,,,8,8,0
@@ -10,39 +10,39 @@ chapter,heshanggong_title,heshanggong_title_pinyin,heshanggong_title_english,sta
 9,運夷,yùn yí,Keeping level,drafted,39,49,1.256,yes,complete,A,10,5,1
 10,能為,néng wéi,What can be done,drafted,70,94,1.343,no,,,17,11,0
 11,無用,wú yòng,The use of absence,drafted,49,48,0.98,no,,,11,8,0
-12,檢欲,jiǎn yù,Reining in desire,drafted,49,59,1.204,no,,,9,7,0
+12,檢欲,jiǎn yù,Reining in desire,drafted,49,65,1.327,no,,,9,7,0
 13,猒恥,yàn chǐ,Shrinking from disgrace,drafted,81,107,1.321,yes,complete,B,16,12,0
 14,贊玄,zàn xuán,In praise of the dark,drafted,95,116,1.221,no,,,21,16,0
-15,顯德,xiǎn dé,Integrity made visible,drafted,98,112,1.143,yes,complete,A,17,16,0
-16,歸根,guī gēn,Returning to the root,drafted,67,111,1.657,yes,opening,A,19,18,0
-17,淳風,chún fēng,Unspoiled ways,drafted,44,56,1.273,yes,complete,C,8,8,0
+15,顯德,xiǎn dé,Integrity made visible,drafted,98,114,1.163,yes,complete,A,17,16,0
+16,歸根,guī gēn,Returning to the root,drafted,67,118,1.761,yes,opening,A,19,18,0
+17,淳風,chún fēng,Unspoiled ways,drafted,44,52,1.182,yes,complete,C,8,8,0
 18,俗薄,sú bó,When custom wears thin,drafted,26,36,1.385,yes,complete,C,4,4,0
 19,還淳,huán chún,Back to the unspoiled,drafted,45,63,1.4,yes,complete,A,7,7,3
 20,異俗,yì sú,Apart from custom,drafted,132,157,1.189,yes,opening,B,25,24,0
-21,虛心,xū xīn,Emptying the heart,drafted,71,94,1.324,no,,,12,9,5
+21,虛心,xū xīn,Emptying the heart,drafted,71,92,1.296,no,,,12,9,5
 22,益謙,yì qiān,The gain in humility,drafted,78,123,1.577,no,,,17,11,0
-23,虛無,xū wú,Emptiness and absence,drafted,86,107,1.244,no,,,18,11,0
+23,虛無,xū wú,Emptiness and absence,drafted,86,102,1.186,no,,,18,11,0
 24,苦恩,kǔ ēn,Favour turned bitter,drafted,47,76,1.617,no,,,10,9,0
-25,象元,xiàng yuán,Figuring the origin,drafted,87,123,1.414,yes,complete,A,19,12,4
+25,象元,xiàng yuán,Figuring the origin,drafted,87,131,1.506,yes,complete,A,19,13,4
 26,重德,zhòng dé,The weight of integrity,drafted,47,66,1.404,no,,,9,7,1
-27,巧用,qiǎo yòng,Deft use,drafted,91,108,1.187,no,,,18,12,0
+27,巧用,qiǎo yòng,Deft use,drafted,91,109,1.198,no,,,18,12,0
 28,反朴,fǎn pǔ,Back to uncarved wood,drafted,86,122,1.419,no,,,15,15,0
 29,無為,wú wéi,Non-doing,drafted,62,72,1.161,no,,,11,8,0
 30,儉武,jiǎn wǔ,Sparing with arms,drafted,75,97,1.293,yes,complete,A,15,9,0
 31,偃武,yǎn wǔ,Laying arms down,drafted,116,159,1.371,yes,end,C,18,14,0
-32,聖德,shèng dé,The integrity of the sage,drafted,71,90,1.268,yes,complete,A,10,9,1
+32,聖德,shèng dé,The integrity of the sage,drafted,71,92,1.296,yes,complete,A,10,9,1
 33,辯德,biàn dé,Telling integrity apart,drafted,38,57,1.5,no,,,8,8,0
 34,任成,rèn chéng,Letting things complete,drafted,62,77,1.242,no,,,8,8,0
 35,仁德,rén dé,Humane integrity,drafted,43,65,1.512,yes,complete,C,7,7,0
 36,微明,wēi míng,Subtle clear-seeing,drafted,56,49,0.875,no,,,8,8,0
 37,為政,wéi zhèng,Handling government,drafted,50,56,1.12,yes,complete,A,5,5,0
-38,論德,lùn dé,On integrity,drafted,129,164,1.271,no,,,20,16,0
+38,論德,lùn dé,On integrity,drafted,129,170,1.318,no,,,20,16,0
 39,法本,fǎ běn,Following the root,drafted,134,187,1.396,no,,,21,21,0
 40,去用,qù yòng,Putting use aside,drafted,21,27,1.286,yes,complete,A,4,4,0
 41,同異,tóng yì,Same and different,drafted,95,139,1.463,yes,complete,B,12,12,1
 42,道化,dào huà,The Tao transforming,drafted,73,104,1.425,no,,,8,8,1
 43,徧用,biàn yòng,Use that reaches everywhere,drafted,39,41,1.051,no,,,5,5,0
-44,立戒,lì jiè,A standing caution,drafted,39,59,1.513,yes,complete,A,8,8,0
+44,立戒,lì jiè,A standing caution,drafted,39,61,1.564,yes,complete,A,8,8,0
 45,洪德,hóng dé,Vast integrity,drafted,40,47,1.175,yes,complete,B,7,7,0
 46,儉欲,jiǎn yù,Sparing desire,drafted,39,54,1.385,yes,end,A,5,5,1
 47,鑒逺,jiàn yuǎn,Seeing far,drafted,36,42,1.167,no,,,5,6,1
@@ -50,9 +50,9 @@ chapter,heshanggong_title,heshanggong_title_pinyin,heshanggong_title_english,sta
 49,任德,rèn dé,Trusting to integrity,drafted,65,81,1.246,no,,,9,12,0
 50,貴生,guì shēng,Holding life dear,drafted,81,96,1.185,no,,,12,12,0
 51,養德,yǎng dé,Nourishing integrity,drafted,72,88,1.222,no,,,9,11,1
-52,歸元,guī yuán,Returning to the origin,drafted,72,112,1.556,yes,middle,B,8,11,0
+52,歸元,guī yuán,Returning to the origin,drafted,72,111,1.542,yes,middle,B,8,11,1
 53,益證,yì zhèng,Gain as the proof,drafted,52,78,1.5,no,,,5,5,1
-54,修觀,xiū guān,Cultivating how you look,drafted,91,116,1.275,yes,complete,B,9,14,0
+54,修觀,xiū guān,Cultivating how you look,drafted,91,115,1.264,yes,complete,B,9,14,0
 55,玄符,xuán fú,The dark tally,drafted,79,134,1.696,yes,complete,A,8,13,2
 56,玄徳,xuán dé,Profound integrity,drafted,66,67,1.015,yes,complete,A,9,10,0
 57,淳風,chún fēng,Unspoiled ways,drafted,88,108,1.227,yes,complete,A,13,13,0
