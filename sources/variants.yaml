@@ -33,6 +33,21 @@
 #   note             one sentence on what turns on it
 #   logged           where the reasoning lives, or false
 
+- chapter: 4
+  line: "湛兮，似或存"
+  base: "或"
+  witnesses: { heshanggong: "若" }
+  meaning_bearing: false
+  our_call: base
+  note: >
+    Heshang Gong's lemma reads 似若存, and the Siku edition of Wang Bi carries
+    the collation note 〔案或一作若〕, "for 或, one edition reads 若." Both are
+    hedges of the same force — 或 perhaps, 若 as if — so nothing turns on it,
+    and the doubled hedge 似 + 或/若 stands either way. Logged because the line
+    was rewritten in 2026-08-31 and the fork should not be rediscovered later
+    as if it were news.
+  logged: notes/manuscript.md
+
 - chapter: 52
   line: "是謂襲常"
   base: "襲"

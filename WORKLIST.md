@@ -16,7 +16,7 @@
 
 ## The list
 
-**⬜ open · 🔶 part done · ✅ done · ⏸ deferred by Shalom.** Detail for every row is below, under the matching heading. **65 item rows: 51 open · 10 done · 1 part done · 3 deferred.** *(Counted from the table itself — a hand-kept tally drifts. It read "43 open · 18 done" and matched nothing.)*
+**⬜ open · 🔶 part done · ✅ done · ⏸ deferred by Shalom.** Detail for every row is below, under the matching heading. **65 item rows: 50 open · 11 done · 1 part done · 3 deferred.** *(Counted from the table itself — a hand-kept tally drifts. It read "43 open · 18 done" and matched nothing.)*
 
 | # | | Item | Ch | Pass |
 |---|---|---|---|---|
@@ -31,7 +31,7 @@
 | PG | ⬜ | `build.py` | — | G |
 | | | **Tier 1 · Wrong, not merely inconsistent** | | |
 | T1-1 | ⬜ | 無知 and 無為 are on the wrong lines; 疵 dropped | 10 | D |
-| T1-2 | ⬜ | 道沖 inverted and given 器's *vessel*; 吾不知誰之子 dropped; 帝 erased | 4 | D |
+| T1-2 | ✅ | ~~道沖 inverted…帝 erased~~ — ch 4 rebuilt; **帝 locked to *god*, new entry**; closes T2-14c | 4 | D |
 | T1-3 | ⬜ | 為無為 → *"Without effort"*; 敢 dropped | 3 | D |
 | T1-4 | ⬜ | 無為 → *"takes no action"* ×2; 上 rendered two ways; invented *pure* | 38 | D |
 | T1-5 | ✅ | ~~Bare 德 → *"profound integrity"* ×3~~ — 玄德's word, on a chapter with no 玄; triad restored | 23 | C |
@@ -66,7 +66,7 @@
 | T2-11 | ✅ | ~~**殆** → *"depletion"*; 没身不殆 two ways~~ — **danger** ×5, one-to-one; ch 15's invented danger and ch 25's dropped 周行 fixed too | 15 16 25 32 44 52 | C |
 | T2-12 | ✅ | ~~**以此** three ways~~ — all three now *"By this."*; two stale notes corrected | 21 54 57 | C |
 | T2-13 | ✅ | ~~**故去彼取此** three ways~~ — all three now ch 72's line; *gut* locked; *embrace* freed | 12 38 72 | C |
-| T2-14 | ✅ | ~~難得之貨 ×3 · 信不足焉 ×2 · 挫其銳…同其塵 ×2~~ — last one's **nouns** unified, **subject** deferred to T1-2 | 3 4 12 17 23 56 64 | C |
+| T2-14 | ✅ | ~~難得之貨 ×3 · 信不足焉 ×2 · 挫其銳…同其塵 ×2~~ — subject settled with T1-2: the Tao at ch 4, imperative at ch 56 | 3 4 12 17 23 56 64 | C |
 | T2-15 | 🔶 | Formula pairs — **4 closed** (是謂玄德 · 故能成其大 · 可以長久 · 猶難之); the remaining two are chapter rewrites: 為天下式 with ch 28, 為者敗之 with T1-8 | 22 28 29 64 | D |
 | T2-16 | ⬜ | **事** wants an entry; 無事's licensed split needs confirming | 48 57 63 | E |
 | T2-17 | ⬜ | **私** two ways, sheltering under 公's `covers:` | 7 19 | E |
@@ -140,7 +140,7 @@ Meaning changed. Each needs a decision; most need one line rewritten.
 
 1. **Ch 10 — 無知 and 無為 are on the wrong lines.** Our base reads 愛民治國，能**無知**乎 and 明白四達，能**無為**乎. The verse answers them backwards: *"can you lead **without doing**?"* / *"can you be **unknowing**?"* Some editions swap the pair; ours does not, and either way it is unlogged. Also in this chapter: 滌除玄覽，能無疵乎 loses 疵 (*cī* — flaw) entirely, and 明白四達 renders 明 as *"understanding"*.
 
-2. **Ch 4 — 道沖 is inverted, and takes 器's word.** 道沖，而用之或不盈 is *"the Tao is empty, and using it, it is never full."* The verse reads *"The Tao is a **vessel** that never runs **empty**"* — 不盈 reversed, and 沖 (*chōng* — hollow) given **vessel**, locked to 器. **Ch 45 renders the same character correctly**, so the book contradicts itself. The chapter also drops 吾不知誰之子 entirely and erases 帝.
+2. ✅ **Closed 2026-08-31 — the first Pass D chapter.** Four faults and a missing line. **道沖 inverted and given 器's *vessel*** (沖 is *empty*, 不盈 is *never fills*; both halves were flipped). **淵 dropped**, taking one of two matched 兮 frames with it. **吾不知誰之子 not translated at all.** And **帝 erased into "ancestor"** — the inverse overlay: the Chinese names a god and the English deleted him, deleting Laozi's own demotion of him. **帝 is now locked** (`glossary/di-帝.md`) to *god*, rendered *"older than any god"* — not *the high god*, because the definite article asserts a singular supreme deity the scholarship has not settled, **and *the* confers status as effectively as a capital.** Along the way: **兮 never hedges** (twelve occurrences, [asserted]兮，[hedged]), **存 is being-still-there against 亡** — *remain* imports a depletion the first line denies, *exist* belongs to 有 — and **象 is the comparison, not the noun**, because wherever 象 is a noun it is marked by 之/有/大 and here it stands bare. **Closes T2-14c**: the quatrain keeps the Tao as subject at ch 4, the imperative at ch 56. 或/若 fork recorded.
 
 ### Lock violations live in the verse
 
@@ -351,3 +351,4 @@ Structure the Chinese has and the English does not. These are rewrites, and they
 | 2026-08-31 | **T2-10** — 襲 → *covered* (27, 52); the 襲/習 fork found and recorded | `sources/variants.yaml` · `notes/manuscript.md` · `notes/translation.md` · Ch 27/52 |
 | 2026-08-31 | **T2-9 → Pass C ✅** — 辯 → *argue* (45, 81), 訥 → *halting*; 巧 spun off as T2-20 | `notes/translation.md` · Ch 45/81 |
 | 2026-08-31 | **T1-5** — ch 23's bare 德 off 玄德's word; the 道/德/失 triad restored | `chapters/023.md` |
+| 2026-08-31 | **T1-2 → Pass D begins** — ch 4 rebuilt; **帝 locked**, new entry; 或/若 fork logged; T2-14c closed | `glossary/di-帝.md` · `notes/translation.md` · `notes/manuscript.md` · `sources/variants.yaml` · Ch 4 |

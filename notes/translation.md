@@ -133,6 +133,28 @@ Also rejected: **"effortless action"** — an interpretation smuggled into a ren
 
 ## Cross-chapter decisions
 
+### Ch 4 · the chapter rebuilt, and 帝 restored — Pass D's first
+
+*(2026-08-31. `WORKLIST.md` T1-2, closing T2-14c. Full argument for 帝 in `glossary/di-帝.md`, now locked; the chapter's own Notes carry the line-by-line.)*
+
+**Four faults and a missing line.** 道沖 was **inverted and given 器 (*qì* — vessel)'s word** — 沖 (*chōng*) is *empty*, 不盈 is *never fills*, and the English said *"a vessel that never runs empty"*, both halves flipped. 淵 (*yuān* — a pool of turning water) was **dropped**, taking with it one of two matched 兮 frames. 吾不知誰之子 (*"I do not know whose child it is"*) was **not translated at all**. And 帝 (*dì*) was **erased into "ancestor."**
+
+**The 帝 finding is the one that matters, and it is the inverse of the overlay we usually hunt.** The naturalistic razor strips theism read **into** a word. Here the Chinese names a god and the English **deleted** him — deleting with him Laozi's own demotion of him. **帝 comes to this text as a god the Zhou had already deposed**, replaced by 天 (*tiān*) when they invented 天命 (*tiān mìng* — the Mandate of Heaven) to justify the conquest; by 288 BCE living kings were taking the title (東帝 / 西帝) and by 221 秦始皇帝 had fixed it to the throne. **Read against 誰之子 two lines above — and against 天子 (*tiān zǐ*, "child of the sky") at ch 62 — the line takes the floor out of legitimation:** authority descends, and a thing with no parent standing before any god leaves the chain with nothing at the bottom.
+
+***"Any god," not "the high god."*** The definite article asserts a singular supreme deity at the top of a hierarchy — which the scholarship on Shang religion has not settled — and it does so where no reader weighs it. **A rendering must not assert what the entry says is unsettled, and the definite article confers status exactly as a capital does** (standing rule 5). *Any* is also the stronger claim: precede only *the* high god and a claimant can answer *"my line descends from a different power."* **This is now a general principle: *the* can smuggle a doctrine as effectively as a capital letter.**
+
+**兮 (*xī*) never hedges**, across all twelve occurrences: **[asserted quality] 兮，[hedged predicate]**, as ch 15's seven-line series shows. So in 湛兮，似或存 the submersion is *stated* and only 存 is in doubt — which killed a draft reading *"Submerged. It seems to be."*, where English's ellipsis reached backward and took *submerged* as the missing complement.
+
+**存 (*cún*) is being-still-there, against 亡 (*wáng* — to perish)** — ch 41's 若存若亡, and 河上公's gloss on this line, 長存**不亡**. Two candidate Englishes were refused on evidence: ***remain* imports a depletion frame the chapter's first line denies** (leftovers are what survive consumption; 用之或不盈 says the Tao is not consumed), and ***exist* belongs to 有 (*yǒu*)** at ch 32, 39 and 64. *"It seems to be here"* reads as **presence**, not location, which is what 存 is.
+
+**象 is the comparison, not the noun, and the argument went the other way first.** 象 (*xiàng*) is *image* at 無物之象 (14), 其中有象 (21), 執大象 (35), 大象無形 (41), and 似 is the dedicated hedge already used twice in this chapter — so a draft closed on *"An image, older than any god."* **The grammar defeats it: wherever 象 is unambiguously a noun it is marked as one, by 之, 有 or 大; here it stands bare before a noun phrase, which is verb-plus-object.** Both commentaries agree, and ch 4 is 象's first appearance, so *image* would land where no reader could yet hear it. **A distributional argument is a reason to look, not a reason to conclude.**
+
+**A stranded subject, and a rule that reaches further than em-dashes.** A draft split the quatrain into two sentences and left the second without a subject: *"Dims its own light, merges with the dust."* **Standing rule 5's reasoning is about the fault, not about the dash** — *"classical Chinese omits subjects freely, English cannot"* — and a full stop strands a subject exactly as a dash does. The couplet now runs on a comma with a lowercase continuation line, this manuscript's convention at ch 2, 7, 16, 19, 25, 31, 34, 43, 47, 48 and 49. **Ch 56 needs no repair**: its version is imperative, so each line is already a complete sentence.
+
+**誰之子 → "whose child," and *descendant* is refused on 說文's own distinction.** 孫 (*sūn* — grandchild) is glossed 子之子曰孫。从子从系。系，續也 — *"the 子 of a 子 is called 孫; from 子 and 系 (to connect), and 系 means to continue."* **The generations are separated in the language, and the compound for descendants — 子孫 — is one this book uses**, at ch 54's 子孫以祭祀不輟. Ch 4 writes bare 子, a **pictograph of an infant**. The distinction carries the argument: **天子 at ch 62 is the *child* of 天, one generation, direct**, and ch 52 pairs 母/子. *Descendant* would soften the line to *"its ancestry is untraceable"* when the claim is that **there is no parent at all.**
+
+**The quatrain keeps the Tao as its subject**, closing Pass C's one deferred question. With 道沖 restored the subject chain runs unbroken, which is 王弼's reading of these four lines here against 河上公's imperative; ch 56 keeps the imperative, and the divergence is now argued rather than inherited.
+
 ### Ch 45, 81 · 辯 → "argue" — and the 大X若Y frame does not endorse its X
 
 *(2026-08-31, Pass C. `WORKLIST.md` T2-9. Closes Pass C.)*
