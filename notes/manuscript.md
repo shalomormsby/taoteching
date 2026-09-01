@@ -72,6 +72,20 @@ We follow the second, on three grounds. **(1) The parallel with Chapter 37** is 
 
 ## Witness forks
 
+### Ch 3 · 智者 / 知者 — one graph or two, and the commentators then describe different people
+
+**Found 2026-08-31, while settling the chapter's knowing-family.** 王弼 (*Wáng Bì*)'s text — our base — writes 使夫**智**者不敢為也. 河上公 (*Héshàng Gōng*)'s writes **知**者, and appends a phonetic note: **知音智**, *"知 is read* zhì" — that is, read this 知 as the word 智. **He attaches it only here.** Two lines above, on 常使民無知無欲, he glosses 反朴守淳 (*"return to the uncarved, keep to the pure"*) and adds no note at all. So the tradition reads **two words in consecutive lines even where one graph is written**, and marks which is which.
+
+**The fork is meaning-bearing because the two commentators then describe different people.** 王弼: 智者謂知為也 — *"the 智者 are those who know how to handle"* — the operators, and the line restrains them. 河上公: 思慮深，不輕言 — *"deep in deliberation, they do not speak lightly"* — which is almost word for word what he says of the unambiguously approving 知者 at ch 56, 知者貴行不貴言也 (*"the knower prizes action and does not prize speech"*). **王弼 has two graphs and two figures; 河上公 has one graph and one figure.**
+
+**We print the base text's 智者 and keep the English open.** *"The knowers"* is a bare nominalization, as 者 (*zhě*) is in Chinese, and it leaves the line to say whether knowing is good here — where *"those who know how"* or *"the clever"* would both have picked 王弼's side. The rendering decision is in `notes/translation.md`.
+
+### Ch 3 · 使民心不亂 — the 民 in the third clause is an eighteenth-century restoration
+
+**河上公's lemma reads 使心不亂, with no 民** (*mín* — the people). And our own vendored 王弼 carries the Siku compilers' collation note on the passage: 〔案原本及各本俱無民字，惟永樂大典有之…今校〕 — *"the base edition and all editions lack the character 民; only the Yongle Dadian has it… now emended."* They restored it on the evidence of 王弼's own commentary.
+
+**Nothing in the sense turns on it** — the subject is the people in either reading, and 王弼 glosses the line 故可欲不見，則心無所亂也, *"so when the desirable is not displayed, the heart has nothing to disorder it,"* with a bare 心. It is logged because **this file's companion note at ch 3 says "all three clauses are 使民X"** (`notes/translation.md`, 2026-08-30), and in the third clause that is an editorial restoration rather than a reading the witnesses agree on. We keep the base text as printed.
+
 ### Ch 4 · 湛兮似或存 / 似若存 — a hedge either way
 
 河上公's lemma reads 似**若**存, and the Siku edition of 王弼 carries the collation note 〔案或一作若〕 — *"for 或, one edition reads 若."* 或 (*huò* — perhaps) and 若 (*ruò* — as if) are hedges of the same force, so **nothing turns on it**: the line carries a doubled hedge, 似 plus one of them, under either reading. Recorded so it is not rediscovered later as if it were news, since the line was rewritten on 2026-08-31. *(Ch 4 is **not attested at Guodian**; it rests on the silks and later.)*

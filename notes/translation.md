@@ -94,6 +94,22 @@ The problem is not that these are false to the book — several are close to wha
 
 **The test, alongside the hymn test and the pointing test: *could this line have been printed in 1968?*** If it could — if it would sit comfortably in a paperback with a lotus on the cover — check the character.
 
+### Collocation carries a verdict — the third way a rendering asserts what the Chinese does not
+
+*(Added 2026-08-31, after ch 3.)*
+
+Two ways an English rendering can smuggle a claim past the reader are already on record. **A capital letter** confers status and turns a word into a doctrine (standing rule 5). **A definite article** asserts a hierarchy — *"the high god"* for 帝 (*dì* — god) at ch 4. Here is the third, and it is the hardest to see, because no single word in the line is wrong.
+
+**English collocations carry verdicts their component words do not.** Ch 3's second movement was drafted as *"keeping the people without knowing," "weakening their will," "keeping those who know from pushing to act."* Every word there is a defensible gloss of its character. The phrases are still wrong:
+
+- ***"without X knowing"*** is a fixed English idiom meaning **behind someone's back**. It converts 無知 (*wú zhī* — without knowing), a state a body can be in, into **withheld information**. 王弼 (*Wáng Bì*): 骨無知以幹 — *"the bones have no knowing, and so they are the frame."* Bones are not being deceived.
+- ***"weaken someone's will"*** belongs to interrogation. 弱其志 (*ruò qí zhì*) deflates **ambition**, and 弱 (*ruò* — yielding) is one of this book's approving words.
+- ***"keep X from Y"*** is restraint imposed from outside. 河上公 (*Héshàng Gōng*) reads 使夫智者不敢為也 as what the knowers **become**: 思慮深，不輕言 — *"their deliberation grows deep; they do not speak lightly."*
+
+**The test that catches it: does the book use this English of the sage?** Every state ch 3 names — 無知, 無欲 (*wú yù* — without desire), 不敢為 (*bù gǎn wéi* — does not push to act) — is elsewhere the sage's **own**. 能無知乎 (10) asks it of the reader; 常無欲 is the reader at ch 1 and the Tao itself at ch 34; 不敢為 is the sage's posture at ch 64, 67 and 69. **Where the Chinese is symmetrical, an English that is not has invented the asymmetry — and asymmetry is what reads as coercion.**
+
+*This is also where Shalom's intuition earns its place in the tie-breaking order. The report was "this sounds sinister and manipulative," with no character named. Treated as a research assignment rather than a preference, it located three collocation faults and a book-wide symmetry the English had broken.*
+
 ### The 天 family — "no heaven, and no cosmos either"
 
 **The rule: point, don't categorize.** 天 is neither a realm nor an abstraction. Render it as what a person standing on the ground can actually see.
@@ -132,6 +148,40 @@ Also rejected: **"effortless action"** — an interpretation smuggled into a ren
 ---
 
 ## Cross-chapter decisions
+
+### Ch 3 · the closing movement restored, and a sinister register that was ours
+
+*(2026-08-31, Pass D. `WORKLIST.md` T1-3. The chapter's own Notes carry the line-by-line; the general finding is the *Collocation carries a verdict* principle above.)*
+
+**The three closing clauses had the opposite grammar from the Chinese.** 常使民無知無欲 (*cháng shǐ mín wú zhī wú yù*) / 使夫智者不敢為也 (*shǐ fú zhì zhě bù gǎn wéi yě*) / 為無為，則無不治 (*wéi wú wéi, zé wú bù zhì*) are built on 使 (*shǐ* — to cause), 使, and 為 (*wéi* — to do / to handle). The English was built on three *"Without"*s — an anaphora nothing in the Chinese repeats. **The Chinese sage acts; the English sage merely abstained.**
+
+**為無為 → *"Without effort"* was a lock breach on the one line the lock's own entry cites as its proof.** `glossary/wuwei-無為.md` argues from ch 3 and 63 that *"為無為 … settles the question: 無為 is something you **actively do** … Keeping your hand off something you are certain you could improve is continuous, **effortful**, and difficult."* Ch 3 now carries ch 63's English exactly: **"Do the not-doing."** *(Harness: `check_locks.py` could not see this. The forbidden list held `"effortless action"` and not `"without effort"`; `"effortless"` and `"without effort"` are now on 無為's list and verified firing. `WORKLIST` T5-3.)*
+
+**治 (*zhì* — to govern / to order) is the chapter's frame word, and it had been dropped from the hinge.** 是以聖人之治 — *"therefore, the sage's governing"* — read only *"Therefore the sage."* 治 opens the second movement and closes the chapter, and the ring was broken. Both ends carry it now, and **無不治 reads "nothing is left ungoverned,"** which makes audible an echo the Chinese has and the English had lost: 無不治 here against 無不為 (*wú bù wéi*) at ch 37 and 48, already rendered *"nothing is left undone."* Same shape, one word apart. Ch 65 — this chapter's sibling, 民之難治 (*mín zhī nán zhì* — "the people are hard to govern") — already renders 治 as *govern* three times.
+
+**Ch 57 is this chapter's own gloss, and it shows that the mechanism is subtraction.** 我無為，而民自化 … 我無欲，而民自樸 — *"I do not do, and the people transform themselves … I am desireless, and the people become plain of themselves."* The operative character is 自 (*zì* — of themselves). All three of stanza 1's 使 clauses have a **not** as their cause, and 王弼 spells the mechanism out: 故可欲不見，則心無所亂也 — *"so when the desirable is not displayed, the heart has nothing to disorder it."* Nothing is put into anyone. The second movement's two 使 clauses are now treated exactly as stanza 1 already treats its three: **result of the arrangement, not an act performed on persons.**
+
+**河上公 reads the whole movement as a body, not a population.** He opens it 聖人治國與治身同也 — *"the sage's governing of the state and the governing of the self are one and the same"* — and glosses 實其腹 as 懷道抱一守五神 (*"harbor the Tao, embrace the one, guard the five spirits"*) and 強其骨 as 愛精重施，髓滿骨堅 (*"cherish the vital essence and be sparing in spending it; the marrow fills and the bones grow firm"*). *Govern* does not shut that reading out; it is the word that holds both.
+
+**What is not smoothed.** It remains a ruler arranging the conditions under which other people want things, and 河上公 titles the chapter 安民 (*ān mín* — "settling the people"). **Paternalist is not sinister, and the chapter owns the first.** What the old English added — withholding, breaking wills, suppressing the clever — is a register the Chinese does not have.
+
+**常 → "ever," 無欲 → "desireless."** 常…無欲 is a formula this manuscript already renders **"Ever desireless"** twice, at ch 1 (of the reader) and ch 34 (of the Tao). The 常 lock licenses plain *ever / always* adverbially; it had been dropped from this line altogether, the same fault as ch 28's three 常德.
+
+**弱其志 → "ambition," not "striving."** 說文解字: 志，意也 — *"intent."* 王弼: 志生事以亂 — *"ambition generates affairs, and so brings disorder."* CLAUDE.md's own gloss of the line is *"weaken their ambition."* 弱 keeps **weaken** because it takes an object, which the lock licenses; the coercion was in *will*, not in *weaken*. **志 is still split** — *ambition* here against *will* at ch 33 — and that is `WORKLIST` T2-7, not settled here.
+
+**敢 applied; it had been dropped outright.** 不敢為 → **"never push to act,"** joining ch 30, 64, 67, 69, 73 and 74.
+
+**智者 → "the knowers," and the choice is governed by a fork, not by a preference.** *"Cunning"* is gone — it had covered both 知 (*zhī* — to know) and 智 (*zhì* — knowing-how) in consecutive lines and renders no character it owns. **無知 → *unknowing***, ch 10's word for the same compound (能無知乎), where it is asked of the practitioner. **智者 → *the knowers*.** *(Shalom's word, against two of mine.)*
+
+**王弼 (*Wáng Bì*) prints 智者 and 河上公 (*Héshàng Gōng*) prints 知者 — and they then describe different people.** 王弼: 智者謂知為也, *"those who know how to handle"* — the operators the line restrains. 河上公: 思慮深，不輕言, *"deep in deliberation, they do not speak lightly"* — almost verbatim what he says of the approving 知者 at ch 56 (知者貴行不貴言也, *"the knower prizes action and does not prize speech"*). His phonetic note 知音智 sits on this line and **not** on the 無知 two lines above, so the tradition reads two words in consecutive lines even where one graph is written. **This is the *commentaries are evidence* rule in force:** *"those who know how"* and *"the clever"* are each specific enough to settle the fork, and settling it picks 王弼's side. ***The knowers* is a bare nominalization — what 者 (*zhě*) does in Chinese — and holds both.** Fork logged in `sources/variants.yaml` and `notes/manuscript.md`.
+
+***"Those who know" was tried and refused*** — it is 知者's English at ch 56 (知者不言) and ch 81 (知者不博), in both places naming the sage's side. The **string** collided; the **family resemblance** did not, and 河上公 makes that resemblance deliberately. *The knowers* also chimes with *unknowing* one line above, which is what his text does with one graph twice. **The book-wide 智 split stays open** — disparaged at 18, 19, 65 and neutral at 33. `WORKLIST` T2-2.
+
+**Ch 3 · 心 restored to line 3, and 亂 → "disturbed."** 使民心不亂 had dropped 心 (*xīn* — heart) at its first appearance, two lines before 虛其心 empties it — the joint that makes 王弼's anatomy legible (心懷智而腹懷食，虛有智而實無知也 — *"the heart harbors clever knowing and the belly harbors food: empty what has 智, fill what has no 知"*). **Knowing lives in the heart, so 虛其心 and 常使民無知 are one instruction.** *Perturbed* rendered no character.
+
+**The choice was between the ring and the organ, and the organ won.** 說文解字 glosses 亂 as **治也** — *"to put in order"* — the graph being hands at tangled silk with the tool that untangles it, so **亂 and 治 are one act read from both ends** and this chapter opens on the first and closes on the second (無不治). No English word holds both. *Disordered hearts* is clinical, and 亂 here is done **to** the heart from outside (王弼: 心無所亂也). ***Confused* was refused on the stronger ground** that it puts the damage in the **knowing**, which the chapter has just spent two lines separating from the heart; 河上公's 不惑亂也 pairs 亂 with 惑 (*huò* — led astray) and is still agitation, not misunderstanding. **Rider:** ch 26's *"undisturbed"* wears the word for 燕處超然, which has no 亂 — it goes with T2-5/T2-6.
+
+**Still open on this chapter:** line 1's *"have no cause to contend"* asserts a causal claim 不爭 does not make, and it is the last of the three opening clauses whose negation does not match the other two.
 
 ### Ch 4 · the chapter rebuilt, and 帝 restored — Pass D's first
 

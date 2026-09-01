@@ -66,6 +66,42 @@
     following 習 without anyone recording the fork.
   logged: notes/manuscript.md
 
+- chapter: 3
+  line: "使夫智者不敢為也"
+  base: "智者"
+  witnesses: { heshanggong: "知者" }
+  meaning_bearing: true
+  our_call: base
+  note: >
+    Heshang Gong's text writes 知 and appends a phonetic note, 知音智 — "知 is
+    read zhi (as 智)" — attached only here, not to the 無知 two lines above, so
+    the tradition reads two words in consecutive lines even where one graph is
+    written. The fork is meaning-bearing because the commentators then describe
+    different people: Wang Bi glosses 智者謂知為也, "those who know how to
+    handle," the operators the line restrains; Heshang Gong glosses 思慮深，不輕言,
+    "deep in deliberation, not speaking lightly," which is almost word for word
+    what he says of the approving 知者 at ch 56 (知者貴行不貴言也). We print the
+    base text's 智者 and keep the English open — "the knowers" — because a word
+    specific enough to settle the fork picks a side the Chinese does not.
+  logged: notes/manuscript.md
+
+- chapter: 3
+  line: "不見可欲，使民心不亂"
+  base: "民"
+  witnesses: { heshanggong: "使心不亂" }
+  meaning_bearing: false
+  our_call: base
+  note: >
+    Heshang Gong's lemma has no 民 in the third clause, and our own vendored
+    Wang Bi carries the Siku compilers' collation note 〔案原本及各本俱無民字，惟永
+    樂大典有之…今校〕 — the base edition and every edition they consulted lack 民
+    here; only the Yongle Dadian has it, and they restored it on the evidence of
+    Wang Bi's commentary. Nothing in the sense turns on it: the subject is the
+    people either way. Logged because our own note at ch 3 says "all three
+    clauses are 使民X," and in the third clause that is an eighteenth-century
+    editorial restoration rather than a reading the witnesses agree on.
+  logged: notes/manuscript.md
+
 - chapter: 21
   line: "道之為物，惟恍惟惚"
   base: "道之為物"

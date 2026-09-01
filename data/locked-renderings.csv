@@ -41,20 +41,20 @@ chapter,line,character,pinyin,locked_term,expected_rendering,rendering_present,a
 3,1,爭,zhēng,爭,contend / contention,yes,1.0,exact-count,"By not exalting the exceptional, the people have no cause to contend."
 3,2,為,wéi,為,do / handle / serve as,yes,1.0,exact-count,"By not prizing rare goods, the people do not become thieves."
 3,2,貨,huò,貨,goods,yes,1.0,exact-count,"By not prizing rare goods, the people do not become thieves."
-3,3,心,xīn,心,heart,NOT FOUND,1.0,exact-count,"By not displaying the desirable, the people are not perturbed."
-3,5,心,xīn,心,heart,yes,1.0,exact-count,Empties hearts and fills bellies
-3,5,腹,fù,心,belly,NOT FOUND,1.0,exact-count,Empties hearts and fills bellies
-3,6,弱,ruò,弱,yielding — and *weaken* only where it takes an object,NOT FOUND,1.0,exact-count,Weakens striving and strengthens the bones of the people.
-3,6,強,qiáng,強,"strong — *strengthen* where it takes an object, *forcing* where it strains against a thing's nature",NOT FOUND,1.0,exact-count,Weakens striving and strengthens the bones of the people.
-3,7,常,Cháng,常,the ever-present / the abiding,NOT FOUND,1.0,exact-count,"Without creating desire or cunning,"
-3,7,無,wú,無 & 有,absence,NOT FOUND,1.0,exact-count,"Without creating desire or cunning,"
-3,7,無,wú,無 & 有,absence,NOT FOUND,1.0,exact-count,"Without creating desire or cunning,"
-3,8,敢,gǎn,敢,push / venture — the forward press to take,NOT FOUND,1.0,exact-count,"Without causing the cunning to act,"
-3,8,為,wéi,為,do / handle / serve as,NOT FOUND,1.0,exact-count,"Without causing the cunning to act,"
-3,9,為,Wéi,為,do / handle / serve as,NOT FOUND,1.0,exact-count,"Without effort, the sage leaves nothing out of order."
-3,9,為,wéi,為,do / handle / serve as,NOT FOUND,1.0,exact-count,"Without effort, the sage leaves nothing out of order."
-3,9,無,wú,無 & 有,absence,NOT FOUND,1.0,exact-count,"Without effort, the sage leaves nothing out of order."
-3,9,無,wú,無 & 有,absence,NOT FOUND,1.0,exact-count,"Without effort, the sage leaves nothing out of order."
+3,3,心,xīn,心,heart,yes,1.0,exact-count,"By not displaying the desirable, the people's hearts are not disturbed."
+3,5,心,xīn,心,heart,yes,1.0,exact-count,"emptying their hearts and filling their bellies,"
+3,5,腹,fù,心,belly,NOT FOUND,1.0,exact-count,"emptying their hearts and filling their bellies,"
+3,6,弱,ruò,弱,yielding — and *weaken* only where it takes an object,NOT FOUND,1.0,exact-count,"weakening their ambition and strengthening their bones,"
+3,6,強,qiáng,強,"strong — *strengthen* where it takes an object, *forcing* where it strains against a thing's nature",NOT FOUND,1.0,exact-count,"weakening their ambition and strengthening their bones,"
+3,7,常,Cháng,常,the ever-present / the abiding,NOT FOUND,1.0,exact-count,"so the people are ever unknowing, ever desireless,"
+3,7,無,wú,無 & 有,absence,NOT FOUND,1.0,exact-count,"so the people are ever unknowing, ever desireless,"
+3,7,無,wú,無 & 有,absence,NOT FOUND,1.0,exact-count,"so the people are ever unknowing, ever desireless,"
+3,8,敢,gǎn,敢,push / venture — the forward press to take,yes,1.0,exact-count,and the knowers never push to act.
+3,8,為,wéi,為,do / handle / serve as,NOT FOUND,1.0,exact-count,and the knowers never push to act.
+3,9,為,Wéi,為,do / handle / serve as,yes,1.0,exact-count,"Do the not-doing, and nothing is left ungoverned."
+3,9,為,wéi,為,do / handle / serve as,yes,1.0,exact-count,"Do the not-doing, and nothing is left ungoverned."
+3,9,無,wú,無 & 有,absence,NOT FOUND,1.0,exact-count,"Do the not-doing, and nothing is left ungoverned."
+3,9,無,wú,無 & 有,absence,NOT FOUND,1.0,exact-count,"Do the not-doing, and nothing is left ungoverned."
 4,1,用,yòng,無 & 有,use,NOT FOUND,1.0,exact-count,"The Tao is empty, and using it, it never fills."
 4,1,道,Dào,道,the Tao (left untranslated),NOT FOUND,1.0,exact-count,"The Tao is empty, and using it, it never fills."
 4,2,物,wù,萬物,things / something,yes,1.0,exact-count,"Fathomless, it seems to be the ancestor of the countless things."
