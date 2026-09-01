@@ -72,6 +72,16 @@ We follow the second, on three grounds. **(1) The parallel with Chapter 37** is 
 
 ## Witness forks
 
+### Ch 38 · 扔 / 仍 — both graphs mean *pull*, and our English had said *force*
+
+Our base prints 攘臂而**扔**之. 河上公 (*Héshàng Gōng*)'s lemma reads **仍**, and the Siku 王弼 (*Wáng Bì*) carries the compilers' collation note 〔案**扔各本俱作仍**〕 — *"for 扔, all editions read 仍."* **Nothing turns on the choice**, and that is the point worth recording: 說文解字 glosses 扔 as **因也**, *"to draw along"*, and 仍 carries the same sense, which is why 河上公's own gloss is 攘臂**相仍引** — *"bare their arms and pull at one another"* (引, *to pull*). Our English read *"bares its arms and forces them,"* which follows **neither** graph. Both are about **pulling**. Recorded in `sources/variants.yaml`; the rendering is in `notes/translation.md`.
+
+### Ch 38 · 處 / 居 — a Ming collation note, deliberately not in the apparatus
+
+The closing stanza alternates 處 (*chǔ* — to dwell) and 居 (*jū* — to reside): 處其厚，不居其薄；處其實，不居其華. Our vendored 王弼 carries 〔案**焦竑云古本四句並作處**〕 — *"Jiao Hong says the old text has 處 in all four."* 焦竑 (*Jiāo Hóng*, 1540–1620) is a **Ming** scholar reporting a lost 古本, so this is neither an older witness nor a meaning-bearing fork, and **it is not in `sources/variants.yaml`** — there is no honest witness id for it, and forcing one into the `witnesses:` map would put a Ming report where the schema promises an excavated or named transmitted reading.
+
+It is recorded here because it **licenses a rendering decision**: the two verbs are near-synonyms and the alternation may not even be original, so the English is free to use one verb across all four clauses rather than straining to mark a distinction the text may not be making.
+
 ### Ch 3 · 智者 / 知者 — one graph or two, and the commentators then describe different people
 
 **Found 2026-08-31, while settling the chapter's knowing-family.** 王弼 (*Wáng Bì*)'s text — our base — writes 使夫**智**者不敢為也. 河上公 (*Héshàng Gōng*)'s writes **知**者, and appends a phonetic note: **知音智**, *"知 is read* zhì" — that is, read this 知 as the word 智. **He attaches it only here.** Two lines above, on 常使民無知無欲, he glosses 反朴守淳 (*"return to the uncarved, keep to the pure"*) and adds no note at all. So the tradition reads **two words in consecutive lines even where one graph is written**, and marks which is which.

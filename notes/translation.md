@@ -149,6 +149,26 @@ Also rejected: **"effortless action"** — an interpretation smuggled into a ren
 
 ## Cross-chapter decisions
 
+### Ch 38 · the 道 → 德 → 仁 → 義 → 禮 descent rebuilt, and the rank-word seam named
+
+*(2026-08-31, Pass D. `WORKLIST.md` T1-4. The chapter's own Notes carry the line-by-line.)*
+
+**失 (*shī* — to lose) is the chapter's spine and had been deleted from its hinge.** Five occurrences, more than in any chapter in the book — 下德不**失**德, then 失道 · 失德 · 失仁 · 失義 — and line 2 read *"clutches at integrity,"* with 失 gone. **The argument that vanished with it: the refusal to lose is what produces the losing.** 王弼 (*Wáng Bì*) states the mechanism — 求而得之，必有失焉 (*"seek and get it, and there must be loss"*) — and closes 所謂失道而後德也. **And *clutches* renders 執 (*zhí* — to grasp), which is not in the chapter**; it came from 王弼's gloss on the line above (無執無用), describing what 上德 lacks. 河上公 (*Héshàng Gōng*) reads the contrast as **visibility**, not grasping: 其德不見 against 其德可見，其功可稱.
+
+**One character, one English, three times over.** **上** (*shàng*) read *highest* ×2 and ***Ultimate*** ×3 — a capital, on the rung-marker of a ladder, changing halfway down — against ch 41's *"the highest integrity"* and `glossary/wei-為.md`'s own *"上仁 highest humaneness."* **首 / 始** both read *"the beginning of"* in adjacent lines, though 始 is *beginning* everywhere in the book and 首 (only twice in the book) is 說文's **head with the hair on it**. **華 / 實** had three Englishes across two stanzas, though 河上公 sets them against each other on the page: 失道之**實**，得道之**華**.
+
+**以為 → "has something it acts for."** 王弼: 無以為者，**無所偏為**也. 河上公: 無**以名號**為. *"Deliberate motive"* was an abstraction pointing at neither. The four lines are a 2×2 grid — *does it act?* and *is there something it acts for?* — and the grid is now visible.
+
+**Refused, and why.** ***"The fruit, not the blossom"*** was the better music — 華/實 is the botanical pair, 華而不實 the idiom — but *fruit* against *flower* is heavily churched in English (Matthew 7:16), which is the hymn test firing; **substance** is what the idiom means and what 說文's 富 (a roof over strung cowries) shows. ***"Follows"*** for 而後 was unavailable: it is 從's English at ch 21.
+
+**大丈夫 → "the great person" — the gendered reference removed deliberately, on Shalom's call.** *(This is standing rule 2's **default**, so it is not a `shaloms-call`; the violation was doing it silently.)* 說文 defines 夫 by a ruler and a hairpin — 人長八尺，故曰丈夫, and 一以象簪也, the capping at twenty — so **the word is a measurement and a public marker of adulthood, and there is no gender-neutral reading of it in the Chinese.**
+
+***"The mature person"* failed on two counts**: *maturity* is an **inward** achievement and 丈夫 is **outward and measurable**; and it **fails the 1968 test**, being Allport-and-Maslow vocabulary. ***"A person of full stature"* failed on a subtler one**, and this is the transferable finding: **大丈夫 is a title in an honour system, not a description of a psychological type — and you cannot tell a personality trait to move somewhere else.** 大 → *great* is the book's own intensifier, and 說文's 大象人形 (*"大 depicts a human form"*) means both content graphs are the same standing figure.
+
+**The seam, named rather than erased.** On one reading the chapter **borrows the opposition's vocabulary**: 大丈夫 is a hapax, 聖人 appears in 25 chapters and **not once here**, and ch 38 is where the Confucian ladder lives (禮 in two chapters book-wide, 義 in three). **It is a reading, not a fact** — 河上公 glosses 大丈夫 as 得道之君, our figure and not theirs. **And no English noun could carry it regardless**, because the borrowing rests on a register contrast English readers do not have; the frame the preceding fourteen lines build is what carries it, and the noun's job is only not to fight that frame.
+
+**This is a family, and it now has a row.** 大丈夫 (38), 君子 (*jūn zǐ* — "a ruler's son", 26, 31), 士 (*shì* — a male service rank, 15, 41, 68) are all **male rank-words**, dissolved in two opposite directions: ch 38 turned a title into a psychological type, while **君子 → *"the sage"* hands the opposition's honorific to Laozi's own figure**, whose name is a different word. `WORKLIST` T4-7, cross-referenced to T2-3, T2-6 and T4-1.
+
 ### Ch 3 · the closing movement restored, and a sinister register that was ours
 
 *(2026-08-31, Pass D. `WORKLIST.md` T1-3. The chapter's own Notes carry the line-by-line; the general finding is the *Collocation carries a verdict* principle above.)*

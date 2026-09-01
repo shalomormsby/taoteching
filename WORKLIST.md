@@ -16,7 +16,7 @@
 
 ## The list
 
-**⬜ open · 🔶 part done · ✅ done · ⏸ deferred by Shalom.** Detail for every row is below, under the matching heading. **65 item rows: 48 open · 12 done · 2 part done · 3 deferred.** *(Counted from the table itself — a hand-kept tally drifts. It read "43 open · 18 done" and matched nothing.)*
+**⬜ open · 🔶 part done · ✅ done · ⏸ deferred by Shalom.** Detail for every row is below, under the matching heading. **68 item rows: 50 open · 13 done · 2 part done · 3 deferred.** *(Counted from the table itself — a hand-kept tally drifts. It read "43 open · 18 done" and matched nothing.)*
 
 | # | | Item | Ch | Pass |
 |---|---|---|---|---|
@@ -33,7 +33,7 @@
 | T1-1 | ⬜ | 無知 and 無為 are on the wrong lines; 疵 dropped | 10 | D |
 | T1-2 | ✅ | ~~道沖 inverted…帝 erased~~ — ch 4 rebuilt; **帝 locked to *god*, new entry**; closes T2-14c | 4 | D |
 | T1-3 | ✅ | ~~為無為 → *"Without effort"*; 敢 dropped~~ — ch 3's closing movement rebuilt; 治 restored at both ends; **`"effortless" / "without effort"` added to 無為's forbidden list** | 3 | D |
-| T1-4 | ⬜ | 無為 → *"takes no action"* ×2; 上 rendered two ways; invented *pure* | 38 | D |
+| T1-4 | ✅ | ~~無為 → *"takes no action"*; 上 rendered two ways; invented *pure*~~ — ch 38 rebuilt; **失 restored as the chapter's spine**; 大丈夫 → *the great person* (Shalom's call); opens T4-7 | 38 | D |
 | T1-5 | ✅ | ~~Bare 德 → *"profound integrity"* ×3~~ — 玄德's word, on a chapter with no 玄; triad restored | 23 | C |
 | T1-6 | ⬜ | 守 → *"Embrace"* — 守/抱 swapped | 16 | D |
 | T1-7 | ⬜ | 守 → *"attune to"* ×3; 常 dropped from all three 常德 | 28 | D |
@@ -55,10 +55,11 @@
 | T2-19 | ⬜ | ★ **The holding family — 守 執 保 有 collapsed into "hold."** 執 carries opposite valences and the English hides it | 5 9 14 15 16 28 29 32 35 37 52 62 64 67 69 74 79 | E |
 | T2-1 | ⬜ | **身** — *body* / *self* / *themselves*, and two of them inside ch 54 | 7 9 13 44 54 | E |
 | T2-2 | 🔶 | **智** four ways; **ch 3 settled as *the knowers*, fork logged**; *"cunning"* still wears 巧 at 19 and 57 | 3 18 19 33 65 | E |
-| T2-3 | ⬜ | **士** three ways, two on the identical phrase 善為士者 | 15 41 68 | E |
+| T2-3 | ⬜ | **士** three ways, two on the identical phrase 善為士者. *Rank question → T4-7* | 15 41 68 | E |
 | T2-4 | ⬜ | **氣** — *life energy* / *vital breath* / *vital energy* | 10 42 55 | E |
+| T2-21 | ⬜ | **厚** four ways — *thick* (38) · *heavy* (44) · *abundant* (55) · *rich* (75) | 38 44 50 55 75 | E |
 | T2-5 | ⬜ | **靜** reads *"Silence"* here alone | 26 | E |
-| T2-6 | ⬜ | **君** two ways three lines apart; 君子 → *"the sage"* | 26 31 | E |
+| T2-6 | ⬜ | **君** two ways three lines apart; 君子 → *"the sage"* — the opposition's honorific on our figure. *Rank question → T4-7* | 26 31 | E |
 | T2-7 | ⬜ | **志** — *ambition* (3) / *will* (33) | 3 33 | E |
 | T2-8 | ⬜ | Eight 善 rendered eight ways; 上善若水 a separate question | 8 | D |
 | T2-9 | ✅ | ~~**辯** → *"eloquence"*~~ — **argue** in both; the 大X若Y frame does not endorse its X | 45 81 | C |
@@ -83,16 +84,18 @@
 | R1 | ⬜ | ★ **Harvest 韓非's 35 divergent lemmas into `variants.yaml`** — the oldest witness to this text, currently marked but unexploited | 1 27 36 38 46 47 50 54 58 59 60 63 64 67 | E |
 | R2 | ⬜ | **義 (yì) wants a glossary entry** — reads *duty* in all 5 lines, unlocked, and the atlas therefore publishes *righteousness* | 18 19 38 | E |
 | | | **Tier 4 · Deferred by Shalom** | | |
-| T4-1 | ⏸ | **民 / 人** — one decision, whole book. Consider taking 身 (T2-1) with it | 13 chapters | F |
+| T4-1 | ⏸ | **民 / 人** — one decision, whole book. Consider taking 身 (T2-1) with it. *Kin to T4-7* | 13 chapters | F |
 | T4-2 | ⏸ | **正 / 奇** — five Englishes | 37 45 57 58 78 | F |
 | T4-3 | ⏸ | **Em-dashes in the verse** — 17 lines | 10 14 15 28 29 43 44 51 53 55 58 | F |
+| T4-7 | ⬜ | ★ **Rank and gender — 大丈夫 · 君子 · 士.** Male rank-words dissolved in two opposite directions. Kin to T4-1 | 15 26 31 38 41 68 | F |
 | T4-4 | ⬜ | 剛 owed its own mention | — | E |
 | T4-5 | ⬜ | Glossary harvest — 一 名 希, plus ten new candidates | — | E |
 | T4-6 | ⬜ | Guodian **G2–G6** | 5 16 17 18 25 + 26 more | E |
+| T4-8 | ⬜ | 說文 (c. 100 CE) quotes the four-greats line as 人亦大 — six centuries before our oldest 人 witness | 25 | E |
 | | | **Tier 5 · The harness** | | |
 | T5-1 | ⬜ | Build **thin-translation** — the only rule that finds *absence* | — | G |
 | T5-2 | ⬜ | `repeated-formula` should name the segment's own English | — | G |
-| T5-3 | ⬜ | Forbidden lists thin on near-synonyms — *clever*, *depletion*, *energy*. *(A fourth, *effortless*, was closed with T1-3; these three stand)* | — | E |
+| T5-3 | ⬜ | Forbidden lists thin on near-synonyms — *clever*, *depletion*, *energy*. *(無為 gained *effortless* / *without effort* / *takes no action* with T1-3 and T1-4; these three stand)* | — | E |
 | T5-4 | ⬜ | Run `--english` on every lock; it is the only reverse-direction check | — | ongoing |
 | T5-5 | ⬜ | The 70-item false-friend `info` list is not being read | — | G |
 | T5-6 | ⬜ | `import_commentary.py` mis-splits when a heading sits mid-block | — | G |
@@ -145,7 +148,7 @@ Meaning changed. Each needs a decision; most need one line rewritten.
 ### Lock violations live in the verse
 
 3. ✅ **Closed 2026-08-31 — Pass D's second chapter.** The whole closing movement had **the opposite grammar from the Chinese**: 常使民無知無欲 / 使夫智者不敢為也 / 為無為，則無不治 are built on 使 (*shǐ* — to cause), 使 and 為, and the English on three *"Without"*s, so the sage who acts became a sage who abstains. **為無為 → *"Without effort"* breached the 無為 lock on the one line `glossary/wuwei-無為.md` cites as its own proof** (*"something you actively do … continuous, **effortful**, and difficult"*); it now carries ch 63's English exactly, *"Do the not-doing."* **治 (*zhì* — to govern) had been dropped from the hinge** 是以聖人之治 while still closing the chapter at 無不治 — both ends restored, and *"nothing is left ungoverned"* recovers the echo with 無不為 at ch 37 and 48. **敢 applied** (*never push to act*), **常 restored** (*ever*), and 志 → *ambition*. **The English had also read as manipulation, and the Chinese does not** — 無知, 無欲 and 不敢為 are each the sage's **own** state elsewhere (10 · 1, 34 · 64, 67, 69), and three English collocations invented the asymmetry. The general finding is now a standing principle, ***collocation carries a verdict*** (`notes/translation.md`), beside ch 4's *the definite article*. **Harness hole closed:** the forbidden list held `"effortless action"` and not `"without effort"`; both `"effortless"` and `"without effort"` are now on 無為's list and verified firing. **Still owed at ch 3:** the 知/智 pair (T2-2), and 心 dropped from 使民心不亂.
-4. **Ch 38 — 無為 → *"takes no action,"*** twice, in the opening stanza. Forbidden outright. The chapter also renders 上 as *highest* for 德 but *Ultimate* for 仁/義/禮, and 失道而後德 gains an invented *pure*.
+4. ✅ **Closed 2026-08-31 — Pass D's third chapter.** **失 (*shī* — to lose) is the chapter's spine and had been deleted from its hinge.** Five occurrences, more than in any chapter in the book — 下德不**失**德, then 失道 · 失德 · 失仁 · 失義 — and line 2 read *"clutches at integrity."* The argument that vanished with it: **the refusal to lose is what produces the losing** (王弼: 求而得之，必有失焉). **And *clutches* renders 執, which is not in the chapter** — it came from 王弼's gloss on the line *above*, describing what 上德 lacks; 河上公 reads the contrast as **visibility**, not grasping. **無為 → *"takes no action"*** was invisible to `check_locks` (`"non-action"` was on the list, `"takes no action"` was not — now added and verified firing). **上** read *highest* ×2 and ***Ultimate*** ×3 with a capital, on a ladder's rung-marker, against ch 41 and against `glossary/wei-為.md`'s own table. **首 / 始** shared one English in adjacent lines; **華 / 實** had three across two stanzas. **以為 → *"has something it acts for,"*** restoring the 2×2 grid 王弼 states outright (無以為者，無所偏為也). The invented *pure*, *imitation*, *life's* and *of being* are all gone, and the 禮 rung now takes the two lines the Chinese gives it. **大丈夫 → *the great person*, gendered reference removed deliberately (Shalom's call)** — standing rule 2's default, so no `shaloms-call`; the violation was the silence. **Opens T4-7** (rank and gender) and **T2-21** (厚). Two collation notes recorded: 扔/仍 in `sources/variants.yaml`, 焦竑's four 處 in `notes/manuscript.md` only.
 5. ✅ **Closed 2026-08-31.** Bare 德 had been given **玄德**'s English on three lines, in a chapter containing no 玄. 德 is locked to *integrity*, and `--english "profound integrity"` now returns only 玄德's four lines (10, 51, 65 ×2). **The cost was structural:** the stanza is a three-term parallel — 道者同於道；德者同於德；失者同於失 — and an adjective on the middle term alone broke it. Second time this chapter has handed 德's slot to the wrong word; the first was 信 (*xìn* — trust) taking 德's.
 6. **Ch 16 — 守 → *"Embrace."*** 守 is *hold fast to*, 抱 is *embrace*; the lock says do not swap. **Ch 52 does it right.**
 7. **Ch 28 — 守 → *"attune to"*** on all three 知其X守其Y lines, and 常 dropped from all three 常德.
@@ -285,6 +288,8 @@ Structure the Chinese has and the English does not. These are rewrites, and they
 
 ## Tier 4 · Open calls, deferred by Shalom
 
+- **★ Rank and gender — 大丈夫 · 君子 · 士. T4-7, opened 2026-08-31 with ch 38.** This book has a family of **male rank-words**, and the manuscript has been dissolving them silently **in two opposite directions**. 大丈夫 (*dà zhàng fū*, ch 38, a hapax) was turned into a **modern psychological type** — *"the mature person"*, now *the great person*. 君子 (*jūn zǐ* — literally *a ruler's son*, the Confucian gentleman, ch 26 and 31) is rendered **"the sage"**, which hands the opposition's honorific to Laozi's own figure, whose name is a different word entirely (聖人). 士 (*shì* — a male service rank: knight, officer, retainer, ch 15, 41, 68) reads three ways, twice on the identical phrase 善為士者. **The shared question is what to do with *rank*, and it is not the one-character-many-Englishes question that T2-3 and T2-6 currently file it under** — a rank word universalised loses the rank, which is often what the line is about. 說文 makes the stakes concrete for 夫: 一以象簪也…人長八尺，故曰丈夫 — *"the single stroke depicts a hairpin… a person stands eight 尺 tall, therefore we say 丈夫"* — a measurement and a capping ceremony, not an inner state. Standing rule 2's carve-out is for the **incidental** male-default; these are not incidental. **Owed:** one decision across all three, the seam noted wherever it is universalised, and a check on whether 君子 can keep *"the sage"* at all. **Kin to T4-1 (民/人) and to T2-1 (身) — the same question about social categories.** Cross-refs: T2-3, T2-6.
+
 - **民 / 人 — one decision, whole book, deferred 2026-08-25.** 民 (the governed, an eye pierced by a blade) reads *"the people"* in all 32 of its lines — consistent, unlogged, never argued for. 人 drifts, and **ch 57 renders it both ways two lines apart.** A rule settled at one chapter propagates to twelve others and to the cross-chapter rhymes in `notes/reading.md` (72 → 74 → 75 turns on 民不畏X; ch 80's 使民重死 is load-bearing for ch 75's 民之輕死). Ch 74 reads *"the people"* as a **hold, not a precedent**. Owed: `glossary/min-民.md`, very likely a 人 entry or `covers:`, a sweep, and a `notes/reading.md` pass. **This sweep adds 身 to the same shape of problem — consider deciding the three together.**
 - **正 / 奇** — five Englishes across ch 37, 45, 57, 58, 78. Owed: `glossary/zheng-正.md`.
 - **Em-dashes in the verse** — 17 lines across ch 10, 14, 15, 28, 29, 43, 44, 51, 53, 55, 58. Ch 44's three are good. Ch 10 and ch 51 share the same en-dash on the same line (長而不宰) and move together.
@@ -354,3 +359,4 @@ Structure the Chinese has and the English does not. These are rewrites, and they
 | 2026-08-31 | **T1-2 → Pass D begins** — ch 4 rebuilt; **帝 locked**, new entry; 或/若 fork logged; T2-14c closed | `glossary/di-帝.md` · `notes/translation.md` · `notes/manuscript.md` · `sources/variants.yaml` · Ch 4 |
 | 2026-08-31 | **T1-3** — ch 3's closing movement rebuilt: 使 causatives restored, 治 at both ends, 為無為 unified with ch 63, 敢 and 常 applied. New standing principle: ***collocation carries a verdict***. 無為's forbidden list widened | `notes/translation.md` · `glossary/wuwei-無為.md` · Ch 3 |
 | 2026-08-31 | **T2-2 (ch 3)** — 智者 → **the knowers**; *cunning* off the chapter; the 智者/知者 fork and the 民 restoration in the third clause both recorded | `sources/variants.yaml` · `notes/manuscript.md` · `notes/translation.md` · Ch 3 |
+| 2026-08-31 | **T1-4** — ch 38 rebuilt: 失 restored as the chapter's spine, *clutches* (=執, absent) out, one English for 上 · 首/始 · 華/實, 以為 as the 2×2 grid, 大丈夫 → *the great person*. Opens **T4-7** (rank and gender) and T2-21 (厚) | `notes/translation.md` · `notes/manuscript.md` · `sources/variants.yaml` · `glossary/wuwei-無為.md` · Ch 38 |

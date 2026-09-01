@@ -102,6 +102,22 @@
     editorial restoration rather than a reading the witnesses agree on.
   logged: notes/manuscript.md
 
+- chapter: 38
+  line: "則攘臂而扔之"
+  base: "扔"
+  witnesses: { heshanggong: "仍" }
+  meaning_bearing: false
+  our_call: base
+  note: >
+    Our vendored Wang Bi carries the Siku compilers' collation note
+    〔案扔各本俱作仍〕 — "for 扔, all editions read 仍" — and Heshang Gong's lemma
+    does read 仍. Nothing turns on it: 說文 glosses 扔 as 因也, "to draw along,"
+    and 仍 carries the same sense, which is why Heshang Gong's own gloss is
+    攘臂相仍引, "bare their arms and pull at one another" (引, to pull). Logged
+    because our English had read "forces them," which follows neither graph —
+    both are about pulling, not force.
+  logged: notes/manuscript.md
+
 - chapter: 21
   line: "道之為物，惟恍惟惚"
   base: "道之為物"
