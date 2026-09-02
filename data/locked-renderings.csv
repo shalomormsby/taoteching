@@ -342,31 +342,31 @@ chapter,line,character,pinyin,locked_term,expected_rendering,rendering_present,a
 27,13,善,shàn,善,masterful / masterful at · the masterful & the unmasterful (of people) · good (only where the text names the category),yes,0.3,proportional,"Therefore, the masterful one naturally teaches the novice."
 27,14,善,shàn,善,masterful / masterful at · the masterful & the unmasterful (of people) · good (only where the text names the category),NOT FOUND,0.3,proportional,And the novice is the raw material of the master.
 27,18,妙,miào,玄 & 妙,subtle,NOT FOUND,0.2,proportional-fill,Even those who appear intelligent are lost. This is the essential secret.
-28,2,天,tiān,天,sky (as a tier) · nature / the natural (as an agent),NOT FOUND,1.0,exact-count,Embody the deep ravine of the world.
-28,2,為,wéi,為,do / handle / serve as,NOT FOUND,1.0,exact-count,Embody the deep ravine of the world.
-28,3,天,tiān,天,sky (as a tier) · nature / the natural (as an agent),NOT FOUND,1.0,exact-count,Embodying the deep ravine of the world — this is where integrity accumulates without leaving.
-28,3,常,cháng,常,the ever-present / the abiding,NOT FOUND,1.0,exact-count,Embodying the deep ravine of the world — this is where integrity accumulates without leaving.
-28,3,德,dé,德,integrity,yes,1.0,exact-count,Embodying the deep ravine of the world — this is where integrity accumulates without leaving.
-28,3,為,Wéi,為,do / handle / serve as,NOT FOUND,1.0,exact-count,Embodying the deep ravine of the world — this is where integrity accumulates without leaving.
-28,6,天,tiān,天,sky (as a tier) · nature / the natural (as an agent),NOT FOUND,1.0,exact-count,Embody the pattern of the world.
-28,6,為,wéi,為,do / handle / serve as,NOT FOUND,1.0,exact-count,Embody the pattern of the world.
-28,7,天,tiān,天,sky (as a tier) · nature / the natural (as an agent),NOT FOUND,1.0,exact-count,Embodying the pattern of the world — this is how integrity manifests without deviation.
-28,7,常,cháng,常,the ever-present / the abiding,NOT FOUND,1.0,exact-count,Embodying the pattern of the world — this is how integrity manifests without deviation.
-28,7,德,dé,德,integrity,yes,1.0,exact-count,Embodying the pattern of the world — this is how integrity manifests without deviation.
-28,7,為,Wéi,為,do / handle / serve as,NOT FOUND,1.0,exact-count,Embodying the pattern of the world — this is how integrity manifests without deviation.
-28,8,無,wú,無 & 有,absence,NOT FOUND,1.0,exact-count,Return to the limitless.
-28,10,天,tiān,天,sky (as a tier) · nature / the natural (as an agent),NOT FOUND,1.0,exact-count,Embody the reservoir of the world.
-28,10,為,wéi,為,do / handle / serve as,NOT FOUND,1.0,exact-count,Embody the reservoir of the world.
-28,11,天,tiān,天,sky (as a tier) · nature / the natural (as an agent),NOT FOUND,1.0,exact-count,"Embodying the reservoir of the world, integrity is abundant."
-28,11,常,cháng,常,the ever-present / the abiding,NOT FOUND,1.0,exact-count,"Embodying the reservoir of the world, integrity is abundant."
-28,11,德,dé,德,integrity,yes,1.0,exact-count,"Embodying the reservoir of the world, integrity is abundant."
-28,11,為,Wéi,為,do / handle / serve as,NOT FOUND,1.0,exact-count,"Embodying the reservoir of the world, integrity is abundant."
-28,12,樸,pǔ,樸,uncarved wood / the uncarved,yes,1.0,exact-count,Return to the uncarved wood.
-28,13,器,qì,器,vessel / tool / implement,yes,1.0,exact-count,"When the uncarved wood is carved, it is made into various tools."
-28,13,樸,Pǔ,樸,uncarved wood / the uncarved,yes,1.0,exact-count,"When the uncarved wood is carved, it is made into various tools."
-28,13,為,wéi,為,do / handle / serve as,NOT FOUND,1.0,exact-count,"When the uncarved wood is carved, it is made into various tools."
-28,14,為,wéi,為,do / handle / serve as,NOT FOUND,1.0,exact-count,The sage uses them as the master orchestrator.
-28,14,用,yòng,無 & 有,use,yes,1.0,exact-count,The sage uses them as the master orchestrator.
+28,2,天,tiān,天,sky (as a tier) · nature / the natural (as an agent),NOT FOUND,1.0,exact-count,serve as the world's ravine.
+28,2,為,wéi,為,do / handle / serve as,yes,1.0,exact-count,serve as the world's ravine.
+28,3,天,tiān,天,sky (as a tier) · nature / the natural (as an agent),NOT FOUND,1.0,exact-count,"Serve as the world's ravine, and the ever-present integrity never leaves you."
+28,3,常,cháng,常,the ever-present / the abiding,yes,1.0,exact-count,"Serve as the world's ravine, and the ever-present integrity never leaves you."
+28,3,德,dé,德,integrity,yes,1.0,exact-count,"Serve as the world's ravine, and the ever-present integrity never leaves you."
+28,3,為,Wéi,為,do / handle / serve as,yes,1.0,exact-count,"Serve as the world's ravine, and the ever-present integrity never leaves you."
+28,6,天,tiān,天,sky (as a tier) · nature / the natural (as an agent),NOT FOUND,1.0,exact-count,serve as the world's pattern.
+28,6,為,wéi,為,do / handle / serve as,yes,1.0,exact-count,serve as the world's pattern.
+28,7,天,tiān,天,sky (as a tier) · nature / the natural (as an agent),NOT FOUND,1.0,exact-count,"Serve as the world's pattern, and the ever-present integrity never varies."
+28,7,常,cháng,常,the ever-present / the abiding,yes,1.0,exact-count,"Serve as the world's pattern, and the ever-present integrity never varies."
+28,7,德,dé,德,integrity,yes,1.0,exact-count,"Serve as the world's pattern, and the ever-present integrity never varies."
+28,7,為,Wéi,為,do / handle / serve as,yes,1.0,exact-count,"Serve as the world's pattern, and the ever-present integrity never varies."
+28,8,無,wú,無 & 有,absence,NOT FOUND,1.0,exact-count,Return again to the endless.
+28,10,天,tiān,天,sky (as a tier) · nature / the natural (as an agent),NOT FOUND,1.0,exact-count,serve as the world's valley.
+28,10,為,wéi,為,do / handle / serve as,yes,1.0,exact-count,serve as the world's valley.
+28,11,天,tiān,天,sky (as a tier) · nature / the natural (as an agent),NOT FOUND,1.0,exact-count,"Serve as the world's valley, and the ever-present integrity is enough at last."
+28,11,常,cháng,常,the ever-present / the abiding,yes,1.0,exact-count,"Serve as the world's valley, and the ever-present integrity is enough at last."
+28,11,德,dé,德,integrity,yes,1.0,exact-count,"Serve as the world's valley, and the ever-present integrity is enough at last."
+28,11,為,Wéi,為,do / handle / serve as,yes,1.0,exact-count,"Serve as the world's valley, and the ever-present integrity is enough at last."
+28,12,樸,pǔ,樸,uncarved wood / the uncarved,yes,1.0,exact-count,Return again to the uncarved wood.
+28,13,器,qì,器,vessel / tool / implement,yes,1.0,exact-count,"The uncarved wood scatters, and becomes vessels."
+28,13,樸,Pǔ,樸,uncarved wood / the uncarved,yes,1.0,exact-count,"The uncarved wood scatters, and becomes vessels."
+28,13,為,wéi,為,do / handle / serve as,NOT FOUND,1.0,exact-count,"The uncarved wood scatters, and becomes vessels."
+28,14,為,wéi,為,do / handle / serve as,NOT FOUND,1.0,exact-count,The sage puts them to use and becomes chief of the officers.
+28,14,用,yòng,無 & 有,use,yes,1.0,exact-count,The sage puts them to use and becomes chief of the officers.
 29,1,天,tiān,天,sky (as a tier) · nature / the natural (as an agent),NOT FOUND,0.3,proportional,Those who wish to force their will upon the world — I see that this cannot be done.
 29,1,為,wéi,為,do / handle / serve as,yes,0.3,proportional,Those who wish to force their will upon the world — I see that this cannot be done.
 29,2,吾,wú,我 & 吾,the self seeing,NOT FOUND,0.3,proportional,The world is a sacred vessel. It cannot be forced. It cannot be grasped.

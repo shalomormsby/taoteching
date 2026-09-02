@@ -16,7 +16,7 @@
 
 ## The list
 
-**⬜ open · 🔶 part done · ✅ done · ⏸ deferred by Shalom.** Detail for every row is below, under the matching heading. **68 item rows: 50 open · 13 done · 2 part done · 3 deferred.** *(Counted from the table itself — a hand-kept tally drifts. It read "43 open · 18 done" and matched nothing.)*
+**⬜ open · 🔶 part done · ✅ done · ⏸ deferred by Shalom.** Detail for every row is below, under the matching heading. **69 item rows: 47 open · 17 done · 2 part done · 3 deferred.** *(Counted from the table itself — a hand-kept tally drifts. It read "43 open · 18 done" and matched nothing.)*
 
 | # | | Item | Ch | Pass |
 |---|---|---|---|---|
@@ -36,7 +36,7 @@
 | T1-4 | ✅ | ~~無為 → *"takes no action"*; 上 rendered two ways; invented *pure*~~ — ch 38 rebuilt; **失 restored as the chapter's spine**; 大丈夫 → *the great person* (Shalom's call); opens T4-7 | 38 | D |
 | T1-5 | ✅ | ~~Bare 德 → *"profound integrity"* ×3~~ — 玄德's word, on a chapter with no 玄; triad restored | 23 | C |
 | T1-6 | ⬜ | 守 → *"Embrace"* — 守/抱 swapped | 16 | D |
-| T1-7 | ⬜ | 守 → *"attune to"* ×3; 常 dropped from all three 常德 | 28 | D |
+| T1-7 | ✅ | ~~守 → *"attune to"* ×3; 常 dropped from all three 常德~~ — 守 → *hold to*; 常 restored ×3; the template runs unbroken | 28 | D |
 | T1-8 | ⬜ | 為 → *"force"* ×3; clashes with ch 64's *handle* | 29 | D |
 | T1-9 | ⬜ | 左/右 as *"creation"/"destruction"*, then literal four lines later | 31 | D |
 | T1-10 | ⬜ | 無身 → *"the separate self dissolves"* — an Advaita import | 13 | D |
@@ -44,8 +44,8 @@
 | T1-12 | ⬜ | 往 → *"the world routes to you"* ×2 — mechanistic | 35 | D |
 | T1-13 | ⬜ | *"returns energy to its root"* — 氣 is not in this chapter | 16 | D |
 | T1-14 | ⬜ | The closing 譬…猶 simile is garbled | 32 | D |
-| T1-15 | ⬜ | 谷 → *"reservoir"*, 谿, 官長, 大制 → *"orchestrator"* | 28 | D |
-| T1-16 | ⬜ | 雄/雌 → *"assertive/yielding energy"* — a rooster and a hen | 28 | D |
+| T1-15 | ✅ | ~~谷 → *"reservoir"*, 谿, 官長, 大制 → *"orchestrator"*~~ — 谷 → *valley* (its word in 6 chapters); 制 → *cutting* (as ch 32); 割 → *severs* | 28 | D |
+| T1-16 | ✅ | ~~雄/雌 → *"assertive/yielding energy"*~~ — **rooster and hen**, forced by 牝/牡 already holding *male* / *female* | 28 | D |
 | T1-17 | ⬜ | 明 → *"clever"* — the one licensed lock exception, unrecorded | 65 | E |
 | T1-18 | ⬜ | 佐 → *"One who rules"* — follows 河上公 against the grammar, unlogged | 30 | E |
 | T1-19 | ⬜ | 大器晚成 → *"never completed"* — English follows a witness our table doesn't carry | 41 | D |
@@ -58,6 +58,7 @@
 | T2-3 | ⬜ | **士** three ways, two on the identical phrase 善為士者. *Rank question → T4-7* | 15 41 68 | E |
 | T2-4 | ⬜ | **氣** — *life energy* / *vital breath* / *vital energy* | 10 42 55 | E |
 | T2-21 | ⬜ | **厚** four ways — *thick* (38) · *heavy* (44) · *abundant* (55) · *rich* (75) | 38 44 50 55 75 | E |
+| T2-22 | ⬜ | **嬰兒 / 赤子** both read *newborn*; 嬰兒 also reads *infant*. Word gets chosen at ch 10 (T1-1) | 10 20 28 55 | E |
 | T2-5 | ⬜ | **靜** reads *"Silence"* here alone | 26 | E |
 | T2-6 | ⬜ | **君** two ways three lines apart; 君子 → *"the sage"* — the opposition's honorific on our figure. *Rank question → T4-7* | 26 31 | E |
 | T2-7 | ⬜ | **志** — *ambition* (3) / *will* (33) | 3 33 | E |
@@ -68,7 +69,7 @@
 | T2-12 | ✅ | ~~**以此** three ways~~ — all three now *"By this."*; two stale notes corrected | 21 54 57 | C |
 | T2-13 | ✅ | ~~**故去彼取此** three ways~~ — all three now ch 72's line; *gut* locked; *embrace* freed | 12 38 72 | C |
 | T2-14 | ✅ | ~~難得之貨 ×3 · 信不足焉 ×2 · 挫其銳…同其塵 ×2~~ — subject settled with T1-2: the Tao at ch 4, imperative at ch 56 | 3 4 12 17 23 56 64 | C |
-| T2-15 | 🔶 | Formula pairs — **4 closed** (是謂玄德 · 故能成其大 · 可以長久 · 猶難之); the remaining two are chapter rewrites: 為天下式 with ch 28, 為者敗之 with T1-8 | 22 28 29 64 | D |
+| T2-15 | 🔶 | Formula pairs — **5 closed**; 為天下式 unified at ch 22/28 (*serve as the world's pattern*). Only 為者敗之 left, with T1-8 | 22 28 29 64 | D |
 | T2-16 | ⬜ | **事** wants an entry; 無事's licensed split needs confirming | 48 57 63 | E |
 | T2-17 | ⬜ | **私** two ways, sheltering under 公's `covers:` | 7 19 | E |
 | T2-20 | ⬜ | **巧** — *skill* (45) vs *cunning* (19, 57); the same fault as 辯, one line above it | 19 45 57 | E |
@@ -78,7 +79,7 @@
 | T3-2 | ⬜ | Seven 善X couplets, seven unlike shapes | 8 | D |
 | T3-3 | ⬜ | Three identical 當其無 frames rendered three ways; 利 and 用 lost | 11 | D |
 | T3-4 | ⬜ | Four 將欲X之，必固Y之 nominalized into abstract laws | 36 | D |
-| T3-5 | ⬜ | Three four-beat stanzas rendered as prose | 28 | D |
+| T3-5 | ✅ | ~~Three four-beat stanzas rendered as prose~~ — the 知其X/守其Y · 為天下Z · 常德不W · 復歸於V template restored | 28 | D |
 | T3-6 | ⬜ | The 得一 / 無以 mirror breaks at its sixth pair | 39 | D |
 | T3-7 | ⬜ | 寄/託 are a pair, rendered *entrusted with* / *truly care for* | 13 | D |
 | R1 | ⬜ | ★ **Harvest 韓非's 35 divergent lemmas into `variants.yaml`** — the oldest witness to this text, currently marked but unexploited | 1 27 36 38 46 47 50 54 58 59 60 63 64 67 | E |
@@ -86,7 +87,7 @@
 | | | **Tier 4 · Deferred by Shalom** | | |
 | T4-1 | ⏸ | **民 / 人** — one decision, whole book. Consider taking 身 (T2-1) with it. *Kin to T4-7* | 13 chapters | F |
 | T4-2 | ⏸ | **正 / 奇** — five Englishes | 37 45 57 58 78 | F |
-| T4-3 | ⏸ | **Em-dashes in the verse** — 17 lines | 10 14 15 28 29 43 44 51 53 55 58 | F |
+| T4-3 | ⏸ | **Em-dashes in the verse** — 15 lines *(ch 28's two went with its rewrite, not by decision)* | 10 14 15 29 43 44 51 53 55 58 | F |
 | T4-7 | ⬜ | ★ **Rank and gender — 大丈夫 · 君子 · 士.** Male rank-words dissolved in two opposite directions. Kin to T4-1 | 15 26 31 38 41 68 | F |
 | T4-4 | ⬜ | 剛 owed its own mention | — | E |
 | T4-5 | ⬜ | Glossary harvest — 一 名 希, plus ten new candidates | — | E |
@@ -360,3 +361,4 @@ Structure the Chinese has and the English does not. These are rewrites, and they
 | 2026-08-31 | **T1-3** — ch 3's closing movement rebuilt: 使 causatives restored, 治 at both ends, 為無為 unified with ch 63, 敢 and 常 applied. New standing principle: ***collocation carries a verdict***. 無為's forbidden list widened | `notes/translation.md` · `glossary/wuwei-無為.md` · Ch 3 |
 | 2026-08-31 | **T2-2 (ch 3)** — 智者 → **the knowers**; *cunning* off the chapter; the 智者/知者 fork and the 民 restoration in the third clause both recorded | `sources/variants.yaml` · `notes/manuscript.md` · `notes/translation.md` · Ch 3 |
 | 2026-08-31 | **T1-4** — ch 38 rebuilt: 失 restored as the chapter's spine, *clutches* (=執, absent) out, one English for 上 · 首/始 · 華/實, 以為 as the 2×2 grid, 大丈夫 → *the great person*. Opens **T4-7** (rank and gender) and T2-21 (厚) | `notes/translation.md` · `notes/manuscript.md` · `sources/variants.yaml` · `glossary/wuwei-無為.md` · Ch 38 |
+| 2026-09-01 | **T1-7 · T1-15 · T1-16 · T3-5 · T2-15** — ch 28 de-abstracted: **rooster/hen** (forced by 牝/牡), 谷 → *valley*, 制 → *cutting* · 割 → *severs*, 守 → *hold to*, 常 restored ×3, the template unbroken; ch 22 unified on 為天下式 | `notes/translation.md` · `notes/manuscript.md` · Ch 22/28 |

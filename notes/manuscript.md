@@ -72,6 +72,12 @@ We follow the second, on three grounds. **(1) The parallel with Chapter 37** is 
 
 ## Witness forks
 
+### Ch 28 · the stanza order is an editorial restoration
+
+Our vendored 王弼 (*Wáng Bì*) carries the Siku compilers' note on the opening block: 〔案**永樂大典此節在復歸於無極之後，據注仍宜在前**〕 — *"in the Yongle Dadian this section stands **after** 復歸於無極; on the evidence of the commentary it should still come first."* So the 雄/雌 stanza's position at the head of the chapter is **restored**, not simply transmitted, and the Ming encyclopaedia had it second.
+
+**Not in `sources/variants.yaml`**, for the same reason as ch 38's 處/居: the 永樂大典 (*Yǒnglè Dàdiǎn*, 1408) is not one of the schema's witness ids, it is neither excavated nor a named older transmitted recension, and forcing it into the `witnesses:` map would put a Ming encyclopaedia where the file promises a witness. 河上公 (*Héshàng Gōng*) has the same order as our base, so no listed witness diverges. **Nothing in our English turns on it** — the three stanzas are a template and each is self-contained — but the chapter's shape rests on a collation decision, and that is worth a reader knowing.
+
 ### Ch 38 · 扔 / 仍 — both graphs mean *pull*, and our English had said *force*
 
 Our base prints 攘臂而**扔**之. 河上公 (*Héshàng Gōng*)'s lemma reads **仍**, and the Siku 王弼 (*Wáng Bì*) carries the compilers' collation note 〔案**扔各本俱作仍**〕 — *"for 扔, all editions read 仍."* **Nothing turns on the choice**, and that is the point worth recording: 說文解字 glosses 扔 as **因也**, *"to draw along"*, and 仍 carries the same sense, which is why 河上公's own gloss is 攘臂**相仍引** — *"bare their arms and pull at one another"* (引, *to pull*). Our English read *"bares its arms and forces them,"* which follows **neither** graph. Both are about **pulling**. Recorded in `sources/variants.yaml`; the rendering is in `notes/translation.md`.

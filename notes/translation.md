@@ -149,6 +149,26 @@ Also rejected: **"effortless action"** — an interpretation smuggled into a ren
 
 ## Cross-chapter decisions
 
+### Ch 28 · the pointing test, failed on nearly every line
+
+*(2026-09-01, Pass D. `WORKLIST.md` T1-7 · T1-15 · T1-16 · T3-5, and the last of T2-15. The chapter's own Notes carry the line-by-line.)*
+
+**說文解字 makes almost every term in this chapter a physical object, and our English had made almost every one a concept** — *assertive energy · yielding energy · **reservoir** · the limitless · **master orchestrator** · **the great orchestrator*** — all in one register, the mechanistic with the modern spiritual idiom beside it. ***Energy* renders no character**: 氣 is not in the chapter.
+
+**雄/雌 → rooster and hen, and the forcing argument is distributional, not etymological.** 說文 defines the book's **two** male/female pairs in exactly parallel words in different animal classes — 雄 **鳥父**也 / 雌 **鳥母**也 (from 隹, a bird) against 牡 **畜父**也 / 牝 **畜母**也 (from 牛, cattle) — and **牝/牡 already hold *the male* and *the female*** in our English at ch 6, 55 and 61. So 雌/雄 must have their own words and the graph says which. *Cock* and *hen* are the exact English pair (a *cock pheasant*, a *hen harrier*) and *cock* is unusable; **the cost is that *rooster* is narrower than 雄, which is any male bird.** Both commentators read the pair as **position** — 王弼 雄先之屬，雌後之屬也; 河上公 雄以喻尊，雌以喻卑 — which is a reading for the note, not a rendering.
+
+**谷 → valley; *reservoir* was backwards.** 谷 is 泉出**通川**為谷 (*"a spring that runs through to a river"*) against 谿's 山瀆**無所通**者 (*"a watercourse with no outlet"*): **the two are distinguished on whether the water gets out**, and a reservoir holds it in. 谷 is already *valley* in six other chapters.
+
+**為天下X → "serve as the world's X"** — 為's own locked English — **closing T2-15's last pair**, with ch 22's *"sets a pattern for the world"* now reading *"serves as the world's pattern."* **守 → "hold to,"** matching ch 32 and 37 and not pre-empting T2-19; 說文 守官也，从宀从寸, *"to hold an office"* — a charge you are answerable for, where *attune to* inverted the grammar as well as the register. **白/黑 → white and black**, because 光 already holds *light* and 明 holds *clarity*. **無極 → the endless**, because *limitless* is wearing 淵 at ch 8 and both commentators gloss by **exhaustion** (不可窮也 / 無窮極).
+
+**The template is the chapter.** Three stanzas of 知其X，守其Y / 為天下Z / 為天下Z，常德不W / 復歸於V. Ours gave 守 four Englishes, 復歸於 three shapes, invented *we must*, and **dropped 常 — a locked term — from all three 常德**. That is T3-5, and it is the second chapter this pass to lose 常 (ch 3 was the first).
+
+**則為官長 — the grammar decides where the commentators split.** 河上公 has the sage **become** chief (聖人升用則為百官之元長也); 王弼 has the sage **establish** officers (為之立官長, reading 為 as *wèi*). **樸散則為器 is the identical 則為 one line above**, so if that is *becomes vessels*, this is *becomes chief*. This is ch 4's lesson run forward: check the grammar before concluding.
+
+**大制不割 → "the great cutting severs nothing" — a paradox the old English had erased.** 制 is already *cutting* at ch 32 and 說文 makes it a knife (裁也。从刀); 割 is a **different** cut (剥也, *to flay*), so it takes *sever*. *"The great orchestrator itself does not carve"* had put **one mechanistic word on two different characters** — 官長 and 大制 — and lost the knife inside both. 王弼: 大制者，以天下之心為心，故無割也.
+
+**Two em-dashes went with the rewrite, not as a decision. T4-3 stays deferred**; ch 28 simply leaves its list.
+
 ### Ch 38 · the 道 → 德 → 仁 → 義 → 禮 descent rebuilt, and the rank-word seam named
 
 *(2026-08-31, Pass D. `WORKLIST.md` T1-4. The chapter's own Notes carry the line-by-line.)*
