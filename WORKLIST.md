@@ -53,7 +53,7 @@
 | T1-21 | ⬜ | 配天 — the chapter and its own note disagree; the contested 天 line | 68 | F |
 | | | **Tier 2 · One character, many Englishes** | | |
 | T2-19 | ⬜ | ★ **The holding family — 守 執 保 有 collapsed into "hold."** 執 carries opposite valences and the English hides it | 5 9 14 15 16 28 29 32 35 37 52 62 64 67 69 74 79 | E |
-| T2-1 | ⬜ | **身** — *body* / *self* / *themselves*, and two of them inside ch 54 | 7 9 13 44 54 | E |
+| T2-1 | ⬜ | **身** — *body* / *self* / *themselves*, and two of them inside ch 54. *Ch 10 avoided the noun for 營魄; if 身 lands on* body*, revisit that line* | 7 9 13 44 54 | E |
 | T2-2 | 🔶 | **智** four ways; **ch 3 settled as *the knowers*, fork logged**; *"cunning"* still wears 巧 at 19 and 57 | 3 18 19 33 65 | E |
 | T2-3 | ⬜ | **士** three ways, two on the identical phrase 善為士者. *Rank question → T4-7* | 15 41 68 | E |
 | T2-4 | 🔶 | **氣** — ch 10 → *breath* (河上公 呼吸精氣); *vital breath* (42) and *vital energy* (55) still split | 10 42 55 | E |
