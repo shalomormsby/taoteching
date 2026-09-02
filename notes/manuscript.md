@@ -72,6 +72,14 @@ We follow the second, on three grounds. **(1) The parallel with Chapter 37** is 
 
 ## Witness forks
 
+### Ch 10 · two forks, and both sit on the lines our English had swapped
+
+**能為雌乎 / 能無雌乎.** We print 能**為**雌乎, *"can you be the hen?"* 河上公 (*Héshàng Gōng*) reads 能**無**雌乎, *"can you be **without** the hen?"* — the opposite instruction. And **our own vendored 王弼 (*Wáng Bì*) prints 無 in the lemma**, with the Siku compilers' collation note attached: 〔案**注義無似作為**〕 — *"by the sense of the commentary, 無 appears to be 為."* The commentary does settle it: 雌**應而不倡，因而不為**。言天門開闔，**能為雌乎**？ — *"the hen responds and does not lead off; she goes along and does not act. It says: when the gate of the sky opens and closes, can you be the hen?"* **So our 為 follows the Siku editors' own correction of the text they print**, and that had never been recorded.
+
+**能無為乎 / 能無知乎.** 河上公's text reads 能**無知**乎 at the sixth question — the same three characters he prints two questions earlier at 愛民治國 — so **his chapter asks the 無知 question twice and never asks the 無為 question at all.** He glosses this one 無有能知道滿於天下者, *"there is none who can know the Tao that fills the world."* 王弼 prints 無為 and glosses it 能無以為乎，則物化矣, quoting ch 37 verbatim. **We keep the base text.**
+
+**Why both are worth having.** Our English had 無知 and 無為 **on each other's lines** (`WORKLIST` T1-1), and the fork sits on exactly those two lines — so a reader who found the old English and went looking would have had no way to tell an error from a witness. Both recorded in `sources/variants.yaml`.
+
 ### Ch 28 · the stanza order is an editorial restoration
 
 Our vendored 王弼 (*Wáng Bì*) carries the Siku compilers' note on the opening block: 〔案**永樂大典此節在復歸於無極之後，據注仍宜在前**〕 — *"in the Yongle Dadian this section stands **after** 復歸於無極; on the evidence of the commentary it should still come first."* So the 雄/雌 stanza's position at the head of the chapter is **restored**, not simply transmitted, and the Ming encyclopaedia had it second.

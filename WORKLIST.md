@@ -16,7 +16,7 @@
 
 ## The list
 
-**⬜ open · 🔶 part done · ✅ done · ⏸ deferred by Shalom.** Detail for every row is below, under the matching heading. **69 item rows: 47 open · 17 done · 2 part done · 3 deferred.** *(Counted from the table itself — a hand-kept tally drifts. It read "43 open · 18 done" and matched nothing.)*
+**⬜ open · 🔶 part done · ✅ done · ⏸ deferred by Shalom.** Detail for every row is below, under the matching heading. **70 item rows: 45 open · 19 done · 3 part done · 3 deferred.** *(Counted from the table itself — a hand-kept tally drifts. It read "43 open · 18 done" and matched nothing.)*
 
 | # | | Item | Ch | Pass |
 |---|---|---|---|---|
@@ -30,7 +30,7 @@
 | PF | ⬜ | The deferred calls | 民/人 · 正/奇 · em-dashes | F |
 | PG | ⬜ | `build.py` | — | G |
 | | | **Tier 1 · Wrong, not merely inconsistent** | | |
-| T1-1 | ⬜ | 無知 and 無為 are on the wrong lines; 疵 dropped | 10 | D |
+| T1-1 | ✅ | ~~無知 and 無為 are on the wrong lines; 疵 dropped~~ — plus **全 · 萬物 · 鑑, three locked Englishes on a chapter that has none of them**; two forks logged | 10 | D |
 | T1-2 | ✅ | ~~道沖 inverted…帝 erased~~ — ch 4 rebuilt; **帝 locked to *god*, new entry**; closes T2-14c | 4 | D |
 | T1-3 | ✅ | ~~為無為 → *"Without effort"*; 敢 dropped~~ — ch 3's closing movement rebuilt; 治 restored at both ends; **`"effortless" / "without effort"` added to 無為's forbidden list** | 3 | D |
 | T1-4 | ✅ | ~~無為 → *"takes no action"*; 上 rendered two ways; invented *pure*~~ — ch 38 rebuilt; **失 restored as the chapter's spine**; 大丈夫 → *the great person* (Shalom's call); opens T4-7 | 38 | D |
@@ -48,7 +48,7 @@
 | T1-16 | ✅ | ~~雄/雌 → *"assertive/yielding energy"*~~ — **rooster and hen**, forced by 牝/牡 already holding *male* / *female* | 28 | D |
 | T1-17 | ⬜ | 明 → *"clever"* — the one licensed lock exception, unrecorded | 65 | E |
 | T1-18 | ⬜ | 佐 → *"One who rules"* — follows 河上公 against the grammar, unlogged | 30 | E |
-| T1-19 | ⬜ | 大器晚成 → *"never completed"* — English follows a witness our table doesn't carry | 41 | D |
+| T1-19 | ⬜ | 大器晚成 → *"never completed"* — English follows a witness our table doesn't carry. **Also *the countless things* with no 萬物 in the chapter** | 41 | D |
 | T1-20 | ⬜ | Four `unlogged-variant` warnings | 2 9 26 51 | E |
 | T1-21 | ⬜ | 配天 — the chapter and its own note disagree; the contested 天 line | 68 | F |
 | | | **Tier 2 · One character, many Englishes** | | |
@@ -56,9 +56,9 @@
 | T2-1 | ⬜ | **身** — *body* / *self* / *themselves*, and two of them inside ch 54 | 7 9 13 44 54 | E |
 | T2-2 | 🔶 | **智** four ways; **ch 3 settled as *the knowers*, fork logged**; *"cunning"* still wears 巧 at 19 and 57 | 3 18 19 33 65 | E |
 | T2-3 | ⬜ | **士** three ways, two on the identical phrase 善為士者. *Rank question → T4-7* | 15 41 68 | E |
-| T2-4 | ⬜ | **氣** — *life energy* / *vital breath* / *vital energy* | 10 42 55 | E |
+| T2-4 | 🔶 | **氣** — ch 10 → *breath* (河上公 呼吸精氣); *vital breath* (42) and *vital energy* (55) still split | 10 42 55 | E |
 | T2-21 | ⬜ | **厚** four ways — *thick* (38) · *heavy* (44) · *abundant* (55) · *rich* (75) | 38 44 50 55 75 | E |
-| T2-22 | ⬜ | **嬰兒 / 赤子** both read *newborn*; 嬰兒 also reads *infant*. Word gets chosen at ch 10 (T1-1) | 10 20 28 55 | E |
+| T2-22 | ✅ | ~~**嬰兒 / 赤子** both read *newborn*~~ — 嬰兒 → *infant* (10, 20, 28); 赤子 keeps *newborn* (55) | 10 20 28 55 | E |
 | T2-5 | ⬜ | **靜** reads *"Silence"* here alone | 26 | E |
 | T2-6 | ⬜ | **君** two ways three lines apart; 君子 → *"the sage"* — the opposition's honorific on our figure. *Rank question → T4-7* | 26 31 | E |
 | T2-7 | ⬜ | **志** — *ambition* (3) / *will* (33) | 3 33 | E |
@@ -88,6 +88,7 @@
 | T4-1 | ⏸ | **民 / 人** — one decision, whole book. Consider taking 身 (T2-1) with it. *Kin to T4-7* | 13 chapters | F |
 | T4-2 | ⏸ | **正 / 奇** — five Englishes | 37 45 57 58 78 | F |
 | T4-3 | ⏸ | **Em-dashes in the verse** — 15 lines *(ch 28's two went with its rewrite, not by decision)* | 10 14 15 29 43 44 51 53 55 58 | F |
+| T2-23 | ⬜ | **明白 / 白** — 白 is *the white* at ch 28 and inside the compound *clarity* at ch 10; check 明白 is bound | 10 28 41 | E |
 | T4-7 | ⬜ | ★ **Rank and gender — 大丈夫 · 君子 · 士.** Male rank-words dissolved in two opposite directions. Kin to T4-1 | 15 26 31 38 41 68 | F |
 | T4-4 | ⬜ | 剛 owed its own mention | — | E |
 | T4-5 | ⬜ | Glossary harvest — 一 名 希, plus ten new candidates | — | E |
@@ -362,3 +363,4 @@ Structure the Chinese has and the English does not. These are rewrites, and they
 | 2026-08-31 | **T2-2 (ch 3)** — 智者 → **the knowers**; *cunning* off the chapter; the 智者/知者 fork and the 民 restoration in the third clause both recorded | `sources/variants.yaml` · `notes/manuscript.md` · `notes/translation.md` · Ch 3 |
 | 2026-08-31 | **T1-4** — ch 38 rebuilt: 失 restored as the chapter's spine, *clutches* (=執, absent) out, one English for 上 · 首/始 · 華/實, 以為 as the 2×2 grid, 大丈夫 → *the great person*. Opens **T4-7** (rank and gender) and T2-21 (厚) | `notes/translation.md` · `notes/manuscript.md` · `sources/variants.yaml` · `glossary/wuwei-無為.md` · Ch 38 |
 | 2026-09-01 | **T1-7 · T1-15 · T1-16 · T3-5 · T2-15** — ch 28 de-abstracted: **rooster/hen** (forced by 牝/牡), 谷 → *valley*, 制 → *cutting* · 割 → *severs*, 守 → *hold to*, 常 restored ×3, the template unbroken; ch 22 unified on 為天下式 | `notes/translation.md` · `notes/manuscript.md` · Ch 22/28 |
+| 2026-09-01 | **T1-1 · T2-22** — ch 10: 無知/無為 unswapped, 疵 restored, and **三 locked Englishes lifted off a chapter that has none of their characters** (全 · 萬物 · 鑑). *Dark mirror* survives on 說文's 从見、監. Two forks logged; ch 51 unified on 長而不宰 | `sources/variants.yaml` · `notes/manuscript.md` · `notes/translation.md` · Ch 10/51 |

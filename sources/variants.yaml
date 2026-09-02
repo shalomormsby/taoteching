@@ -118,6 +118,39 @@
     both are about pulling, not force.
   logged: notes/manuscript.md
 
+- chapter: 10
+  line: "天門開闔，能為雌乎"
+  base: "為"
+  witnesses: { heshanggong: "無" }
+  meaning_bearing: true
+  our_call: base
+  note: >
+    We print 能為雌乎, "can you be the hen?" Heshang Gong's lemma reads 能無雌乎,
+    "can you be without the hen?" — the opposite instruction. And our own
+    vendored Wang Bi prints 無 in the lemma with the Siku compilers' collation
+    note attached: 〔案注義無似作為〕, "by the sense of the commentary, 無 appears
+    to be 為." Wang Bi's commentary settles it — 雌應而不倡，因而不為。言天門開闔
+    能為雌乎 — so our 為 follows the Siku editors' own correction of the text they
+    print. Logged because the reading had never been recorded, and because the
+    English turns on it completely.
+  logged: notes/manuscript.md
+
+- chapter: 10
+  line: "明白四達，能無為乎"
+  base: "無為"
+  witnesses: { heshanggong: "無知" }
+  meaning_bearing: true
+  our_call: base
+  note: >
+    Heshang Gong's text reads 能無知乎 here, the same three characters he prints
+    two questions earlier at 愛民治國, so his chapter asks the 無知 question twice
+    and never asks the 無為 question at all. He glosses this one 無有能知道滿於天下
+    者, "there is none who can know the Tao that fills the world." Wang Bi prints
+    無為 and glosses it 能無以為乎，則物化矣, quoting ch 37. We keep the base text.
+    Logged because our English had 無為 and 無知 on each other's lines, and the
+    fork sits on exactly those two lines.
+  logged: notes/manuscript.md
+
 - chapter: 21
   line: "道之為物，惟恍惟惚"
   base: "道之為物"

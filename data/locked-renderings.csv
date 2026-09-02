@@ -103,23 +103,23 @@ chapter,line,character,pinyin,locked_term,expected_rendering,rendering_present,a
 8,13,無,wú,無 & 有,absence,NOT FOUND,1.0,exact-count,It is always blameless.
 9,10,天,tiān,天,sky (as a tier) · nature / the natural (as an agent),yes,0.2,proportional-fill,"When the work is done, cease striving. This is the way of nature."
 9,10,道,dào,道,the Tao (left untranslated),NOT FOUND,0.2,proportional-fill,"When the work is done, cease striving. This is the way of nature."
-10,1,一,yī,一,the one (lowercase) · one thing (ch 22) · plain numeral where it counts,NOT FOUND,0.3,proportional,"Being embodied and embracing the one, can you remain whole?"
-10,2,無,wú,無 & 有,absence,NOT FOUND,0.3,proportional,"Flowing with life energy and achieving softness, can you be like a newborn?"
-10,5,玄,xuán,玄 & 妙,dark or profound,NOT FOUND,0.3,proportional,"Governing people with love, can you lead without doing?"
-10,6,無,wú,無 & 有,absence,NOT FOUND,0.2,proportional-fill,"Governing people with love, can you lead without doing?"
-10,8,無,wú,無 & 有,absence,NOT FOUND,0.3,proportional,"With an understanding that spans the four directions, can you be unknowing?"
-10,9,天,Tiān,天,sky (as a tier) · nature / the natural (as an agent),NOT FOUND,0.2,proportional-fill,"With an understanding that spans the four directions, can you be unknowing?"
-10,10,為,wéi,為,do / handle / serve as,NOT FOUND,0.3,proportional,"Birthing and nourishing the countless things,"
-10,11,明,Míng,明,clear-seeing / clarity,NOT FOUND,0.3,proportional,"Giving birth without possessing,"
-10,12,為,wéi,為,do / handle / serve as,NOT FOUND,0.2,proportional-fill,"Giving birth without possessing,"
-10,12,無,wú,無 & 有,absence,NOT FOUND,0.2,proportional-fill,"Giving birth without possessing,"
-10,13,生,Shēng,生,give birth to / bear / bring forth,NOT FOUND,0.3,proportional,"Acting yet relying on nothing,"
-10,14,有,yǒu,無 & 有,presence,NOT FOUND,0.3,proportional,Leading without mastering –
-10,14,生,shēng,生,give birth to / bear / bring forth,NOT FOUND,0.3,proportional,Leading without mastering –
-10,15,恃,shì,恃,rely on — the heart putting its weight on something,NOT FOUND,0.2,proportional-fill,Leading without mastering –
-10,15,為,wéi,為,do / handle / serve as,NOT FOUND,0.2,proportional-fill,Leading without mastering –
-10,17,德,dé,德,integrity,yes,0.2,proportional-fill,This is called profound integrity.
-10,17,玄,xuán,玄 & 妙,dark or profound,NOT FOUND,0.2,proportional-fill,This is called profound integrity.
+10,1,一,yī,一,the one (lowercase) · one thing (ch 22) · plain numeral where it counts,NOT FOUND,0.3,proportional,"Carrying the body's soul and embracing the one, can you keep them from parting?"
+10,2,無,wú,無 & 有,absence,NOT FOUND,0.3,proportional,"Gathering the breath to softness, can you be like an infant?"
+10,5,玄,xuán,玄 & 妙,dark or profound,NOT FOUND,0.3,proportional,"Loving the people and governing the state, can you be unknowing?"
+10,6,無,wú,無 & 有,absence,NOT FOUND,0.2,proportional-fill,"Loving the people and governing the state, can you be unknowing?"
+10,8,無,wú,無 & 有,absence,NOT FOUND,0.3,proportional,"Clarity reaching the four quarters, can you be non-doing?"
+10,9,天,Tiān,天,sky (as a tier) · nature / the natural (as an agent),NOT FOUND,0.2,proportional-fill,"Clarity reaching the four quarters, can you be non-doing?"
+10,10,為,wéi,為,do / handle / serve as,NOT FOUND,0.3,proportional,"Giving birth to things and rearing them,"
+10,11,明,Míng,明,clear-seeing / clarity,NOT FOUND,0.3,proportional,"giving birth without possessing,"
+10,12,為,wéi,為,do / handle / serve as,NOT FOUND,0.2,proportional-fill,"giving birth without possessing,"
+10,12,無,wú,無 & 有,absence,NOT FOUND,0.2,proportional-fill,"giving birth without possessing,"
+10,13,生,Shēng,生,give birth to / bear / bring forth,NOT FOUND,0.3,proportional,"acting yet relying on nothing,"
+10,14,有,yǒu,無 & 有,presence,NOT FOUND,0.3,proportional,growing them without ruling them –
+10,14,生,shēng,生,give birth to / bear / bring forth,NOT FOUND,0.3,proportional,growing them without ruling them –
+10,15,恃,shì,恃,rely on — the heart putting its weight on something,NOT FOUND,0.2,proportional-fill,growing them without ruling them –
+10,15,為,wéi,為,do / handle / serve as,NOT FOUND,0.2,proportional-fill,growing them without ruling them –
+10,17,德,dé,德,integrity,yes,0.2,proportional-fill,this is called profound integrity.
+10,17,玄,xuán,玄 & 妙,dark or profound,NOT FOUND,0.2,proportional-fill,this is called profound integrity.
 11,1,一,yī,一,the one (lowercase) · one thing (ch 22) · plain numeral where it counts,NOT FOUND,0.3,proportional,Thirty spokes meet in a single hub.
 11,2,無,wú,無 & 有,absence,NOT FOUND,0.3,proportional,"Through the emptiness at its center, the cart can roll."
 11,3,有,yǒu,無 & 有,presence,NOT FOUND,0.3,proportional,"Through the emptiness it contains,"
@@ -686,10 +686,10 @@ chapter,line,character,pinyin,locked_term,expected_rendering,rendering_present,a
 51,6,德,dé,德,integrity,NOT FOUND,0.3,proportional,"Giving birth without possessing,"
 51,6,生,shēng,生,give birth to / bear / bring forth,NOT FOUND,0.3,proportional,"Giving birth without possessing,"
 51,6,道,dào,道,the Tao (left untranslated),NOT FOUND,0.3,proportional,"Giving birth without possessing,"
-51,8,恃,shì,恃,rely on — the heart putting its weight on something,NOT FOUND,0.3,proportional,leading without mastering –
-51,8,有,yǒu,無 & 有,presence,NOT FOUND,0.3,proportional,leading without mastering –
-51,8,為,wéi,為,do / handle / serve as,NOT FOUND,0.3,proportional,leading without mastering –
-51,8,生,Shēng,生,give birth to / bear / bring forth,NOT FOUND,0.3,proportional,leading without mastering –
+51,8,恃,shì,恃,rely on — the heart putting its weight on something,NOT FOUND,0.3,proportional,growing them without ruling them –
+51,8,有,yǒu,無 & 有,presence,NOT FOUND,0.3,proportional,growing them without ruling them –
+51,8,為,wéi,為,do / handle / serve as,NOT FOUND,0.3,proportional,growing them without ruling them –
+51,8,生,Shēng,生,give birth to / bear / bring forth,NOT FOUND,0.3,proportional,growing them without ruling them –
 51,9,德,dé,德,integrity,yes,0.3,proportional,this is called profound integrity.
 51,9,玄,xuán,玄 & 妙,dark or profound,NOT FOUND,0.3,proportional,this is called profound integrity.
 52,1,天,Tiān,天,sky (as a tier) · nature / the natural (as an agent),NOT FOUND,0.3,proportional,"The world has an origin, which serves as the mother of the world. Find our mother, and you know her children."
