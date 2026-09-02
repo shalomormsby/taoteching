@@ -8,7 +8,7 @@
 
 **The first draft is complete — 81 of 81, since 2026-08-26. The editing pass is the work now.**
 
-**Progress: Pass 0 ✅ · Pass A ✅ · Pass B ✅ · Pass C ✅ (2026-08-31) — D–G open.** Pass D, the chapter-level rewrites, is the work now. Gate green: 0 errors, 95 tests, hard breaks intact, worklist consistent with itself.
+**Progress: Pass 0 ✅ · Pass A ✅ · Pass B ✅ · Pass C ✅ · Pass D 🔶 — 6 of 18 chapters (2026-09-02).** Pass D, the chapter-level rewrites, is the work now, and it has **one row per chapter** so they can be checked off one at a time. Done: **4 · 3 · 38 · 28 · 10**, plus **22 and 64** as the settled sides of formula pairs. Gate green: 0 errors, 102 tests, hard breaks intact, worklist consistent with itself.
 
 *Supersedes `RETROFIT.md` and `EDITING-PASS.md`, merged into this file on 2026-08-28 and both now deleted. This file is `RETROFIT.md` renamed, so `git log --follow WORKLIST.md` still reaches the project's start; the 2026-08-10 sweep record and the lessons it taught the checker moved to `PLAN.md`. Every item below was re-verified against the manuscript at the merge; the old file listed six repairs that had already been made.*
 
@@ -16,7 +16,7 @@
 
 ## The list
 
-**⬜ open · 🔶 part done · ✅ done · ⏸ deferred by Shalom.** Detail for every row is below, under the matching heading. **70 item rows: 45 open · 19 done · 3 part done · 3 deferred.** *(Counted from the table itself — a hand-kept tally drifts. It read "43 open · 18 done" and matched nothing.)*
+**⬜ open · 🔶 part done · ✅ done · ⏸ deferred by Shalom.** Detail for every row is below, under the matching heading. **88 item rows: 56 open · 26 done · 3 part done · 3 deferred.** *(18 of them are the per-chapter Pass D rows, whose status is derived.)* *(Counted from the table itself — a hand-kept tally drifts. It read "43 open · 18 done" and matched nothing.)*
 
 | # | | Item | Ch | Pass |
 |---|---|---|---|---|
@@ -25,7 +25,7 @@
 | PA | ✅ | **強 → strong**, completing the four-word table; 力 covered as *force* | 15 30 33 42 52 55 68 | A |
 | PB | ✅ | **仁 → humaneness · 慈 → tenderness · 孝 → devotion**; Guodian G1 closed | 5 18 19 20 38 | B |
 | PC | ✅ | ~~**The mirrors**~~ — every C-tagged row closed (T3-1, T2-9→14); T2-15's remainder moved to D with ch 28 and T1-8 | T3-1 · T2-9→15 | C |
-| PD | ⬜ | **Chapter-level rewrites** — the real work, 18 chapters (22 and 64 only as the settled side of T2-15's pairs). *Ch is the union of the D-tagged rows below — recompute, do not hand-edit* | 3 4 8 10 11 13 16 22 28 29 31 32 35 36 38 39 41 64 | D |
+| PD | 🔶 | **Chapter-level rewrites** — the real work. **6 of 18 done.** One row per chapter below, checked off one at a time | D3 → D64 | D |
 | PE | ⬜ | Entries and sweeps — **守 執 保** (T2-19 ★) · 身 氣 靜 君 士 智 事 志 谷 恃 | book-wide | E |
 | PF | ⬜ | The deferred calls | 民/人 · 正/奇 · em-dashes | F |
 | PG | ⬜ | `build.py` | — | G |
@@ -69,7 +69,7 @@
 | T2-12 | ✅ | ~~**以此** three ways~~ — all three now *"By this."*; two stale notes corrected | 21 54 57 | C |
 | T2-13 | ✅ | ~~**故去彼取此** three ways~~ — all three now ch 72's line; *gut* locked; *embrace* freed | 12 38 72 | C |
 | T2-14 | ✅ | ~~難得之貨 ×3 · 信不足焉 ×2 · 挫其銳…同其塵 ×2~~ — subject settled with T1-2: the Tao at ch 4, imperative at ch 56 | 3 4 12 17 23 56 64 | C |
-| T2-15 | 🔶 | Formula pairs — **5 closed**; 為天下式 unified at ch 22/28 (*serve as the world's pattern*). Only 為者敗之 left, with T1-8 | 22 28 29 64 | D |
+| T2-15 | 🔶 | Formula pairs — **5 closed**; 為天下式 unified at ch 22/28. Only 為者敗之 left, and it is ch 29's line that is wrong (ch 64 already reads *handle*) | 29 | D |
 | T2-16 | ⬜ | **事** wants an entry; 無事's licensed split needs confirming | 48 57 63 | E |
 | T2-17 | ⬜ | **私** two ways, sheltering under 公's `covers:` | 7 19 | E |
 | T2-20 | ⬜ | **巧** — *skill* (45) vs *cunning* (19, 57); the same fault as 辯, one line above it | 19 45 57 | E |
@@ -84,6 +84,25 @@
 | T3-7 | ⬜ | 寄/託 are a pair, rendered *entrusted with* / *truly care for* | 13 | D |
 | R1 | ⬜ | ★ **Harvest 韓非's 35 divergent lemmas into `variants.yaml`** — the oldest witness to this text, currently marked but unexploited | 1 27 36 38 46 47 50 54 58 59 60 63 64 67 | E |
 | R2 | ⬜ | **義 (yì) wants a glossary entry** — reads *duty* in all 5 lines, unlocked, and the atlas therefore publishes *righteousness* | 18 19 38 | E |
+| | | **Pass D · one row per chapter** — *status is derived from the finding rows above; `check_worklist.py` gates it* | | |
+| D3 | ✅ | ~~**Ch 3** — the closing movement had the opposite grammar; 治 dropped from its hinge~~ · T1-3 | 3 | D |
+| D4 | ✅ | ~~**Ch 4** — 道沖 inverted, 吾不知誰之子 untranslated, 帝 erased~~ · T1-2 | 4 | D |
+| D8 | ⬜ | **Ch 8** — eight 善 rendered eight ways; seven 善X couplets in seven shapes; 上善若水 · T2-8 · T3-2 | 8 | D |
+| D10 | ✅ | ~~**Ch 10** — 無知/無為 swapped, 疵 deleted, and three Englishes on absent characters~~ · T1-1 | 10 | D |
+| D11 | ⬜ | **Ch 11** — three identical 當其無 frames rendered three ways; 利 and 用 lost · T3-3 | 11 | D |
+| D13 | ⬜ | **Ch 13** — 無身 → *the separate self dissolves*, an Advaita import; 寄/託 are a pair · T1-10 · T3-7 | 13 | D |
+| D16 | ⬜ | **Ch 16** — 守 → *Embrace* (抱's word); *returns energy to its root* with no 氣 in the chapter; 復命. **Riders: 守 → *hold to* set at ch 28; *energy* purged at 28 and 10** · T1-6 · T1-13 · T2-18 | 16 | D |
+| D22 | ✅ | ~~**Ch 22** — 為天下式 → *serves as the world's pattern*~~; visited as the settled half of a formula pair · T2-15 | 22 | D |
+| D28 | ✅ | ~~**Ch 28** — the pointing test failed on nearly every line~~ · T1-7 · T1-15 · T1-16 · T3-5 | 28 | D |
+| D29 | ⬜ | **Ch 29** — 為 → *force* ×3, clashing with ch 64's *handle*; closes the last formula pair · T1-8 · T2-15 | 29 | D |
+| D31 | ⬜ | **Ch 31** — 左/右 as *creation*/*destruction*, then literal four lines later; 君子 → *the sage* · T1-9 | 31 | D |
+| D32 | ⬜ | **Ch 32** — the closing 譬…猶 simile is garbled · T1-14 | 32 | D |
+| D35 | ⬜ | **Ch 35** — 往 → *the world routes to you* ×2, mechanistic; 執 → *Embody*. **Rider: *embody* is quarantined here alone** · T1-12 | 35 | D |
+| D36 | ⬜ | **Ch 36** — four 將欲X之，必固Y之 nominalized into abstract laws · T3-4 | 36 | D |
+| D38 | ✅ | ~~**Ch 38** — the 道 → 德 → 仁 → 義 → 禮 descent; 失 deleted from its hinge~~ · T1-4 | 38 | D |
+| D39 | ⬜ | **Ch 39** — the 得一 / 無以 mirror breaks at its sixth pair · T3-6 | 39 | D |
+| D41 | ⬜ | **Ch 41** — 大器晚成 follows a witness our table doesn't carry; *the countless things* with no 萬物 · T1-19 | 41 | D |
+| D64 | ✅ | ~~**Ch 64** — already reads *handle*~~; the settled side of 為者敗之, nothing owed here | 64 | D |
 | | | **Tier 4 · Deferred by Shalom** | | |
 | T4-1 | ⏸ | **民 / 人** — one decision, whole book. Consider taking 身 (T2-1) with it. *Kin to T4-7* | 13 chapters | F |
 | T4-2 | ⏸ | **正 / 奇** — five Englishes | 37 45 57 58 78 | F |
@@ -105,15 +124,21 @@
 | T5-8 | ✅ | ~~`WORKLIST.md` keeps lists that restate its own table, ungated~~ — `check_worklist.py`, 16 tests, in CI | — | G |
 | T5-9 | ✅ | ~~`data/` is generated but nothing gates it~~ — atlas rebuilt-and-diffed in CI; `build_graph.py` made deterministic | — | G |
 
-**Why passes and not chapters.** Each pass closes **one decision and every chapter it touches**, in one sitting with the commentaries open, rather than walking 1→81 and re-opening the same argument twenty times.
+**Why passes and not chapters — and why Pass D is the exception.** Passes 0, A, B and C each closed **one decision and every chapter it touched**, in one sitting with the commentaries open, rather than walking 1→81 and re-opening the same argument twenty times. **Pass D is not that kind of pass.** It is chapter work by definition, so the principle that ordered the others does not order it, and it now carries one row per chapter.
 
-**Pass D is the real work and must not be rushed into a sweep.** Sixteen chapters needing rewrites, each a full `chapter-review` with the witnesses and the commentaries — plus ch 22 and ch 64, which are already sound and are visited only as the settled half of T2-15's two remaining formula pairs.
+**The order within Pass D, and what it costs.** Chapters 4, 3, 38, 28 and 10 were taken in that order for two reasons: **debt density** (ch 28 carried four Tier-1 rows; ch 10 carried a row that turned out to hide four more faults) and **rider chains** — a settled term leaves other chapters immediately inconsistent, and the cheapest moment to fix them is while the evidence is still open. Ch 28 settled 雌 → *the hen*, which put a live inconsistency into ch 10 that same minute; ch 10 followed.
 
-*A second copy of this table, headed "The order of work," sat lower in this file and was deleted on 2026-08-31. It had drifted: it listed Pass D as seventeen chapters including 15, 26 and 30 — none of which has a D-tagged row — while omitting 38, which does, and it still showed Pass C unstarted. **The pass rows above are the only copy.** The `Ch` column for `PD` is the union of the `Ch` values on the D-tagged rows; when a row's pass changes, recompute it rather than editing it by hand.*
+**The cost of that order is real and worth naming: a rider can sit open across several sittings, and nothing gates it.** `check_locks.py` cannot see it — a chapter that renders a term the old way passes every rule, because the rule keys off the character being present and the character *is* present. Only `--english` finds it, by hand (T5-4). **So riders are now written on the chapter rows themselves**, which is the cheapest place they will be seen.
+
+**Numeric order is the sound default from here**, and the one discipline worth keeping is: *when a chapter opens a rider on a named other chapter, close that rider next rather than at that chapter's turn.*
+
+**Pass D is the real work and must not be rushed into a sweep.** Each chapter is a full `chapter-review` with the witnesses and the commentaries open. **The per-chapter rows are derived, not hand-kept:** a `D<n>` row cannot be marked done while a finding row on that chapter is still open, and a finding row cannot name a chapter that has no `D<n>` row. `check_worklist.py` gates both, so the chapter list and the finding list cannot drift apart — which is what happened to the two hand-kept copies this table replaced.
+
+*A second copy of this table, headed "The order of work," sat lower in this file and was deleted on 2026-08-31. It had drifted: it listed Pass D as seventeen chapters including 15, 26 and 30 — none of which has a D-tagged row — while omitting 38, which does, and it still showed Pass C unstarted. **The pass rows above are the only copy.** `PD`'s `Ch` cell now **points at the per-chapter rows** rather than listing chapters, which is the behaviour `pass-chapters` exists to encourage: a row declining to keep a list cannot keep a stale one.*
 
 ### The harness — closed 2026-08-31
 
-**T5-8 · `tools/check_worklist.py`.** Four hand-kept lists went stale in three days and a person found every one by reading; `tools/` had no rule that read `WORKLIST.md` at all. Six rules, all enforcing something the file already says about itself: **pass-chapters** (a pass row's `Ch` is the union of its rows' `Ch`, and a cell that *points at rows* is never checked — declining to keep a list is the goal), **closed-pass** (no pass marked done over an open or part-done row; ⏸ does not block), **tally**, **pass-exists**, **duplicate-id**. 16 tests, each fixture a real failure this repo shipped. Wired into CI.
+**T5-8 · `tools/check_worklist.py`.** Four hand-kept lists went stale in three days and a person found every one by reading; `tools/` had no rule that read `WORKLIST.md` at all. Seven rules, all enforcing something the file already says about itself: **pass-chapters** (a pass row's `Ch` is the union of its rows' `Ch`, and a cell that *points at rows* is never checked — declining to keep a list is the goal), **closed-pass** (no pass marked done over an open or part-done row; ⏸ does not block), **chapter-row** and **chapter-cover** (added 2026-09-02 with the per-chapter Pass D rows: a chapter row is derived from its findings, and no finding may name a chapter that has no row — the pass filter is load-bearing, since ch 13 carries pass-D findings *and* 身 in pass E), **tally**, **pass-exists**, **duplicate-id**. 23 tests, each fixture a real failure this repo shipped. Wired into CI.
 
 **T5-9 · the atlas is gated, and `build_graph.py` is deterministic.** `data/constellation-chars.json` had **never agreed with `data/characters.csv`** — both entered in `2466b4d`, but the JSON was built from an older database than the CSV it shipped beside, so it published glosses the CSV had withdrawn (95 characters) and older wordings for 93 more (*"the sea"* against the CSV's *"sea"*). Nothing rebuilt it, and nothing compared them. CI now rebuilds `build_db → export → build_graph` and fails on `git diff --exit-code data/`, the same shape as the glossary gate. **That gate was only safe after fixing the generator:** `export.py` orders all 11 of its queries, `build_graph.py` ordered 1 of 8, so its row order came from SQLite's planner — stable on one machine, and exactly the kind of stability that breaks when the gate moves to another. Every query is now ordered and the co-occurrence map is emitted sorted, so the output is a function of the data alone. Verified: node and link **sets** are unchanged by the ordering fix; only order moved.
 
@@ -364,3 +389,4 @@ Structure the Chinese has and the English does not. These are rewrites, and they
 | 2026-08-31 | **T1-4** — ch 38 rebuilt: 失 restored as the chapter's spine, *clutches* (=執, absent) out, one English for 上 · 首/始 · 華/實, 以為 as the 2×2 grid, 大丈夫 → *the great person*. Opens **T4-7** (rank and gender) and T2-21 (厚) | `notes/translation.md` · `notes/manuscript.md` · `sources/variants.yaml` · `glossary/wuwei-無為.md` · Ch 38 |
 | 2026-09-01 | **T1-7 · T1-15 · T1-16 · T3-5 · T2-15** — ch 28 de-abstracted: **rooster/hen** (forced by 牝/牡), 谷 → *valley*, 制 → *cutting* · 割 → *severs*, 守 → *hold to*, 常 restored ×3, the template unbroken; ch 22 unified on 為天下式 | `notes/translation.md` · `notes/manuscript.md` · Ch 22/28 |
 | 2026-09-01 | **T1-1 · T2-22** — ch 10: 無知/無為 unswapped, 疵 restored, and **三 locked Englishes lifted off a chapter that has none of their characters** (全 · 萬物 · 鑑). *Dark mirror* survives on 說文's 从見、監. Two forks logged; ch 51 unified on 長而不宰 | `sources/variants.yaml` · `notes/manuscript.md` · `notes/translation.md` · Ch 10/51 |
+| 2026-09-02 | **Pass D restructured** — one row per chapter (D3…D64), so chapters check off one at a time; **`chapter-row` and `chapter-cover` added to `check_worklist.py`** so the chapter rows are derived rather than a second copy. PD's `Ch` now points at them. 7 tests, 102 total | `tools/check_worklist.py` · `tools/tests/test_check_worklist.py` · `WORKLIST.md` |

@@ -155,6 +155,78 @@ class Structure(unittest.TestCase):
         self.assertEqual([r.id for r in rows], ["PD", "T1-1"])
 
 
+class ChapterRows(unittest.TestCase):
+    """
+    Pass D got one row per chapter on 2026-09-02, so chapters could be checked
+    off one at a time. That put each chapter's status in two places — the
+    finding rows and the chapter row — which is the exact shape of every drift
+    this file already tests. These two rules make the chapter row derived.
+    """
+
+    def test_a_chapter_cannot_be_done_over_an_open_finding(self):
+        t = table(
+            row("PD", "🔶", "D3 → D16", "D"),
+            row("T1-6", "⬜", "16", "D"),
+            row("D16", "✅", "16", "D"),
+        )
+        self.assertIn("chapter-row", rules(t))
+
+    def test_a_chapter_closes_when_its_findings_do(self):
+        t = table(
+            row("PD", "🔶", "D3 → D16", "D"),
+            row("T1-6", "✅", "16", "D"),
+            row("D16", "✅", "16", "D"),
+        )
+        self.assertNotIn("chapter-row", rules(t))
+
+    def test_part_done_findings_also_block(self):
+        t = table(
+            row("PD", "🔶", "D29", "D"),
+            row("T2-15", "🔶", "29", "D"),
+            row("D29", "✅", "29", "D"),
+        )
+        self.assertIn("chapter-row", rules(t))
+
+    def test_another_pass_does_not_block_a_chapter_row(self):
+        # Ch 13 carries T1-10 in pass D and 身 (T2-1) in pass E. Only the
+        # first is the ch 13 rewrite; a rule counting both could never close.
+        t = table(
+            row("PD", "🔶", "D13", "D"),
+            row("PE", "⬜", "book-wide", "E"),
+            row("T1-10", "✅", "13", "D"),
+            row("T2-1", "⬜", "7 9 13 44 54", "E"),
+            row("D13", "✅", "13", "D"),
+        )
+        self.assertEqual(rules(t), [])
+
+    def test_a_chapter_with_no_findings_left_may_close(self):
+        # Ch 64 is in Pass D only as the settled side of a formula pair.
+        t = table(
+            row("PD", "🔶", "D64", "D"),
+            row("D64", "✅", "64", "D"),
+        )
+        self.assertEqual(rules(t), [])
+
+    def test_a_finding_on_a_chapter_with_no_row_is_caught(self):
+        t = table(
+            row("PD", "🔶", "D36", "D"),
+            row("T3-4", "⬜", "36 45", "D"),
+            row("D36", "⬜", "36", "D"),
+        )
+        self.assertIn("chapter-cover", rules(t))
+
+    def test_coverage_is_scoped_to_passes_that_have_chapter_rows(self):
+        # Pass E has no chapter rows, so its chapters demand none.
+        t = table(
+            row("PD", "🔶", "D16", "D"),
+            row("PE", "⬜", "book-wide", "E"),
+            row("T1-6", "⬜", "16", "D"),
+            row("T2-1", "⬜", "7 9 44 54", "E"),
+            row("D16", "⬜", "16", "D"),
+        )
+        self.assertEqual(rules(t), [])
+
+
 class LiveFile(unittest.TestCase):
     def test_the_real_worklist_is_consistent(self):
         findings, rows = cw.check(cw.WORKLIST.read_text(encoding="utf-8"))
