@@ -80,27 +80,27 @@ chapter,line,character,pinyin,locked_term,expected_rendering,rendering_present,a
 7,7,無,wú,無 & 有,absence,NOT FOUND,1.0,exact-count,Is it not because they have no private self?
 7,7,私,sī,公,the private / the private self,NOT FOUND,1.0,exact-count,Is it not because they have no private self?
 7,8,私,sī,公,the private / the private self,NOT FOUND,1.0,exact-count,And so their private self is fulfilled.
-8,1,善,shàn,善,masterful / masterful at · the masterful & the unmasterful (of people) · good (only where the text names the category),NOT FOUND,1.0,exact-count,Supreme goodness is like water.
-8,2,利,lì,無 & 有,advantage,NOT FOUND,1.0,exact-count,"Without contending, it nourishes the countless things."
-8,2,善,shàn,善,masterful / masterful at · the masterful & the unmasterful (of people) · good (only where the text names the category),NOT FOUND,1.0,exact-count,"Without contending, it nourishes the countless things."
-8,2,爭,zhēng,爭,contend / contention,yes,1.0,exact-count,"Without contending, it nourishes the countless things."
-8,2,物,wù,萬物,things / something,yes,1.0,exact-count,"Without contending, it nourishes the countless things."
-8,2,萬,wàn,萬物,countless,yes,1.0,exact-count,"Without contending, it nourishes the countless things."
-8,3,眾,zhòng,眾,the crowd / the many,yes,1.0,exact-count,It dwells where the crowd will not go.
-8,4,道,dào,道,the Tao (left untranslated),NOT FOUND,1.0,exact-count,And is therefore one with the Tao.
-8,5,善,shàn,善,masterful / masterful at · the masterful & the unmasterful (of people) · good (only where the text names the category),NOT FOUND,1.0,exact-count,"In a dwelling, it is a solid foundation."
-8,6,善,shàn,善,masterful / masterful at · the masterful & the unmasterful (of people) · good (only where the text names the category),NOT FOUND,1.0,exact-count,"In heart, it is limitless depth."
-8,6,心,xīn,心,heart,yes,1.0,exact-count,"In heart, it is limitless depth."
-8,7,仁,rén,仁,humaneness,NOT FOUND,1.0,exact-count,"In the act of giving, it is pure kindness."
-8,7,善,shàn,善,masterful / masterful at · the masterful & the unmasterful (of people) · good (only where the text names the category),NOT FOUND,1.0,exact-count,"In the act of giving, it is pure kindness."
-8,8,信,xìn,信,trust / trustworthy,yes,1.0,exact-count,"In speech, it is trustworthy."
-8,8,善,shàn,善,masterful / masterful at · the masterful & the unmasterful (of people) · good (only where the text names the category),NOT FOUND,1.0,exact-count,"In speech, it is trustworthy."
-8,9,善,shàn,善,masterful / masterful at · the masterful & the unmasterful (of people) · good (only where the text names the category),NOT FOUND,1.0,exact-count,"In governing, it is good order."
-8,10,事,shì,事,"affairs / undertakings (noun) · to serve, to attend to (verb)",yes,1.0,exact-count,"In daily affairs, it is skillful."
-8,10,善,shàn,善,masterful / masterful at · the masterful & the unmasterful (of people) · good (only where the text names the category),NOT FOUND,1.0,exact-count,"In daily affairs, it is skillful."
-8,11,善,shàn,善,masterful / masterful at · the masterful & the unmasterful (of people) · good (only where the text names the category),NOT FOUND,1.0,exact-count,"In action, it has good timing."
-8,12,爭,zhēng,爭,contend / contention,yes,1.0,exact-count,"Because it doesn’t contend,"
-8,13,無,wú,無 & 有,absence,NOT FOUND,1.0,exact-count,It is always blameless.
+8,1,善,shàn,善,masterful / masterful at · the masterful & the unmasterful (of people) · good (only where the text names the category),yes,1.0,exact-count,The most masterful are like water.
+8,2,利,lì,無 & 有,advantage,NOT FOUND,1.0,exact-count,Water is masterful at benefiting the countless things and does not contend.
+8,2,善,shàn,善,masterful / masterful at · the masterful & the unmasterful (of people) · good (only where the text names the category),yes,1.0,exact-count,Water is masterful at benefiting the countless things and does not contend.
+8,2,爭,zhēng,爭,contend / contention,yes,1.0,exact-count,Water is masterful at benefiting the countless things and does not contend.
+8,2,物,wù,萬物,things / something,yes,1.0,exact-count,Water is masterful at benefiting the countless things and does not contend.
+8,2,萬,wàn,萬物,countless,yes,1.0,exact-count,Water is masterful at benefiting the countless things and does not contend.
+8,3,眾,zhòng,眾,the crowd / the many,yes,1.0,exact-count,"It dwells in what the crowd loathes,"
+8,4,道,dào,道,the Tao (left untranslated),NOT FOUND,1.0,exact-count,and so is nearly the Tao.
+8,5,善,shàn,善,masterful / masterful at · the masterful & the unmasterful (of people) · good (only where the text names the category),yes,1.0,exact-count,"In settling, masterful at choosing ground."
+8,6,善,shàn,善,masterful / masterful at · the masterful & the unmasterful (of people) · good (only where the text names the category),yes,1.0,exact-count,"In the heart, masterful at staying deep."
+8,6,心,xīn,心,heart,yes,1.0,exact-count,"In the heart, masterful at staying deep."
+8,7,仁,rén,仁,humaneness,yes,1.0,exact-count,"In giving, masterful at humaneness."
+8,7,善,shàn,善,masterful / masterful at · the masterful & the unmasterful (of people) · good (only where the text names the category),yes,1.0,exact-count,"In giving, masterful at humaneness."
+8,8,信,xìn,信,trust / trustworthy,yes,1.0,exact-count,"In speech, masterful at trust."
+8,8,善,shàn,善,masterful / masterful at · the masterful & the unmasterful (of people) · good (only where the text names the category),yes,1.0,exact-count,"In speech, masterful at trust."
+8,9,善,shàn,善,masterful / masterful at · the masterful & the unmasterful (of people) · good (only where the text names the category),yes,1.0,exact-count,"In governing, masterful at order."
+8,10,事,shì,事,"affairs / undertakings (noun) · to serve, to attend to (verb)",yes,1.0,exact-count,"In affairs, masterful at what can be done."
+8,10,善,shàn,善,masterful / masterful at · the masterful & the unmasterful (of people) · good (only where the text names the category),yes,1.0,exact-count,"In affairs, masterful at what can be done."
+8,11,善,shàn,善,masterful / masterful at · the masterful & the unmasterful (of people) · good (only where the text names the category),yes,1.0,exact-count,"In moving, masterful at timing."
+8,12,爭,zhēng,爭,contend / contention,yes,1.0,exact-count,"Because it does not contend,"
+8,13,無,wú,無 & 有,absence,NOT FOUND,1.0,exact-count,there is no blame.
 9,10,天,tiān,天,sky (as a tier) · nature / the natural (as an agent),yes,0.2,proportional-fill,"When the work is done, cease striving. This is the way of nature."
 9,10,道,dào,道,the Tao (left untranslated),NOT FOUND,0.2,proportional-fill,"When the work is done, cease striving. This is the way of nature."
 10,1,一,yī,一,the one (lowercase) · one thing (ch 22) · plain numeral where it counts,NOT FOUND,0.3,proportional,"Housing your soul and embracing the one, can you keep these from parting?"

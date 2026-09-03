@@ -48,6 +48,23 @@
     as if it were news.
   logged: notes/manuscript.md
 
+- chapter: 8
+  line: "政善治"
+  base: "政"
+  witnesses: { heshanggong: "正" }
+  meaning_bearing: false
+  our_call: base
+  note: >
+    Heshang Gong's lemma prints 正 (zheng, straight/on the mark) where our base
+    prints 政 (zheng, government), and his gloss follows the graph he prints —
+    无有不洗，清且平也, "there is nothing it does not wash; clean and level,"
+    where 平 (level) answers 正. Barely a fork: Shuowen defines the one by the
+    other, 政，正也。从攴从正，正亦聲 — 政 is 正 with 攴 (a hand holding a
+    stick) added. We keep 政, rendered "governing," which also leaves 治 free
+    for "order" instead of colliding with it. Wang Bi is not vendored for this
+    chapter, so there is no third reading to weigh.
+  logged: notes/manuscript.md
+
 - chapter: 52
   line: "是謂襲常"
   base: "襲"

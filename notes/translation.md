@@ -2139,3 +2139,60 @@ Hence **"Having done for others, they have more. / Having given to others, they 
 **是以聖人猶難之** (*shì yǐ shèng rén yóu nán zhī* — "so the sage still finds it difficult"). Ch 63 was close; **ch 73 read *"Even the sage finds this hard,"* which attaches 猶** (*yóu* — still, even so) **to 聖人 rather than to 難**. The Chinese says the sage still treats the thing as difficult, not that even a sage finds it hard — a difference between a practice and a concession. Both now read identically, and *hard* gives way to *difficult*, which ch 63 uses four times in its 難/易 (*nán/yì* — difficult/easy) pairs.
 
 **為天下式** (*wéi tiān xià shì* — "serve as a pattern for the world") **was deliberately left.** Ch 22 reads *"sets a pattern for the world"*; ch 28 has it twice as *"Embody the pattern of the world."* Fixing it alone would mean touching ch 28 twice, since that chapter's three four-beat stanzas have to move as a unit — 守 is wrong in all three (`WORKLIST` T1-7), 常 is missing from all three 常德, and 谷/谿/官長 are open at T1-15. Deferred to the chapter's Pass D rewrite.
+
+---
+
+## Ch 8 — 善's showcase, and the grammar that decides it, 2026-09-02
+
+*Pass D. `WORKLIST.md` T2-8 and T3-2, both closed.*
+
+### 善 governs a verb — eighteen out of eighteen, and that is a standing principle
+
+**X善Y admits two parses in classical Chinese** — 善 (*shàn* — masterful) as a verb taking Y (*"masterful **at** Y"*), or 善 as an adjective modifying Y (*"masterful Y"*) — and **nothing inside ch 8's seven couplets settles it**, because those seven are the only place in the book where what follows 善 could pass for a noun.
+
+**The other eighteen instances settle it, unanimously.** 善行 (*travel*) · 善言 (*speak*) · 善計 (*reckon*) · 善閉 (*shut*) · 善結 (*tie*) · 善救 ×2 (*rescue*) — all ch 27 · 善為 ×2 (*handle*, 15, 65) · 善貸 (*give*, 41) · 善攝 (*nurture*, 50) · 善建 (*establish*) · 善抱 (*embrace*) — 54 · 善下 (*go below*, 66) · 善戰 (*fight*) · 善勝 ×2 (*overcome*) · 善用 (*use*) — 68, 73 · 善應 (*respond*) · 善謀 (*plan*) — 73. **Eighteen verbs, zero nouns.** Ch 8 sets the pattern in its own chapter four lines above the stanza, with 水善**利**萬物, where 利 (*lì* — to benefit) is unambiguously verbal.
+
+**The adjectival parse also fails on its own terms.** It yields *masterful order*, *masterful ability*, *masterful timing* — which read — and *masterful ground*, *masterful depth*, *masterful humaneness*, *masterful trust* — which do not. **It works only where Y is already a skill word.** A reading that survives three of seven loses to one that survives all seven, and taking it for a single line would break the parallel the rewrite exists to restore.
+
+**The general principle, worth keeping past this chapter: when a construction is ambiguous in one place, count it everywhere else.** The `--english` reverse check finds an English attached to an absent character; this is its grammatical twin — a *parse* attached to one line, checked against the same construction across the book. `concordance.py 善 | grep -oE "善[一-鿿]" | sort | uniq -c` is the whole method.
+
+### Supply a verb where the object names a place — and only there
+
+**A second standing principle, and it is the first one's other half.** Having established that 善 governs a verb, the first draft rendered all seven objects as bare nouns: *masterful at ground · at depth · at humaneness · at trust · at order · at what can be done · at timing*. **English *masterful at X* requires X to name an activity.** It holds where the noun is a quality or a practice — 仁, 信, 治, 能, 時 — and **collapses where the noun is a place**: *"masterful at ground"* communicates nothing, and 淵 (*yuān* — a deep pool) is a place too. A stance verb is supplied at those two and nowhere else: **choosing ground**, **staying deep**.
+
+**Ch 66 is the precedent and it predates this chapter.** 善下之 already reads *"masterful at **staying** below them"* — 下 (*xià* — below) is a position, and the English supplies the verb. Ch 61 does the same with *staying low*. **A supplied verb is scaffolding, not a character's English**, so *staying* can serve both 下 and 淵 without either losing its word. **The general rule: where the Chinese object is a position and the English needs a verb, supply a stance verb and name it — do not let the noun stand bare and hope.**
+
+**Run the reverse check on the supplied word too, not just on the rendering.** It rejected two obvious candidates here: *keeping trust*, because *keep* is 全 (*quán* — whole)'s declared render and the manuscript already carries **nine unbacked *keeps***, and *bringing order*, because *bring* belongs to 生 (*shēng* — to give birth) and is unbacked seven times. **擇 (*zé* — to choose) and 選 (*xuǎn* — to select) have zero occurrences in the book**, so *choosing* was free. *(Both of those unbacked piles are pre-existing and now visible; neither is swept here.)*
+
+### The chapter, line by line
+
+**幾 (*jī*) is an adverb of degree, and two drafts running made it a verb.** 故幾於道 read *"And is therefore **one with** the Tao"* — identity for a hair's breadth — and the first repair over-corrected to *"comes near the Tao,"* which put the Tao at a distance and sent water travelling to it. **Caught by Shalom on the second, and the diagnosis is grammatical: 幾於道 contains no verb.** 說文: 微也。殆也, from 𢆶 (*yōu* — fine silk threads) under 戍 (*shù* — a garrison guard), which the entry spells out as 危也. Its second gloss is 殆 (*dài*), locked to **danger** on 2026-08-31.
+
+**The book's other three 幾 are all degree, and none of them moves** — ch 69's 幾喪 → *"nearly costs"*, ch 64's 幾成 → *"just short of completing"*, ch 20's 幾何 → *"how much distance"*. **When a rendering is contested, count the character's other lines before arguing about the word.** It settled this in one command.
+
+**The frame is sameness, not location, and ch 23 prints it bare seven times.** 河上公 glosses ch 8's line 水性幾與道**同**, *"nearly the **same** as the Tao"* — 幾 as an adverb on the stative 同 (*tóng* — the same) — and ch 23 has 同於道 (*"the same as the Tao"*) with no degree word at all. **幾於道 is 同於道 with a hair's breadth inserted**, and 於 (*yú*) is the relational particle, *with respect to*, never *toward*. Final: ***"and so is nearly the Tao."***
+
+***Like the Tao* was proposed and declined.** It deletes 故 (*gù* — therefore, the chapter's inference, twice present), deletes 幾, **collides with 若 (*ruò* — like) in this chapter's own opening line** (上善若水), and moves the predication from water's nearness onto the Tao's dwelling. **A simile word cannot render a degree word**, even when both hedge.
+
+**Rider opened: ch 23's 同於道 ×7 reads *"merges with the Tao."*** The same defect Shalom caught here — a word meaning *be the same as* rendered as a verb of motion and mixing. Opened as T2-25.
+**上善 → *the most masterful*** (Shalom's call). 上 (*shàng* — highest) is settled at ch 38's 上德/上仁/上義/上禮; *good* is reserved by the lock for chapters 2, 20 and 58, where the book **attacks** the category, so using it here would make ch 8 endorse what ch 2 dismantles. Follows 河上公's person-reading, 上善之人如水之性. **Cost: it decides that 上善 is a person rather than the quality.** Full argument in `glossary/shan-善.md`.
+
+**A rank word is not an authenticity word.** *True mastery* was proposed for 上善 and declined: 真 (*zhēn* — genuine) is live in this book at 21, 41 and 54, *true* already wears 真, 貞 and nothing at all across three lines, and **上 presupposes *lower* where *true* presupposes *false*** — a different axis, and a moral one. 上 is graded, and ch 41 prints the middle rung (上士/中士/下士). Kin to T4-7, the rank question.
+
+**能 → *what can be done*, built from *can*.** 能 (*néng* — able) has 32 lines in 17 chapters and **31 are the plain modal *can***; ch 8's is the only noun in the book. *Ability* was a Latinate abstraction imported for that one line and stacked a second abstract noun beside *masterful*. **When a character is a verb almost everywhere, its one nominal use should be built from the verb's own English, not from a thesaurus.** *Action* was proposed and fails twice: 動 (*dòng* — to move) is the action word in the next line, and *action* already wears 行, 作, 事 (locked to *affairs*) and nothing at all across ch 12, 16, 23, 30 and 37. Cost: a slight drift of the capacity from the agent to the situation.
+
+**利 → *benefiting*; *nourishes* was 養's English.** *Nourish* appears at ch 34 (衣**養**萬物) and ch 51 (**養**之覆之), both 養 (*yǎng*), **absent here**. 利 already reads *benefit* at 19, 56, 73 and 81, including 81's 利而不害 — the same 而 construction. Found by `--english`, invisible to `check_locks`.
+
+**惡 read *wù*, and 河上公 marks it.** 處眾人之所惡 had read *"where the crowd will not go"* — avoidance for loathing. His *fanqie* note 惡烏路反 fixes the reading as the verb *to detest*, and his gloss names what is detested: 衆人惡卑濕垢濁, *"the low, the damp, the dirty and the turbid."*
+
+**仁 → *humaneness*, the lock.** *"Pure kindness"* breached it and invented *pure*. `check_locks.py` was silent because *kindness* is not on 仁's `forbidden:` list — **the same blind spot that hid ch 38's *clutches at***, and an argument for T5-3.
+
+**尤 is a hapax, and *always blameless* lost both halves.** 常 (*cháng* — the ever-present) has zero occurrences here, so *always* rendered nothing; 尤 (*yóu* — blame) appears once in all 81 chapters and means fault-finding, not moral purity. Kept **agentless** — 無尤 is agentless, and 河上公 supplies the agents (天下无有怨尤水者也) rather than the text.
+
+**居 and 處 are near-twins and the seam is named.** 說文: 處 is 止也。得几而止 (*"to stop; to find a stool and stop"*), 居 is 蹲也 (*"to squat"*). 處 keeps *dwells* — its English at 24, 31, 38, 76 — and 居 takes ***settling***, 說文's squat. **This is the ch 38 collation note paying out** (`notes/manuscript.md`): the alternation may not be original, so the English is free to use one verb or two without straining.
+
+### Left open, deliberately
+
+**淵 (*yuān* — a deep pool) reads three ways** — *fathomless* (4), *depth* (8), *the deep abyss* (36) — and 說文 makes it **banked** water: 回水也…左右，岸也, *"swirling water… left and right are the banks."* That is why a fish cannot leave one at ch 36, and why *limitless* was precisely backwards. *Depth* is a holding move at ch 8; settling the term properly creates riders at ch 4 (rebuilt 2026-08-31) and ch 36. Opened as T2-24.
+
+**The mistake worth keeping.** A first draft of the 上善 argument claimed ch 8 stages an 上/下 descent **lexically**. It does not: 下 (*xià* — below) has **zero occurrences** in the chapter. The descent is real but carried by low nouns — 地 (*dì* — ground), 淵 — and by 所惡; the 下 and the 卑 (*bēi* — low) I cited were 河上公's words, not the text's. The explicit pair lives at ch 66 (善下之) and ch 76 (強大處下，柔弱處上). Caught by Shalom. **A commentator's gloss is not the text — the second time this file has had to record that, and the first was ch 24.**

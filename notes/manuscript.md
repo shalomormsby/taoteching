@@ -114,6 +114,16 @@ It is recorded here because it **licenses a rendering decision**: the two verbs 
 
 河上公's lemma reads 似**若**存, and the Siku edition of 王弼 carries the collation note 〔案或一作若〕 — *"for 或, one edition reads 若."* 或 (*huò* — perhaps) and 若 (*ruò* — as if) are hedges of the same force, so **nothing turns on it**: the line carries a doubled hedge, 似 plus one of them, under either reading. Recorded so it is not rediscovered later as if it were news, since the line was rewritten on 2026-08-31. *(Ch 4 is **not attested at Guodian**; it rests on the silks and later.)*
 
+### Ch 8 · 政善治 / 正善治 — and 說文 defines one as the other
+
+**Found 2026-09-02, reviewing the chapter.** Our base text (王弼, *Wáng Bì*) prints 政善治 with 政 (*zhèng* — government, administration); 河上公 (*Héshàng Gōng*)'s lemma prints **正**善治 with 正 (*zhèng* — straight, on the mark). His gloss fits the graph he prints: 无有不洗，清且平也 — *"there is nothing it does not wash; clean and **level**,"* where 平 (*píng* — level) answers 正 rather than 政.
+
+**It is barely a fork, and 說文解字 is why.** It defines the one by the other: **政，正也。从攴从正，正亦聲** — *"政 is 正; from 攴 (*pū* — a hand holding a stick) and 正, and 正 also gives the sound."* 政 is 正 with the stick added — the same word, with enforcement attached. Nothing in the line's sense turns on which is printed, though the pair are not identical in force, and the stick is exactly what this chapter's water does without.
+
+**We keep the base text's 政**, rendered *governing*, which leaves 治 (*zhì* — to order) free for *order* — as at ch 64's 治之於未亂 — instead of colliding with it. 王弼 is **not vendored for ch 8**: the Siku transcription is unproofread for ten chapters, this among them, so the chapter has one classical commentary and not two.
+
+**This does not touch T4-2**, the deferred 正 / 奇 (*zhèng / qí* — straight / crooked) call. That is a question about how 正 is rendered where we print it; this is a question about which graph is printed, and logging a fork settles nothing about the other.
+
 ### Ch 19 · 絕聖棄智 / 絕仁棄義 — the oldest witness does not attack the Confucians
 
 **The best-known meaning-bearing divergence in the whole Guodian Laozi, and it sits in a chapter we drafted with the apparatus silent.** Recorded 2026-08-28; this closes `PLAN.md` → G1.
