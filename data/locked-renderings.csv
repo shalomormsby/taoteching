@@ -270,18 +270,18 @@ chapter,line,character,pinyin,locked_term,expected_rendering,rendering_present,a
 22,15,全,quán,全,whole · stay whole · keep whole (transitive),yes,0.2,proportional-fill,"When the ancients said ""bend, and stay whole,"" were those empty words?"
 22,15,曲,qū,全,bend / bent,yes,0.2,proportional-fill,"When the ancients said ""bend, and stay whole,"" were those empty words?"
 22,17,全,quán,全,whole · stay whole · keep whole (transitive),yes,0.2,proportional-fill,These words hold. Return to them. Stay whole.
-23,4,天,Tiān,天,sky (as a tier) · nature / the natural (as an agent),NOT FOUND,0.3,proportional,Who acts this way? Sky and earth.
-23,4,為,wèi,為,do / handle / serve as,NOT FOUND,0.3,proportional,Who acts this way? Sky and earth.
-23,5,天,Tiān,天,sky (as a tier) · nature / the natural (as an agent),NOT FOUND,0.3,proportional,"If sky and earth can’t sustain intensity for long, how much less can we?"
-23,7,事,shì,事,"affairs / undertakings (noun) · to serve, to attend to (verb)",NOT FOUND,0.3,proportional,"Therefore, the one who aligns their actions with the Tao merges with the Tao,"
-23,7,道,dào,道,the Tao (left untranslated),NOT FOUND,0.3,proportional,"Therefore, the one who aligns their actions with the Tao merges with the Tao,"
-23,8,道,dào,道,the Tao (left untranslated),NOT FOUND,0.2,proportional-fill,"Therefore, the one who aligns their actions with the Tao merges with the Tao,"
-23,9,德,Dé,德,integrity,yes,0.3,proportional,"Whoever acts with integrity merges with integrity,"
-23,9,德,dé,德,integrity,yes,0.3,proportional,"Whoever acts with integrity merges with integrity,"
-23,11,道,dào,道,the Tao (left untranslated),NOT FOUND,0.2,proportional-fill,Whoever loses merges with the loss.
-23,12,道,Dào,道,the Tao (left untranslated),NOT FOUND,0.3,proportional,"Those merged with the Tao, the Tao gladly receives."
-23,13,德,dé,德,integrity,NOT FOUND,0.2,proportional-fill,"Those merged with the Tao, the Tao gladly receives."
-23,14,德,Dé,德,integrity,yes,0.3,proportional,"Those merged with integrity, integrity gladly receives."
+23,4,天,Tiān,天,sky (as a tier) · nature / the natural (as an agent),NOT FOUND,0.2,proportional-fill,and a downpour does not last out the day.
+23,4,為,wèi,為,do / handle / serve as,yes,0.2,proportional-fill,and a downpour does not last out the day.
+23,5,天,Tiān,天,sky (as a tier) · nature / the natural (as an agent),NOT FOUND,0.3,proportional,Who does this? Sky and earth.
+23,7,事,shì,事,"affairs / undertakings (noun) · to serve, to attend to (verb)",NOT FOUND,0.3,proportional,How much less a person?
+23,7,道,dào,道,the Tao (left untranslated),NOT FOUND,0.3,proportional,How much less a person?
+23,8,道,dào,道,the Tao (left untranslated),NOT FOUND,0.2,proportional-fill,How much less a person?
+23,9,德,Dé,德,integrity,NOT FOUND,0.3,proportional,So one whose affairs follow the Tao is the same as the Tao.
+23,9,德,dé,德,integrity,NOT FOUND,0.3,proportional,So one whose affairs follow the Tao is the same as the Tao.
+23,11,道,dào,道,the Tao (left untranslated),NOT FOUND,0.2,proportional-fill,One of integrity is the same as integrity.
+23,12,道,Dào,道,the Tao (left untranslated),NOT FOUND,0.3,proportional,One of loss is the same as loss.
+23,13,德,dé,德,integrity,NOT FOUND,0.3,proportional,"Those the same as the Tao, the Tao too gladly gets them."
+23,14,德,Dé,德,integrity,yes,0.3,proportional,"Those the same as integrity, integrity too gladly gets them."
 23,17,信,Xìn,信,trust / trustworthy,yes,0.3,proportional,"Where trust runs short, there is no trust."
 23,18,信,xìn,信,trust / trustworthy,yes,0.2,proportional-fill,"Where trust runs short, there is no trust."
 23,18,有,Yǒu,無 & 有,presence,NOT FOUND,0.2,proportional-fill,"Where trust runs short, there is no trust."

@@ -124,6 +124,18 @@ It is recorded here because it **licenses a rendering decision**: the two verbs 
 
 **This does not touch T4-2**, the deferred 正 / 奇 (*zhèng / qí* — straight / crooked) call. That is a question about how 正 is rendered where we print it; this is a question about which graph is printed, and logging a fork settles nothing about the other.
 
+### Ch 23 · three facts on one chapter — a dropped 道者, a 得/失 swap, and a Ming witness without 樂
+
+**Found 2026-09-03, rebuilding the chapter. `--witnesses 23` had reported nothing: nobody had looked.**
+
+**1. 王弼's own lemma reads 道者 where our base text does not.** Our base prints 故從事於道者，同於道 (*"so one who attends to affairs by the Tao is the same as the Tao"*); the vendored 王弼 (*Wáng Bì*) prints **故從事於道者，道者同於道**. With the extra 道者 (*dào zhě* — "the Tao-one") the stanza is a clean three-term parallel — 道者同於道；德者同於德；失者同於失 — and **without it the first line is a different shape from the two that follow.** The asymmetry is in the Chinese, not only in the English. *(This chapter's own note on 德 has been quoting the three-term version since 2026-08-31, i.e. quoting a text we do not print — corrected with this pass.)* **Not meaning-bearing:** the sense of the line is identical either way. **We keep the base text**, and the English mirrors its asymmetry rather than silently repairing it.
+
+**2. 河上公's third line reads 失亦樂失之, not 失亦樂得之** — *"loss too gladly **loses** them"* against our *"loss too gladly **gets** them."* His gloss follows the graph he prints: 與失同者，失亦樂**失**之也. **Meaning-bearing, and the difference is real**: our base makes loss an acquirer, closing the three-term pattern (道 gets you, 德 gets you, 失 gets you); 河上公's makes loss a loser, so that what you get from loss is more losing. **We keep the base text**, on the parallel — 樂得之 stands in the first two lines under both readings, and breaking it in the third is the harder claim to justify than keeping it. The reading is recorded because it is the sort of thing that gets rediscovered as news.
+
+**3. A Ming witness without 樂, deliberately not in the apparatus.** The Siku 王弼 carries 〔案**永樂大典無樂字**下二句同〕 — *"the Yongle Dadian lacks the character 樂 (lè — glad); the same for the two lines below."* The 永樂大典 (*Yǒnglè Dàdiǎn*, 1408) is a **Ming** encyclopedia, so this is a report of a lost reading and not an older witness. **It is not in `sources/variants.yaml`** — there is no honest witness id for it, exactly as with 焦竑's four 處 at ch 38. Recorded here because it would change the lines materially if true: without 樂, 道亦得之 is simply *"the Tao gets them too,"* and the gladness — which is what makes the third line bite — is ours by transmission rather than by the oldest text.
+
+**4. 故 at 故飄風不終朝.** The Siku 王弼 also carries 〔案河上公注本及各本俱無故字〕 — *"the Heshang Gong commentary edition and all editions lack the character 故 (gù — therefore)."* **Our vendored 河上公 confirms it**: his lemma is 飄風不終朝驟雨不終日, with no 故. Not meaning-bearing — the inference holds with or without the connective — but it is checkable against a witness we hold, so it is in the apparatus.
+
 ### Ch 19 · 絕聖棄智 / 絕仁棄義 — the oldest witness does not attack the Confucians
 
 **The best-known meaning-bearing divergence in the whole Guodian Laozi, and it sits in a chapter we drafted with the apparatus silent.** Recorded 2026-08-28; this closes `PLAN.md` → G1.

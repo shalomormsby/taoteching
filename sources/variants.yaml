@@ -65,6 +65,51 @@
     chapter, so there is no third reading to weigh.
   logged: notes/manuscript.md
 
+- chapter: 23
+  line: "故從事於道者，同於道"
+  base: "同於道"
+  witnesses: { wangbi: "道者同於道" }
+  meaning_bearing: false
+  our_call: base
+  note: >
+    The vendored Wang Bi lemma prints 故從事於道者，道者同於道, with a 道者
+    ("the Tao-one") our base text lacks. With it the stanza is a clean
+    three-term parallel, 道者同於道；德者同於德；失者同於失; without it the
+    first line has a different shape from the two that follow. The sense of
+    the line is the same either way, so not meaning-bearing. We keep the base
+    text and let the English mirror its asymmetry rather than silently
+    repairing it.
+  logged: notes/manuscript.md
+
+- chapter: 23
+  line: "同於失者，失亦樂得之"
+  base: "得"
+  witnesses: { heshanggong: "失" }
+  meaning_bearing: true
+  our_call: base
+  note: >
+    Heshang Gong's lemma and gloss both read 失亦樂失之, "loss too gladly loses
+    them," against our 失亦樂得之, "loss too gladly gets them." Our base closes
+    the three-term pattern (the Tao gets you, integrity gets you, loss gets
+    you); his breaks it in the third term, so that what loss gives you is more
+    losing. We keep the base text on the parallel, which is the harder thing to
+    break than to keep.
+  logged: notes/manuscript.md
+
+- chapter: 23
+  line: "故飄風不終朝"
+  base: "故"
+  witnesses: { heshanggong: "—" }
+  meaning_bearing: false
+  our_call: base
+  note: >
+    Heshang Gong's lemma opens 飄風不終朝 with no 故 (gu, therefore), and the
+    Siku Wang Bi carries the collation note 〔案河上公注本及各本俱無故字〕,
+    "the Heshang Gong commentary edition and all editions lack the character
+    故." The inference holds with or without the connective. Logged because it
+    is checkable against a witness we hold.
+  logged: notes/manuscript.md
+
 - chapter: 52
   line: "是謂襲常"
   base: "襲"

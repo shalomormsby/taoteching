@@ -261,22 +261,22 @@ chapter,line,block,chinese,pinyin,literal_gloss,our_english,alignment_method
 22,15,4,古之所謂「曲則全」者，,"Gǔ zhī suǒ wèi ""qū zé quán"" zhě,","The ancients' \[gu zhi\] so-called \[suo wei\] ""bent then whole"" \[qu ze quan\] those \[zhe\],","When the ancients said ""bend, and stay whole,"" were those empty words?",proportional-fill
 22,16,4,豈虛言哉！,Qǐ xū yán zāi\!,How could it be \[qi\] empty \[xu\] words \[yan\] alas \[zai\]\!,These words hold. Return to them. Stay whole.,proportional
 22,17,4,誠全而歸之。,Chéng quán ér guī zhī.,Truly \[cheng\] whole/complete \[quan\] and \[er\] return \[gui\] to it \[zhi\].,These words hold. Return to them. Stay whole.,proportional-fill
-23,1,1,希言自然。,Xī yán zì rán.,Sparse/few \[xi\] words \[yan\] are natural/spontaneous \[zi ran\].,"Speak sparingly, for things go of themselves.",proportional
-23,2,1,故飄風不終朝，,"Gù piāo fēng bù zhōng zhāo,","Therefore \[gu\] a squall/whirlwind \[piao feng\] does not \[bu\] last the whole \[zhong\] morning \[zhao\],",Therefore a squall doesn’t last all morning. Torrential rain doesn’t last all day.,proportional
-23,3,1,驟雨不終日。,Zhòu yǔ bù zhōng rì.,A torrential rain \[zhou yu\] does not \[bu\] last the whole \[zhong\] day \[ri\].,Therefore a squall doesn’t last all morning. Torrential rain doesn’t last all day.,proportional-fill
-23,4,1,孰為此者？天地。,Shú wèi cǐ zhě? Tiān dì.,Who \[shu\] does/makes \[wei\] this \[ci\] those \[zhe\]? Heaven \[tian\] and earth \[di\].,Who acts this way? Sky and earth.,proportional
-23,5,1,天地尚不能久，,"Tiān dì shàng bù néng jiǔ,","Heaven and earth \[tian di\] still \[shang\] cannot \[bu neng\] last long \[jiu\],","If sky and earth can’t sustain intensity for long, how much less can we?",proportional
-23,6,1,而況於人乎？,Ér kuàng yú rén hū?,And \[er\] how much more/let alone \[kuang\] for \[yu\] humans \[ren\] question particle \[hu\]?,"If sky and earth can’t sustain intensity for long, how much less can we?",proportional-fill
-23,7,2,故從事於道者，,"Gù cóng shì yú dào zhě,","Therefore \[gu\] those who align/follow \[cong\] affairs/actions \[shi\] in/with \[yu\] the Tao \[dao\] those \[zhe\],","Therefore, the one who aligns their actions with the Tao merges with the Tao,",proportional
-23,8,2,同於道；,Tóng yú dào;,Merge/identify \[tong\] with \[yu\] the Tao \[dao\];,"Therefore, the one who aligns their actions with the Tao merges with the Tao,",proportional-fill
-23,9,2,德者，同於德；,"Dé zhě, tóng yú dé;","Virtue/power \[de\] those \[zhe\], merge/identify \[tong\] with \[yu\] virtue/power \[de\];","Whoever acts with integrity merges with integrity,",proportional
-23,10,2,失者，同於失。,"Shī zhě, tóng yú shī.","Loss/losing \[shi\] those \[zhe\], merge/identify \[tong\] with \[yu\] loss \[shi\].",Whoever loses merges with the loss.,proportional
-23,11,3,同於道者，,"Tóng yú dào zhě,","Those merged/identified with the Tao \[tong yu dao zhe\],",Whoever loses merges with the loss.,proportional-fill
-23,12,3,道亦樂得之；,Dào yì lè dé zhī;,The Tao \[dao\] also \[yi\] is glad/happy \[le\] to obtain/get \[de\] them \[zhi\];,"Those merged with the Tao, the Tao gladly receives.",proportional
-23,13,3,同於德者，,"Tóng yú dé zhě,","Those merged with virtue \[tong yu de zhe\],","Those merged with the Tao, the Tao gladly receives.",proportional-fill
-23,14,3,德亦樂得之；,Dé yì lè dé zhī;,Virtue \[de\] also \[yi\] is glad/happy \[le\] to obtain \[de\] them \[zhi\];,"Those merged with integrity, integrity gladly receives.",proportional
-23,15,3,同於失者，,"Tóng yú shī zhě,","Those merged with loss \[tong yu shi zhe\],","Those merged with loss, loss gladly receives.",proportional
-23,16,3,失亦樂得之。,Shī yì lè dé zhī.,Loss \[shi\] also \[yi\] is glad/happy \[le\] to obtain \[de\] them \[zhi\].,"Those merged with loss, loss gladly receives.",proportional-fill
+23,1,1,希言自然。,Xī yán zì rán.,Sparse/few \[xi\] words \[yan\] are natural/spontaneous \[zi ran\].,"Brevity in speech happens of itself,",proportional
+23,2,1,故飄風不終朝，,"Gù piāo fēng bù zhōng zhāo,","Therefore \[gu\] a squall/whirlwind \[piao feng\] does not \[bu\] last the whole \[zhong\] morning \[zhao\],","so a squall does not last out the morning,",proportional
+23,3,1,驟雨不終日。,Zhòu yǔ bù zhōng rì.,A torrential rain \[zhou yu\] does not \[bu\] last the whole \[zhong\] day \[ri\].,and a downpour does not last out the day.,proportional
+23,4,1,孰為此者？天地。,Shú wèi cǐ zhě? Tiān dì.,Who \[shu\] does/makes \[wei\] this \[ci\] those \[zhe\]? Heaven \[tian\] and earth \[di\].,and a downpour does not last out the day.,proportional-fill
+23,5,1,天地尚不能久，,"Tiān dì shàng bù néng jiǔ,","Heaven and earth \[tian di\] still \[shang\] cannot \[bu neng\] last long \[jiu\],",Who does this? Sky and earth.,proportional
+23,6,1,而況於人乎？,Ér kuàng yú rén hū?,And \[er\] how much more/let alone \[kuang\] for \[yu\] humans \[ren\] question particle \[hu\]?,Even sky and earth cannot make it last long.,proportional
+23,7,2,故從事於道者，,"Gù cóng shì yú dào zhě,","Therefore \[gu\] those who align/follow \[cong\] affairs/actions \[shi\] in/with \[yu\] the Tao \[dao\] those \[zhe\],",How much less a person?,proportional
+23,8,2,同於道；,Tóng yú dào;,Merge/identify \[tong\] with \[yu\] the Tao \[dao\];,How much less a person?,proportional-fill
+23,9,2,德者，同於德；,"Dé zhě, tóng yú dé;","Virtue/power \[de\] those \[zhe\], merge/identify \[tong\] with \[yu\] virtue/power \[de\];",So one whose affairs follow the Tao is the same as the Tao.,proportional
+23,10,2,失者，同於失。,"Shī zhě, tóng yú shī.","Loss/losing \[shi\] those \[zhe\], merge/identify \[tong\] with \[yu\] loss \[shi\].",One of integrity is the same as integrity.,proportional
+23,11,3,同於道者，,"Tóng yú dào zhě,","Those merged/identified with the Tao \[tong yu dao zhe\],",One of integrity is the same as integrity.,proportional-fill
+23,12,3,道亦樂得之；,Dào yì lè dé zhī;,The Tao \[dao\] also \[yi\] is glad/happy \[le\] to obtain/get \[de\] them \[zhi\];,One of loss is the same as loss.,proportional
+23,13,3,同於德者，,"Tóng yú dé zhě,","Those merged with virtue \[tong yu de zhe\],","Those the same as the Tao, the Tao too gladly gets them.",proportional
+23,14,3,德亦樂得之；,Dé yì lè dé zhī;,Virtue \[de\] also \[yi\] is glad/happy \[le\] to obtain \[de\] them \[zhi\];,"Those the same as integrity, integrity too gladly gets them.",proportional
+23,15,3,同於失者，,"Tóng yú shī zhě,","Those merged with loss \[tong yu shi zhe\],","Those the same as integrity, integrity too gladly gets them.",proportional-fill
+23,16,3,失亦樂得之。,Shī yì lè dé zhī.,Loss \[shi\] also \[yi\] is glad/happy \[le\] to obtain \[de\] them \[zhi\].,"Those the same as loss, loss too gladly gets them.",proportional
 23,17,3,信不足焉，,"Xìn bù zú yān,","Trust/reliability \[xin\] is not \[bu\] sufficient/enough \[zu\] here \[yan\],","Where trust runs short, there is no trust.",proportional
 23,18,3,有不信焉。,Yǒu bù xìn yān.,There is \[you\] no \[bu\] trust/reliability \[xin\] here \[yan\].,"Where trust runs short, there is no trust.",proportional-fill
 24,1,1,企者不立；,Qǐ zhě bù lì;,Tiptoeing \[qi\] those \[zhe\] do not \[bu\] stand \[li\];,Those who stand on tiptoe do not stand.,proportional

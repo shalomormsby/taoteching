@@ -8,7 +8,7 @@
 
 **The first draft is complete — 81 of 81, since 2026-08-26. The editing pass is the work now.**
 
-**Progress: Pass 0 ✅ · Pass A ✅ · Pass B ✅ · Pass C ✅ · Pass D 🔶 — 7 of 19 chapters (2026-09-02).** Pass D, the chapter-level rewrites, is the work now, and it has **one row per chapter** so they can be checked off one at a time. Done: **4 · 3 · 38 · 28 · 10 · 8**, plus **22 and 64** as the settled sides of formula pairs. Gate green: 0 errors, 102 tests, hard breaks intact, worklist consistent with itself.
+**Progress: Pass 0 ✅ · Pass A ✅ · Pass B ✅ · Pass C ✅ · Pass D 🔶 — 8 of 19 chapters (2026-09-02).** Pass D, the chapter-level rewrites, is the work now, and it has **one row per chapter** so they can be checked off one at a time. Done: **4 · 3 · 38 · 28 · 10 · 8 · 23**, plus **22 and 64** as the settled sides of formula pairs. Gate green: 0 errors, 102 tests, hard breaks intact, worklist consistent with itself.
 
 *Supersedes `RETROFIT.md` and `EDITING-PASS.md`, merged into this file on 2026-08-28 and both now deleted. This file is `RETROFIT.md` renamed, so `git log --follow WORKLIST.md` still reaches the project's start; the 2026-08-10 sweep record and the lessons it taught the checker moved to `PLAN.md`. Every item below was re-verified against the manuscript at the merge; the old file listed six repairs that had already been made.*
 
@@ -16,7 +16,7 @@
 
 ## The list
 
-**⬜ open · 🔶 part done · ✅ done · ⏸ deferred by Shalom.** Detail for every row is below, under the matching heading. **91 item rows: 56 open · 29 done · 3 part done · 3 deferred.** *(19 of them are the per-chapter Pass D rows, whose status is derived.)* *(Counted from the table itself — a hand-kept tally drifts. It read "43 open · 18 done" and matched nothing.)*
+**⬜ open · 🔶 part done · ✅ done · ⏸ deferred by Shalom.** Detail for every row is below, under the matching heading. **92 item rows: 55 open · 31 done · 3 part done · 3 deferred.** *(19 of them are the per-chapter Pass D rows, whose status is derived.)* *(Counted from the table itself — a hand-kept tally drifts. It read "43 open · 18 done" and matched nothing.)*
 
 | # | | Item | Ch | Pass |
 |---|---|---|---|---|
@@ -92,7 +92,7 @@
 | D11 | ⬜ | **Ch 11** — three identical 當其無 frames rendered three ways; 利 and 用 lost · T3-3 | 11 | D |
 | D13 | ⬜ | **Ch 13** — 無身 → *the separate self dissolves*, an Advaita import; 寄/託 are a pair · T1-10 · T3-7 | 13 | D |
 | D16 | ⬜ | **Ch 16** — 守 → *Embrace* (抱's word); *returns energy to its root* with no 氣 in the chapter; 復命. **Riders: 守 → *hold to* set at ch 28; *energy* purged at 28 and 10** · T1-6 · T1-13 · T2-18 | 16 | D |
-| D23 | ⬜ | **Ch 23** — 同於X → *merges with* ×7, a sameness word turned into motion; *actions* wears 事, which is locked to *affairs* · T2-25 | 23 | D |
+| D23 | ✅ | ~~**Ch 23** — 同 as dissolution ×6; *intensity* and *we* rendering nothing; 事's lock breached by *actions*~~; three forks logged · T2-25 | 23 | D |
 | D22 | ✅ | ~~**Ch 22** — 為天下式 → *serves as the world's pattern*~~; visited as the settled half of a formula pair · T2-15 | 22 | D |
 | D28 | ✅ | ~~**Ch 28** — the pointing test failed on nearly every line~~ · T1-7 · T1-15 · T1-16 · T3-5 | 28 | D |
 | D29 | ⬜ | **Ch 29** — 為 → *force* ×3, clashing with ch 64's *handle*; closes the last formula pair · T1-8 · T2-15 | 29 | D |
@@ -110,7 +110,8 @@
 | T4-3 | ⏸ | **Em-dashes in the verse** — 15 lines *(ch 28's two went with its rewrite, not by decision)* | 10 14 15 29 43 44 51 53 55 58 | F |
 | T2-23 | ⬜ | **明白 / 白** — 白 is *the white* at ch 28 and inside the compound *clarity* at ch 10; check 明白 is bound | 10 28 41 | E |
 | T2-24 | ⬜ | **淵** three ways — *fathomless* (4) · *depth* (8) · *the deep abyss* (36). 說文 makes it **banked** water, so *limitless* was backwards | 4 8 36 | E |
-| T2-25 | ⬜ | **同於X → *merges with*** ×7 — a sameness word rendered as motion and mixing; the ch 8 幾 defect, seven times in one chapter | 23 | D |
+| T2-25 | ✅ | ~~**同於X → *merges with*** ×6~~ — **the same as**; 同 is 異's antonym and ch 1 already had it right. Opens T2-26 | 23 | D |
+| T2-26 | ⬜ | **同 transitive — 同其塵 → *merges with the dust* (4, 56) · 玄同 → *the profound union* (56).** The riders ch 23 left; possibly a licensed flexion, but three Englishes still stand | 4 56 | E |
 | T4-7 | ⬜ | ★ **Rank and gender — 大丈夫 · 君子 · 士.** Male rank-words dissolved in two opposite directions. Kin to T4-1 | 15 26 31 38 41 68 | F |
 | T4-4 | ⬜ | 剛 owed its own mention | — | E |
 | T4-5 | ⬜ | Glossary harvest — 一 名 希, plus ten new candidates | — | E |
@@ -251,7 +252,7 @@ Meaning changed. Each needs a decision; most need one line rewritten.
 17. **私 reads two ways** — *private self* (7) and *the self* (19) — sheltering under 公's `covers:`. Ch 19's is arguably right in place, but 私 may want its own entry rather than a `covers:` line.
 18. **Ch 16 — 復命 → *"returning to what was given."*** No longer borrowing another character's English, but still interpretive for 命. Worth a look when ch 16 is reviewed.
 
-19. **Ch 23 — 同於X rendered *"merges with"*, seven times.** 同 (*tóng* — the same) is a **sameness** word, and 同於道 is the bare frame that ch 8's 幾於道 puts a degree word into (*"nearly the same as the Tao"*). Rendering it *merges with* turns a copula of resemblance into a verb of motion and dissolution — **the exact defect Shalom caught at ch 8 on 2026-09-02**, where *"comes near the Tao"* was travelling to a Tao placed elsewhere. 說文 on 同: 合會也. Also on the chapter: *"aligns their **actions** with the Tao"* renders 從**事**於道者, and **事 is locked to *affairs***.
+19. ✅ **Closed at ch 23, 2026-09-03; the transitive uses spun off as T2-26.** 同 (*tóng* — the same) is **異 (*yì* — different)'s antonym**, printed against it in ch 1's own clause 同出而異名 — which our ch 1 already renders *"the **same** origin."* Ch 23 had *merges with* **six times**, turning a sameness word into motion and dissolution. **Both commentators gloss 同 with 同**: 王弼 與道**同體** (*"of one body with the Tao"*), 河上公 所謂**與道同**也. **And the chapter's claim is resonance, not union** — 河上公 closes it with the 易經 formula 同聲相應，雲從龍，風從虎，水流濕，火就燥 (*"like sounds answer each other: clouds follow the dragon, wind follows the tiger, water flows to the damp, fire goes to the dry"*), **four pairs, every one of them two things**. ***"Is the Tao"* was proposed and declined**: 同於道者，道亦樂得之 needs two parties, and identity leaves none — and unlike ch 8's 幾, 同 does not survive being absorbed into English *is*. **Four more repairs on the way**: 事 (locked to *affairs*) read *actions*; *intensity* and *sustain* rendered nothing (*intensity* was 王弼's 暴疾 lifted from commentary); 人 read ***we***; and 希言自然 was an instruction plus a reason where the Chinese is an equation — **the commentators split on 希 and *"speech scarcely heard"* now holds both**. **Spun off as T2-26:** 同其塵 at ch 4 and 56 (*merges with the dust*) and 玄同 at 56 (*the profound union*) — 同 used **transitively**, so possibly a licensed flexion rather than the same English, but three of the five Englishes still stand. **Pass E, not D:** it is a term sweep across two settled chapters, not a chapter rewrite. **Three forks logged**, one meaning-bearing.
 
 ---
 
@@ -395,4 +396,5 @@ Structure the Chinese has and the English does not. These are rewrites, and they
 | 2026-09-01 | **T1-7 · T1-15 · T1-16 · T3-5 · T2-15** — ch 28 de-abstracted: **rooster/hen** (forced by 牝/牡), 谷 → *valley*, 制 → *cutting* · 割 → *severs*, 守 → *hold to*, 常 restored ×3, the template unbroken; ch 22 unified on 為天下式 | `notes/translation.md` · `notes/manuscript.md` · Ch 22/28 |
 | 2026-09-01 | **T1-1 · T2-22** — ch 10: 無知/無為 unswapped, 疵 restored, and **三 locked Englishes lifted off a chapter that has none of their characters** (全 · 萬物 · 鑑). *Dark mirror* survives on 說文's 从見、監. Two forks logged; ch 51 unified on 長而不宰 | `sources/variants.yaml` · `notes/manuscript.md` · `notes/translation.md` · Ch 10/51 |
 | 2026-09-02 | **T2-8 · T3-2** — ch 8: **nine** 善, not eight, one of them deleted; all nine now *masterful*, seven couplets in one shape. 上善 → *the most masterful*; 幾 → *near*, not *one with the Tao*. **善 governs a verb, 18 of 18** — the parse decided by counting. Opens **T2-24** (淵) | `glossary/shan-善.md` · `notes/translation.md` · `notes/manuscript.md` · `sources/variants.yaml` · Ch 8 |
+| 2026-09-03 | **T2-25** — ch 23: 同 → *the same as*, not *merges with* ×6; 同 is 異's antonym and ch 1 had it right. 事's lock restored, *intensity* and *we* removed, 希言自然 made an equation again. Three forks logged, one meaning-bearing. Riders open at ch 4 and 56 | `notes/translation.md` · `notes/manuscript.md` · `sources/variants.yaml` · Ch 23 |
 | 2026-09-02 | **Pass D restructured** — one row per chapter (D3…D64), so chapters check off one at a time; **`chapter-row` and `chapter-cover` added to `check_worklist.py`** so the chapter rows are derived rather than a second copy. PD's `Ch` now points at them. 7 tests, 102 total | `tools/check_worklist.py` · `tools/tests/test_check_worklist.py` · `WORKLIST.md` |

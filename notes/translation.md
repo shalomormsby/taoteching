@@ -2196,3 +2196,49 @@ Hence **"Having done for others, they have more. / Having given to others, they 
 **淵 (*yuān* — a deep pool) reads three ways** — *fathomless* (4), *depth* (8), *the deep abyss* (36) — and 說文 makes it **banked** water: 回水也…左右，岸也, *"swirling water… left and right are the banks."* That is why a fish cannot leave one at ch 36, and why *limitless* was precisely backwards. *Depth* is a holding move at ch 8; settling the term properly creates riders at ch 4 (rebuilt 2026-08-31) and ch 36. Opened as T2-24.
 
 **The mistake worth keeping.** A first draft of the 上善 argument claimed ch 8 stages an 上/下 descent **lexically**. It does not: 下 (*xià* — below) has **zero occurrences** in the chapter. The descent is real but carried by low nouns — 地 (*dì* — ground), 淵 — and by 所惡; the 下 and the 卑 (*bēi* — low) I cited were 河上公's words, not the text's. The explicit pair lives at ch 66 (善下之) and ch 76 (強大處下，柔弱處上). Caught by Shalom. **A commentator's gloss is not the text — the second time this file has had to record that, and the first was ch 24.**
+
+---
+
+## Ch 23 — 同 is *the same*, not a merging, 2026-09-03
+
+*Pass D. `WORKLIST.md` T2-25, closed.*
+
+### The character is the antonym of *different*, and ch 1 prints the pair
+
+**此兩者，同出而異名** — *"these two 同 emerge and 異 in name."* 同 (*tóng* — the same) stands against 異 (*yì* — different) in a single clause, and our ch 1 already renders it **same**. Then it scattered: *together* (1), *merges with* (4, 23 ×6, 56), *union* (56). **Five Englishes, and ch 23 carried the mystical one six times.**
+
+**Both commentators gloss 同 with 同.** 王弼 (*Wáng Bì*): 與道**同體**, *"of one body with the Tao."* 河上公 (*Héshàng Gōng*): 所謂**與道同**也, *"what is called being the same as the Tao."* **Neither describes a process, and neither describes dissolution.**
+
+**The chapter's claim is resonance, and 河上公 gives it in the 易經's own formula:** 同聲相應，雲從龍，風從虎，水流濕，火就燥 — *"like sounds answer each other: clouds follow the dragon, wind follows the tiger, water flows to the damp, fire goes to the dry."* **Four pairs. Every one is two things finding each other by kind.** 王弼 arrives independently, glossing 樂得之 with 應 (*yìng* — to answer): 故同而應之.
+
+### Why identity was declined, and how it differs from ch 8
+
+***"Is the Tao"* was proposed** (Shalom) **and it followed from the ch 8 ruling** — if 幾於道 is *"nearly the Tao,"* then 同於道 stripped of its degree word is *"is the Tao."* **It fails on the second stanza.** 同於道者，道亦樂**得之** needs two parties: someone to be received and someone to receive. Read as identity there is neither, and the resonance collapses — **a cloud that *is* the dragon has nothing to follow.**
+
+**The asymmetry with ch 8, stated once so it is not re-argued:** 幾 (*jī* — nearly) **survives the collapse**, because the English word *nearly* is the character. 同 does not survive as *is*, and ch 56's 玄同 (*xuán tóng* — dark sameness) would be left with nothing to render. **A degree word can be absorbed into English; a content word cannot.**
+
+**Cost of *the same as*, named:** six repetitions of a four-word phrase, heavier in English than 同於 is in Chinese. Accepted because the repetition is the argument. ***Matches*** was the lighter candidate and was declined as correspondence where 王弼 says substance (同體).
+
+### The rest of the chapter
+
+**事 (*shì* — affairs) is locked and read *actions*.** 從事於道者 → ***"one whose affairs follow the Tao."*** ***"One who follows the Tao"*** was proposed and **declined on the reverse check**: **ch 21's 惟道是從 already reads *"follows the Tao,"* and there 道 really is 從's object**, where here 從 governs 事 and 於道 is a complement — one English for two unlike grammars. **從事 occurs twice in the book**, here and ch 64's 民之從事 (*their affairs*). **The chapter is about conduct, not allegiance.** Both commentators define the phrase: 王弼 從事謂舉動, 河上公 從，為也。人為事當如道安静. ***Aligns* rendered 從** (*cóng*), whose 說文 is 隨行也, *"to follow along."*
+
+***Intensity* and *sustain* rendered nothing** — 天地尚不能久 is duration (久 *jiǔ*), and *intensity* was 王弼's 暴疾 (*"violent and rapid"*) lifted from commentary into verse. **The ch 24 *wart* error, third occurrence.** 人 (*rén* — a person) had become ***we***, a first person not in the line; restoring *a person* does not touch the deferred T4-1, since *we* is neither candidate. 為 (*wéi*) had become *acts*.
+
+**希言自然 → "Brevity in speech happens of itself."** *(Shalom's line, with two repairs.)* Three drafts, and the failures are the useful record. *"Speak sparingly, for **things** go of themselves"* supplied 物 (*wù* — things). *"Speech barely heard"* named **volume**, which neither commentator does — 河上公 means quantity (愛言, *sparing with words*), 王弼 means unremarkable (無味不足聽之言, *"no flavour, not enough to hear"*); **a whisper is neither**. *"Saying little is so of itself, and no one makes it so"* said something but **did not earn the 故** that follows.
+
+**The principle the third draft taught: a connective the English cannot earn is a rendering problem, not a reader problem.** Shalom's line earns it by making the storm **the thesis rather than its counter-example** — *brevity happens of itself*, **so** the squall does not last out the morning. Nothing is left for the reader to supply. *(河上公's text and, per the Siku note, all editions lack 故 here entirely; we keep the base text, and 故 now reads* so *in both its appearances rather than* Therefore *here and* So *four lines on.)*
+
+**Two repairs, both from the reverse check.** 言 (*yán* — speech) had been dropped, and it is this chapter's only speech word — the link to 不言之教 (2, 43), 言者不知 (56), 信言不美 (81). And *the whole morning* was declined: **whole is 全 (*quán*)'s English**, already three-of-six unbacked. ***Last out*** is free and carries 終 (*zhōng* — 說文 絿絲也, *"finishing off silk thread"*): **seeing a thing through to its end.** ***"No one's doing"*** was killed the same way — *doing* is 無為's, backed there in ten lines, absent here.
+
+**自然 keeps the locked wording, and the reason is arithmetic.** ch 17 (*by ourselves*) and ch 25 (*being what it is*) already depart from it: **two of five occurrences do not show the phrase.** *On its own* would make a sixth wording and produce exactly the invisibility the entry exists to prevent. **When a rare term has already spent its exceptions, the next occurrence pays the locked price.**
+
+**When two commentators split, let the chapter's own imagery break the tie.** 飄風 and 驟雨 are **too much at once**, and 河上公 draws the moral — 言疾不能長，暴不能久也, *"the rapid cannot be long, the violent cannot endure."* Excess against sparseness, not loud against quiet. 王弼's audibility reading keeps 希 at ch 14 (*the inaudible*) and ch 41 (*"can barely be heard"*).
+
+**The glossary entry had argued for the old line and was half right — logged as a finding, not a footnote.** `glossary/ziran-自然.md` defended *"for"* on the ground that 自然 is **the ground, not the consequence**. That reasoning stands. What it could not do was supply a subject without inventing 物, and its own flag on the line — *"English has no predicate slot that fits it; a strain case"* — was correct. Per `CLAUDE.md`: **the diagnosis was right, the rendering was not.** Both files now say so.
+
+**得 (*dé*) → *gets*, not *receives*.** 說文 行有所得也, *"walking and getting something,"* from 彳 (*chì* — a step): active acquisition. The plain word is what makes the third line bite — **loss too gladly gets them.**
+
+### Riders opened, not closed
+
+**同其塵 at ch 4 and ch 56** reads *"merges with the dust"* / *"merge with the dust,"* and **ch 56's 玄同 reads *"the profound union."*** These are 同 used **transitively** (to make oneself the same as) rather than the stative 同於X settled here, so they may take a licensed flexion rather than the same English — but three of the five Englishes are still standing. Tracked on T2-25's row; **ch 4 and ch 56 are the named riders.**
