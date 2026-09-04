@@ -72,9 +72,69 @@ We follow the second, on three grounds. **(1) The parallel with Chapter 37** is 
 
 ## Witness forks
 
+### Ch 10 · two forks, and both sit on the lines our English had swapped
+
+**能為雌乎 / 能無雌乎.** We print 能**為**雌乎, *"can you be the hen?"* 河上公 (*Héshàng Gōng*) reads 能**無**雌乎, *"can you be **without** the hen?"* — the opposite instruction. And **our own vendored 王弼 (*Wáng Bì*) prints 無 in the lemma**, with the Siku compilers' collation note attached: 〔案**注義無似作為**〕 — *"by the sense of the commentary, 無 appears to be 為."* The commentary does settle it: 雌**應而不倡，因而不為**。言天門開闔，**能為雌乎**？ — *"the hen responds and does not lead off; she goes along and does not act. It says: when the gate of the sky opens and closes, can you be the hen?"* **So our 為 follows the Siku editors' own correction of the text they print**, and that had never been recorded.
+
+**能無為乎 / 能無知乎.** 河上公's text reads 能**無知**乎 at the sixth question — the same three characters he prints two questions earlier at 愛民治國 — so **his chapter asks the 無知 question twice and never asks the 無為 question at all.** He glosses this one 無有能知道滿於天下者, *"there is none who can know the Tao that fills the world."* 王弼 prints 無為 and glosses it 能無以為乎，則物化矣, quoting ch 37 verbatim. **We keep the base text.**
+
+**Why both are worth having.** Our English had 無知 and 無為 **on each other's lines** (`WORKLIST` T1-1), and the fork sits on exactly those two lines — so a reader who found the old English and went looking would have had no way to tell an error from a witness. Both recorded in `sources/variants.yaml`.
+
+### Ch 28 · the stanza order is an editorial restoration
+
+Our vendored 王弼 (*Wáng Bì*) carries the Siku compilers' note on the opening block: 〔案**永樂大典此節在復歸於無極之後，據注仍宜在前**〕 — *"in the Yongle Dadian this section stands **after** 復歸於無極; on the evidence of the commentary it should still come first."* So the 雄/雌 stanza's position at the head of the chapter is **restored**, not simply transmitted, and the Ming encyclopaedia had it second.
+
+**Not in `sources/variants.yaml`**, for the same reason as ch 38's 處/居: the 永樂大典 (*Yǒnglè Dàdiǎn*, 1408) is not one of the schema's witness ids, it is neither excavated nor a named older transmitted recension, and forcing it into the `witnesses:` map would put a Ming encyclopaedia where the file promises a witness. 河上公 (*Héshàng Gōng*) has the same order as our base, so no listed witness diverges. **Nothing in our English turns on it** — the three stanzas are a template and each is self-contained — but the chapter's shape rests on a collation decision, and that is worth a reader knowing.
+
+### Ch 38 · 扔 / 仍 — both graphs mean *pull*, and our English had said *force*
+
+Our base prints 攘臂而**扔**之. 河上公 (*Héshàng Gōng*)'s lemma reads **仍**, and the Siku 王弼 (*Wáng Bì*) carries the compilers' collation note 〔案**扔各本俱作仍**〕 — *"for 扔, all editions read 仍."* **Nothing turns on the choice**, and that is the point worth recording: 說文解字 glosses 扔 as **因也**, *"to draw along"*, and 仍 carries the same sense, which is why 河上公's own gloss is 攘臂**相仍引** — *"bare their arms and pull at one another"* (引, *to pull*). Our English read *"bares its arms and forces them,"* which follows **neither** graph. Both are about **pulling**. Recorded in `sources/variants.yaml`; the rendering is in `notes/translation.md`.
+
+### Ch 38 · 處 / 居 — a Ming collation note, deliberately not in the apparatus
+
+The closing stanza alternates 處 (*chǔ* — to dwell) and 居 (*jū* — to reside): 處其厚，不居其薄；處其實，不居其華. Our vendored 王弼 carries 〔案**焦竑云古本四句並作處**〕 — *"Jiao Hong says the old text has 處 in all four."* 焦竑 (*Jiāo Hóng*, 1540–1620) is a **Ming** scholar reporting a lost 古本, so this is neither an older witness nor a meaning-bearing fork, and **it is not in `sources/variants.yaml`** — there is no honest witness id for it, and forcing one into the `witnesses:` map would put a Ming report where the schema promises an excavated or named transmitted reading.
+
+It is recorded here because it **licenses a rendering decision**: the two verbs are near-synonyms and the alternation may not even be original, so the English is free to use one verb across all four clauses rather than straining to mark a distinction the text may not be making.
+
+### Ch 3 · 智者 / 知者 — one graph or two, and the commentators then describe different people
+
+**Found 2026-08-31, while settling the chapter's knowing-family.** 王弼 (*Wáng Bì*)'s text — our base — writes 使夫**智**者不敢為也. 河上公 (*Héshàng Gōng*)'s writes **知**者, and appends a phonetic note: **知音智**, *"知 is read* zhì" — that is, read this 知 as the word 智. **He attaches it only here.** Two lines above, on 常使民無知無欲, he glosses 反朴守淳 (*"return to the uncarved, keep to the pure"*) and adds no note at all. So the tradition reads **two words in consecutive lines even where one graph is written**, and marks which is which.
+
+**The fork is meaning-bearing because the two commentators then describe different people.** 王弼: 智者謂知為也 — *"the 智者 are those who know how to handle"* — the operators, and the line restrains them. 河上公: 思慮深，不輕言 — *"deep in deliberation, they do not speak lightly"* — which is almost word for word what he says of the unambiguously approving 知者 at ch 56, 知者貴行不貴言也 (*"the knower prizes action and does not prize speech"*). **王弼 has two graphs and two figures; 河上公 has one graph and one figure.**
+
+**We print the base text's 智者 and keep the English open.** *"The knowers"* is a bare nominalization, as 者 (*zhě*) is in Chinese, and it leaves the line to say whether knowing is good here — where *"those who know how"* or *"the clever"* would both have picked 王弼's side. The rendering decision is in `notes/translation.md`.
+
+### Ch 3 · 使民心不亂 — the 民 in the third clause is an eighteenth-century restoration
+
+**河上公's lemma reads 使心不亂, with no 民** (*mín* — the people). And our own vendored 王弼 carries the Siku compilers' collation note on the passage: 〔案原本及各本俱無民字，惟永樂大典有之…今校〕 — *"the base edition and all editions lack the character 民; only the Yongle Dadian has it… now emended."* They restored it on the evidence of 王弼's own commentary.
+
+**Nothing in the sense turns on it** — the subject is the people in either reading, and 王弼 glosses the line 故可欲不見，則心無所亂也, *"so when the desirable is not displayed, the heart has nothing to disorder it,"* with a bare 心. It is logged because **this file's companion note at ch 3 says "all three clauses are 使民X"** (`notes/translation.md`, 2026-08-30), and in the third clause that is an editorial restoration rather than a reading the witnesses agree on. We keep the base text as printed.
+
 ### Ch 4 · 湛兮似或存 / 似若存 — a hedge either way
 
 河上公's lemma reads 似**若**存, and the Siku edition of 王弼 carries the collation note 〔案或一作若〕 — *"for 或, one edition reads 若."* 或 (*huò* — perhaps) and 若 (*ruò* — as if) are hedges of the same force, so **nothing turns on it**: the line carries a doubled hedge, 似 plus one of them, under either reading. Recorded so it is not rediscovered later as if it were news, since the line was rewritten on 2026-08-31. *(Ch 4 is **not attested at Guodian**; it rests on the silks and later.)*
+
+### Ch 8 · 政善治 / 正善治 — and 說文 defines one as the other
+
+**Found 2026-09-02, reviewing the chapter.** Our base text (王弼, *Wáng Bì*) prints 政善治 with 政 (*zhèng* — government, administration); 河上公 (*Héshàng Gōng*)'s lemma prints **正**善治 with 正 (*zhèng* — straight, on the mark). His gloss fits the graph he prints: 无有不洗，清且平也 — *"there is nothing it does not wash; clean and **level**,"* where 平 (*píng* — level) answers 正 rather than 政.
+
+**It is barely a fork, and 說文解字 is why.** It defines the one by the other: **政，正也。从攴从正，正亦聲** — *"政 is 正; from 攴 (*pū* — a hand holding a stick) and 正, and 正 also gives the sound."* 政 is 正 with the stick added — the same word, with enforcement attached. Nothing in the line's sense turns on which is printed, though the pair are not identical in force, and the stick is exactly what this chapter's water does without.
+
+**We keep the base text's 政**, rendered *governing*, which leaves 治 (*zhì* — to order) free for *order* — as at ch 64's 治之於未亂 — instead of colliding with it. 王弼 is **not vendored for ch 8**: the Siku transcription is unproofread for ten chapters, this among them, so the chapter has one classical commentary and not two.
+
+**This does not touch T4-2**, the deferred 正 / 奇 (*zhèng / qí* — straight / crooked) call. That is a question about how 正 is rendered where we print it; this is a question about which graph is printed, and logging a fork settles nothing about the other.
+
+### Ch 23 · three facts on one chapter — a dropped 道者, a 得/失 swap, and a Ming witness without 樂
+
+**Found 2026-09-03, rebuilding the chapter. `--witnesses 23` had reported nothing: nobody had looked.**
+
+**1. 王弼's own lemma reads 道者 where our base text does not.** Our base prints 故從事於道者，同於道 (*"so one who attends to affairs by the Tao is the same as the Tao"*); the vendored 王弼 (*Wáng Bì*) prints **故從事於道者，道者同於道**. With the extra 道者 (*dào zhě* — "the Tao-one") the stanza is a clean three-term parallel — 道者同於道；德者同於德；失者同於失 — and **without it the first line is a different shape from the two that follow.** The asymmetry is in the Chinese, not only in the English. *(This chapter's own note on 德 has been quoting the three-term version since 2026-08-31, i.e. quoting a text we do not print — corrected with this pass.)* **Not meaning-bearing:** the sense of the line is identical either way. **We keep the base text**, and the English mirrors its asymmetry rather than silently repairing it.
+
+**2. 河上公's third line reads 失亦樂失之, not 失亦樂得之** — *"loss too gladly **loses** them"* against our *"loss too gladly **gets** them."* His gloss follows the graph he prints: 與失同者，失亦樂**失**之也. **Meaning-bearing, and the difference is real**: our base makes loss an acquirer, closing the three-term pattern (道 gets you, 德 gets you, 失 gets you); 河上公's makes loss a loser, so that what you get from loss is more losing. **We keep the base text**, on the parallel — 樂得之 stands in the first two lines under both readings, and breaking it in the third is the harder claim to justify than keeping it. The reading is recorded because it is the sort of thing that gets rediscovered as news.
+
+**3. A Ming witness without 樂, deliberately not in the apparatus.** The Siku 王弼 carries 〔案**永樂大典無樂字**下二句同〕 — *"the Yongle Dadian lacks the character 樂 (lè — glad); the same for the two lines below."* The 永樂大典 (*Yǒnglè Dàdiǎn*, 1408) is a **Ming** encyclopedia, so this is a report of a lost reading and not an older witness. **It is not in `sources/variants.yaml`** — there is no honest witness id for it, exactly as with 焦竑's four 處 at ch 38. Recorded here because it would change the lines materially if true: without 樂, 道亦得之 is simply *"the Tao gets them too,"* and the gladness — which is what makes the third line bite — is ours by transmission rather than by the oldest text.
+
+**4. 故 at 故飄風不終朝 — our base is the only witness that has it, and the English does not render it.** The Siku 王弼 carries 〔案**河上公注本及各本俱無故字**〕 — *"the Heshang Gong commentary edition and **all editions** lack the character 故 (gù — therefore)."* **Our vendored 河上公 confirms it**: his lemma is 飄風不終朝驟雨不終日, with no 故. So our base text is a **singleton reading** here, by its own editors' account. **We print it and leave it unrendered** *(Shalom's call, 2026-09-04)*: the verse sets the three statements side by side, as every other witness has them, and does not assert in English an inference our base alone claims. **This is not an emendation** — the 原文 table still prints 故, and a reader can see both the character and the decision. 說文 makes 故 unambiguously causal (使爲之也, *"to cause something to be done"*), so it could not have been softened into a comparison instead; *likewise* was proposed and declined. The reader-facing half of the decision is in `notes/reading.md`.
 
 ### Ch 19 · 絕聖棄智 / 絕仁棄義 — the oldest witness does not attack the Confucians
 

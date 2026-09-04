@@ -41,7 +41,7 @@ That is precisely the sense Laozi uses, over and over.
 > Ch 27 · 善行無轍跡，善言無瑕謫，善數不用籌策，善閉無關楗而不可開，善結無繩約而不可解
 > *masterful travelling leaves no tracks · masterful speech is flawless · masterful reckoning uses no counting rods · masterful shutting uses no bolts, yet cannot be opened · masterful tying uses no rope, yet cannot be untied*
 
-A traveller, a speaker, an accountant, a locksmith, a knot-tier. **Five trades in five lines.** Chapter 8 runs eight of them in a row — 善地, 善淵, 善仁, 善信, 善治, 善能, 善時 — water being *good at* dwelling, at depth, at giving, at speaking, at governing, at handling matters, at timing. Chapter 68 gives four: the masterful officer is not martial, the masterful fighter does not rage, the masterful conqueror does not engage, the masterful user of people puts themselves below. Chapter 73 gives three more of the Tao itself: 不爭而**善**勝，不言而**善**應 — *does not contend yet masterfully prevails; does not speak yet masterfully answers.*
+A traveller, a speaker, an accountant, a locksmith, a knot-tier. **Five trades in five lines.** **Chapter 8 is the showcase: nine occurrences in thirteen lines**, more concentrated than anywhere else in the book — 上善, 善利, then the seven couplets 善地, 善淵, 善仁, 善信, 善治, 善能, 善時: masterful at ground, at depth, at giving, at speech, at governing, at what can be done, at timing. Chapter 68 gives four: the masterful officer is not martial, the masterful fighter does not rage, the masterful conqueror does not engage, the masterful user of people puts themselves below. Chapter 73 gives three more of the Tao itself: 不爭而**善**勝，不言而**善**應 — *does not contend yet masterfully prevails; does not speak yet masterfully answers.*
 
 **None of that is ethics. All of it is craft.**
 
@@ -84,7 +84,7 @@ That is not mercy. It is a claim that **nobody is discarded because nobody is wa
 | 善 + verb — skilled at | 8, 15, 27, 30, 41, 50, 54, 65, 66, 68, 73 | **masterful at** |
 | 善人 / 不善人 — the kind of person | 27, 49, 62 | **the masterful / the unmasterful** |
 | 善 as the named category | 2, 20, 58 | **good** — because the category is the target |
-| 上善 — the superlative | 8 | *supreme goodness*, unresolved (below) |
+| 上善 — the superlative | 8 | **the most masterful** (settled 2026-09-02, below) |
 | 善 as a verb, "to reckon as 善" | 49 | **count as masterful** |
 
 ### Chapter 49 — decided, and it follows Wang Bi
@@ -99,6 +99,23 @@ That is not mercy. It is a claim that **nobody is discarded because nobody is wa
 
 **What it commits.** Ch 79 (常與善人) and Ch 81 (善者不辯，辯者不善) are undrafted and now inherit this: *"the masterful do not argue; arguers are not masterful."* Stranger than *"the good do not argue,"* and consistent with the rest.
 
+### Chapter 8 — decided 2026-09-02, and it settles the grammar for the whole entry
+
+**上善若水 now reads "The most masterful are like water."** *(Shalom's call.)* 上 (*shàng* — highest) is settled at ch 38, where 上德 / 上仁 / 上義 / 上禮 all read *the highest*, so *"supreme"* was the outlier. **The category reading is unavailable here**: *good* is reserved for chapters 2, 20 and 58, where the book attacks the category, and using it at ch 8 would make this chapter endorse what ch 2 dismantles. 河上公 (*Héshàng Gōng*) reads 上善 as a **person** — 上善之人如水之性, *"the person of the highest 善 is like the nature of water"* — which is this entry's own 善人 (*shàn rén* — the masterful). **The cost:** the plural person decides something the Chinese leaves open, since 上善 could be the quality itself. ***The highest excellence*** was rejected as bloodless and as Legge's phrase; ***true mastery*** was rejected because 真 (*zhēn* — genuine) is a live character in this book (21, 41, 54) and 上 is a graded rank word whose middle rung is printed at ch 41 (上士/中士/下士).
+
+**善 governs a verb — eighteen times out of eighteen, and this is the proof the entry has been asserting without evidence.** The *Working register* table above claims a "善 + verb" grammar. Ch 8 is the only place in the book where the claim could fail, because its seven couplets are the only 善 + X where X could pass for a noun, and X善Y admits both parses in classical Chinese: 善 as a verb taking Y (*masterful **at** Y*), or 善 as an adjective modifying Y (*masterful Y*).
+
+Everywhere else, X is a verb:
+
+> 善行 *travel* · 善言 *speak* · 善計 *reckon* · 善閉 *shut* · 善結 *tie* (27) · 善救 *rescue* ×2 (27) · 善為 *handle* (15, 65) · 善貸 *give* (41) · 善攝 *nurture* (50) · 善建 *establish* · 善抱 *embrace* (54) · 善下 *go below* (66) · 善戰 *fight* · 善勝 *overcome* ×2 (68, 73) · 善用 *use* (68) · 善應 *respond* · 善謀 *plan* (73)
+
+**Eighteen verbs, zero nouns.** And ch 8 sets the pattern inside its own chapter, four lines above the stanza: 水善**利**萬物, where 利 (*lì* — to benefit) is unambiguously verbal. The adjectival parse fails on its own terms as well — it yields *masterful order*, *masterful ability*, *masterful timing*, which read, and *masterful ground*, *masterful depth*, *masterful humaneness*, *masterful trust*, which do not. **A reading that survives three of seven loses to one that survives all seven.**
+
+The seven now run in one shape: *In settling, masterful at ground. In the heart, masterful at depth. In giving, masterful at humaneness. In speech, masterful at trust. In governing, masterful at order. In affairs, masterful at what can be done. In moving, masterful at timing.*
+
+**能 (*néng* — able) took *what can be done* rather than *ability***, because 能 has 32 lines in the book and 31 are the plain modal *can*; ch 8's is the only noun. Building the English out of *can* keeps it in the book's own vocabulary and removes the abstract-noun stack beside *masterful*. The cost is a slight drift of the capacity from the agent to the situation.
+
 ### What stays open
 
-**And 上善若水** (8) — *the highest 善 is like water* — currently reads *"Supreme goodness is like water."* The chapter that follows is eight lines of pure competence, so the superlative may want *the highest excellence*. Left alone rather than changed on inference.
+
+**淵 (*yuān* — a deep pool), inside ch 8's stanza, is not yet settled** and reads three ways across the book: *fathomless* (4), *depth* (8), *the deep abyss* (36). 說文解字 makes it banked water — 回水也…左右，岸也, *"swirling water… left and right are the banks"* — so *limitless*, which stood at ch 8 until 2026-09-02, was precisely backwards. Tracked as `WORKLIST.md` T2-24; not this entry's term, but it sits inside this entry's showcase chapter.

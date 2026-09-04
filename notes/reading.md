@@ -571,3 +571,20 @@ The opening triplet is one claim told three times, ascending: words (信/美), a
 王弼 collapses all three into four characters — 極在一也, *"the ultimate lies in the one"* — and 河上公 says the same about 博 alone: 不博者守一元也, *"the un-博 holds fast to the one origin."* The chapter's positive claim is **concentration**, not ignorance. It is not anti-intellectual; it is against the substitution of range for depth, which is a recognisable enough disease that the third couplet needs no translation into modern terms.
 
 **And it is the book about itself.** 信言不美 is a poem, at its close, telling you not to trust it because it is beautiful.
+
+### Ch 23 · the storm lines are left unjoined, on purpose
+
+> Brevity in speech happens of itself.
+> A squall does not last out the morning.
+> A downpour does not last out the day.
+
+**Three statements, no connective — and that is a decision, not an omission.** *(Shalom's call, 2026-09-04: it "creates more space for the reader to ponder the meaning.")*
+
+Our base text prints 故 (*gù* — therefore) at the head of the second line. **It is the only witness that does**, and it says so itself: the Siku 王弼 carries 〔案河上公注本及各本俱無故字〕, *"the Heshang Gong commentary edition and all editions lack the character 故."* Our vendored 河上公 confirms it — his lemma opens 飄風不終朝. **So the juxtaposition the English now has is what almost every other reader of this text has had.**
+
+**What the reader is left to find** is the relation the commentators draw, which is a **contrast** and not an equivalence. 王弼 (*Wáng Bì*): 言暴疾美興不長也 — *"violent, rapid, splendid arisings do not last long."* 河上公 (*Héshàng Gōng*): 言疾不能長，暴不能久也 — *"the rapid cannot be long, the violent cannot endure."* The squall is not an illustration of natural brevity. It is the loud thing exhausting itself, set against speech that is sparse because nobody is forcing it.
+
+王弼 makes the contrast sharper by glossing 希言 with the Tao's own speech — 道之出言，淡兮其無味也。視之不足見，聽之不足聞, *"the Tao's issuing forth in words is bland, without flavour; look, and there is not enough to see; listen, and there is not enough to hear."* **The self-so speaks blandly and does not stop. Sky and earth roar, and stop before noon.** Two lines later the chapter names the roarer and watches it fail: 孰為此者？天地。天地尚不能久 — *"Who does this? Sky and earth. Even sky and earth cannot make it last long."*
+
+**A connective would have settled which relation it is.** Leaving it out leaves the work where the Chinese leaves it.
+
