@@ -2242,3 +2242,29 @@ Hence **"Having done for others, they have more. / Having given to others, they 
 ### Riders opened, not closed
 
 **同其塵 at ch 4 and ch 56** reads *"merges with the dust"* / *"merge with the dust,"* and **ch 56's 玄同 reads *"the profound union."*** These are 同 used **transitively** (to make oneself the same as) rather than the stative 同於X settled here, so they may take a licensed flexion rather than the same English — but three of the five Englishes are still standing. Tracked on T2-25's row; **ch 4 and ch 56 are the named riders.**
+
+---
+
+## 同 finished — ch 4 and ch 56, 2026-09-03
+
+*`WORKLIST.md` T2-26, the rider ch 23 left. Closed the same day it opened.*
+
+**The finding that decided it: 同 occurs twice in ch 56, two lines apart, and the English used two unrelated words.** 和其光，**同**其塵。是謂玄**同** had read *"merge with the dust"* and *"the profound union,"* which hides the chapter's own move — **the practice and the name for it are one word.** Now: ***be the same as the dust. This is called profound sameness.***
+
+**河上公 (*Héshàng Gōng*) glosses 同其塵 with 同's own opposites**: 不當自**别殊**也 — *"one should not set oneself apart as **separate** and **distinct**."* 别 (*bié* — to separate), 殊 (*shū* — distinct). **王弼 (*Wáng Bì*) makes the couplet a matched pair**: 和其光 is 無所**特顯** (*"nothing specially displayed"*), 同其塵 is 無所**特賤** (*"nothing specially despised"*) — do not stand out above the light, do not hold yourself apart from the dust. ***Merge* read as self-dissolution**, which is not what either says.
+
+***Union* was 合's English.** The reverse check returns two lines; the other is ch 55's 牝牡之**合** (*"the union of female and male"*), where 合 (*hé* — to join) genuinely means union.
+
+***Profound sameness*** because **是謂玄同 is the same formula as 是謂玄德** (*"This is called profound integrity,"* ch 10, 51, 65). Same frame, same English shape. 河上公 reads 玄 here as 天 (*tiān* — sky): 玄，天也…是謂與天**同道**也, *"of the **same way** as sky"* — 同 again, inside his gloss of the compound.
+
+### The test that settled the word, and it generalizes
+
+***"Share the dust"* was the better English and lost anyway.** Short, idiomatic, free in the reverse check, and it fits both grammars. It fails because **it gives no noun for 玄同** — 同其塵 and 玄同 would come apart again two lines later. **When one character appears twice in a chapter in different grammatical slots, the rendering must survive both slots; the more elegant word that survives only one is the wrong word.** That is the reverse check's structural cousin: not *is this English backed by its character*, but *does this English still work at the character's next appearance*.
+
+**The cost, paid openly:** *is the same as the dust* is the one stative verb in ch 4's run of actions — *blunts, untangles, dims, is*. Accepted for one English on one character across ch 4, 23 and 56.
+
+### Left standing, and named
+
+**和其光 → *"dim your own light"* is the commentator's word, not the text's.** 說文 makes 和 **相譍也**, *"to answer one another"* — the same 應 (*yìng* — to answer) as 河上公's 同聲相應 at ch 23 — and *dim* comes from his 當和之使闇昧. `glossary/ming-明.md` glosses ch 4 and ch 56 together this way, so it is settled rather than sloppy. **But 和 and 同 are a pair and only one of them has been repaired**, and the pair is a resonance pair in both commentators.
+
+**ch 1's 同謂之玄 still reads *"Together."*** 同's fourth English, and *together* can be heard as *jointly they form one thing* rather than *both alike are so called*. Opened as T2-27.
