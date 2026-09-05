@@ -16,7 +16,7 @@
 
 ## The list
 
-**⬜ open · 🔶 part done · ✅ done · ⏸ deferred by Shalom.** Detail for every row is below, under the matching heading. **93 item rows: 53 open · 33 done · 4 part done · 3 deferred.** *(19 of them are the per-chapter Pass D rows, whose status is derived.)* *(Counted from the table itself — a hand-kept tally drifts. It read "43 open · 18 done" and matched nothing.)*
+**⬜ open · 🔶 part done · ✅ done · ⏸ deferred by Shalom.** Detail for every row is below, under the matching heading. **94 item rows: 53 open · 34 done · 4 part done · 3 deferred.** *(19 of them are the per-chapter Pass D rows, whose status is derived.)* *(Counted from the table itself — a hand-kept tally drifts. It read "43 open · 18 done" and matched nothing.)*
 
 | # | | Item | Ch | Pass |
 |---|---|---|---|---|
@@ -42,7 +42,7 @@
 | T1-10 | ⬜ | 無身 → *"the separate self dissolves"* — an Advaita import | 13 | D |
 | T1-11 | ⬜ | 古始 → *"the primordial source"* — forbidden register | 14 | E |
 | T1-12 | ⬜ | 往 → *"the world routes to you"* ×2 — mechanistic | 35 | D |
-| T1-13 | ⬜ | *"returns energy to its root"* — 氣 is not in this chapter | 16 | D |
+| T1-13 | ✅ | ~~*"returns energy to its root"* — 氣 is not in this chapter~~ — plus ***Multitudes*** with no 眾, and 物 deleted; 復歸 → *returns again*, following ch 28 | 16 | D |
 | T1-14 | ⬜ | The closing 譬…猶 simile is garbled | 32 | D |
 | T1-15 | ✅ | ~~谷 → *"reservoir"*, 谿, 官長, 大制 → *"orchestrator"*~~ — 谷 → *valley* (its word in 6 chapters); 制 → *cutting* (as ch 32); 割 → *severs* | 28 | D |
 | T1-16 | ✅ | ~~雄/雌 → *"assertive/yielding energy"*~~ — **rooster and hen**, forced by 牝/牡 already holding *male* / *female* | 28 | D |
@@ -91,7 +91,7 @@
 | D10 | ✅ | ~~**Ch 10** — 無知/無為 swapped, 疵 deleted, and three Englishes on absent characters~~ · T1-1 | 10 | D |
 | D11 | ⬜ | **Ch 11** — three identical 當其無 frames rendered three ways; 利 and 用 lost. **Plus 無 → *emptiness* ×2 and *empty space* ×2 — 無 is locked to *absence*, and 虛 has zero occurrences here** · T3-3 | 11 | D |
 | D13 | ⬜ | **Ch 13** — 無身 → *the separate self dissolves*, an Advaita import; 寄/託 are a pair · T1-10 · T3-7 | 13 | D |
-| D16 | 🔶 | **Ch 16** — **opening couplet and the 容→公→王→天→道→久 chain rebuilt** (T1-6 ✅); 王 → *supreme authority*, and *sovereignty* is now forbidden as a modern-state overlay. Still owed: *energy* with no 氣 in the chapter; *Multitudes* with no 眾; 復命 · T1-13 · T2-18 | 16 | D |
+| D16 | 🔶 | **Ch 16** — couplet, the 容→公→王→天→道→久 chain, and 夫物芸芸 all rebuilt (T1-6 ✅ · T1-13 ✅); 王 → *supreme authority*, *sovereignty* now forbidden as a modern-state overlay. **One item left: 復命** · T2-18 | 16 | D |
 | D23 | ✅ | ~~**Ch 23** — 同 as dissolution ×6; *intensity* and *we* rendering nothing; 事's lock breached by *actions*~~; three forks logged · T2-25 | 23 | D |
 | D22 | ✅ | ~~**Ch 22** — 為天下式 → *serves as the world's pattern*~~; visited as the settled half of a formula pair · T2-15 | 22 | D |
 | D28 | ✅ | ~~**Ch 28** — the pointing test failed on nearly every line~~ · T1-7 · T1-15 · T1-16 · T3-5 | 28 | D |
@@ -113,6 +113,7 @@
 | T2-25 | ✅ | ~~**同於X → *merges with*** ×6~~ — **the same as**; 同 is 異's antonym and ch 1 already had it right. Closed T2-26 too | 23 | D |
 | T2-26 | ✅ | ~~**同 transitive — 同其塵 · 玄同**~~ — *the same as the dust* (4, 56) and *profound sameness* (56); **同 twice in ch 56 had two unrelated Englishes**. *union* was 合's (55) | 4 56 | E |
 | T2-27 | ⬜ | **同謂之玄 → *Together*** — 同's fourth English, and *together* can read as *jointly they form one thing* rather than *both alike are so called* | 1 | E |
+| T2-28 | ⬜ | **復歸 split four-to-three** — the seven-line compound reads *return again* at 16 and 28 ×3, plain *return* at 14 and 52 | 14 16 28 52 | E |
 | T4-7 | ⬜ | ★ **Rank and gender — 大丈夫 · 君子 · 士.** Male rank-words dissolved in two opposite directions. Kin to T4-1 | 15 26 31 38 41 68 | F |
 | T4-4 | ⬜ | 剛 owed its own mention | — | E |
 | T4-5 | ⬜ | Glossary harvest — 一 名 希, plus ten new candidates | — | E |
