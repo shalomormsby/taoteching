@@ -2272,3 +2272,27 @@ Hence **"Having done for others, they have more. / Having given to others, they 
 **和其光 → *"dim your own light"* is the commentator's word, not the text's.** 說文 makes 和 **相譍也**, *"to answer one another"* — the same 應 (*yìng* — to answer) as 河上公's 同聲相應 at ch 23 — and *dim* comes from his 當和之使闇昧. `glossary/ming-明.md` glosses ch 4 and ch 56 together this way, so it is settled rather than sloppy. **But 和 and 同 are a pair and only one of them has been repaired**, and the pair is a resonance pair in both commentators.
 
 **ch 1's 同謂之玄 still reads *"Together."*** 同's fourth English, and *together* can be heard as *jointly they form one thing* rather than *both alike are so called*. Opened as T2-27.
+
+## Ch 16 · 致虛極，守靜篤 — "Go totally empty. Hold steadily to stillness."
+
+*(2026-09-05, Pass D, `WORKLIST.md` D16 · T1-6.)* *(was: "Attain emptiness. / Embrace stillness.")*
+
+**Five English words for six characters, and two of the six were missing.** 極 (*jí*) and 篤 (*dǔ*) had no English at all, and 守 (*shǒu*) was wearing 抱 (*bào* — to embrace)'s word — *embrace* runs seven lines, five of them 抱, and the other two were both this chapter.
+
+**Both opening lines hide a gait, and that is the finding.** 致 (*zhì*) is 夊 (*suī* — a dragging foot) beneath 至 (*zhì* — to arrive); 說文解字: 送詣也, *"to send all the way there."* 篤 (*dǔ*) is 說文 **馬行頓遟** — *"a horse's gait, halting and slow"* — from 馬 (*mǎ* — horse) with 竹 (*zhú* — bamboo) for sound; earnest, thick and deep all come off that plod. The couplet is not two achievements. It is one instruction about how far and how slowly, and *attain* and *embrace* had made both of them prizes.
+
+**極 belongs to the reacher, not to the emptiness.** 極's original graph is 亟 (*jí*), a standing person with one stroke above the head and one below the feet — 極于頂, 極于踵. Add 木 (*mù* — wood) and it becomes 棟 (*dòng* — the ridgepole). So the 極 in 致虛極 measures how far *you* go, not how big the hollow is. This is what dissolves the apparent paradox in the line: *complete emptiness* measures the emptiness, and an emptiness has no measure; 極 measures a body, and a body's reach is definite. See `glossary/ji-極.md`.
+
+**虛 must not become *emptiness*.** English *emptiness* is śūnyatā's standard rendering, and 空 (*kōng*) — the character Chinese Buddhism uses for it — has **zero occurrences** in this book. The abstract noun imports a doctrine by six centuries, and ch 16 is the only place in the book where 虛 is forced into the noun slot, so it is the only place the import can happen. See `glossary/xu-虛.md`.
+
+**Three renderings were tried and rejected on evidence, not taste:**
+
+- ***"Attain complete emptiness."*** — *complete* is 成 (*chéng* — to complete)'s English in **six lines** (ch 2, 34, 41, 45, 51, 63), and 成 has zero occurrences in ch 16. Same defect class as this chapter's own *"returns **energy** to its root"* with no 氣 (*qì* — vital breath) present.
+- ***"Empty yourself, all the way."*** — *yourself* is an insertion the Chinese does not license, and the comma is a seam the Chinese does not have: 致虛極 is three characters in one uninterrupted breath.
+- ***"Reach the empty all the way."*** — *the empty* re-nominalizes 虛 more quietly, and the reverse check puts it at ch 11's *"the empty spaces cut into walls,"* which is 無 (*wú* — absence), a locked term.
+
+**Why *go*.** It carries 致's foot, it works across the 致/至 fork (see `notes/manuscript.md`), and it is already this book's idiom for entering a state: *go muddy* at ch 49, *goes hoarse* at ch 55, *go hungry* at ch 75. **And *totally empty* keeps the exhaustion 極 needs** — both commentators gloss 極 with 窮 (*qióng* — to use up), and a thing that goes totally empty has run out. 虛 supplies the container; *totally* only has to mark completion.
+
+**Why *hold **to***, and it matters more than the word count.** Bare *hold* is the most overloaded verb in the manuscript — **21 lines across five characters**: 守 (ch 5, 32), 執 (*zhí* — to grasp, ch 14), 保 (*bǎo* — to guard, ch 15), 有 (*yǒu* — to have, ch 59), 持 (*chí* — hold in the hand, ch 64). That pile is `WORKLIST.md` T2-19 ★, and 守 is the member it names. *Hold to* is currently clean — ch 28 three times and ch 37, all 守 — so it is the one form keeping 守 separable. The graph agrees: 守 is 宀 (*mián* — a roof) over 寸 (*cùn* — the standard measure), 說文 守官也, *"to hold an office."* Staying at your post, not taking hold. Two chapters over, the book says 執者失之 — *"those who grasp it lose it."*
+
+**The shape, and what it cost.** The Chinese puts both degree words last — 致虛**極** / 守靜**篤** — and 王弼 binds them into one compound across the two lines, 物之極篤, which is only audible because they sit in matching slots. The English moves both to the middle: *Go **totally** empty / Hold **steadily** to stillness*. **The slot moved; the match survived**, and that is the trade — a plainer line in exchange for the line-final position. *Steadily* was chosen over *deeply* because *deep* already carries 淵 (*yuān* — a deep pool) at ch 8 and 36 and 深 (*shēn*) at ch 15, 21, 59 and 65, and 淵 is itself unsettled (T2-24).

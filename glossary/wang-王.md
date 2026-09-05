@@ -10,11 +10,13 @@ covers:
   - { char: "侯", render: "ruler (inside 侯王)" }
 ---
 
-# 王 — *wáng* — **ruler**, never *king*
+## 王 (Wáng) — Ruler
 
-## The problem
+*Say "wahng," rising. Thirteen lines across eight chapters, and not one of them shows a 王 commanding anything.*
 
-Every English Tao Te Ching renders 王 as **king**, and until this sweep so did this one. The word arrives so naturally that the question never gets asked, and three separate things ride in with it.
+**Locked: 王 → "ruler / sovereign" · "to rule" (as a verb).** *(Never "king," never "kings," never "monarch," never "emperor." 侯 (hóu) → "ruler," inside 侯王.)*
+
+Every English Tao Te Ching renders 王 as **king**. The word arrives so naturally that the question never gets asked, and three separate things ride in with it.
 
 **It adds a gender the Chinese does not have.** Classical Chinese nouns carry no grammatical gender, and 王 contains no male element. English *king* is lexically male — it exists in a pair with *queen*, and no context can neutralise it. Rendering 王 as *king* is not translating a gender. It is **adding one**.
 
@@ -22,13 +24,13 @@ Every English Tao Te Ching renders 王 as **king**, and until this sweep so did 
 
 **The throne is not, however, a later insertion into the Chinese.** An earlier version of this entry said it was, on a bad reading of the Ch 25 witnesses. Corrected 2026-08-20: every excavated witness there reads 王, Guodian included, and the human reading is transmitted (傅奕, Tang; 范應元, Song). See `notes/manuscript.md` · Ch 25. **The case against *king* is unaffected**, because it never rested on the manuscripts — it rests on the graph and on the eight chapters below.
 
-## The character is an axe
+### The character is an axe
 
 The oracle-bone form of 王 is a **broad axe-head, blade downward** — the ceremonial 鉞 (*yuè*), the great bronze battle-axe carried before a war leader. In Shang practice it was the instrument of execution, so to hold it was to hold the power over life and death.
 
 There is no person in the graph. No head, no body, no gender. **An implement.**
 
-## The king who joins the three realms is Han cosmology, not etymology
+### The king who joins the three realms is Han cosmology, not etymology
 
 The explanation everyone has met — three horizontal strokes for sky, earth and humanity, one vertical stroke for the king who unites them — comes from **董仲舒** (*Dǒng Zhòngshū*, c. 179–104 BCE), the architect of Han state Confucianism, in his 春秋繁露 (*Chūnqiū Fánlù*). It entered the *Shuowen Jiezi* from there, and from the *Shuowen* it entered every dictionary since.
 
@@ -36,7 +38,7 @@ It is roughly **fourteen centuries younger than the graph it explains**, and it 
 
 **A word of caution about how far this reaches.** It is tempting to pair Dong Zhongshu's reading of the graph with Chapter 25, where the received text lists the four great things as 道大，天大，地大，**王**亦大 and some editions read 人 (*rén* — human) instead. This entry once did exactly that. It does not hold: **every excavated witness at Ch 25 reads 王**, Guodian (~300 BCE) included, and 人 enters the record with 傅奕 in the Tang and 范應元 in the Song. Dong Zhongshu cosmologised the graph; nobody can be shown to have put the king into that line. *(See `notes/manuscript.md` · Ch 25 for the apparatus and the correction.)*
 
-## How Laozi actually uses it — the position that receives
+### How Laozi actually uses it — the position that receives
 
 Read the eight chapters together and something becomes hard to miss. **Not one of them shows a 王 commanding anything.** Every appearance defines the word by lowness, absorption, or a condition unmet.
 
@@ -55,13 +57,13 @@ Chapter 78 is the plainest definition the book gives: 受國之垢，是謂社�
 
 **A word defined seven times over by what it goes under does not want an English word that means the thing on top.**
 
-## 侯, and why the compound collapses
+### 侯, and why the compound collapses
 
 侯 (*hóu*) appears only inside 侯王, in chapters 32, 37 and 39. Its graph holds 矢 (*shǐ* — an arrow) beneath a shelter, and on the standard account it began as **an archery target**; the feudal rank came from the ritual archery through which it was conferred. Conventionally rendered *marquis*, which imports a European peerage.
 
 侯王 is not two people but a **class term** — the ruling stratum, roughly *lords and kings* as an English phrase like *princes and potentates* is one thing. It takes **rulers**, and the compound's internal ranking is not reproduced. What is lost is small: the Chinese distinguishes two grades of nobility, and the English does not. What would be lost by keeping *kings* is larger.
 
-## What is set aside
+### What is set aside
 
 **king, kings** — gendered in English where the Chinese is not, and it seats the word on the throne these chapters are arguing out from under. The lock's leading space is deliberate; see the note below.
 
@@ -73,7 +75,7 @@ Chapter 78 is the plainest definition the book gives: 受國之垢，是謂社�
 
 **sage-king, philosopher-king** — imports a Confucian and a Platonic ideal in one phrase, neither of which is here.
 
-## Working register
+### Working register
 
 | Form | Chapters | English |
 |---|---|---|
@@ -87,7 +89,7 @@ Chapter 78 is the plainest definition the book gives: 受國之垢，是謂社�
 
 **A note on the lock string.** *king* is forbidden as **" king"**, with a leading space, because as a bare substring it fires inside *walking*, *cooking*, *taking*, *making*, *seeking* and *thinking*. None currently occur in these eight chapters; one rewrite would be enough. The space is the difference between a lock and a nuisance.
 
-## What stays open
+### What stays open
 
 **The office really was male, and the English no longer says so.** Where 侯王 and 王公 name the actual ruling stratum of the late Zhou — chapters 32, 37, 39, 42 — the people addressed were men. *Rulers* is true to the word and silent about the world. This edition renders toward the universal and notes the seam here rather than in the verse, which is standing rule 2 working as written; but the silence is real and a reader should know the room Laozi was speaking into.
 

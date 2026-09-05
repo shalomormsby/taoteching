@@ -10,17 +10,17 @@ covers:
   - { char: "孝", render: "devotion" }
 ---
 
-# 慈 — *cí* — **tenderness**
+## 慈 (Cí) — Tenderness
 
-## The problem
+*Say "tsuh," rising. Seven lines across three chapters, and it is the first of the book's three treasures.*
+
+**Locked: 慈 → "tenderness."** *(Not "compassion," not "mercy," not "maternal love," not "filial piety." 孝 (xiào) → "devotion.")*
 
 慈 is the **first of the three treasures** — 一曰慈 — and the book stakes something large on it: 慈故能勇, *"tenderness, and so you can be brave."* A word that cannot produce courage is the wrong word for it.
 
 **Compassion**, the usual English, cannot. Compassion is *suffering-with*: it sits down beside. It is also a Buddhist word in English by now, carrying karuṇā into a text written before Buddhism reached China. Ch 67 needs something that gets up and fights — 夫慈，以戰則勝，以守則固, *"with 慈, fight and you win; defend and you hold firm."*
 
-Our manuscript had three answers for one character: *tenderness* through all five lines of ch 67, *love* at ch 19, and at **ch 18 no word at all** — 孝慈 was rendered "filial piety," and 慈 simply fell out of the verse.
-
-## The graph, and it is a pair with 孝
+### The graph, and it is a pair with 孝
 
 **慈 is 心 (*xīn* — heart) under 兹 (*zī*)**, which in its older form doubles 幺 (*yāo* — a skein of silk) and carries the sense *to grow, to multiply*. The heart that increases toward something. *Shuowen*: 慈，愛也 — *"慈 is 愛 (ài — love)."*
 
@@ -33,7 +33,7 @@ It never appears alone in this book outside ch 67. Twice it appears welded to **
 
 That reciprocity is what *filial piety and love* destroys. **Devotion and tenderness** keeps it: two words, two directions, one relation.
 
-## Why tenderness, and why it has to be able to fight
+### Why tenderness, and why it has to be able to fight
 
 Ch 67 is the test, because it uses 慈 five times and asks it to do incompatible work — to be the softest of the three treasures and the one that wins wars.
 
@@ -50,7 +50,7 @@ The claim is not that gentleness is secretly strong. It is that **courage withou
 
 **Compassion cannot be fierce**, and *mercy* is worse: mercy is what the strong extend to the defeated, which reverses the chapter.
 
-## Where the book puts it
+### Where the book puts it
 
 慈 belongs to the same argument as 仁 (*rén* — humaneness) and sits on the other side of it. 仁 is the **named** virtue, the one you can be praised for, and the book treats its visibility as a symptom: 大道廢，有仁義. 慈 is never treated that way. It is a treasure, and at ch 19 it is what the people **return to** once the named virtues are cut off:
 
@@ -59,7 +59,7 @@ The claim is not that gentleness is secretly strong. It is that **courage withou
 
 **The unnamed thing survives the removal of the named one.** That is the chapter's whole mechanism, and it only reads if 仁 and 慈 take clearly different English.
 
-## Never
+### Never
 
 **compassion.** Suffering-with, and Buddhist in English. 慈 is 愛 — the heart growing toward — and it has to produce 勇 (*yǒng* — courage) at ch 67.
 
@@ -69,7 +69,7 @@ The claim is not that gentleness is secretly strong. It is that **courage withou
 
 **filial piety** for 孝. A Victorian sinology compound that names an institution and a duty; the graph shows a child taking an elder's weight. And in both places 孝 occurs it is bonded to 慈, so it never has to carry the direction alone.
 
-## What stays open
+### What stays open
 
 **Whether tenderness can survive being the first treasure.** English treats tenderness as a mood — something felt, and usually briefly. 慈 at ch 67 is closer to a **stance you fight from**, and the entry's own argument leans on a parent's ferocity to make that plausible. It is plausible. It is not obvious, and a reader who has not been handed the graph may hear only softness.
 

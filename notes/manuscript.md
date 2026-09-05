@@ -424,3 +424,23 @@ We keep 折. The chapter's engine is physical from the first line (a corpse, a g
 ### Ch 80 · 什伯之器 — a fifth Siku-flagged 人
 
 Our base reads 什伯之器 (*shí bǎi zhī qì* — "ten- and hundred-fold tools"). The Siku compilers note inside 王弼's own text that 河上公's edition **and all editions** carry a 人 (*rén* — person) there: 〔案什伯下河上公注本及各本俱有人字〕. 河上公's lemma splits at that seam and confirms it. We keep the base; nothing in the English turns on it, since both readings mean tools that stand in for many hands. Recorded in `sources/variants.yaml`, with the fuller point that 河上公 takes his 人 somewhere 王弼 does not — 器謂農人之器, the tools are the *farmers'*, and 不用 is the state declining to requisition them and their season.
+
+### Ch 16 · 致 / 至 — the opening couplet's fork is about agency
+
+Our base reads 致虛極 (*zhì xū jí*). 致 (*zhì*) is 夊 (*suī* — a dragging foot) beneath 至 (*zhì* — to arrive); 說文解字: 送詣也, *"to send all the way there."*
+
+**河上公 (*Héshàng Gōng*) reads 至虛極**, with the plain 至 — and his gloss keeps it: 得道之人捐情去欲，五內清淨，**至於虛極** — *"one who has gained the Tao sheds feeling and casts off desire; the five viscera are clear and still; and so **arrives at** the far end of empty."*
+
+**The fork is about who is doing what.** 致 has someone carrying the emptying to its far point. 至 has them simply arriving there. It is the difference between a practice performed on yourself and a state you come to.
+
+**Our call: the base, and an English with no object supplied.** *"Go totally empty"* is true to both readings rather than picking one, and it avoids the trap either way: every candidate object is imported. 河上公 supplies 五內 (*wǔ nèi* — the five viscera), chapter 3 supplies 其心 (*qí xīn* — their heart), and chapter 16 has neither. The Chinese elides the object in both lines of the couplet, and so does the English.
+
+*Guodian (~300 BCE) carries this couplet and nothing else from the chapter — bundle A, unit A.3, standing alone as its own slip-unit. The chapter's later movement through 常 (*cháng* — the ever-present) is not attested there.*
+
+### Ch 16 · 觀復 / 觀其復 — our base is alone again, and the English had supplied it anyway
+
+河上公's lemma reads 吾以觀**其**復, with 其 (*qí* — their). The Siku editors say so inside our own 王弼 text and go further: 〔案觀下河上公注本及各本俱有其字〕 — *"below 觀, Heshang Gong's commentary edition **and all editions** have the character 其."*
+
+So our base is the only witness without it — the mirror of Ch 23's 故, where our base was the only witness *with* one.
+
+The sense is unchanged, so this is not a meaning-bearing fork. It is recorded because the English had been quietly rendering a character our base does not print: *"I observe **their** return."* Whatever replaces that line should either drop the possessive or take the 其 deliberately, rather than by accident. Recorded in `sources/variants.yaml`.

@@ -49,7 +49,7 @@ And the register argument is the same one that settled 無為 → *non-doing* an
 
 **腹** (*fù*) is the belly — what actually needs feeding. Against it stand the heart (which grasps, schemes, wants) and the eye (which craves endlessly, since seeing never fills anything). The sage attends to the organ that can be **satisfied** and neglects the organs that cannot.
 
-Note that 虛 (*emptying*) is not an insult here. It is Laozi's highest practice — 致虛極 (16), *reach utmost emptiness*. To empty the heart is to unclutter it of grasping, not to make people stupid. (This chapter is often read as advocating a dull populace; the vocabulary argues otherwise, and it is a fair fight worth having in the open.)
+Note that 虛 (*emptying*) is not an insult here. It is Laozi's highest practice — 致虛極 (16), *go totally empty*. To empty the heart is to unclutter it of grasping, not to make people stupid. (This chapter is often read as advocating a dull populace; the vocabulary argues otherwise, and it is a fair fight worth having in the open.)
 
 **"gut" is on 心's `forbidden:` list, and the reason it had to be.** *(Added 2026-08-30.)* 腹 sits inside this entry as a `covers:` character, and **`covers:` records a `render:` but never a `forbidden:` list** — so for as long as the argument below lived only in this prose, *gut* was unforbidden book-wide, and ch 12 line 19 read *"chooses **gut wisdom**"* one line beneath its own correctly rendered *belly*. The entry named the error, cited this very chapter as its evidence, and could not stop it. Hanging the word on **心** works because 心 is present in ch 3 and ch 12 — both of the chapters where 腹 appears — so the evidence gate fires, and nothing else in either chapter can legitimately claim *gut*.
 

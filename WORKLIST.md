@@ -8,7 +8,7 @@
 
 **The first draft is complete — 81 of 81, since 2026-08-26. The editing pass is the work now.**
 
-**Progress: Pass 0 ✅ · Pass A ✅ · Pass B ✅ · Pass C ✅ · Pass D 🔶 — 8 of 19 chapters (2026-09-02).** Pass D, the chapter-level rewrites, is the work now, and it has **one row per chapter** so they can be checked off one at a time. Done: **4 · 3 · 38 · 28 · 10 · 8 · 23**, plus **22 and 64** as the settled sides of formula pairs. Gate green: 0 errors, 102 tests, hard breaks intact, worklist consistent with itself.
+**Progress: Pass 0 ✅ · Pass A ✅ · Pass B ✅ · Pass C ✅ · Pass D 🔶 — 8 of 19 chapters, with ch 16 part done (2026-09-05).** Pass D, the chapter-level rewrites, is the work now, and it has **one row per chapter** so they can be checked off one at a time. Done: **4 · 3 · 38 · 28 · 10 · 8 · 23**, plus **22 and 64** as the settled sides of formula pairs. Gate green: 0 errors, 102 tests, hard breaks intact, worklist consistent with itself.
 
 *Supersedes `RETROFIT.md` and `EDITING-PASS.md`, merged into this file on 2026-08-28 and both now deleted. This file is `RETROFIT.md` renamed, so `git log --follow WORKLIST.md` still reaches the project's start; the 2026-08-10 sweep record and the lessons it taught the checker moved to `PLAN.md`. Every item below was re-verified against the manuscript at the merge; the old file listed six repairs that had already been made.*
 
@@ -16,7 +16,7 @@
 
 ## The list
 
-**⬜ open · 🔶 part done · ✅ done · ⏸ deferred by Shalom.** Detail for every row is below, under the matching heading. **93 item rows: 55 open · 32 done · 3 part done · 3 deferred.** *(19 of them are the per-chapter Pass D rows, whose status is derived.)* *(Counted from the table itself — a hand-kept tally drifts. It read "43 open · 18 done" and matched nothing.)*
+**⬜ open · 🔶 part done · ✅ done · ⏸ deferred by Shalom.** Detail for every row is below, under the matching heading. **93 item rows: 53 open · 33 done · 4 part done · 3 deferred.** *(19 of them are the per-chapter Pass D rows, whose status is derived.)* *(Counted from the table itself — a hand-kept tally drifts. It read "43 open · 18 done" and matched nothing.)*
 
 | # | | Item | Ch | Pass |
 |---|---|---|---|---|
@@ -35,7 +35,7 @@
 | T1-3 | ✅ | ~~為無為 → *"Without effort"*; 敢 dropped~~ — ch 3's closing movement rebuilt; 治 restored at both ends; **`"effortless" / "without effort"` added to 無為's forbidden list** | 3 | D |
 | T1-4 | ✅ | ~~無為 → *"takes no action"*; 上 rendered two ways; invented *pure*~~ — ch 38 rebuilt; **失 restored as the chapter's spine**; 大丈夫 → *the great person* (Shalom's call); opens T4-7 | 38 | D |
 | T1-5 | ✅ | ~~Bare 德 → *"profound integrity"* ×3~~ — 玄德's word, on a chapter with no 玄; triad restored | 23 | C |
-| T1-6 | ⬜ | 守 → *"Embrace"* — 守/抱 swapped | 16 | D |
+| T1-6 | ✅ | ~~守 → *"Embrace"* — 守/抱 swapped~~ — 守 → *hold to*, matching ch 28; **極 and 篤 were both dropped entirely** and are now rendered | 16 | D |
 | T1-7 | ✅ | ~~守 → *"attune to"* ×3; 常 dropped from all three 常德~~ — 守 → *hold to*; 常 restored ×3; the template runs unbroken | 28 | D |
 | T1-8 | ⬜ | 為 → *"force"* ×3; clashes with ch 64's *handle* | 29 | D |
 | T1-9 | ⬜ | 左/右 as *"creation"/"destruction"*, then literal four lines later | 31 | D |
@@ -89,9 +89,9 @@
 | D4 | ✅ | ~~**Ch 4** — 道沖 inverted, 吾不知誰之子 untranslated, 帝 erased~~ · T1-2 | 4 | D |
 | D8 | ✅ | ~~**Ch 8** — 善's showcase, and the lock applied to none of its nine~~; 幾 → *near*, not *one with* · T2-8 · T3-2 | 8 | D |
 | D10 | ✅ | ~~**Ch 10** — 無知/無為 swapped, 疵 deleted, and three Englishes on absent characters~~ · T1-1 | 10 | D |
-| D11 | ⬜ | **Ch 11** — three identical 當其無 frames rendered three ways; 利 and 用 lost · T3-3 | 11 | D |
+| D11 | ⬜ | **Ch 11** — three identical 當其無 frames rendered three ways; 利 and 用 lost. **Plus 無 → *emptiness* ×2 and *empty space* ×2 — 無 is locked to *absence*, and 虛 has zero occurrences here** · T3-3 | 11 | D |
 | D13 | ⬜ | **Ch 13** — 無身 → *the separate self dissolves*, an Advaita import; 寄/託 are a pair · T1-10 · T3-7 | 13 | D |
-| D16 | ⬜ | **Ch 16** — 守 → *Embrace* (抱's word); *returns energy to its root* with no 氣 in the chapter; 復命. **Riders: 守 → *hold to* set at ch 28; *energy* purged at 28 and 10** · T1-6 · T1-13 · T2-18 | 16 | D |
+| D16 | 🔶 | **Ch 16** — **opening couplet rebuilt** (T1-6 ✅): *Go totally empty. / Hold steadily to stillness.* Still owed: *energy* with no 氣; *Multitudes* with no 眾; 容 twice over; 王 → *sovereignty*; the 乃 chain as *leads to* ×5; 復命 · T1-13 · T2-18 | 16 | D |
 | D23 | ✅ | ~~**Ch 23** — 同 as dissolution ×6; *intensity* and *we* rendering nothing; 事's lock breached by *actions*~~; three forks logged · T2-25 | 23 | D |
 | D22 | ✅ | ~~**Ch 22** — 為天下式 → *serves as the world's pattern*~~; visited as the settled half of a formula pair · T2-15 | 22 | D |
 | D28 | ✅ | ~~**Ch 28** — the pointing test failed on nearly every line~~ · T1-7 · T1-15 · T1-16 · T3-5 | 28 | D |

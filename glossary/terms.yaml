@@ -235,6 +235,14 @@
   status: locked
   entry: glossary/shi-恃.md
 
+- term: "極"
+  pinyin: "jí"
+  render: "the far end — where a thing runs out · the endless (無極)"
+  forbidden: ["limitless", "absolute", "ultimate", "infinite", "extreme", "utmost"]
+  chapters: [16, 28, 58, 59, 68]
+  status: open
+  entry: glossary/ji-極.md
+
 - term: "母"
   pinyin: "mǔ"
   render: "mother"
@@ -250,6 +258,14 @@
   chapters: [17, 23, 25, 51, 64]
   status: locked
   entry: glossary/ziran-自然.md
+
+- term: "虛"
+  pinyin: "xū"
+  render: "empty (adjective) · to empty (verb)"
+  forbidden: ["emptiness", "the void", "vacuity", "nothingness"]
+  chapters: [3, 5, 16, 22, 53]
+  status: open
+  entry: glossary/xu-虛.md
 
 - term: "貨"
   pinyin: "huò"

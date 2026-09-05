@@ -880,3 +880,39 @@
     agreement is what makes the other two forks legible as substitutions rather
     than as a different passage.
   logged: notes/manuscript.md
+
+- chapter: 16
+  line: "致虛極"
+  base: "致"
+  witnesses: { heshanggong: "至" }
+  meaning_bearing: true
+  our_call: base
+  note: >
+    Our base (Wang Bi) reads 致 (zhi - to send/carry all the way there; Shuowen
+    送詣也, from 夊 a dragging foot and 至 to arrive). Heshang Gong's lemma reads
+    至 (zhi - to arrive at), and his gloss repeats it: 至於虛極, "arrives at the
+    far end of empty." The fork is about agency. 致 has someone carrying the
+    emptying to its far point; 至 has them simply arriving there. We keep the
+    base text, and render with no object supplied - "Go totally empty" - which
+    is true to both readings rather than picking one by inserting a word neither
+    witness has. Every candidate object is imported: Heshang Gong supplies 五內
+    (wu nei - the five viscera), ch 3 supplies 其心 (qi xin - their heart), and
+    ch 16 has neither.
+  logged: notes/manuscript.md
+
+- chapter: 16
+  line: "吾以觀復"
+  base: "觀復"
+  witnesses: { heshanggong: "觀其復" }
+  meaning_bearing: false
+  our_call: base
+  note: >
+    Heshang Gong's lemma reads 吾以觀其復, with 其 (qi - their). The Siku
+    editors' collation note in our own Wang Bi text says the same and goes
+    further: 〔案觀下河上公注本及各本俱有其字〕, "below 觀, Heshang Gong's
+    commentary edition and all editions have the character 其." So our base is
+    alone in lacking it, the same situation as ch 23's 故 in reverse. The sense
+    is unchanged either way, so not meaning-bearing. Worth recording because the
+    English had been silently supplying it - "I observe their return" renders a
+    character our base does not print.
+  logged: notes/manuscript.md

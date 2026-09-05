@@ -10,13 +10,15 @@ covers:
   - { char: "力", render: "force" }
 ---
 
-# 強 — *qiáng* — **strong**
+## 強 (Qiáng) — Strong
 
-## The problem
+*Say "chyahng," rising. Twenty-one lines across twelve chapters, and the book makes it both the disease and the cure.*
 
-Of the four words ch 78 forces apart — 柔 (*róu* — soft) · 剛 (*gāng* — hard) · 弱 (*ruò* — yielding) · 強 — three have been decided and this one never was. It runs through twelve chapters in six different Englishes, and in ch 33 it takes two of them four lines apart.
+**Locked: 強 → "strong" — *strengthen* where it takes an object, *forcing* where it strains against a thing's nature.** *(Not "mighty," not "forceful," not "brute strength," not "perseverance." 力 (lì) → "force.")*
 
-The cost is not untidiness. It is that the book's sharpest joke becomes invisible.
+Chapter 78 forces four words apart — 柔 (*róu* — soft) · 剛 (*gāng* — hard) · 弱 (*ruò* — yielding) · 強 — and 強 is the one that carries opposite verdicts inside a single frame.
+
+The book's sharpest joke depends on it, and any English that resolves the word makes the joke invisible.
 
 Two chapters use the identical three-character frame **X 曰強** (*yuē qiáng* — "is called 強"):
 
@@ -28,7 +30,7 @@ Two chapters use the identical three-character frame **X 曰強** (*yuē qiáng*
 
 The first is praise. The second is a warning, and the line after it is 物壯則老 (*wù zhuàng zé lǎo* — "things at their prime grow old"). **One word, one frame, opposite verdicts.** A translation that renders the first *strength* and the second *forcing* has answered a question the text deliberately leaves standing — and has spent two English words to hide the fact that Laozi used one.
 
-## The graph, and it is the same instrument as 弱
+### The graph, and it is the same instrument as 弱
 
 The character now written 強 is not the original word for strength. Two graphs are involved and the *Shuowen Jiezi* (c. 100 CE) separates them cleanly.
 
@@ -47,7 +49,7 @@ So two things follow, and the second is the one that matters.
 
 That is a bow drawn past its give. Ch 76's whole botany is the same figure: 王弼 glosses 強大處下 as 木之本也 (*"this is the trunk"*) and 柔弱處上 as 枝條是也 (*"these are the branches"*). The trunk cannot bend and is nearer the ground; the branches bend and are nearer the light.
 
-## The commentators name the quartet outright
+### The commentators name the quartet outright
 
 河上公, glossing ch 42's 人之所教，我亦教之 (*"what others teach, I also teach"*), states both curricula in fourteen characters:
 
@@ -66,7 +68,7 @@ A Han commentator, using all four characters, in two matched lines, treating the
 
 強 twice in seven characters, with opposite valence, from the fourth-century commentator the recension is named for. Whatever English 強 takes has to survive being said twice in one breath and meaning something different each time. **Strong survives it. Forcing does not, and neither does true strength.**
 
-## Where it flexes, and the flexions are grammatical
+### Where it flexes, and the flexions are grammatical
 
 The split is marked in the Chinese, so it can be checked rather than argued.
 
@@ -92,7 +94,7 @@ The tradition heard this as a separate word. 河上公's text at ch 25 carries t
 
 **Everywhere else — *strong*.** Chapters 29, 33, 36 (柔弱勝剛強), 42, 52, 55, 76, 78.
 
-## 力 is the plain word, and ch 33 has the pair inverted
+### 力 is the plain word, and ch 33 has the pair inverted
 
 強 cannot be settled without 力 (*lì* — a plough or an arm, the ordinary word for physical force), because ch 33 sets them against each other:
 
@@ -105,7 +107,7 @@ The couplet is **plain force against achieved strength**, and it rhymes with the
 
 **力 takes *force*** — which ch 68 already does (用人之力, *"using people's force"*) — and 強 takes *strong*. Neither needs an adjective; the couplet supplies the comparison.
 
-## Never
+### Never
 
 **mighty · forceful · brute strength.** All three pre-judge. 強 is the word the book uses for the state it warns against *and* the state it recommends, and an English that carries a verdict cannot do both.
 
@@ -113,7 +115,7 @@ The couplet is **plain force against achieved strength**, and it rhymes with the
 
 **And do not let *strong* or *strength* drift onto its neighbours.** Two characters have borrowed 強's English in chapters that contain 強 — 固 (*gù* — firm) at ch 55's 握固, and 壯 (*zhuàng* — in its prime) at 物壯則老 in ch 30 and ch 55. A lock is a claim in both directions, and no checker rule can catch these: 固 and 壯 sit in the same chapters as 強, so the evidence gate that makes the tool trustworthy is exactly what blinds it here. This is a reader's job.
 
-## What stays open
+### What stays open
 
 **強 is both the disease and the cure, and nothing in the text resolves it.** It is rigor mortis at ch 76, an army that cannot win at ch 76 and ch 30, a roof-beam at ch 42, the heart bullying the breath at ch 55 — and it is also what you are when you overcome yourself at ch 33 and when you hold to the soft at ch 52.
 

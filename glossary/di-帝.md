@@ -22,7 +22,7 @@ pairing: false
 
 ---
 
-## The problem
+### The line is about where 帝 stands, not what 帝 is
 
 Chapter 4 ends 象帝之先 — *"…before 帝."* The word names a god, and English has only ever done two things with it: **inflate it** into *God*, *the Lord*, *the Creator* — or **erase it** into an ancestor, a beginning, nothing at all.
 
@@ -32,7 +32,7 @@ Both destroy the line, and for the same reason. **They treat the sentence as a c
 
 ---
 
-## The character: a calyx, a fire, or a pivot — but not a person
+### The character: a calyx, a fire, or a pivot — but not a person
 
 **說文解字 (c. 100 CE) is wrong here, and the reason it is wrong is the whole story in miniature.** Xu Shen gives 諦也，王天下之號也。从丄，朿聲 — *"帝 means 諦 (*dì* — to scrutinize); the title of one who rules the world. From 丄 (the archaic 上, 'above'), with 朿 (*cì* — a thorn) as sound."* Modern palaeography rejects that analysis. **By Xu Shen's day 帝 had meant *emperor* for three centuries, and he read the graph backwards from the word he knew.** The dictionary that preserves the oldest Chinese lexicography had already lost this one to the political meaning.
 
@@ -48,7 +48,7 @@ The oracle-bone graph is genuinely disputed. The three live readings:
 
 ---
 
-## 帝 was already a deposed god, and that is why it is the right word
+### 帝 was already a deposed god, and that is why it is the right word
 
 This is the part the standard renderings lose, and it is chronology, not interpretation.
 
@@ -68,7 +68,7 @@ This is the part the standard renderings lose, and it is chronology, not interpr
 
 ---
 
-## What the line actually does: it takes the floor out of legitimation
+### What the line actually does: it takes the floor out of legitimation
 
 Read the chapter's last two lines together, because they are one move:
 
@@ -91,7 +91,7 @@ That is not a lament about a particular ruler. **It is a critique of legitimatio
 
 ---
 
-## The hardest question in the chapter: is 象 "seems," or is it *image*?
+### The hardest question in the chapter: is 象 "seems," or is it *image*?
 
 **Chapter 4 hedges five times in seven lines** — 似 twice, 或 twice, 吾不知 once. It is the most epistemically cautious chapter in the book. So a great deal turns on whether the final word 象 (*xiàng*) is a **sixth hedge** or the one thing the chapter is willing to assert.
 
@@ -118,7 +118,7 @@ That is not a lament about a particular ruler. **It is a critique of legitimatio
 
 ---
 
-## Why this word above all others: the Term Question
+### Why this word above all others: the Term Question
 
 **帝 is the word the missionaries fought over for two generations, and the man who won that fight built the English Tao Te Ching.**
 
@@ -132,7 +132,7 @@ The **Term Question** was the long dispute over which Chinese word would be cons
 
 ---
 
-## What is set aside, and why
+### What is set aside, and why
 
 **"God"** — imports monotheism, creation from nothing, and a personal will, none of which 帝 carries in the oracle bones. Worse here than elsewhere: a God with something before him is not the Christian God, so the word makes the line unreadable in its own terms. It also takes Legge's side in a missionary controversy the Chinese text is not a party to.
 
@@ -154,7 +154,7 @@ The **Term Question** was the long dispute over which Chinese word would be cons
 
 ---
 
-## The working register
+### The working register
 
 **帝 → "god," and at its one occurrence, *any god*.** No flexion, no sweep. The whole weight falls on three characters:
 
@@ -165,7 +165,7 @@ The **Term Question** was the long dispute over which Chinese word would be cons
 
 ---
 
-## What stays open
+### What stays open
 
 **Whether to name him at all.** *"before Dì"* would treat 帝 as we treat 道 — an untranslated proper name, glossed once. It is honest about how much is contested, and it refuses to decide for the reader. It is also opaque, and it asks someone who has met one Chinese word to meet a second by Chapter 4. **Recommended against, without confidence.**
 
