@@ -180,14 +180,14 @@ chapter,line,block,chinese,pinyin,literal_gloss,our_english,alignment_method
 16,9,3,復命曰常，,"Fù mìng yuē cháng,","Restoring destiny \[fu ming\] is called \[yue\] the constant/eternal \[chang\],",Returning to what was given is called the ever-present.,proportional
 16,10,3,知常曰明。,Zhī cháng yuē míng.,Knowing \[zhi\] the constant \[chang\] is called \[yue\] illumination/clarity \[ming\].,Knowing the ever-present is called clear-seeing.,proportional
 16,11,4,不知常，,"Bù zhī cháng,","Not \[bu\] knowing \[zhi\] the constant \[chang\],",Not knowing the ever-present brings reckless action and disaster.,proportional
-16,12,4,妄作凶。,Wàng zuò xiōng.,Recklessly \[wang\] acting/doing \[zuo\] leads to disaster/ill omen \[xiong\].,Knowing the ever-present creates the capacity to embrace the totality.,proportional
-16,13,4,知常容，,"Zhī cháng róng,","Knowing \[zhi\] the constant \[chang\] brings capacity/tolerance \[rong\],",Embracing all leads to impartiality.,proportional
+16,12,4,妄作凶。,Wàng zuò xiōng.,Recklessly \[wang\] acting/doing \[zuo\] leads to disaster/ill omen \[xiong\].,"Knowing the ever-present, you contain everything.",proportional
+16,13,4,知常容，,"Zhī cháng róng,","Knowing \[zhi\] the constant \[chang\] brings capacity/tolerance \[rong\],",Containing everything leads to impartiality.,proportional
 16,14,4,容乃公，,"Róng nǎi gōng,","Capacity \[rong\] then leads to \[nai\] impartiality/public \[gong\],",Impartiality leads to sovereignty.,proportional
-16,15,4,公乃王，,"Gōng nǎi wáng,","Impartiality \[gong\] then leads to \[nai\] the Avatar/King \[wang\],",Sovereignty leads to the open sky.,proportional
-16,16,4,王乃天，,"Wáng nǎi tiān,","The Avatar/King \[wang\] then leads to \[nai\] Heaven \[tian\],",The open sky leads to the Tao.,proportional
-16,17,4,天乃道，,"Tiān nǎi dào,","Heaven \[tian\] then leads to \[nai\] the Tao \[dao\],",The Tao leads to the enduring.,proportional
-16,18,4,道乃久，,"Dào nǎi jiǔ,","The Tao \[dao\] then leads to \[nai\] endurance/longevity \[jiu\],","and to the end of your days, no danger will find you.",proportional
-16,19,4,没身不殆。,Mò shēn bù dài.,To the end of one's life/body \[mo shen\] there is no \[bu\] danger/exhaustion \[dai\].,"and to the end of your days, no danger will find you.",proportional-fill
+16,15,4,公乃王，,"Gōng nǎi wáng,","Impartiality \[gong\] then leads to \[nai\] the Avatar/King \[wang\],",Sovereignty leads to the sky.,proportional
+16,16,4,王乃天，,"Wáng nǎi tiān,","The Avatar/King \[wang\] then leads to \[nai\] Heaven \[tian\],",The sky leads to the Tao.,proportional
+16,17,4,天乃道，,"Tiān nǎi dào,","Heaven \[tian\] then leads to \[nai\] the Tao \[dao\],",The Tao leads to what endures.,proportional
+16,18,4,道乃久，,"Dào nǎi jiǔ,","The Tao \[dao\] then leads to \[nai\] endurance/longevity \[jiu\],","And to the end of your days, no danger will find you.",proportional
+16,19,4,没身不殆。,Mò shēn bù dài.,To the end of one's life/body \[mo shen\] there is no \[bu\] danger/exhaustion \[dai\].,"And to the end of your days, no danger will find you.",proportional-fill
 17,1,1,太上，下知有之；,"Tài shàng, xià zhī yǒu zhī;","Highest/supreme \[tai shang\], those below \[xia\] know \[zhi\] of its existence \[you zhi\];","About the greatest leaders, little is known.",exact-count
 17,2,1,其次，親而譽之；,"Qí cì, qīn ér yù zhī;","The next \[qi ci\], love/are close to \[qin\] and \[er\] praise \[yu\] them \[zhi\];",Good leaders are widely loved and praised.,exact-count
 17,3,1,其次，畏之；,"Qí cì, wèi zhī;","The next \[qi ci\], fear \[wei\] them \[zhi\];",Poor leaders are feared.,exact-count

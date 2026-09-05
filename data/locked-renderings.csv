@@ -192,15 +192,15 @@ chapter,line,character,pinyin,locked_term,expected_rendering,rendering_present,a
 16,10,常,cháng,常,the ever-present / the abiding,yes,0.3,proportional,Knowing the ever-present is called clear-seeing.
 16,10,明,míng,明,clear-seeing / clarity,yes,0.3,proportional,Knowing the ever-present is called clear-seeing.
 16,11,常,cháng,常,the ever-present / the abiding,yes,0.3,proportional,Not knowing the ever-present brings reckless action and disaster.
-16,13,常,cháng,常,the ever-present / the abiding,NOT FOUND,0.3,proportional,Embracing all leads to impartiality.
+16,13,常,cháng,常,the ever-present / the abiding,NOT FOUND,0.3,proportional,Containing everything leads to impartiality.
 16,14,公,gōng,公,impartiality / impartial (the quality) · lord / minister (the office),yes,0.3,proportional,Impartiality leads to sovereignty.
-16,15,公,Gōng,公,impartiality / impartial (the quality) · lord / minister (the office),NOT FOUND,0.3,proportional,Sovereignty leads to the open sky.
-16,15,王,wáng,王,ruler / sovereign · to rule (verb),yes,0.3,proportional,Sovereignty leads to the open sky.
-16,16,天,tiān,天,sky (as a tier) · nature / the natural (as an agent),NOT FOUND,0.3,proportional,The open sky leads to the Tao.
-16,16,王,Wáng,王,ruler / sovereign · to rule (verb),NOT FOUND,0.3,proportional,The open sky leads to the Tao.
-16,17,天,Tiān,天,sky (as a tier) · nature / the natural (as an agent),NOT FOUND,0.3,proportional,The Tao leads to the enduring.
-16,17,道,dào,道,the Tao (left untranslated),NOT FOUND,0.3,proportional,The Tao leads to the enduring.
-16,18,道,Dào,道,the Tao (left untranslated),NOT FOUND,0.3,proportional,"and to the end of your days, no danger will find you."
+16,15,公,Gōng,公,impartiality / impartial (the quality) · lord / minister (the office),NOT FOUND,0.3,proportional,Sovereignty leads to the sky.
+16,15,王,wáng,王,ruler / sovereign · to rule (verb),yes,0.3,proportional,Sovereignty leads to the sky.
+16,16,天,tiān,天,sky (as a tier) · nature / the natural (as an agent),NOT FOUND,0.3,proportional,The sky leads to the Tao.
+16,16,王,Wáng,王,ruler / sovereign · to rule (verb),NOT FOUND,0.3,proportional,The sky leads to the Tao.
+16,17,天,Tiān,天,sky (as a tier) · nature / the natural (as an agent),NOT FOUND,0.3,proportional,The Tao leads to what endures.
+16,17,道,dào,道,the Tao (left untranslated),NOT FOUND,0.3,proportional,The Tao leads to what endures.
+16,18,道,Dào,道,the Tao (left untranslated),NOT FOUND,0.3,proportional,"And to the end of your days, no danger will find you."
 17,1,有,yǒu,無 & 有,presence,NOT FOUND,1.0,exact-count,"About the greatest leaders, little is known."
 17,5,信,Xìn,信,trust / trustworthy,yes,1.0,exact-count,"Where trust runs short, there is no trust."
 17,5,信,xìn,信,trust / trustworthy,yes,1.0,exact-count,"Where trust runs short, there is no trust."

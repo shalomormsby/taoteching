@@ -2296,3 +2296,25 @@ Hence **"Having done for others, they have more. / Having given to others, they 
 **Why *hold **to***, and it matters more than the word count.** Bare *hold* is the most overloaded verb in the manuscript — **21 lines across five characters**: 守 (ch 5, 32), 執 (*zhí* — to grasp, ch 14), 保 (*bǎo* — to guard, ch 15), 有 (*yǒu* — to have, ch 59), 持 (*chí* — hold in the hand, ch 64). That pile is `WORKLIST.md` T2-19 ★, and 守 is the member it names. *Hold to* is currently clean — ch 28 three times and ch 37, all 守 — so it is the one form keeping 守 separable. The graph agrees: 守 is 宀 (*mián* — a roof) over 寸 (*cùn* — the standard measure), 說文 守官也, *"to hold an office."* Staying at your post, not taking hold. Two chapters over, the book says 執者失之 — *"those who grasp it lose it."*
 
 **The shape, and what it cost.** The Chinese puts both degree words last — 致虛**極** / 守靜**篤** — and 王弼 binds them into one compound across the two lines, 物之極篤, which is only audible because they sit in matching slots. The English moves both to the middle: *Go **totally** empty / Hold **steadily** to stillness*. **The slot moved; the match survived**, and that is the trade — a plainer line in exchange for the line-final position. *Steadily* was chosen over *deeply* because *deep* already carries 淵 (*yuān* — a deep pool) at ch 8 and 36 and 深 (*shēn*) at ch 15, 21, 59 and 65, and 淵 is itself unsettled (T2-24).
+
+## Ch 16 · the 容→公→王→天→道→久 chain — one broken link, not six
+
+*(2026-09-05, Pass D, `WORKLIST.md` D16.)*
+
+**乃 (*nǎi* — then) keeps *leads to*.** *(Shalom's call, and the argument against it was overstated.)* The charge was that five identical *leads to* build a causal ladder — the mechanistic overlay. But both commentators read the chain exactly that way, with 則 (*zé* — if/then): 王弼 (*Wáng Bì*) 無所不包通**則**乃至於蕩然公平也, 河上公 (*Héshàng Gōng*) 無所不包容**則**公正無私. English *leads to* covers natural consequence as readily as manufacture — opening your eyes leads to sight — and that is what 則…乃至於 says.
+
+*(乃 does read four ways across its twelve lines: leads to (16 ×5), at last (28), becomes (54 ×5), only then (65). It is a particle rather than a content word, so it is left alone unless it earns a Pass E row.)*
+
+**The real defect was 容 (*róng* — to contain), rendered twice.** *"The capacity to embrace the totality"* and then *"Embracing all"* one line later, where the Chinese repeats the identical character. That breaks 頂真 (*dǐng zhēn* — the tail-head chain, where each clause opens on the word the last one closed with) at its **first** link. Checking link by link, the other four were already clean: 公/公, 王/王, 天/天, 道/道. **One fix, not a rewrite.**
+
+**容 is a roof over a valley.** 說文解字: 盛也。从宀、谷 — *"to hold, as a vessel holds. From 宀 (mián — a roof) and 谷 (gǔ — a valley)."* Both commentators gloss with 無所不包 (*wú suǒ bù bāo* — "there is nothing it does not enfold"): 王弼 無所不包通也, 河上公 无所不包容也. **That is what licenses *everything*** — it is supplied, but it is what 無所不 says, and the word is otherwise unused in the manuscript.
+
+Repairing the link removed three imports in one move: **create** (生 *shēng*'s, and `check_locks.py` had been flagging it), **embrace** (抱 *bào*'s — seven lines, five of them 抱), and **totality**, which rendered nothing.
+
+**久 → *what endures*, not *what lasts*.** *(Shalom's correction, and the evidence is stronger than register.)* **Ch 7 puts both characters in one line and splits them by position**: 天長地久 → *"The sky is lasting, the earth enduring,"* and 長且久 → *"Lasting and enduring."* **長 (*cháng*) holds *lasting*; 久 (*jiǔ*) holds *enduring*.** A proposed *what lasts* would have put 久 on 長's English inside a book that distinguishes them explicitly.
+
+*Noted for a future 長/久 pass, not fixed here: 長 wears* endure *at ch 22 (不自矜故長) and ch 24, which is the same collision running the other way.*
+
+**Two invented words removed.** *"The open sky"* twice — 天 is locked to *sky* as a tier, ch 25 already reads plain *the sky*, and *open* rendered no character. And the closing line was opening lowercase, reading as a fragment hanging off the Tao rather than as the chapter's own last sentence.
+
+**王 (*wáng*) left standing as *sovereignty*.** It is what the lock says, and it is the one rung where the commentators genuinely split — 王弼 de-politicizes it (蕩然公平則乃至於無所不周普也, *"vast level impartiality then arrives at being nowhere not universally pervading"*), 河上公 politicizes it (公正無私可以為天下王). `glossary/wang-王.md` describes ch 16 as *"a stage in a sequence… no person at all"* and then assigns an office word, so the entry disagrees with itself. Owed its own decision.
