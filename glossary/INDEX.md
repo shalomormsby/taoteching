@@ -27,7 +27,7 @@ python3 tools/build_index.py
 | **器** | *qì* | vessel / tool / implement | "system", "mechanism", "machine", "utensil" | 9 | **locked** | [`qi-器.md`](qi-器.md) |
 | **一** | *yī* | the one (lowercase) · one thing (ch 22) · plain numeral where it counts | "the One", "Oneness", "the Absolute" | 8 | **locked** | [`yi-一.md`](yi-一.md) |
 | **信** | *xìn* | trust / trustworthy | "faith", "sincerity", "belief" | 8 | **locked** | [`xin-信.md`](xin-信.md) |
-| **王** | *wáng* | ruler / sovereign · to rule (verb) | " king", "kings", "monarch", "emperor" | 8 | **locked** | [`wang-王.md`](wang-王.md) |
+| **王** | *wáng* | ruler / sovereign · supreme authority (in ch 16's chain) · to rule (verb) | " king", "kings", "monarch", "emperor", "sovereignty" | 8 | **locked** | [`wang-王.md`](wang-王.md) |
 | **天地** | *tiān dì* | sky and earth | "heaven and earth", "the cosmos", "the universe" | 7 | **locked** | [`tiandi-天地.md`](tiandi-天地.md) |
 | **我 & 吾** | *wǒ / wú* | the self seen / the self seeing | — | 7 | **locked** | [`wo-wu-我吾.md`](wo-wu-我吾.md) |
 | **敢** | *gǎn* | push / venture — the forward press to take | "dare", "dares", "dared", "daring" | 7 | **locked** | [`gan-敢.md`](gan-敢.md) |

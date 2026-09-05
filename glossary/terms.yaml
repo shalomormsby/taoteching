@@ -137,8 +137,8 @@
 
 - term: "王"
   pinyin: "wáng"
-  render: "ruler / sovereign · to rule (verb)"
-  forbidden: [" king", "kings", "monarch", "emperor"]
+  render: "ruler / sovereign · supreme authority (in ch 16's chain) · to rule (verb)"
+  forbidden: [" king", "kings", "monarch", "emperor", "sovereignty"]
   chapters: [16, 25, 32, 37, 39, 42, 66, 78]
   status: locked
   entry: glossary/wang-王.md

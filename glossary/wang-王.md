@@ -1,8 +1,8 @@
 ---
 term: "王"
 pinyin: "wáng"
-render: "ruler / sovereign · to rule (verb)"
-forbidden: [" king", "kings", "monarch", "emperor"]
+render: "ruler / sovereign · supreme authority (in ch 16's chain) · to rule (verb)"
+forbidden: [" king", "kings", "monarch", "emperor", "sovereignty"]
 chapters: [16, 25, 32, 37, 39, 42, 66, 78]
 status: locked
 pairing: false
@@ -44,7 +44,7 @@ Read the eight chapters together and something becomes hard to miss. **Not one o
 
 | Chapter | Chinese | What the 王 does |
 |---|---|---|
-| 16 | 公乃**王**，**王**乃天 | a **stage in a sequence** — impartiality leads to it, it leads to nature. No person at all. |
+| 16 | 公乃**王**，**王**乃天 | a **stage in a sequence** — impartiality leads to it, it leads to sky. No person at all. |
 | 25 | 王亦大 *(傅奕/范應元: 人)* | one of four vast things — **beside** sky and earth, not above them |
 | 32 | 侯**王**若能守之 | **if** they can hold to it. Conditional, and the outcome belongs to the countless things |
 | 37 | 侯**王**若能守之 | same conditional |
@@ -75,11 +75,15 @@ Chapter 78 is the plainest definition the book gives: 受國之垢，是謂社�
 
 **sage-king, philosopher-king** — imports a Confucian and a Platonic ideal in one phrase, neither of which is here.
 
+**sovereignty** — and it took two passes to see, because the word sounds abstract rather than regal. It is the central term of the **modern nation-state** — Bodin in 1576, Hobbes in 1651 — carrying territorial supremacy, legitimacy and non-interference. That is precisely the fault *monarch* is rejected for one entry above: **the constitutional apparatus of a much later world**, and a heavier import than the word thrown out for importing it. It held Chapter 16's rung until 2026-09-05.
+
+*Chapter 16 takes **supreme authority** instead: no person, so the chain stays a widening of scope, and 王弼's 無所不周普 (nowhere not universally pervading) still reads through it. Two soft collisions were weighed and accepted — 威 (wēi — overawing force) carries* authority *once at ch 72, and 上 (shàng — upper) carries* supreme *once at ch 31 inside the rank-title 上將軍. Both are single occurrences in chapters with no 王, and an inconsistency is a smaller fault than an overlay.*
+
 ### Working register
 
 | Form | Chapters | English |
 |---|---|---|
-| 王, in a sequence | 16 | sovereignty |
+| 王, in a sequence | 16 | **supreme authority** |
 | 王, as verb (為…王) | 66 | to rule |
 | 侯王, the ruling class | 32, 37, 39 | rulers |
 | 王公 | 42 | rulers and lords |

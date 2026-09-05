@@ -91,7 +91,7 @@
 | D10 | ✅ | ~~**Ch 10** — 無知/無為 swapped, 疵 deleted, and three Englishes on absent characters~~ · T1-1 | 10 | D |
 | D11 | ⬜ | **Ch 11** — three identical 當其無 frames rendered three ways; 利 and 用 lost. **Plus 無 → *emptiness* ×2 and *empty space* ×2 — 無 is locked to *absence*, and 虛 has zero occurrences here** · T3-3 | 11 | D |
 | D13 | ⬜ | **Ch 13** — 無身 → *the separate self dissolves*, an Advaita import; 寄/託 are a pair · T1-10 · T3-7 | 13 | D |
-| D16 | 🔶 | **Ch 16** — **opening couplet and the 容→公→王→天→道→久 chain rebuilt** (T1-6 ✅). Still owed: *energy* with no 氣 in the chapter; *Multitudes* with no 眾; 王 → *sovereignty*, where 王弼 and 河上公 split; 復命 · T1-13 · T2-18 | 16 | D |
+| D16 | 🔶 | **Ch 16** — **opening couplet and the 容→公→王→天→道→久 chain rebuilt** (T1-6 ✅); 王 → *supreme authority*, and *sovereignty* is now forbidden as a modern-state overlay. Still owed: *energy* with no 氣 in the chapter; *Multitudes* with no 眾; 復命 · T1-13 · T2-18 | 16 | D |
 | D23 | ✅ | ~~**Ch 23** — 同 as dissolution ×6; *intensity* and *we* rendering nothing; 事's lock breached by *actions*~~; three forks logged · T2-25 | 23 | D |
 | D22 | ✅ | ~~**Ch 22** — 為天下式 → *serves as the world's pattern*~~; visited as the settled half of a formula pair · T2-15 | 22 | D |
 | D28 | ✅ | ~~**Ch 28** — the pointing test failed on nearly every line~~ · T1-7 · T1-15 · T1-16 · T3-5 | 28 | D |

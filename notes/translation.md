@@ -2318,3 +2318,17 @@ Repairing the link removed three imports in one move: **create** (生 *shēng*'s
 **Two invented words removed.** *"The open sky"* twice — 天 is locked to *sky* as a tier, ch 25 already reads plain *the sky*, and *open* rendered no character. And the closing line was opening lowercase, reading as a fragment hanging off the Tao rather than as the chapter's own last sentence.
 
 **王 (*wáng*) left standing as *sovereignty*.** It is what the lock says, and it is the one rung where the commentators genuinely split — 王弼 de-politicizes it (蕩然公平則乃至於無所不周普也, *"vast level impartiality then arrives at being nowhere not universally pervading"*), 河上公 politicizes it (公正無私可以為天下王). `glossary/wang-王.md` describes ch 16 as *"a stage in a sequence… no person at all"* and then assigns an office word, so the entry disagrees with itself. Owed its own decision.
+
+## Ch 16 · 公乃王 — 王 → "supreme authority," and why *sovereignty* was the overlay
+
+*(2026-09-05, Pass D, `WORKLIST.md` D16. Shalom's call.)* *(was: "Impartiality leads to sovereignty.")*
+
+**The rung where the commentators genuinely split.** 王弼 (*Wáng Bì*) takes no person from it: 蕩然公平則乃至於**無所不周普**也 — *"vast level impartiality then arrives at being nowhere not universally pervading."* 河上公 (*Héshàng Gōng*) takes an office: 公正無私**可以為天下王** — *"impartial and without private interest, one can become 王 of 天下 (tiān xià — under-sky, the world)."*
+
+**Why *sovereignty* had to go, and it is the entry's own test.** `glossary/wang-王.md` rejects *monarch* because it *"carries the constitutional apparatus of a much later world."* **Sovereignty is that apparatus** — Bodin (1576), Hobbes (1651), the modern nation-state's central concept: territorial supremacy, legitimacy, non-interference. A heavier anachronism than the word rejected for anachronism, and it survived two passes because it *sounds* abstract rather than regal. Now on 王's `forbidden:` list.
+
+**Why not the obvious alternatives.** ***The leader*** carries six lines already and **not one has a ruler-character** — five are ch 17's 太上 (*tài shàng* — the highest) and 其次 (*qí cì* — the next) ×3, where *leaders* is wholly supplied. It also inverts the word: ch 66 has 江海…能為百谷王者，**以其善下之**, rule by staying below. ***The ruler*** is better — ch 78's 天下王 already reads *"the ruler of the world"* — but it collides with 君 (*jūn* — lord) at ch 26, still open as T2-6, and its plural is 侯王's across six lines, so a reader files ch 16's 王 in the political stratum and 河上公's reading wins silently.
+
+**The cost of *supreme authority*, accepted with eyes open.** Two soft collisions: 威 (*wēi* — overawing force) carries *authority* once at ch 72, and 上 (*shàng* — upper) carries *supreme* once at ch 31, buried in the rank-title 上將軍 (*shàng jiāng jūn*). Both are single occurrences in chapters containing no 王. **An inconsistency is a smaller fault than an overlay**, which is the whole of the argument. *Supreme rule* was offered as a variant closing the 威 collision, since *rule* is already 王's own English at ch 66 — declined, because it trades one collision for 宰 (*zǎi*) at ch 10 and 51, and because it names an activity where the chain's other rungs are states.
+
+**What it buys:** no person, so 容 → 公 → 王 → 天 stays a widening of scope rather than a ladder to a throne, and the chain's climb from 天下 (*tiān xià* — under-sky) to 天 (*tiān* — sky) stays visible.
