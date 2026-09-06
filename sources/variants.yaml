@@ -916,3 +916,22 @@
     English had been silently supplying it - "I observe their return" renders a
     character our base does not print.
   logged: notes/manuscript.md
+
+- chapter: 51
+  line: "夫莫之命而常自然"
+  base: "命"
+  witnesses: { wangbi_collation: "爵" }
+  meaning_bearing: true
+  our_call: base
+  note: >
+    Our vendored Wang Bi carries the line 命並作爵 - "命 is written 爵 (jue - to
+    confer a noble rank) [in other editions]" - under the Siku editors' own note
+    flagging it as probably a collation gloss mistaken for Wang Bi's comment:
+    〔案此句疑係命字下原校注語誤作弼注〕. With 爵 the line reads "no one ennobles
+    it" rather than "no one commands it." Meaning-bearing: 爵 is a granting of
+    rank, 命 an issuing of orders, and the difference decides whether the Tao's
+    honour is withheld by nobody or ordered by nobody. We keep the base. Logged
+    because the variant is evidence for 命's conferral sense - see
+    glossary/ming-命.md - and because the editions it names are not identified,
+    so no witness id is claimed for it.
+  logged: notes/manuscript.md

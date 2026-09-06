@@ -273,7 +273,7 @@ character,pinyin,gloss,our_render,shuowen_headword,matched_by,shuowen_section,co
 法,fǎ,models/follows the law of,,灋,old-form,𢊁,compound,,水 (shuǐ = water) + 去 (qù = ),,5,,0.0246,刑也。平之如水，从水；𢊁，所以觸不直者；去之，从去。,
 司,sī,,,司,exact,司,compound,,反 (fǎn = returning/reverting) + 后 (? = not yet glossed),,4,,0.0243,臣司事於外者。从反后。凡司之屬皆从司。,
 絕,Jué,,,絕,exact,糸,compound,,糸 (mì = silk thread) + 刀 (dāo = a knife) + 卩 (jié = a kneeling person),,4,,0.0243,斷絲也。从糸从刀从卩。,
-命,mìng,destiny/the system's command,,命,exact,口,compound,,口 (kǒu = mouths) + 令 (lìng = cause),,3,,0.0241,使也。从口从令。,
+命,mìng,the allotted course — what is spoken over a thing and sent with it,the allotted course — what is spoken over a thing and sent with it,命,exact,口,compound,,口 (kǒu = mouths) + 令 (lìng = cause),,3,locked,0.0241,使也。从口从令。,
 建,jiàn,,,建,exact,廴,compound,,聿 (? = not yet glossed) + 廴 (? = not yet glossed),,3,,0.0241,立朝律也。从聿从廴。,
 昏,hūn,,,昏,exact,日,compound,,日 (rì = day) + 氐 (? = not yet glossed),,4,,0.0241,日冥也。从日氐省。氐者，下也。一曰民聲。,
 本,běn,root/foundation,,本,exact,木,compound,,木 (mù = not yet glossed),,3,,0.0241,木下曰本。从木，一在其下。,

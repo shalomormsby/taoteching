@@ -444,3 +444,13 @@ Our base reads 致虛極 (*zhì xū jí*). 致 (*zhì*) is 夊 (*suī* — a dra
 So our base is the only witness without it — the mirror of Ch 23's 故, where our base was the only witness *with* one.
 
 The sense is unchanged, so this is not a meaning-bearing fork. It is recorded because the English had been quietly rendering a character our base does not print: *"I observe **their** return."* Whatever replaces that line should either drop the possessive or take the 其 deliberately, rather than by accident. Recorded in `sources/variants.yaml`.
+
+### Ch 51 · 莫之命 / 莫之爵 — a conferral, or an order
+
+Our vendored 王弼 (*Wáng Bì*) prints 命並作爵 beneath 夫莫之命而常自然 — *"命 is written 爵 (jué — to confer a noble rank) [in other editions]"* — and the Siku editors flag the line itself as suspect: 〔案此句疑係命字下原校注語誤作弼注〕, *"this clause is suspected to be a collation note under the character 命, mistakenly taken as Wang Bi's comment."*
+
+**The fork matters.** 命 (*mìng*) issues an order; 爵 (*jué*) confers a rank — its graph is the bronze ceremonial wine-vessel used in investiture. 夫莫之命而常自然 is *"with no one ordering it, it is always so of itself"*; 夫莫之爵而常自然 is *"with no one **ennobling** it…"* — and the line's subject is 道之尊，德之貴 (*"the Tao's being revered, integrity's being valued"*), which is about **status conferred**, not instructions given. The variant fits the sentence better than our base does.
+
+**Our call: the base**, because the reading is transmitted only through a collation note whose own status the Siku editors doubt, and because no edition is named for it — the same reason the Ming facts at Ch 38 and Ch 23 stayed out of `sources/variants.yaml` under a witness id. It is recorded as a fact about our vendored text, with `wangbi_collation` rather than a witness name.
+
+**Why it is worth keeping.** It is independent evidence for 命's **conferral** sense against its command sense, which is the open question in `glossary/ming-命.md` — and ch 51 currently renders 命 as *commands*, which is 令 (*lìng*)'s English in the identical 莫之X而 frame at ch 32.

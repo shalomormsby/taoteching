@@ -301,6 +301,14 @@
   status: locked
   entry: glossary/zhizu-知足.md
 
+- term: "命"
+  pinyin: "mìng"
+  render: "the allotted course — what is spoken over a thing and sent with it"
+  forbidden: ["mandate", "destiny", "fate", "decree"]
+  chapters: [16, 51]
+  status: open
+  entry: glossary/ming-命.md
+
 - term: "精"
   pinyin: "jīng"
   render: "vital essence / essence"

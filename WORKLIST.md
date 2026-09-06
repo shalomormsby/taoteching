@@ -16,7 +16,7 @@
 
 ## The list
 
-**⬜ open · 🔶 part done · ✅ done · ⏸ deferred by Shalom.** Detail for every row is below, under the matching heading. **94 item rows: 53 open · 34 done · 4 part done · 3 deferred.** *(19 of them are the per-chapter Pass D rows, whose status is derived.)* *(Counted from the table itself — a hand-kept tally drifts. It read "43 open · 18 done" and matched nothing.)*
+**⬜ open · 🔶 part done · ✅ done · ⏸ deferred by Shalom.** Detail for every row is below, under the matching heading. **95 item rows: 53 open · 34 done · 5 part done · 3 deferred.** *(19 of them are the per-chapter Pass D rows, whose status is derived.)* *(Counted from the table itself — a hand-kept tally drifts. It read "43 open · 18 done" and matched nothing.)*
 
 | # | | Item | Ch | Pass |
 |---|---|---|---|---|
@@ -73,7 +73,7 @@
 | T2-16 | ⬜ | **事** wants an entry; 無事's licensed split needs confirming | 48 57 63 | E |
 | T2-17 | ⬜ | **私** two ways, sheltering under 公's `covers:` | 7 19 | E |
 | T2-20 | ⬜ | **巧** — *skill* (45) vs *cunning* (19, 57); the same fault as 辯, one line above it | 19 45 57 | E |
-| T2-18 | ⬜ | 復命 → *"returning to what was given"* — still interpretive for 命 | 16 | D |
+| T2-18 | 🔶 | 復命 → *"returning to what was given"* — **entry written** (`glossary/ming-命.md`): 天命 and 性 are both **absent from the book**, so *mandate/destiny/fate* are out, and the commentators' 性命 is their word, not the text's. Three candidates open | 16 | D |
 | | | **Tier 3 · Missed parallelisms** | | |
 | T3-1 | ✅ | ~~★ **The 不自X / 自X者 mirror**~~ — ch 24 rewritten as ch 22's negative; ch 31 swept | 22↔24↔31 | C |
 | T3-2 | ✅ | ~~Seven 善X couplets, seven unlike shapes~~ — one shape, seven times: *In X, masterful at Y* | 8 | D |
@@ -114,6 +114,7 @@
 | T2-26 | ✅ | ~~**同 transitive — 同其塵 · 玄同**~~ — *the same as the dust* (4, 56) and *profound sameness* (56); **同 twice in ch 56 had two unrelated Englishes**. *union* was 合's (55) | 4 56 | E |
 | T2-27 | ⬜ | **同謂之玄 → *Together*** — 同's fourth English, and *together* can read as *jointly they form one thing* rather than *both alike are so called* | 1 | E |
 | T2-28 | ⬜ | **復歸 split four-to-three** — the seven-line compound reads *return again* at 16 and 28 ×3, plain *return* at 14 and 52 | 14 16 28 52 | E |
+| T2-29 | ⬜ | **命 / 令 collapse into *command*** in the identical 莫之X而 frame — 令 at ch 32, 命 at ch 51. **令 is owed its own entry**: 8 lines, 3 Englishes (*makes* 12 · *command* 32 · *laws* 57) | 12 19 32 51 57 | E |
 | T4-7 | ⬜ | ★ **Rank and gender — 大丈夫 · 君子 · 士.** Male rank-words dissolved in two opposite directions. Kin to T4-1 | 15 26 31 38 41 68 | F |
 | T4-4 | ⬜ | 剛 owed its own mention | — | E |
 | T4-5 | ⬜ | Glossary harvest — 一 名 希, plus ten new candidates | — | E |
