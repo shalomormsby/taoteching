@@ -2590,25 +2590,21 @@ A single 不欲 governs both clauses; there is no 而 and no 寧 (*nìng* — "r
 
 **And no commentator has a self dissolving.** 王弼: 及吾無身，**歸之自然也** — *"returning it to 自然 (zì rán — what is so of itself)."* 河上公 goes the opposite way from Advaita, into the body rather than out of it: 使吾无有身體，得道自然，**輕舉昇雲，出入无間**，與道通神 — *"if I had no body, attaining the Tao's 自然, rising lightly on the clouds, going in and out of the seamless, communing numinously with the Tao."* One returns it to what-is-so-of-itself; the other flies. **Neither merges anything into anything.**
 
-### 貴以身為天下 → *prizes their own body as much as the world* — the couplet was reversed
+### 貴以身為天下 → *as a way to serve the world* — Shalom's call, and a reception argument
 
-*(was: "one who values the world as their body can be entrusted with the world.")*
+*(was: "one who values the world as their body can be entrusted with the world." An intermediate draft read* "prizes their own body as much as the world," *which was withdrawn — see below.)*
 
-**以A為B is the ordinary classical frame for *take A as B*, and 貴 and 愛 govern that whole clause** — so 以身為天下 is *"take one's own body as the world,"* set at the world's rate. Our English had the terms the wrong way round, which turned the couplet into a lesson in empathy. **Both commentators attach 貴 to the person's own body**: 王弼 無以易**其身**，故曰貴也 (*"there is nothing he would exchange his own body for"*), 河上公 人君**貴其身** (*"the ruler prizes his own body"*).
+**Two readings of 以身為天下, and they give near-opposite ethics.**
 
-**王弼 gives the bridge, and it belongs in this note rather than the verse:** 不以寵辱榮患**損易其身**，然後乃可以天下付之也 — *"only when one does not let favor, disgrace, glory or trouble diminish or buy off their own body can the world then be handed to them."* 貴 is his *unbuyable* (無以易其身); 愛 is his *undamageable* (無物可以損其身). **The person you can hand the world to is the one the world cannot purchase** — and that is why the chapter's diagnosis (the body is where all trouble enters) and its conclusion (value the body at the world's rate) are one argument rather than two.
+**Reading A — 以A為B, the ordinary frame for *take A as B*:** *take one's own body as the world*, i.e. price it at the world's rate. **Both commentators attach 貴/愛 to the body itself** — 王弼 無以易**其身**, 河上公 人君貴**其身** — and 王弼 makes it a theory of **immunity**: 不以寵辱榮患**損易其身**，然後乃可以天下付之也, *"only when one does not let favor, disgrace, glory or trouble diminish or buy off their own body can the world then be handed to them."* The person nothing can purchase is the one you can trust with the world, which makes the chapter one argument from first line to last: favor and disgrace are the currency, the body is what they buy, and the unbuyable person is immune.
 
-### 寄 / 託 → *trusted with*, both, closing T3-7
+**Reading B — 以身 + verb + 天下:** *with one's body, act for the world.* **Ch 26 supports this structurally**: 以身輕天下, where 輕 (*qīng* — to make light of) is unmistakably a verb with 天下 as its object. Same 以身 + verb + 天下 shape. **And 河上公's second gloss is very nearly the sentence**: 言人君能愛其身，**非為己也**，乃欲為萬民之父母 — *"the ruler who can love his own body, **and not for his own sake**, but wishing to be father and mother to the myriad people."*
 
-*(was: "entrusted with" / "truly care for" — one rendering and one invention. An intermediate draft read* given */* trusted with*, which Shalom rejected: in English two different verbs in a parallel frame read as an **escalation**, and the reader hunts for a distinction that is not there.)*
+**Shalom's call: Reading B, and his reason is about reception, not philology.** Reading A, rendered in English, **lands as egotism**. *"Prizes their own body as much as the world"* reads as narcissism to an English reader whatever 王弼 meant by 無以易其身, and a rendering that arrives as a different vice has failed even where it construes correctly. *(Same class of judgment as the refusal of "In the beginning" at ch 39: what a line lands as is part of whether it is accurate.)*
 
-**Chinese doubles by varying near-synonyms; English doubles by repeating.** So the two devices are opposites, and rendering 寄/託 with two English verbs manufactures a claim. **Both now read *trusted with*, varying only the pronoun**, which is how English restates. **They are near-synonyms and 說文 says so circularly**: 寄 託也, 託 寄也. **王弼 swaps them in his own commentary** — on the 寄 line he writes 如此乃可以**託**天下也, on the 託 line 如此乃可以**寄**天下也 — which nobody does with words they hold apart. 王弼's own paraphrase for both is 付 (*fù* — to hand over): 乃可以天下**付**之也.
+**What Reading B costs, recorded so a future reader sees it.** 王弼's whole chapter goes — and he is our base text's own commentator. Under B the qualification for power is **devotion**; under A it is **immunity**. The opening movement about favor and disgrace does real work in A (they are the currency the unbuyable person refuses) and much less in B, where devotion is not what favor and disgrace test. **B still coheres**: the trouble is having a body *for yourself*, and turning it to the world is what redeems it — which is exactly 河上公's 非為己也.
 
-**The one place a real distinction survives is 貴/愛, and 王弼 supplies two different reasons for it:** 貴 → 無以**易**其身, *"there is nothing he would **exchange** his own body for"* — he will not sell it; 愛 → 無物可以**損**其身, *"nothing can **diminish** his own body"* — he will not let it be harmed. **So the first pair stays varied because 王弼 varies it, and the second is made identical because 王弼 swaps it.**
-
-**河上公 does grade them** — 則可寄立，**不可以久也** (*"may be lodged there, but not for long"*) against 乃可以託其身於萬民之上，**長无咎也** (*"may entrust himself above the myriad people, and long be without fault"*) — but 王弼's swap outweighs it, and the graded reading is not asserted in the English.
-
-**A rejected draft, and the lesson it re-taught.** 寄 is 宀 (*mián* — a roof): lodging a thing under someone's roof. 託 is 言 (*yán* — speech): committing a thing by word. *"Can be left the world to keep"* tried to put that distinction in the verse and Shalom rejected it as convoluted — correctly. **`notes/translation.md` already records this from ch 16: the verse does not have to carry the whole graph; that is the glossary entry's job.**
+**A standing principle this yields.** *Supply what a character means, not what a passage points at* (`DISCOVERIES.md` §5) governs what may be **added**. This adds a second test on what may be **kept**: **a construal that is defensible in the Chinese and lands as a different claim in English has not been translated.** Two of this chapter's decisions turned on it, and so did ch 39's opening line.
 
 ### 若驚 and 是謂 — two frames rendered as causes
 
