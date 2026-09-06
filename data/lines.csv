@@ -136,7 +136,7 @@ chapter,line,block,chinese,pinyin,literal_gloss,our_english,alignment_method
 14,3,1,聽之不聞，,"Tīng zhī bù wén,","Listening to \[ting\] it \[zhi\] but not \[bu\] hearing \[wen\],","Reach, but you cannot grasp it – its name is the intangible.",proportional
 14,4,1,名曰希；,míng yuē xī;,its name \[ming\] is called \[yue\] inaudible/soundless \[xi\];,These three defy comprehension.,proportional
 14,5,1,搏之不得，,"Bó zhī bù dé,","Grasping/reaching for \[bo\] it \[zhi\] but not \[bu\] getting/obtaining \[de\],",These three defy comprehension.,proportional-fill
-14,6,1,名曰微。,míng yuē wēi.,its name \[ming\] is called \[yue\] intangible/formless \[wei\].,"Therefore, they blend into one.",proportional
+14,6,1,名曰微。,míng yuē wēi.,its name \[ming\] is called \[yue\] intangible/formless \[wei\].,"Therefore, they mix into one.",proportional
 14,7,2,此三者不可致詰，,"Cǐ sān zhě bù kě zhì jié,","These \[ci\] three \[san\] things \[zhe\] cannot \[bu ke\] be fully probed/investigated \[zhi jie\],","It doesn’t have a bright top,",proportional
 14,8,2,故混而為一。,Gù hùn ér wéi yī.,Therefore \[gu\] they blend/merge \[hun\] and \[er\] become \[wei\] one \[yi\].,Or a dark bottom.,proportional
 14,9,3,其上不皦，,"Qí shàng bù jiǎo,","Its \[qi\] upper part/top \[shang\] is not \[bu\] bright/dazzling \[jiao\],",Or a dark bottom.,proportional-fill
@@ -153,22 +153,22 @@ chapter,line,block,chinese,pinyin,literal_gloss,our_english,alignment_method
 14,20,6,能知古始，,"Néng zhī gǔ shǐ,","Being able to \[neng\] know \[zhi\] the ancient \[gu\] beginnings/origins \[shi\],",The thread of the Tao.,proportional
 14,21,6,是謂道紀。,Shì wèi dào jì.,This \[shi\] is called \[wei\] the thread/discipline of the Tao \[dao ji\].,The thread of the Tao.,proportional-fill
 15,1,1,古之善為士者，,"Gǔ zhī shàn wéi shì zhě,","The ancient \[gu\] ones who were masterful \[shan\] at being \[wei\] scholars/officers \[shi\],",The ancients who were masterful in service,exact-count
-15,2,1,微妙玄通，,"Wēi miào xuán tōng,","Were microscopic/subtle \[wei\], highly-optimized/marvelous \[miao\], dark/profound \[xuan\], and penetrating/connected \[tong\],","were faint, subtle, dark, and connected through,",exact-count
-15,3,1,深不可識。,Shēn bù kě shí.,So deep \[shen\] they could not \[bu ke\] be known/understood \[shi\].,so deep they could not be made out.,exact-count
-15,4,2,夫唯不可識，,"Fū wéi bù kě shí,","Now precisely because \[fu wei\] they could not \[bu ke\] be known \[shi\],","Precisely because they could not be made out,",exact-count
+15,2,1,微妙玄通，,"Wēi miào xuán tōng,","Were microscopic/subtle \[wei\], highly-optimized/marvelous \[miao\], dark/profound \[xuan\], and penetrating/connected \[tong\],","were faint, subtle, dark, and unobstructed,",exact-count
+15,3,1,深不可識。,Shēn bù kě shí.,So deep \[shen\] they could not \[bu ke\] be known/understood \[shi\].,so deep they could not be read.,exact-count
+15,4,2,夫唯不可識，,"Fū wéi bù kě shí,","Now precisely because \[fu wei\] they could not \[bu ke\] be known \[shi\],","Precisely because they could not be read,",exact-count
 15,5,2,故強為之容：,Gù qiǎng wèi zhī róng:,Therefore \[gu\] I force/compel \[qiang\] a description/appearance \[rong\] for \[wei\] them \[zhi\]:,I force a likeness:,exact-count
-15,6,2,豫兮若冬涉川；,Yù xī ruò dōng shè chuān;,Hesitant/careful \[yu\] oh \[xi\]\! Like \[ruo\] crossing \[she\] a river \[chuan\] in winter \[dong\];,"Careful, like fording a river in winter.",exact-count
+15,6,2,豫兮若冬涉川；,Yù xī ruò dōng shè chuān;,Hesitant/careful \[yu\] oh \[xi\]\! Like \[ruo\] crossing \[she\] a river \[chuan\] in winter \[dong\];,"Careful, like wading across a river in winter.",exact-count
 15,7,2,猶兮若畏四鄰；,Yóu xī ruò wèi sì lín;,Cautious/watchful \[you\] oh \[xi\]\! Like \[ruo\] fearing \[wei\] neighbors on all four sides \[si lin\];,"Hesitant, like someone wary of the neighbors on all four sides.",exact-count
 15,8,2,儼兮其若客；,Yǎn xī qí ruò kè;,Reserved/dignified \[yan\] oh \[xi\]\! Like \[ruo\] a guest \[ke\];,"Dignified, like a guest.",exact-count
 15,9,2,渙兮其若冰之將釋；,Huàn xī qí ruò bīng zhī jiāng shì;,Yielding/melting \[huan\] oh \[xi\]\! Like \[ruo\] ice \[bing\] that is about to \[jiang\] melt/thaw \[shi\];,"Loosening, like ice about to melt.",exact-count
 15,10,2,敦兮其若樸；,Dūn xī qí ruò pǔ;,Solid/genuine \[dun\] oh \[xi\]\! Like \[ruo\] the uncarved wood \[pu\];,"Solid, like uncarved wood.",exact-count
 15,11,2,曠兮其若谷；,Kuàng xī qí ruò gǔ;,Broad/expansive \[kuang\] oh \[xi\]\! Like \[ruo\] a valley \[gu\];,"Open, like a valley.",exact-count
-15,12,2,混兮其若濁。,Hùn xī qí ruò zhuó.,Blended/undifferentiated \[hun\] oh \[xi\]\! Like \[ruo\] murky/muddy water \[zhuo\].,"Blended, like muddy water.",exact-count
+15,12,2,混兮其若濁。,Hùn xī qí ruò zhuó.,Blended/undifferentiated \[hun\] oh \[xi\]\! Like \[ruo\] murky/muddy water \[zhuo\].,"Mixed, like muddy water.",exact-count
 15,13,3,孰能濁以靜之徐清？,Shú néng zhuó yǐ jìng zhī xú qīng?,Who \[shu\] can \[neng\] take the murky \[zhuo\] and by \[yi\] stilling \[jing\] it \[zhi\] slowly \[xu\] make it clear \[qing\]?,"Who can be muddy, and by stilling it slowly come clear?",exact-count
 15,14,3,孰能安以動之徐生？,Shú néng ān yǐ dòng zhī xú shēng?,Who \[shu\] can \[neng\] take the calm/at rest \[an\] and by \[yi\] moving/stirring \[dong\] it \[zhi\] slowly \[xu\] bring it to life/generate \[sheng\]?,"Who can be at rest, and by moving it slowly come to life?",exact-count
 15,15,4,保此道者不欲盈。,Bǎo cǐ dào zhě bù yù yíng.,Those who guard/preserve \[bao\] this \[ci\] Tao \[dao\] do not \[bu\] desire \[yu\] to be full/overflowing \[ying\].,Those who guard the Tao like this have no wish to be full.,exact-count
 15,16,4,夫唯不盈，,"Fū wéi bù yíng,","Now precisely because \[fu wei\] they are not \[bu\] full \[ying\],","Precisely because they are never full,",exact-count
-15,17,4,故能蔽而不新成。,Gù néng bì ér bù xīn chéng.,Therefore \[gu\] they can \[neng\] be worn out/concealed \[bi\] and \[er\] not \[bu\] newly \[xin\] compiled/completed \[cheng\].,"they can stay covered, never finished, never new.",exact-count
+15,17,4,故能蔽而不新成。,Gù néng bì ér bù xīn chéng.,Therefore \[gu\] they can \[neng\] be worn out/concealed \[bi\] and \[er\] not \[bu\] newly \[xin\] compiled/completed \[cheng\].,"they can stay covered, and never newly made.",exact-count
 16,1,1,致虛極，,"Zhì xū jí,","Reach/attain \[zhi\] the extreme/limit \[ji\] of emptiness/void \[xu\],",Go totally empty.,proportional
 16,2,1,守靜篤。,Shǒu jìng dǔ.,Guard/hold \[shou\] stillness/tranquility \[jing\] firmly/sincerely \[du\].,Hold steadily to stillness.,proportional
 16,3,2,萬物並作，,"Wàn wù bìng zuò,","The ten thousand \[wan\] things/entities \[wu\] simultaneously \[bing\] arise/act \[zuo\],","The countless things arise together,",proportional
@@ -289,22 +289,22 @@ chapter,line,block,chinese,pinyin,literal_gloss,our_english,alignment_method
 24,8,3,曰餘食贅行，,"Yuē yú shí zhuì xíng,","Is called \[yue\] leftover/surplus \[yu\] food \[shi\] and superfluous/tumor \[zhui\] actions/conduct \[xing\],",Living things recoil from them.,proportional
 24,9,3,物或惡之，,"Wù huò wù zhī,","Physical entities/matter \[wu\] perhaps/naturally \[huo\] despise/hate \[wu\] them \[zhi\],",Those who are with the Tao do not dwell among them.,proportional
 24,10,3,故有道者不處。,Gù yǒu dào zhě bù chǔ.,Therefore \[gu\] those possessing the Tao \[you dao zhe\] do not \[bu\] dwell/stay \[chu\] with them.,Those who are with the Tao do not dwell among them.,proportional-fill
-25,1,1,有物混成，,"Yǒu wù hùn chéng,","There is \[you\] a physical entity/matter \[wu\] chaotically/undifferentiated \[hun\] compiled/formed \[cheng\],","Something formed in the undifferentiated, born before sky and earth.",proportional
+25,1,1,有物混成，,"Yǒu wù hùn chéng,","There is \[you\] a physical entity/matter \[wu\] chaotically/undifferentiated \[hun\] compiled/formed \[cheng\],","Something mixed and complete, born before sky and earth.",proportional
 25,2,1,先天地生。,Xiān tiān dì shēng.,Before \[xian\] heaven \[tian\] and earth \[di\] born/generated \[sheng\].,Silent. Empty. Solitary. Unchanging.,proportional
 25,3,1,寂兮寥兮，,"Jì xī liáo xī,","Silent/still \[ji\] oh \[xi\] empty/void \[liao\] oh \[xi\],","It moves in a circle, never in danger,",proportional
-25,4,1,獨立而不改，,"Dú lì ér bù gǎi,","Alone/independently \[du\] standing \[li\] and \[er\] not \[bu\] changing/altering \[gai\],","It moves in a circle, never in danger,",proportional-fill
-25,5,1,周行而不殆，,"Zhōu xíng ér bù dài,","Circulating/everywhere \[zhou\] moving/going \[xing\] and \[er\] not \[bu\] endangered/exhausted \[dai\],",and can be taken as the mother of the world.,proportional
-25,6,1,可以為天下母。,Kě yǐ wéi tiān xià mǔ.,Can \[ke\] thereby \[yi\] function as/be \[wei\] the world's \[tian xia\] mother \[mu\].,"Its true name, I will never know. Forcing a label upon it, I call it the Tao.",proportional
-25,7,2,吾不知其名，,"Wú bù zhī qí míng,","I \[wu\] do not \[bu\] know \[zhi\] its \[qi\] name/ledger \[ming\],","Its true name, I will never know. Forcing a label upon it, I call it the Tao.",proportional-fill
-25,8,2,強字之曰道，,"Qiǎng zì zhī yuē dào,","Forcing \[qiang\] a style/character \[zi\] for it \[zhi\] I call it \[yue\] the Tao \[dao\],","Forcing a description for it, I call it the vast.",proportional
-25,9,2,強為之名曰大。,Qiǎng wèi zhī míng yuē dà.,Forcing \[qiang\] to make/function as \[wei\] its \[zhi\] name \[ming\] I call it \[yue\] Great/Vast \[da\].,"The vast means expanding, expanding means going far, going far means returning.",proportional
-25,10,3,大曰逝，,"Dà yuē shì,","Great/Vast \[da\] means/is called \[yue\] passing/expanding \[shi\],","The vast means expanding, expanding means going far, going far means returning.",proportional-fill
-25,11,3,逝曰遠，,"Shì yuē yuǎn,","Passing/expanding \[shi\] means \[yue\] going far \[yuan\],","Therefore, the Tao is vast, the sky is vast, the earth is vast, and humans are also vast.",proportional
-25,12,3,遠曰反。,Yuǎn yuē fǎn.,Going far \[yuan\] means \[yue\] returning/reverting \[fan\].,"Within all bounds there are four vast things, and one of them is human.",proportional
-25,13,4,故道大，天大，地大，王亦大。,"Gù dào dà, tiān dà, dì dà, wáng yì dà.","Therefore \[gu\] the Tao \[dao\] is great/vast \[da\], heaven \[tian\] is great \[da\], earth \[di\] is great \[da\], the King/Avatar \[wang\] is also \[yi\] great \[da\].","Within all bounds there are four vast things, and one of them is human.",proportional-fill
-25,14,4,域中有四大，,"Yù zhōng yǒu sì dà,","Within the realm/domain \[yu zhong\] there are \[you\] four \[si\] great things \[da\],","Humans model themselves on the earth,",proportional
-25,15,4,而王居其一焉。,Ér wáng jū qí yī yān.,And \[er\] the King/Avatar \[wang\] occupies/dwells \[ju\] as one \[yi\] of them \[qi\] here \[yan\].,"Earth models itself on the sky,",proportional
-25,16,5,人法地，,"Rén fǎ dì,","Humans \[ren\] model/follow the law of \[fa\] earth \[di\],","Earth models itself on the sky,",proportional-fill
+25,4,1,獨立而不改，,"Dú lì ér bù gǎi,","Alone/independently \[du\] standing \[li\] and \[er\] not \[bu\] changing/altering \[gai\],",and can be taken as the mother of the world.,proportional
+25,5,1,周行而不殆，,"Zhōu xíng ér bù dài,","Circulating/everywhere \[zhou\] moving/going \[xing\] and \[er\] not \[bu\] endangered/exhausted \[dai\],",I do not know its name.,proportional
+25,6,1,可以為天下母。,Kě yǐ wéi tiān xià mǔ.,Can \[ke\] thereby \[yi\] function as/be \[wei\] the world's \[tian xia\] mother \[mu\].,"Forcing a label on it, I call it the Tao.",proportional
+25,7,2,吾不知其名，,"Wú bù zhī qí míng,","I \[wu\] do not \[bu\] know \[zhi\] its \[qi\] name/ledger \[ming\],","Forcing a label on it, I call it the Tao.",proportional-fill
+25,8,2,強字之曰道，,"Qiǎng zì zhī yuē dào,","Forcing \[qiang\] a style/character \[zi\] for it \[zhi\] I call it \[yue\] the Tao \[dao\],","Forcing a name on it, I call it great.",proportional
+25,9,2,強為之名曰大。,Qiǎng wèi zhī míng yuē dà.,Forcing \[qiang\] to make/function as \[wei\] its \[zhi\] name \[ming\] I call it \[yue\] Great/Vast \[da\].,"Great means departing,",proportional
+25,10,3,大曰逝，,"Dà yuē shì,","Great/Vast \[da\] means/is called \[yue\] passing/expanding \[shi\],","departing means going far,",proportional
+25,11,3,逝曰遠，,"Shì yuē yuǎn,","Passing/expanding \[shi\] means \[yue\] going far \[yuan\],",going far means returning.,proportional
+25,12,3,遠曰反。,Yuǎn yuē fǎn.,Going far \[yuan\] means \[yue\] returning/reverting \[fan\].,"Therefore, the Tao is great, the sky is great, the earth is great, and humans are also great.",proportional
+25,13,4,故道大，天大，地大，王亦大。,"Gù dào dà, tiān dà, dì dà, wáng yì dà.","Therefore \[gu\] the Tao \[dao\] is great/vast \[da\], heaven \[tian\] is great \[da\], earth \[di\] is great \[da\], the King/Avatar \[wang\] is also \[yi\] great \[da\].","Therefore, the Tao is great, the sky is great, the earth is great, and humans are also great.",proportional-fill
+25,14,4,域中有四大，,"Yù zhōng yǒu sì dà,","Within the realm/domain \[yu zhong\] there are \[you\] four \[si\] great things \[da\],","Within all bounds there are four great things, and one of them is human.",proportional
+25,15,4,而王居其一焉。,Ér wáng jū qí yī yān.,And \[er\] the King/Avatar \[wang\] occupies/dwells \[ju\] as one \[yi\] of them \[qi\] here \[yan\].,"Humans model themselves on the earth,",proportional
+25,16,5,人法地，,"Rén fǎ dì,","Humans \[ren\] model/follow the law of \[fa\] earth \[di\],","Earth models itself on the sky,",proportional
 25,17,5,地法天，,"Dì fǎ tiān,","Earth \[di\] models/follows the law of \[fa\] heaven \[tian\],","The sky models itself on the Tao,",proportional
 25,18,5,天法道，,"Tiān fǎ dào,","Heaven \[tian\] models/follows the law of \[fa\] the Tao \[dao\],",The Tao models itself on being what it is.,proportional
 25,19,5,道法自然。,Dào fǎ zì rán.,The Tao \[dao\] models/follows the law of \[fa\] spontaneous autonomy/self-so \[zi ran\].,The Tao models itself on being what it is.,proportional-fill
@@ -701,8 +701,8 @@ chapter,line,block,chinese,pinyin,literal_gloss,our_english,alignment_method
 66,6,3,處前而民不害。,Chǔ qián ér mín bù hài.,Dwells in front and the people do not feel harmed/obstructed.,So the world gladly pushes them forward and never tires of them.,proportional
 66,7,4,是以天下樂推而不厭。,Shì yǐ tiān xià lè tuī ér bù yàn.,Therefore the world gladly pushes them forward and does not tire of them.,"Because they do not contend,",proportional
 66,8,4,以其不爭，故天下莫能與之爭。,"Yǐ qí bù zhēng, gù tiān xià mò néng yǔ zhī zhēng.","Because they do not compete/contend, therefore no one in the world can compete with them.",no one in the world can contend with them.,proportional
-67,1,1,天下皆謂我道大，似不肖。,"Tiān xià jiē wèi wǒ dào dà, sì bù xiào.","The whole world says my Tao is great, but seems unlike/unworthy (of comparison).","Everyone says I am vast, and look like nothing. / Only because I am vast do I look like nothing.",proportional
-67,2,1,夫唯大，故似不肖。,"Fú wéi dà, gù sì bù xiào.","Because it is great, therefore it seems unlike.","If I looked like something, I would long ago have become petty.",proportional
+67,1,1,天下皆謂我道大，似不肖。,"Tiān xià jiē wèi wǒ dào dà, sì bù xiào.","The whole world says my Tao is great, but seems unlike/unworthy (of comparison).","Everyone says my Tao is great, and looks like nothing. / Only because it is great does it look like nothing.",proportional
+67,2,1,夫唯大，故似不肖。,"Fú wéi dà, gù sì bù xiào.","Because it is great, therefore it seems unlike.","If it looked like anything, it would long since have been slight.",proportional
 67,3,1,若肖，久矣其細也夫！,"Ruò xiào, jiǔ yǐ qí xì yě fú\!","If it were like (others), for a long time it would have been small/insignificant\!",I have three treasures. I hold them and keep them safe. / The first is tenderness.,proportional
 67,4,2,我有三寶，持而保之：,"Wǒ yǒu sān bǎo, chí ér bǎo zhī:","I have three treasures, holding and guarding them:",The second is frugality.,proportional
 67,5,2,一曰慈，二曰儉，三曰不敢為天下先。,"Yī yuē cí, èr yuē jiǎn, sān yuē bù gǎn wéi tiān xià xiān.","The first is called compassion/deep love, the second is called frugality/conservation, the third is called not daring to function as the first/ahead of the world.","The third is never pushing to be first in the world. / Tenderness, and so you can be brave.",proportional

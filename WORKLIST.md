@@ -16,7 +16,7 @@
 
 ## The list
 
-**⬜ open · 🔶 part done · ✅ done · ⏸ deferred by Shalom.** Detail for every row is below, under the matching heading. **112 item rows: 57 open · 48 done · 4 part done · 3 deferred.** *(19 of them are the per-chapter Pass D rows, whose status is derived.)* *(Counted from the table itself — a hand-kept tally drifts. It read "43 open · 18 done" and matched nothing.)*
+**⬜ open · 🔶 part done · ✅ done · ⏸ deferred by Shalom.** Detail for every row is below, under the matching heading. **117 item rows: 60 open · 50 done · 4 part done · 3 deferred.** *(19 of them are the per-chapter Pass D rows, whose status is derived.)* *(Counted from the table itself — a hand-kept tally drifts. It read "43 open · 18 done" and matched nothing.)*
 
 | # | | Item | Ch | Pass |
 |---|---|---|---|---|
@@ -106,8 +106,13 @@
 | D41 | ⬜ | **Ch 41** — 大器晚成 follows a witness our table doesn't carry; *the countless things* with no 萬物 · T1-19 | 41 | D |
 | D64 | ✅ | ~~**Ch 64** — already reads *handle*~~; the settled side of 為者敗之, nothing owed here | 64 | D |
 | | | **Tier 4 · Deferred by Shalom** | | |
-| T2-38 | ⬜ | **逝 → *expanding* at ch 25**, where 說文 gives 往也, *"to go."* 逝 is departure, not size, and it is the outbound leg of 大曰逝，逝曰遠，遠曰反 — the sequence the road-words Thread rests on. Found while writing that Thread from ch 15's 通 | 25 | E |
+| T2-38 | ✅ | ~~**逝 → *expanding* at ch 25**, where 說文 gives 往也, *"to go."* 逝 is departure, not size, and it is the outbound leg of 大曰逝，逝曰遠，遠曰反 — the sequence the road-words Thread rests on. Found while writing that Thread from ch 15's 通~~ — now **departing**, and the sequence is three lines; 反 → *returning* matches ch 40 | 25 | E |
 | T2-39 | ⬜ | **名 → *description* at ch 25** (強為之名曰大). 名 (*míng* — name) is the book's own heavily-worked word for *name*, 21 lines across 9 chapters, and ch 1 is built on it. **強為之▢ is also a shared frame with ch 15** (強為之容), where our English reads *"I force a likeness"* | 15 25 | E |
+| T2-40 | ⬜ | **混 wants a glossary entry.** Settled as *mixed* across 14, 15 and 25 on 2026-09-06 but unlocked, so the atlas still publishes the pre-lock glosses. 說文 豐流也, on the water radical | 14 15 25 | E |
+| T2-41 | ⬜ | **沖 reads *blending* at ch 42** (沖氣以為和) where ch 4's Pass D work settled it as **empty** (道沖). Found by the reverse search when *blend* was freed from 混 | 4 42 | E |
+| T2-42 | ✅ | ~~**Ch 67 — 我道大 reads *"Everyone says I am vast"*: 道 dropped and the line handed to the speaker**~~ — 道 restored, subject now *it* throughout; 大 → *great* completes the ch 25 sweep; 細 → *slight*, matching ch 63, dropping *petty*'s moral verdict | 67 | E |
+| T2-43 | ⬜ | **夫唯 (*fū wéi*) — 11 chapters, 12 lines, at least three Englishes.** *Only because* (67, 70), *Precisely because* (15), bare *Because* (2). A formula this size wants one English; surfaced when ch 15 and ch 67 were settled three days apart | 2 8 15 22 41 59 67 70 + | E |
+| T2-44 | ⬜ | **The return family — 反 · 復 · 歸 all read *return*, across 21 English lines.** 說文 keeps them distinct: 反 覆也 (overturn, on 又 a hand), 復 往來也 (going and coming, on 彳 the step radical), 歸 女嫁也 (a woman marrying in — going where one belongs). 反 → *returning* is fixed at 25 and 40; the other two are open | 14 16 25 28 34 40 52 59 65 | E |
 | T4-1 | ⏸ | **民 / 人** — one decision, whole book. Consider taking 身 (T2-1) with it. *Kin to T4-7* | 13 chapters | F |
 | T4-2 | ⏸ | **正 / 奇** — five Englishes | 37 45 57 58 78 | F |
 | T4-3 | ⏸ | **Em-dashes in the verse** — 14 lines *(ch 28's two and ch 15's one went with their rewrites, not by decision)* | 10 14 29 43 44 51 53 55 58 | F |

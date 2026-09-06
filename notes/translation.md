@@ -263,6 +263,18 @@ Also rejected: **"effortless action"** — an interpretation smuggled into a ren
 
 **The quatrain keeps the Tao as its subject**, closing Pass C's one deferred question. With 道沖 restored the subject chain runs unbroken, which is 王弼's reading of these four lines here against 河上公's imperative; ch 56 keeps the imperative, and the divergence is now argued rather than inherited.
 
+### Ch 14, 15, 25 · 混 → "mixed", and 大 locked to "great"
+
+*(2026-09-06. Full argument in ch 25's own `## Notes`.)*
+
+**大 is now locked to "great"** (`glossary/da-大.md`, 2026-09-06), with *large* (60, 61), *greater* (comparatives) and *master* (大匠) as licensed flexions. **Expansion to *vast* across the whole book was weighed and declined.** It has more force in English than *great*, which has been worn smooth — but it fails on two-thirds of the 51 lines: the comparative 禍莫**大**於 gives *"no vaster disaster"*; the severity of 大患, 大偽, 大迷 is *severe*, not immense; 大匠 is a **master** carpenter and 大丈夫 a **great person**, both seniority; and 下士聞道，**大**笑之 is laughing *aloud*, no magnitude at all. **The deciding argument is that 大 is a worn word in Chinese and the wear is load-bearing.** 說文: 天大，地大，人亦大。故**大象人形** — *"therefore 大 depicts a human form"* — a person with their arms out, the plainest bigness there is. Ch 25 names the Tao 大 as an admitted defeat (王弼: 大有繫則必有分，有分則失其極矣, *"大, once tied, must have divisions; having divisions, it loses its utmost"*), so an English carrying more charge than the original would make the forced name sound like it worked. *Vast* is also spoken for — 廣 (*guǎng* — broad) at ch 41 and 恢 (*huī*) at ch 73.
+
+**大 (*dà*) was *vast* in ch 25 and *great* in 41 lines everywhere else** — and ch 25 uses it **seven times**, as the Tao's own forced name. **Ch 34 makes the identical move and reads differently:** 可名為大 → *"it can be called great"* against ch 25's 強為之名曰大 → *"I call it the vast."* The reverse direction was worse: *vast* also carried 廣 (*guǎng* — broad, ch 41) and 恢 (*huī*, ch 73), so one English wore three characters. Ch 25 now reads **great** throughout. **⚠ Ch 67 is deliberately not swept** — its 天下皆謂我**道**大 reads *"Everyone says **I** am vast,"* with 道 dropped and the sentence handed to the speaker; the term swap would only make the existing fault louder. T2-42.
+
+**混 (*hùn*) had three Englishes in three chapters** — *blend* (14), *Blended* (15), *undifferentiated* (25) — and is now **mixed** in all three. 說文: 豐流也。从**水**昆聲, *"abundant flow,"* on the water radical: the mixing sense comes from a full river carrying everything along, which is exactly what muddy water is at ch 15. Ch 15's seven similes are seven **single words**, which ruled out the two-word candidates on the spot *(Shalom's call)*. Ch 25's 有物混成 → *"Something mixed and complete"*, keeping 混成's paradox: undifferentiated, and already whole.
+
+**The reverse search found a rider.** *Blend* was also doing duty for 沖 (*chōng*) at ch 42 — 沖氣以為和, *"blending the vital breath"* — where ch 4's Pass D work settled 沖 as **empty**. Freeing the word from 混 isolates ch 42 rather than fixing it. T2-41.
+
 ### Ch 15 · the chapter reworked whole, and 蔽 read as *covered* rather than *worn out*
 
 *(2026-09-06, Pass D. Full argument in the chapter's own `## Notes`.)*

@@ -7,7 +7,7 @@
 python3 tools/build_index.py
 ```
 
-**41 entries.** Sorted by how much of the book each term touches.
+**42 entries.** Sorted by how much of the book each term touches.
 
 | Term | Say | Render as | Never | Ch. | Status | Entry |
 |---|---|---|---|---|---|---|
@@ -15,6 +15,7 @@ python3 tools/build_index.py
 | **天** | *tiān* | sky (as a tier) · nature / the natural (as an agent) | "Heaven", "Providence", "the Almighty", "the Cosmos" | 46 | **locked** | [`tian-天.md`](tian-天.md) |
 | **無 & 有** | *wú / yǒu* | absence / presence | "Being", "Non-Being", "existence", "the Void", "nothingness" | 40 | **locked** | [`wu-you-無有.md`](wu-you-無有.md) |
 | **道** | *dào* | the Tao (left untranslated) | "the Way", "the Path" | 37 | **locked** | [`dao-道.md`](dao-道.md) |
+| **大** | *dà* | great — large where the scale is physical or political, greater in comparatives, master of a craftsman | "mighty", "grand", "supreme", "cosmic", "immense", "magnificent", "the Great" | 24 | **locked** | [`da-大.md`](da-大.md) |
 | **常** | *cháng* | the ever-present / the abiding | "eternal", "everlasting", "the eternal" | 19 | **locked** | [`chang-常.md`](chang-常.md) |
 | **生** | *shēng* | give birth to / bear / bring forth | "generate", "produce", "manufacture", "create" | 19 | **locked** | [`sheng-生.md`](sheng-生.md) |
 | **善** | *shàn* | masterful / masterful at · the masterful & the unmasterful (of people) · good (only where the text names the category) | "virtuous", "righteous", "saintly", "benevolent" | 18 | **locked** | [`shan-善.md`](shan-善.md) |
@@ -65,6 +66,7 @@ python3 tools/build_index.py
 | **天** | nature (as ordering principle) | [`tiandi-天地.md`](tiandi-天地.md) — 天地 |
 | **天下** | the world | [`tiandi-天地.md`](tiandi-天地.md) — 天地 |
 | **孝** | devotion | [`ci-慈.md`](ci-慈.md) — 慈 |
+| **小** | small | [`da-大.md`](da-大.md) — 大 |
 | **忠** | loyalty | [`xin-信.md`](xin-信.md) — 信 |
 | **曲** | bend / bent | [`quan-全.md`](quan-全.md) — 全 |
 | **物** | things / something | [`wanwu-萬物.md`](wanwu-萬物.md) — 萬物 |

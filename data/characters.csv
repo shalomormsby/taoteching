@@ -14,7 +14,7 @@ character,pinyin,gloss,gloss_source,gloss_agreement,our_render,lock_status,never
 道,Dào,the Tao (left untranslated),locked,,the Tao (left untranslated),locked,the Way; the Path,75,37,"1,4,8,9,14,15,16,18,21,23,24,25,30,31,32,34,35,37,38,40,41,42,46,47,48,51,53,55,59,60,62,65,67,73,77,79,81",1,81,14.16,glossary/dao-道.md
 是,Shì,,apparatus-split,6/12,,,,71,45,"2,3,6,7,10,12,13,14,16,21,22,24,26,27,29,30,31,36,38,39,43,44,47,51,52,53,56,58,59,63,64,65,66,68,69,70,71,72,73,74,75,76,77,78,79",2,79,13.41,
 故,Gù,Therefore,apparatus,15/24,,,,64,42,"1,2,7,8,11,12,13,14,15,19,22,23,24,25,27,28,29,31,34,38,39,41,42,44,46,50,51,54,56,57,60,61,62,63,64,65,66,67,69,72,73,76",1,76,12.08,
-大,dà,,apparatus-split,7/14,,,,58,24,"13,18,25,27,28,30,34,35,38,41,44,45,46,53,60,61,63,65,67,69,72,74,76,79",13,79,10.95,
+大,dà,"great — large where the scale is physical or political, greater in comparatives, master of a craftsman",locked,,"great — large where the scale is physical or political, greater in comparatives, master of a craftsman",locked,mighty; grand; supreme; cosmic; immense; magnificent; the Great,58,24,"13,18,25,27,28,30,34,35,38,41,44,45,46,53,60,61,63,65,67,69,72,74,76,79",13,79,10.95,glossary/da-大.md
 知,zhī,,apparatus-split,5/14,,,,57,31,"2,3,4,10,14,16,17,21,25,28,32,33,43,44,46,47,52,53,54,55,56,57,58,59,65,70,71,72,73,78,81",2,81,10.76,
 善,shàn,masterful / masterful at · the masterful & the unmasterful (of people) · good (only where the text names the category),locked,,masterful / masterful at · the masterful & the unmasterful (of people) · good (only where the text names the category),locked,virtuous; righteous; saintly; benevolent,52,18,"2,8,15,20,27,30,41,49,50,54,58,62,65,66,68,73,79,81",2,81,9.82,glossary/shan-善.md
 於,yú,,apparatus-split,4/11,,,,48,23,"8,14,20,23,28,31,32,34,36,40,46,48,50,53,54,55,63,64,69,73,75,78,79",8,79,9.06,
@@ -98,7 +98,7 @@ character,pinyin,gloss,gloss_source,gloss_agreement,our_render,lock_status,never
 去,qù,,apparatus-split,2/5,,,,10,7,"2,12,20,21,29,38,72",2,72,1.89,
 如,rú,Like,apparatus,3/4,,,,10,7,"5,9,10,20,39,62,64",5,64,1.89,
 孰,Shú,Who,apparatus,3/3,,,,10,7,"15,23,44,58,73,74,77",15,77,1.89,
-小,xiǎo,small,apparatus,1/1,,,,10,7,"32,34,52,60,61,63,80",32,80,1.89,
+小,xiǎo,small,covers,,small,locked,,10,7,"32,34,52,60,61,63,80",32,80,1.89,glossary/da-大.md
 弱,ruò,yielding — and *weaken* only where it takes an object,locked,,yielding — and *weaken* only where it takes an object,locked,frail; feeble; feebleness; powerless,10,6,"3,36,40,55,76,78",3,78,1.89,glossary/ruo-弱.md
 心,xīn,heart,locked,,heart,locked,mind; heart-mind; the wise core; consciousness; gut,10,6,"3,8,12,20,49,55",3,55,1.89,glossary/xin-心.md
 敢,gǎn,push / venture — the forward press to take,locked,,push / venture — the forward press to take,locked,dare; dares; dared; daring,10,7,"3,30,64,67,69,73,74",3,74,1.89,glossary/gan-敢.md
