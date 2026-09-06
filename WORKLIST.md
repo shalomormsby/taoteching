@@ -8,7 +8,7 @@
 
 **The first draft is complete — 81 of 81, since 2026-08-26. The editing pass is the work now.**
 
-**Progress: Pass 0 ✅ · Pass A ✅ · Pass B ✅ · Pass C ✅ · Pass D 🔶 — 13 of 19 chapters (2026-09-05).** Pass D, the chapter-level rewrites, is the work now, and it has **one row per chapter** so they can be checked off one at a time. Done: **3 · 4 · 8 · 10 · 11 · 16 · 22 · 23 · 28 · 35 · 36 · 38 · 64** — thirteen of the nineteen. Gate green: 0 errors, 111 tests, hard breaks intact, worklist consistent with itself.
+**Progress: Pass 0 ✅ · Pass A ✅ · Pass B ✅ · Pass C ✅ · Pass D 🔶 — 14 of 19 chapters (2026-09-05).** Pass D, the chapter-level rewrites, is the work now, and it has **one row per chapter** so they can be checked off one at a time. Done: **3 · 4 · 8 · 10 · 11 · 16 · 22 · 23 · 28 · 35 · 36 · 38 · 39 · 64** — fourteen of the nineteen. Gate green: 0 errors, 111 tests, hard breaks intact, worklist consistent with itself.
 
 *Supersedes `RETROFIT.md` and `EDITING-PASS.md`, merged into this file on 2026-08-28 and both now deleted. This file is `RETROFIT.md` renamed, so `git log --follow WORKLIST.md` still reaches the project's start; the 2026-08-10 sweep record and the lessons it taught the checker moved to `PLAN.md`. Every item below was re-verified against the manuscript at the merge; the old file listed six repairs that had already been made.*
 
@@ -16,7 +16,7 @@
 
 ## The list
 
-**⬜ open · 🔶 part done · ✅ done · ⏸ deferred by Shalom.** Detail for every row is below, under the matching heading. **105 item rows: 55 open · 43 done · 4 part done · 3 deferred.** *(19 of them are the per-chapter Pass D rows, whose status is derived.)* *(Counted from the table itself — a hand-kept tally drifts. It read "43 open · 18 done" and matched nothing.)*
+**⬜ open · 🔶 part done · ✅ done · ⏸ deferred by Shalom.** Detail for every row is below, under the matching heading. **108 item rows: 56 open · 45 done · 4 part done · 3 deferred.** *(19 of them are the per-chapter Pass D rows, whose status is derived.)* *(Counted from the table itself — a hand-kept tally drifts. It read "43 open · 18 done" and matched nothing.)*
 
 | # | | Item | Ch | Pass |
 |---|---|---|---|---|
@@ -81,7 +81,7 @@
 | T3-3 | ✅ | ~~Three identical 當其無 frames rendered three ways; 利 and 用 lost~~ — one frame, three times, eleven lines for eleven; **利 → *advantage*, a covered lock never before applied anywhere** | 11 | D |
 | T3-4 | ✅ | ~~Four 將欲X之，必固Y之 nominalized into abstract laws~~ — conditional instructions with their object restored; **固 was an adverb rendered as an adjective**, and 韓非's worked examples prove the temporal reading | 36 | D |
 | T3-5 | ✅ | ~~Three four-beat stanzas rendered as prose~~ — the 知其X/守其Y · 為天下Z · 常德不W · 復歸於V template restored | 28 | D |
-| T3-6 | ⬜ | The 得一 / 無以 mirror breaks at its sixth pair | 39 | D |
+| T3-6 | ✅ | ~~The 得一 / 無以 mirror breaks at its sixth pair~~ — it was **inverted**: broken at pair five where the Chinese holds (生/生), smoothed at six where it breaks (貞 / 貴高, the hinge). Both restored | 39 | D |
 | T3-7 | ⬜ | 寄/託 are a pair, rendered *entrusted with* / *truly care for* | 13 | D |
 | R1 | ⬜ | ★ **Harvest 韓非's 35 divergent lemmas into `variants.yaml`** — the oldest witness to this text, currently marked but unexploited | 1 27 36 38 46 47 50 54 58 59 60 63 64 67 | E |
 | R2 | ⬜ | **義 (yì) wants a glossary entry** — reads *duty* in all 5 lines, unlocked, and the atlas therefore publishes *righteousness* | 18 19 38 | E |
@@ -102,7 +102,7 @@
 | D35 | ✅ | ~~**Ch 35** — 往 → *the world routes to you*; 執 → *Embody*~~ — the whole chapter: **不足 → *not enough*, not *cannot***, which un-splits 王弼's single argument; 執 → *grasp* (the ch 29 mirror); 大象 → *the great image*; 口 gets its first *mouth*. Two forks logged. The ch 28 rider is cleared · T1-12 | 35 | D |
 | D36 | ✅ | ~~**Ch 36** — four 將欲X之，必固Y之 nominalized into abstract laws~~ — the frame restored ×4; 利器 → *tools of advantage* (all three commentators); 淵 → *deep water*. **韓非 covers this chapter with worked historical examples.** Three forks logged, including 邦/國, which dates our base to Han hands | 36 | D |
 | D38 | ✅ | ~~**Ch 38** — the 道 → 德 → 仁 → 義 → 禮 descent; 失 deleted from its hinge~~ · T1-4 | 38 | D |
-| D39 | ⬜ | **Ch 39** — the 得一 / 無以 mirror breaks at its sixth pair · T3-6 | 39 | D |
+| D39 | ✅ | ~~**Ch 39** — the 得一 / 無以 mirror breaks at its sixth pair~~ — the mirror was inverted; 得 → *received*; 貴/賤 → *prized/cheap*, price words not moral ones; **故致數譽無譽 departs from the base for the cart**, which both commentaries explain and the Siku editors call an error. Five forks logged · T3-6 | 39 | D |
 | D41 | ⬜ | **Ch 41** — 大器晚成 follows a witness our table doesn't carry; *the countless things* with no 萬物 · T1-19 | 41 | D |
 | D64 | ✅ | ~~**Ch 64** — already reads *handle*~~; the settled side of 為者敗之, nothing owed here | 64 | D |
 | | | **Tier 4 · Deferred by Shalom** | | |
@@ -124,6 +124,9 @@
 | T4-4 | ⬜ | 剛 owed its own mention | — | E |
 | T2-33 | ⬜ | **利** wants an entry — 9 chapters, three jobs: *benefit* (bound to 害 at 56, 73, 81) · **sharp** (利器 36, 57; 利劍 53 — the 說文 sense, 銛也。从刀) · *advantage* (11, 19) | 8 11 19 36 53 56 57 73 81 | E |
 | T2-34 | ⬜ | **微** three ways — *the intangible* (14) · *subtle* (15, 64) · *hidden* (36). 說文 隱行也, "to go concealed" | 14 15 36 64 | E |
+| T2-35 | ⬜ | **得** wants an entry — 19 chapters, 30 lines, no entry; *obtain* · *get* · *gain* · *gets*, plus the 不得已 idiom at 29, 30, 31. Ch 39 uses **received** and does not settle it | book-wide | E |
+| T2-36 | ⬜ | **貴 / 賤** want an entry — 貴 is 15 chapters, 22 lines (*prize* · *value* · *high status* · *honour*). 說文 makes both **price** words: 物不賤也 · 賈少也 | book-wide | E |
+| T2-37 | ⬜ | ★ **神 and 靈 want one entry together** — both on the overlay watchlist, neither has an entry. 神 → *spirit* (6, 39, 60) · *sacred* (29); 靈 → *numinous* (39), which **fails the pointing test** and had no surviving alternative | 6 29 39 60 | E |
 | T4-5 | ⬜ | Glossary harvest — 一 名 希, plus ten new candidates | — | E |
 | T4-6 | ⬜ | Guodian **G2–G6** | 5 16 17 18 25 + 26 more | E |
 | T4-8 | ⬜ | 說文 (c. 100 CE) quotes the four-greats line as 人亦大 — six centuries before our oldest 人 witness | 25 | E |

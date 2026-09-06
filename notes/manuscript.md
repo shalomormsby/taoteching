@@ -496,3 +496,28 @@ The Siku editors note inside our 王弼: 〔案永樂大典作柔勝剛弱勝强
 **韓非 supports the split** by quoting only half of it as a saying in its own right: 處小弱而重自卑損，謂「弱勝強」也 — *"to dwell in the small and weak and make much of humbling and diminishing oneself: this is what 'the weak overcomes the strong' means."*
 
 **Our call: the base.** But the English renders it as two matched pairs regardless — *"The soft and yielding overcome the hard and strong"* — because 柔 (*róu*), 弱 (*ruò*), 剛 (*gāng*) and 強 (*qiáng*) are used separately everywhere else in the book, and binding them into two compounds in English would claim more than our own glossary does. 弱 and 強 are both locked; 剛 is still owed a mention (`WORKLIST` T4-4).
+
+### Ch 39 · 故致數譽無譽 — we depart from the base, and our own 王弼 says why
+
+**Our base reads 譽 (*yù* — praise). Our vendored 王弼 prints 輿 (*yú* — a carriage-body) and the Siku editors say the base's character is a mistake:** 〔案兩輿字，河上公注本作車，釋文作輿，**原本誤作譽**，今據釋文校改〕 — *"the two 輿 characters: 河上公's annotated edition writes 車 (chē — cart); the 釋文 (Lù Démíng, c. 583) writes 輿; **the original mistakenly wrote 譽**, now emended according to the 釋文."*
+
+**Both commentaries explain a vehicle. Neither explains praise.**
+
+- 王弼: 故致數輿乃無輿也 — *"so, counting the carriage through, there is then no carriage."*
+- 河上公: 致，就也。言人就車數之，為輻、為輪、為轂、為衡、為轝，**無有名為車者**，故成為車 — *"致 means to go up to. If a person goes up to a cart and counts it out — spokes, wheel, hub, yoke, body — **there is nothing among them named 'cart'**; and so it comes to be a cart."*
+
+**A commentator's gloss is evidence for what stood in his text**, and this is the rare case where that evidence points away from our base. The graphs are near-twins — 譽 is 言 (*yán* — speech) over 與; 輿 is 車 (*chē* — cart) within 舁.
+
+**And 河上公's cart is not isolated.** Two lines earlier he reads 不轂 for our 不穀 (below), so **his close is a cart twice.** Rendered *"count the parts of a cart, and there is no cart,"* which lands chapter 11's image: 轂 is 說文 輻所凑也, *"what the spokes converge on."*
+
+*The source table had already noticed the alternative and dismissed it in a parenthesis — "some texts translate this as 'taking a chariot apart leaves no chariot,' but 'highest praise is no praise' fits the vanity metaphor better" — with no evidence and no log. Shalom found it by asking where the word* highest *came from: there is no 上, 下 or 高 in the line.*
+
+### Ch 39 · four more forks, from the Siku notes and 河上公's lemmas
+
+**其致之 / 其致之一也.** 〔案各本致之下有一也二字，焦竑云開元本無〕 — *"all editions have the two characters 一也 after 致之; 焦竑 (Jiāo Hóng, 1540–1620) says the 開元 (Kāiyuán, 713–741) edition lacks them."* Not meaning-bearing; recorded because our base sides with the Tang edition against everyone else.
+
+**侯王無以貴高 / 無以貞貴高.** 〔案各本以下有貞字〕 — *"all editions have 貞 below 以."* **Meaning-bearing, and it decides the chapter's shape.** With 貞 the sixth pair mirrors its own positive half (為天下**貞** / 無以**貞**) and the series runs six for six. **We keep the base, because the break is the hinge** — 貴高 (*guì gāo* — prized and high) is exactly what the next two lines pick up in 故貴以賤為本，高以下為基. The series stops mirroring at the point where the chapter turns from cosmology to rank. `WORKLIST` T3-6.
+
+**為天下貞 / 為天下正.** 河上公 reads 正 (*zhèng* — upright) and glosses 為天下平正, *"be the world's level-and-upright."* 貞 is 說文 卜問也 — *"to inquire by cracking a shell"* — divination, hence what is consulted, hence steadfast. We keep 貞 and render *true for the world*, in the carpenter's sense. *(正 sits inside the deferred 正/奇 question, T4-2, which this does not touch.)*
+
+**不穀 / 不轂.** 河上公 reads 不轂 (*"not a hub"*) and glosses 不轂喻不能如車轂為衆輻所湊 — *"being unable to be like a cart's hub, on which the many spokes converge."* 穀 and 轂 share the phonetic 𣪊. We keep the base, where 孤 (*gū* — orphaned), 寡 (*guǎ* — alone) and 不穀 are three self-deprecations of rank, which is what the passage argues.

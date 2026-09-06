@@ -2511,3 +2511,57 @@ So the music-and-food line is not an aside about worldly distraction. **It is wh
 ### 示人 → *shown*
 
 *(was: "shown to others.")* **The audience is inside the verb.** 說文 defines 示 with the very phrase: 天垂象，見吉凶，**所以示人也** — *"heaven hangs down its images, revealing fortune and misfortune; this is how it shows people."* *Remain hidden* was offered and declined: **the danger is in the act of showing, not the state of being seen**, which is 韓非's entire point — 君見賞，臣則損之以爲德 — *"if the ruler shows his rewards, the ministers shave them down and take the credit."* Someone is watching and will use it. Dropping *to others* also keeps the deferred 民/人 question (T4-1) shut.
+
+## Ch 39 · what 得一 means, and the mirror that was inverted
+
+*(2026-09-05, Pass D, `WORKLIST.md` D39 · T3-6. Found by `--formulas 39`.)*
+
+**得一 (*dé yī*) means holding the one thing that makes you what you are — as against living off the quality it produces.** 王弼 states it in a line:
+
+> 用一以致清耳，**非用清以清也**。守一則清不失，用清則恐裂也。
+> — *"It is by using the one that clarity is brought about — **not by using clarity to be clear**. Hold to the one and clarity is not lost; use the clarity, and you risk splitting."*
+
+And on the opening: 物皆各得此一以成，**既成而舍以居成，居成則失其母**，故皆裂發歇竭滅蹶也 — *"all things each get this one and are thereby completed. **Once completed they let it go and dwell in their completedness; dwelling in their completedness, they lose their mother**" — and so they all split, burst, cease, dry up, die out, topple.* 河上公 names the one outright: 一，無為，道之子也 — *"the one is 無為 (wú wéi — non-doing); it is the Tao's child."*
+
+**The sky is not clear by being clear.** A thing that has arrived starts running on its own arrival, and that is when it comes apart.
+
+### 得 → *received*, and 王弼 licenses it — Shalom's line
+
+*(was "draw from"; an intermediate draft read "got the one and by it is clear," which Shalom rejected as a calque, and it was: the grammar with none of the meaning in it.)*
+
+***Received* implies a giver, and the giver is in 王弼's own image**: 居成則**失其母** — *"they lose their mother."* **The one is the mother.** So the passive is not imported from outside the chapter; it names the relation the commentary already uses, while declining to say whose giving — the same move made for 命 (*mìng*) at ch 16. `--english "receive"` returns one line, ch 13's supplied *"stoop to receive favor,"* so the word is effectively free. **得 itself stays unsettled: 19 chapters, 30 lines, no entry** (T2-35).
+
+**The past tense is the Chinese's own.** 昔 (*xī* — of old) governs the whole positive list, and the warning half is 將恐 — *"will likely."* An earlier draft used the present in both halves and flattened a shift the text makes. *(昔 is 說文 乾肉也, "dried meat" — the temporal sense is a phonetic loan. 王弼 glosses it 始也, "beginning"; 河上公 往也, "past." We take the plain sense.)*
+
+**Three drafts of the opening line were wrong in the same direction** — *"From the very beginning"* (inherited), then *"Of old"*, then *"From the first"* — all three reaching for a cosmic origin 昔 does not carry. **昔 is 說文 乾肉也**, *"dried meat, cut meat with the sun drying it"*; the temporal sense is a phonetic loan meaning simply *days gone by*, and **the character occurs exactly once in the whole book.**
+
+***In the beginning* was proposed and refused, and it is the sharpest register call in the chapter.** It is Genesis 1:1 and John 1:1 — and the overlay watchlist points at that exact seam, since the Chinese Union Bible renders John's Logos as 道: 太初有道. Over a list of sky, earth, spirit, valley and the countless things it would read as Genesis 1 to any English reader. **The reverse check independently forbids it**: *beginning* is 始 (*shǐ*)'s word at ch 1, 38 and 64, and **始 is not in this chapter.** Its only warrant was 王弼's gloss 昔，始也 — a commentator explaining one character with another, which is the 贅 / 肬贅 fault `CLAUDE.md` names by hand. 河上公 glosses it the other way: 昔，往也, *"past."*
+
+***From the first* failed on Shalom's question — "the first what?"** There is no ordinal in the line. It was 始 in a smaller coat. **The settled line has no ordinal and no origin in it: *"These received the one long ago"*** — 者 (*zhě*) keeps its class-marking work as *these*, and 昔 sits where English carries a past marker, with no once-upon-a-time cadence at the front.
+
+### The mirror was inverted — broken where the Chinese holds, smoothed where it breaks
+
+**Pair five broke in our English while the Chinese held it.** 萬物得一以**生** / 萬物無以**生** — the same character — read *"come into being"* and *"lacked **presence**."* ***Presence* is 有 (*yǒu*)'s locked word and 有 is not in that line.** Now *came to life* / *with no way to live*.
+
+**Pair six was smoothed in our English while the Chinese breaks it.** 為天下**貞** / 無以**貴高** — two different things — both read *"anchor."* **貴高 is the hinge**: it is what 故貴以賤為本，高以下為基 picks up two lines later, and with *anchor* on both sides the turn from cosmology to rank was invisible. *(Other editions insert 貞 and restore the mirror — see `notes/manuscript.md`. We keep the break.)*
+
+***With no way to be X*** is 無以X exactly — *lacking that by which*. It says the loss is **of the means, not of the quality**: the sky does not run out of clearness, it runs out of what was making it clear. *"If the sky lacked clarity"* could not say that.
+
+### 貴 and 賤 are price words, not moral ones
+
+*(was "the noble is rooted in the humble.")* 說文: 貴 物不賤也 — *"a thing not cheap"*; 賤 賈少也 — *"low in price."* **Both are 貝 (*bèi* — cowry) graphs.** *Noble / humble* is the moralized overlay; *prized / cheap* keeps the ledger the characters are written on, and *prized* is already 貴's English at ch 3, 20 and 27. **貴 wants an entry — 15 chapters, 22 lines** (T2-36). 基 → *footing*: 說文 牆始也, *"the beginning of a wall."*
+
+***Natural consequences* is gone.** 自然 (*zì rán*) is not in this chapter, so *natural* was a locked term's word on a chapter that has none of it. 其致之 takes *"Follow it through,"* which holds both readings — 王弼 takes 致 as bringing-about (各以其一致此清寧靈盈生貞), 河上公 as warning (致，誡也，謂下五事也).
+
+### The close: neither jade nor stone
+
+*(was: "Don't strive to chime and shine like polished jade. / **Instead**, clatter and remain rough like common stone.")* **Our English said *not jade, but stone*. Both commentators say *neither*.**
+
+- 王弼: 玉石琭琭珞珞，**體盡於形**，故不欲也 — *"jade and stone, 琭琭 and 珞珞: their substance is used up in their form, and therefore one does not want it."*
+- 河上公: 玉少故見貴，石多故見賤。言不欲如玉為人所貴，如石為人所賤，**當處其中也** — *"jade is few and so is seen as precious; stone is many and so is seen as cheap. Do not wish to be like jade, which people prize, nor like stone, which people despise — **one should dwell between them**."*
+
+A single 不欲 governs both clauses; there is no 而 and no 寧 (*nìng* — "rather"). ***Instead* was supplied and inverted the point.** And it matters for the chapter: 貴 and 賤 are the two ends of one scale, so *"be the stone"* merely picks the other end. **Refusing to be priced at all is the deeper move**, which is 王弼's 體盡於形 exactly.
+
+**A strain, named rather than smoothed.** 琭琭 (*lù lù*) and 珞珞 (*luò luò*) have **no 說文 entries**, and their exact sense is not recoverable from anything in `sources/`. *Gleaming* and *common* come from what the two stones **stand for** in both commentaries, not from the graphs; 河上公's edition reads 落落 (*"scattered, lying about in numbers"*) for the second, which supports *common*. Both words are otherwise unused in the manuscript.
+
+**A second strain: 靈 → *numinous* fails the pointing test**, and no candidate survived. *Alive* is 生's, two lines down; *vital* drifts toward 氣 (*qì*). **神 (*shén*) and 靈 (*líng*) both sit in the overlay watchlist's semantic field and neither has an entry** — they want one together, not a decision inside a chapter (T2-37).

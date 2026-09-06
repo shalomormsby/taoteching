@@ -508,39 +508,39 @@ chapter,line,character,pinyin,locked_term,expected_rendering,rendering_present,a
 38,13,信,xìn,信,trust / trustworthy,NOT FOUND,0.3,proportional,"When duty is lost, then ritual."
 38,13,忠,zhōng,信,loyalty,NOT FOUND,0.3,proportional,"When duty is lost, then ritual."
 38,15,道,dào,道,the Tao (left untranslated),NOT FOUND,0.3,proportional,"Ritual is the thinning of loyalty and trust, and the head of disorder."
-39,1,一,yī,一,the one (lowercase) · one thing (ch 22) · plain numeral where it counts,NOT FOUND,1.0,exact-count,"From the very beginning, these things draw from the one:"
-39,2,一,yī,一,the one (lowercase) · one thing (ch 22) · plain numeral where it counts,NOT FOUND,1.0,exact-count,The sky draws from the one and becomes clear.
-39,2,天,Tiān,天,sky (as a tier) · nature / the natural (as an agent),NOT FOUND,1.0,exact-count,The sky draws from the one and becomes clear.
-39,3,一,yī,一,the one (lowercase) · one thing (ch 22) · plain numeral where it counts,NOT FOUND,1.0,exact-count,Earth draws from the one and becomes solid.
-39,4,一,yī,一,the one (lowercase) · one thing (ch 22) · plain numeral where it counts,NOT FOUND,1.0,exact-count,Spirit draws from the one and becomes vital.
-39,5,一,yī,一,the one (lowercase) · one thing (ch 22) · plain numeral where it counts,NOT FOUND,1.0,exact-count,Valleys draw from the one and become lush.
-39,6,一,yī,一,the one (lowercase) · one thing (ch 22) · plain numeral where it counts,NOT FOUND,1.0,exact-count,The countless things draw from the one and come into being.
-39,6,物,wù,萬物,things / something,yes,1.0,exact-count,The countless things draw from the one and come into being.
-39,6,生,shēng,生,give birth to / bear / bring forth,NOT FOUND,1.0,exact-count,The countless things draw from the one and come into being.
-39,6,萬,Wàn,萬物,countless,yes,1.0,exact-count,The countless things draw from the one and come into being.
-39,7,一,yī,一,the one (lowercase) · one thing (ch 22) · plain numeral where it counts,NOT FOUND,1.0,exact-count,Rulers draw from the one and become true anchors for the world.
-39,7,侯,Hóu,王,ruler (inside 侯王),NOT FOUND,1.0,exact-count,Rulers draw from the one and become true anchors for the world.
-39,7,天,tiān,天,sky (as a tier) · nature / the natural (as an agent),NOT FOUND,1.0,exact-count,Rulers draw from the one and become true anchors for the world.
-39,7,為,wéi,為,do / handle / serve as,NOT FOUND,1.0,exact-count,Rulers draw from the one and become true anchors for the world.
-39,7,王,wáng,王,ruler / sovereign · supreme authority (in ch 16's chain) · to rule (verb),yes,1.0,exact-count,Rulers draw from the one and become true anchors for the world.
-39,9,天,Tiān,天,sky (as a tier) · nature / the natural (as an agent),NOT FOUND,1.0,exact-count,"If the sky lacked clarity, it would be obliterated."
-39,9,無,wú,無 & 有,absence,NOT FOUND,1.0,exact-count,"If the sky lacked clarity, it would be obliterated."
-39,10,無,wú,無 & 有,absence,NOT FOUND,1.0,exact-count,"If the earth lacked solidity, it would disintegrate."
-39,11,無,wú,無 & 有,absence,NOT FOUND,1.0,exact-count,"If spirit lacked vitality, it would fade away."
-39,12,無,wú,無 & 有,absence,NOT FOUND,1.0,exact-count,"If valleys lacked lushness, they would dry up."
-39,13,無,wú,無 & 有,absence,NOT FOUND,1.0,exact-count,"If the countless things lacked presence, they would cease to exist."
-39,13,物,wù,萬物,things / something,yes,1.0,exact-count,"If the countless things lacked presence, they would cease to exist."
-39,13,生,shēng,生,give birth to / bear / bring forth,NOT FOUND,1.0,exact-count,"If the countless things lacked presence, they would cease to exist."
-39,13,萬,Wàn,萬物,countless,yes,1.0,exact-count,"If the countless things lacked presence, they would cease to exist."
-39,14,侯,Hóu,王,ruler (inside 侯王),NOT FOUND,1.0,exact-count,"If rulers lost their anchoring, they would fall."
-39,14,無,wú,無 & 有,absence,NOT FOUND,1.0,exact-count,"If rulers lost their anchoring, they would fall."
-39,14,王,wáng,王,ruler / sovereign · supreme authority (in ch 16's chain) · to rule (verb),yes,1.0,exact-count,"If rulers lost their anchoring, they would fall."
-39,15,為,wéi,為,do / handle / serve as,NOT FOUND,1.0,exact-count,"Therefore, the noble is rooted in the humble."
-39,16,為,wéi,為,do / handle / serve as,NOT FOUND,1.0,exact-count,The high is grounded in the low.
-39,17,侯,hóu,王,ruler (inside 侯王),NOT FOUND,1.0,exact-count,"This is why rulers call themselves orphaned, meager, and unworthy."
-39,17,王,wáng,王,ruler / sovereign · supreme authority (in ch 16's chain) · to rule (verb),yes,1.0,exact-count,"This is why rulers call themselves orphaned, meager, and unworthy."
-39,18,為,wéi,為,do / handle / serve as,NOT FOUND,1.0,exact-count,Isn’t this recognizing the lowly as the root? Isn’t it?
-39,19,無,wú,無 & 有,absence,NOT FOUND,1.0,exact-count,"Therefore, the highest praise is to have no praise."
+39,1,一,yī,一,the one (lowercase) · one thing (ch 22) · plain numeral where it counts,NOT FOUND,1.0,exact-count,These received the one long ago:
+39,2,一,yī,一,the one (lowercase) · one thing (ch 22) · plain numeral where it counts,NOT FOUND,1.0,exact-count,"Sky received the one, and so became clear."
+39,2,天,Tiān,天,sky (as a tier) · nature / the natural (as an agent),NOT FOUND,1.0,exact-count,"Sky received the one, and so became clear."
+39,3,一,yī,一,the one (lowercase) · one thing (ch 22) · plain numeral where it counts,NOT FOUND,1.0,exact-count,"Earth received the one, and so became settled."
+39,4,一,yī,一,the one (lowercase) · one thing (ch 22) · plain numeral where it counts,NOT FOUND,1.0,exact-count,"Spirit received the one, and so became numinous."
+39,5,一,yī,一,the one (lowercase) · one thing (ch 22) · plain numeral where it counts,NOT FOUND,1.0,exact-count,"The valley received the one, and so became full."
+39,6,一,yī,一,the one (lowercase) · one thing (ch 22) · plain numeral where it counts,NOT FOUND,1.0,exact-count,"The countless things received the one, and so came to life."
+39,6,物,wù,萬物,things / something,yes,1.0,exact-count,"The countless things received the one, and so came to life."
+39,6,生,shēng,生,give birth to / bear / bring forth,NOT FOUND,1.0,exact-count,"The countless things received the one, and so came to life."
+39,6,萬,Wàn,萬物,countless,yes,1.0,exact-count,"The countless things received the one, and so came to life."
+39,7,一,yī,一,the one (lowercase) · one thing (ch 22) · plain numeral where it counts,NOT FOUND,1.0,exact-count,"Rulers received the one, and so became true for the world."
+39,7,侯,Hóu,王,ruler (inside 侯王),NOT FOUND,1.0,exact-count,"Rulers received the one, and so became true for the world."
+39,7,天,tiān,天,sky (as a tier) · nature / the natural (as an agent),NOT FOUND,1.0,exact-count,"Rulers received the one, and so became true for the world."
+39,7,為,wéi,為,do / handle / serve as,NOT FOUND,1.0,exact-count,"Rulers received the one, and so became true for the world."
+39,7,王,wáng,王,ruler / sovereign · supreme authority (in ch 16's chain) · to rule (verb),yes,1.0,exact-count,"Rulers received the one, and so became true for the world."
+39,9,天,Tiān,天,sky (as a tier) · nature / the natural (as an agent),NOT FOUND,1.0,exact-count,Sky with no way to be clear is likely to split.
+39,9,無,wú,無 & 有,absence,NOT FOUND,1.0,exact-count,Sky with no way to be clear is likely to split.
+39,10,無,wú,無 & 有,absence,NOT FOUND,1.0,exact-count,Earth with no way to be settled is likely to burst.
+39,11,無,wú,無 & 有,absence,NOT FOUND,1.0,exact-count,Spirit with no way to be numinous is likely to cease.
+39,12,無,wú,無 & 有,absence,NOT FOUND,1.0,exact-count,The valley with no way to be full is likely to run dry.
+39,13,無,wú,無 & 有,absence,NOT FOUND,1.0,exact-count,The countless things with no way to live are likely to die out.
+39,13,物,wù,萬物,things / something,yes,1.0,exact-count,The countless things with no way to live are likely to die out.
+39,13,生,shēng,生,give birth to / bear / bring forth,NOT FOUND,1.0,exact-count,The countless things with no way to live are likely to die out.
+39,13,萬,Wàn,萬物,countless,yes,1.0,exact-count,The countless things with no way to live are likely to die out.
+39,14,侯,Hóu,王,ruler (inside 侯王),NOT FOUND,1.0,exact-count,Rulers with no way to be prized and high are likely to topple.
+39,14,無,wú,無 & 有,absence,NOT FOUND,1.0,exact-count,Rulers with no way to be prized and high are likely to topple.
+39,14,王,wáng,王,ruler / sovereign · supreme authority (in ch 16's chain) · to rule (verb),yes,1.0,exact-count,Rulers with no way to be prized and high are likely to topple.
+39,15,為,wéi,為,do / handle / serve as,NOT FOUND,1.0,exact-count,"So the prized takes the cheap as its root,"
+39,16,為,wéi,為,do / handle / serve as,NOT FOUND,1.0,exact-count,and the high takes the low as its footing.
+39,17,侯,hóu,王,ruler (inside 侯王),NOT FOUND,1.0,exact-count,"This is why rulers call themselves orphaned, alone, and unworthy."
+39,17,王,wáng,王,ruler / sovereign · supreme authority (in ch 16's chain) · to rule (verb),yes,1.0,exact-count,"This is why rulers call themselves orphaned, alone, and unworthy."
+39,18,為,wéi,為,do / handle / serve as,NOT FOUND,1.0,exact-count,Is this not taking the cheap as the root? Is it not?
+39,19,無,wú,無 & 有,absence,NOT FOUND,1.0,exact-count,"So count the parts of a cart, and there is no cart."
 40,1,道,dào,道,the Tao (left untranslated),NOT FOUND,1.0,exact-count,Returning is the Tao’s movement;
 40,2,弱,Ruò,弱,yielding — and *weaken* only where it takes an object,NOT FOUND,1.0,exact-count,Yielding is the Tao’s use.
 40,2,用,yòng,無 & 有,use,yes,1.0,exact-count,Yielding is the Tao’s use.
