@@ -131,6 +131,69 @@ class Tally(unittest.TestCase):
         self.assertEqual(rules(t), [])
 
 
+class ChapterTally(unittest.TestCase):
+    """The drift of 2026-09-05: ch 35 closed, and the Progress line did not.
+
+    Three copies of the same fact live in that one sentence — a figure, a list
+    of chapter numbers, and a spelled-out repeat. Before this rule they were
+    kept by hand, and the count in this file drifted four times.
+    """
+
+    PROG = ("**Progress: Pass D \U0001f536 \u2014 {n} of 2 chapters.** "
+            "Done: **{lst}** \u2014 {word} of the two.\n\n")
+    TBL = table(row("PD", "\U0001f536", "\u2014", "D"),
+                row("D3", "\u2705", "3", "D"),
+                row("D11", "\u2b1c", "11", "D"))
+
+    def build(self, n="1", lst="3", word="one"):
+        return self.PROG.format(n=n, lst=lst, word=word) + self.TBL
+
+    def test_the_truth_passes(self):
+        self.assertEqual(rules(self.build()), [])
+
+    def test_a_stale_figure_is_caught(self):
+        findings, _ = cw.check(self.build(n="2"))
+        self.assertEqual([f.rule for f in findings], ["chapter-tally"])
+        self.assertIn("1 of 2 chapters", findings[0].fix)
+
+    def test_a_stale_done_list_is_caught_and_the_fix_is_printed(self):
+        findings, _ = cw.check(self.build(lst="3 \u00b7 11"))
+        self.assertEqual([f.rule for f in findings], ["chapter-tally"])
+        self.assertIn("Done: **3**", findings[0].fix)
+
+    def test_a_stale_spelled_repeat_is_caught(self):
+        findings, _ = cw.check(self.build(word="two"))
+        self.assertEqual([f.rule for f in findings], ["chapter-tally"])
+        self.assertIn("two of the two", findings[0].detail)
+
+    def test_all_three_drift_independently(self):
+        findings, _ = cw.check(self.build(n="2", lst="3 \u00b7 11", word="two"))
+        self.assertEqual([f.rule for f in findings],
+                         ["chapter-tally"] * 3)
+
+    def test_ordinary_prose_cannot_reach_the_spelled_test(self):
+        """"none of the passes" is not two number words, so it is not a count."""
+        t = (self.PROG.format(n="1", lst="3", word="one").rstrip("\n")
+             + " None of the passes is free. Some of the work is done.\n\n"
+             + self.TBL)
+        self.assertEqual(rules(t), [])
+
+    def test_a_removed_count_is_not_a_finding(self):
+        """Deleting a hand-kept copy is a legitimate fix, and was the one used
+        before this rule existed."""
+        t = "**Progress: Pass D \U0001f536.**\n\n" + self.TBL
+        self.assertEqual(rules(t), [])
+
+    def test_no_progress_line_at_all_is_not_a_finding(self):
+        self.assertEqual(rules(self.TBL), [])
+
+    def test_word_to_int_reads_hyphenated_numbers_and_refuses_the_rest(self):
+        self.assertEqual(cw.word_to_int("twenty-two"), 22)
+        self.assertEqual(cw.word_to_int("nineteen"), 19)
+        self.assertIsNone(cw.word_to_int("passes"))
+        self.assertIsNone(cw.word_to_int("twenty-odd"))
+
+
 class Structure(unittest.TestCase):
     def test_duplicate_ids(self):
         t = table(row("PD", "⬜", "—", "D"),

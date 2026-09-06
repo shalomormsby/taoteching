@@ -8,7 +8,7 @@
 
 **The first draft is complete — 81 of 81, since 2026-08-26. The editing pass is the work now.**
 
-**Progress: Pass 0 ✅ · Pass A ✅ · Pass B ✅ · Pass C ✅ · Pass D 🔶 — 11 of 19 chapters (2026-09-05).** Pass D, the chapter-level rewrites, is the work now, and it has **one row per chapter** so they can be checked off one at a time. Done: **3 · 4 · 8 · 10 · 16 · 22 · 23 · 28 · 35 · 38 · 64** — eleven of the nineteen. Gate green: 0 errors, 102 tests, hard breaks intact, worklist consistent with itself.
+**Progress: Pass 0 ✅ · Pass A ✅ · Pass B ✅ · Pass C ✅ · Pass D 🔶 — 11 of 19 chapters (2026-09-05).** Pass D, the chapter-level rewrites, is the work now, and it has **one row per chapter** so they can be checked off one at a time. Done: **3 · 4 · 8 · 10 · 16 · 22 · 23 · 28 · 35 · 38 · 64** — eleven of the nineteen. Gate green: 0 errors, 111 tests, hard breaks intact, worklist consistent with itself.
 
 *Supersedes `RETROFIT.md` and `EDITING-PASS.md`, merged into this file on 2026-08-28 and both now deleted. This file is `RETROFIT.md` renamed, so `git log --follow WORKLIST.md` still reaches the project's start; the 2026-08-10 sweep record and the lessons it taught the checker moved to `PLAN.md`. Every item below was re-verified against the manuscript at the merge; the old file listed six repairs that had already been made.*
 
@@ -133,7 +133,7 @@
 | T5-6 | ⬜ | `import_commentary.py` mis-splits when a heading sits mid-block | — | G |
 | T5-10 | ⬜ | `import_shuowen.py` matches exact graphs only, so **95 of the book's 806 characters have no row** and silently look absent from 說文 — 既/旣, 餌, 抱, 難 are all there under a variant graph; 太 genuinely is not. `CLAUDE.md` says "all 711 characters" | — | G |
 | T5-7 | ⬜ | `build.py` — deferred until the text stops moving | — | G |
-| T5-8 | ✅ | ~~`WORKLIST.md` keeps lists that restate its own table, ungated~~ — `check_worklist.py`, 16 tests, in CI | — | G |
+| T5-8 | ✅ | ~~`WORKLIST.md` keeps lists that restate its own table, ungated~~ — `check_worklist.py`, in CI; **`chapter-tally` added 2026-09-05**, gating the Progress line's three copies of the chapter count | — | G |
 | T5-9 | ✅ | ~~`data/` is generated but nothing gates it~~ — atlas rebuilt-and-diffed in CI; `build_graph.py` made deterministic | — | G |
 
 **Why passes and not chapters — and why Pass D is the exception.** Passes 0, A, B and C each closed **one decision and every chapter it touched**, in one sitting with the commentaries open, rather than walking 1→81 and re-opening the same argument twenty times. **Pass D is not that kind of pass.** It is chapter work by definition, so the principle that ordered the others does not order it, and it now carries one row per chapter.
@@ -406,3 +406,5 @@ Structure the Chinese has and the English does not. These are rewrites, and they
 | 2026-09-02 | **T2-8 · T3-2** — ch 8: **nine** 善, not eight, one of them deleted; all nine now *masterful*, seven couplets in one shape. 上善 → *the most masterful*; 幾 → *near*, not *one with the Tao*. **善 governs a verb, 18 of 18** — the parse decided by counting. Opens **T2-24** (淵) | `glossary/shan-善.md` · `notes/translation.md` · `notes/manuscript.md` · `sources/variants.yaml` · Ch 8 |
 | 2026-09-03 | **T2-25** — ch 23: 同 → *the same as*, not *merges with* ×6; 同 is 異's antonym and ch 1 had it right. 事's lock restored, *intensity* and *we* removed, 希言自然 made an equation again. Three forks logged, one meaning-bearing. Riders open at ch 4 and 56 | `notes/translation.md` · `notes/manuscript.md` · `sources/variants.yaml` · Ch 23 |
 | 2026-09-02 | **Pass D restructured** — one row per chapter (D3…D64), so chapters check off one at a time; **`chapter-row` and `chapter-cover` added to `check_worklist.py`** so the chapter rows are derived rather than a second copy. PD's `Ch` now points at them. 7 tests, 102 total | `tools/check_worklist.py` · `tools/tests/test_check_worklist.py` · `WORKLIST.md` |
+| 2026-09-05 | **Ch 35** — 不足 → *not enough*, un-splitting 王弼's single argument; 執 → *grasp* (the ch 29 mirror); 大象 → *the great image*; 口's first *mouth*. Two forks. Opens T1-22, T2-30/31/32, T5-10 | `notes/translation.md` · `notes/manuscript.md` · `sources/variants.yaml` · Ch 35 |
+| 2026-09-05 | **`chapter-tally`** — the Progress line's figure, Done list and spelled-out repeat all gated against the per-chapter rows; the number-table filters prose out. 9 tests, 111 total | `tools/check_worklist.py` · `tools/tests/test_check_worklist.py` |
