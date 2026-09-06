@@ -2547,6 +2547,16 @@ And on the opening: 物皆各得此一以成，**既成而舍以居成，居成�
 
 ***With no way to be X*** is 無以X exactly — *lacking that by which*. It says the loss is **of the means, not of the quality**: the sky does not run out of clearness, it runs out of what was making it clear. *"If the sky lacked clarity"* could not say that.
 
+### 為天下貞 → *serve as the world's standard* — a settled formula we had broken
+
+*(was "became true for the world," which Shalom flagged as odd. It was worse than odd.)* **為天下X was settled on 2026-09-01 closing T2-15**: *"serves as the world's pattern"* at ch 22 and *"serve as the world's ravine / pattern / valley"* three times at ch 28. **Ch 39 carries the identical construction and had a fourth rendering.** 為 (*wéi*) is locked to *do / handle / serve as*, and ch 22's note gives the reason: the sage does not **make** a pattern for anybody, the sage **is** one. *True for the world* also read as a claim about validity rather than a quality of the ruler.
+
+**貞 → *standard*.** 說文 卜問也。从卜，貝以爲贄 — *"to inquire by divination; from 卜, the crack in the shell, with the cowry as the offering."* What is consulted in order to know what is right. *Upright* is 正 (*zhèng*)'s word at ch 57 and 正 sits inside the deferred T4-2, so it is left alone.
+
+**The sixth pair's asymmetry is the Chinese's, and it is marked twice.** That line is the only positive one carrying 為 and 天下 — the other five are bare 得一以X — **and** its quality word 貞 differs from its negative counterpart 貴高. Five pairs match exactly; one does not, and that one is the hinge into 故貴以賤為本，高以下為基. *(Other editions insert 貞 and restore the mirror six for six, at the cost of 貴高 and the hinge; see `notes/manuscript.md`.)*
+
+**How it was missed:** `--formulas` lists 為天下▢ for ch 22 and 28 but not ch 39, because there the phrase sits inside the longer segment 侯王得一以為天下貞. **A frame that does not begin at a punctuation boundary is invisible to segment matching** — logged as `WORKLIST` T5-13.
+
 ### 貴 and 賤 are price words, not moral ones
 
 *(was "the noble is rooted in the humble.")* 說文: 貴 物不賤也 — *"a thing not cheap"*; 賤 賈少也 — *"low in price."* **Both are 貝 (*bèi* — cowry) graphs.** *Noble / humble* is the moralized overlay; *prized / cheap* keeps the ledger the characters are written on, and *prized* is already 貴's English at ch 3, 20 and 27. **貴 wants an entry — 15 chapters, 22 lines** (T2-36). 基 → *footing*: 說文 牆始也, *"the beginning of a wall."*
