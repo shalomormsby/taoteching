@@ -454,3 +454,21 @@ Our vendored 王弼 (*Wáng Bì*) prints 命並作爵 beneath 夫莫之命而常
 **Our call: the base**, because the reading is transmitted only through a collation note whose own status the Siku editors doubt, and because no edition is named for it — the same reason the Ming facts at Ch 38 and Ch 23 stayed out of `sources/variants.yaml` under a witness id. It is recorded as a fact about our vendored text, with `wangbi_collation` rather than a witness name.
 
 **Why it is worth keeping.** It is independent evidence for 命's **conferral** sense against its command sense, which is the open question in `glossary/ming-命.md` — and ch 51 currently renders 命 as *commands*, which is 令 (*lìng*)'s English in the identical 莫之X而 frame at ch 32.
+
+### Ch 35 · 安平太 — three characters, three witnesses, and 太 never stands alone
+
+Our base reads 安平太 (*ān píng tài*). The Siku editors flag the spot inside 王弼 (*Wáng Bì*)'s own text: 〔案平太，河上公注本作太平，永樂大典作平泰〕 — *"as for 平太: 河上公 (*Héshàng Gōng*)'s annotated edition reads 太平; the 永樂大典 (*Yǒnglè Dàdiǎn*, the Ming encyclopaedia of 1408) reads 平泰."* Three witnesses, three orders.
+
+**王弼 declines to gloss it at all.** His comment on the line covers only 不害 (*bù hài* — not harmed): 無形無識，不偏不彰，故萬物得徃而不害妨也 — *"formless and unknowable, not partial and not conspicuous; so the countless things can go to it and are not harmed or hindered."*
+
+**河上公 parses it in two, and names the Han term.** 則國安家寧而致太平矣 — *"then the state is 安 (at rest) and the household 寧 (níng — at peace), and it arrives at 太平."* 太平 (*tài píng* — Great Peace) is loaded: the 太平經 (*Tàipíng Jīng* — Scripture of Great Peace) and the 太平道 (*Tàipíng Dào* — Way of Great Peace, the Yellow Turban movement of 184 CE). 河上公 is a Han text and this is a Han reading.
+
+**Our call: the base, and no Han term in the English.** The instability is itself the finding. 太 (*tài*) has **no 說文解字 entry** — it did not yet exist as a separate graph when 許慎 (*Xǔ Shèn*) wrote c. 100 CE, who has only 大 (*dà* — big) and 泰 (*tài*) 滑也, *"smooth."* And 太 appears three times in this book: 太上 (*tài shàng* — the highest, ch 17), 太牢 (*tài láo* — the great sacrificial feast, ch 20), and here. **It never stands alone.** So 安平太 is 安平 plus an intensifier, not a list of three — which is why the third slot is exactly where the scribes disagree. Rendered *"at rest, utterly even."*
+
+### Ch 35 · 用之不可既 / 不足既 — whether the closing frame breaks
+
+Our base reads 用之不可既 (*yòng zhī bù kě jì*). **Our vendored 王弼 lemma reads 用之不足既**, with the Siku editors noting 〔案足，河上公注本及各本俱作可〕 — *"as for 足: 河上公's annotated edition and all editions write 可."* Our base agrees with everyone except the Siku 王弼.
+
+**The fork decides the shape of the whole close.** With 足 the three lines run unbroken — 視之不**足**見／聽之不**足**聞／用之不**足**既, *"not enough to see / not enough to hear / not enough to use up."* With 可 the third line breaks the frame: the first two say there is **not enough of it**, the third says it **cannot be done**.
+
+**Our call: the base, and the English keeps the break.** 王弼's own commentary uses 不可 — 乃用之不可窮極也, *"thus using it cannot be exhausted to its limit"* — which argues the 足 in his lemma is transmission rather than his reading. The break is also the point: two lines of deficiency, then a reversal. *"There is not enough to see. There is not enough to hear. Use it. It never runs out."*

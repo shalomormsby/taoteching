@@ -8,7 +8,7 @@
 
 **The first draft is complete — 81 of 81, since 2026-08-26. The editing pass is the work now.**
 
-**Progress: Pass 0 ✅ · Pass A ✅ · Pass B ✅ · Pass C ✅ · Pass D 🔶 — 10 of 19 chapters (2026-09-05).** Pass D, the chapter-level rewrites, is the work now, and it has **one row per chapter** so they can be checked off one at a time. Done: **3 · 4 · 8 · 10 · 16 · 22 · 23 · 28 · 38 · 64** — ten of the nineteen. Gate green: 0 errors, 102 tests, hard breaks intact, worklist consistent with itself.
+**Progress: Pass 0 ✅ · Pass A ✅ · Pass B ✅ · Pass C ✅ · Pass D 🔶 — 11 of 19 chapters (2026-09-05).** Pass D, the chapter-level rewrites, is the work now, and it has **one row per chapter** so they can be checked off one at a time. Done: **3 · 4 · 8 · 10 · 16 · 22 · 23 · 28 · 35 · 38 · 64** — eleven of the nineteen. Gate green: 0 errors, 102 tests, hard breaks intact, worklist consistent with itself.
 
 *Supersedes `RETROFIT.md` and `EDITING-PASS.md`, merged into this file on 2026-08-28 and both now deleted. This file is `RETROFIT.md` renamed, so `git log --follow WORKLIST.md` still reaches the project's start; the 2026-08-10 sweep record and the lessons it taught the checker moved to `PLAN.md`. Every item below was re-verified against the manuscript at the merge; the old file listed six repairs that had already been made.*
 
@@ -16,7 +16,7 @@
 
 ## The list
 
-**⬜ open · 🔶 part done · ✅ done · ⏸ deferred by Shalom.** Detail for every row is below, under the matching heading. **95 item rows: 53 open · 36 done · 3 part done · 3 deferred.** *(19 of them are the per-chapter Pass D rows, whose status is derived.)* *(Counted from the table itself — a hand-kept tally drifts. It read "43 open · 18 done" and matched nothing.)*
+**⬜ open · 🔶 part done · ✅ done · ⏸ deferred by Shalom.** Detail for every row is below, under the matching heading. **100 item rows: 56 open · 38 done · 3 part done · 3 deferred.** *(19 of them are the per-chapter Pass D rows, whose status is derived.)* *(Counted from the table itself — a hand-kept tally drifts. It read "43 open · 18 done" and matched nothing.)*
 
 | # | | Item | Ch | Pass |
 |---|---|---|---|---|
@@ -41,7 +41,8 @@
 | T1-9 | ⬜ | 左/右 as *"creation"/"destruction"*, then literal four lines later | 31 | D |
 | T1-10 | ⬜ | 無身 → *"the separate self dissolves"* — an Advaita import | 13 | D |
 | T1-11 | ⬜ | 古始 → *"the primordial source"* — forbidden register | 14 | E |
-| T1-12 | ⬜ | 往 → *"the world routes to you"* ×2 — mechanistic | 35 | D |
+| T1-12 | ✅ | ~~往 → *"the world routes to you"* ×2~~ — 往 is a verb of going, as at ch 80; **執 → *grasp*, restoring ch 29's mirror**, and 大象 → *the great image*, matching ch 41 | 35 | D |
+| T1-22 | ⬜ | Ch 48 — 取天下 → *"the world comes to you"*; 取 (*qǔ* — to take) is active and the English makes it a passive arrival. *Found by the ch 35 reverse check* | 48 | E |
 | T1-13 | ✅ | ~~*"returns energy to its root"* — 氣 is not in this chapter~~ — plus ***Multitudes*** with no 眾, and 物 deleted; 復歸 → *returns again*, following ch 28 | 16 | D |
 | T1-14 | ⬜ | The closing 譬…猶 simile is garbled | 32 | D |
 | T1-15 | ✅ | ~~谷 → *"reservoir"*, 谿, 官長, 大制 → *"orchestrator"*~~ — 谷 → *valley* (its word in 6 chapters); 制 → *cutting* (as ch 32); 割 → *severs* | 28 | D |
@@ -98,7 +99,7 @@
 | D29 | ⬜ | **Ch 29** — 為 → *force* ×3, clashing with ch 64's *handle*; closes the last formula pair · T1-8 · T2-15 | 29 | D |
 | D31 | ⬜ | **Ch 31** — 左/右 as *creation*/*destruction*, then literal four lines later; 君子 → *the sage* · T1-9 | 31 | D |
 | D32 | ⬜ | **Ch 32** — the closing 譬…猶 simile is garbled · T1-14 | 32 | D |
-| D35 | ⬜ | **Ch 35** — 往 → *the world routes to you* ×2, mechanistic; 執 → *Embody*. **⚠ Overdue rider — opened by ch 28 (2026-09-01) and skipped past four chapters since** · T1-12 | 35 | D |
+| D35 | ✅ | ~~**Ch 35** — 往 → *the world routes to you*; 執 → *Embody*~~ — the whole chapter: **不足 → *not enough*, not *cannot***, which un-splits 王弼's single argument; 執 → *grasp* (the ch 29 mirror); 大象 → *the great image*; 口 gets its first *mouth*. Two forks logged. The ch 28 rider is cleared · T1-12 | 35 | D |
 | D36 | ⬜ | **Ch 36** — four 將欲X之，必固Y之 nominalized into abstract laws · T3-4 | 36 | D |
 | D38 | ✅ | ~~**Ch 38** — the 道 → 德 → 仁 → 義 → 禮 descent; 失 deleted from its hinge~~ · T1-4 | 38 | D |
 | D39 | ⬜ | **Ch 39** — the 得一 / 無以 mirror breaks at its sixth pair · T3-6 | 39 | D |
@@ -112,6 +113,9 @@
 | T2-24 | ⬜ | **淵** three ways — *fathomless* (4) · *depth* (8) · *the deep abyss* (36). 說文 makes it **banked** water, so *limitless* was backwards | 4 8 36 | E |
 | T2-25 | ✅ | ~~**同於X → *merges with*** ×6~~ — **the same as**; 同 is 異's antonym and ch 1 already had it right. Closed T2-26 too | 23 | D |
 | T2-26 | ✅ | ~~**同 transitive — 同其塵 · 玄同**~~ — *the same as the dust* (4, 56) and *profound sameness* (56); **同 twice in ch 56 had two unrelated Englishes**. *union* was 合's (55) | 4 56 | E |
+| T2-30 | ⬜ | **夷** three ways — *the invisible* (14) · *smooth* (41) · *level* (53). *Found by the ch 35 reverse check: *level* was about to be taken for 平* | 14 41 53 | E |
+| T2-31 | ⬜ | **客** has three jobs and no single English — a houseguest (15), the battlefield 主/客 pair (69), a transient (35, rendered as the compound 過客) | 15 35 69 | E |
+| T2-32 | ⬜ | **口** → *palate* at ch 12, picking eating over speech. 口 occurs twice; ch 35 now reads *mouth*, which does both | 12 35 | E |
 | T2-27 | ⬜ | **同謂之玄 → *Together*** — 同's fourth English, and *together* can read as *jointly they form one thing* rather than *both alike are so called* | 1 | E |
 | T2-28 | ⬜ | **復歸 split four-to-three** — the seven-line compound reads *return again* at 16 and 28 ×3, plain *return* at 14 and 52 | 14 16 28 52 | E |
 | T2-29 | ⬜ | **命 / 令 collapse into *command*** in the identical 莫之X而 frame — 令 at ch 32, 命 at ch 51. **令 is owed its own entry**: 8 lines, 3 Englishes (*makes* 12 · *command* 32 · *laws* 57) | 12 19 32 51 57 | E |
@@ -127,6 +131,7 @@
 | T5-4 | ⬜ | Run `--english` on every lock; it is the only reverse-direction check | — | ongoing |
 | T5-5 | ⬜ | The 70-item false-friend `info` list is not being read | — | G |
 | T5-6 | ⬜ | `import_commentary.py` mis-splits when a heading sits mid-block | — | G |
+| T5-10 | ⬜ | `import_shuowen.py` matches exact graphs only, so **95 of the book's 806 characters have no row** and silently look absent from 說文 — 既/旣, 餌, 抱, 難 are all there under a variant graph; 太 genuinely is not. `CLAUDE.md` says "all 711 characters" | — | G |
 | T5-7 | ⬜ | `build.py` — deferred until the text stops moving | — | G |
 | T5-8 | ✅ | ~~`WORKLIST.md` keeps lists that restate its own table, ungated~~ — `check_worklist.py`, 16 tests, in CI | — | G |
 | T5-9 | ✅ | ~~`data/` is generated but nothing gates it~~ — atlas rebuilt-and-diffed in CI; `build_graph.py` made deterministic | — | G |

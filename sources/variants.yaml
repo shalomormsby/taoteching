@@ -935,3 +935,45 @@
     glossary/ming-命.md - and because the editions it names are not identified,
     so no witness id is claimed for it.
   logged: notes/manuscript.md
+
+- chapter: 35
+  line: "往而不害，安平太"
+  base: "安平太"
+  witnesses: { heshanggong: "安太平", yongle-dadian: "安平泰" }
+  meaning_bearing: true
+  our_call: base
+  note: >
+    The Siku editors flag this spot inside our own Wang Bi text:
+    〔案平太河上公注本作太平永樂大典作平泰〕 - "as for 平太, Heshang Gong's
+    annotated edition reads 太平; the Yongle Dadian reads 平泰." Wang Bi himself
+    glosses only 不害 and passes over these three characters in silence.
+    Meaning-bearing because the shuffling decides the parse. 太平 (tai ping) is
+    the Han political-religious term - the Taiping Jing, the Yellow Turbans'
+    Way of Great Peace - and Heshang Gong reads it that way outright:
+    則國安家寧而致太平矣, "then the state is at rest and the household at peace,
+    and it arrives at Great Peace." 泰 (tai - smooth, at ease) is a third
+    near-synonym in the same slot. We keep the base and decline the Han term.
+    The instability itself is the evidence: 太 heads a compound at ch 17 (太上)
+    and ch 20 (太牢) and never stands alone in this book, so 安平太 is 安平 plus
+    an intensifier, not a list of three. Rendered "at rest, and utterly even."
+  logged: notes/manuscript.md
+
+- chapter: 35
+  line: "用之不可既"
+  base: "不可既"
+  witnesses: { siku-wangbi: "不足既" }
+  meaning_bearing: true
+  our_call: base
+  note: >
+    Our vendored Wang Bi lemma reads 用之不足既, with the Siku editors noting
+    〔案足河上公注本及各本俱作可〕 - "as for 足, Heshang Gong's annotated edition
+    and all editions write 可." So our base agrees with everyone except the
+    Siku Wang Bi. Meaning-bearing for the shape of the whole passage: with 足
+    the three closing lines run 不足見 / 不足聞 / 不足既 unbroken, and with 可 the
+    third line breaks the frame - the first two say there is not enough of it,
+    the third says it cannot be done. Wang Bi's own commentary uses 不可
+    (乃用之不可窮極也, "thus using it cannot be exhausted to its limit"), which
+    argues the 足 in his lemma is transmission rather than his reading. We keep
+    the base, and the English keeps the break: "There is not enough to see /
+    There is not enough to hear / It never runs out."
+  logged: notes/manuscript.md

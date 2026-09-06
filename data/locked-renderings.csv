@@ -447,10 +447,10 @@ chapter,line,character,pinyin,locked_term,expected_rendering,rendering_present,a
 34,6,物,wù,萬物,things / something,yes,1.0,exact-count,"The countless things return to it. Without acting as their master, it can be called great."
 34,6,萬,Wàn,萬物,countless,yes,1.0,exact-count,"The countless things return to it. Without acting as their master, it can be called great."
 34,7,為,wéi,為,do / handle / serve as,NOT FOUND,1.0,exact-count,"It never makes itself great,"
-35,1,天,tian,天,sky (as a tier) · nature / the natural (as an agent),NOT FOUND,1.0,exact-count,"Embody the great form, and the world routes to you."
-35,4,無,wu,無 & 有,absence,NOT FOUND,1.0,exact-count,Attempt to speak the Tao. It is bland and flavorless.
-35,4,道,Dao,道,the Tao (left untranslated),NOT FOUND,1.0,exact-count,Attempt to speak the Tao. It is bland and flavorless.
-35,7,用,Yong,無 & 有,use,yes,1.0,exact-count,Use it. It is inexhaustible.
+35,1,天,tian,天,sky (as a tier) · nature / the natural (as an agent),NOT FOUND,1.0,exact-count,"Grasp the great image, and the world comes to you."
+35,4,無,wu,無 & 有,absence,NOT FOUND,1.0,exact-count,The Tao is bland in the mouth. It has no flavor.
+35,4,道,Dao,道,the Tao (left untranslated),NOT FOUND,1.0,exact-count,The Tao is bland in the mouth. It has no flavor.
+35,7,用,Yong,無 & 有,use,yes,1.0,exact-count,Use it. It never runs out.
 36,2,弱,ruò,弱,yielding — and *weaken* only where it takes an object,NOT FOUND,1.0,exact-count,Weakening requires firm strengthening.
 36,2,強,qiáng,強,"strong — *strengthen* where it takes an object, *forcing* where it strains against a thing's nature",NOT FOUND,1.0,exact-count,Weakening requires firm strengthening.
 36,5,明,míng,明,clear-seeing / clarity,yes,1.0,exact-count,This is called subtle clarity.

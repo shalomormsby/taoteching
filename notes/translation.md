@@ -2368,3 +2368,63 @@ Repairing the link removed three imports in one move: **create** (生 *shēng*'s
 - ***returning to what is*** — caught by the reverse check in an unusual form. *What it is* is already **自然 (*zì rán* — of itself)**'s English at ch 25, and **ch 51 sets 自然 against 命 in a single clause**: 夫莫之命而常自然, *"no one 命s it, and it is always 自然."* Rendering a character with its own antonym's English collapses the antithesis from the inside. **This is the reverse check's sharpest use so far** — not an English on an absent character, but an English on the character's opposite.
 
 **Method note worth keeping.** Three of the four failures were mine, and all three came from pulling toward the envoy idiom — a reading the graph and the classical usage support but the commentaries do not. The tell was that each new candidate fixed one fault and introduced another; when that happens for three rounds, the reading underneath is usually the thing at fault, not the wording.
+
+## Ch 35 · the whole chapter — one argument, cut in half and mystified
+
+*(2026-09-05, Pass D, `WORKLIST.md` D35 · T1-12. The overdue 執 rider from ch 28.)*
+
+**The chapter was drafted in a private vocabulary and the reverse check found it whole.** *route*, *routes*, *embody*, *allure*, *stability*, *guests*, *inexhaustible*, *safety* — eight words, one line each, all of them here and nowhere else in the book. That is the signature of a chapter drafted without the rest of the book open, and every one of them was covering a decision that had not been made.
+
+### The reading: 不足 is *not enough*, not *cannot*
+
+*(was: "Look for it. It can't be seen. / Listen for it. It can't be heard.")*
+
+**The stanza break between 過客止 and 道之出口 was destroying the chapter.** Both commentators run those lines as a single argument. 王弼 (*Wáng Bì*), unbroken: 樂與餌則能令過客止，而道之出言淡然無味。視之不足見，則不足以恱其目；聽之不足聞，則不足以娛其耳 — *"music and food can bring a passing traveller to a halt; but the Tao coming out in speech is bland, without flavour. Look at it: not enough to see, and so not enough to please the eye. Listen: not enough to hear, and so not enough to amuse the ear."*
+
+So the music-and-food line is not an aside about worldly distraction. **It is what the Tao is being measured against, and the Tao loses.** Music and food stop a traveller for an evening. The Tao stops nobody, because it has nothing to catch anyone with.
+
+**不足 (*bù zú*) means *not enough* in all six other chapters that use it** — 信不足焉 (17, 23), 以為文不足 (19), 不笑不足以為道 and 廣德若不足 (41), 不足以取天下 (48), 補不足 (77). Ch 35 was the only *can't*. 足 is 說文解字 人之足也 — *"a person's foot"*; *enough* is the loan.
+
+**And the substitution collided with ch 14, which is the chapter that does say *cannot*.** Ch 14 reads 視之**不見** — no 足. Ch 35 reads 視之**不足**見. Our English gave both chapters the same sentence, so a reader could not see that ch 35 had said something different. *"It can't be seen"* is the apophatic register, and ch 14 owns it, with its own three words for it — 夷 (*yí*), 希 (*xī*), 微 (*wēi*). **Ch 35 is doing something plainer and much stranger: the Tao is a bad advertisement.** It is under-seasoned. There is not enough there to hold your eye. That is deflationary and close to funny, and our English had turned it into a hymn.
+
+**河上公 (*Héshàng Gōng*) reads it the other way** — 足，得也 (printed 足德也): *"足 means 得 (dé — to attain),"* so *"you cannot attain seeing it,"* which is what we had. **The commentators genuinely split here.** We follow 王弼 because his is the only reading that gives 樂與餌 any work to do, and because 不足 in six other chapters agrees with him.
+
+### 執大象 → *Grasp the great image* — the mirror with ch 29
+
+*(was: "Embody the great form.")*
+
+**Ch 29 and ch 35 are a matched pair and our English hid it.** Ch 29: 天下神器…不可**執**也 — *"天下 (tiān xià — under-sky, the world) is a sacred vessel… it cannot be 執-ed."* Ch 35: **執**大象，**天下**往 — *"執 the great image, and 天下 goes to you."* **Same verb, same object-word, opposite instruction. You cannot take hold of the world; take hold of the great image, and the world comes to you of its own accord.** Ch 29 read *grasped* and ch 35 read *Embody*, so the two lines could not be seen answering each other.
+
+**執 (*zhí*)** is 說文 捕罪人也。从丮从幸 — *"to seize a criminal; from 丮 (jǐ — two hands thrust out to take)"* and 幸, which in this graph is 㚔 (*niè*), **the manacle**. The book uses that sense outright at ch 74: 吾得執而殺之, *"I could seize them and put them to death."* *Embody* renders none of it; it replaces an act of the hands with a state of the body.
+
+***Grasp* is the 強 (*qiáng*) solution applied to 執.** English *grasp* is double the way 執 is — you grasp an idea, and you grasp at what is not yours — so it carries no verdict and can be the error at 29 and 64 and the instruction at 14 and 35 without our English settling which. It already carries most of 執's load. **This does not close T2-19**, which is the whole 守/執/保 family; it settles 執 at this one line and leaves the family for Pass E.
+
+### 大象 → *the great image* — our own ch 41 had already decided it
+
+大象 (*dà xiàng*) occurs twice. **Ch 41 reads 大象無形 and we translate it *"the great image has no form."*** Ch 35 had the identical compound as *"the great **form**"* — grasping the great form of the thing ch 41 says has no form. 形 (*xíng* — shape) is a different character and takes *form* at ch 41 and ch 51.
+
+**象 is an elephant.** 說文: 長鼻牙，南越大獸，三秊一乳，象耳牙四足之形 — *"long nose and tusks, the great beast of the far south; it bears young once in three years; the graph pictures an elephant's ears, tusks and four feet."* **韓非 (*Hán Fēi*, d. 233 BCE), the oldest commentary there is**, explains how it became the word for an image, at ch 14: 人希見生象也，而得死象之骨，案其圖以想其生也，故諸人之所以意想者皆謂之「象」也。今道雖不可得聞見，聖人**執**其見功以處見其形 — *"people seldom see a living elephant, but they come by the bones of a dead one, and going on that outline they picture it alive; so whatever people form in the mind as a picture is called 象. Now although the Tao cannot be come by through hearing or seeing, the sage **grasps** what shows of its working, and thereby places and sees its shape."* **象 is the picture you build of what you have never seen, from the traces it left** — and 韓非 puts 執 on it himself, in the positive valence.
+
+### 往 → a verb again, and the mouth stays on the page
+
+***routes to you* / *This route*** — network vocabulary, the mechanistic register the razor exists to strip, and it turned 往 (*wǎng*) into a noun the Chinese does not have. 說文: 往 之也, *"to go,"* from 彳 (*chì* — a step). Its only other appearance, ch 80's 不相往來, we already render as a plain verb of going. 王弼: 主若執之則天下徃也, *"if the ruler holds it, then the world goes to them."*
+
+**道之出口 → *The Tao is bland in the mouth*** *(was: "Attempt to speak the Tao.")* — *"attempt to"* was supplied, and a first replacement, *"the Tao comes out of the mouth,"* was rejected by Shalom as reading like expulsion. It was: 出 is 說文 進也。象艸木益滋，上出達也 — *"to advance; it pictures grass and trees growing ever more abundantly, pushing up and out to the top."* A sprout, not a discharge.
+
+**口 (*kǒu* — mouth) occurs exactly twice in the book, ch 12 and ch 35, both times in a line about taste — and the word *mouth* had appeared zero times in our English.** Ch 12 renders it *palate*, which quietly picks eating and drops speech. Ch 35 is the one place 口 cannot be allowed to pick, because what passes it is the Tao, and the commentators split on the direction: 王弼 rewrites 出口 as 出言 (*"coming out in words"*), while 河上公 keeps the organ and doubles it — 道出入於口，淡淡非如五味有酸鹹苦甘辛也, *"the Tao goes out at the mouth and in at the mouth; bland, bland, not like the five flavours, which have sour, salty, bitter, sweet, pungent."* ***In the mouth*** leaves that fork open, is ordinary English for speech and for taste both, and gives 口 its first actual mouth in this book. *"Spoken aloud"* was the runner-up and was declined because it settles the fork on 王弼's side.
+
+**Word order, Shalom's call:** *"The Tao **is bland in the mouth**"* over *"The Tao **in the mouth** is bland."* The three lines beneath it all take the Tao itself as object — 視之／聽之／用之, *look at it / listen to it / use it* — so the lack is predicated of the Tao and the organ is only where you meet it. The restrictive order would have set the line apart from the three it belongs with. **Mouth, eye, ear: three organs, three helpings of nothing.**
+
+### 安平太 → *at rest, utterly even* — and the parallelism that was never there
+
+*(was: "It offers safety, peace, and stability.")* The fork is in `notes/manuscript.md`. **太 never stands alone in this book** (太上 at 17, 太牢 at 20), so three English adjectives invent a third item: 安平 is the pair, 太 the intensifier. An earlier attempt, *"at rest, level, at ease,"* was caught twice over — Shalom heard the broken parallelism (two prepositional phrases around a bare adjective), and the reverse check found ***level* is 夷 (*yí*)'s word**, ch 53's 大道甚夷, *"the great Tao is very level,"* with 夷 absent from ch 35.
+
+**Shalom's line, and it is one sentence because the Chinese is** — 往而不害，安平太。takes a comma, then the stop. *"It comes and is not harmed. All is at rest, utterly even"* broke it in two and then had to supply a subject, *All*, that the text does not have; 天下 (*tiān xià* — the world) stays the single subject across both lines, which is what the repeated 往 is for. **It also maps beat for beat** — 往／不害／安／平太 → *comes / unharmed / at rest / utterly even*. 河上公 reads a consequence instead, with a 則 (*zé* — then) he supplies: 萬物歸往而不傷害，則國安家寧, *"the countless things turn toward them and are not harmed, then the state is at rest and the household at peace."* The text has no *then* and no new subject.
+
+安 (*ān*) is 說文 靜也。从女在宀下 — *"stillness; a woman under a roof."* ***Safety*** was its outlier: 安 reads *at rest* at ch 64 (其安易持), *the calm* at ch 15, *restful* at ch 80. 平 (*píng*) occurs once in the whole book; 說文 語平舒也 — *"speech level and unhurried."* **Cost accepted:** *even* is a common English word, so the reverse check on it will be noisy from now on.
+
+### 過客 → *the passer-by*, as a compound
+
+客 (*kè* — guest) reads *guest* at ch 15 and ch 69, but 過客 is a compound and *"passing guests"* is a contradiction in English, since a guest has already stopped. 河上公 uses it for exactly the transient sense: 忽忽如過客, *"fleeting, like a passer-by."* **客 has three jobs in this book** — a mannered houseguest (15), the technical 主/客 host-and-guest of the battlefield (69), and a transient (35) — and no single English holds all three. Logged as open.
+
+**止 (*zhǐ*) and 足 (*zú*) are the same picture, and 許慎 says so**: 說文 止 下基也。象艸木出有址，故以止爲足 — *"the base below; it pictures grass and trees emerging with a footing, so 止 is taken for 足."* The traveller's foot stops; the next three lines are about there not being **enough** of a foothold. Not forced into the verse; recorded because it is the chapter's own rhyme.
