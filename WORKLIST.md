@@ -8,7 +8,7 @@
 
 **The first draft is complete — 81 of 81, since 2026-08-26. The editing pass is the work now.**
 
-**Progress: Pass 0 ✅ · Pass A ✅ · Pass B ✅ · Pass C ✅ · Pass D 🔶 — 9 of 19 chapters (2026-09-05).** Pass D, the chapter-level rewrites, is the work now, and it has **one row per chapter** so they can be checked off one at a time. Done: **4 · 3 · 38 · 28 · 10 · 8 · 23 · 16**, plus **22 and 64** as the settled sides of formula pairs. Gate green: 0 errors, 102 tests, hard breaks intact, worklist consistent with itself.
+**Progress: Pass 0 ✅ · Pass A ✅ · Pass B ✅ · Pass C ✅ · Pass D 🔶 — 10 of 19 chapters (2026-09-05).** Pass D, the chapter-level rewrites, is the work now, and it has **one row per chapter** so they can be checked off one at a time. Done: **3 · 4 · 8 · 10 · 16 · 22 · 23 · 28 · 38 · 64** — ten of the nineteen. Gate green: 0 errors, 102 tests, hard breaks intact, worklist consistent with itself.
 
 *Supersedes `RETROFIT.md` and `EDITING-PASS.md`, merged into this file on 2026-08-28 and both now deleted. This file is `RETROFIT.md` renamed, so `git log --follow WORKLIST.md` still reaches the project's start; the 2026-08-10 sweep record and the lessons it taught the checker moved to `PLAN.md`. Every item below was re-verified against the manuscript at the merge; the old file listed six repairs that had already been made.*
 
@@ -25,7 +25,7 @@
 | PA | ✅ | **強 → strong**, completing the four-word table; 力 covered as *force* | 15 30 33 42 52 55 68 | A |
 | PB | ✅ | **仁 → humaneness · 慈 → tenderness · 孝 → devotion**; Guodian G1 closed | 5 18 19 20 38 | B |
 | PC | ✅ | ~~**The mirrors**~~ — every C-tagged row closed (T3-1, T2-9→14); T2-15's remainder moved to D with ch 28 and T1-8 | T3-1 · T2-9→15 | C |
-| PD | 🔶 | **Chapter-level rewrites** — the real work. **6 of 18 done.** One row per chapter below, checked off one at a time | D3 → D64 | D |
+| PD | 🔶 | **Chapter-level rewrites** — the real work. One row per chapter below, checked off one at a time; **the count lives in those rows, not here** | D3 → D64 | D |
 | PE | ⬜ | Entries and sweeps — **守 執 保** (T2-19 ★) · 身 氣 靜 君 士 智 事 志 谷 恃 | book-wide | E |
 | PF | ⬜ | The deferred calls | 民/人 · 正/奇 · em-dashes | F |
 | PG | ⬜ | `build.py` | — | G |
@@ -98,7 +98,7 @@
 | D29 | ⬜ | **Ch 29** — 為 → *force* ×3, clashing with ch 64's *handle*; closes the last formula pair · T1-8 · T2-15 | 29 | D |
 | D31 | ⬜ | **Ch 31** — 左/右 as *creation*/*destruction*, then literal four lines later; 君子 → *the sage* · T1-9 | 31 | D |
 | D32 | ⬜ | **Ch 32** — the closing 譬…猶 simile is garbled · T1-14 | 32 | D |
-| D35 | ⬜ | **Ch 35** — 往 → *the world routes to you* ×2, mechanistic; 執 → *Embody*. **Rider: *embody* is quarantined here alone** · T1-12 | 35 | D |
+| D35 | ⬜ | **Ch 35** — 往 → *the world routes to you* ×2, mechanistic; 執 → *Embody*. **⚠ Overdue rider — opened by ch 28 (2026-09-01) and skipped past four chapters since** · T1-12 | 35 | D |
 | D36 | ⬜ | **Ch 36** — four 將欲X之，必固Y之 nominalized into abstract laws · T3-4 | 36 | D |
 | D38 | ✅ | ~~**Ch 38** — the 道 → 德 → 仁 → 義 → 禮 descent; 失 deleted from its hinge~~ · T1-4 | 38 | D |
 | D39 | ⬜ | **Ch 39** — the 得一 / 無以 mirror breaks at its sixth pair · T3-6 | 39 | D |
