@@ -73,7 +73,7 @@
 | T2-16 | ⬜ | **事** wants an entry; 無事's licensed split needs confirming | 48 57 63 | E |
 | T2-17 | ⬜ | **私** two ways, sheltering under 公's `covers:` | 7 19 | E |
 | T2-20 | ⬜ | **巧** — *skill* (45) vs *cunning* (19, 57); the same fault as 辯, one line above it | 19 45 57 | E |
-| T2-18 | 🔶 | 復命 → *"returning to what was given"* — **entry written** (`glossary/ming-命.md`): 天命 and 性 are both **absent from the book**, so *mandate/destiny/fate* are out, and the commentators' 性命 is their word, not the text's. Three candidates open | 16 | D |
+| T2-18 | 🔶 | 復命 → *"returning to what was given"* — **two entries written**, `glossary/fuming-復命.md` and `glossary/ming-命.md`. 天命 and 性 are both **absent from the book**, so *mandate/destiny/fate* are out and the commentators' 性命 is their word, not the text's. **復命 is a *name* for the return, not a further step.** Three candidates open | 16 | D |
 | | | **Tier 3 · Missed parallelisms** | | |
 | T3-1 | ✅ | ~~★ **The 不自X / 自X者 mirror**~~ — ch 24 rewritten as ch 22's negative; ch 31 swept | 22↔24↔31 | C |
 | T3-2 | ✅ | ~~Seven 善X couplets, seven unlike shapes~~ — one shape, seven times: *In X, masterful at Y* | 8 | D |

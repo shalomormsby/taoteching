@@ -48,13 +48,9 @@ Both reach for **性命**. And **性 (*xìng* — inborn nature) has zero occurr
 
 Their reading may still be right. But it is not the book's own word, and an English that says *nature* at Chapter 16 would be translating the commentary rather than the line. *(`CLAUDE.md`: a commentator's gloss is not the text.)*
 
-### 復命 — two readings, and the book supports both
+### 復命 has its own entry
 
-**The commentators' reading: returning to what one was allotted.** The inborn course and span, resumed. Its warrant is 性命, which is not in the text.
-
-**The idiom's reading: reporting back.** 復命 is standard classical Chinese for **an envoy returning to report after completing a commission** — and 說文 glosses 命 with 使, the very word for an envoy. Under this reading the chapter's shape is exact. Things 作 (*zuò* — 說文 起也, *"to rise"*) — they are sent out. They run their course. They 復 (*fù* — return). What returns is the commission, handed back to where it came from.
-
-The commentators do not take this reading. The graph and the idiom do. **The chapter is at least as much about being dispatched and reporting in as about resuming a nature**, and nothing in the Chinese forces a choice.
+The compound at Chapter 16 — 是謂復命，復命曰常 — is treated in **`fuming-復命.md`**, including the two readings the book supports (the commentators' *return to what one was allotted*, and the idiom's *an envoy reporting back*), and the three candidate renderings with their costs.
 
 ### What is set aside
 
