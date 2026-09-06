@@ -263,6 +263,32 @@ Also rejected: **"effortless action"** — an interpretation smuggled into a ren
 
 **The quatrain keeps the Tao as its subject**, closing Pass C's one deferred question. With 道沖 restored the subject chain runs unbroken, which is 王弼's reading of these four lines here against 河上公's imperative; ch 56 keeps the imperative, and the divergence is now argued rather than inherited.
 
+### Ch 15 · the chapter reworked whole, and 蔽 read as *covered* rather than *worn out*
+
+*(2026-09-06, Pass D. Full argument in the chapter's own `## Notes`.)*
+
+**The closing line had stopped meaning anything, which is how the rework started.** 故能蔽而不新成 (*gù néng bì ér bù xīn chéng*) read *"They can become weathered, and have no interest in appearing new"* — an English that takes 敝 (*bì* — worn out) where our base prints **蔽** (*bì* — to cover, to screen). 河上公 (*Héshàng Gōng*) prints 蔽 and glosses it 蔽者**匿光榮**也, *"蔽 means **hiding one's radiance and glory**."* The line is about staying out of sight; *weathered* had made it about patina.
+
+**The 說文解字 (*Shuōwén Jiězì*, c. 100 CE) separates the two graphs cleanly.** 蔽 is 小艸也。从**艸**敝聲 — *"small grasses,"* on the 艸 (*cǎo* — growing plants) radical: the covering is **foliage**. 敝 is 帗也。一曰**敗衣** — *"a cloth; one definition says worn-out clothing"* — on 㡀 (*bì* — cloth in tatters). **Plant cover against a rag.** They share a phonetic, which is why manuscripts confuse them, and why the base's 蔽 has to be honoured rather than silently read as 敝.
+
+**The chain that makes the line legible: 盈 (*yíng* — full) is 滿器也, "a full vessel," on the 皿 (*mǐn* — container) radical.** A full vessel is a finished vessel, and a finished thing is a thing there is something to say about. 河上公 runs it himself: 夫唯不盈滿之人**能守蔽**不為新成. Someone who never fills has nothing that needs showing, so being overlooked costs them nothing. **能 (*néng*) is *can*, a capacity — not a wish to hide**; an English that makes concealment a goal puts a strategy into a chapter that recommends none.
+
+**新 (*xīn*) is 取木也。从斤新聲 — "to take wood," on 斤 (*jīn* — an axe).** 樸 (*pǔ* — uncarved wood) six lines up is timber the axe has not finished with; 新成 is timber it has. The etymology is not the reading — 新 means *new* by the Warring States and we render it so — but it explains why the chapter's last image answers its middle one.
+
+**A rendering retired the same day it was written.** The closing first read *"they can stay covered, never finished, never new"* — a chime that split **不新成 into two negations when it is one compound**, giving 新 an independent negation the Chinese does not have. 不新成 is *not newly-completed*, not *not-new and not-completed*. Now **"they can stay covered, and never newly made."*
+
+**Against it, and why it loses.** Ch 22's 敝則新 (*bì zé xīn*) pairs the worn-out graph with 新 and looks like the same formula. But the base prints **敝** at 22 and **蔽** at 15, and under the wear reading the chapters collide: worn-out-becomes-new is the good outcome at 22, worn-out-and-not-new at 15. Under *covered* there is no clash.
+
+**此 (*cǐ*) is anaphoric, not partitive.** 保此道者 had read *"One who holds the Tao"*; the literal *"those who guard **this** Tao"* implies a second Tao in English, which the Chinese does not. 此 points back at the two 孰能 questions — 河上公 expands it to 保**此徐生**之道 — so the pointer now attaches to the manner: **"Those who guard the Tao like this."** 保 also moves from *holds* to **guard**, matching ch 9's 不可長保.
+
+**Two formulas repeat inside this one chapter and had been rendered twice each.** 不可識 (*bù kě shí*) ran *"fathomed"* then *"known"*; it is now **"could not be read"** both times. 說文 defines 識 as 一曰**知**也, on the **言** (*yán* — speech) radical — telling *what a thing is*, which is why *perceived*, a sensory word, drifts from it. **"Named" was refused hardest:** 名 (*míng*) runs 21 lines across 9 chapters and **ch 14 has 繩繩兮不可名, *"it cannot be named"*** — same grammar, adjacent chapter, different character, so *named* here would assert a formula the text lacks. **"Known" was refused on scale:** *know* carries 58 English lines, nearly all 知 (*zhī*), while 識 appears in two chapters; 知 is absent from ch 15, so the clash is book-wide rather than local, but it buys nothing. *Read* is free on a whole-manuscript reverse search. An intermediate *"could not be made out"* was retired the same day: it read as slang, and it **invented a parallel with *newly made* in the closing line** where 識 and 新成 share nothing. **Where the Chinese does not repeat, the English must not either** — the mirror of `DISCOVERIES.md` §6, and no tool looks for it (`WORKLIST.md` T5-14). 夫唯 (*fū wéi*) ran *"Because they cannot be known"* against *"Because they don't seek to become full"*; both are now **"Precisely because"**, and the invented *seek* is gone. `DISCOVERIES.md` §6 in miniature.
+
+**靜 and 安 had been swapped.** 靜 (*jìng* — stillness) was rendered *"sit"* while 安 (*ān* — at rest) took *"still"*, and the second question's *"move in ways that gradually stir life"* padded a strict grammatical mirror out of parallel. The two 孰能 lines are now the same shape: *"by stilling it slowly come clear"* / *"by moving it slowly come to life."*
+
+**Three restorations in the seven similes.** 將 (*jiāng* — about to) had been dropped — the ice is **about to** melt, and the not-yet is the point in a chapter of not-yet things. 涉 (*shè*) is to **ford**, so 冬涉川 is crossing a river *in winter*, not a *frozen* river. And 若 (*ruò*) appears in all seven similes, so all seven now carry **"like"**; *"as if wary of"* had broken the series at line two.
+
+**士 (*shì*) is rendered "in service" here, provisionally.** Three Englishes across 15, 41 and 68 for one character, two of them on the identical phrase 善為士者 — `WORKLIST.md` T2-3, and the rank-and-gender question at T4-7. **Note the seam:** 士 named a male class and the English is deliberately neutral.
+
 ### Ch 45, 81 · 辯 → "argue" — and the 大X若Y frame does not endorse its X
 
 *(2026-08-31, Pass C. `WORKLIST.md` T2-9. Closes Pass C.)*
@@ -321,7 +347,7 @@ ch 52   This is called holding the ever-present covered.
 
 **Ch 25 gained a line it had been missing.** 周行而不殆 read *"Inexhaustible"* — 周行 (*zhōu xíng* — "moves in a circle") was dropped entirely, a debt `WORKLIST` already carried, and 不殆 took 窮's word. It now reads *"It moves in a circle, never in danger, / and can be taken as the mother of the world."*
 
-**Ch 15's *"danger"* was invented, and 河上公 supplies something better.** 猶兮若畏四鄰 (*yóu xī ruò wèi sì lín*) read *"Watchful, aware of danger from all sides"* — **there is no 殆 in ch 15 and no danger in the Chinese**, so no check could ever see it; it surfaced only because the reverse search on *danger* had to be run before locking the word. 河上公: 其進退猶猶如拘制，若人犯法**畏四鄰知之**也 — *"their advancing and retreating is hesitant as if held back, like someone who has broken the law **fearing the four neighbours will find out**."* **It is not peril from every side; it is the fear of being seen.** Now *"Hesitant, as if wary of neighbors on four sides."*
+**Ch 15's *"danger"* was invented, and 河上公 supplies something better.** 猶兮若畏四鄰 (*yóu xī ruò wèi sì lín*) read *"Watchful, aware of danger from all sides"* — **there is no 殆 in ch 15 and no danger in the Chinese**, so no check could ever see it; it surfaced only because the reverse search on *danger* had to be run before locking the word. 河上公: 其進退猶猶如拘制，若人犯法**畏四鄰知之**也 — *"their advancing and retreating is hesitant as if held back, like someone who has broken the law **fearing the four neighbours will find out**."* **It is not peril from every side; it is the fear of being seen.** Now *"Hesitant, like someone wary of the neighbors on all four sides."* *(The "as if" became "like" in the 2026-09-06 rework, restoring the 若 series; "wary" is unchanged.)*
 
 **畏 flexes here, and the flexion is recorded rather than left implicit.** 畏 (*wèi*) reads **fear** in six other lines (17, 20, 53, 72, 74 ×2), always fear *of a thing* — authority, death, what people fear. Here the construction is different: 河上公's 畏四鄰**知之** is fear *that they will find out*, social exposure rather than a threat. English *"fearing the neighbors"* names them as the danger; *"wary of"* keeps the watching. 畏 has no entry yet and this is the line that will decide its shape.
 

@@ -128,9 +128,9 @@ chapter,line,block,chinese,pinyin,literal_gloss,our_english,alignment_method
 13,11,3,及吾無身，,"Jí wú wú shēn,","When/if \[ji\] I \[wu\] have no \[wu\] body/self \[shen\],",The reason I have great trouble is that I have a body.,proportional
 13,12,3,吾有何患？,Wú yǒu hé huàn?,What \[he\] trouble \[huan\] do I \[wu\] have \[you\]?,The reason I have great trouble is that I have a body.,proportional-fill
 13,13,4,故貴以身為天下，,"Gù guì yǐ shēn wéi tiān xià,","Therefore \[gu\] one who values \[gui\] using \[yi\] their body \[shen\] to serve/act for \[wei\] the world \[tian xia\],","If I had no body, what trouble would I have?",proportional
-13,14,4,若可寄天下；,Ruò kě jì tiān xià;,Seems \[ruo\] they can \[ke\] be entrusted \[ji\] with the world \[tian xia\];,So one who prizes their own body as much as the world can be given the world.,proportional
-13,15,4,愛以身為天下，,"Ài yǐ shēn wéi tiān xià,","One who loves \[ai\] using \[yi\] their body \[shen\] to serve/act for \[wei\] the world \[tian xia\],",One who loves their own body as much as the world can be trusted with it.,proportional
-13,16,4,若可託天下。,Ruò kě tuō tiān xià.,Seems \[ruo\] they can \[ke\] be relied upon/entrusted \[tuo\] with the world \[tian xia\].,One who loves their own body as much as the world can be trusted with it.,proportional-fill
+13,14,4,若可寄天下；,Ruò kě jì tiān xià;,Seems \[ruo\] they can \[ke\] be entrusted \[ji\] with the world \[tian xia\];,So one who prizes their body as a way to serve the world can be trusted with the world.,proportional
+13,15,4,愛以身為天下，,"Ài yǐ shēn wéi tiān xià,","One who loves \[ai\] using \[yi\] their body \[shen\] to serve/act for \[wei\] the world \[tian xia\],",One who loves their body as a way to serve the world can be trusted with it.,proportional
+13,16,4,若可託天下。,Ruò kě tuō tiān xià.,Seems \[ruo\] they can \[ke\] be relied upon/entrusted \[tuo\] with the world \[tian xia\].,One who loves their body as a way to serve the world can be trusted with it.,proportional-fill
 14,1,1,視之不見，,"Shì zhī bù jiàn,","Looking at \[shi\] it \[zhi\] but not \[bu\] seeing \[jian\],","Look, but you cannot see it – its name is the invisible.",proportional
 14,2,1,名曰夷；,míng yuē yí;,its name \[ming\] is called \[yue\] invisible/colorless \[yi\];,"Listen, but you cannot hear it – its name is the inaudible.",proportional
 14,3,1,聽之不聞，,"Tīng zhī bù wén,","Listening to \[ting\] it \[zhi\] but not \[bu\] hearing \[wen\],","Reach, but you cannot grasp it – its name is the intangible.",proportional
@@ -152,23 +152,23 @@ chapter,line,block,chinese,pinyin,literal_gloss,our_english,alignment_method
 14,19,6,以御今之有。,Yǐ yù jīn zhī yǒu.,In order to \[yi\] manage/control \[yu\] present/current \[jin\] existence/presence \[you\].,"Know the primordial source,",proportional
 14,20,6,能知古始，,"Néng zhī gǔ shǐ,","Being able to \[neng\] know \[zhi\] the ancient \[gu\] beginnings/origins \[shi\],",The thread of the Tao.,proportional
 14,21,6,是謂道紀。,Shì wèi dào jì.,This \[shi\] is called \[wei\] the thread/discipline of the Tao \[dao ji\].,The thread of the Tao.,proportional-fill
-15,1,1,古之善為士者，,"Gǔ zhī shàn wéi shì zhě,","The ancient \[gu\] ones who were masterful \[shan\] at being \[wei\] scholars/officers \[shi\],",The ancient masters,proportional
-15,2,1,微妙玄通，,"Wēi miào xuán tōng,","Were microscopic/subtle \[wei\], highly-optimized/marvelous \[miao\], dark/profound \[xuan\], and penetrating/connected \[tong\],",Were subtle-fine and dark-penetrating —,proportional
-15,3,1,深不可識。,Shēn bù kě shí.,So deep \[shen\] they could not \[bu ke\] be known/understood \[shi\].,Too deep to be fathomed.,proportional
-15,4,2,夫唯不可識，,"Fū wéi bù kě shí,","Now precisely because \[fu wei\] they could not \[bu ke\] be known \[shi\],","Because they cannot be known, I can only force a description:",proportional
-15,5,2,故強為之容：,Gù qiǎng wèi zhī róng:,Therefore \[gu\] I force/compel \[qiang\] a description/appearance \[rong\] for \[wei\] them \[zhi\]:,"Careful, like crossing a frozen river.",proportional
-15,6,2,豫兮若冬涉川；,Yù xī ruò dōng shè chuān;,Hesitant/careful \[yu\] oh \[xi\]\! Like \[ruo\] crossing \[she\] a river \[chuan\] in winter \[dong\];,"Hesitant, as if wary of neighbors on four sides.",proportional
-15,7,2,猶兮若畏四鄰；,Yóu xī ruò wèi sì lín;,Cautious/watchful \[you\] oh \[xi\]\! Like \[ruo\] fearing \[wei\] neighbors on all four sides \[si lin\];,"Dignified, like a guest.",proportional
-15,8,2,儼兮其若客；,Yǎn xī qí ruò kè;,Reserved/dignified \[yan\] oh \[xi\]\! Like \[ruo\] a guest \[ke\];,"Yielding, like melting ice.",proportional
-15,9,2,渙兮其若冰之將釋；,Huàn xī qí ruò bīng zhī jiāng shì;,Yielding/melting \[huan\] oh \[xi\]\! Like \[ruo\] ice \[bing\] that is about to \[jiang\] melt/thaw \[shi\];,"Sturdy, like uncarved wood.",proportional
-15,10,2,敦兮其若樸；,Dūn xī qí ruò pǔ;,Solid/genuine \[dun\] oh \[xi\]\! Like \[ruo\] the uncarved wood \[pu\];,"Expansive, like a valley.",proportional
-15,11,2,曠兮其若谷；,Kuàng xī qí ruò gǔ;,Broad/expansive \[kuang\] oh \[xi\]\! Like \[ruo\] a valley \[gu\];,"Mixed, like muddy water.",proportional
-15,12,2,混兮其若濁。,Hùn xī qí ruò zhuó.,Blended/undifferentiated \[hun\] oh \[xi\]\! Like \[ruo\] murky/muddy water \[zhuo\].,"Who can be like muddy water, then sit and gradually become clear?",proportional
-15,13,3,孰能濁以靜之徐清？,Shú néng zhuó yǐ jìng zhī xú qīng?,Who \[shu\] can \[neng\] take the murky \[zhuo\] and by \[yi\] stilling \[jing\] it \[zhi\] slowly \[xu\] make it clear \[qing\]?,"Who can be still, then move in ways that gradually stir life?",proportional
-15,14,3,孰能安以動之徐生？,Shú néng ān yǐ dòng zhī xú shēng?,Who \[shu\] can \[neng\] take the calm/at rest \[an\] and by \[yi\] moving/stirring \[dong\] it \[zhi\] slowly \[xu\] bring it to life/generate \[sheng\]?,One who holds the Tao has no desire to be full.,proportional
-15,15,4,保此道者不欲盈。,Bǎo cǐ dào zhě bù yù yíng.,Those who guard/preserve \[bao\] this \[ci\] Tao \[dao\] do not \[bu\] desire \[yu\] to be full/overflowing \[ying\].,"Because they don’t seek to become full,",proportional
-15,16,4,夫唯不盈，,"Fū wéi bù yíng,","Now precisely because \[fu wei\] they are not \[bu\] full \[ying\],","They can become weathered, and have no interest in appearing new.",proportional
-15,17,4,故能蔽而不新成。,Gù néng bì ér bù xīn chéng.,Therefore \[gu\] they can \[neng\] be worn out/concealed \[bi\] and \[er\] not \[bu\] newly \[xin\] compiled/completed \[cheng\].,"They can become weathered, and have no interest in appearing new.",proportional-fill
+15,1,1,古之善為士者，,"Gǔ zhī shàn wéi shì zhě,","The ancient \[gu\] ones who were masterful \[shan\] at being \[wei\] scholars/officers \[shi\],",The ancients who were masterful in service,exact-count
+15,2,1,微妙玄通，,"Wēi miào xuán tōng,","Were microscopic/subtle \[wei\], highly-optimized/marvelous \[miao\], dark/profound \[xuan\], and penetrating/connected \[tong\],","were faint, subtle, dark, and connected through,",exact-count
+15,3,1,深不可識。,Shēn bù kě shí.,So deep \[shen\] they could not \[bu ke\] be known/understood \[shi\].,so deep they could not be made out.,exact-count
+15,4,2,夫唯不可識，,"Fū wéi bù kě shí,","Now precisely because \[fu wei\] they could not \[bu ke\] be known \[shi\],","Precisely because they could not be made out,",exact-count
+15,5,2,故強為之容：,Gù qiǎng wèi zhī róng:,Therefore \[gu\] I force/compel \[qiang\] a description/appearance \[rong\] for \[wei\] them \[zhi\]:,I force a likeness:,exact-count
+15,6,2,豫兮若冬涉川；,Yù xī ruò dōng shè chuān;,Hesitant/careful \[yu\] oh \[xi\]\! Like \[ruo\] crossing \[she\] a river \[chuan\] in winter \[dong\];,"Careful, like fording a river in winter.",exact-count
+15,7,2,猶兮若畏四鄰；,Yóu xī ruò wèi sì lín;,Cautious/watchful \[you\] oh \[xi\]\! Like \[ruo\] fearing \[wei\] neighbors on all four sides \[si lin\];,"Hesitant, like someone wary of the neighbors on all four sides.",exact-count
+15,8,2,儼兮其若客；,Yǎn xī qí ruò kè;,Reserved/dignified \[yan\] oh \[xi\]\! Like \[ruo\] a guest \[ke\];,"Dignified, like a guest.",exact-count
+15,9,2,渙兮其若冰之將釋；,Huàn xī qí ruò bīng zhī jiāng shì;,Yielding/melting \[huan\] oh \[xi\]\! Like \[ruo\] ice \[bing\] that is about to \[jiang\] melt/thaw \[shi\];,"Loosening, like ice about to melt.",exact-count
+15,10,2,敦兮其若樸；,Dūn xī qí ruò pǔ;,Solid/genuine \[dun\] oh \[xi\]\! Like \[ruo\] the uncarved wood \[pu\];,"Solid, like uncarved wood.",exact-count
+15,11,2,曠兮其若谷；,Kuàng xī qí ruò gǔ;,Broad/expansive \[kuang\] oh \[xi\]\! Like \[ruo\] a valley \[gu\];,"Open, like a valley.",exact-count
+15,12,2,混兮其若濁。,Hùn xī qí ruò zhuó.,Blended/undifferentiated \[hun\] oh \[xi\]\! Like \[ruo\] murky/muddy water \[zhuo\].,"Blended, like muddy water.",exact-count
+15,13,3,孰能濁以靜之徐清？,Shú néng zhuó yǐ jìng zhī xú qīng?,Who \[shu\] can \[neng\] take the murky \[zhuo\] and by \[yi\] stilling \[jing\] it \[zhi\] slowly \[xu\] make it clear \[qing\]?,"Who can be muddy, and by stilling it slowly come clear?",exact-count
+15,14,3,孰能安以動之徐生？,Shú néng ān yǐ dòng zhī xú shēng?,Who \[shu\] can \[neng\] take the calm/at rest \[an\] and by \[yi\] moving/stirring \[dong\] it \[zhi\] slowly \[xu\] bring it to life/generate \[sheng\]?,"Who can be at rest, and by moving it slowly come to life?",exact-count
+15,15,4,保此道者不欲盈。,Bǎo cǐ dào zhě bù yù yíng.,Those who guard/preserve \[bao\] this \[ci\] Tao \[dao\] do not \[bu\] desire \[yu\] to be full/overflowing \[ying\].,Those who guard the Tao like this have no wish to be full.,exact-count
+15,16,4,夫唯不盈，,"Fū wéi bù yíng,","Now precisely because \[fu wei\] they are not \[bu\] full \[ying\],","Precisely because they are never full,",exact-count
+15,17,4,故能蔽而不新成。,Gù néng bì ér bù xīn chéng.,Therefore \[gu\] they can \[neng\] be worn out/concealed \[bi\] and \[er\] not \[bu\] newly \[xin\] compiled/completed \[cheng\].,"they can stay covered, never finished, never new.",exact-count
 16,1,1,致虛極，,"Zhì xū jí,","Reach/attain \[zhi\] the extreme/limit \[ji\] of emptiness/void \[xu\],",Go totally empty.,proportional
 16,2,1,守靜篤。,Shǒu jìng dǔ.,Guard/hold \[shou\] stillness/tranquility \[jing\] firmly/sincerely \[du\].,Hold steadily to stillness.,proportional
 16,3,2,萬物並作，,"Wàn wù bìng zuò,","The ten thousand \[wan\] things/entities \[wu\] simultaneously \[bing\] arise/act \[zuo\],","The countless things arise together,",proportional

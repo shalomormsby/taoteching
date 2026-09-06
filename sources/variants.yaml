@@ -1177,3 +1177,19 @@
     如此乃可以託天下也, Heshang Gong 則可寄於天下. The English takes the
     consequence and drops the particle.
   logged: notes/manuscript.md
+
+- chapter: 15
+  line: "孰能安以動之徐生"
+  base: "安以動之"
+  witnesses: { heshanggong: "安以久動之" }
+  meaning_bearing: true
+  our_call: base
+  note: >
+    Heshang Gong's lemma carries an extra 久 (jiu - long), and his gloss leans on
+    it: 誰能安靜以久徐徐以長生也, "who can be settled and still for long, and slowly
+    slowly attain long life." The 久 pulls the line toward 長生, the longevity
+    reading. Without it the line is an exact mirror of 孰能濁以靜之徐清 above it -
+    state, action applied to it, slow result - and that parallel is the pair's
+    whole point. We keep the base.
+  logged: notes/manuscript.md
+

@@ -124,6 +124,12 @@ It is recorded here because it **licenses a rendering decision**: the two verbs 
 
 **This does not touch T4-2**, the deferred 正 / 奇 (*zhèng / qí* — straight / crooked) call. That is a question about how 正 is rendered where we print it; this is a question about which graph is printed, and logging a fork settles nothing about the other.
 
+### Ch 15 · 安以動之 / 安以久動之 — 河上公 has a 久 our base does not
+
+*(2026-09-06.)* The second of the two 孰能 (*shú néng* — who can) questions reads 孰能安以動之徐生 in our base. **河上公 (*Héshàng Gōng*) carries the line with an extra 久 (*jiǔ* — long, for a long time): 孰能安以久動之徐生**, and his gloss leans on it — 誰能安靜以久徐徐以**長生**也, *"who can be settled and still **for long**, and slowly slowly attain **long life**."*
+
+**It is meaning-bearing, and we keep the base.** With 久 the line acquires duration and, in 河上公's hands, 長生 (*cháng shēng* — long life) — the longevity reading that runs through his commentary and that this edition's naturalistic razor is wary of. Without it the line is a plain mirror of the one above it: a state, an action applied to it, a slow result. The parallel with 孰能濁以靜之徐清 is exact only without 久, and that parallel is the point of the pair.
+
 ### Ch 23 · three facts on one chapter — a dropped 道者, a 得/失 swap, and a Ming witness without 樂
 
 **Found 2026-09-03, rebuilding the chapter. `--witnesses 23` had reported nothing: nobody had looked.**

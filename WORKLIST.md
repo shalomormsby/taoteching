@@ -16,7 +16,7 @@
 
 ## The list
 
-**⬜ open · 🔶 part done · ✅ done · ⏸ deferred by Shalom.** Detail for every row is below, under the matching heading. **109 item rows: 54 open · 48 done · 4 part done · 3 deferred.** *(19 of them are the per-chapter Pass D rows, whose status is derived.)* *(Counted from the table itself — a hand-kept tally drifts. It read "43 open · 18 done" and matched nothing.)*
+**⬜ open · 🔶 part done · ✅ done · ⏸ deferred by Shalom.** Detail for every row is below, under the matching heading. **112 item rows: 57 open · 48 done · 4 part done · 3 deferred.** *(19 of them are the per-chapter Pass D rows, whose status is derived.)* *(Counted from the table itself — a hand-kept tally drifts. It read "43 open · 18 done" and matched nothing.)*
 
 | # | | Item | Ch | Pass |
 |---|---|---|---|---|
@@ -56,7 +56,7 @@
 | T2-19 | ⬜ | ★ **The holding family — 守 執 保 有 collapsed into "hold."** 執 carries opposite valences and the English hides it | 5 9 14 15 16 28 29 32 35 37 52 62 64 67 69 74 79 | E |
 | T2-1 | ⬜ | **身** — *body* / *self* / *themselves*, and two of them inside ch 54. *Ch 10 avoided the noun for 營魄; if 身 lands on* body*, revisit that line* | 7 9 13 44 54 | E |
 | T2-2 | 🔶 | **智** four ways; **ch 3 settled as *the knowers*, fork logged**; *"cunning"* still wears 巧 at 19 and 57 | 3 18 19 33 65 | E |
-| T2-3 | ⬜ | **士** three ways, two on the identical phrase 善為士者. *Rank question → T4-7* | 15 41 68 | E |
+| T2-3 | ⬜ | **士** three ways, two on the identical phrase 善為士者. Ch 15 now reads *in service* provisionally (2026-09-06 rework); 41 *student* and 68 *warrior* still stand, and 68's *"master warrior is not martial"* cancels itself. *Rank question → T4-7* | 15 41 68 | E |
 | T2-4 | 🔶 | **氣** — ch 10 → *breath* (河上公 呼吸精氣); *vital breath* (42) and *vital energy* (55) still split | 10 42 55 | E |
 | T2-21 | ⬜ | **厚** four ways — *thick* (38) · *heavy* (44) · *abundant* (55) · *rich* (75) | 38 44 50 55 75 | E |
 | T2-22 | ✅ | ~~**嬰兒 / 赤子** both read *newborn*~~ — 嬰兒 → *infant* (10, 20, 28); 赤子 keeps *newborn* (55) | 10 20 28 55 | E |
@@ -106,9 +106,11 @@
 | D41 | ⬜ | **Ch 41** — 大器晚成 follows a witness our table doesn't carry; *the countless things* with no 萬物 · T1-19 | 41 | D |
 | D64 | ✅ | ~~**Ch 64** — already reads *handle*~~; the settled side of 為者敗之, nothing owed here | 64 | D |
 | | | **Tier 4 · Deferred by Shalom** | | |
+| T2-38 | ⬜ | **逝 → *expanding* at ch 25**, where 說文 gives 往也, *"to go."* 逝 is departure, not size, and it is the outbound leg of 大曰逝，逝曰遠，遠曰反 — the sequence the road-words Thread rests on. Found while writing that Thread from ch 15's 通 | 25 | E |
+| T2-39 | ⬜ | **名 → *description* at ch 25** (強為之名曰大). 名 (*míng* — name) is the book's own heavily-worked word for *name*, 21 lines across 9 chapters, and ch 1 is built on it. **強為之▢ is also a shared frame with ch 15** (強為之容), where our English reads *"I force a likeness"* | 15 25 | E |
 | T4-1 | ⏸ | **民 / 人** — one decision, whole book. Consider taking 身 (T2-1) with it. *Kin to T4-7* | 13 chapters | F |
 | T4-2 | ⏸ | **正 / 奇** — five Englishes | 37 45 57 58 78 | F |
-| T4-3 | ⏸ | **Em-dashes in the verse** — 15 lines *(ch 28's two went with its rewrite, not by decision)* | 10 14 15 29 43 44 51 53 55 58 | F |
+| T4-3 | ⏸ | **Em-dashes in the verse** — 14 lines *(ch 28's two and ch 15's one went with their rewrites, not by decision)* | 10 14 29 43 44 51 53 55 58 | F |
 | T2-23 | ⬜ | **明白 / 白** — 白 is *the white* at ch 28 and inside the compound *clarity* at ch 10; check 明白 is bound | 10 28 41 | E |
 | T2-24 | 🔶 | **淵** — ch 36 → **deep water** (說文 回水也…左右，岸也: circling water, banks left and right). *fathomless* (4) and *depth* (8) still open; *pool* rejected as chlorinated, *the depths* fails the pointing test | 4 8 | E |
 | T2-25 | ✅ | ~~**同於X → *merges with*** ×6~~ — **the same as**; 同 is 異's antonym and ch 1 already had it right. Closed T2-26 too | 23 | D |
@@ -136,6 +138,7 @@
 | T5-11 | ✅ | ~~Both tools were blind to a formula repeating **inside** one chapter~~ — they indexed into a *set* of chapter numbers, so ch 11's 當其無 ×3 collapsed to one entry and was dropped as "not shared". `--formulas` now covers the whole text and finds **frames** (將欲▢之, ▢得一以▢); `--formulas N` prints one chapter's English beside them. 13 tests. **Ch 11 is where this was found** — `DISCOVERIES.md` §6 | — | G |
 | T5-13 | ⬜ | `--formulas` matches whole comma-segments, so **a frame that does not start at a punctuation boundary is invisible** — 為天下貞 sits inside 侯王得一以為天下貞 and ch 39 was missing from the 為天下▢ group, which is how a settled formula got a fourth rendering. Sub-segment matching, or a formula's own characters as a second index | — | G |
 | T5-12 | ⬜ | `check_locks.py`'s `repeated-formula` still only compares **across** chapters. Whether the gate can carry the within-chapter case without crying wolf is unsettled — 152 findings at recall. Decide after Pass D, on the evidence `--formulas` is now producing | — | G |
+| T5-14 | ⬜ | **Invented repetition — the mirror of `DISCOVERIES.md` §6, and nothing looks for it.** `--formulas` finds a *flattened* repeat (Chinese repeats, English varies). It cannot find an *invented* one (English repeats, Chinese does not), which asserts a link the text never makes. Found by ear at ch 15, where *"could not be made out"* chimed with *"newly made"* across 識 and 新成 — unrelated characters. Needs an English-side n-gram index checked back against the Chinese | 15 + unswept | G |
 | T5-3 | ⬜ | Forbidden lists thin on near-synonyms — *clever*, *depletion*, *energy*. *(無為 gained *effortless* / *without effort* / *takes no action* with T1-3 and T1-4; these three stand)* | — | E |
 | T5-4 | ⬜ | Run `--english` on every lock; it is the only reverse-direction check | — | ongoing |
 | T5-5 | ⬜ | The 70-item false-friend `info` list is not being read | — | G |
@@ -243,7 +246,7 @@ Meaning changed. Each needs a decision; most need one line rewritten.
    | ch | Chinese | now |
    |---|---|---|
    | 14 | 執古之道 | *Hold the ancient Tao* |
-   | 15 | 保此道者 | *One who holds the Tao* |
+   | 15 | 保此道者 | *Those who guard the Tao like this* ✅ *(2026-09-06 — 保 → guard, matching ch 9; 此 read as anaphoric, not partitive)* |
    | 23 | 從事於道者 | *the one who aligns their actions with the Tao* |
    | 24, 31, 77 | 有道者 | *those who are with the Tao* ✅ |
    | 52 | 復守其母 | *return and hold fast to our mother* |
@@ -421,3 +424,4 @@ Structure the Chinese has and the English does not. These are rewrites, and they
 | 2026-09-05 | **The formula finder** — `--formulas` now covers within *and* across chapters and finds frames; `--formulas N` prints a chapter's English beside them. Surfaces T3-4 and T3-6 on sight, plus a dozen unlogged. 13 tests, 124 total | `tools/concordance.py` · `tools/tests/test_concordance.py` · `CLAUDE.md` · `ARCHITECTURE.md` |
 | 2026-09-05 | **Ch 36** — the four 將欲X之，必固Y之 restored as conditional instructions; **固 was an adverb rendered as the adjective *firm***, and 韓非's worked examples prove *first*. 利器 → *tools of advantage* (all three commentators); 淵 → *deep water*. Three forks, incl. 邦/國 dating our base to Han hands | `notes/translation.md` · `notes/manuscript.md` · `sources/variants.yaml` · Ch 36 |
 | 2026-09-05 | **Ch 39** — the mirror was **inverted**, not merely broken; 得 → *received*; 貴/賤 → *prized/cheap*, price words; 為天下貞 rejoined its formula (T2-15); **故致數譽無譽 departs from the base for the cart**. *In the beginning* refused on the hymn test. Five forks. Opens T2-35/36/37, T5-13 | `notes/translation.md` · `notes/manuscript.md` · `sources/variants.yaml` · Ch 39 |
+| 2026-09-06 | **Ch 15 reworked whole** — 蔽 read as *covered* (foliage), not 敝 *worn out*; the 盈/成 chain made legible; 此 anaphoric, so *"the Tao like this"*; 保 → *guard*; 不可識 and 夫唯 each unflattened; **靜/安 were swapped**; 將, 涉 and the 若 series restored. 識 → *read* over *named* (名 collides with ch 14's 不可名), *identified* and *known* (58 lines). 通 → *unobstructed*, on 說文's 達也 · 从辵. One fork logged (河上公's 久). **New Thread: the Tao is a road** — 道 = 辵 + 首, and ch 14 says you cannot see its 首. Opens T5-14, T2-38, T2-39 | `notes/translation.md` · `notes/manuscript.md` · `notes/reading.md` · `sources/variants.yaml` · `WORKLIST.md` · Ch 15 |

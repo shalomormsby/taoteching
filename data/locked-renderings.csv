@@ -159,10 +159,10 @@ chapter,line,character,pinyin,locked_term,expected_rendering,rendering_present,a
 13,12,有,yǒu,無 & 有,presence,NOT FOUND,0.2,proportional-fill,The reason I have great trouble is that I have a body.
 13,13,天,tiān,天,sky (as a tier) · nature / the natural (as an agent),NOT FOUND,0.3,proportional,"If I had no body, what trouble would I have?"
 13,13,為,wéi,為,do / handle / serve as,NOT FOUND,0.3,proportional,"If I had no body, what trouble would I have?"
-13,14,天,tiān,天,sky (as a tier) · nature / the natural (as an agent),NOT FOUND,0.3,proportional,So one who prizes their own body as much as the world can be given the world.
-13,15,天,tiān,天,sky (as a tier) · nature / the natural (as an agent),NOT FOUND,0.3,proportional,One who loves their own body as much as the world can be trusted with it.
-13,15,為,wéi,為,do / handle / serve as,NOT FOUND,0.3,proportional,One who loves their own body as much as the world can be trusted with it.
-13,16,天,tiān,天,sky (as a tier) · nature / the natural (as an agent),NOT FOUND,0.2,proportional-fill,One who loves their own body as much as the world can be trusted with it.
+13,14,天,tiān,天,sky (as a tier) · nature / the natural (as an agent),NOT FOUND,0.3,proportional,So one who prizes their body as a way to serve the world can be trusted with the world.
+13,15,天,tiān,天,sky (as a tier) · nature / the natural (as an agent),NOT FOUND,0.3,proportional,One who loves their body as a way to serve the world can be trusted with it.
+13,15,為,wéi,為,do / handle / serve as,NOT FOUND,0.3,proportional,One who loves their body as a way to serve the world can be trusted with it.
+13,16,天,tiān,天,sky (as a tier) · nature / the natural (as an agent),NOT FOUND,0.2,proportional-fill,One who loves their body as a way to serve the world can be trusted with it.
 14,8,一,yī,一,the one (lowercase) · one thing (ch 22) · plain numeral where it counts,NOT FOUND,0.3,proportional,Or a dark bottom.
 14,8,為,wéi,為,do / handle / serve as,NOT FOUND,0.3,proportional,Or a dark bottom.
 14,12,無,wú,無 & 有,absence,NOT FOUND,0.3,proportional,"This is the shape of no-shape, the image of no-thing."
@@ -173,15 +173,15 @@ chapter,line,character,pinyin,locked_term,expected_rendering,rendering_present,a
 14,18,道,dào,道,the Tao (left untranslated),NOT FOUND,0.3,proportional,"Hold the ancient Tao, and steer what is present now."
 14,19,有,yǒu,無 & 有,presence,NOT FOUND,0.3,proportional,"Know the primordial source,"
 14,21,道,dào,道,the Tao (left untranslated),NOT FOUND,0.2,proportional-fill,The thread of the Tao.
-15,1,善,shàn,善,masterful / masterful at · the masterful & the unmasterful (of people) · good (only where the text names the category),NOT FOUND,0.3,proportional,The ancient masters
-15,1,為,wéi,為,do / handle / serve as,NOT FOUND,0.3,proportional,The ancient masters
-15,2,妙,miào,玄 & 妙,subtle,yes,0.3,proportional,Were subtle-fine and dark-penetrating —
-15,2,玄,xuán,玄 & 妙,dark or profound,NOT FOUND,0.3,proportional,Were subtle-fine and dark-penetrating —
-15,5,強,qiǎng,強,"strong — *strengthen* where it takes an object, *forcing* where it strains against a thing's nature",NOT FOUND,0.3,proportional,"Careful, like crossing a frozen river."
-15,5,為,wèi,為,do / handle / serve as,NOT FOUND,0.3,proportional,"Careful, like crossing a frozen river."
-15,10,樸,pǔ,樸,uncarved wood / the uncarved,NOT FOUND,0.3,proportional,"Expansive, like a valley."
-15,14,生,shēng,生,give birth to / bear / bring forth,NOT FOUND,0.3,proportional,One who holds the Tao has no desire to be full.
-15,15,道,dào,道,the Tao (left untranslated),NOT FOUND,0.3,proportional,"Because they don’t seek to become full,"
+15,1,善,shàn,善,masterful / masterful at · the masterful & the unmasterful (of people) · good (only where the text names the category),yes,1.0,exact-count,The ancients who were masterful in service
+15,1,為,wéi,為,do / handle / serve as,NOT FOUND,1.0,exact-count,The ancients who were masterful in service
+15,2,妙,miào,玄 & 妙,subtle,yes,1.0,exact-count,"were faint, subtle, dark, and connected through,"
+15,2,玄,xuán,玄 & 妙,dark or profound,NOT FOUND,1.0,exact-count,"were faint, subtle, dark, and connected through,"
+15,5,強,qiǎng,強,"strong — *strengthen* where it takes an object, *forcing* where it strains against a thing's nature",NOT FOUND,1.0,exact-count,I force a likeness:
+15,5,為,wèi,為,do / handle / serve as,NOT FOUND,1.0,exact-count,I force a likeness:
+15,10,樸,pǔ,樸,uncarved wood / the uncarved,yes,1.0,exact-count,"Solid, like uncarved wood."
+15,14,生,shēng,生,give birth to / bear / bring forth,NOT FOUND,1.0,exact-count,"Who can be at rest, and by moving it slowly come to life?"
+15,15,道,dào,道,the Tao (left untranslated),NOT FOUND,1.0,exact-count,Those who guard the Tao like this have no wish to be full.
 16,1,極,jí,極,the far end — where a thing runs out · the endless (無極),NOT FOUND,0.3,proportional,Go totally empty.
 16,1,虛,xū,虛,empty (adjective) · to empty (verb),NOT FOUND,0.3,proportional,Go totally empty.
 16,3,物,wù,萬物,things / something,yes,0.3,proportional,"The countless things arise together,"
