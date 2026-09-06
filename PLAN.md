@@ -303,6 +303,28 @@ Kept here because the next tool in this repo should start from it.
 
 ---
 
+## What Chapter 11 taught the tools — 2026-09-05
+
+*One lesson, and it inverted what two tools were built to do. `DISCOVERIES.md` §6 carries the finding about the text; this is the harness record. Tests in `tools/tests/test_concordance.py`.*
+
+**A formula repeating *inside* one chapter was structurally invisible.** `check_locks.py`'s `repeated-formula` rule and `concordance.py --formulas` both indexed each Chinese segment into a **set of chapter numbers**, then reported the segments appearing in more than one. Three occurrences in a single chapter therefore collapsed to one entry and were dropped as *"not shared."*
+
+Chapter 11 repeats 當其無 (*dāng qí wú* — "right where its absence is") verbatim three times, and 有X之用 three times, and our English rendered every one of them differently. **Neither tool could report it**, and no lock could either — every lock keys off a character to judge the English, and each of those lines was defensible on its own. It was found by Shalom reading the page, which is now the third time that has been the finding mechanism (ch 65, ch 20, ch 11).
+
+Stated as the failure it is:
+
+> **The tools enforced consistency where the text was not repeating, and were silent where it was.**
+
+**Three things the repair had to get right, each of which is a test:**
+
+1. **Count occurrences, not chapters.** The set was the whole bug. `_segments()` returns a list of `(chapter, row)`.
+2. **A frame is not a segment.** Ch 36's four 將欲X之 clauses are not identical, so exact matching finds nothing; they share a skeleton. `_templates()` clusters same-length segments that agree in all but one or two positions. **The floor is two fixed characters and half the frame** — one anchor is a character, not a frame, and 不▢▢ would collect half the book. That floor is also why ch 8's X善Y is *not* found, and 善's own concordance is where it lives.
+3. **Rank by concentration, not frequency.** A frame four times in ch 36 and once in ch 65 is that chapter's formula; one appearing once each in fifteen chapters is grammar. Without that separation 是謂▢▢ (*shì wèi* — "this is called") topped the list, and every real finding was below the fold.
+
+**What was deliberately not done.** `check_locks.py` still compares across chapters only, and is not fed from the new index. Recall reports 152 within-chapter repeats; a gate that fired on those would cry wolf, which is the one thing that checker must never do — and `CLAUDE.md` is explicit that the searching tool and the gating tool stay apart. Whether the gate can carry any of this is open as `WORKLIST` **T5-12**, to be decided after Pass D on the evidence the finder is now producing.
+
+*A fourth thing, found while repairing: the `--json` path carried its own second copy of the indexing and had already drifted from the printed one — `min_len` 4 against 3, and the same fatal set. It reads the shared index now. A fact written down twice, one copy updated, which is the pattern `check_worklist.py` exists for.*
+
 ## What the 2026-08-10 sweep taught the checker
 
 *All three below are implemented, and each has a test in `tools/tests/test_check_locks.py` named after it. Three further lessons the build itself taught are at the foot of this section.*

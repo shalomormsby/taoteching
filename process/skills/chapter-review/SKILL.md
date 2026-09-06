@@ -17,8 +17,10 @@ The method in `CLAUDE.md` is stable enough to execute rather than remember. This
 python3 tools/concordance.py --witnesses N                   # where the witnesses disagree
 python3 tools/concordance.py --commentary N                  # 王弼 and 河上公 on this chapter
 python3 tools/check_locks.py --chapter N --severity info     # what this chapter already violates
-python3 tools/concordance.py --formulas | grep -n .          # segments this chapter shares
+python3 tools/concordance.py --formulas N                    # the repeated frames, with this chapter's English
 ```
+
+**`--formulas N` is not optional, and it is the newest of these.** It prints every Chinese segment and frame this chapter repeats — **within itself as well as across the book** — with the chapter's English underneath, so a flattened parallelism is visible in one screen. **Where the Chinese repeats, the English must repeat too.** Chapter 11 says one identical sentence over a cart, a pot and a room, and our English varied all three; the fault is invisible line by line, and was invisible to every tool until 2026-09-05. `DISCOVERIES.md` §6.
 
 **Run `--witnesses` first, before reading the base text closely.** Ch 21 was drafted over a chronology both Mawangdui silks reverse; Ch 25 was drafted with a king the oldest witnesses do not have. Neither was carelessness — nobody had looked. If the command reports nothing, read that as *nobody has checked this chapter yet*, not as *there are no forks*: `sources/variants.yaml` is built by hand, chapter by chapter.
 

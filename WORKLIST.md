@@ -129,7 +129,7 @@
 | | | **Tier 5 · The harness** | | |
 | T5-1 | ⬜ | Build **thin-translation** — the only rule that finds *absence* | — | G |
 | T5-2 | ⬜ | `repeated-formula` should name the segment's own English | — | G |
-| T5-11 | ✅ | ~~Both tools were blind to a formula repeating **inside** one chapter~~ — they indexed into a *set* of chapter numbers, so ch 11's 當其無 ×3 collapsed to one entry and was dropped as "not shared". `--formulas` now covers the whole text and finds **frames** (將欲▢之, ▢得一以▢); `--formulas N` prints one chapter's English beside them. 13 tests | — | G |
+| T5-11 | ✅ | ~~Both tools were blind to a formula repeating **inside** one chapter~~ — they indexed into a *set* of chapter numbers, so ch 11's 當其無 ×3 collapsed to one entry and was dropped as "not shared". `--formulas` now covers the whole text and finds **frames** (將欲▢之, ▢得一以▢); `--formulas N` prints one chapter's English beside them. 13 tests. **Ch 11 is where this was found** — `DISCOVERIES.md` §6 | — | G |
 | T5-12 | ⬜ | `check_locks.py`'s `repeated-formula` still only compares **across** chapters. Whether the gate can carry the within-chapter case without crying wolf is unsettled — 152 findings at recall. Decide after Pass D, on the evidence `--formulas` is now producing | — | G |
 | T5-3 | ⬜ | Forbidden lists thin on near-synonyms — *clever*, *depletion*, *energy*. *(無為 gained *effortless* / *without effort* / *takes no action* with T1-3 and T1-4; these three stand)* | — | E |
 | T5-4 | ⬜ | Run `--english` on every lock; it is the only reverse-direction check | — | ongoing |

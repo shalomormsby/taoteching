@@ -2449,7 +2449,7 @@ So the music-and-food line is not an aside about worldly distraction. **It is wh
 
 *At its center*, *it contains*, and *cut into walls* are all supplied, and *"the cart can roll"* renders 有車之用 (*"there is the use of the cart"*) as something else. **The reader is meant to hear the same sentence three times over a wheel, a pot and a room, and feel it click.** Ours said something different each time, so there was nothing to click. **Eleven lines for eleven, and the middle line of every stanza is now identical on the page.**
 
-**No check could find this.** `repeated-formula` compares segments **across** chapters; 當其無 repeats three times **inside** one, and `concordance.py --formulas` does not list it either. Logged as a harness gap.
+**No check could find this.** `repeated-formula` compares segments **across** chapters; 當其無 repeats three times **inside** one, and `concordance.py --formulas` did not list it either. **Both tools were repaired the same day, and this is the chapter that exposed it** — `DISCOVERIES.md` §6 for the finding, `PLAN.md` → *What Chapter 11 taught the tools* for the harness record.
 
 ### 無 → *in what is not there*, and 有 → *presence*
 
