@@ -15,9 +15,16 @@ pairing: false
 
 說文解字 (c. 100 CE): **使也。从口从令** — *"命 is 使 (shǐ — to send; also, an envoy). From 口 (kǒu — a mouth) and 令 (lìng)."*
 
-And 令 in turn: **發號也。从亼、卪** — *"to issue a call. From 亼 (jí — a gathering-sign, three strokes converging) and 卪 (jié — a kneeling figure)."*
+Each part, one level down:
 
-**So the graph stacks up into a scene.** Someone kneels. Something is called out over them. 命 adds 口, the mouth, making the utterance explicit — and the dictionary defines the whole with 使, the word for *sending* and for *the person sent*.
+- **口 (*kǒu*)** — 說文: **人所以言食也。象形** — *"what a person speaks and eats with. A pictograph."* A mouth.
+- **令 (*lìng*)** — 說文: **發號也。从亼、卪** — *"to issue a call. From 亼 (jí) and 卪 (jié)."*
+- **亼 (*jí*)** — the assembling sign, three strokes converging. Read either as an inverted 口, or as a **hand-bell rung to call people in**.
+- **卪 (*jié*, also written 卩)** — **a kneeling figure.** *(說文 itself reads it as 瑞信也, "an auspicious tally"; the kneeling-person reading is modern palaeography. Neither component is among the Laozi's 711 characters, so the repository's 說文 does not carry them.)*
+
+**And 命 and 令 were one graph.** In the oracle-bone script they are the same character — the gathering-sign above, the kneeling figure below. A chief sounds a bell to call people in; whoever receives the order kneels to take it. **口 was added during the Western Zhou bronze period**, and by the small seal script the two had separated.
+
+**So the graph stacks up into a scene**: a summons, a gathering, someone on their knees, and a mouth. 命 is 令 with the utterance made explicit — and the dictionary defines the whole with 使, the word for *sending* and for *the person sent*.
 
 **命 is what is spoken over you, and then you go.** Not a plan, not a fate written in advance: an instruction handed to someone at the moment they are dispatched. Everything below follows from that being a **speech act with a destination**, rather than a decree of the universe.
 
@@ -36,7 +43,7 @@ So *mandate* imports a warrant-to-rule the book never invokes, and *destiny* and
 > ch 32 — 民莫之**令**而自均 — *"the people, with no one 令-ing them, even out of themselves"*
 > ch 51 — 夫莫之**命**而常自然 — *"with no one 命-ing it, it is always so of itself"*
 
-Identical construction 莫之X而, different character. The graphs separate them cleanly: **令 is the order as issued** — impersonal, and the book uses it that way (ch 12's 五色令人目盲, *"the five colours make people's eyes blind"*; ch 57's 法令, *"laws and decrees"*). **命 is the order as given to someone who is then sent.** One is the decree; the other is the commission.
+Identical construction 莫之X而, different character — **and the two were one graph before the Western Zhou split them**, which is why they are so easy to collapse and so worth keeping apart. The graphs separate them cleanly: **令 is the order as issued** — impersonal, and the book uses it that way (ch 12's 五色令人目盲, *"the five colours make people's eyes blind"*; ch 57's 法令, *"laws and decrees"*). **命 is the order as given to someone who is then sent.** One is the decree; the other is the commission.
 
 ### The commentators agree, in a word the text does not have
 

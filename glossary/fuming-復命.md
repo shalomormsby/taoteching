@@ -29,13 +29,36 @@ This is the single most useful fact about the term, and it is easy to miss. Chap
 
 So the question is never *what else happens at 復命* — it is **what the returning looks like when you call it by this name.**
 
-### The two characters
+### The two characters, down to the radicals
 
-**復 (*fù*)** — 說文解字: 往來也。从彳复聲 — *"going and coming. From 彳 (chì — a step), with 复 for sound."* The round trip. It appears **four times in this chapter** and is the thing the speaker is watching: 吾以觀復, *"by this I watch the returning."*
+**復 (*fù*) — a foot on a road it has walked before**
 
-**命 (*mìng*)** — 說文: 使也。从口从令 — *"to send; from 口 (kǒu — a mouth) and 令 (lìng)."* And 令 is 發號也。从亼、卪, *"to issue a call, from a gathering-sign and a kneeling figure."* **Someone kneels, something is called out over them, and they are sent.** The dictionary defines the whole with 使, which is both *to send* and *the one sent*. Full entry: `ming-命.md`.
+Our vendored 說文解字: **往來也。从彳复聲** — *"going and coming. From 彳 (chì), with 复 (fù) for sound."*
 
-**So 復命 is a return of something that was issued.** Not a return to a place — a return to, or of, a charge.
+彳 is one half of a walking graph, and the 說文 says so where it defines 行 (*xíng* — to walk): **人之步趨也。从彳从亍** — *"a person's stepping and hurrying. From 彳 and 亍 (chù)."* 行 is a crossroads; 彳 is its left-hand stride.
+
+And 复, the half Xu Shen calls phonetic, is not phonetic only — he glosses it **行故道也**, *"to travel the old road."* Its oracle-bone form sets a **foot beneath a dwelling**: going out from where you live and coming back to it. *(复 is not among the 711 characters the Laozi uses, so the repository's 說文 does not carry it; that gloss comes from outside this repo.)*
+
+**So 復 holds two feet** — one inside 复, and 彳 wrapped around it when the bronze script built the fuller graph. It is the most pedestrian word in the chapter, and **the road it walks is one it knows**.
+
+**命 (*mìng*) — a voice over someone kneeling**
+
+Our 說文: **使也。从口从令** — *"to send. From 口 (kǒu) and from 令 (lìng)."* 使 (*shǐ*) in classical Chinese is both *to send* and *the one sent* — an envoy.
+
+Each part, one level down:
+
+- **口 (*kǒu*)** — 說文: **人所以言食也。象形** — *"what a person speaks and eats with. A pictograph."* A mouth.
+- **令 (*lìng*)** — 說文: **發號也。从亼、卪** — *"to issue a call. From 亼 (jí) and 卪 (jié)."*
+- **亼 (*jí*)** — the assembling sign: three strokes converging. Read either as an inverted 口, or as a **hand-bell rung to call people in**.
+- **卪 (*jié*, also written 卩)** — **a kneeling figure.** *(說文 itself reads it as 瑞信也, "an auspicious tally"; the kneeling-person reading is modern palaeography, and neither component is among the Laozi's 711.)*
+
+**And the two characters were one.** In the oracle-bone script **命 and 令 are the same graph** — the gathering-sign above, the kneeling figure below. A chief sounds a bell to call people in; whoever receives the order kneels to take it. **口 was added during the Western Zhou bronze period**, and by the small seal script the two had separated into 命 and 令.
+
+So the scene inside 命 is complete: a summons, a gathering, someone on their knees, and **a mouth** — the utterance made explicit, which is the whole of what 命 adds to 令.
+
+**Which is why the compound is not a redundancy.** 復 walks a road it already knows. 命 is what was said, out loud, over the one who was sent down it.
+
+**A note on how physical the chapter's returning is.** Two lines above 是謂復命 stands 各復歸其根, and 歸 (*guī*) is 說文 **女嫁也。从止，从婦省** — *"a woman marrying. From 止 (zhǐ — a foot), from an abbreviated 婦 (fù — woman)."* **復歸 carries three feet between them**, and it arrives at 根 (*gēn*), which is 說文 木株也 — a **stump**. Nothing in this passage is abstract until the chapter names it: the returning is walked, and the place walked to is a piece of wood in the ground.
 
 ### What the commentators make of it
 
