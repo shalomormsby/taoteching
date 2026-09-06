@@ -2434,3 +2434,42 @@ So the music-and-food line is not an aside about worldly distraction. **It is wh
 **Ch 69 is the worse problem and is logged open.** 吾不敢為主，而為客 reads *"I do not push to move first. I move second"* — that is 河上公's gloss 主，先也 (*"主 means first"*) rendered **instead of** the text, and both characters vanish. `CLAUDE.md`: a commentator's gloss is not the text. On the battlefield the 客 is the army standing on ground that is not its own, which is what licenses 不敢進寸而退尺 in the next line.
 
 **止 (*zhǐ*) and 足 (*zú*) are the same picture, and 許慎 says so**: 說文 止 下基也。象艸木出有址，故以止爲足 — *"the base below; it pictures grass and trees emerging with a footing, so 止 is taken for 足."* The traveller's foot stops; the next three lines are about there not being **enough** of a foothold. Not forced into the verse; recorded because it is the chapter's own rhyme.
+
+## Ch 11 · the whole chapter — the repetition *is* the argument
+
+*(2026-09-05, Pass D, `WORKLIST.md` D11 · T3-3.)*
+
+**One sentence, three times, over three unlike objects.** 當其無 (*dāng qí wú*) repeats letter for letter, and so does 有X之用. Only the object changes: 車 (*chē* — cart), 器 (*qì* — vessel), 室 (*shì* — room). Our English changed everything else instead:
+
+| Chinese, identical ×3 | was |
+|---|---|
+| 當其無，有**車**之用 | *"Through the **emptiness at its center**, the cart **can roll**."* |
+| 當其無，有**器**之用 | *"Through the **emptiness it contains**, / A clay vessel **becomes useful**."* |
+| 當其無，有**室**之用 | *"Through the **empty spaces cut into walls**, / A room **becomes useful**."* |
+
+*At its center*, *it contains*, and *cut into walls* are all supplied, and *"the cart can roll"* renders 有車之用 (*"there is the use of the cart"*) as something else. **The reader is meant to hear the same sentence three times over a wheel, a pot and a room, and feel it click.** Ours said something different each time, so there was nothing to click. **Eleven lines for eleven, and the middle line of every stanza is now identical on the page.**
+
+**No check could find this.** `repeated-formula` compares segments **across** chapters; 當其無 repeats three times **inside** one, and `concordance.py --formulas` does not list it either. Logged as a harness gap.
+
+### 無 → *in what is not there*, and 有 → *presence*
+
+*(was: "emptiness" ×2, "empty space" ×2, "filled space".)* **This is the chapter `glossary/wu-you-無有.md` names as its own test case** — *"the moment the grammar becomes metaphysics, Chapter 11 stops making sense."* It had four 無 and four 有 and used the locked English for neither. *Emptiness* is 虛 (*xū*)'s forbidden word and **虛 is not in this chapter**; the checker saw it only as `info`, because 無's `forbidden:` list carries *nothingness* and *the Void* but not *emptiness* or *empty space*. **Those two should go on it** (`WORKLIST` T5-3).
+
+*In what is not there* is the entry's own licensed wording rather than a new coinage. 無 is 說文 亡也 — *"gone"*, from 亡 (*wáng* — to flee, to lose). Not a void; a thing that is not there.
+
+**當 is *right where*, not *through*.** 說文: 當 田相值也 — *"fields matching each other,"* from 田 (*tián* — a field). It locates; it is not instrumental. *Through* made the absence a means, which is the mechanistic reading of a line that is only pointing at a place.
+
+### 利 → *advantage* — a locked rendering applied for the first time
+
+`glossary/wu-you-無有.md` carries `covers: 利 → advantage`. **The word *advantage* appeared zero times in the manuscript.** The lock existed on paper and had never touched the text; here it read *"potential,"* which renders nothing. This is the second direction of a lock, which no rule can test — `CLAUDE.md`'s note on `--english`.
+
+**利 wants its own entry and is logged open.** Nine chapters, three jobs: *benefit*, bound to 害 (*hài* — harm) as its antonym at 56, 73 and 81; **sharp**, at 利器 (36, 57) and 利劍 (53), which is the 說文 sense — 銛也。从刀, *"sharp; from 刀 (dāo — a knife)"*, the graph being a blade cutting 禾 (*hé* — grain); and *advantage*, what the edge gets you, here and at ch 19's 絕巧棄利.
+
+**王弼 makes the closing couplet dependent, not merely paired:** 言無者，有之所以為利，皆頼無以為用也 — *"as for absence: what makes presence advantageous is that all of them rely on absence for their use."* The English keeps them side by side and lets the reader do that, rather than inserting the dependency.
+
+### What the graphs give the chapter, kept out of the verse
+
+- **室 (*shì* — room) is glossed by fullness.** 說文 實也。从宀从至。至，所止也 — *"solid; from 宀 (a roof) and 至 (to arrive); 至 is where one stops."* The room's own character means *full*, and the chapter's claim is that its use is where it is empty.
+- **轂 (*gǔ* — hub) is defined by what converges on it**: 輻所凑也, *"what the spokes converge on."* 王弼 turns that back: 轂所以能統三十輻者，無也 — *"what lets the hub unify the thirty spokes is absence."*
+- **牖 (*yǒu* — window) is 穿壁以木爲交窻也…所以見日** — *"boring through a wall to make a latticed wooden window… what you see the sun by."* 戶 (*hù* — door) is 半門曰戶, *"half a gate."* Both are holes made on purpose, which is why 鑿 (*záo*) — 穿木也, *"to bore through wood"* — opens the stanza.
+- 河上公 adds a reader's note, not a rendering: 古者車三十輻，法月數也 — *"the ancient cart had thirty spokes, modelling the number of the month."*

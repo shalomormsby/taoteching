@@ -977,3 +977,20 @@
     the base, and the English keeps the break: "There is not enough to see /
     There is not enough to hear / It never runs out."
   logged: notes/manuscript.md
+
+- chapter: 11
+  line: "埏埴以為器"
+  base: "埏"
+  witnesses: { shiwen: "挻" }
+  meaning_bearing: false
+  our_call: base
+  note: >
+    The Siku editors note inside our Wang Bi text: 〔案埏各本俱作埏惟釋文作挻〕 -
+    "all editions write 埏; only the Shiwen (Lu Deming's Jingdian Shiwen, c. 583)
+    writes 挻." Not meaning-bearing, since every reading gives "work the clay."
+    Recorded because the Shuowen sides with the minority: 埏 is glossed
+    八方之地也, "the land of the eight directions" - the far reaches of the earth,
+    not kneading at all - while 挻 (shan) is the graph that carries the working
+    sense. Heshang Gong takes the sense on the majority graph anyway: 埏，和也,
+    "埏 means to blend." We keep the base and render "knead."
+  logged: notes/manuscript.md

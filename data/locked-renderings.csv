@@ -122,26 +122,26 @@ chapter,line,character,pinyin,locked_term,expected_rendering,rendering_present,a
 10,15,為,wéi,為,do / handle / serve as,NOT FOUND,0.2,proportional-fill,growing them without ruling them –
 10,17,德,dé,德,integrity,yes,0.2,proportional-fill,this is called profound integrity.
 10,17,玄,xuán,玄 & 妙,dark or profound,NOT FOUND,0.2,proportional-fill,this is called profound integrity.
-11,1,一,yī,一,the one (lowercase) · one thing (ch 22) · plain numeral where it counts,NOT FOUND,0.3,proportional,Thirty spokes meet in a single hub.
-11,2,無,wú,無 & 有,absence,NOT FOUND,0.3,proportional,"Through the emptiness at its center, the cart can roll."
-11,3,有,yǒu,無 & 有,presence,NOT FOUND,0.3,proportional,"Through the emptiness it contains,"
-11,3,用,yòng,無 & 有,use,NOT FOUND,0.3,proportional,"Through the emptiness it contains,"
-11,4,器,qì,器,vessel / tool / implement,NOT FOUND,0.2,proportional-fill,"Through the emptiness it contains,"
-11,4,為,wéi,為,do / handle / serve as,NOT FOUND,0.2,proportional-fill,"Through the emptiness it contains,"
-11,5,無,wú,無 & 有,absence,NOT FOUND,0.3,proportional,A clay vessel becomes useful.
-11,6,器,qì,器,vessel / tool / implement,NOT FOUND,0.3,proportional,"Through the empty spaces cut into walls,"
-11,6,有,yǒu,無 & 有,presence,NOT FOUND,0.3,proportional,"Through the empty spaces cut into walls,"
-11,6,用,yòng,無 & 有,use,NOT FOUND,0.3,proportional,"Through the empty spaces cut into walls,"
-11,7,為,wéi,為,do / handle / serve as,NOT FOUND,0.3,proportional,A room becomes useful.
-11,8,無,wú,無 & 有,absence,NOT FOUND,0.2,proportional-fill,A room becomes useful.
-11,9,有,yǒu,無 & 有,presence,NOT FOUND,0.3,proportional,"Therefore, filled space creates potential."
-11,9,用,yòng,無 & 有,use,NOT FOUND,0.3,proportional,"Therefore, filled space creates potential."
-11,10,利,lì,無 & 有,advantage,NOT FOUND,0.3,proportional,Empty space makes things useful.
-11,10,有,yǒu,無 & 有,presence,NOT FOUND,0.3,proportional,Empty space makes things useful.
-11,10,為,wéi,為,do / handle / serve as,NOT FOUND,0.3,proportional,Empty space makes things useful.
-11,11,為,wéi,為,do / handle / serve as,NOT FOUND,0.2,proportional-fill,Empty space makes things useful.
-11,11,無,wú,無 & 有,absence,NOT FOUND,0.2,proportional-fill,Empty space makes things useful.
-11,11,用,yòng,無 & 有,use,yes,0.2,proportional-fill,Empty space makes things useful.
+11,1,一,yī,一,the one (lowercase) · one thing (ch 22) · plain numeral where it counts,NOT FOUND,1.0,exact-count,Thirty spokes share one hub.
+11,2,無,wú,無 & 有,absence,NOT FOUND,1.0,exact-count,"In what is not there,"
+11,3,有,yǒu,無 & 有,presence,NOT FOUND,1.0,exact-count,the cart has its use.
+11,3,用,yòng,無 & 有,use,yes,1.0,exact-count,the cart has its use.
+11,4,器,qì,器,vessel / tool / implement,yes,1.0,exact-count,Knead clay to make a vessel.
+11,4,為,wéi,為,do / handle / serve as,NOT FOUND,1.0,exact-count,Knead clay to make a vessel.
+11,5,無,wú,無 & 有,absence,NOT FOUND,1.0,exact-count,"In what is not there,"
+11,6,器,qì,器,vessel / tool / implement,yes,1.0,exact-count,the vessel has its use.
+11,6,有,yǒu,無 & 有,presence,NOT FOUND,1.0,exact-count,the vessel has its use.
+11,6,用,yòng,無 & 有,use,yes,1.0,exact-count,the vessel has its use.
+11,7,為,wéi,為,do / handle / serve as,yes,1.0,exact-count,Cut a door and a window to make a room.
+11,8,無,wú,無 & 有,absence,NOT FOUND,1.0,exact-count,"In what is not there,"
+11,9,有,yǒu,無 & 有,presence,NOT FOUND,1.0,exact-count,the room has its use.
+11,9,用,yòng,無 & 有,use,yes,1.0,exact-count,the room has its use.
+11,10,利,lì,無 & 有,advantage,yes,1.0,exact-count,"So presence gives the advantage,"
+11,10,有,yǒu,無 & 有,presence,yes,1.0,exact-count,"So presence gives the advantage,"
+11,10,為,wéi,為,do / handle / serve as,NOT FOUND,1.0,exact-count,"So presence gives the advantage,"
+11,11,為,wéi,為,do / handle / serve as,NOT FOUND,1.0,exact-count,and absence gives the use.
+11,11,無,wú,無 & 有,absence,yes,1.0,exact-count,and absence gives the use.
+11,11,用,yòng,無 & 有,use,yes,1.0,exact-count,and absence gives the use.
 12,5,心,xīn,心,heart,yes,0.2,proportional-fill,Galloping in pursuit of prey makes the heart wild.
 12,6,貨,huò,貨,goods,yes,0.3,proportional,Rare goods make actions corrupt.
 12,8,為,wèi,為,do / handle / serve as,NOT FOUND,0.3,proportional,They let go of what is out there and take what is here.

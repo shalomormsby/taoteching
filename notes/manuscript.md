@@ -472,3 +472,11 @@ Our base reads 用之不可既 (*yòng zhī bù kě jì*). **Our vendored 王弼
 **The fork decides the shape of the whole close.** With 足 the three lines run unbroken — 視之不**足**見／聽之不**足**聞／用之不**足**既, *"not enough to see / not enough to hear / not enough to use up."* With 可 the third line breaks the frame: the first two say there is **not enough of it**, the third says it **cannot be done**.
 
 **Our call: the base, and the English keeps the break.** 王弼's own commentary uses 不可 — 乃用之不可窮極也, *"thus using it cannot be exhausted to its limit"* — which argues the 足 in his lemma is transmission rather than his reading. The break is also the point: two lines of deficiency, then a reversal. *"There is not enough to see. There is not enough to hear. Use it. It never runs out."*
+
+### Ch 11 · 埏 / 挻 — the 說文 sides with the minority graph
+
+Our base reads 埏埴以為器 (*yán zhí yǐ wéi qì* — "work the clay to make a vessel"). The Siku editors note inside 王弼's text: 〔案埏各本俱作埏，惟釋文作挻〕 — *"all editions write 埏; only the 釋文 writes 挻."* The 釋文 is 陸德明 (*Lù Démíng*)'s 經典釋文 (*Jīngdiǎn Shìwén* — Textual Explanations of Classics and Canons), c. 583.
+
+**Not meaning-bearing** — every reading gives *work the clay*, and the English is unaffected. Recorded because the evidence runs against our base graph. **說文解字 glosses 埏 as 八方之地也** — *"the land of the eight directions,"* the far reaches of the earth — with no kneading sense at all; **挻 (*shān*) is the graph that carries it.** 河上公 (*Héshàng Gōng*) takes the working sense on the majority graph regardless: 埏，和也 — *"埏 means to blend."* We keep the base and render *knead*.
+
+*A second Siku note on this chapter — 〔案永樂大典無也字〕, "the 永樂大典 (Yǒnglè Dàdiǎn) lacks the character 也" — is orthographic and is not recorded.*
