@@ -1138,3 +1138,42 @@
     keep the base, where the three titles - 孤 (orphaned), 寡 (alone), 不穀 -
     are all self-deprecations of rank, which is what the passage argues.
   logged: notes/manuscript.md
+
+- chapter: 13
+  line: "寵為下"
+  base: "寵"
+  witnesses: { heshanggong: "辱" }
+  meaning_bearing: true
+  our_call: base
+  note: >
+    Heshang Gong's lemma reads 辱為下 and glosses it 辱為下賤, "disgrace is low and
+    cheap." Our base reads 寵為下, "favor is the lower position." Meaning-bearing,
+    and it reverses which half of the pair the line is about. With 寵 the point
+    is counter-intuitive and is the chapter's argument: being favoured marks you
+    as the inferior party, since favour comes down from someone above, so it
+    shakes you exactly as disgrace does. With 辱 the line is the ordinary
+    observation that disgrace is degrading, which explains nothing the chapter
+    has not already said. Wang Bi supports the base by treating favour and
+    disgrace as one condition - 寵必有辱，榮必有患。驚辱等，榮患同也, "favour
+    necessarily carries disgrace, glory necessarily carries trouble; being
+    startled and being disgraced are equivalent, glory and trouble are the
+    same." We keep the base. Guodian attests this chapter (bundle B, unit B.1)
+    but no Guodian reading of this line is recorded here - see PROVENANCE.
+  logged: notes/manuscript.md
+
+- chapter: 13
+  line: "若可寄天下 / 若可託天下"
+  base: "若可"
+  witnesses: { yongle-dadian: "則可以 / 乃可以", heshanggong: "則可…於天下 / 乃可以…於天下" }
+  meaning_bearing: false
+  our_call: base
+  note: >
+    Two Siku notes: 〔案若可寄永樂大典作則可以寄河上公注本作則可寄於天下〕 and
+    〔案若可託永樂大典作乃可以託河上公注本作乃可以託於天下〕. All the variants are
+    consequential particles - 則可以 and 乃可以 both mean "then may" - so none of
+    them changes the sense. Recorded because our source table glosses 若 here as
+    "seems" ("Seems they can be entrusted"), which would soften the claim, and
+    every other witness plus both commentators read a plain consequence: Wang Bi
+    如此乃可以託天下也, Heshang Gong 則可寄於天下. The English takes the
+    consequence and drops the particle.
+  logged: notes/manuscript.md

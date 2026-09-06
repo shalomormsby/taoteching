@@ -115,22 +115,22 @@ chapter,line,block,chinese,pinyin,literal_gloss,our_english,alignment_method
 12,7,2,令人行妨。,lìng rén xíng fáng.,cause \[ling\] people's \[ren\] actions/conduct \[xing\] to be hindered/harmed \[fang\].,"Therefore the sage acts for the belly, not for the eye.",proportional
 12,8,3,是以聖人為腹不為目，,"Shì yǐ shèng rén wèi fù bù wèi mù,","Therefore \[shi yi\] the Sage \[sheng ren\] acts for/provides for \[wei\] the belly/stomach \[fu\] not \[bu\] for \[wei\] the eyes \[mu\],",They let go of what is out there and take what is here.,proportional
 12,9,3,故去彼取此。,Gù qù bǐ qǔ cǐ.,Therefore \[gu\] discards/rejects \[qu\] that \[bi\] and takes/chooses \[qu\] this \[ci\].,They let go of what is out there and take what is here.,proportional-fill
-13,1,1,寵辱若驚，,"Chǒng rǔ ruò jīng,","Favor/glory \[chong\] and disgrace/humiliation \[ru\] seem like/cause \[ruo\] alarm/startlement \[jing\],",Both favor and disgrace cause alarm.,proportional
-13,2,1,貴大患若身。,Guì dà huàn ruò shēn.,Valuing/honoring \[gui\] great \[da\] trouble/disaster \[huan\] is like \[ruo\] the body/self \[shen\].,Value misfortune as your own body.,proportional
-13,3,2,何謂寵辱若驚？,Hé wèi chǒng rǔ ruò jīng?,What \[he\] is called/meant by \[wei\] favor and disgrace \[chong ru\] seem like \[ruo\] alarm \[jing\]?,What does it mean that favor and disgrace both cause alarm?,proportional
-13,4,2,寵為下，,"Chǒng wéi xià,","Favor \[chong\] functions as/is \[wei\] lower/inferior \[xia\],",What does it mean that favor and disgrace both cause alarm?,proportional-fill
-13,5,2,得之若驚，,"Dé zhī ruò jīng,","Obtaining/getting \[de\] it \[zhi\] seems like \[ruo\] alarm \[jing\],",You must stoop to receive favor.,proportional
-13,6,2,失之若驚，,"Shī zhī ruò jīng,","Losing \[shi\] it \[zhi\] seems like \[ruo\] alarm \[jing\],",Receiving it causes alarm.,proportional
-13,7,2,是謂寵辱若驚。,Shì wèi chǒng rǔ ruò jīng.,This \[shi\] is called \[wei\] favor and disgrace seem like alarm \[chong ru ruo jing\].,Losing it also causes alarm.,proportional
-13,8,3,何謂貴大患若身？,Hé wèi guì dà huàn ruò shēn?,What \[he\] is called \[wei\] valuing great trouble \[gui da huan\] like \[ruo\] the body \[shen\]?,Losing it also causes alarm.,proportional-fill
-13,9,3,吾所以有大患者，,"Wú suǒ yǐ yǒu dà huàn zhě,","The reason I \[wu suo yi\] have \[you\] great trouble \[da huan\] is \[zhe\],",This is why favor and disgrace both cause alarm.,proportional
-13,10,3,為吾有身，,"Wèi wú yǒu shēn,","Because \[wei\] I \[wu\] have \[you\] a body/self \[shen\],",What does it mean to value misfortune as your own body?,proportional
-13,11,3,及吾無身，,"Jí wú wú shēn,","When/if \[ji\] I \[wu\] have no \[wu\] body/self \[shen\],",I only experience misfortune because I have a body.,proportional
-13,12,3,吾有何患？,Wú yǒu hé huàn?,What \[he\] trouble \[huan\] do I \[wu\] have \[you\]?,I only experience misfortune because I have a body.,proportional-fill
-13,13,4,故貴以身為天下，,"Gù guì yǐ shēn wéi tiān xià,","Therefore \[gu\] one who values \[gui\] using \[yi\] their body \[shen\] to serve/act for \[wei\] the world \[tian xia\],","When the separate self dissolves, what troubles could I have?",proportional
-13,14,4,若可寄天下；,Ruò kě jì tiān xià;,Seems \[ruo\] they can \[ke\] be entrusted \[ji\] with the world \[tian xia\];,"Therefore, one who values the world as their body can be entrusted with the world.",proportional
-13,15,4,愛以身為天下，,"Ài yǐ shēn wéi tiān xià,","One who loves \[ai\] using \[yi\] their body \[shen\] to serve/act for \[wei\] the world \[tian xia\],",One who loves the whole world as their own body can truly care for it.,proportional
-13,16,4,若可託天下。,Ruò kě tuō tiān xià.,Seems \[ruo\] they can \[ke\] be relied upon/entrusted \[tuo\] with the world \[tian xia\].,One who loves the whole world as their own body can truly care for it.,proportional-fill
+13,1,1,寵辱若驚，,"Chǒng rǔ ruò jīng,","Favor/glory \[chong\] and disgrace/humiliation \[ru\] seem like/cause \[ruo\] alarm/startlement \[jing\],",Favor and disgrace are both a shock.,proportional
+13,2,1,貴大患若身。,Guì dà huàn ruò shēn.,Valuing/honoring \[gui\] great \[da\] trouble/disaster \[huan\] is like \[ruo\] the body/self \[shen\].,Prize great trouble as your own body.,proportional
+13,3,2,何謂寵辱若驚？,Hé wèi chǒng rǔ ruò jīng?,What \[he\] is called/meant by \[wei\] favor and disgrace \[chong ru\] seem like \[ruo\] alarm \[jing\]?,What does it mean that favor and disgrace are both a shock?,proportional
+13,4,2,寵為下，,"Chǒng wéi xià,","Favor \[chong\] functions as/is \[wei\] lower/inferior \[xia\],",What does it mean that favor and disgrace are both a shock?,proportional-fill
+13,5,2,得之若驚，,"Dé zhī ruò jīng,","Obtaining/getting \[de\] it \[zhi\] seems like \[ruo\] alarm \[jing\],",To be favored is to be below.,proportional
+13,6,2,失之若驚，,"Shī zhī ruò jīng,","Losing \[shi\] it \[zhi\] seems like \[ruo\] alarm \[jing\],",Getting it is a shock.,proportional
+13,7,2,是謂寵辱若驚。,Shì wèi chǒng rǔ ruò jīng.,This \[shi\] is called \[wei\] favor and disgrace seem like alarm \[chong ru ruo jing\].,Losing it is a shock.,proportional
+13,8,3,何謂貴大患若身？,Hé wèi guì dà huàn ruò shēn?,What \[he\] is called \[wei\] valuing great trouble \[gui da huan\] like \[ruo\] the body \[shen\]?,Losing it is a shock.,proportional-fill
+13,9,3,吾所以有大患者，,"Wú suǒ yǐ yǒu dà huàn zhě,","The reason I \[wu suo yi\] have \[you\] great trouble \[da huan\] is \[zhe\],",This is what is meant: favor and disgrace are both a shock.,proportional
+13,10,3,為吾有身，,"Wèi wú yǒu shēn,","Because \[wei\] I \[wu\] have \[you\] a body/self \[shen\],",What does it mean to prize great trouble as your own body?,proportional
+13,11,3,及吾無身，,"Jí wú wú shēn,","When/if \[ji\] I \[wu\] have no \[wu\] body/self \[shen\],",The reason I have great trouble is that I have a body.,proportional
+13,12,3,吾有何患？,Wú yǒu hé huàn?,What \[he\] trouble \[huan\] do I \[wu\] have \[you\]?,The reason I have great trouble is that I have a body.,proportional-fill
+13,13,4,故貴以身為天下，,"Gù guì yǐ shēn wéi tiān xià,","Therefore \[gu\] one who values \[gui\] using \[yi\] their body \[shen\] to serve/act for \[wei\] the world \[tian xia\],","If I had no body, what trouble would I have?",proportional
+13,14,4,若可寄天下；,Ruò kě jì tiān xià;,Seems \[ruo\] they can \[ke\] be entrusted \[ji\] with the world \[tian xia\];,So one who prizes their own body as much as the world can be given the world.,proportional
+13,15,4,愛以身為天下，,"Ài yǐ shēn wéi tiān xià,","One who loves \[ai\] using \[yi\] their body \[shen\] to serve/act for \[wei\] the world \[tian xia\],",One who loves their own body as much as the world can be trusted with it.,proportional
+13,16,4,若可託天下。,Ruò kě tuō tiān xià.,Seems \[ruo\] they can \[ke\] be relied upon/entrusted \[tuo\] with the world \[tian xia\].,One who loves their own body as much as the world can be trusted with it.,proportional-fill
 14,1,1,視之不見，,"Shì zhī bù jiàn,","Looking at \[shi\] it \[zhi\] but not \[bu\] seeing \[jian\],","Look, but you cannot see it – its name is the invisible.",proportional
 14,2,1,名曰夷；,míng yuē yí;,its name \[ming\] is called \[yue\] invisible/colorless \[yi\];,"Listen, but you cannot hear it – its name is the inaudible.",proportional
 14,3,1,聽之不聞，,"Tīng zhī bù wén,","Listening to \[ting\] it \[zhi\] but not \[bu\] hearing \[wen\],","Reach, but you cannot grasp it – its name is the intangible.",proportional
@@ -478,7 +478,7 @@ chapter,line,block,chinese,pinyin,literal_gloss,our_english,alignment_method
 39,16,3,高以下為基。,Gāo yǐ xià wéi jī,The high takes the low as its foundation (基 \- jī),and the high takes the low as its footing.,exact-count
 39,17,3,是以侯王自謂孤、寡、不穀。,"Shì yǐ hóu wáng zì wèi gū, guǎ, bù gǔ","This is why sovereigns and kings call themselves ""orphaned,"" ""widowed,"" and ""unworthy/grainless.""","This is why rulers call themselves orphaned, alone, and unworthy.",exact-count
 39,18,3,此非以賤為本邪？非乎？,Cǐ fēi yǐ jiàn wéi běn xié? Fēi hū?,Is this not taking the lowly as the root? Is it not?,Is this not taking the cheap as the root? Is it not?,exact-count
-39,19,4,故致數譽無譽。,Gù zhì shù yù wú yù,"Therefore, the highest praise is to have no praise. (Note: some texts translate this as ""taking a chariot apart leaves no chariot,"" but ""highest praise is no praise"" fits the vanity metaphor better).","So count the parts of a cart, and there is no cart.",exact-count
+39,19,4,故致數譽無譽。,Gù zhì shù yù wú yù,"Therefore, the highest praise is to have no praise. (Note: some texts translate this as ""taking a chariot apart leaves no chariot,"" but ""highest praise is no praise"" fits the vanity metaphor better).","So reduce a cart to the count of its parts, and there is no cart.",exact-count
 39,20,4,不欲琭琭如玉，,Bù yù lù lù rú yù,"Do not desire to chime and shine like polished jade,","Do not want to be gleaming like jade,",exact-count
 39,21,4,珞珞如石。,Luò luò rú shí,\[But rather\] clatter and remain rough like common stone.,or common like stone.,exact-count
 40,1,1,反者道之動,Fǎn zhě dào zhī dòng,Returning/Reversion ( Fǎn ) is the movement ( dòng ) of the Tao;,Returning is the Tao’s movement;,exact-count

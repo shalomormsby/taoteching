@@ -8,7 +8,7 @@
 
 **The first draft is complete — 81 of 81, since 2026-08-26. The editing pass is the work now.**
 
-**Progress: Pass 0 ✅ · Pass A ✅ · Pass B ✅ · Pass C ✅ · Pass D 🔶 — 14 of 19 chapters (2026-09-05).** Pass D, the chapter-level rewrites, is the work now, and it has **one row per chapter** so they can be checked off one at a time. Done: **3 · 4 · 8 · 10 · 11 · 16 · 22 · 23 · 28 · 35 · 36 · 38 · 39 · 64** — fourteen of the nineteen. Gate green: 0 errors, 124 tests, hard breaks intact, worklist consistent with itself.
+**Progress: Pass 0 ✅ · Pass A ✅ · Pass B ✅ · Pass C ✅ · Pass D 🔶 — 15 of 19 chapters (2026-09-05).** Pass D, the chapter-level rewrites, is the work now, and it has **one row per chapter** so they can be checked off one at a time. Done: **3 · 4 · 8 · 10 · 11 · 13 · 16 · 22 · 23 · 28 · 35 · 36 · 38 · 39 · 64** — fifteen of the nineteen. Gate green: 0 errors, 124 tests, hard breaks intact, worklist consistent with itself.
 
 *Supersedes `RETROFIT.md` and `EDITING-PASS.md`, merged into this file on 2026-08-28 and both now deleted. This file is `RETROFIT.md` renamed, so `git log --follow WORKLIST.md` still reaches the project's start; the 2026-08-10 sweep record and the lessons it taught the checker moved to `PLAN.md`. Every item below was re-verified against the manuscript at the merge; the old file listed six repairs that had already been made.*
 
@@ -16,7 +16,7 @@
 
 ## The list
 
-**⬜ open · 🔶 part done · ✅ done · ⏸ deferred by Shalom.** Detail for every row is below, under the matching heading. **109 item rows: 57 open · 45 done · 4 part done · 3 deferred.** *(19 of them are the per-chapter Pass D rows, whose status is derived.)* *(Counted from the table itself — a hand-kept tally drifts. It read "43 open · 18 done" and matched nothing.)*
+**⬜ open · 🔶 part done · ✅ done · ⏸ deferred by Shalom.** Detail for every row is below, under the matching heading. **109 item rows: 54 open · 48 done · 4 part done · 3 deferred.** *(19 of them are the per-chapter Pass D rows, whose status is derived.)* *(Counted from the table itself — a hand-kept tally drifts. It read "43 open · 18 done" and matched nothing.)*
 
 | # | | Item | Ch | Pass |
 |---|---|---|---|---|
@@ -39,7 +39,7 @@
 | T1-7 | ✅ | ~~守 → *"attune to"* ×3; 常 dropped from all three 常德~~ — 守 → *hold to*; 常 restored ×3; the template runs unbroken | 28 | D |
 | T1-8 | ⬜ | 為 → *"force"* ×3; clashes with ch 64's *handle* | 29 | D |
 | T1-9 | ⬜ | 左/右 as *"creation"/"destruction"*, then literal four lines later | 31 | D |
-| T1-10 | ⬜ | 無身 → *"the separate self dissolves"* — an Advaita import | 13 | D |
+| T1-10 | ✅ | ~~無身 → *"the separate self dissolves"*~~ — an Advaita import that also **broke 有/無 on the one line in the book applying the pair to a person**; now *if I had no body* | 13 | D |
 | T1-11 | ⬜ | 古始 → *"the primordial source"* — forbidden register | 14 | E |
 | T1-12 | ✅ | ~~往 → *"the world routes to you"* ×2~~ — 往 is a verb of going, as at ch 80; **執 → *grasp*, restoring ch 29's mirror**, and 大象 → *the great image*, matching ch 41 | 35 | D |
 | T1-22 | ⬜ | Ch 48 — 取天下 → *"the world comes to you"*; 取 (*qǔ* — to take) is active and the English makes it a passive arrival. *Found by the ch 35 reverse check* | 48 | E |
@@ -82,7 +82,7 @@
 | T3-4 | ✅ | ~~Four 將欲X之，必固Y之 nominalized into abstract laws~~ — conditional instructions with their object restored; **固 was an adverb rendered as an adjective**, and 韓非's worked examples prove the temporal reading | 36 | D |
 | T3-5 | ✅ | ~~Three four-beat stanzas rendered as prose~~ — the 知其X/守其Y · 為天下Z · 常德不W · 復歸於V template restored | 28 | D |
 | T3-6 | ✅ | ~~The 得一 / 無以 mirror breaks at its sixth pair~~ — it was **inverted**: broken at pair five where the Chinese holds (生/生), smoothed at six where it breaks (貞 / 貴高, the hinge). Both restored | 39 | D |
-| T3-7 | ⬜ | 寄/託 are a pair, rendered *entrusted with* / *truly care for* | 13 | D |
+| T3-7 | ✅ | ~~寄/託 are a pair, rendered *entrusted with* / *truly care for*~~ — near-synonyms (說文 defines each by the other; **王弼 swaps them**); now *given* / *trusted with* | 13 | D |
 | R1 | ⬜ | ★ **Harvest 韓非's 35 divergent lemmas into `variants.yaml`** — the oldest witness to this text, currently marked but unexploited | 1 27 36 38 46 47 50 54 58 59 60 63 64 67 | E |
 | R2 | ⬜ | **義 (yì) wants a glossary entry** — reads *duty* in all 5 lines, unlocked, and the atlas therefore publishes *righteousness* | 18 19 38 | E |
 | | | **Pass D · one row per chapter** — *status is derived from the finding rows above; `check_worklist.py` gates it* | | |
@@ -91,7 +91,7 @@
 | D8 | ✅ | ~~**Ch 8** — 善's showcase, and the lock applied to none of its nine~~; 幾 → *near*, not *one with* · T2-8 · T3-2 | 8 | D |
 | D10 | ✅ | ~~**Ch 10** — 無知/無為 swapped, 疵 deleted, and three Englishes on absent characters~~ · T1-1 | 10 | D |
 | D11 | ✅ | ~~**Ch 11** — three 當其無 frames three ways; 無 → *emptiness* ×2, *empty space* ×2~~ — the whole chapter: 無 → *in what is not there*, 有 → *presence*, 當 → *right where*, 利 → *advantage*. The chapter `wu-you-無有.md` names as its own test case · T3-3 | 11 | D |
-| D13 | ⬜ | **Ch 13** — 無身 → *the separate self dissolves*, an Advaita import; 寄/託 are a pair · T1-10 · T3-7 | 13 | D |
+| D13 | ✅ | ~~**Ch 13** — 無身 → *the separate self dissolves*; 寄/託 a pair~~ — the whole chapter: **five characters had fourteen Englishes**, now one each (身 ×6 · 患 ×4 · 驚 ×5 · 貴 ×3). **The closing couplet was reversed** — 以A為B is *take A as B*. 若驚 → *a shock* not *cause alarm*; 是謂 → *this is what is meant*, matching 8 chapters. Two forks · T1-10 · T3-7 | 13 | D |
 | D16 | ✅ | ~~**Ch 16** — 守 → *Embrace*; *energy* with no 氣; 復命~~ — whole chapter rebuilt: the couplet, 夫物芸芸, and the 容→公→王→天→道→久 chain. **Three new entries**: 極, 虛, 復命 · T1-6 · T1-13 · T2-18 | 16 | D |
 | D23 | ✅ | ~~**Ch 23** — 同 as dissolution ×6; *intensity* and *we* rendering nothing; 事's lock breached by *actions*~~; three forks logged · T2-25 | 23 | D |
 | D22 | ✅ | ~~**Ch 22** — 為天下式 → *serves as the world's pattern*~~; visited as the settled half of a formula pair · T2-15 | 22 | D |

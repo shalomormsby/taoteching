@@ -521,3 +521,19 @@ The Siku editors note inside our 王弼: 〔案永樂大典作柔勝剛弱勝强
 **為天下貞 / 為天下正.** 河上公 reads 正 (*zhèng* — upright) and glosses 為天下平正, *"be the world's level-and-upright."* 貞 is 說文 卜問也 — *"to inquire by cracking a shell"* — divination, hence what is consulted, hence steadfast. We keep 貞 and render *true for the world*, in the carpenter's sense. *(正 sits inside the deferred 正/奇 question, T4-2, which this does not touch.)*
 
 **不穀 / 不轂.** 河上公 reads 不轂 (*"not a hub"*) and glosses 不轂喻不能如車轂為衆輻所湊 — *"being unable to be like a cart's hub, on which the many spokes converge."* 穀 and 轂 share the phonetic 𣪊. We keep the base, where 孤 (*gū* — orphaned), 寡 (*guǎ* — alone) and 不穀 are three self-deprecations of rank, which is what the passage argues.
+
+### Ch 13 · 寵為下 / 辱為下 — which half of the pair is the low one
+
+Our base reads 寵為下 (*"favor is the lower position"*). **河上公's lemma reads 辱為下** and glosses it 辱為下賤 — *"disgrace is low and cheap."*
+
+**Meaning-bearing, and it decides whether the line says anything.** With 辱 it is the ordinary observation that disgrace degrades you, which the chapter has already said. **With 寵 it is counter-intuitive and is the chapter's whole argument**: to be favored is to be marked as the inferior party, because favor comes down from someone above — so it shakes you exactly as disgrace does.
+
+**王弼 supports the base** by treating the two as one condition: 寵必有辱，榮必有患。驚辱等，榮患同也 — *"favor necessarily carries disgrace, glory necessarily carries trouble; being startled and being disgraced are equivalent, glory and trouble are the same."* We keep the base.
+
+*Guodian (~300 BCE) attests this chapter — bundle B, unit B.1 — but no Guodian reading of any line here is recorded; see `sources/PROVENANCE.md` for why this repository holds no transcription of those slips.*
+
+### Ch 13 · 若可 / 則可以 / 乃可以 — a particle, and what our own table made of it
+
+Two Siku notes: 〔案若可寄，永樂大典作則可以寄，河上公注本作則可寄於天下〕 and 〔案若可託，永樂大典作乃可以託，河上公注本作乃可以託於天下〕. **Every variant is a consequential particle** — 則可以 and 乃可以 both mean *"then may"* — so the sense is unchanged.
+
+Recorded because **our source table glosses 若 here as *seems*** (*"Seems they can be entrusted"*), which would soften the claim into a hedge. **No witness and neither commentator reads it that way**: 王弼 如此**乃可以**託天下也, 河上公 **則可**寄於天下. The English takes the consequence and drops the particle.

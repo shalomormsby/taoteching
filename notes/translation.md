@@ -2575,3 +2575,43 @@ A single 不欲 governs both clauses; there is no 而 and no 寧 (*nìng* — "r
 **A strain, named rather than smoothed.** 琭琭 (*lù lù*) and 珞珞 (*luò luò*) have **no 說文 entries**, and their exact sense is not recoverable from anything in `sources/`. *Gleaming* and *common* come from what the two stones **stand for** in both commentaries, not from the graphs; 河上公's edition reads 落落 (*"scattered, lying about in numbers"*) for the second, which supports *common*. Both words are otherwise unused in the manuscript.
 
 **A second strain: 靈 → *numinous* fails the pointing test**, and no candidate survived. *Alive* is 生's, two lines down; *vital* drifts toward 氣 (*qì*). **神 (*shén*) and 靈 (*líng*) both sit in the overlay watchlist's semantic field and neither has an entry** — they want one together, not a decision inside a chapter (T2-37).
+
+## Ch 13 · one word per character, and the chapter's argument appears
+
+*(2026-09-05, Pass D, `WORKLIST.md` D13 · T1-10 · T3-7.)*
+
+**Five characters carry this chapter and our English gave them fourteen words between them.** 身 (*shēn*) appears six times and read *your own body*, *a body*, *the separate self*, *their own person*. 患 (*huàn*) four times as *misfortune* ×3 and *troubles* ×1. 驚 (*jīng*) five times, 貴 (*guì*) three, 若 (*ruò*) **nine**. The argument could not land because the thing it is about kept changing name. Now one-to-one: **身 → body ×6 · 患 → trouble ×4 · 驚 → shock ×5 · 貴 → prize ×3 · 下 → below ×1.**
+
+### 無身 → *if I had no body*, closing T1-10
+
+*(was: "When the separate self dissolves, what troubles could I have?")*
+
+**有 and 無 are the book's central locked pair, and this is the one place it is applied to a person:** 為吾有**身** / 及吾無**身**. Our English rendered the first half *"because I have a body"* and the second *"when the separate self dissolves"* — **destroying the pair on the line that exists to state it.** `check_locks` cannot see this: 無's `forbidden:` list carries *nothingness* and *the Void*, not a clause.
+
+**And no commentator has a self dissolving.** 王弼: 及吾無身，**歸之自然也** — *"returning it to 自然 (zì rán — what is so of itself)."* 河上公 goes the opposite way from Advaita, into the body rather than out of it: 使吾无有身體，得道自然，**輕舉昇雲，出入无間**，與道通神 — *"if I had no body, attaining the Tao's 自然, rising lightly on the clouds, going in and out of the seamless, communing numinously with the Tao."* One returns it to what-is-so-of-itself; the other flies. **Neither merges anything into anything.**
+
+### 貴以身為天下 → *prizes their own body as much as the world* — the couplet was reversed
+
+*(was: "one who values the world as their body can be entrusted with the world.")*
+
+**以A為B is the ordinary classical frame for *take A as B*, and 貴 and 愛 govern that whole clause** — so 以身為天下 is *"take one's own body as the world,"* set at the world's rate. Our English had the terms the wrong way round, which turned the couplet into a lesson in empathy. **Both commentators attach 貴 to the person's own body**: 王弼 無以易**其身**，故曰貴也 (*"there is nothing he would exchange his own body for"*), 河上公 人君**貴其身** (*"the ruler prizes his own body"*).
+
+**王弼 gives the bridge, and it belongs in this note rather than the verse:** 不以寵辱榮患**損易其身**，然後乃可以天下付之也 — *"only when one does not let favor, disgrace, glory or trouble diminish or buy off their own body can the world then be handed to them."* 貴 is his *unbuyable* (無以易其身); 愛 is his *undamageable* (無物可以損其身). **The person you can hand the world to is the one the world cannot purchase** — and that is why the chapter's diagnosis (the body is where all trouble enters) and its conclusion (value the body at the world's rate) are one argument rather than two.
+
+### 寄 / 託 → *given* / *trusted with*, closing T3-7
+
+*(was: "entrusted with" / "truly care for" — one rendering and one invention.)* **They are near-synonyms and 說文 says so circularly**: 寄 託也, 託 寄也. **王弼 swaps them in his own commentary** — on the 寄 line he writes 如此乃可以**託**天下也, on the 託 line 如此乃可以**寄**天下也 — which nobody does with words they hold apart. 王弼's own paraphrase for both is 付 (*fù* — to hand over): 乃可以天下**付**之也.
+
+**河上公 does grade them** — 則可寄立，**不可以久也** (*"may be lodged there, but not for long"*) against 乃可以託其身於萬民之上，**長无咎也** (*"may entrust himself above the myriad people, and long be without fault"*) — but 王弼's swap outweighs it, and the graded reading is not asserted in the English.
+
+**A rejected draft, and the lesson it re-taught.** 寄 is 宀 (*mián* — a roof): lodging a thing under someone's roof. 託 is 言 (*yán* — speech): committing a thing by word. *"Can be left the world to keep"* tried to put that distinction in the verse and Shalom rejected it as convoluted — correctly. **`notes/translation.md` already records this from ch 16: the verse does not have to carry the whole graph; that is the glossary entry's job.**
+
+### 若驚 and 是謂 — two frames rendered as causes
+
+***Favor and disgrace cause alarm*** made them agents acting on you. **若 is *like*, not *cause***: 寵辱若驚 **equates** favor and disgrace with the shaken state. 驚 is 說文 馬駭也 — *"a horse shying."* Now *"Favor and disgrace are both a shock,"* repeated verbatim at all three places the Chinese repeats it.
+
+***This is why*** for 是謂 is causal, where 謂 (*wèi*) is *to call*. **Eight other chapters render 是謂 as *"This is called"*** (10, 14, 16, 27, 30, 36, 51, 52). Here it governs a whole clause rather than a noun phrase, so it takes *"This is what is meant:"* — the same verb, fitted to the grammar.
+
+**寵為下 → *to be favored is to be below***, replacing the supplied *"You must stoop to receive favor."* 下 → *below* matches ch 61 and 66. The fork with 河上公's 辱為下 is in `notes/manuscript.md`, and it is the fork that decides whether the line says anything at all.
+
+**T2-1 stays open.** 身 is settled *inside this chapter only*; it still reads three ways across ch 7, 9, 44 and 54, two of them in one chapter.
