@@ -223,7 +223,8 @@ python3 tools/check_locks.py                    # the gate — every rule, whole
 python3 tools/check_locks.py --chapter 61       # while drafting
 python3 tools/concordance.py 明                  # every chapter, line, gloss, verse
 python3 tools/concordance.py --english "clarity"  # is a rendering backed by its character?
-python3 tools/concordance.py --formulas          # segments repeated across chapters
+python3 tools/concordance.py --formulas          # every repeated segment and frame, whole book
+python3 tools/concordance.py --formulas 36       # ...the ones touching ch 36, with its English
 python3 tools/concordance.py --witnesses 25      # where the older manuscripts disagree
 python3 tools/concordance.py --commentary 63     # Wang Bi and Heshang Gong on a chapter
 
@@ -239,6 +240,8 @@ python3 -m unittest discover -s tools/tests      # the tools' own tests
 **`check_locks.py` optimizes precision.** It exits non-zero, gates the pre-commit hook and CI, and must never cry wolf — so **no rule fires on English alone.** "virtue" is an error only when 德 is in *that chapter's own* Chinese; otherwise it drops to `info` in a separate false-friends list. That evidence gate is what makes it usable: it took the first run's error list to **9 findings with zero false positives**.
 
 **`concordance.py` optimizes recall.** It judges nothing and never fails. Use it for the evidence a glossary entry or a chapter review needs.
+
+**`--formulas` covers *within* a chapter as well as across, and the within half is where the damage is.** The two tools indexed segments into a *set* of chapter numbers until 2026-09-05, so a segment repeating three times inside one chapter collapsed to one entry and was then dropped as "not shared" — ch 11's 當其無 (*dāng qí wú*), repeated verbatim three times and rendered three different ways, was invisible to both. It also finds **frames**: 將欲▢之, ▢得一以▢, 有▢之用. **`--formulas N` narrows to one chapter and prints its English beside them**, which is the form to use during a chapter review. `check_locks.py` keeps its own narrower index deliberately and is not fed from here.
 
 **Run `--english` on every lock you settle.** A lock is a claim in *both* directions — every 強 renders *strong*, **and** every *strong* renders 強 — and the checker can only ever test the first, because its evidence gate keys off the character being present. The second direction caught 固 (*gù* — firm) and 壯 (*zhuàng* — in its prime) both wearing 強's English **inside chapters that contain 強**, where no rule can see them. This is a reader's job and nothing will do it for you. **Do not merge the two** — a tool that gates and searches at once ends up too noisy to gate and too quiet to search.
 

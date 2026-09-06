@@ -16,7 +16,7 @@
 
 ## The list
 
-**⬜ open · 🔶 part done · ✅ done · ⏸ deferred by Shalom.** Detail for every row is below, under the matching heading. **102 item rows: 56 open · 40 done · 3 part done · 3 deferred.** *(19 of them are the per-chapter Pass D rows, whose status is derived.)* *(Counted from the table itself — a hand-kept tally drifts. It read "43 open · 18 done" and matched nothing.)*
+**⬜ open · 🔶 part done · ✅ done · ⏸ deferred by Shalom.** Detail for every row is below, under the matching heading. **104 item rows: 57 open · 41 done · 3 part done · 3 deferred.** *(19 of them are the per-chapter Pass D rows, whose status is derived.)* *(Counted from the table itself — a hand-kept tally drifts. It read "43 open · 18 done" and matched nothing.)*
 
 | # | | Item | Ch | Pass |
 |---|---|---|---|---|
@@ -129,6 +129,8 @@
 | | | **Tier 5 · The harness** | | |
 | T5-1 | ⬜ | Build **thin-translation** — the only rule that finds *absence* | — | G |
 | T5-2 | ⬜ | `repeated-formula` should name the segment's own English | — | G |
+| T5-11 | ✅ | ~~Both tools were blind to a formula repeating **inside** one chapter~~ — they indexed into a *set* of chapter numbers, so ch 11's 當其無 ×3 collapsed to one entry and was dropped as "not shared". `--formulas` now covers the whole text and finds **frames** (將欲▢之, ▢得一以▢); `--formulas N` prints one chapter's English beside them. 13 tests | — | G |
+| T5-12 | ⬜ | `check_locks.py`'s `repeated-formula` still only compares **across** chapters. Whether the gate can carry the within-chapter case without crying wolf is unsettled — 152 findings at recall. Decide after Pass D, on the evidence `--formulas` is now producing | — | G |
 | T5-3 | ⬜ | Forbidden lists thin on near-synonyms — *clever*, *depletion*, *energy*. *(無為 gained *effortless* / *without effort* / *takes no action* with T1-3 and T1-4; these three stand)* | — | E |
 | T5-4 | ⬜ | Run `--english` on every lock; it is the only reverse-direction check | — | ongoing |
 | T5-5 | ⬜ | The 70-item false-friend `info` list is not being read | — | G |
@@ -410,3 +412,5 @@ Structure the Chinese has and the English does not. These are rewrites, and they
 | 2026-09-02 | **Pass D restructured** — one row per chapter (D3…D64), so chapters check off one at a time; **`chapter-row` and `chapter-cover` added to `check_worklist.py`** so the chapter rows are derived rather than a second copy. PD's `Ch` now points at them. 7 tests, 102 total | `tools/check_worklist.py` · `tools/tests/test_check_worklist.py` · `WORKLIST.md` |
 | 2026-09-05 | **Ch 35** — 不足 → *not enough*, un-splitting 王弼's single argument; 執 → *grasp* (the ch 29 mirror); 大象 → *the great image*; 口's first *mouth*. Two forks. Opens T1-22, T2-30/31/32, T5-10 | `notes/translation.md` · `notes/manuscript.md` · `sources/variants.yaml` · Ch 35 |
 | 2026-09-05 | **`chapter-tally`** — the Progress line's figure, Done list and spelled-out repeat all gated against the per-chapter rows; the number-table filters prose out. 9 tests, 111 total | `tools/check_worklist.py` · `tools/tests/test_check_worklist.py` |
+| 2026-09-05 | **Ch 11** — one frame three times, eleven lines for eleven; 無 → *in what is not there*, 當 → *right where*; **利 → *advantage*, a covered lock never applied anywhere**. 埏/挻 fork logged | `notes/translation.md` · `notes/manuscript.md` · `sources/variants.yaml` · Ch 11 |
+| 2026-09-05 | **The formula finder** — `--formulas` now covers within *and* across chapters and finds frames; `--formulas N` prints a chapter's English beside them. Surfaces T3-4 and T3-6 on sight, plus a dozen unlogged. 13 tests, 124 total | `tools/concordance.py` · `tools/tests/test_concordance.py` · `CLAUDE.md` · `ARCHITECTURE.md` |

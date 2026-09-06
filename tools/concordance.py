@@ -11,7 +11,7 @@ gate and too quiet to search.
     python3 tools/concordance.py 明                 # every chapter, line, rendering
     python3 tools/concordance.py --english "mystery"   # the reverse direction
     python3 tools/concordance.py --pairs 我 吾        # two terms side by side
-    python3 tools/concordance.py --formulas          # every repeated segment
+    python3 tools/concordance.py --formulas          # repeated segments and frames
     python3 tools/concordance.py 常 --json           # for pulling into a session
 
 This replaces the ad-hoc greps the method has been running by hand. The 天地
@@ -175,41 +175,161 @@ def show_pairs(a, b, chapters, terms, quiet=False):
 
 # -------------------------------------------------------------------- formulas
 
-def show_formulas(chapters, min_len=4):
-    """Every Chinese comma-segment appearing in more than one chapter.
+def _segments(chapters, min_len):
+    """Every Chinese comma-segment in the book, with every place it occurs.
 
-    The index behind check_locks.py's repeated-formula rule, shown in full and
-    without a verdict. Segments are the unit a formula lives in — 物壯則老,
-    不道早已, 是謂玄德 — so this is where you look before deciding whether two
-    chapters agree.
+    An occurrence is (chapter, row index), NOT a set of chapters — which is the
+    whole point. The previous version indexed into a set, so a segment repeating
+    three times inside one chapter collapsed to one entry and was then filtered
+    out as "not shared". Chapter 11's 當其無, repeated verbatim three times and
+    rendered three different ways, was invisible to this tool and to
+    check_locks.py alike until 2026-09-05.
     """
-    index = defaultdict(set)
+    index = defaultdict(list)
     for ch in chapters.values():
-        for row in ch.source_rows:
-            for seg in re.split(r"[，。；、]", row.chinese):
+        for i, row in enumerate(ch.source_rows):
+            for seg in re.split(r"[，。；、？！]", row.chinese):
                 seg = "".join(re.findall(r"[㐀-鿿]+", seg))
                 if len(seg) >= min_len:
-                    index[seg].add(ch.number)
+                    index[seg].append((ch.number, i))
+    return index
 
-    shared = {s: sorted(c) for s, c in index.items() if len(c) > 1}
-    grammar = {s: c for s, c in shared.items() if len(c) > 3}
-    formulas = {s: c for s, c in shared.items() if len(c) <= 3}
 
-    print(f"\n{BOLD}repeated segments{OFF}")
-    print(f"  {len(formulas)} formulas (2-3 chapters) · {len(grammar)} common "
-          f"constructions (4+)\n")
+# A template is a repeated frame with slots: 將欲▢之, 有▢之用, ▢得一以▢. Two
+# same-length segments belong to one when they agree everywhere but a few
+# positions. Two fixed characters is the floor — one is not a frame, it is a
+# character, and 不▢▢ would collect half the book. That floor is why ch 8's
+# X善Y (one anchor, seven members) is not found here; 善's own concordance is.
+SLOT = "▢"
+MAX_VARIABLE = 2
+MIN_FIXED = 2
 
-    for seg, nums in sorted(formulas.items(), key=lambda kv: (-len(kv[0]), kv[1])):
-        drafted = [n for n in nums if chapters[n].drafted]
-        mark = "" if len(drafted) == len(nums) else f"  {DIM}({len(drafted)}/{len(nums)} drafted){OFF}"
-        print(f"  {seg}   ch {', '.join(str(n) for n in nums)}{mark}")
 
-    if grammar:
-        print(f"\n  {DIM}common constructions, not formulas:{OFF}")
-        for seg, nums in sorted(grammar.items(), key=lambda kv: -len(kv[1])):
-            print(f"    {DIM}{seg}   {len(nums)} chapters{OFF}")
-    print()
-    return formulas
+def _templates(index, min_len):
+    """Cluster same-length segments that share a fixed frame."""
+    by_len = defaultdict(list)
+    for seg in index:
+        if min_len <= len(seg) <= 12:
+            by_len[len(seg)].append(seg)
+
+    masks = defaultdict(set)
+    for n, segs in by_len.items():
+        for i, a in enumerate(segs):
+            for b in segs[i + 1:]:
+                fixed = tuple((k, a[k]) for k in range(n) if a[k] == b[k])
+                if len(fixed) < MIN_FIXED or n - len(fixed) > MAX_VARIABLE:
+                    continue
+                # Half the frame must be fixed, or it is not a frame. 是謂▢▢
+                # would otherwise arrive as a finding in fifteen chapters.
+                if len(fixed) * 2 < n:
+                    continue
+                masks[(n, fixed)].update((a, b))
+
+    # A longer frame subsumes a shorter one over the same members; keep the
+    # most specific, so ▢得一以▢ is not also reported as ▢得一▢▢.
+    out = {}
+    for (n, fixed), members in masks.items():
+        key = frozenset(members)
+        if key not in out or len(fixed) > len(out[key][1]):
+            out[key] = (n, fixed)
+    return {v: sorted(k) for k, v in out.items()}
+
+
+def _render(n, fixed):
+    chars = [SLOT] * n
+    for k, c in fixed:
+        chars[k] = c
+    return "".join(chars)
+
+
+def show_formulas(chapters, min_len=3, only=None):
+    """Every repeated Chinese segment and frame in the book — within a chapter
+    and across chapters both.
+
+    check_locks.py keeps its own, narrower index and is deliberately not fed
+    from here: that one gates and must never cry wolf, this one searches and
+    judges nothing. See CLAUDE.md on why the two are not merged.
+    """
+    index = _segments(chapters, min_len)
+    templates = _templates(index, min_len)
+
+    def spread(occ):
+        """(within, across) — repeats inside one chapter, and chapters spanned."""
+        chs = defaultdict(int)
+        for n, _ in occ:
+            chs[n] += 1
+        return chs
+
+    rows = []
+    for seg, occ in index.items():
+        if len(occ) > 1:
+            rows.append((seg, spread(occ), "exact", []))
+    for (n, fixed), members in templates.items():
+        occ = [o for m in members for o in index[m]]
+        if len(occ) < 2:
+            continue
+        rows.append((_render(n, fixed), spread(occ), "frame", members))
+
+    # The finding is CONCENTRATION, not frequency. A frame four times in ch 36
+    # and once in ch 65 is that chapter's formula; one appearing once each in
+    # fifteen chapters is grammar. So a repeat inside a chapter is only reported
+    # when the segment is not also spread all over the book.
+    def peak(r):
+        return max(r[1].values())
+
+    within = [r for r in rows if peak(r) > 1 and len(r[1]) <= 3]
+    grammar = [r for r in rows if peak(r) > 1 and len(r[1]) > 3]
+    across = [r for r in rows if peak(r) == 1 and len(r[1]) > 1]
+    common = [r for r in across if len(r[1]) > 3] + grammar
+    across = [r for r in across if len(r[1]) <= 3]
+
+    def line(seg, chs, kind, members):
+        where = ", ".join(f"{n}{f' ×{c}' if c > 1 else ''}"
+                          for n, c in sorted(chs.items()))
+        tail = ""
+        if kind == "frame":
+            slots = sorted({m[k] for m in members
+                            for k in range(len(m)) if seg[k] == SLOT})
+            tail = f"   {DIM}{' · '.join(slots)}{OFF}" if slots else ""
+        print(f"  {seg:<14} {DIM}ch{OFF} {where}{tail}")
+
+    def block(title, rs, note=""):
+        if not rs:
+            return
+        print(f"\n  {BOLD}{title}{OFF}  {DIM}({len(rs)}){OFF}"
+              + (f"  {DIM}{note}{OFF}" if note else ""))
+        for seg, chs, kind, members in sorted(
+                rs, key=lambda r: (-max(r[1].values()), r[2] != "exact",
+                                   -len(r[0]))):
+            line(seg, chs, kind, members)
+
+    if only is not None:
+        within = [r for r in within if only in r[1]]
+        across = [r for r in across if only in r[1]]
+        common = [r for r in common if only in r[1]]
+
+    scope = f"chapter {only}" if only is not None else "the whole text"
+    print(f"\n{BOLD}repeated Chinese — {scope}{OFF}")
+    print(f"  {DIM}segments of {min_len}+ characters, and the frames they "
+          f"share. Nothing here is a verdict.{OFF}")
+
+    block("repeats INSIDE a chapter", within,
+          "the parallelism the English most often flattens")
+    block("repeats ACROSS 2-3 chapters", across,
+          "verbatim Chinese, so the English should match")
+    if common:
+        print(f"\n  {DIM}in 4+ chapters — grammar, not formula:{OFF}")
+        for seg, chs, _, _ in sorted(common, key=lambda r: -len(r[1]))[:16]:
+            print(f"    {DIM}{seg:<14} {len(chs)} chapters{OFF}")
+    if only is not None and only in chapters:
+        print(f"\n  {BOLD}ch {only} — the English, to read against them{OFF}")
+        for _, line in chapters[only].verse:
+            print(f"    {DIM}│{OFF} {line}")
+        print()
+    else:
+        print(f"\n  {DIM}--formulas N narrows this to one chapter and prints "
+              f"its English beside them.{OFF}\n")
+    return index
 
 
 # ------------------------------------------------------------------ commentary
@@ -329,8 +449,9 @@ def main():
                    help="reverse lookup: which chapters use this English, and is it backed")
     p.add_argument("--pairs", nargs=2, metavar=("A", "B"),
                    help="two terms across the book")
-    p.add_argument("--formulas", action="store_true",
-                   help="every Chinese segment shared by more than one chapter")
+    p.add_argument("--formulas", nargs="?", const=0, type=int, metavar="N",
+                   help="every repeated Chinese segment and frame, in the whole "
+                        "book or (with N) the ones touching chapter N")
     p.add_argument("--witnesses", type=int, metavar="N",
                    help="where the older witnesses disagree with our base text, for chapter N")
     p.add_argument("--commentary", type=int, metavar="N",
@@ -376,17 +497,20 @@ def main():
             payload["guodian"] = None if not g else {
                 "attested": True, "bundles": g.bundles, "extent": g.extent,
                 "units": g.units, "note": g.note}
-        if args.formulas:
-            index = defaultdict(set)
-            for ch in chapters.values():
-                for row in ch.source_rows:
-                    for seg in re.split(r"[，。；、]", row.chinese):
-                        seg = "".join(re.findall(r"[㐀-鿿]+", seg))
-                        if len(seg) >= 4:
-                            index[seg].add(ch.number)
-                payload.setdefault("formulas", {})
-            payload["formulas"] = {s: sorted(c) for s, c in index.items()
-                                   if 2 <= len(c) <= 3}
+        if args.formulas is not None:
+            # One index, not a second copy of it. This path used to rebuild the
+            # segment index by hand and had already drifted from the printed
+            # one: min_len 4 against 3, and a set of chapters, which cannot
+            # express a segment repeating inside a chapter at all.
+            index = _segments(chapters, 3)
+            payload["formulas"] = {
+                s: [{"chapter": n, "row": i} for n, i in occ]
+                for s, occ in index.items() if len(occ) > 1}
+            payload["frames"] = {
+                _render(n, fixed): {"members": members,
+                                    "chapters": sorted({c for m in members
+                                                        for c, _ in index[m]})}
+                for (n, fixed), members in _templates(index, 3).items()}
         print(json.dumps(payload, indent=2, ensure_ascii=False))
         return 0
 
@@ -397,8 +521,8 @@ def main():
     if args.witnesses:
         show_witnesses(args.witnesses, chapters, args.quiet)
         did = True
-    if args.formulas:
-        show_formulas(chapters)
+    if args.formulas is not None:
+        show_formulas(chapters, only=args.formulas or None)
         did = True
     if args.pairs:
         show_pairs(args.pairs[0], args.pairs[1], chapters, terms, args.quiet)
