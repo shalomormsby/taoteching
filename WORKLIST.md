@@ -1,6 +1,6 @@
 # WORKLIST — what the manuscript still owes
 
-*The single forward-looking file. Everything here is **open**. When something closes it leaves this file and becomes a one-line pointer in the ledger at the foot — because the reasoning already lives somewhere permanent, and repeating it here is how the old debt list grew to 343 lines and went stale.*
+*The single forward-looking file. Everything here has a status that needs to be kept up-to-date.  When something closes it leaves this file and becomes a one-line pointer in the ledger at the foot — because the reasoning already lives somewhere permanent, and repeating it here is how the old debt list grew to 343 lines and went stale.*
 
 **Where things live.** The **ruling and its full argument** go in `glossary/`. The **decision, thin**, goes in `notes/` — manuscript forks in `notes/manuscript.md`, our own rendering calls in `notes/translation.md`, reader-facing threads in `notes/reading.md`. **What is still owed** goes here. Nothing belongs in two of those.
 
@@ -16,7 +16,7 @@
 
 ## The list
 
-**⬜ open · 🔶 part done · ✅ done · ⏸ deferred by Shalom.** Detail for every row is below, under the matching heading. **100 item rows: 56 open · 38 done · 3 part done · 3 deferred.** *(19 of them are the per-chapter Pass D rows, whose status is derived.)* *(Counted from the table itself — a hand-kept tally drifts. It read "43 open · 18 done" and matched nothing.)*
+**⬜ open · 🔶 part done · ✅ done · ⏸ deferred by Shalom.** Detail for every row is below, under the matching heading. **101 item rows: 57 open · 38 done · 3 part done · 3 deferred.** *(19 of them are the per-chapter Pass D rows, whose status is derived.)* *(Counted from the table itself — a hand-kept tally drifts. It read "43 open · 18 done" and matched nothing.)*
 
 | # | | Item | Ch | Pass |
 |---|---|---|---|---|
@@ -114,7 +114,8 @@
 | T2-25 | ✅ | ~~**同於X → *merges with*** ×6~~ — **the same as**; 同 is 異's antonym and ch 1 already had it right. Closed T2-26 too | 23 | D |
 | T2-26 | ✅ | ~~**同 transitive — 同其塵 · 玄同**~~ — *the same as the dust* (4, 56) and *profound sameness* (56); **同 twice in ch 56 had two unrelated Englishes**. *union* was 合's (55) | 4 56 | E |
 | T2-30 | ⬜ | **夷** three ways — *the invisible* (14) · *smooth* (41) · *level* (53). *Found by the ch 35 reverse check: *level* was about to be taken for 平* | 14 41 53 | E |
-| T2-31 | ⬜ | **客** has three jobs and no single English — a houseguest (15), the battlefield 主/客 pair (69), a transient (35, rendered as the compound 過客) | 15 35 69 | E |
+| T1-23 | ⬜ | **Ch 69 deletes 主/客.** 吾不敢為主，而為客 → *"move first / move second"* — 河上公's gloss (主，先也) rendered instead of the text. 說文 makes them pointable: 主 is *the flame in the lamp*, 客 *one lodged under another's roof* | 69 | E |
+| T2-31 | ⬜ | **客** survives once in the English (ch 15). Restored at 35 as *a passing guest*; **ch 69 still owes it** · T1-23 | 15 35 69 | E |
 | T2-32 | ⬜ | **口** → *palate* at ch 12, picking eating over speech. 口 occurs twice; ch 35 now reads *mouth*, which does both | 12 35 | E |
 | T2-27 | ⬜ | **同謂之玄 → *Together*** — 同's fourth English, and *together* can read as *jointly they form one thing* rather than *both alike are so called* | 1 | E |
 | T2-28 | ⬜ | **復歸 split four-to-three** — the seven-line compound reads *return again* at 16 and 28 ×3, plain *return* at 14 and 52 | 14 16 28 52 | E |

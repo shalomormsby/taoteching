@@ -2423,8 +2423,14 @@ So the music-and-food line is not an aside about worldly distraction. **It is wh
 
 安 (*ān*) is 說文 靜也。从女在宀下 — *"stillness; a woman under a roof."* ***Safety*** was its outlier: 安 reads *at rest* at ch 64 (其安易持), *the calm* at ch 15, *restful* at ch 80. 平 (*píng*) occurs once in the whole book; 說文 語平舒也 — *"speech level and unhurried."* **Cost accepted:** *even* is a common English word, so the reverse check on it will be noisy from now on.
 
-### 過客 → *the passer-by*, as a compound
+### 過客 → *a passing guest* — the fault was the number, not the character
 
-客 (*kè* — guest) reads *guest* at ch 15 and ch 69, but 過客 is a compound and *"passing guests"* is a contradiction in English, since a guest has already stopped. 河上公 uses it for exactly the transient sense: 忽忽如過客, *"fleeting, like a passer-by."* **客 has three jobs in this book** — a mannered houseguest (15), the technical 主/客 host-and-guest of the battlefield (69), and a transient (35) — and no single English holds all three. Logged as open.
+*(was: "The allure of music and fine food causes passing guests to stop." An intermediate draft read* the passer-by, *and was wrong.)*
+
+**客 (*kè*) occurs three times and our English preserves it once** — *guest* at ch 15, nothing at all at ch 69, and here. *Passing guests* read as a contradiction in English, since a guest has already stopped, and the first fix swapped the character out for *the passer-by*. **The contradiction was in the bare plural, not in the word.** Singular and with an article, the stiffness goes, and what tension is left is the line's own subject: 止 (*zhǐ*) is the moment a traveller becomes a guest.
+
+**說文 unifies all three uses:** 客 寄也。从宀各聲 — *"to be lodged; from 宀 (mián — a roof),"* and 寄 (*jì*) is 託也, *"entrusted to another's keeping."* **客 is one who is under a roof that is not theirs.** Its pair 主 (*zhǔ*) is 鐙中火主也 — *"the flame in the lamp."* The one whose fire it is, and the one who came to it. 河上公 reads two of the three through that pair: at ch 15, 如客畏主人，儼然無所造作也, *"like a 客 in awe of the 主人 (zhǔ rén — the master of the house); solemn, making nothing of their own"*; at ch 69, 客者，和而不倡, *"the 客 harmonizes and does not lead off."*
+
+**Ch 69 is the worse problem and is logged open.** 吾不敢為主，而為客 reads *"I do not push to move first. I move second"* — that is 河上公's gloss 主，先也 (*"主 means first"*) rendered **instead of** the text, and both characters vanish. `CLAUDE.md`: a commentator's gloss is not the text. On the battlefield the 客 is the army standing on ground that is not its own, which is what licenses 不敢進寸而退尺 in the next line.
 
 **止 (*zhǐ*) and 足 (*zú*) are the same picture, and 許慎 says so**: 說文 止 下基也。象艸木出有址，故以止爲足 — *"the base below; it pictures grass and trees emerging with a footing, so 止 is taken for 足."* The traveller's foot stops; the next three lines are about there not being **enough** of a foothold. Not forced into the verse; recorded because it is the chapter's own rhyme.
