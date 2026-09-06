@@ -480,3 +480,19 @@ Our base reads 埏埴以為器 (*yán zhí yǐ wéi qì* — "work the clay to m
 **Not meaning-bearing** — every reading gives *work the clay*, and the English is unaffected. Recorded because the evidence runs against our base graph. **說文解字 glosses 埏 as 八方之地也** — *"the land of the eight directions,"* the far reaches of the earth — with no kneading sense at all; **挻 (*shān*) is the graph that carries it.** 河上公 (*Héshàng Gōng*) takes the working sense on the majority graph regardless: 埏，和也 — *"埏 means to blend."* We keep the base and render *knead*.
 
 *A second Siku note on this chapter — 〔案永樂大典無也字〕, "the 永樂大典 (Yǒnglè Dàdiǎn) lacks the character 也" — is orthographic and is not recorded.*
+
+### Ch 36 · 韓非's text — 邦 for 國, and only three clauses of four
+
+**韓非 (*Hán Fēi*, d. 233 BCE) reads 邦之利器** where our base has 國之利器. 邦 (*bāng* — a state) is the older word; 國 (*guó*) displaced it under the Han taboo on the personal name of 劉邦 (*Liú Bāng*, d. 195 BCE), the founder of the dynasty. **Our base therefore carries a Han substitution at this line, and 韓非 predates the taboo by a lifetime.** Not meaning-bearing — both are the state — but it dates the transmission, and the same substitution will be found wherever 邦 would be expected.
+
+**He quotes three clauses of the four**, in a different order: 翕/張, 弱/強, 取/與 — and no 廢/興 (*fèi / xīng* — to bring down / to raise up). He also reads 翕 (*xī*) for our 歙 and **取 (*qǔ* — to take) for our 奪 (*duó* — to seize)**, which is a real difference of force: 奪 is 說文 手持隹失之也, *"a hand holding a bird and losing it"* — a snatching-away — where 取 is a plain taking.
+
+**We keep all four clauses and the base graphs.** 韓非 is quoting the Laozi to illustrate two historical episodes — Yue's undoing of Wu, and Duke Xian's raid on Yu — not reproducing a text, so his silence on 廢/興 is weak evidence for absence. It is recorded because he is the oldest witness that exists and because the three he does quote, he quotes exactly.
+
+### Ch 36 · 柔弱勝剛強 — one claim of four terms, or two of two
+
+The Siku editors note inside our 王弼: 〔案永樂大典作柔勝剛弱勝强〕 — *"the 永樂大典 (Yǒnglè Dàdiǎn, 1408) reads 柔勝剛，弱勝強."* That splits *"the soft-and-weak overcomes the hard-and-strong"* into two paired claims: *"the soft overcomes the hard; the weak overcomes the strong."*
+
+**韓非 supports the split** by quoting only half of it as a saying in its own right: 處小弱而重自卑損，謂「弱勝強」也 — *"to dwell in the small and weak and make much of humbling and diminishing oneself: this is what 'the weak overcomes the strong' means."*
+
+**Our call: the base.** But the English renders it as two matched pairs regardless — *"The soft and yielding overcome the hard and strong"* — because 柔 (*róu*), 弱 (*ruò*), 剛 (*gāng*) and 強 (*qiáng*) are used separately everywhere else in the book, and binding them into two compounds in English would claim more than our own glossary does. 弱 and 強 are both locked; 剛 is still owed a mention (`WORKLIST` T4-4).

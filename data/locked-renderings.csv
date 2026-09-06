@@ -451,13 +451,13 @@ chapter,line,character,pinyin,locked_term,expected_rendering,rendering_present,a
 35,4,無,wu,無 & 有,absence,NOT FOUND,1.0,exact-count,The Tao is bland in the mouth. It has no flavor.
 35,4,道,Dao,道,the Tao (left untranslated),NOT FOUND,1.0,exact-count,The Tao is bland in the mouth. It has no flavor.
 35,7,用,Yong,無 & 有,use,yes,1.0,exact-count,Use it. It never runs out.
-36,2,弱,ruò,弱,yielding — and *weaken* only where it takes an object,NOT FOUND,1.0,exact-count,Weakening requires firm strengthening.
-36,2,強,qiáng,強,"strong — *strengthen* where it takes an object, *forcing* where it strains against a thing's nature",NOT FOUND,1.0,exact-count,Weakening requires firm strengthening.
-36,5,明,míng,明,clear-seeing / clarity,yes,1.0,exact-count,This is called subtle clarity.
+36,2,弱,ruò,弱,yielding — and *weaken* only where it takes an object,NOT FOUND,1.0,exact-count,"If you would weaken it, you must first strengthen it."
+36,2,強,qiáng,強,"strong — *strengthen* where it takes an object, *forcing* where it strains against a thing's nature",NOT FOUND,1.0,exact-count,"If you would weaken it, you must first strengthen it."
+36,5,明,míng,明,clear-seeing / clarity,yes,1.0,exact-count,This is called the hidden clarity.
 36,6,弱,ruò,弱,yielding — and *weaken* only where it takes an object,NOT FOUND,1.0,exact-count,The soft and yielding overcome the hard and strong.
 36,6,強,qiáng,強,"strong — *strengthen* where it takes an object, *forcing* where it strains against a thing's nature",NOT FOUND,1.0,exact-count,The soft and yielding overcome the hard and strong.
-36,8,利,lì,無 & 有,advantage,NOT FOUND,1.0,exact-count,The sharp instruments of the state must not be shown to others.
-36,8,器,qì,器,vessel / tool / implement,NOT FOUND,1.0,exact-count,The sharp instruments of the state must not be shown to others.
+36,8,利,lì,無 & 有,advantage,yes,1.0,exact-count,A state's tools of advantage must never be shown.
+36,8,器,qì,器,vessel / tool / implement,yes,1.0,exact-count,A state's tools of advantage must never be shown.
 37,1,常,cháng,常,the ever-present / the abiding,NOT FOUND,1.0,exact-count,"The Tao is ever non-doing, yet nothing is left undone."
 37,1,為,wéi,為,do / handle / serve as,yes,1.0,exact-count,"The Tao is ever non-doing, yet nothing is left undone."
 37,1,為,wéi,為,do / handle / serve as,yes,1.0,exact-count,"The Tao is ever non-doing, yet nothing is left undone."

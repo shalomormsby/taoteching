@@ -2473,3 +2473,41 @@ So the music-and-food line is not an aside about worldly distraction. **It is wh
 - **轂 (*gǔ* — hub) is defined by what converges on it**: 輻所凑也, *"what the spokes converge on."* 王弼 turns that back: 轂所以能統三十輻者，無也 — *"what lets the hub unify the thirty spokes is absence."*
 - **牖 (*yǒu* — window) is 穿壁以木爲交窻也…所以見日** — *"boring through a wall to make a latticed wooden window… what you see the sun by."* 戶 (*hù* — door) is 半門曰戶, *"half a gate."* Both are holes made on purpose, which is why 鑿 (*záo*) — 穿木也, *"to bore through wood"* — opens the stanza.
 - 河上公 adds a reader's note, not a rendering: 古者車三十輻，法月數也 — *"the ancient cart had thirty spokes, modelling the number of the month."*
+
+## Ch 36 · the four clauses are instructions, not laws
+
+*(2026-09-05, Pass D, `WORKLIST.md` D36 · T3-4. Found by `--formulas 36` the day it was built.)*
+
+*(was: "Contraction requires firm expansion. / Weakening requires firm strengthening. / Abolishing requires firm elevation. / Removing requires firm giving.")*
+
+**將欲X之，必固Y之 four times, and four things were wrong with the English at once.** 將欲 (*jiāng yù* — "if you are about to want to") was deleted, so the conditional went. 之 (*zhī* — it) was deleted twice per line, so the thing being handled went. The verbs were nominalized into *Contraction* and *Weakening*, so the acts went. **And 固 (*gù*), an adverb, became the adjective *"firm"* — which produced a "firm expansion," a phrase with no referent.**
+
+**固 means *first* here, and two commentators say so.** 河上公 (*Héshàng Gōng*) glosses all four clauses with 先 (*xiān* — first): 先開張之者，欲極其奢淫 — *"to stretch it open first is to push its extravagance to the limit"*; 先強大之者，欲使遇禍患 — *"to make it strong first is to have it meet disaster"*; 先興之者，欲使其驕危也; 先與之者，欲極其貪心也. Elsewhere in this book 固 is the plain adjective *firm* (55, 59, 67) and once an adverb (58), so the reading is not forced. *(先 carries* first *at ch 7 and is absent here — a soft collision, accepted because 河上公 makes them synonyms in this slot.)*
+
+**韓非 (*Hán Fēi*, d. 233 BCE) settles it with worked examples, which is as close to proof as this book offers.** He is the oldest commentary that exists, and on this chapter he does not gloss — he narrates:
+
+> 吳兵既勝齊人於艾陵，**張之**於江、濟，**強之**於黄池，故可制於五湖。故曰：「將欲翕之，必固張之；將欲弱之，必固強之。」
+> — *"Once Wu's army had beaten the men of Qi at Ailing, it **stretched itself out** along the Yangtze and the Ji and **made itself strong** at Huangchi, and so could be subdued at the Five Lakes. Hence it is said: 'if you would draw it in, you must first stretch it out; if you would weaken it, you must first strengthen it.'"*
+
+> 晉獻公將欲襲虞，遺之以璧馬；知伯將襲仇由，遺之以廣車。故曰：「將欲取之，必固與之。」
+> — *"Duke Xian of Jin, intending to raid Yu, sent them jade and horses; Zhi Bo, about to raid Chouyou, sent them a great chariot. Hence: 'if you would take it, you must first give to it.'"*
+
+**Sequences in time, with named states as the object.** Not laws about Contraction.
+
+**What the verbs actually are**, since abstraction had eaten all four: 歙 (*xì*) is 說文 縮鼻也, *"to draw in through the nose"*; 張 (*zhāng*) is 施弓弦也, *"to fit the string to a bow"* — a breath and a bowstring, both under tension. 廢 (*fèi*) is 屋頓也, *"a house collapsing."* 興 (*xīng*) is 起也。从舁从同。同力也, *"to rise; from 舁 — lifting hands — and 同; joint effort"* — many hands lifting together, and 與 (*yǔ*) carries the same 舁. 奪 (*duó*) is 手持隹失之也, *"a hand holding a bird and losing it."*
+
+**Neither commentator reads this as a manipulator's handbook, and the English should not either.** 王弼: 將欲除强梁，去暴亂，當以此四者，因物之性，令其自戮 — *"if you would remove the strong and overbearing and rid yourself of the violent and disorderly, use these four: go along with the nature of the thing, and let it destroy itself."* 河上公 reads the same motion as the anatomy of ruin — overextension is how a thing ends. **The lines describe how overreach collapses; they do not recommend deceit.** Left standing rather than resolved, because the Chinese does not resolve it either.
+
+### 利器 → *tools of advantage*, and all three commentators force it
+
+*(was: "The sharp instruments of the state must not be shown to others.")* 韓非: 賞罰者，邦之利器也，在君則制臣，在臣則勝君 — *"reward and punishment are the state's 利器; in the ruler's hands they control the ministers, in the ministers' hands they overcome the ruler."* 王弼: 利器，利國之器也 — *"the tool that benefits the state."* 河上公: 利器，權道也 — *"the way of leverage."* **Unanimous, and none of them a weapon.** *Advantage* is 利's covered rendering in `glossary/wu-you-無有.md`, applied at ch 11 the same day; *edge* was the better line but is already 銳 (*ruì*)'s word at ch 9. *Instruments* also missed 器's lock, which licenses *vessel / tool / implement*. **利器 stands again at ch 57 and is not settled here — T2-33.**
+
+### 淵 → *deep water*, closing T2-24's ch 36 half
+
+*(was: "the deep abyss.")* 說文: 淵 回水也。从水，象形。**左右，岸也**。中象水皃 — *"circling water; from 水, a pictograph; **the left and right are the banks**, the middle pictures the water."* **Banked water that turns, not a bottomless place** — which is what made *abyss* backwards and *limitless* wrong at ch 4. 韓非 makes it the element a ruler is held in: 勢重者，人君之淵也…失則不可復得也 — *"positional power is the ruler's 淵; lose it and it cannot be got back."*
+
+***Pool* was drafted and rejected by Shalom** — in modern English it reads as something chlorinated. ***The depths*** was the alternative and lost on the pointing test: it is a register word, and **deep water can be pointed at**, which also makes the fish a fish rather than a symbol.
+
+### 示人 → *shown*
+
+*(was: "shown to others.")* **The audience is inside the verb.** 說文 defines 示 with the very phrase: 天垂象，見吉凶，**所以示人也** — *"heaven hangs down its images, revealing fortune and misfortune; this is how it shows people."* *Remain hidden* was offered and declined: **the danger is in the act of showing, not the state of being seen**, which is 韓非's entire point — 君見賞，臣則損之以爲德 — *"if the ruler shows his rewards, the ministers shave them down and take the credit."* Someone is watching and will use it. Dropping *to others* also keeps the deferred 民/人 question (T4-1) shut.
