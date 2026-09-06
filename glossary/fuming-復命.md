@@ -1,17 +1,19 @@
 ---
 term: "復命"
 pinyin: "fù mìng"
-render: "returning to the allotted course — the return named as a homecoming to what was issued"
-forbidden: ["returning to destiny", "restoring destiny", "returning to fate", "the mandate"]
+render: "returning to what is given"
+forbidden: ["returning to destiny", "restoring destiny", "returning to fate", "the mandate", "returning to what was given"]
 chapters: [16]
-status: open
+status: locked
 pairing: false
 ---
 ## 復命 (Fù Mìng) — Returning What You Were Sent With
 
 *Say "foo ming," both syllables falling. Two lines, both in Chapter 16, and it names the third rung of the chain that ends in clear-seeing.*
 
-**Recommended, not yet locked: 復命 → "returning to the allotted course."** *(Never "returning to destiny," never "restoring destiny," never anything built on "the mandate.")* *Two other candidates are live; see the close.*
+**Locked: 復命 → "returning to what is given."** *(Never "returning to destiny," never "restoring destiny," never anything built on "the mandate" — and not the past tense, "what **was** given.")*
+
+**The present tense carries the decision.** *Was given* puts the giving behind us, in a naming chain whose other members — 靜 (*jìng* — stillness) and 常 (*cháng* — the ever-present) — are timeless. *Is given* is ongoing: what any thing is given, always. And the passive keeps the giver **present but unnamed**, which is what the Chinese does: 命's graph has a mouth in it and never says whose.
 
 ### It is a name, not a new thing
 
@@ -101,12 +103,16 @@ Neither commentator takes it. The graph and the idiom do, and the chapter's own 
 
 **The phrase must survive repetition**, because 是謂復命。復命曰常 is the chapter's tail-head device (頂真 *dǐng zhēn*): the last word of one line opens the next. Whatever is chosen is said twice, adjacently, and a phrase that reads well once may not read well immediately again.
 
+### What was set aside, and why it took four tries
+
+***returning to the allotted course*** — a *course* is a path you run, and the chapter's event is a thing **finishing** one, not rejoining it. 命 is not a path: everything the graph gives is a moment — a bell, a gathering, someone kneeling, a mouth. The phrase also sat comfortably in a sermon, which is the hymn test failing.
+
+***returning the charge* · *returning the message*** — both take 復命 **transitively**, handing the commission back, which is the envoy idiom and is genuinely available. But **neither commentator reads it that way**, and `CLAUDE.md`'s tie-breaking order puts the classical commentaries above this edition's ethos and above poetic intuition. Both also need an antecedent the chapter never supplies — *which* charge, *which* message — and *the message* additionally carries the English sense of *the moral*.
+
+***returning to what is*** — the worst of the four, and the reverse check catches it in an unusual form. *What it is* is already **自然 (*zì rán* — of itself)**'s English at ch 25 (道法自然 → *"the Tao models itself on being what it is"*), and 自然 is not merely another term: **chapter 51 sets it against 命 in a single clause** — 夫莫之命而常自然, *"no one 命s it, and it is always 自然."* Rendering 命 with its own antonym's English would collapse the book's antithesis from the inside.
+
 ### The tension, left open
 
-**Three candidates, and the chapter's line is undecided.**
+**命's verb is unsettled one chapter over.** Ch 51's 夫莫之命而常自然 reads *"no one commands it"* — but *command* is 令 (*lìng*)'s English at ch 32, in the identical 莫之X而 frame, and the two characters were **one graph** before the Western Zhou split them. See `ming-命.md` and `WORKLIST.md` T2-29.
 
-- ***returning to the allotted course*** — the commentators' reading, and *allotted* and *course* are both unused elsewhere in the manuscript. **Recommended**, because both commentators land there and because it joins cleanly to 常 in the following line. Cost: four words, said twice in adjacent lines, and *course* is supplied.
-- ***returning to what you were given*** — closest to the manuscript's present *"returning to what was given,"* and lighter on the ear. Cost: *given* can be heard as a gift, where 命 is a charge, and the paraphrase renders 命 by a relative clause rather than a noun.
-- ***reporting back*** — the idiom's reading. Two words, vivid, and it makes 作 and 復 a single dispatch-and-return. Cost: it commits against both commentators, and it is an event where the next line wants a condition.
-
-**And 命's own verb is unsettled one chapter over.** Ch 51's 夫莫之命而常自然 reads *"no one commands it"* — but *command* is 令 (*lìng*)'s English at ch 32, in the identical 莫之X而 frame. See `ming-命.md` and `WORKLIST.md` T2-29.
+**And the commentators' reading is not the only one the book supports.** 復命 is standard classical Chinese for an envoy reporting back from a commission, and 說文 glosses 命 with 使 — the envoy word. The chapter's 作 → 復 architecture fits that without strain. This edition follows the commentators and records the other reading rather than burying it: one is *resuming what you always were*, the other is *discharging what you were given to do*, and nothing in the Chinese forces the choice.

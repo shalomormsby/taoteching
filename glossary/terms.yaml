@@ -336,8 +336,8 @@
 
 - term: "復命"
   pinyin: "fù mìng"
-  render: "returning to the allotted course — the return named as a homecoming to what was issued"
-  forbidden: ["returning to destiny", "restoring destiny", "returning to fate", "the mandate"]
+  render: "returning to what is given"
+  forbidden: ["returning to destiny", "restoring destiny", "returning to fate", "the mandate", "returning to what was given"]
   chapters: [16]
-  status: open
+  status: locked
   entry: glossary/fuming-復命.md

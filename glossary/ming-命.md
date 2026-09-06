@@ -80,11 +80,7 @@ The compound at Chapter 16 — 是謂復命，復命曰常 — is treated in **`
 
 ### The tension, left open
 
-**Chapter 16's line.** 是謂復命，復命曰常 currently reads *"returning to what was given,"* which no longer borrows another character's English but renders 命 by paraphrase. Three candidates, none yet chosen:
-
-- ***returning to the allotted course*** — takes the commentators' reading, and *allotted* and *course* are both unused elsewhere in the manuscript. Cost: *course* is supplied, and the phrase is long in a line that repeats twice.
-- ***returning to the given*** — short enough to bear repetition, and it declines to name a giver. Cost: vague, and abstract in a chapter otherwise made of stumps and foliage.
-- ***reporting back*** — the idiom's reading, short and vivid, and it makes 作 and 復 a single dispatch-and-return. Cost: it commits against both commentators.
+**Chapter 16's line is settled.** 是謂復命，復命曰常 → *"returning to what is given"* — present tense, giver present but unnamed. The four candidates it beat, and why, are in `fuming-復命.md`.
 
 **Chapter 51's verb**, 夫莫之命而常自然, reads *"no one commands it"* — 令's English, in 令's own construction.
 

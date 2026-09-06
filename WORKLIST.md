@@ -8,7 +8,7 @@
 
 **The first draft is complete — 81 of 81, since 2026-08-26. The editing pass is the work now.**
 
-**Progress: Pass 0 ✅ · Pass A ✅ · Pass B ✅ · Pass C ✅ · Pass D 🔶 — 8 of 19 chapters, with ch 16 part done (2026-09-05).** Pass D, the chapter-level rewrites, is the work now, and it has **one row per chapter** so they can be checked off one at a time. Done: **4 · 3 · 38 · 28 · 10 · 8 · 23**, plus **22 and 64** as the settled sides of formula pairs. Gate green: 0 errors, 102 tests, hard breaks intact, worklist consistent with itself.
+**Progress: Pass 0 ✅ · Pass A ✅ · Pass B ✅ · Pass C ✅ · Pass D 🔶 — 9 of 19 chapters (2026-09-05).** Pass D, the chapter-level rewrites, is the work now, and it has **one row per chapter** so they can be checked off one at a time. Done: **4 · 3 · 38 · 28 · 10 · 8 · 23 · 16**, plus **22 and 64** as the settled sides of formula pairs. Gate green: 0 errors, 102 tests, hard breaks intact, worklist consistent with itself.
 
 *Supersedes `RETROFIT.md` and `EDITING-PASS.md`, merged into this file on 2026-08-28 and both now deleted. This file is `RETROFIT.md` renamed, so `git log --follow WORKLIST.md` still reaches the project's start; the 2026-08-10 sweep record and the lessons it taught the checker moved to `PLAN.md`. Every item below was re-verified against the manuscript at the merge; the old file listed six repairs that had already been made.*
 
@@ -16,7 +16,7 @@
 
 ## The list
 
-**⬜ open · 🔶 part done · ✅ done · ⏸ deferred by Shalom.** Detail for every row is below, under the matching heading. **95 item rows: 53 open · 34 done · 5 part done · 3 deferred.** *(19 of them are the per-chapter Pass D rows, whose status is derived.)* *(Counted from the table itself — a hand-kept tally drifts. It read "43 open · 18 done" and matched nothing.)*
+**⬜ open · 🔶 part done · ✅ done · ⏸ deferred by Shalom.** Detail for every row is below, under the matching heading. **95 item rows: 53 open · 36 done · 3 part done · 3 deferred.** *(19 of them are the per-chapter Pass D rows, whose status is derived.)* *(Counted from the table itself — a hand-kept tally drifts. It read "43 open · 18 done" and matched nothing.)*
 
 | # | | Item | Ch | Pass |
 |---|---|---|---|---|
@@ -73,7 +73,7 @@
 | T2-16 | ⬜ | **事** wants an entry; 無事's licensed split needs confirming | 48 57 63 | E |
 | T2-17 | ⬜ | **私** two ways, sheltering under 公's `covers:` | 7 19 | E |
 | T2-20 | ⬜ | **巧** — *skill* (45) vs *cunning* (19, 57); the same fault as 辯, one line above it | 19 45 57 | E |
-| T2-18 | 🔶 | 復命 → *"returning to what was given"* — **two entries written**, `glossary/fuming-復命.md` and `glossary/ming-命.md`. 天命 and 性 are both **absent from the book**, so *mandate/destiny/fate* are out and the commentators' 性命 is their word, not the text's. **復命 is a *name* for the return, not a further step.** Three candidates open | 16 | D |
+| T2-18 | ✅ | ~~復命 → *"returning to what was given"*~~ — **"returning to what *is* given"**; two entries written. 天命 and 性 are both **absent from the book**; **復命 is a *name* for the return, not a further step**. Four candidates failed — *what is* would have taken 自然's English, and ch 51 sets 自然 **against** 命 | 16 | D |
 | | | **Tier 3 · Missed parallelisms** | | |
 | T3-1 | ✅ | ~~★ **The 不自X / 自X者 mirror**~~ — ch 24 rewritten as ch 22's negative; ch 31 swept | 22↔24↔31 | C |
 | T3-2 | ✅ | ~~Seven 善X couplets, seven unlike shapes~~ — one shape, seven times: *In X, masterful at Y* | 8 | D |
@@ -91,7 +91,7 @@
 | D10 | ✅ | ~~**Ch 10** — 無知/無為 swapped, 疵 deleted, and three Englishes on absent characters~~ · T1-1 | 10 | D |
 | D11 | ⬜ | **Ch 11** — three identical 當其無 frames rendered three ways; 利 and 用 lost. **Plus 無 → *emptiness* ×2 and *empty space* ×2 — 無 is locked to *absence*, and 虛 has zero occurrences here** · T3-3 | 11 | D |
 | D13 | ⬜ | **Ch 13** — 無身 → *the separate self dissolves*, an Advaita import; 寄/託 are a pair · T1-10 · T3-7 | 13 | D |
-| D16 | 🔶 | **Ch 16** — couplet, the 容→公→王→天→道→久 chain, and 夫物芸芸 all rebuilt (T1-6 ✅ · T1-13 ✅); 王 → *supreme authority*, *sovereignty* now forbidden as a modern-state overlay. **One item left: 復命** · T2-18 | 16 | D |
+| D16 | ✅ | ~~**Ch 16** — 守 → *Embrace*; *energy* with no 氣; 復命~~ — whole chapter rebuilt: the couplet, 夫物芸芸, and the 容→公→王→天→道→久 chain. **Three new entries**: 極, 虛, 復命 · T1-6 · T1-13 · T2-18 | 16 | D |
 | D23 | ✅ | ~~**Ch 23** — 同 as dissolution ×6; *intensity* and *we* rendering nothing; 事's lock breached by *actions*~~; three forks logged · T2-25 | 23 | D |
 | D22 | ✅ | ~~**Ch 22** — 為天下式 → *serves as the world's pattern*~~; visited as the settled half of a formula pair · T2-15 | 22 | D |
 | D28 | ✅ | ~~**Ch 28** — the pointing test failed on nearly every line~~ · T1-7 · T1-15 · T1-16 · T3-5 | 28 | D |

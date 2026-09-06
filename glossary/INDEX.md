@@ -51,7 +51,7 @@ python3 tools/build_index.py
 | **精** | *jīng* | vital essence / essence | "primordial mass", "soul", "spirit" | 2 | **locked** | [`jing-精.md`](jing-精.md) |
 | **全** | *quán* | whole · stay whole · keep whole (transitive) | "complete", "perfect", "flawless", "restore", "made whole" | 1 | **locked** | [`quan-全.md`](quan-全.md) |
 | **帝** | *dì* | god — *any god* at its one occurrence | "God", "the Lord", "Creator", "heaven", "emperor", "the high god" | 1 | **locked** | [`di-帝.md`](di-帝.md) |
-| **復命** | *fù mìng* | returning to the allotted course — the return named as a homecoming to what was issued | "returning to destiny", "restoring destiny", "returning to fate", "the mandate" | 1 | open — not yet a lock | [`fuming-復命.md`](fuming-復命.md) |
+| **復命** | *fù mìng* | returning to what is given | "returning to destiny", "restoring destiny", "returning to fate", "the mandate", "returning to what was given" | 1 | **locked** | [`fuming-復命.md`](fuming-復命.md) |
 
 ## Secondary characters
 

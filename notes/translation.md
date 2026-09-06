@@ -2348,3 +2348,23 @@ Repairing the link removed three imports in one move: **create** (生 *shēng*'s
 **What 歸根 means, since the passage turns on it.** 根 is 說文 木株也 — **the stump**, the stock left in the ground when the visible growth is gone. Not an origin, not a source. The text then defines that state itself: 歸根曰靜, *"returning to the root is called stillness."* 王弼 (*Wáng Bì*) supplies the frame — 凡有起於虛，動起於靜。故萬物雖並動作，卒復歸於虛靜 — *"all presence arises from emptiness, all movement arises from stillness; so although the countless things all rise and act together, in the end they turn back and come home to emptiness-and-stillness."* 河上公 reads the same motion biologically: 枯落…更生, *"wither and fall… born again."*
 
 **It is not a euphemism for dying.** The chapter has the speaker *watching* it — 吾以觀復, *"by this I watch the returning"* — and no one watches their own death. Where mortality does enter, the chapter names it plainly at the close: 没身不殆.
+
+## Ch 16 · 是謂復命，復命曰常 — "returning to what is given"
+
+*(2026-09-05, Pass D, `WORKLIST.md` T2-18. Shalom's call.)* *(was: "returning to what **was** given.")*
+
+**One word, after four candidates failed.** The change is *was* → *is*, and it is the whole of it.
+
+**復命 is a name, not a further step.** Chapter 16 describes **one event** and names it four times, each name becoming the next line's subject: 各復歸其根 → 歸根**曰**靜 → 是謂**復命** → 復命**曰**常 → 知常**曰**明. 曰 (*yuē*) is *"is called."* Nothing new enters at 復命; the chapter is handing a second name to the returning it has just shown, so a motion you can watch in a field becomes a thing you can know. **That fact is what makes the term legible, and it is what the rendering has to respect.**
+
+**Why the present tense.** *What was given* puts the giving in the past, inside a naming chain whose other members — 靜 (*jìng* — stillness), 常 (*cháng* — the ever-present) — are timeless. *What **is** given* is ongoing: what any thing is given, always. It reads straight into 常 on the following line, where a past-tense clause fought it.
+
+**Why the passive stays.** The objection that it *implies a giver* is right, and the giver belongs there. 命's graph has a mouth in it — 說文解字 使也。从口从令, and 令 is 發號也, *"to issue a call."* What this edition strips is **naming** the speaker: *mandate* names Heaven, *destiny* names a plot, *fate* names the Moirai. A passive admits the speech and declines to say whose, which is exactly what the Chinese does.
+
+**The four that failed, and the reasons generalize:**
+
+- ***returning to the allotted course*** — a *course* is a path you run, and the chapter's event is a thing **finishing** one. 命 is not a path; everything in the graph is a moment. It also passed the hymn test comfortably, which is the warning sign, not the recommendation.
+- ***returning the charge*** and ***returning the message*** — both read 復命 **transitively** (hand the commission back), which is a real idiom but one **neither commentator takes**. `CLAUDE.md`'s tie-breaking order puts the commentaries above this edition's ethos and above poetic intuition, and both renderings were arguing underneath it. Both also need an antecedent the chapter never supplies — *which* charge, *which* message — and *the message* carries the English sense of *the moral*.
+- ***returning to what is*** — caught by the reverse check in an unusual form. *What it is* is already **自然 (*zì rán* — of itself)**'s English at ch 25, and **ch 51 sets 自然 against 命 in a single clause**: 夫莫之命而常自然, *"no one 命s it, and it is always 自然."* Rendering a character with its own antonym's English collapses the antithesis from the inside. **This is the reverse check's sharpest use so far** — not an English on an absent character, but an English on the character's opposite.
+
+**Method note worth keeping.** Three of the four failures were mine, and all three came from pulling toward the envoy idiom — a reading the graph and the classical usage support but the commentaries do not. The tell was that each new candidate fixed one fault and introduced another; when that happens for three rounds, the reading underneath is usually the thing at fault, not the wording.
