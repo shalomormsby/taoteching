@@ -2598,9 +2598,13 @@ A single 不欲 governs both clauses; there is no 而 and no 寧 (*nìng* — "r
 
 **王弼 gives the bridge, and it belongs in this note rather than the verse:** 不以寵辱榮患**損易其身**，然後乃可以天下付之也 — *"only when one does not let favor, disgrace, glory or trouble diminish or buy off their own body can the world then be handed to them."* 貴 is his *unbuyable* (無以易其身); 愛 is his *undamageable* (無物可以損其身). **The person you can hand the world to is the one the world cannot purchase** — and that is why the chapter's diagnosis (the body is where all trouble enters) and its conclusion (value the body at the world's rate) are one argument rather than two.
 
-### 寄 / 託 → *given* / *trusted with*, closing T3-7
+### 寄 / 託 → *trusted with*, both, closing T3-7
 
-*(was: "entrusted with" / "truly care for" — one rendering and one invention.)* **They are near-synonyms and 說文 says so circularly**: 寄 託也, 託 寄也. **王弼 swaps them in his own commentary** — on the 寄 line he writes 如此乃可以**託**天下也, on the 託 line 如此乃可以**寄**天下也 — which nobody does with words they hold apart. 王弼's own paraphrase for both is 付 (*fù* — to hand over): 乃可以天下**付**之也.
+*(was: "entrusted with" / "truly care for" — one rendering and one invention. An intermediate draft read* given */* trusted with*, which Shalom rejected: in English two different verbs in a parallel frame read as an **escalation**, and the reader hunts for a distinction that is not there.)*
+
+**Chinese doubles by varying near-synonyms; English doubles by repeating.** So the two devices are opposites, and rendering 寄/託 with two English verbs manufactures a claim. **Both now read *trusted with*, varying only the pronoun**, which is how English restates. **They are near-synonyms and 說文 says so circularly**: 寄 託也, 託 寄也. **王弼 swaps them in his own commentary** — on the 寄 line he writes 如此乃可以**託**天下也, on the 託 line 如此乃可以**寄**天下也 — which nobody does with words they hold apart. 王弼's own paraphrase for both is 付 (*fù* — to hand over): 乃可以天下**付**之也.
+
+**The one place a real distinction survives is 貴/愛, and 王弼 supplies two different reasons for it:** 貴 → 無以**易**其身, *"there is nothing he would **exchange** his own body for"* — he will not sell it; 愛 → 無物可以**損**其身, *"nothing can **diminish** his own body"* — he will not let it be harmed. **So the first pair stays varied because 王弼 varies it, and the second is made identical because 王弼 swaps it.**
 
 **河上公 does grade them** — 則可寄立，**不可以久也** (*"may be lodged there, but not for long"*) against 乃可以託其身於萬民之上，**長无咎也** (*"may entrust himself above the myriad people, and long be without fault"*) — but 王弼's swap outweighs it, and the graded reading is not asserted in the English.
 
