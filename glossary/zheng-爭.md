@@ -81,9 +81,9 @@ Four lines, each opening on 善 (*shàn* — masterful at), and then the name fo
 
 > 善為士者，不**武**；善**戰**者，不怒；善**勝**敵者，不與；善用人者，為之**下**。是謂不**爭**之德。
 >
-> *"One masterful as a warrior is not martial. One masterful at fighting does not rage. One masterful at overcoming enemies does not engage them. One masterful at using people puts themselves below. This is called the integrity of not contending."*
+> *"Those masterful in service are not martial. The master fighter does not rage. The master of overcoming enemies does not engage them. The master of using people puts themselves below them. This is called the integrity of not contending."*
 
-Not martial, not enraged, not engaging, underneath. **爭 is the common name for what all four refuse** — and note how far that reaches past ambition. It covers the battlefield. *Compete* cannot carry a chapter about warriors; *contend* can, because English contends in arguments and in wars alike.
+Not martial, not enraged, not engaging, underneath. **爭 is the common name for what all four refuse** — and note how far that reaches past ambition. It covers the battlefield. *Compete* cannot carry a chapter about war; *contend* can, because English contends in arguments and in wars alike.
 
 This chapter also fixes the boundary of the lock. It holds 戰 (*zhàn* — to fight) and 勝 (*shèng* — to overcome) **in the same chapter as 爭**, so neither *fight* nor *overcome* can be forbidden for 爭: both are legitimately owed to other characters standing a few lines away.
 

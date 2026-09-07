@@ -177,6 +177,7 @@ chapter,line,character,pinyin,locked_term,expected_rendering,rendering_present,a
 14,19,有,yǒu,無 & 有,presence,NOT FOUND,0.3,proportional,"Know the primordial source,"
 14,21,道,dào,道,the Tao (left untranslated),NOT FOUND,0.2,proportional-fill,The thread of the Tao.
 15,1,善,shàn,善,masterful / masterful at · the masterful & the unmasterful (of people) · good (only where the text names the category),yes,1.0,exact-count,The ancients who were masterful in service
+15,1,士,shì,士,in service,yes,1.0,exact-count,The ancients who were masterful in service
 15,1,為,wéi,為,do / handle / serve as,NOT FOUND,1.0,exact-count,The ancients who were masterful in service
 15,2,妙,miào,玄 & 妙,subtle,yes,1.0,exact-count,"were faint, subtle, dark, and unobstructed,"
 15,2,玄,xuán,玄 & 妙,dark or profound,NOT FOUND,1.0,exact-count,"were faint, subtle, dark, and unobstructed,"
@@ -576,8 +577,11 @@ chapter,line,character,pinyin,locked_term,expected_rendering,rendering_present,a
 40,4,有,Yǒu,無 & 有,presence,yes,1.0,exact-count,Presence is born from absence.
 40,4,無,wú,無 & 有,absence,yes,1.0,exact-count,Presence is born from absence.
 40,4,生,shēng,生,give birth to / bear / bring forth,NOT FOUND,1.0,exact-count,Presence is born from absence.
+41,1,士,shì,士,in service,yes,0.3,proportional,"Those highest in service hear the Tao and practice it with diligence. Those middling in service hear the Tao and keep some, forget some."
 41,1,道,dào,道,the Tao (left untranslated),NOT FOUND,0.3,proportional,"Those highest in service hear the Tao and practice it with diligence. Those middling in service hear the Tao and keep some, forget some."
+41,2,士,shì,士,in service,yes,0.3,proportional,"Those lowest in service hear the Tao and laugh aloud at it. If it weren’t laughed at, the Tao wouldn’t be what it is."
 41,2,道,dào,道,the Tao (left untranslated),NOT FOUND,0.3,proportional,"Those lowest in service hear the Tao and laugh aloud at it. If it weren’t laughed at, the Tao wouldn’t be what it is."
+41,3,士,shì,士,in service,NOT FOUND,0.3,proportional,"Therefore, as the established sayings have it:"
 41,3,大,dà,大,"great — large where the scale is physical or political, greater in comparatives, master of a craftsman",NOT FOUND,0.3,proportional,"Therefore, as the established sayings have it:"
 41,3,道,dào,道,the Tao (left untranslated),NOT FOUND,0.3,proportional,"Therefore, as the established sayings have it:"
 41,4,為,wéi,為,do / handle / serve as,NOT FOUND,0.3,proportional,The clear Tao seems dark. The advancing Tao seems to retreat.
@@ -949,6 +953,7 @@ chapter,line,character,pinyin,locked_term,expected_rendering,rendering_present,a
 67,11,天,Tiān,天,sky (as a tier) · nature / the natural (as an agent),yes,0.3,proportional,"When nature would rescue someone, it guards them with tenderness."
 67,11,慈,cí,慈,tenderness,yes,0.3,proportional,"When nature would rescue someone, it guards them with tenderness."
 68,1,善,Shàn,善,masterful / masterful at · the masterful & the unmasterful (of people) · good (only where the text names the category),yes,1.0,exact-count,Those masterful in service are not martial.
+68,1,士,shì,士,in service,yes,1.0,exact-count,Those masterful in service are not martial.
 68,1,為,wéi,為,do / handle / serve as,NOT FOUND,1.0,exact-count,Those masterful in service are not martial.
 68,2,善,Shàn,善,masterful / masterful at · the masterful & the unmasterful (of people) · good (only where the text names the category),NOT FOUND,1.0,exact-count,The master fighter does not rage.
 68,3,善,Shàn,善,masterful / masterful at · the masterful & the unmasterful (of people) · good (only where the text names the category),NOT FOUND,1.0,exact-count,The master of overcoming enemies does not engage them.

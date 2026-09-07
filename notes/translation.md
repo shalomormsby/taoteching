@@ -279,6 +279,8 @@ Also rejected: **"effortless action"** — an interpretation smuggled into a ren
 
 **⚠ `--formulas` missed a third 德 saying.** It reported ▢德若▢ ×2 and did not catch 廣德若不足, because 不足 is two characters and the finder matches whole comma-segments — `WORKLIST.md` T5-13, confirmed on a live line for the first time.
 
+**士 (*shì*) is now locked to "in service"** (`glossary/shi-士.md`), across ch 15, 41 and 68. 說文 defines it in two characters — **士，事也**, *a 士 is 事, affairs* — which is the character whose graph is a hand gripping the badge of office; the 一 + 十 reading attached to a Confucius quotation is Han philosophy over a shape, as 董仲舒's is for 王. **The commentators diverge and that decided it:** 王弼 reads 士 as an office (士卒之帥也, *"the commander of the troops"*), 河上公 as a disposition (言貴道德，不好武力). *In service* leaves both standing where *officer* — the stronger English, and 王弼's reading exactly — would pick one, and was declined as bureaucratic. *Student* was never available: nobody in ch 41 is at school, and 河上公's middle 士 is 治國以太平, governing a state. **Seam noted per standing rule 2:** 士 named a male class, and the English is deliberately neutral.
+
 ### Ch 14, 15, 25 · 混 → "mixed", and 大 locked to "great"
 
 *(2026-09-06. Full argument in ch 25's own `## Notes`.)*

@@ -173,7 +173,7 @@ character,pinyin,gloss,gloss_source,gloss_agreement,our_render,lock_status,never
 動,dòng,,apparatus-split,1/2,,,,5,5,"5,8,15,40,50",5,50,0.94,
 厚,hòu,,none,,,,,5,5,"38,44,50,55,75",38,75,0.94,
 厭,yàn,,none,,,,,5,3,"53,66,72",53,72,0.94,
-士,shì,scholars/officers,apparatus,1/1,,,,5,3,"15,41,68",15,68,0.94,
+士,shì,in service,locked,,in service,locked,student; scholar; warrior; knight; gentleman; officer; servant,5,3,"15,41,68",15,68,0.94,glossary/shi-士.md
 安,ān,take the calm/at rest,apparatus,1/1,,,,5,5,"15,35,64,79,80",15,80,0.94,
 害,hai,,none,,,,,5,5,"35,56,66,73,81",35,81,0.94,
 家,jiā,family/nation,apparatus,1/1,,,,5,3,"18,54,57",18,57,0.94,

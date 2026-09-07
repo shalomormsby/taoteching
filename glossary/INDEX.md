@@ -7,7 +7,7 @@
 python3 tools/build_index.py
 ```
 
-**42 entries.** Sorted by how much of the book each term touches.
+**43 entries.** Sorted by how much of the book each term touches.
 
 | Term | Say | Render as | Never | Ch. | Status | Entry |
 |---|---|---|---|---|---|---|
@@ -46,6 +46,7 @@ python3 tools/build_index.py
 | **虛** | *xū* | empty (adjective) · to empty (verb) | "emptiness", "the void", "vacuity", "nothingness" | 5 | open — not yet a lock | [`xu-虛.md`](xu-虛.md) |
 | **貨** | *huò* | goods | "treasure", "precious", "scarce", "riches" | 5 | **locked** | [`huo-貨.md`](huo-貨.md) |
 | **公** | *gōng* | impartiality / impartial (the quality) · lord / minister (the office) | "duke", "equanimity", "justice" | 3 | **locked** | [`gong-公.md`](gong-公.md) |
+| **士** | *shì* | in service | "student", "scholar", "warrior", "knight", "gentleman", "officer", "servant" | 3 | **locked** | [`shi-士.md`](shi-士.md) |
 | **慈** | *cí* | tenderness | "compassion", "mercy", "maternal love", "filial piety" | 3 | **locked** | [`ci-慈.md`](ci-慈.md) |
 | **知足** | *zhī zú* | knowing you have enough / contentment | "sufficiency", "fulfilled" | 3 | **locked** | [`zhizu-知足.md`](zhizu-知足.md) |
 | **命** | *mìng* | the allotted course — what is spoken over a thing and sent with it | "mandate", "destiny", "fate", "decree" | 2 | open — not yet a lock | [`ming-命.md`](ming-命.md) |

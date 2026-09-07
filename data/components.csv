@@ -130,7 +130,7 @@ component,pinyin,gloss,role,gloss_status,builds_characters,characters
 啻,,,phonetic,"no gloss needed: present for sound, not meaning",2,"敵,謫"
 單,,,phonetic,"no gloss needed: present for sound, not meaning",2,"戰,繟"
 埶,,,phonetic,"no gloss needed: present for sound, not meaning",2,"勢,熱"
-士,shì,scholars/officers,semantic,glossed,2,"吉,壯"
+士,shì,in service,semantic,glossed,2,"吉,壯"
 夂,,,semantic,not yet glossed — see sources/component-glosses.yaml,2,"冬,處"
 复,,,phonetic,"no gloss needed: present for sound, not meaning",2,"復,腹"
 夕,xī,evening — the moon half shown,semantic,glossed,2,"名,多"

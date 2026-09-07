@@ -293,6 +293,14 @@
   entry: glossary/gong-公.md
   # covers 私 -> the private / the private self
 
+- term: "士"
+  pinyin: "shì"
+  render: "in service"
+  forbidden: ["student", "scholar", "warrior", "knight", "gentleman", "officer", "servant"]
+  chapters: [15, 41, 68]
+  status: locked
+  entry: glossary/shi-士.md
+
 - term: "慈"
   pinyin: "cí"
   render: "tenderness"
