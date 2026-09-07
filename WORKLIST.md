@@ -8,7 +8,7 @@
 
 **The first draft is complete — 81 of 81, since 2026-08-26. The editing pass is the work now.**
 
-**Progress: Pass 0 ✅ · Pass A ✅ · Pass B ✅ · Pass C ✅ · Pass D 🔶 — 15 of 19 chapters (2026-09-05).** Pass D, the chapter-level rewrites, is the work now, and it has **one row per chapter** so they can be checked off one at a time. Done: **3 · 4 · 8 · 10 · 11 · 13 · 16 · 22 · 23 · 28 · 35 · 36 · 38 · 39 · 64** — fifteen of the nineteen. Gate green: 0 errors, 124 tests, hard breaks intact, worklist consistent with itself.
+**Progress: Pass 0 ✅ · Pass A ✅ · Pass B ✅ · Pass C ✅ · Pass D 🔶 — 16 of 19 chapters (2026-09-07).** Pass D, the chapter-level rewrites, is the work now, and it has **one row per chapter** so they can be checked off one at a time. Done: **3 · 4 · 8 · 10 · 11 · 13 · 16 · 22 · 23 · 28 · 35 · 36 · 38 · 39 · 41 · 64** — sixteen of the nineteen. Gate green: 0 errors, 124 tests, hard breaks intact, worklist consistent with itself.
 
 *Supersedes `RETROFIT.md` and `EDITING-PASS.md`, merged into this file on 2026-08-28 and both now deleted. This file is `RETROFIT.md` renamed, so `git log --follow WORKLIST.md` still reaches the project's start; the 2026-08-10 sweep record and the lessons it taught the checker moved to `PLAN.md`. Every item below was re-verified against the manuscript at the merge; the old file listed six repairs that had already been made.*
 
@@ -16,7 +16,7 @@
 
 ## The list
 
-**⬜ open · 🔶 part done · ✅ done · ⏸ deferred by Shalom.** Detail for every row is below, under the matching heading. **117 item rows: 60 open · 50 done · 4 part done · 3 deferred.** *(19 of them are the per-chapter Pass D rows, whose status is derived.)* *(Counted from the table itself — a hand-kept tally drifts. It read "43 open · 18 done" and matched nothing.)*
+**⬜ open · 🔶 part done · ✅ done · ⏸ deferred by Shalom.** Detail for every row is below, under the matching heading. **121 item rows: 61 open · 53 done · 4 part done · 3 deferred.** *(19 of them are the per-chapter Pass D rows, whose status is derived.)* *(Counted from the table itself — a hand-kept tally drifts. It read "43 open · 18 done" and matched nothing.)*
 
 | # | | Item | Ch | Pass |
 |---|---|---|---|---|
@@ -49,14 +49,14 @@
 | T1-16 | ✅ | ~~雄/雌 → *"assertive/yielding energy"*~~ — **rooster and hen**, forced by 牝/牡 already holding *male* / *female* | 28 | D |
 | T1-17 | ⬜ | 明 → *"clever"* — the one licensed lock exception, unrecorded | 65 | E |
 | T1-18 | ⬜ | 佐 → *"One who rules"* — follows 河上公 against the grammar, unlogged | 30 | E |
-| T1-19 | ⬜ | 大器晚成 → *"never completed"* — English follows a witness our table doesn't carry. **Also *the countless things* with no 萬物 in the chapter** | 41 | D |
+| T1-19 | ✅ | ~~大器晚成 → *"never completed"* — English follows a witness our table doesn't carry. **Also *the countless things* with no 萬物**~~ — the witness call is now argued in the chapter notes; 夫唯道，善貸且成 reads *"Only the Tao is masterful at lending, and at completing."* 貸 is **to lend** (貝, money), and 王弼 rules out our old *provides for*: 貸之非唯供其乏而已 | 41 | D |
 | T1-20 | ⬜ | Four `unlogged-variant` warnings | 2 9 26 51 | E |
 | T1-21 | ⬜ | 配天 — the chapter and its own note disagree; the contested 天 line | 68 | F |
 | | | **Tier 2 · One character, many Englishes** | | |
 | T2-19 | ⬜ | ★ **The holding family — 守 執 保 有 collapsed into "hold."** 執 carries opposite valences and the English hides it | 5 9 14 15 16 28 29 32 35 37 52 62 64 67 69 74 79 | E |
 | T2-1 | ⬜ | **身** — *body* / *self* / *themselves*, and two of them inside ch 54. *Ch 10 avoided the noun for 營魄; if 身 lands on* body*, revisit that line* | 7 9 13 44 54 | E |
 | T2-2 | 🔶 | **智** four ways; **ch 3 settled as *the knowers*, fork logged**; *"cunning"* still wears 巧 at 19 and 57 | 3 18 19 33 65 | E |
-| T2-3 | ⬜ | **士** three ways, two on the identical phrase 善為士者. Ch 15 now reads *in service* provisionally (2026-09-06 rework); 41 *student* and 68 *warrior* still stand, and 68's *"master warrior is not martial"* cancels itself. *Rank question → T4-7* | 15 41 68 | E |
+| T2-3 | ✅ | ~~**士** three ways, two on the identical phrase 善為士者~~ — all three now **in service** (2026-09-07, Shalom's call). 說文 士，事也: one who handles **affairs**, not a student; 河上公 has the middle 士 治國以太平, *governing the state*. *Officer* was declined as bureaucratic and negatively valenced. **Seam noted:** 士 named a male class and the English is deliberately neutral. Opens T2-47 | 15 41 68 | E |
 | T2-4 | 🔶 | **氣** — ch 10 → *breath* (河上公 呼吸精氣); *vital breath* (42) and *vital energy* (55) still split | 10 42 55 | E |
 | T2-21 | ⬜ | **厚** four ways — *thick* (38) · *heavy* (44) · *abundant* (55) · *rich* (75) | 38 44 50 55 75 | E |
 | T2-22 | ✅ | ~~**嬰兒 / 赤子** both read *newborn*~~ — 嬰兒 → *infant* (10, 20, 28); 赤子 keeps *newborn* (55) | 10 20 28 55 | E |
@@ -103,7 +103,7 @@
 | D36 | ✅ | ~~**Ch 36** — four 將欲X之，必固Y之 nominalized into abstract laws~~ — the frame restored ×4; 利器 → *tools of advantage* (all three commentators); 淵 → *deep water*. **韓非 covers this chapter with worked historical examples.** Three forks logged, including 邦/國, which dates our base to Han hands | 36 | D |
 | D38 | ✅ | ~~**Ch 38** — the 道 → 德 → 仁 → 義 → 禮 descent; 失 deleted from its hinge~~ · T1-4 | 38 | D |
 | D39 | ✅ | ~~**Ch 39** — the 得一 / 無以 mirror breaks at its sixth pair~~ — the mirror was inverted; 得 → *received*; 貴/賤 → *prized/cheap*, price words not moral ones; **故致數譽無譽 departs from the base for the cart**, which both commentaries explain and the Siku editors call an error. Five forks logged · T3-6 | 39 | D |
-| D41 | ⬜ | **Ch 41** — 大器晚成 follows a witness our table doesn't carry; *the countless things* with no 萬物 · T1-19 | 41 | D |
+| D41 | ✅ | ~~**Ch 41** — 大器晚成 follows a witness our table doesn't carry; *the countless things* with no 萬物~~ — the whole chapter: the **建言 catalogue rebuilt one saying per line** (twelve proverbs had been packed onto five); 大白 → *the whitest white*, removing an English overlay the Chinese has none of; 廣 → *boundless*, 建 licensed to flex, 夷 → *level*, 質真 → *substantial truth*; 士 settled across three chapters · T1-19 · T2-3 | 41 | D |
 | D64 | ✅ | ~~**Ch 64** — already reads *handle*~~; the settled side of 為者敗之, nothing owed here | 64 | D |
 | | | **Tier 4 · Deferred by Shalom** | | |
 | T2-38 | ✅ | ~~**逝 → *expanding* at ch 25**, where 說文 gives 往也, *"to go."* 逝 is departure, not size, and it is the outbound leg of 大曰逝，逝曰遠，遠曰反 — the sequence the road-words Thread rests on. Found while writing that Thread from ch 15's 通~~ — now **departing**, and the sequence is three lines; 反 → *returning* matches ch 40 | 25 | E |
@@ -113,6 +113,10 @@
 | T2-42 | ✅ | ~~**Ch 67 — 我道大 reads *"Everyone says I am vast"*: 道 dropped and the line handed to the speaker**~~ — 道 restored, subject now *it* throughout; 大 → *great* completes the ch 25 sweep; 細 → *slight*, matching ch 63, dropping *petty*'s moral verdict | 67 | E |
 | T2-43 | ⬜ | **夫唯 (*fū wéi*) — 11 chapters, 12 lines, at least three Englishes.** *Only because* (67, 70), *Precisely because* (15), bare *Because* (2). A formula this size wants one English; surfaced when ch 15 and ch 67 were settled three days apart | 2 8 15 22 41 59 67 70 + | E |
 | T2-44 | ⬜ | **The return family — 反 · 復 · 歸 all read *return*, across 21 English lines.** 說文 keeps them distinct: 反 覆也 (overturn, on 又 a hand), 復 往來也 (going and coming, on 彳 the step radical), 歸 女嫁也 (a woman marrying in — going where one belongs). 反 → *returning* is fixed at 25 and 40; the other two are open | 14 16 25 28 34 40 52 59 65 | E |
+| T2-45 | ⬜ | **廣 two Englishes** — *boundless* at 41 (廣德若不足, settled 2026-09-07) and *reach far* at 67 (儀故能廣). 說文: 殿之大屋也, a great hall, on the roof radical 广. *Vast* is free now that 大 is locked | 41 67 | E |
+| T2-46 | ⬜ | **`glossary/ming-明.md` needs an adjectival flexion, and glosses 道 as *path*.** 明 is locked to *clear-seeing / clarity* and lists ch 41, where 明道若昧 now reads *the clear Tao* — unlicensed by the frontmatter, though the entry's own body glosses the line that way. That body gloss also reads *"the clear **path** seems dim"*, which `dao-道.md` rejects. The glossary-self-check hole | 41 + glossary | G |
+| T2-47 | ⬜ | **Ch 68's 善▢者 frame now has a seam.** 善為士者 is verbatim at 15 and 68, so its first line reads *"Those masterful in service are not martial"* — while its other three run *"The master fighter," "The master of overcoming enemies," "The master of using people."* Four instances of one frame, two shapes. Opened by T2-3 | 68 | E |
+| T2-48 | ⬜ | **`glossary/da-大.md` owes an adverbial flexion.** 大笑之 (41) reads *laugh **aloud***, which the entry's licensed list (*large · greater · master*) does not cover. Also unresolved there: whether the 大▢若▢ frame wants a superlative — ch 41's 大白 now takes one as a recorded exception, and 41 and 45 must be decided together | 41 45 + glossary | E |
 | T4-1 | ⏸ | **民 / 人** — one decision, whole book. Consider taking 身 (T2-1) with it. *Kin to T4-7* | 13 chapters | F |
 | T4-2 | ⏸ | **正 / 奇** — five Englishes | 37 45 57 58 78 | F |
 | T4-3 | ⏸ | **Em-dashes in the verse** — 14 lines *(ch 28's two and ch 15's one went with their rewrites, not by decision)* | 10 14 29 43 44 51 53 55 58 | F |

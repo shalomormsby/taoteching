@@ -263,6 +263,22 @@ Also rejected: **"effortless action"** — an interpretation smuggled into a ren
 
 **The quatrain keeps the Tao as its subject**, closing Pass C's one deferred question. With 道沖 restored the subject chain runs unbroken, which is 王弼's reading of these four lines here against 河上公's imperative; ch 56 keeps the imperative, and the divergence is now argued rather than inherited.
 
+### Ch 41 · the 建言 catalogue rebuilt, and 建 licensed to flex
+
+*(2026-09-06 / 07. Full argument in ch 41's own `## Notes`.)*
+
+**故建言有之 introduces a quotation, and twelve proverbs followed it packed onto five English lines.** `--formulas 41` shows the chapter is almost nothing but frames — ▢士聞道 ×3, ▢道若▢ ×3, ▢德若▢ ×3, 大▢無▢ ×2, and 大▢若▢ five times across **ch 41 and ch 45 together**. The English also changed shape as it went (*"Bright Tao seems dark"* against *"The highest integrity seems **like** a valley"*). Now one saying per line.
+
+**大白若辱 → "The great white seems disgraced."** *(Was "true purity seems soiled.")* **大 had been replaced by *true*** — a breach of `glossary/da-大.md` that **no check can catch**, since every rule keys off a forbidden word and this is an absence. 白 is *white*, not *purity*; and 王弼 quotes ch 28 outright — 知其白守其黑，大白然後乃得 — so the old line severed a link the commentator states. 辱 → **disgraced**, matching ch 28's 守其辱 and ch 13's 寵辱.
+
+**建 (*jiàn*) takes two Englishes in one chapter, deliberately** — *"the **established** sayings"* (建言) and *"**Sturdy** integrity"* (建德). They were unified to *established* first and the unification was undone: in English *"established integrity"* collapses into **long-standing**, a reputation, which is the opposite of the line. **The grammar licenses the split** — 建言 is a fixed compound (a received body of maxims), 建德 is 建 modifying a noun — the same pattern as 事 and 弱. The cost is that a reader cannot see the shared character; the chapter notes carry it.
+
+**廣 → "boundless."** *Broad* stated a width without implying abundance, so *broad → not enough* was no paradox. 說文 廣: 殿之大屋也, *"a great hall of a palace,"* on 广 (a roof); 王弼: 廓然無形，**不可滿也**. **Boundless says why it seems insufficient — there is no edge to arrive at.** 廣 still reads *reach far* at ch 67; two chapters, two Englishes, `WORKLIST.md` T2-45.
+
+**Also: 夷 → level** (王弼: 不執平以割物, tying it to ch 28's 大制不割); **不足 → not enough**, carrying ch 35's settled rendering; **質真 → substantial truth**, the superlative in *"the most solid truth"* being invented.
+
+**⚠ `--formulas` missed a third 德 saying.** It reported ▢德若▢ ×2 and did not catch 廣德若不足, because 不足 is two characters and the finder matches whole comma-segments — `WORKLIST.md` T5-13, confirmed on a live line for the first time.
+
 ### Ch 14, 15, 25 · 混 → "mixed", and 大 locked to "great"
 
 *(2026-09-06. Full argument in ch 25's own `## Notes`.)*
