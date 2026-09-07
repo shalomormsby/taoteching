@@ -211,6 +211,14 @@ Heshang Gong's reading also independently supports the Mawangdui 自今及古 (*
 
 *`DISCOVERIES.md` §1 and §4 rest on the superseded version of this note and both need rewriting. See the correction banners there.*
 
+### Ch 29 · 挫 / 載 and 歔 / 呴 — two forks in one four-line series
+
+*(2026-09-07.)* Block 2 runs four 或▢或▢ pairs, and the last two both carry collation notes in the Siku edition of 王弼.
+
+**或挫或隳 → we follow 河上公 and read 載.** 〔案挫河上公注本作**載**〕, and his lemma is 或載或隳. 挫 (*cuò*) is 說文 **摧也**, *to break*, standing beside 隳 (*huī* — to ruin): **two wrecking words, where the three pairs before it are all oppositions** — 行/隨 (go ahead / follow), 歔/吹 (breathe out / blow), 強/羸 (strong / frail). 載 (*zài*) is 說文 **乘也。从車**, *to carry*, on the **cart** radical, so *carried* against *toppled* restores the pattern. **王弼's own gloss requires one:** 凡此諸或，言物事**逆順反覆** — *"all these 'sometimes' speak of things and affairs going against and along, reversing and returning."* **⚠ Both witnesses are transmitted, not excavated** — Guodian does not carry ch 29 — so this follows a Han commentary against our Wei base **on internal grounds only**, and is recorded as an editorial call rather than a manuscript one.
+
+**或歔或吹 → we keep the base.** 〔案歔河上公注本作**呴**〕. 河上公 reads his own text as a **temperature** pair: 呴溫也，吹寒也。有所溫必有所寒也 — *"呴 is to warm, 吹 is to cool; what warms one thing must cool another."* Our 歔 is 說文 欷也…一曰出气也, *to sob; to let out breath* — a soft breath against a hard blow rather than warm against cold. The reading is recorded, not adopted; **"some sigh, some blow."**
+
 ### Ch 41 · 大器晚成 / 免成 — late, or never
 
 Received: 晚成, "completed **late**." Mawangdui reads 免成, Guodian reads 曼成 — both "**never** completed / free of completion." We follow the manuscript reading — *"the great vessel is never completed"* — because it completes the parallel with its neighbors (無隅 / 希聲 / 無形, each "the great X *lacks* its defining mark"). Flagged here rather than decided in silence.

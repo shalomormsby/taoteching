@@ -8,7 +8,7 @@
 
 **The first draft is complete — 81 of 81, since 2026-08-26. The editing pass is the work now.**
 
-**Progress: Pass 0 ✅ · Pass A ✅ · Pass B ✅ · Pass C ✅ · Pass D 🔶 — 16 of 19 chapters (2026-09-07).** Pass D, the chapter-level rewrites, is the work now, and it has **one row per chapter** so they can be checked off one at a time. Done: **3 · 4 · 8 · 10 · 11 · 13 · 16 · 22 · 23 · 28 · 35 · 36 · 38 · 39 · 41 · 64** — sixteen of the nineteen. Gate green: 0 errors, 124 tests, hard breaks intact, worklist consistent with itself.
+**Progress: Pass 0 ✅ · Pass A ✅ · Pass B ✅ · Pass C ✅ · Pass D 🔶 — 17 of 19 chapters (2026-09-07).** Pass D, the chapter-level rewrites, is the work now, and it has **one row per chapter** so they can be checked off one at a time. Done: **3 · 4 · 8 · 10 · 11 · 13 · 16 · 22 · 23 · 28 · 29 · 35 · 36 · 38 · 39 · 41 · 64** — seventeen of the nineteen. Gate green: 0 errors, 124 tests, hard breaks intact, worklist consistent with itself.
 
 *Supersedes `RETROFIT.md` and `EDITING-PASS.md`, merged into this file on 2026-08-28 and both now deleted. This file is `RETROFIT.md` renamed, so `git log --follow WORKLIST.md` still reaches the project's start; the 2026-08-10 sweep record and the lessons it taught the checker moved to `PLAN.md`. Every item below was re-verified against the manuscript at the merge; the old file listed six repairs that had already been made.*
 
@@ -16,7 +16,7 @@
 
 ## The list
 
-**⬜ open · 🔶 part done · ✅ done · ⏸ deferred by Shalom.** Detail for every row is below, under the matching heading. **121 item rows: 61 open · 53 done · 4 part done · 3 deferred.** *(19 of them are the per-chapter Pass D rows, whose status is derived.)* *(Counted from the table itself — a hand-kept tally drifts. It read "43 open · 18 done" and matched nothing.)*
+**⬜ open · 🔶 part done · ✅ done · ⏸ deferred by Shalom.** Detail for every row is below, under the matching heading. **121 item rows: 59 open · 56 done · 3 part done · 3 deferred.** *(19 of them are the per-chapter Pass D rows, whose status is derived.)* *(Counted from the table itself — a hand-kept tally drifts. It read "43 open · 18 done" and matched nothing.)*
 
 | # | | Item | Ch | Pass |
 |---|---|---|---|---|
@@ -37,7 +37,7 @@
 | T1-5 | ✅ | ~~Bare 德 → *"profound integrity"* ×3~~ — 玄德's word, on a chapter with no 玄; triad restored | 23 | C |
 | T1-6 | ✅ | ~~守 → *"Embrace"* — 守/抱 swapped~~ — 守 → *hold to*, matching ch 28; **極 and 篤 were both dropped entirely** and are now rendered | 16 | D |
 | T1-7 | ✅ | ~~守 → *"attune to"* ×3; 常 dropped from all three 常德~~ — 守 → *hold to*; 常 restored ×3; the template runs unbroken | 28 | D |
-| T1-8 | ⬜ | 為 → *"force"* ×3; clashes with ch 64's *handle* | 29 | D |
+| T1-8 | ✅ | ~~為 → *"force"* ×3; clashes with ch 64's *handle*~~ — all three now **handle**, per the lock. *Force* belongs to 力 (33, 68) and **強 stands in this chapter**; the substitution also cost 王弼's argument, 可因而不可為, *"can be gone along with but not handled"* | 29 | D |
 | T1-9 | ⬜ | 左/右 as *"creation"/"destruction"*, then literal four lines later | 31 | D |
 | T1-10 | ✅ | ~~無身 → *"the separate self dissolves"*~~ — an Advaita import that also **broke 有/無 on the one line in the book applying the pair to a person**; now *if I had no body* | 13 | D |
 | T1-11 | ⬜ | 古始 → *"the primordial source"* — forbidden register | 14 | E |
@@ -70,7 +70,7 @@
 | T2-12 | ✅ | ~~**以此** three ways~~ — all three now *"By this."*; two stale notes corrected | 21 54 57 | C |
 | T2-13 | ✅ | ~~**故去彼取此** three ways~~ — all three now ch 72's line; *gut* locked; *embrace* freed | 12 38 72 | C |
 | T2-14 | ✅ | ~~難得之貨 ×3 · 信不足焉 ×2 · 挫其銳…同其塵 ×2~~ — subject settled with T1-2: the Tao at ch 4, imperative at ch 56 | 3 4 12 17 23 56 64 | C |
-| T2-15 | 🔶 | Formula pairs — **5 closed**; 為天下式 unified at ch 22/28. Only 為者敗之 left, and it is ch 29's line that is wrong (ch 64 already reads *handle*) | 29 | D |
+| T2-15 | ✅ | ~~Formula pairs~~ — **all 6 closed.** 為者敗之，執者失之 now reads identically at ch 29 and ch 64 | 29 64 | D |
 | T2-16 | ⬜ | **事** wants an entry; 無事's licensed split needs confirming | 48 57 63 | E |
 | T2-17 | ⬜ | **私** two ways, sheltering under 公's `covers:` | 7 19 | E |
 | T2-20 | ⬜ | **巧** — *skill* (45) vs *cunning* (19, 57); the same fault as 辯, one line above it | 19 45 57 | E |
@@ -96,7 +96,7 @@
 | D23 | ✅ | ~~**Ch 23** — 同 as dissolution ×6; *intensity* and *we* rendering nothing; 事's lock breached by *actions*~~; three forks logged · T2-25 | 23 | D |
 | D22 | ✅ | ~~**Ch 22** — 為天下式 → *serves as the world's pattern*~~; visited as the settled half of a formula pair · T2-15 | 22 | D |
 | D28 | ✅ | ~~**Ch 28** — the pointing test failed on nearly every line~~ · T1-7 · T1-15 · T1-16 · T3-5 | 28 | D |
-| D29 | ⬜ | **Ch 29** — 為 → *force* ×3, clashing with ch 64's *handle*; closes the last formula pair · T1-8 · T2-15 | 29 | D |
+| D29 | ✅ | ~~**Ch 29** — 為 → *force* ×3, clashing with ch 64's *handle*; closes the last formula pair~~ — the whole chapter: 取 and 物 restored, 或▢或▢ ×4 given four matching lines, 去 ×3 unflattened to *lets go of*, 甚/奢/泰 separated on 說文, 羸 → *frail*. **Two forks logged, one followed against the base** (挫 → 載, on internal grounds) · T1-8 · T2-15 | 29 | D |
 | D31 | ⬜ | **Ch 31** — 左/右 as *creation*/*destruction*, then literal four lines later; 君子 → *the sage* · T1-9 | 31 | D |
 | D32 | ⬜ | **Ch 32** — the closing 譬…猶 simile is garbled · T1-14 | 32 | D |
 | D35 | ✅ | ~~**Ch 35** — 往 → *the world routes to you*; 執 → *Embody*~~ — the whole chapter: **不足 → *not enough*, not *cannot***, which un-splits 王弼's single argument; 執 → *grasp* (the ch 29 mirror); 大象 → *the great image*; 口 gets its first *mouth*. Two forks logged. The ch 28 rider is cleared · T1-12 | 35 | D |

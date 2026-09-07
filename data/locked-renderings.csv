@@ -390,15 +390,15 @@ chapter,line,character,pinyin,locked_term,expected_rendering,rendering_present,a
 28,14,為,wéi,為,do / handle / serve as,NOT FOUND,1.0,exact-count,The sage puts them to use and becomes chief of the officers.
 28,14,用,yòng,無 & 有,use,yes,1.0,exact-count,The sage puts them to use and becomes chief of the officers.
 28,15,大,dà,大,"great — large where the scale is physical or political, greater in comparatives, master of a craftsman",NOT FOUND,1.0,exact-count,So the great cutting severs nothing.
-29,1,天,tiān,天,sky (as a tier) · nature / the natural (as an agent),NOT FOUND,0.3,proportional,Those who wish to force their will upon the world — I see that this cannot be done.
-29,1,為,wéi,為,do / handle / serve as,yes,0.3,proportional,Those who wish to force their will upon the world — I see that this cannot be done.
-29,2,吾,wú,我 & 吾,the self seeing,NOT FOUND,0.3,proportional,The world is a sacred vessel. It cannot be forced. It cannot be grasped.
-29,3,器,qì,器,vessel / tool / implement,NOT FOUND,0.3,proportional,Those who force it ruin it. Those who grasp it lose it.
-29,3,天,Tiān,天,sky (as a tier) · nature / the natural (as an agent),NOT FOUND,0.3,proportional,Those who force it ruin it. Those who grasp it lose it.
-29,4,為,wéi,為,do / handle / serve as,NOT FOUND,0.2,proportional-fill,Those who force it ruin it. Those who grasp it lose it.
-29,5,為,Wéi,為,do / handle / serve as,NOT FOUND,0.3,proportional,"Therefore, sometimes leading, sometimes following,"
-29,6,物,wù,萬物,things / something,NOT FOUND,0.3,proportional,"Sometimes breathing heavily, sometimes breathing easily,"
-29,8,強,qiáng,強,"strong — *strengthen* where it takes an object, *forcing* where it strains against a thing's nature",NOT FOUND,0.2,proportional-fill,"Sometimes strong, sometimes weak,"
+29,1,天,tiān,天,sky (as a tier) · nature / the natural (as an agent),NOT FOUND,0.3,proportional,"Those who would take the world and handle it,"
+29,1,為,wéi,為,do / handle / serve as,yes,0.3,proportional,"Those who would take the world and handle it,"
+29,2,吾,wú,我 & 吾,the self seeing,NOT FOUND,0.3,proportional,I see they will not succeed.
+29,3,器,qì,器,vessel / tool / implement,yes,0.3,proportional,The world is a sacred vessel. It cannot be handled. It cannot be grasped.
+29,3,天,Tiān,天,sky (as a tier) · nature / the natural (as an agent),NOT FOUND,0.3,proportional,The world is a sacred vessel. It cannot be handled. It cannot be grasped.
+29,4,為,wéi,為,do / handle / serve as,yes,0.3,proportional,Those who handle it ruin it. Those who grasp it lose it.
+29,5,為,Wéi,為,do / handle / serve as,NOT FOUND,0.3,proportional,"So among things, some go ahead, some follow;"
+29,6,物,wù,萬物,things / something,yes,0.2,proportional-fill,"So among things, some go ahead, some follow;"
+29,8,強,qiáng,強,"strong — *strengthen* where it takes an object, *forcing* where it strains against a thing's nature",NOT FOUND,0.3,proportional,"some are strong, some are frail;"
 30,1,道,dào,道,the Tao (left untranslated),NOT FOUND,0.3,proportional,One who rules in alignment with the Tao does not use military force to dominate the world.
 30,2,天,tiān,天,sky (as a tier) · nature / the natural (as an agent),NOT FOUND,0.3,proportional,Such undertakings tend to come back on you.
 30,2,強,qiáng,強,"strong — *strengthen* where it takes an object, *forcing* where it strains against a thing's nature",NOT FOUND,0.3,proportional,Such undertakings tend to come back on you.

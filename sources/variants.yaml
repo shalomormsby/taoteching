@@ -1193,3 +1193,35 @@
     whole point. We keep the base.
   logged: notes/manuscript.md
 
+- chapter: 29
+  line: "或挫或隳"
+  base: "挫"
+  witnesses: { heshanggong: "載" }
+  meaning_bearing: true
+  our_call: heshanggong
+  note: >
+    Wang Bi's Siku text carries the collation note 〔案挫河上公注本作載〕, and
+    Heshang Gong's lemma reads 或載或隳. 挫 is Shuowen 摧也, to break, beside
+    隳, to ruin - two wrecking words, where the three pairs before it are all
+    oppositions (行/隨, 歔/吹, 强/羸). 載 is 乘也 on the cart radical 車, to
+    carry: carried up against toppled down restores the pair, and Wang Bi's own
+    gloss requires one - 凡此諸或，言物事逆順反覆. Both witnesses are
+    TRANSMITTED, not excavated; Guodian does not carry this chapter. Followed on
+    internal grounds, not on manuscript age.
+  logged: notes/manuscript.md
+
+- chapter: 29
+  line: "或歔或吹"
+  base: "歔"
+  witnesses: { heshanggong: "呴" }
+  meaning_bearing: true
+  our_call: base
+  note: >
+    Wang Bi's Siku text notes 〔案歔河上公注本作呴〕. Heshang Gong glosses his own
+    reading as a temperature pair - 呴溫也，吹寒也。有所溫必有所寒也, "呴 is to
+    warm, 吹 is to cool; what warms one thing must cool another." Our base reads
+    歔, Shuowen 欷也…一曰出气也, to sob or to let out breath, which gives a
+    soft-breath against a hard-blow rather than warm against cold. We keep the
+    base and record the other reading.
+  logged: notes/manuscript.md
+
