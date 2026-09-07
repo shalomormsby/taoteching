@@ -414,19 +414,19 @@ chapter,line,character,pinyin,locked_term,expected_rendering,rendering_present,a
 30,13,物,Wù,萬物,things / something,yes,0.2,proportional-fill,"When things reach their prime, they decay."
 30,14,道,dào,道,the Tao (left untranslated),NOT FOUND,0.3,proportional,This is called not-Tao. Not-Tao comes to an early end.
 30,15,道,dào,道,the Tao (left untranslated),NOT FOUND,0.2,proportional-fill,This is called not-Tao. Not-Tao comes to an early end.
-31,1,器,qì,器,vessel / tool / implement,NOT FOUND,0.3,proportional,Understand that even the most finely-crafted weapons truly are instruments of ill omen.
+31,1,器,qì,器,vessel / tool / implement,yes,0.3,proportional,Fine weapons are tools of ill omen.
 31,2,物,wù,萬物,things / something,yes,0.3,proportional,Living things recoil from them.
 31,3,有,yǒu,無 & 有,presence,NOT FOUND,0.3,proportional,Those who are with the Tao do not dwell among them.
 31,3,道,dào,道,the Tao (left untranslated),NOT FOUND,0.3,proportional,Those who are with the Tao do not dwell among them.
-31,5,用,yòng,無 & 有,use,yes,0.2,proportional-fill,"In times of peace, the sage chooses creation. When the military must be used, they choose destruction."
-31,6,器,qì,器,vessel / tool / implement,yes,0.3,proportional,Weapons are tools of ill omen. They are not the tools of the sage.
-31,7,器,qì,器,vessel / tool / implement,NOT FOUND,0.3,proportional,"When the circumstances are unavoidable, calm detachment is essential."
-31,8,用,yòng,無 & 有,use,NOT FOUND,0.3,proportional,"Achieve victory, but don’t revel in it."
-31,9,為,wéi,為,do / handle / serve as,yes,0.2,proportional-fill,"Achieve victory, but don’t revel in it."
-31,13,天,tiān,天,sky (as a tier) · nature / the natural (as an agent),NOT FOUND,0.3,proportional,"The lieutenant general stands on the left, the supreme commander on the right,"
-31,14,事,shì,事,"affairs / undertakings (noun) · to serve, to attend to (verb)",NOT FOUND,0.2,proportional-fill,"The lieutenant general stands on the left, the supreme commander on the right,"
-31,14,事,shì,事,"affairs / undertakings (noun) · to serve, to attend to (verb)",NOT FOUND,0.2,proportional-fill,"The lieutenant general stands on the left, the supreme commander on the right,"
-31,17,眾,zhòng,眾,the crowd / the many,NOT FOUND,0.3,proportional,A victory in battle should be treated like a funeral rite.
+31,5,用,yòng,無 & 有,use,NOT FOUND,0.3,proportional,using weapons prizes the right.
+31,6,器,qì,器,vessel / tool / implement,NOT FOUND,0.2,proportional-fill,using weapons prizes the right.
+31,7,器,qì,器,vessel / tool / implement,yes,0.3,proportional,"Weapons are tools of ill omen, not the noble's tools."
+31,8,用,yòng,無 & 有,use,yes,0.3,proportional,"Used only when unavoidable, calm detachment is best."
+31,9,為,wéi,為,do / handle / serve as,yes,0.3,proportional,"Win, but do not glorify it."
+31,13,天,tiān,天,sky (as a tier) · nature / the natural (as an agent),NOT FOUND,0.3,proportional,Auspicious occasions honor the left; inauspicious occasions honor the right.
+31,14,事,shì,事,"affairs / undertakings (noun) · to serve, to attend to (verb)",NOT FOUND,0.3,proportional,"The deputy general takes the left, the higher general the right,"
+31,14,事,shì,事,"affairs / undertakings (noun) · to serve, to attend to (verb)",NOT FOUND,0.3,proportional,"The deputy general takes the left, the higher general the right,"
+31,17,眾,zhòng,眾,the crowd / the many,NOT FOUND,0.3,proportional,A victory in battle is placed by the rites of mourning.
 32,1,常,cháng,常,the ever-present / the abiding,NOT FOUND,0.3,proportional,"The Tao is ever nameless, uncarved."
 32,1,無,wú,無 & 有,absence,NOT FOUND,0.3,proportional,"The Tao is ever nameless, uncarved."
 32,1,道,Dào,道,the Tao (left untranslated),NOT FOUND,0.3,proportional,"The Tao is ever nameless, uncarved."

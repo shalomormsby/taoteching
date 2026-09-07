@@ -8,7 +8,7 @@
 
 **The first draft is complete — 81 of 81, since 2026-08-26. The editing pass is the work now.**
 
-**Progress: Pass 0 ✅ · Pass A ✅ · Pass B ✅ · Pass C ✅ · Pass D 🔶 — 17 of 19 chapters (2026-09-07).** Pass D, the chapter-level rewrites, is the work now, and it has **one row per chapter** so they can be checked off one at a time. Done: **3 · 4 · 8 · 10 · 11 · 13 · 16 · 22 · 23 · 28 · 29 · 35 · 36 · 38 · 39 · 41 · 64** — seventeen of the nineteen. Gate green: 0 errors, 124 tests, hard breaks intact, worklist consistent with itself.
+**Progress: Pass 0 ✅ · Pass A ✅ · Pass B ✅ · Pass C ✅ · Pass D 🔶 — 18 of 19 chapters (2026-09-07).** Pass D, the chapter-level rewrites, is the work now, and it has **one row per chapter** so they can be checked off one at a time. Done: **3 · 4 · 8 · 10 · 11 · 13 · 16 · 22 · 23 · 28 · 29 · 31 · 35 · 36 · 38 · 39 · 41 · 64** — eighteen of the nineteen. Gate green: 0 errors, 124 tests, hard breaks intact, worklist consistent with itself.
 
 *Supersedes `RETROFIT.md` and `EDITING-PASS.md`, merged into this file on 2026-08-28 and both now deleted. This file is `RETROFIT.md` renamed, so `git log --follow WORKLIST.md` still reaches the project's start; the 2026-08-10 sweep record and the lessons it taught the checker moved to `PLAN.md`. Every item below was re-verified against the manuscript at the merge; the old file listed six repairs that had already been made.*
 
@@ -16,7 +16,7 @@
 
 ## The list
 
-**⬜ open · 🔶 part done · ✅ done · ⏸ deferred by Shalom.** Detail for every row is below, under the matching heading. **121 item rows: 59 open · 56 done · 3 part done · 3 deferred.** *(19 of them are the per-chapter Pass D rows, whose status is derived.)* *(Counted from the table itself — a hand-kept tally drifts. It read "43 open · 18 done" and matched nothing.)*
+**⬜ open · 🔶 part done · ✅ done · ⏸ deferred by Shalom.** Detail for every row is below, under the matching heading. **122 item rows: 57 open · 58 done · 4 part done · 3 deferred.** *(19 of them are the per-chapter Pass D rows, whose status is derived.)* *(Counted from the table itself — a hand-kept tally drifts. It read "43 open · 18 done" and matched nothing.)*
 
 | # | | Item | Ch | Pass |
 |---|---|---|---|---|
@@ -38,7 +38,7 @@
 | T1-6 | ✅ | ~~守 → *"Embrace"* — 守/抱 swapped~~ — 守 → *hold to*, matching ch 28; **極 and 篤 were both dropped entirely** and are now rendered | 16 | D |
 | T1-7 | ✅ | ~~守 → *"attune to"* ×3; 常 dropped from all three 常德~~ — 守 → *hold to*; 常 restored ×3; the template runs unbroken | 28 | D |
 | T1-8 | ✅ | ~~為 → *"force"* ×3; clashes with ch 64's *handle*~~ — all three now **handle**, per the lock. *Force* belongs to 力 (33, 68) and **強 stands in this chapter**; the substitution also cost 王弼's argument, 可因而不可為, *"can be gone along with but not handled"* | 29 | D |
-| T1-9 | ⬜ | 左/右 as *"creation"/"destruction"*, then literal four lines later | 31 | D |
+| T1-9 | ✅ | ~~左/右 as *"creation"/"destruction"*, then literal four lines later~~ — both restored. The old line also **reversed the argument**, having the sage choose destruction where 河上公 has 兵道與君子道反, *the way of arms and the way of the 君子 are opposed* | 31 | D |
 | T1-10 | ✅ | ~~無身 → *"the separate self dissolves"*~~ — an Advaita import that also **broke 有/無 on the one line in the book applying the pair to a person**; now *if I had no body* | 13 | D |
 | T1-11 | ⬜ | 古始 → *"the primordial source"* — forbidden register | 14 | E |
 | T1-12 | ✅ | ~~往 → *"the world routes to you"* ×2~~ — 往 is a verb of going, as at ch 80; **執 → *grasp*, restoring ch 29's mirror**, and 大象 → *the great image*, matching ch 41 | 35 | D |
@@ -61,7 +61,7 @@
 | T2-21 | ⬜ | **厚** four ways — *thick* (38) · *heavy* (44) · *abundant* (55) · *rich* (75) | 38 44 50 55 75 | E |
 | T2-22 | ✅ | ~~**嬰兒 / 赤子** both read *newborn*~~ — 嬰兒 → *infant* (10, 20, 28); 赤子 keeps *newborn* (55) | 10 20 28 55 | E |
 | T2-5 | ⬜ | **靜** reads *"Silence"* here alone | 26 | E |
-| T2-6 | ⬜ | **君** two ways three lines apart; 君子 → *"the sage"* — the opposition's honorific on our figure. *Rank question → T4-7* | 26 31 | E |
+| T2-6 | 🔶 | ~~君子 → *"the sage"* — the opposition's honorific on our figure~~ — **君子 → *the noble* at 26 and 31** (2026-09-07, Shalom's call; neutral over *the gentleman*). **Still open: 君 alone reads *ruler* and *mastery* three lines apart at ch 26.** *Rank question → T4-7* | 26 31 | E |
 | T2-7 | ⬜ | **志** — *ambition* (3) / *will* (33) | 3 33 | E |
 | T2-8 | ✅ | ~~Eight 善 rendered eight ways~~ — **nine**, and one was deleted; all nine now **masterful**; 上善 → *the most masterful*; **善 governs a verb, 18 of 18** | 8 | D |
 | T2-9 | ✅ | ~~**辯** → *"eloquence"*~~ — **argue** in both; the 大X若Y frame does not endorse its X | 45 81 | C |
@@ -97,7 +97,7 @@
 | D22 | ✅ | ~~**Ch 22** — 為天下式 → *serves as the world's pattern*~~; visited as the settled half of a formula pair · T2-15 | 22 | D |
 | D28 | ✅ | ~~**Ch 28** — the pointing test failed on nearly every line~~ · T1-7 · T1-15 · T1-16 · T3-5 | 28 | D |
 | D29 | ✅ | ~~**Ch 29** — 為 → *force* ×3, clashing with ch 64's *handle*; closes the last formula pair~~ — the whole chapter: 取 and 物 restored, 或▢或▢ ×4 given four matching lines, 去 ×3 unflattened to *lets go of*, 甚/奢/泰 separated on 說文, 羸 → *frail*. **Two forks logged, one followed against the base** (挫 → 載, on internal grounds) · T1-8 · T2-15 | 29 | D |
-| D31 | ⬜ | **Ch 31** — 左/右 as *creation*/*destruction*, then literal four lines later; 君子 → *the sage* · T1-9 | 31 | D |
+| D31 | ✅ | ~~**Ch 31** — 左/右 as *creation*/*destruction*, then literal four lines later; 君子 → *the sage*~~ — the whole chapter: 器 ×3, 兵 ×3, 美 ×2 and 以喪禮處之 ×2 each unflattened; 眾 restored to its lock; 偏/上將軍 given their ranks back and the seating inversion with them; the two inflated 夫 removed. **The Siku editors flag part of this chapter as absorbed commentary** — logged · T1-9 · T2-6 | 31 | D |
 | D32 | ⬜ | **Ch 32** — the closing 譬…猶 simile is garbled · T1-14 | 32 | D |
 | D35 | ✅ | ~~**Ch 35** — 往 → *the world routes to you*; 執 → *Embody*~~ — the whole chapter: **不足 → *not enough*, not *cannot***, which un-splits 王弼's single argument; 執 → *grasp* (the ch 29 mirror); 大象 → *the great image*; 口 gets its first *mouth*. Two forks logged. The ch 28 rider is cleared · T1-12 | 35 | D |
 | D36 | ✅ | ~~**Ch 36** — four 將欲X之，必固Y之 nominalized into abstract laws~~ — the frame restored ×4; 利器 → *tools of advantage* (all three commentators); 淵 → *deep water*. **韓非 covers this chapter with worked historical examples.** Three forks logged, including 邦/國, which dates our base to Han hands | 36 | D |
@@ -117,6 +117,7 @@
 | T2-46 | ⬜ | **`glossary/ming-明.md` needs an adjectival flexion, and glosses 道 as *path*.** 明 is locked to *clear-seeing / clarity* and lists ch 41, where 明道若昧 now reads *the clear Tao* — unlicensed by the frontmatter, though the entry's own body glosses the line that way. That body gloss also reads *"the clear **path** seems dim"*, which `dao-道.md` rejects. The glossary-self-check hole | 41 + glossary | G |
 | T2-47 | ⬜ | **Ch 68's 善▢者 frame now has a seam.** 善為士者 is verbatim at 15 and 68, so its first line reads *"Those masterful in service are not martial"* — while its other three run *"The master fighter," "The master of overcoming enemies," "The master of using people."* Four instances of one frame, two shapes. Opened by T2-3 | 68 | E |
 | T2-48 | ⬜ | **`glossary/da-大.md` owes an adverbial flexion.** 大笑之 (41) reads *laugh **aloud***, which the entry's licensed list (*large · greater · master*) does not cover. Also unresolved there: whether the 大▢若▢ frame wants a superlative — ch 41's 大白 now takes one as a recorded exception, and 41 and 45 must be decided together | 41 45 + glossary | E |
+| T2-49 | ⬜ | **兵 two Englishes** — *weapons* at 31, 50, 57, 69, 80 and *military force* at ch 30 (以兵強天下). *Arms* is unavailable: that is 臂, the body's arms, at 38, 42 and 64 | 30 31 50 57 69 76 80 | E |
 | T4-1 | ⏸ | **民 / 人** — one decision, whole book. Consider taking 身 (T2-1) with it. *Kin to T4-7* | 13 chapters | F |
 | T4-2 | ⏸ | **正 / 奇** — five Englishes | 37 45 57 58 78 | F |
 | T4-3 | ⏸ | **Em-dashes in the verse** — 14 lines *(ch 28's two and ch 15's one went with their rewrites, not by decision)* | 10 14 29 43 44 51 53 55 58 | F |

@@ -211,6 +211,19 @@ Heshang Gong's reading also independently supports the Mawangdui 自今及古 (*
 
 *`DISCOVERIES.md` §1 and §4 rest on the superseded version of this note and both need rewriting. See the correction banners there.*
 
+### Ch 31 · the Siku editors flag part of this chapter as absorbed commentary
+
+*(2026-09-07.)* Our vendored 王弼 carries an unusual note in the running text, at 兵者不祥之器:
+
+> 〔案自此句至言以喪禮處之，**似有注語雜入**，但河上公注本及各本俱作經文，今仍之〕
+> *"From this sentence down to 言以喪禮處之, **it appears that commentary has been mixed in**; but the 河上公 edition and all editions treat it as canonical text, so we retain it."*
+
+**That is a claim about textual stratification, not a variant reading**, and it has a second piece of evidence beside it: **王弼 leaves no commentary whatsoever on ch 31** — alone among the chapters vendored in `sources/commentaries/`, his text here is bare running characters with collation notes and nothing else. The traditional inference is that the commentary is missing because part of the passage was not scripture to him.
+
+**We keep the received text, as every edition does, and record the doubt.** It is **not** in `sources/variants.yaml`: there is no fork between named witnesses to record, and no honest `witnesses:` id for *"the Siku editors suspect an interpolation."* Same reasoning as the 焦竑 note at Ch 38.
+
+**What it touches, if true:** the stretch from 兵者不祥之器 through 言以喪禮處之 — which is most of the chapter's middle, including 非君子之器 and the general-seating lines. Readers should know the chapter's argument may be built partly of an early reader's marginalia that hardened into text.
+
 ### Ch 29 · 挫 / 載 and 歔 / 呴 — two forks in one four-line series
 
 *(2026-09-07.)* Block 2 runs four 或▢或▢ pairs, and the last two both carry collation notes in the Siku edition of 王弼.

@@ -263,6 +263,18 @@ Also rejected: **"effortless action"** — an interpretation smuggled into a ren
 
 **The quatrain keeps the Tao as its subject**, closing Pass C's one deferred question. With 道沖 restored the subject chain runs unbroken, which is 王弼's reading of these four lines here against 河上公's imperative; ch 56 keeps the imperative, and the divergence is now argued rather than inherited.
 
+### Ch 31, 26 · 君子 → "the noble", and 左/右 restored
+
+*(2026-09-07. Full argument in ch 31's own `## Notes`.)*
+
+**君子 (*jūn zǐ*) was reading "the sage," which is 聖人's word in 38 English lines.** 君子 is literally *a ruler's child* and is the **Confucian** honorific; giving it 聖人's English made Laozi's figure and Confucius's the same person. Now **the noble**, at ch 31 and at ch 26, its only other appearance. *The gentleman* was the alternative — it would have made the borrowing visible on the page — and was declined for the male default *(Shalom's call)*. **Seam noted:** 君子 named a male class and the English is deliberately neutral. T4-7.
+
+**左 and 右 had been deleted from 君子居則貴左，用兵則貴右** and replaced with *creation* and *destruction*, while the same two characters read literally four lines later. **The substitution also reversed the argument:** the old English had the sage *choosing destruction* in war, where 河上公 says 此言**兵道與君子道反** — *"the way of arms and the way of the 君子 are opposed"* — and the next line says outright 非君子之器, *not the 君子's instrument*. **左/右 are also this book's own pair:** 河上公 glosses them 貴**柔弱**也 against 貴**剛強**也, the locked *yielding* against the locked *strong*.
+
+**Four flattenings in one chapter:** 器 ran *instruments* / *tools* (locked *vessel / tool / implement*); 兵 ran *weapons* / *the military*; 美 ran *revel* / *glorify* in adjacent lines; and **以喪禮處之 — five identical characters, twice — ran *placed by the rites of mourning* against *treated like a funeral rite*.** All unified.
+
+**偏將軍 / 上將軍 → "the deputy general" / "the higher general."** *Lieutenant general* and *supreme commander* imported modern ranks and lost the passage's point — 河上公: the deputy is 卑 (lower) yet takes the yang side 以其**不專殺**也, *because he is not in charge of the killing*; the senior is 尊 (honoured) yet takes the right 言其**主殺**也, *meaning he presides over it*. **The senior officer takes the inferior seat because he is the one who kills.**
+
 ### Ch 41 · the 建言 catalogue rebuilt, and 建 licensed to flex
 
 *(2026-09-06 / 07. Full argument in ch 41's own `## Notes`.)*
