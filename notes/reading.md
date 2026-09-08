@@ -102,6 +102,21 @@ They interlock on their own vocabulary. 棄 (*qì* — abandon) binds 27 to 62; 
 
 **Two limits, stated.** 甬 is merely **phonetic** in 通, so the shared radical marks a semantic field and not a designed pun — none of these characters was built to echo 道. And whether Laozi noticed any of it is unknowable. What is checkable is that the characters are made this way and that the book reaches for them, again and again, whenever it says what the Tao does.
 
+### Thread · the standing figure — how this book measures
+
+**大 (*dà* — great) is a picture of a person seen head-on, arms and legs spread.** 說文解字 (c. 100 CE) says so in four characters — 故**大象人形**, *"therefore 大 depicts a human form"* — and it is a **radical**, 凡大之屬皆从大, with a family made by marking that same body in different places.
+
+- **天** (*tiān* — sky): a line **above the head**. 顛也。至高無上。从一大 — *"the crown of the head; supreme, nothing above it; from 一 and 大."* **The sky is named from the top of a person.**
+- **立** (*lì* — to stand): a line **beneath the feet**. 住也。从大立一之上 — *"to stand; from 大 standing on top of 一."*
+- **夫** (*fū* — a man): a line **through the topknot**. 一以象簪也 — *"the single stroke depicts a **hairpin**"* — the cap of adulthood. This is the 夫 inside ch 38's 大丈夫.
+- **亦** (*yì* — also): marks at **both sides**. 人之臂亦也 — *"a person's **armpits**,"* borrowed for its sound to mean *also*.
+
+**Chapter 25 puts three of them in one line.** 天大，地大，人**亦**大 — and 說文's own entry for 大 **quotes that line** to define the character. So the sentence naming the four greats is written almost entirely in variations of one figure, and 人亦大 is close to tautological in the graphs: 大 *is* a person, 亦 *is* that person's armpits. **A person is also what the picture of a person means.**
+
+**The tautology is the argument.** Scale in this book runs **outward from a body**, not downward from a heaven. That is why `glossary/tian-天.md` locks 天 to **sky** — *"a word for the crown of your head is not a word for an afterlife"* — and why `glossary/da-大.md` keeps 大 as the ordinary **great** rather than reaching for *vast*, which has no body in it. Two locks held on separate grounds, and the graphs turn out to agree with both.
+
+**⚠ Two limits.** 說文 is centuries younger than the oracle-bone forms and rationalises elsewhere — its 一 + 十 reading of 士, and the Han cosmology it transmits for 王, are both flagged in those entries. And **大 is not 人 with a stroke added**, though it looks like it: 說文 makes them independent pictographs of the same subject, 人 in profile (象臂脛之形, *arms and shins*) and 大 head-on. 天 from 大 is a derivation; 大 from 人 is a resemblance.
+
 ## Chapter notes
 
 ### Ch 16 · The ladder out of the self

@@ -26,6 +26,25 @@ The graph is a figure seen head-on — arms spread, legs apart — and the oracl
 
 **And the dictionary defines the character by quoting this book.** 天大，地大，人亦大 is Chapter 25's own line. That it is cited with 人 (*rén* — human) rather than 王 (*wáng* — king), six centuries before our earliest surviving witness for 人, bears on a fork this edition has left open — `notes/manuscript.md` · Ch 25, and `WORKLIST.md` T4-8.
 
+### 大 is a radical, and its family is made by marking the same body
+
+凡大之屬皆从大 — *"all of the 大 class follow 大."* 說文 groups a set of characters that are **one standing figure with one mark added**, and where the mark goes is the whole meaning:
+
+| | the mark | 說文 | what it becomes |
+|---|---|---|---|
+| **天** (*tiān*) | a line **above the head** | 顛也。至高無上。**从一大** | *the crown of the head* → **sky** |
+| **立** (*lì*) | a line **beneath the feet** | 住也。**从大立一之上** | *standing on the ground* → **to stand** |
+| **夫** (*fū*) | a line **through the topknot** | 丈夫也。从大，**一以象簪也** | *a hairpin* → a capped adult man |
+| **亦** (*yì*) | marks at **both sides** | **人之臂亦也**。象兩亦之形 | *the armpits* → borrowed for **also** |
+
+**Above the head is the sky; below the feet is standing; through the hair is adulthood; at the sides are the armpits.** The book's whole vocabulary of scale and position is built by putting marks on a person.
+
+**What this is not.** 大 is **not** 人 (*rén*) with a stroke added, though it looks like it. 說文 makes both **independent pictographs of the same subject**: 人 is 象**臂脛**之形, *"the form of arms and shins,"* seen in profile; 大 is 象**人形**, the human form seen head-on with the arms out. Siblings, not parent and child. **天 from 大 is a real derivation and 說文 states it; 大 from 人 is a resemblance.**
+
+**And it bears directly on two locks.** 天 is locked to **sky** (`tian-天.md`) precisely because 顛 is a body part — *"a word for the crown of your head is not a word for an afterlife."* The graph family says the same thing about 大: **scale in this book is measured outward from a body, not downward from a heaven.** That is the strongest single argument for keeping 大 ordinary, and it is why *vast* — a word with no body in it — was refused.
+
+**The honest limit.** 說文 is c. 100 CE, centuries after the oracle-bone forms, and it rationalises elsewhere in ways this glossary flags — 士's 一 + 十 and the Han cosmology on 王. But 天 as 大 with a head-mark, 亦 as armpits and 夫 as a hairpin are standard paleography rather than 說文's speculation. Whether Laozi or his readers saw any of it is unknowable; that the characters are built this way is not.
+
 ### Four jobs, one word
 
 | what 大 is doing | where | English |
