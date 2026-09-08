@@ -87,6 +87,21 @@ They interlock on their own vocabulary. 棄 (*qì* — abandon) binds 27 to 62; 
 
 ---
 
+### Thread · the Tao is a road, and the book keeps saying so
+
+道 is not an abstraction that later had a metaphor attached to it. **It is a road** — 說文解字 (*Shuōwén Jiězì*, c. 100 CE): 所行道也。从**辵**从𩠐。**一達謂之道** — *"the road one walks. From 辵 (*chuò* — the walking-and-road radical) and 首 (*shǒu* — head). **A single 達 — a single getting-through — is called a 道.**"* Fourteen characters in this book are built on that same radical: 道 · 通 · 達 · 遠 · 還 · 逝 · 過 · 隨 · 迎 · 迷 · 進 · 遇 · 遂 · 遺.
+
+- **Ch 40 states the central doctrine as a fact about travel.** 反者道之動 — *"Returning is the Tao's movement."* Not a property of the Tao. A direction.
+- **Ch 25 describes that movement entirely in travel verbs.** 大曰逝，逝曰遠，遠曰反 — great, then 逝 (*shì* — departing), then 遠 (*yuǎn* — going far), then 反 (*fǎn* — returning). An outbound journey and a return, in four words. *(Ch 25 read 逝 as "expanding" until 2026-09-06, which is growth in place — the one thing the line denies. 說文 gives 往也, "to go"; 王弼 glosses it 逝行也.)*
+- **Ch 14 puts the head of the road out of sight.** 迎之不見其首，隨之不見其後 — *"Go to meet it and you do not see its head; follow it and you do not see its back."* Both verbs are 辵 words — 迎 (*yíng* — to go and meet) and 隨 (*suí* — to follow) — and **首, the head, is the very component 道 is built from.** 首 appears only twice in the whole book. The road has a head, and you cannot get around to the front of it.
+- **Ch 15's 通 is 道's sibling by definition, not merely by radical.** 說文 defines 通 as 達也, and defines 道 *through* 達 (一達謂之道). Both are getting-through.
+- **Ch 30's 還.** 其事好還 — *"such affairs tend to come back."* Violence is a road that loops.
+- **Ch 27's 迷.** 雖智大迷 — clever, and badly lost. **You can lose a road. You cannot lose an abstraction.**
+
+**The through-line:** nearly every major claim about the Tao is a claim about travel — where it goes, how far, whether it returns, whether you can see its head, whether you can get lost on it. That is a different kind of statement from the one the English tradition inherited, which made 道 *the Way* and then let *way* be heard as *manner* — a way of doing things. **The character is more concrete than that, and the book keeps it concrete.** It is also an argument for leaving 道 untranslated: *the Way* keeps the road but adds a throne, and *a way* loses the road altogether.
+
+**Two limits, stated.** 甬 is merely **phonetic** in 通, so the shared radical marks a semantic field and not a designed pun — none of these characters was built to echo 道. And whether Laozi noticed any of it is unknowable. What is checkable is that the characters are made this way and that the book reaches for them, again and again, whenever it says what the Tao does.
+
 ## Chapter notes
 
 ### Ch 16 · The ladder out of the self
@@ -571,3 +586,20 @@ The opening triplet is one claim told three times, ascending: words (信/美), a
 王弼 collapses all three into four characters — 極在一也, *"the ultimate lies in the one"* — and 河上公 says the same about 博 alone: 不博者守一元也, *"the un-博 holds fast to the one origin."* The chapter's positive claim is **concentration**, not ignorance. It is not anti-intellectual; it is against the substitution of range for depth, which is a recognisable enough disease that the third couplet needs no translation into modern terms.
 
 **And it is the book about itself.** 信言不美 is a poem, at its close, telling you not to trust it because it is beautiful.
+
+### Ch 23 · the storm lines are left unjoined, on purpose
+
+> Brevity in speech happens of itself.
+> A squall does not last out the morning.
+> A downpour does not last out the day.
+
+**Three statements, no connective — and that is a decision, not an omission.** *(Shalom's call, 2026-09-04: it "creates more space for the reader to ponder the meaning.")*
+
+Our base text prints 故 (*gù* — therefore) at the head of the second line. **It is the only witness that does**, and it says so itself: the Siku 王弼 carries 〔案河上公注本及各本俱無故字〕, *"the Heshang Gong commentary edition and all editions lack the character 故."* Our vendored 河上公 confirms it — his lemma opens 飄風不終朝. **So the juxtaposition the English now has is what almost every other reader of this text has had.**
+
+**What the reader is left to find** is the relation the commentators draw, which is a **contrast** and not an equivalence. 王弼 (*Wáng Bì*): 言暴疾美興不長也 — *"violent, rapid, splendid arisings do not last long."* 河上公 (*Héshàng Gōng*): 言疾不能長，暴不能久也 — *"the rapid cannot be long, the violent cannot endure."* The squall is not an illustration of natural brevity. It is the loud thing exhausting itself, set against speech that is sparse because nobody is forcing it.
+
+王弼 makes the contrast sharper by glossing 希言 with the Tao's own speech — 道之出言，淡兮其無味也。視之不足見，聽之不足聞, *"the Tao's issuing forth in words is bland, without flavour; look, and there is not enough to see; listen, and there is not enough to hear."* **The self-so speaks blandly and does not stop. Sky and earth roar, and stop before noon.** Two lines later the chapter names the roarer and watches it fail: 孰為此者？天地。天地尚不能久 — *"Who does this? Sky and earth. Even sky and earth cannot make it last long."*
+
+**A connective would have settled which relation it is.** Leaving it out leaves the work where the Chinese leaves it.
+

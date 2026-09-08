@@ -72,9 +72,75 @@ We follow the second, on three grounds. **(1) The parallel with Chapter 37** is 
 
 ## Witness forks
 
+### Ch 10 · two forks, and both sit on the lines our English had swapped
+
+**能為雌乎 / 能無雌乎.** We print 能**為**雌乎, *"can you be the hen?"* 河上公 (*Héshàng Gōng*) reads 能**無**雌乎, *"can you be **without** the hen?"* — the opposite instruction. And **our own vendored 王弼 (*Wáng Bì*) prints 無 in the lemma**, with the Siku compilers' collation note attached: 〔案**注義無似作為**〕 — *"by the sense of the commentary, 無 appears to be 為."* The commentary does settle it: 雌**應而不倡，因而不為**。言天門開闔，**能為雌乎**？ — *"the hen responds and does not lead off; she goes along and does not act. It says: when the gate of the sky opens and closes, can you be the hen?"* **So our 為 follows the Siku editors' own correction of the text they print**, and that had never been recorded.
+
+**能無為乎 / 能無知乎.** 河上公's text reads 能**無知**乎 at the sixth question — the same three characters he prints two questions earlier at 愛民治國 — so **his chapter asks the 無知 question twice and never asks the 無為 question at all.** He glosses this one 無有能知道滿於天下者, *"there is none who can know the Tao that fills the world."* 王弼 prints 無為 and glosses it 能無以為乎，則物化矣, quoting ch 37 verbatim. **We keep the base text.**
+
+**Why both are worth having.** Our English had 無知 and 無為 **on each other's lines** (`WORKLIST` T1-1), and the fork sits on exactly those two lines — so a reader who found the old English and went looking would have had no way to tell an error from a witness. Both recorded in `sources/variants.yaml`.
+
+### Ch 28 · the stanza order is an editorial restoration
+
+Our vendored 王弼 (*Wáng Bì*) carries the Siku compilers' note on the opening block: 〔案**永樂大典此節在復歸於無極之後，據注仍宜在前**〕 — *"in the Yongle Dadian this section stands **after** 復歸於無極; on the evidence of the commentary it should still come first."* So the 雄/雌 stanza's position at the head of the chapter is **restored**, not simply transmitted, and the Ming encyclopaedia had it second.
+
+**Not in `sources/variants.yaml`**, for the same reason as ch 38's 處/居: the 永樂大典 (*Yǒnglè Dàdiǎn*, 1408) is not one of the schema's witness ids, it is neither excavated nor a named older transmitted recension, and forcing it into the `witnesses:` map would put a Ming encyclopaedia where the file promises a witness. 河上公 (*Héshàng Gōng*) has the same order as our base, so no listed witness diverges. **Nothing in our English turns on it** — the three stanzas are a template and each is self-contained — but the chapter's shape rests on a collation decision, and that is worth a reader knowing.
+
+### Ch 38 · 扔 / 仍 — both graphs mean *pull*, and our English had said *force*
+
+Our base prints 攘臂而**扔**之. 河上公 (*Héshàng Gōng*)'s lemma reads **仍**, and the Siku 王弼 (*Wáng Bì*) carries the compilers' collation note 〔案**扔各本俱作仍**〕 — *"for 扔, all editions read 仍."* **Nothing turns on the choice**, and that is the point worth recording: 說文解字 glosses 扔 as **因也**, *"to draw along"*, and 仍 carries the same sense, which is why 河上公's own gloss is 攘臂**相仍引** — *"bare their arms and pull at one another"* (引, *to pull*). Our English read *"bares its arms and forces them,"* which follows **neither** graph. Both are about **pulling**. Recorded in `sources/variants.yaml`; the rendering is in `notes/translation.md`.
+
+### Ch 38 · 處 / 居 — a Ming collation note, deliberately not in the apparatus
+
+The closing stanza alternates 處 (*chǔ* — to dwell) and 居 (*jū* — to reside): 處其厚，不居其薄；處其實，不居其華. Our vendored 王弼 carries 〔案**焦竑云古本四句並作處**〕 — *"Jiao Hong says the old text has 處 in all four."* 焦竑 (*Jiāo Hóng*, 1540–1620) is a **Ming** scholar reporting a lost 古本, so this is neither an older witness nor a meaning-bearing fork, and **it is not in `sources/variants.yaml`** — there is no honest witness id for it, and forcing one into the `witnesses:` map would put a Ming report where the schema promises an excavated or named transmitted reading.
+
+It is recorded here because it **licenses a rendering decision**: the two verbs are near-synonyms and the alternation may not even be original, so the English is free to use one verb across all four clauses rather than straining to mark a distinction the text may not be making.
+
+### Ch 3 · 智者 / 知者 — one graph or two, and the commentators then describe different people
+
+**Found 2026-08-31, while settling the chapter's knowing-family.** 王弼 (*Wáng Bì*)'s text — our base — writes 使夫**智**者不敢為也. 河上公 (*Héshàng Gōng*)'s writes **知**者, and appends a phonetic note: **知音智**, *"知 is read* zhì" — that is, read this 知 as the word 智. **He attaches it only here.** Two lines above, on 常使民無知無欲, he glosses 反朴守淳 (*"return to the uncarved, keep to the pure"*) and adds no note at all. So the tradition reads **two words in consecutive lines even where one graph is written**, and marks which is which.
+
+**The fork is meaning-bearing because the two commentators then describe different people.** 王弼: 智者謂知為也 — *"the 智者 are those who know how to handle"* — the operators, and the line restrains them. 河上公: 思慮深，不輕言 — *"deep in deliberation, they do not speak lightly"* — which is almost word for word what he says of the unambiguously approving 知者 at ch 56, 知者貴行不貴言也 (*"the knower prizes action and does not prize speech"*). **王弼 has two graphs and two figures; 河上公 has one graph and one figure.**
+
+**We print the base text's 智者 and keep the English open.** *"The knowers"* is a bare nominalization, as 者 (*zhě*) is in Chinese, and it leaves the line to say whether knowing is good here — where *"those who know how"* or *"the clever"* would both have picked 王弼's side. The rendering decision is in `notes/translation.md`.
+
+### Ch 3 · 使民心不亂 — the 民 in the third clause is an eighteenth-century restoration
+
+**河上公's lemma reads 使心不亂, with no 民** (*mín* — the people). And our own vendored 王弼 carries the Siku compilers' collation note on the passage: 〔案原本及各本俱無民字，惟永樂大典有之…今校〕 — *"the base edition and all editions lack the character 民; only the Yongle Dadian has it… now emended."* They restored it on the evidence of 王弼's own commentary.
+
+**Nothing in the sense turns on it** — the subject is the people in either reading, and 王弼 glosses the line 故可欲不見，則心無所亂也, *"so when the desirable is not displayed, the heart has nothing to disorder it,"* with a bare 心. It is logged because **this file's companion note at ch 3 says "all three clauses are 使民X"** (`notes/translation.md`, 2026-08-30), and in the third clause that is an editorial restoration rather than a reading the witnesses agree on. We keep the base text as printed.
+
 ### Ch 4 · 湛兮似或存 / 似若存 — a hedge either way
 
 河上公's lemma reads 似**若**存, and the Siku edition of 王弼 carries the collation note 〔案或一作若〕 — *"for 或, one edition reads 若."* 或 (*huò* — perhaps) and 若 (*ruò* — as if) are hedges of the same force, so **nothing turns on it**: the line carries a doubled hedge, 似 plus one of them, under either reading. Recorded so it is not rediscovered later as if it were news, since the line was rewritten on 2026-08-31. *(Ch 4 is **not attested at Guodian**; it rests on the silks and later.)*
+
+### Ch 8 · 政善治 / 正善治 — and 說文 defines one as the other
+
+**Found 2026-09-02, reviewing the chapter.** Our base text (王弼, *Wáng Bì*) prints 政善治 with 政 (*zhèng* — government, administration); 河上公 (*Héshàng Gōng*)'s lemma prints **正**善治 with 正 (*zhèng* — straight, on the mark). His gloss fits the graph he prints: 无有不洗，清且平也 — *"there is nothing it does not wash; clean and **level**,"* where 平 (*píng* — level) answers 正 rather than 政.
+
+**It is barely a fork, and 說文解字 is why.** It defines the one by the other: **政，正也。从攴从正，正亦聲** — *"政 is 正; from 攴 (*pū* — a hand holding a stick) and 正, and 正 also gives the sound."* 政 is 正 with the stick added — the same word, with enforcement attached. Nothing in the line's sense turns on which is printed, though the pair are not identical in force, and the stick is exactly what this chapter's water does without.
+
+**We keep the base text's 政**, rendered *governing*, which leaves 治 (*zhì* — to order) free for *order* — as at ch 64's 治之於未亂 — instead of colliding with it. 王弼 is **not vendored for ch 8**: the Siku transcription is unproofread for ten chapters, this among them, so the chapter has one classical commentary and not two.
+
+**This does not touch T4-2**, the deferred 正 / 奇 (*zhèng / qí* — straight / crooked) call. That is a question about how 正 is rendered where we print it; this is a question about which graph is printed, and logging a fork settles nothing about the other.
+
+### Ch 15 · 安以動之 / 安以久動之 — 河上公 has a 久 our base does not
+
+*(2026-09-06.)* The second of the two 孰能 (*shú néng* — who can) questions reads 孰能安以動之徐生 in our base. **河上公 (*Héshàng Gōng*) carries the line with an extra 久 (*jiǔ* — long, for a long time): 孰能安以久動之徐生**, and his gloss leans on it — 誰能安靜以久徐徐以**長生**也, *"who can be settled and still **for long**, and slowly slowly attain **long life**."*
+
+**It is meaning-bearing, and we keep the base.** With 久 the line acquires duration and, in 河上公's hands, 長生 (*cháng shēng* — long life) — the longevity reading that runs through his commentary and that this edition's naturalistic razor is wary of. Without it the line is a plain mirror of the one above it: a state, an action applied to it, a slow result. The parallel with 孰能濁以靜之徐清 is exact only without 久, and that parallel is the point of the pair.
+
+### Ch 23 · three facts on one chapter — a dropped 道者, a 得/失 swap, and a Ming witness without 樂
+
+**Found 2026-09-03, rebuilding the chapter. `--witnesses 23` had reported nothing: nobody had looked.**
+
+**1. 王弼's own lemma reads 道者 where our base text does not.** Our base prints 故從事於道者，同於道 (*"so one who attends to affairs by the Tao is the same as the Tao"*); the vendored 王弼 (*Wáng Bì*) prints **故從事於道者，道者同於道**. With the extra 道者 (*dào zhě* — "the Tao-one") the stanza is a clean three-term parallel — 道者同於道；德者同於德；失者同於失 — and **without it the first line is a different shape from the two that follow.** The asymmetry is in the Chinese, not only in the English. *(This chapter's own note on 德 has been quoting the three-term version since 2026-08-31, i.e. quoting a text we do not print — corrected with this pass.)* **Not meaning-bearing:** the sense of the line is identical either way. **We keep the base text**, and the English mirrors its asymmetry rather than silently repairing it.
+
+**2. 河上公's third line reads 失亦樂失之, not 失亦樂得之** — *"loss too gladly **loses** them"* against our *"loss too gladly **gets** them."* His gloss follows the graph he prints: 與失同者，失亦樂**失**之也. **Meaning-bearing, and the difference is real**: our base makes loss an acquirer, closing the three-term pattern (道 gets you, 德 gets you, 失 gets you); 河上公's makes loss a loser, so that what you get from loss is more losing. **We keep the base text**, on the parallel — 樂得之 stands in the first two lines under both readings, and breaking it in the third is the harder claim to justify than keeping it. The reading is recorded because it is the sort of thing that gets rediscovered as news.
+
+**3. A Ming witness without 樂, deliberately not in the apparatus.** The Siku 王弼 carries 〔案**永樂大典無樂字**下二句同〕 — *"the Yongle Dadian lacks the character 樂 (lè — glad); the same for the two lines below."* The 永樂大典 (*Yǒnglè Dàdiǎn*, 1408) is a **Ming** encyclopedia, so this is a report of a lost reading and not an older witness. **It is not in `sources/variants.yaml`** — there is no honest witness id for it, exactly as with 焦竑's four 處 at ch 38. Recorded here because it would change the lines materially if true: without 樂, 道亦得之 is simply *"the Tao gets them too,"* and the gladness — which is what makes the third line bite — is ours by transmission rather than by the oldest text.
+
+**4. 故 at 故飄風不終朝 — our base is the only witness that has it, and the English does not render it.** The Siku 王弼 carries 〔案**河上公注本及各本俱無故字**〕 — *"the Heshang Gong commentary edition and **all editions** lack the character 故 (gù — therefore)."* **Our vendored 河上公 confirms it**: his lemma is 飄風不終朝驟雨不終日, with no 故. So our base text is a **singleton reading** here, by its own editors' account. **We print it and leave it unrendered** *(Shalom's call, 2026-09-04)*: the verse sets the three statements side by side, as every other witness has them, and does not assert in English an inference our base alone claims. **This is not an emendation** — the 原文 table still prints 故, and a reader can see both the character and the decision. 說文 makes 故 unambiguously causal (使爲之也, *"to cause something to be done"*), so it could not have been softened into a comparison instead; *likewise* was proposed and declined. The reader-facing half of the decision is in `notes/reading.md`.
 
 ### Ch 19 · 絕聖棄智 / 絕仁棄義 — the oldest witness does not attack the Confucians
 
@@ -144,6 +210,27 @@ Heshang Gong's reading also independently supports the Mawangdui 自今及古 (*
 **Source quality, stated honestly.** These readings were established from converging Chinese-language secondary sources, not from a printed critical apparatus. Before any of this is published, check against 高明 *帛書老子校注* and the 文物出版社 excavation reports. The convergence is strong — the sources agree on the non-obvious specifics, including Fan Yingyuan as the earliest 人居其一焉 — but it is not the same as having seen the plates.
 
 *`DISCOVERIES.md` §1 and §4 rest on the superseded version of this note and both need rewriting. See the correction banners there.*
+
+### Ch 31 · the Siku editors flag part of this chapter as absorbed commentary
+
+*(2026-09-07.)* Our vendored 王弼 carries an unusual note in the running text, at 兵者不祥之器:
+
+> 〔案自此句至言以喪禮處之，**似有注語雜入**，但河上公注本及各本俱作經文，今仍之〕
+> *"From this sentence down to 言以喪禮處之, **it appears that commentary has been mixed in**; but the 河上公 edition and all editions treat it as canonical text, so we retain it."*
+
+**That is a claim about textual stratification, not a variant reading**, and it has a second piece of evidence beside it: **王弼 leaves no commentary whatsoever on ch 31** — alone among the chapters vendored in `sources/commentaries/`, his text here is bare running characters with collation notes and nothing else. The traditional inference is that the commentary is missing because part of the passage was not scripture to him.
+
+**We keep the received text, as every edition does, and record the doubt.** It is **not** in `sources/variants.yaml`: there is no fork between named witnesses to record, and no honest `witnesses:` id for *"the Siku editors suspect an interpolation."* Same reasoning as the 焦竑 note at Ch 38.
+
+**What it touches, if true:** the stretch from 兵者不祥之器 through 言以喪禮處之 — which is most of the chapter's middle, including 非君子之器 and the general-seating lines. Readers should know the chapter's argument may be built partly of an early reader's marginalia that hardened into text.
+
+### Ch 29 · 挫 / 載 and 歔 / 呴 — two forks in one four-line series
+
+*(2026-09-07.)* Block 2 runs four 或▢或▢ pairs, and the last two both carry collation notes in the Siku edition of 王弼.
+
+**或挫或隳 → we follow 河上公 and read 載.** 〔案挫河上公注本作**載**〕, and his lemma is 或載或隳. 挫 (*cuò*) is 說文 **摧也**, *to break*, standing beside 隳 (*huī* — to ruin): **two wrecking words, where the three pairs before it are all oppositions** — 行/隨 (go ahead / follow), 歔/吹 (breathe out / blow), 強/羸 (strong / frail). 載 (*zài*) is 說文 **乘也。从車**, *to carry*, on the **cart** radical, so *carried* against *toppled* restores the pattern. **王弼's own gloss requires one:** 凡此諸或，言物事**逆順反覆** — *"all these 'sometimes' speak of things and affairs going against and along, reversing and returning."* **⚠ Both witnesses are transmitted, not excavated** — Guodian does not carry ch 29 — so this follows a Han commentary against our Wei base **on internal grounds only**, and is recorded as an editorial call rather than a manuscript one.
+
+**或歔或吹 → we keep the base.** 〔案歔河上公注本作**呴**〕. 河上公 reads his own text as a **temperature** pair: 呴溫也，吹寒也。有所溫必有所寒也 — *"呴 is to warm, 吹 is to cool; what warms one thing must cool another."* Our 歔 is 說文 欷也…一曰出气也, *to sob; to let out breath* — a soft breath against a hard blow rather than warm against cold. The reading is recorded, not adopted; **"some sigh, some blow."**
 
 ### Ch 41 · 大器晚成 / 免成 — late, or never
 
@@ -364,3 +451,116 @@ We keep 折. The chapter's engine is physical from the first line (a corpse, a g
 ### Ch 80 · 什伯之器 — a fifth Siku-flagged 人
 
 Our base reads 什伯之器 (*shí bǎi zhī qì* — "ten- and hundred-fold tools"). The Siku compilers note inside 王弼's own text that 河上公's edition **and all editions** carry a 人 (*rén* — person) there: 〔案什伯下河上公注本及各本俱有人字〕. 河上公's lemma splits at that seam and confirms it. We keep the base; nothing in the English turns on it, since both readings mean tools that stand in for many hands. Recorded in `sources/variants.yaml`, with the fuller point that 河上公 takes his 人 somewhere 王弼 does not — 器謂農人之器, the tools are the *farmers'*, and 不用 is the state declining to requisition them and their season.
+
+### Ch 16 · 致 / 至 — the opening couplet's fork is about agency
+
+Our base reads 致虛極 (*zhì xū jí*). 致 (*zhì*) is 夊 (*suī* — a dragging foot) beneath 至 (*zhì* — to arrive); 說文解字: 送詣也, *"to send all the way there."*
+
+**河上公 (*Héshàng Gōng*) reads 至虛極**, with the plain 至 — and his gloss keeps it: 得道之人捐情去欲，五內清淨，**至於虛極** — *"one who has gained the Tao sheds feeling and casts off desire; the five viscera are clear and still; and so **arrives at** the far end of empty."*
+
+**The fork is about who is doing what.** 致 has someone carrying the emptying to its far point. 至 has them simply arriving there. It is the difference between a practice performed on yourself and a state you come to.
+
+**Our call: the base, and an English with no object supplied.** *"Go totally empty"* is true to both readings rather than picking one, and it avoids the trap either way: every candidate object is imported. 河上公 supplies 五內 (*wǔ nèi* — the five viscera), chapter 3 supplies 其心 (*qí xīn* — their heart), and chapter 16 has neither. The Chinese elides the object in both lines of the couplet, and so does the English.
+
+*Guodian (~300 BCE) carries this couplet and nothing else from the chapter — bundle A, unit A.3, standing alone as its own slip-unit. The chapter's later movement through 常 (*cháng* — the ever-present) is not attested there.*
+
+### Ch 16 · 觀復 / 觀其復 — our base is alone again, and the English had supplied it anyway
+
+河上公's lemma reads 吾以觀**其**復, with 其 (*qí* — their). The Siku editors say so inside our own 王弼 text and go further: 〔案觀下河上公注本及各本俱有其字〕 — *"below 觀, Heshang Gong's commentary edition **and all editions** have the character 其."*
+
+So our base is the only witness without it — the mirror of Ch 23's 故, where our base was the only witness *with* one.
+
+The sense is unchanged, so this is not a meaning-bearing fork. It is recorded because the English had been quietly rendering a character our base does not print: *"I observe **their** return."* Whatever replaces that line should either drop the possessive or take the 其 deliberately, rather than by accident. Recorded in `sources/variants.yaml`.
+
+### Ch 51 · 莫之命 / 莫之爵 — a conferral, or an order
+
+Our vendored 王弼 (*Wáng Bì*) prints 命並作爵 beneath 夫莫之命而常自然 — *"命 is written 爵 (jué — to confer a noble rank) [in other editions]"* — and the Siku editors flag the line itself as suspect: 〔案此句疑係命字下原校注語誤作弼注〕, *"this clause is suspected to be a collation note under the character 命, mistakenly taken as Wang Bi's comment."*
+
+**The fork matters.** 命 (*mìng*) issues an order; 爵 (*jué*) confers a rank — its graph is the bronze ceremonial wine-vessel used in investiture. 夫莫之命而常自然 is *"with no one ordering it, it is always so of itself"*; 夫莫之爵而常自然 is *"with no one **ennobling** it…"* — and the line's subject is 道之尊，德之貴 (*"the Tao's being revered, integrity's being valued"*), which is about **status conferred**, not instructions given. The variant fits the sentence better than our base does.
+
+**Our call: the base**, because the reading is transmitted only through a collation note whose own status the Siku editors doubt, and because no edition is named for it — the same reason the Ming facts at Ch 38 and Ch 23 stayed out of `sources/variants.yaml` under a witness id. It is recorded as a fact about our vendored text, with `wangbi_collation` rather than a witness name.
+
+**Why it is worth keeping.** It is independent evidence for 命's **conferral** sense against its command sense, which is the open question in `glossary/ming-命.md` — and ch 51 currently renders 命 as *commands*, which is 令 (*lìng*)'s English in the identical 莫之X而 frame at ch 32.
+
+### Ch 35 · 安平太 — three characters, three witnesses, and 太 never stands alone
+
+Our base reads 安平太 (*ān píng tài*). The Siku editors flag the spot inside 王弼 (*Wáng Bì*)'s own text: 〔案平太，河上公注本作太平，永樂大典作平泰〕 — *"as for 平太: 河上公 (*Héshàng Gōng*)'s annotated edition reads 太平; the 永樂大典 (*Yǒnglè Dàdiǎn*, the Ming encyclopaedia of 1408) reads 平泰."* Three witnesses, three orders.
+
+**王弼 declines to gloss it at all.** His comment on the line covers only 不害 (*bù hài* — not harmed): 無形無識，不偏不彰，故萬物得徃而不害妨也 — *"formless and unknowable, not partial and not conspicuous; so the countless things can go to it and are not harmed or hindered."*
+
+**河上公 parses it in two, and names the Han term.** 則國安家寧而致太平矣 — *"then the state is 安 (at rest) and the household 寧 (níng — at peace), and it arrives at 太平."* 太平 (*tài píng* — Great Peace) is loaded: the 太平經 (*Tàipíng Jīng* — Scripture of Great Peace) and the 太平道 (*Tàipíng Dào* — Way of Great Peace, the Yellow Turban movement of 184 CE). 河上公 is a Han text and this is a Han reading.
+
+**Our call: the base, and no Han term in the English.** The instability is itself the finding. 太 (*tài*) has **no 說文解字 entry** — it did not yet exist as a separate graph when 許慎 (*Xǔ Shèn*) wrote c. 100 CE, who has only 大 (*dà* — big) and 泰 (*tài*) 滑也, *"smooth."* And 太 appears three times in this book: 太上 (*tài shàng* — the highest, ch 17), 太牢 (*tài láo* — the great sacrificial feast, ch 20), and here. **It never stands alone.** So 安平太 is 安平 plus an intensifier, not a list of three — which is why the third slot is exactly where the scribes disagree. Rendered *"at rest, utterly even."*
+
+### Ch 35 · 用之不可既 / 不足既 — whether the closing frame breaks
+
+Our base reads 用之不可既 (*yòng zhī bù kě jì*). **Our vendored 王弼 lemma reads 用之不足既**, with the Siku editors noting 〔案足，河上公注本及各本俱作可〕 — *"as for 足: 河上公's annotated edition and all editions write 可."* Our base agrees with everyone except the Siku 王弼.
+
+**The fork decides the shape of the whole close.** With 足 the three lines run unbroken — 視之不**足**見／聽之不**足**聞／用之不**足**既, *"not enough to see / not enough to hear / not enough to use up."* With 可 the third line breaks the frame: the first two say there is **not enough of it**, the third says it **cannot be done**.
+
+**Our call: the base, and the English keeps the break.** 王弼's own commentary uses 不可 — 乃用之不可窮極也, *"thus using it cannot be exhausted to its limit"* — which argues the 足 in his lemma is transmission rather than his reading. The break is also the point: two lines of deficiency, then a reversal. *"There is not enough to see. There is not enough to hear. Use it. It never runs out."*
+
+### Ch 11 · 埏 / 挻 — the 說文 sides with the minority graph
+
+Our base reads 埏埴以為器 (*yán zhí yǐ wéi qì* — "work the clay to make a vessel"). The Siku editors note inside 王弼's text: 〔案埏各本俱作埏，惟釋文作挻〕 — *"all editions write 埏; only the 釋文 writes 挻."* The 釋文 is 陸德明 (*Lù Démíng*)'s 經典釋文 (*Jīngdiǎn Shìwén* — Textual Explanations of Classics and Canons), c. 583.
+
+**Not meaning-bearing** — every reading gives *work the clay*, and the English is unaffected. Recorded because the evidence runs against our base graph. **說文解字 glosses 埏 as 八方之地也** — *"the land of the eight directions,"* the far reaches of the earth — with no kneading sense at all; **挻 (*shān*) is the graph that carries it.** 河上公 (*Héshàng Gōng*) takes the working sense on the majority graph regardless: 埏，和也 — *"埏 means to blend."* We keep the base and render *knead*.
+
+*A second Siku note on this chapter — 〔案永樂大典無也字〕, "the 永樂大典 (Yǒnglè Dàdiǎn) lacks the character 也" — is orthographic and is not recorded.*
+
+### Ch 36 · 韓非's text — 邦 for 國, and only three clauses of four
+
+**韓非 (*Hán Fēi*, d. 233 BCE) reads 邦之利器** where our base has 國之利器. 邦 (*bāng* — a state) is the older word; 國 (*guó*) displaced it under the Han taboo on the personal name of 劉邦 (*Liú Bāng*, d. 195 BCE), the founder of the dynasty. **Our base therefore carries a Han substitution at this line, and 韓非 predates the taboo by a lifetime.** Not meaning-bearing — both are the state — but it dates the transmission, and the same substitution will be found wherever 邦 would be expected.
+
+**He quotes three clauses of the four**, in a different order: 翕/張, 弱/強, 取/與 — and no 廢/興 (*fèi / xīng* — to bring down / to raise up). He also reads 翕 (*xī*) for our 歙 and **取 (*qǔ* — to take) for our 奪 (*duó* — to seize)**, which is a real difference of force: 奪 is 說文 手持隹失之也, *"a hand holding a bird and losing it"* — a snatching-away — where 取 is a plain taking.
+
+**We keep all four clauses and the base graphs.** 韓非 is quoting the Laozi to illustrate two historical episodes — Yue's undoing of Wu, and Duke Xian's raid on Yu — not reproducing a text, so his silence on 廢/興 is weak evidence for absence. It is recorded because he is the oldest witness that exists and because the three he does quote, he quotes exactly.
+
+### Ch 36 · 柔弱勝剛強 — one claim of four terms, or two of two
+
+The Siku editors note inside our 王弼: 〔案永樂大典作柔勝剛弱勝强〕 — *"the 永樂大典 (Yǒnglè Dàdiǎn, 1408) reads 柔勝剛，弱勝強."* That splits *"the soft-and-weak overcomes the hard-and-strong"* into two paired claims: *"the soft overcomes the hard; the weak overcomes the strong."*
+
+**韓非 supports the split** by quoting only half of it as a saying in its own right: 處小弱而重自卑損，謂「弱勝強」也 — *"to dwell in the small and weak and make much of humbling and diminishing oneself: this is what 'the weak overcomes the strong' means."*
+
+**Our call: the base.** But the English renders it as two matched pairs regardless — *"The soft and yielding overcome the hard and strong"* — because 柔 (*róu*), 弱 (*ruò*), 剛 (*gāng*) and 強 (*qiáng*) are used separately everywhere else in the book, and binding them into two compounds in English would claim more than our own glossary does. 弱 and 強 are both locked; 剛 is still owed a mention (`WORKLIST` T4-4).
+
+### Ch 39 · 故致數譽無譽 — we depart from the base, and our own 王弼 says why
+
+**Our base reads 譽 (*yù* — praise). Our vendored 王弼 prints 輿 (*yú* — a carriage-body) and the Siku editors say the base's character is a mistake:** 〔案兩輿字，河上公注本作車，釋文作輿，**原本誤作譽**，今據釋文校改〕 — *"the two 輿 characters: 河上公's annotated edition writes 車 (chē — cart); the 釋文 (Lù Démíng, c. 583) writes 輿; **the original mistakenly wrote 譽**, now emended according to the 釋文."*
+
+**Both commentaries explain a vehicle. Neither explains praise.**
+
+- 王弼: 故致數輿乃無輿也 — *"so, counting the carriage through, there is then no carriage."*
+- 河上公: 致，就也。言人就車數之，為輻、為輪、為轂、為衡、為轝，**無有名為車者**，故成為車 — *"致 means to go up to. If a person goes up to a cart and counts it out — spokes, wheel, hub, yoke, body — **there is nothing among them named 'cart'**; and so it comes to be a cart."*
+
+**A commentator's gloss is evidence for what stood in his text**, and this is the rare case where that evidence points away from our base. The graphs are near-twins — 譽 is 言 (*yán* — speech) over 與; 輿 is 車 (*chē* — cart) within 舁.
+
+**And 河上公's cart is not isolated.** Two lines earlier he reads 不轂 for our 不穀 (below), so **his close is a cart twice.** Rendered *"count the parts of a cart, and there is no cart,"* which lands chapter 11's image: 轂 is 說文 輻所凑也, *"what the spokes converge on."*
+
+*The source table had already noticed the alternative and dismissed it in a parenthesis — "some texts translate this as 'taking a chariot apart leaves no chariot,' but 'highest praise is no praise' fits the vanity metaphor better" — with no evidence and no log. Shalom found it by asking where the word* highest *came from: there is no 上, 下 or 高 in the line.*
+
+### Ch 39 · four more forks, from the Siku notes and 河上公's lemmas
+
+**其致之 / 其致之一也.** 〔案各本致之下有一也二字，焦竑云開元本無〕 — *"all editions have the two characters 一也 after 致之; 焦竑 (Jiāo Hóng, 1540–1620) says the 開元 (Kāiyuán, 713–741) edition lacks them."* Not meaning-bearing; recorded because our base sides with the Tang edition against everyone else.
+
+**侯王無以貴高 / 無以貞貴高.** 〔案各本以下有貞字〕 — *"all editions have 貞 below 以."* **Meaning-bearing, and it decides the chapter's shape.** With 貞 the sixth pair mirrors its own positive half (為天下**貞** / 無以**貞**) and the series runs six for six. **We keep the base, because the break is the hinge** — 貴高 (*guì gāo* — prized and high) is exactly what the next two lines pick up in 故貴以賤為本，高以下為基. The series stops mirroring at the point where the chapter turns from cosmology to rank. `WORKLIST` T3-6.
+
+**為天下貞 / 為天下正.** 河上公 reads 正 (*zhèng* — upright) and glosses 為天下平正, *"be the world's level-and-upright."* 貞 is 說文 卜問也 — *"to inquire by cracking a shell"* — divination, hence what is consulted, hence steadfast. We keep 貞 and render *true for the world*, in the carpenter's sense. *(正 sits inside the deferred 正/奇 question, T4-2, which this does not touch.)*
+
+**不穀 / 不轂.** 河上公 reads 不轂 (*"not a hub"*) and glosses 不轂喻不能如車轂為衆輻所湊 — *"being unable to be like a cart's hub, on which the many spokes converge."* 穀 and 轂 share the phonetic 𣪊. We keep the base, where 孤 (*gū* — orphaned), 寡 (*guǎ* — alone) and 不穀 are three self-deprecations of rank, which is what the passage argues.
+
+### Ch 13 · 寵為下 / 辱為下 — which half of the pair is the low one
+
+Our base reads 寵為下 (*"favor is the lower position"*). **河上公's lemma reads 辱為下** and glosses it 辱為下賤 — *"disgrace is low and cheap."*
+
+**Meaning-bearing, and it decides whether the line says anything.** With 辱 it is the ordinary observation that disgrace degrades you, which the chapter has already said. **With 寵 it is counter-intuitive and is the chapter's whole argument**: to be favored is to be marked as the inferior party, because favor comes down from someone above — so it shakes you exactly as disgrace does.
+
+**王弼 supports the base** by treating the two as one condition: 寵必有辱，榮必有患。驚辱等，榮患同也 — *"favor necessarily carries disgrace, glory necessarily carries trouble; being startled and being disgraced are equivalent, glory and trouble are the same."* We keep the base.
+
+*Guodian (~300 BCE) attests this chapter — bundle B, unit B.1 — but no Guodian reading of any line here is recorded; see `sources/PROVENANCE.md` for why this repository holds no transcription of those slips.*
+
+### Ch 13 · 若可 / 則可以 / 乃可以 — a particle, and what our own table made of it
+
+Two Siku notes: 〔案若可寄，永樂大典作則可以寄，河上公注本作則可寄於天下〕 and 〔案若可託，永樂大典作乃可以託，河上公注本作乃可以託於天下〕. **Every variant is a consequential particle** — 則可以 and 乃可以 both mean *"then may"* — so the sense is unchanged.
+
+Recorded because **our source table glosses 若 here as *seems*** (*"Seems they can be entrusted"*), which would soften the claim into a hedge. **No witness and neither commentator reads it that way**: 王弼 如此**乃可以**託天下也, 河上公 **則可**寄於天下. The English takes the consequence and drops the particle.

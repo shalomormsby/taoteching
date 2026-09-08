@@ -159,7 +159,8 @@ Merging them would produce something too noisy to gate on and too quiet to searc
 python3 tools/concordance.py 明                    # a character: every chapter, line, gloss, verse
 python3 tools/concordance.py --english "clarity"   # the reverse direction — see below
 python3 tools/concordance.py --pairs 玄 妙          # a term and its partner
-python3 tools/concordance.py --formulas            # Chinese segments repeated across chapters
+python3 tools/concordance.py --formulas            # every repeated Chinese segment and frame
+python3 tools/concordance.py --formulas 36         # ...touching ch 36, with that chapter's English
 python3 tools/concordance.py --witnesses 25        # where the older manuscripts disagree
 python3 tools/concordance.py --commentary 63       # the classical commentators on a chapter
 ```

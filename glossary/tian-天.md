@@ -8,9 +8,11 @@ status: locked
 pairing: false
 ---
 
-# 天 — *tiān* — **the top of things**, never *Heaven*
+## 天 (Tiān) — Sky
 
-## The problem
+*Say "tyen," level. Eighty-seven lines across forty-six chapters — the most frequent content character in the book, ahead of 道 (dào).*
+
+**Locked: 天 → "sky" (as a tier) · "nature / the natural" (as an agent).** *(Never "Heaven," never "Providence," never "the Almighty," never "the Cosmos.")*
 
 天 is the most Christianized character in the book, and the damage is not subtle. Legge translated for the London Missionary Society; in the Chinese Union Bible 神 (*shén*) carries *God* and 天 carries *heaven*. Read the Tao Te Ching after that and 天之道 (*tiān zhī dào*) becomes **the way of Heaven** — a phrase that sounds like a psalm and points at a realm where a person might go after dying.
 
@@ -18,7 +20,7 @@ Laozi's 天 is not a realm and nobody goes there. It is **the top of things**, a
 
 **It is also the book's most frequent content character — 92 occurrences**, more than 道 (*dào*). Sixty-one of those are 天下 (*tiān xià* — "under-sky," the world), nine are 天地 (*tiān dì* — sky and earth). **Nineteen stand alone**, and those nineteen are where the decision has to be made.
 
-## The character: the top of a head
+### The character: the top of a head
 
 The oracle-bone graph is a **standing person seen from the front** — the figure that becomes 大 (*dà* — big) — with the **head marked**, a filled square or a heavy stroke laid across the top.
 
@@ -31,7 +33,7 @@ The *Shuowen Jiezi* keeps the body and says so outright:
 
 **And it explains why 天下 means "the world."** 天下 is *under-sky*, and it is the ordinary word for the human realm because the human realm is what lies beneath the top. Not a cosmos, not a creation. Everything below the ceiling.
 
-## The split, and why English forces it
+### The split, and why English forces it
 
 The nineteen solo occurrences fall into two groups, and no single English word covers both.
 
@@ -56,7 +58,7 @@ Here 地 is absent every time, and 天 takes verbs. *The sky rescues someone* an
 
 **The split is not a compromise. It is forced.** English has no word with 天's range — *sky* cannot say 天之道, and *nature* cannot say 天地. Where a language lacks a term's range, a translation either splits the word or flattens the text, and flattening is what produced *Heaven* in the first place.
 
-## 天之道 — ten of the nineteen
+### 天之道 — ten of the nineteen
 
 More than half the solo occurrences are one compound, which makes it the load-bearing case.
 
@@ -64,7 +66,7 @@ More than half the solo occurrences are one compound, which makes it the load-be
 
 **And the book blocks the personal reading itself.** Chapter 5: 天地不仁 — *"sky and earth are not humane."* A 天 that has no 仁 (*rén* — humaneness) is not a judge, a father, or a lawgiver. Chapter 79's 天道無親 says it again from the other side: **無親**, *without partiality, playing no favourites*. The Zhou dynasty's 天 issued the 天命 (*tiān mìng* — the mandate of heaven) to kings and withdrew it from tyrants. **Laozi keeps the word and empties the throne.**
 
-## What is set aside
+### What is set aside
 
 **"Heaven."** The overlay, and the reason this entry exists. It imports a destination, a resident, and a moral court, none of which the character holds. It also fails the hymn test at a glance: *the way of Heaven* would sit in a sermon without a ripple, and that is the tell.
 
@@ -74,7 +76,7 @@ More than half the solo occurrences are one compound, which makes it the load-be
 
 **Capital-N "Nature."** Romanticism: the sublime, the wilderness, a presence to commune with. Lowercase or not at all. See `glossary/ziran-自然.md`, where the capital does its worst damage.
 
-## The cost of "nature," stated plainly
+### The cost of "nature," stated plainly
 
 The agent rendering is the least bad available, not a clean win, and it sits **one capital letter from Romanticism and one word from 自然** (*zìrán* — of itself). That is a narrow place to stand, and the failure mode is real: on 2026-08-24 this project's own AI wrote *"nature is 天's word"* while arguing a point about Chapter 25 — true of eleven occurrences, false of eight, and stated as though 天 were only ever *nature*. **Shalom caught it by noticing that the chapter under discussion says *sky*.**
 
@@ -84,7 +86,7 @@ Three boundaries keep the rendering honest:
 2. **Never let it touch 自然.** 自然 is *of itself / of themselves*, and *nature* is forbidden there outright. The two words look alike in English and share nothing but a character.
 3. **When 地 is in the line or the series, it is *sky*.** This is the mechanical form of the rule and it decides every clear case.
 
-## The working register
+### The working register
 
 | Form | Chapters | Rendered |
 |---|---|---|
@@ -97,7 +99,7 @@ Three boundaries keep the rendering honest:
 
 **天之道 and 天道 are one formula and take one English.** The book writes it both ways, with and without the particle 之, and nothing turns on the difference.
 
-## What stays open
+### What stays open
 
 **配天 at Chapter 68 is the one contested line, and it is contested in the manuscript itself.** 是謂配天，古之極 — *"this is called being 配 (pèi — matched, as one of a pair) with 天, the utmost of the ancients."* The chapter file reads *"partnered with the sky"*; `notes/translation.md` records the decision as *"matched with nature."* Both cannot be right.
 

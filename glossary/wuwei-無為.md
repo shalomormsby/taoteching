@@ -2,7 +2,7 @@
 term: "無為"
 pinyin: "wú wéi"
 render: "non-doing"
-forbidden: ["non-action", "effortless action", "inaction", "doing nothing"]
+forbidden: ["non-action", "takes no action", "effortless", "without effort", "inaction", "doing nothing"]
 chapters: [2, 3, 10, 37, 38, 43, 48, 57, 63, 64]
 status: locked
 pairing: false

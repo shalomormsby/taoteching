@@ -70,6 +70,7 @@ He decides; the AI argues. Bring him a **clear recommendation with the evidence 
 - **A commentator's gloss is not the text, and he will catch it.** 王弼 explaining 贅 (*zhuì* — superfluous) as 肬贅 (*yóu zhuì* — a wart) does not make *wart* a candidate rendering. Offer what the line says; keep the commentary as evidence for it.
 - **Order of work:** the first draft is done, so the passes in `WORKLIST.md` are the order. **Work by term, not chapter by chapter** — one decision touches a dozen chapters, and walking 1→81 re-opens the same argument twenty times.
 - **Retrofit policy — fix on discovery, not in a deferred batch.** When a lock is settled, sweep the affected chapters *immediately*. Mechanical term-swaps: just apply them. Lines needing a rewrite: propose to Shalom first, then apply. *(This reverses the original plan, which batched retrofits to the editing pass — that made sense only while `chapters/` were regenerated from the Google Doc and hand-edits would be clobbered. The Doc is retired; the constraint is gone.)*
+- **Where the Chinese repeats itself, repeat yourself.** A varied English is not a better rendering of a repeated Chinese; it is a rendering of a text that was never written. Chapter 11 says one sentence three times over a cart, a pot and a room, and our English varied all three — a fault invisible line by line, and invisible to every tool until 2026-09-05. `DISCOVERIES.md` §6 · `PLAN.md` → *What Chapter 11 taught the tools*. **Run `concordance.py --formulas N` before drafting.**
 - **Always verify a flagged line against the Chinese in its own chapter before changing it.** Roughly a third of the first automated sweep's flags were false positives — 常 (*cháng*, constant) vs 長 (*cháng*, long), "the one" the pronoun vs 一, "Block the openings" (塞) vs "uncarved block" (樸). See `PLAN.md` → *What the 2026-08-10 sweep taught the checker*.
 
 ## Standing rules — non-negotiable
@@ -223,7 +224,8 @@ python3 tools/check_locks.py                    # the gate — every rule, whole
 python3 tools/check_locks.py --chapter 61       # while drafting
 python3 tools/concordance.py 明                  # every chapter, line, gloss, verse
 python3 tools/concordance.py --english "clarity"  # is a rendering backed by its character?
-python3 tools/concordance.py --formulas          # segments repeated across chapters
+python3 tools/concordance.py --formulas          # every repeated segment and frame, whole book
+python3 tools/concordance.py --formulas 36       # ...the ones touching ch 36, with its English
 python3 tools/concordance.py --witnesses 25      # where the older manuscripts disagree
 python3 tools/concordance.py --commentary 63     # Wang Bi and Heshang Gong on a chapter
 
@@ -239,6 +241,8 @@ python3 -m unittest discover -s tools/tests      # the tools' own tests
 **`check_locks.py` optimizes precision.** It exits non-zero, gates the pre-commit hook and CI, and must never cry wolf — so **no rule fires on English alone.** "virtue" is an error only when 德 is in *that chapter's own* Chinese; otherwise it drops to `info` in a separate false-friends list. That evidence gate is what makes it usable: it took the first run's error list to **9 findings with zero false positives**.
 
 **`concordance.py` optimizes recall.** It judges nothing and never fails. Use it for the evidence a glossary entry or a chapter review needs.
+
+**`--formulas` covers *within* a chapter as well as across, and the within half is where the damage is.** The two tools indexed segments into a *set* of chapter numbers until 2026-09-05, so a segment repeating three times inside one chapter collapsed to one entry and was then dropped as "not shared" — ch 11's 當其無 (*dāng qí wú*), repeated verbatim three times and rendered three different ways, was invisible to both. It also finds **frames**: 將欲▢之, ▢得一以▢, 有▢之用. **`--formulas N` narrows to one chapter and prints its English beside them**, which is the form to use during a chapter review. `check_locks.py` keeps its own narrower index deliberately and is not fed from here.
 
 **Run `--english` on every lock you settle.** A lock is a claim in *both* directions — every 強 renders *strong*, **and** every *strong* renders 強 — and the checker can only ever test the first, because its evidence gate keys off the character being present. The second direction caught 固 (*gù* — firm) and 壯 (*zhuàng* — in its prime) both wearing 強's English **inside chapters that contain 強**, where no rule can see them. This is a reader's job and nothing will do it for you. **Do not merge the two** — a tool that gates and searches at once ends up too noisy to gate and too quiet to search.
 

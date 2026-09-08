@@ -7,7 +7,7 @@
 python3 tools/build_index.py
 ```
 
-**37 entries.** Sorted by how much of the book each term touches.
+**43 entries.** Sorted by how much of the book each term touches.
 
 | Term | Say | Render as | Never | Ch. | Status | Entry |
 |---|---|---|---|---|---|---|
@@ -15,6 +15,7 @@ python3 tools/build_index.py
 | **天** | *tiān* | sky (as a tier) · nature / the natural (as an agent) | "Heaven", "Providence", "the Almighty", "the Cosmos" | 46 | **locked** | [`tian-天.md`](tian-天.md) |
 | **無 & 有** | *wú / yǒu* | absence / presence | "Being", "Non-Being", "existence", "the Void", "nothingness" | 40 | **locked** | [`wu-you-無有.md`](wu-you-無有.md) |
 | **道** | *dào* | the Tao (left untranslated) | "the Way", "the Path" | 37 | **locked** | [`dao-道.md`](dao-道.md) |
+| **大** | *dà* | great — large where the scale is physical or political, greater in comparatives, master of a craftsman | "mighty", "grand", "supreme", "cosmic", "immense", "magnificent", "the Great" | 24 | **locked** | [`da-大.md`](da-大.md) |
 | **常** | *cháng* | the ever-present / the abiding | "eternal", "everlasting", "the eternal" | 19 | **locked** | [`chang-常.md`](chang-常.md) |
 | **生** | *shēng* | give birth to / bear / bring forth | "generate", "produce", "manufacture", "create" | 19 | **locked** | [`sheng-生.md`](sheng-生.md) |
 | **善** | *shàn* | masterful / masterful at · the masterful & the unmasterful (of people) · good (only where the text names the category) | "virtuous", "righteous", "saintly", "benevolent" | 18 | **locked** | [`shan-善.md`](shan-善.md) |
@@ -23,11 +24,11 @@ python3 tools/build_index.py
 | **事** | *shì* | affairs / undertakings (noun) · to serve, to attend to (verb) | "techniques", "processes" | 14 | **locked** | [`shi-事.md`](shi-事.md) |
 | **強** | *qiáng* | strong — *strengthen* where it takes an object, *forcing* where it strains against a thing's nature | "mighty", "forceful", "brute strength", "perseverance" | 12 | **locked** | [`qiang-強.md`](qiang-強.md) |
 | **明** | *míng* | clear-seeing / clarity | "enlightenment", "illumination", "brilliance" | 12 | **locked** | [`ming-明.md`](ming-明.md) |
-| **無為** | *wú wéi* | non-doing | "non-action", "effortless action", "inaction", "doing nothing" | 10 | **locked** | [`wuwei-無為.md`](wuwei-無為.md) |
+| **無為** | *wú wéi* | non-doing | "non-action", "takes no action", "effortless", "without effort", "inaction", "doing nothing" | 10 | **locked** | [`wuwei-無為.md`](wuwei-無為.md) |
 | **器** | *qì* | vessel / tool / implement | "system", "mechanism", "machine", "utensil" | 9 | **locked** | [`qi-器.md`](qi-器.md) |
 | **一** | *yī* | the one (lowercase) · one thing (ch 22) · plain numeral where it counts | "the One", "Oneness", "the Absolute" | 8 | **locked** | [`yi-一.md`](yi-一.md) |
 | **信** | *xìn* | trust / trustworthy | "faith", "sincerity", "belief" | 8 | **locked** | [`xin-信.md`](xin-信.md) |
-| **王** | *wáng* | ruler / sovereign · to rule (verb) | " king", "kings", "monarch", "emperor" | 8 | **locked** | [`wang-王.md`](wang-王.md) |
+| **王** | *wáng* | ruler / sovereign · supreme authority (in ch 16's chain) · to rule (verb) | " king", "kings", "monarch", "emperor", "sovereignty" | 8 | **locked** | [`wang-王.md`](wang-王.md) |
 | **天地** | *tiān dì* | sky and earth | "heaven and earth", "the cosmos", "the universe" | 7 | **locked** | [`tiandi-天地.md`](tiandi-天地.md) |
 | **我 & 吾** | *wǒ / wú* | the self seen / the self seeing | — | 7 | **locked** | [`wo-wu-我吾.md`](wo-wu-我吾.md) |
 | **敢** | *gǎn* | push / venture — the forward press to take | "dare", "dares", "dared", "daring" | 7 | **locked** | [`gan-敢.md`](gan-敢.md) |
@@ -39,15 +40,20 @@ python3 tools/build_index.py
 | **眾** | *zhòng* | the crowd / the many | "the masses", "the multitude", "the people" | 6 | **locked** | [`zhong-眾.md`](zhong-眾.md) |
 | **仁** | *rén* | humaneness | "benevolence", "charity", "goodwill" | 5 | **locked** | [`ren-仁.md`](ren-仁.md) |
 | **恃** | *shì* | rely on — the heart putting its weight on something | "presume", "presuming", "dependency" | 5 | **locked** | [`shi-恃.md`](shi-恃.md) |
+| **極** | *jí* | the far end — where a thing runs out · the endless (無極) | "limitless", "absolute", "ultimate", "infinite", "extreme", "utmost" | 5 | open — not yet a lock | [`ji-極.md`](ji-極.md) |
 | **母** | *mǔ* | mother | "the Source", "the Origin", "the Ground of Being" | 5 | **locked** | [`mu-母.md`](mu-母.md) |
 | **自然** | *zì rán* | of itself / of themselves · so of itself | "Nature", "spontaneity", "self-so" | 5 | **locked** | [`ziran-自然.md`](ziran-自然.md) |
+| **虛** | *xū* | empty (adjective) · to empty (verb) | "emptiness", "the void", "vacuity", "nothingness" | 5 | open — not yet a lock | [`xu-虛.md`](xu-虛.md) |
 | **貨** | *huò* | goods | "treasure", "precious", "scarce", "riches" | 5 | **locked** | [`huo-貨.md`](huo-貨.md) |
 | **公** | *gōng* | impartiality / impartial (the quality) · lord / minister (the office) | "duke", "equanimity", "justice" | 3 | **locked** | [`gong-公.md`](gong-公.md) |
+| **士** | *shì* | in service | "student", "scholar", "warrior", "knight", "gentleman", "officer", "servant" | 3 | **locked** | [`shi-士.md`](shi-士.md) |
 | **慈** | *cí* | tenderness | "compassion", "mercy", "maternal love", "filial piety" | 3 | **locked** | [`ci-慈.md`](ci-慈.md) |
 | **知足** | *zhī zú* | knowing you have enough / contentment | "sufficiency", "fulfilled" | 3 | **locked** | [`zhizu-知足.md`](zhizu-知足.md) |
+| **命** | *mìng* | the allotted course — what is spoken over a thing and sent with it | "mandate", "destiny", "fate", "decree" | 2 | open — not yet a lock | [`ming-命.md`](ming-命.md) |
 | **精** | *jīng* | vital essence / essence | "primordial mass", "soul", "spirit" | 2 | **locked** | [`jing-精.md`](jing-精.md) |
 | **全** | *quán* | whole · stay whole · keep whole (transitive) | "complete", "perfect", "flawless", "restore", "made whole" | 1 | **locked** | [`quan-全.md`](quan-全.md) |
 | **帝** | *dì* | god — *any god* at its one occurrence | "God", "the Lord", "Creator", "heaven", "emperor", "the high god" | 1 | **locked** | [`di-帝.md`](di-帝.md) |
+| **復命** | *fù mìng* | returning to what is given | "returning to destiny", "restoring destiny", "returning to fate", "the mandate", "returning to what was given" | 1 | **locked** | [`fuming-復命.md`](fuming-復命.md) |
 
 ## Secondary characters
 
@@ -61,6 +67,7 @@ python3 tools/build_index.py
 | **天** | nature (as ordering principle) | [`tiandi-天地.md`](tiandi-天地.md) — 天地 |
 | **天下** | the world | [`tiandi-天地.md`](tiandi-天地.md) — 天地 |
 | **孝** | devotion | [`ci-慈.md`](ci-慈.md) — 慈 |
+| **小** | small | [`da-大.md`](da-大.md) — 大 |
 | **忠** | loyalty | [`xin-信.md`](xin-信.md) — 信 |
 | **曲** | bend / bent | [`quan-全.md`](quan-全.md) — 全 |
 | **物** | things / something | [`wanwu-萬物.md`](wanwu-萬物.md) — 萬物 |

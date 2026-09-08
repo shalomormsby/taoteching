@@ -132,12 +132,16 @@ This entry locked **"the self-so"** from its writing until 2026-08-24, and the c
 | Ch | Chinese | Rendered | Slot |
 |---|---|---|---|
 | 17 | 我**自然** | "We did this by ourselves." | in the people's mouth — keep the plain human voice |
-| 23 | 希言**自然** | "Speak sparingly, for things go of themselves." | 自然 as the **ground**, not the consequence |
+| 23 | 希言**自然** | "Brevity in speech happens of itself." | the locked wording, in a plain predicate — see below |
 | 25 | 道法**自然** | "The Tao models itself on being what it is." | the one noun slot, answered with a **clause** |
 | 51 | 常**自然** | "It is always so, of itself." | adverbial |
 | 64 | 萬物之**自然** | "in being so of themselves" | possessed — a gerund, not a noun |
 
-**Chapter 23 takes "for," not "and."** 希言自然 is A-自然 compressed to four characters and English has no predicate slot that fits it; this is a **strain case**, logged as one in `notes/translation.md`. *For* makes sparing speech follow **from** things going of themselves, which is 河上公's 愛言者自然之道 and the mechanism of Chapter 17. *And* would make it a consequence, which reverses the dependency.
+**Chapter 23 — revised 2026-09-03, and the strain is now paid differently.** This entry long read 希言自然 as *"Speak sparingly, for things go of themselves,"* defending *for* on the ground that 自然 is **the ground, not the consequence** — 河上公's 愛言者自然之道. **That reasoning stands.** What it could not do was supply a subject without inventing 物 (*wù* — things), which is not in the line. The entry's own verdict on the line was correct — *"A-自然 compressed to four characters, and English has no predicate slot that fits it; a strain case"* — and the strain is now paid by **letting 自然 be a plain predicate on a plain subject**: *"Brevity in speech happens of itself."* (Shalom's line, 2026-09-03.) **The 故 that follows is printed and left unrendered** — our base is the only witness that has it (〔案河上公注本及各本俱無故字〕) — so the line stands beside the two storm lines in juxtaposition rather than asserting an inference the English cannot carry. *(Shalom's call, 2026-09-04: it also leaves the reader room to make the connection.)*
+
+**Why not a fresh local rendering.** ch 17 and ch 25 already depart from the lock's wording, so **two of five occurrences do not show the phrase**. A third departure produces exactly the invisibility this entry was written to prevent, which is why ch 23 keeps *"so of itself"* and explains itself instead of paraphrasing.
+
+***On its own* was declined for *of itself*** — the same idea in a sixth wording, and a sixth wording is the invisibility this entry exists to prevent. *(Shalom caught both defects in the intermediate drafts: that *"Speech barely heard"* named **volume**, which neither commentator does, and that the line did not set up the *therefore* following it.)*
 
 **The trade to keep in view.** Chapter 25 spends the 自 — *"being what it is"* names the state but not its provenance, and the whole force of the nose-character is that the being-so comes **from the thing itself and nowhere else**. That loss is accepted there and paid back everywhere else: the four adverbial cases all carry *itself / themselves*. **The one place the term is a noun is the one place we decline to translate it as one** — which may be the truest thing this entry can say about the word.
 

@@ -8,9 +8,11 @@ status: locked
 pairing: false
 ---
 
-# 仁 — *rén* — **humaneness**
+## 仁 (Rén) — Humaneness
 
-## The problem
+*Say "run," rising, with the tongue curled back. Eight lines across five chapters, and it is the first thing chapter 5 says sky and earth are not.*
+
+**Locked: 仁 → "humaneness."** *(Not "benevolence," not "charity," not "goodwill.")*
 
 **Benevolence** is the word this character wears in nearly every English Tao Te Ching, and it is a translation of the Latin, not of the Chinese. *Bene-volens* is a **disposition of the will**: to wish well. It names something happening inside one person.
 
@@ -18,9 +20,7 @@ pairing: false
 
 The cost of the Latin word is not vagueness. It is that the book's argument stops making sense. Ch 5 says 天地不仁 — and if 仁 is well-wishing, the line reads as cosmic indifference, a universe that does not care. That is not what either classical commentator thought it said, and it is not what the chapter goes on to do.
 
-Our own manuscript carried the confusion in the open: *benevolence* at ch 5 and ch 38, *humaneness* at ch 18, ch 19 and ch 38 — **both of them inside ch 38**, eight lines apart, on one character.
-
-## The graph
+### The graph
 
 **仁 is 人 (*rén* — a person) beside 二 (*èr* — two).** Two people, and the relation between them. The *Shuowen Jiezi* (c. 100 CE) glosses it in one word:
 
@@ -31,7 +31,7 @@ Not a feeling one person has. **A closeness that exists only in the space betwee
 
 **Humaneness** keeps 人 audible in the English, which is exactly what the character does. That is the whole argument for it, and it is enough.
 
-## What the commentators actually say, and it rescues ch 5
+### What the commentators actually say, and it rescues ch 5
 
 The hardest line in the book for this character is 天地不仁，以萬物為芻狗 — *"sky and earth are not 仁; they treat the countless things as straw dogs."* A 芻狗 (*chú gǒu*) is a dog plaited out of straw for a sacrifice: dressed and honoured through the ceremony, thrown away after.
 
@@ -54,7 +54,7 @@ So 不仁 is not the absence of care. It is the absence of **management with a d
 
 **愛養 — loves and rears.** The sage in ch 5 is not indifferent. The straw dog is not contempt; it is 不貴望其報也, *"expecting no repayment."* 仁 is care that keeps accounts, and the chapter is refusing the accounts, not the care.
 
-## Why the book attacks it, and how little that is about goodness
+### Why the book attacks it, and how little that is about goodness
 
 仁 is never attacked alone. It arrives bonded to 義 (*yì* — duty) as 仁義, the Confucian virtue-pair, and always at the moment something else has already failed:
 
@@ -75,7 +75,7 @@ Three pairs of **goods**, said to be insufficient as 文 (*wén* — cultural fo
 
 **And the oldest witness does not make the attack at all.** At Guodian (~300 BCE) the passage corresponding to ch 19 carries neither 仁 nor 義 nor 聖; the pairs severed there are different ones. See `notes/manuscript.md` · Ch 19 and `sources/variants.yaml`.
 
-## Never
+### Never
 
 **benevolence.** A Latin will-word for a Chinese relation-word, and the standard English carries a whole missionary lexicon behind it — Legge's Tao Te Ching came out of the London Missionary Society, and this is one of the words that came with him.
 
@@ -83,7 +83,7 @@ Three pairs of **goods**, said to be insufficient as 文 (*wén* — cultural fo
 
 **kindness and love are not forbidden here, because they are not free** — 慈 (*cí* — tenderness) holds that ground and shares two chapters with this character. See `glossary/ci-慈.md`.
 
-## What stays open
+### What stays open
 
 **仁 is the only word in this book that the text attacks and the commentators defend.** 王弼 calls it 人之善也, the best of what a person can be, in the middle of glossing a chapter that says to cut it off. 河上公 says it becomes invisible when things go well, which is praise disguised as dismissal.
 

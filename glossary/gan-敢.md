@@ -8,11 +8,13 @@ status: locked
 pairing: false
 ---
 
-# 敢 — *gǎn* — **the forward press to take**
+## 敢 (Gǎn) — The Forward Press to Take
 
-## The problem
+*Say "gahn," dipping. Ten lines across seven chapters, and 不敢 (bù gǎn) is the third of the book's three treasures.*
 
-Every English Tao Te Ching renders 不敢 (*bù gǎn*) as **dare not**, and so did this one, in three chapters. It is the natural English and it inverts the book.
+**Locked: 敢 → "push / venture" — the forward press to take.** *(Never "dare," "dares," "dared," "daring.")*
+
+Every English Tao Te Ching renders 不敢 (*bù gǎn*) as **dare not**. It is the natural English, and it inverts the book.
 
 In modern English, *he did not dare* means **he was afraid**. Chapter 73 says the opposite in six characters:
 
@@ -21,9 +23,7 @@ In modern English, *he did not dare* means **he was afraid**. Chapter 73 says th
 
 There is a **courage of not-敢**. Whatever English carries the word must be able to be brave. *Not daring* cannot: it makes the third of Chapter 67's three treasures sound like timidity, in a chapter that two lines earlier says 慈故能勇 — *"tenderness, and so you can be brave."*
 
-*(Caught by Shalom, 2026-08-19: "not daring reads as fear or even cowardice to the modern ear." It does, and the reading had passed three chapters unexamined.)*
-
-## The character: a hand, a weapon, and a boar
+### The character: a hand, a weapon, and a boar
 
 The oracle-bone accounts read 敢 as **a hand holding a hunting implement, going after a wild boar** (豕, *shǐ*). Its oldest sense is *to hunt, to pursue*. The *Shuowen Jiezi* keeps that and abstracts it slightly: 敢，**進取**也 — *"敢 is to advance and take."*
 
@@ -31,7 +31,7 @@ The oracle-bone accounts read 敢 as **a hand holding a hunting implement, going
 
 **And it may be 爭's cousin.** On one account the bronze-script form of 敢 is built on **爭** (*zhēng* — two hands pulling at a single object), with 甘 supplying only the sound. If that holds, the two characters are relatives — and so are the book's two great refusals. 不爭 declines to pull at a thing two hands already hold. 不敢 declines to go after a thing no hand holds yet. Between them they cover the whole of wanting. *(Scholars differ on the graph; recorded as a resonance, not a proof. See `zheng-爭.md`.)*
 
-## 不敢 is a politeness formula, not a confession
+### 不敢 is a politeness formula, not a confession
 
 Classical Chinese uses 不敢 the way English once used *I should not presume*:
 
@@ -40,13 +40,13 @@ Classical Chinese uses 不敢 the way English once used *I should not presume*:
 
 This is the language of **declining to help yourself to something**. Nobody in these phrases is frightened; they are being well-mannered about appetite.
 
-## The book supplies its own gloss
+### The book supplies its own gloss
 
 Chapter 67 names the third treasure as 不敢為天下先, then four lines later says what abandoning it looks like: 舍後且先. 王弼 glosses the particle 且 in three characters — 且猶**取**也, *"且 is like 取, **to grab**."*
 
 So what 敢 does to 先 (*xiān* — the front) is **grab at it**. 不敢 is not-grabbing. The verdict on the person who does grab is 死矣 — *that is death* — which is not a sentence anyone passes on the merely timid.
 
-## Where it stands
+### Where it stands
 
 | Chapter | Chinese | Reading |
 |---|---|---|
@@ -60,14 +60,14 @@ So what 敢 does to 先 (*xiān* — the front) is **grab at it**. 不敢 is not
 
 **Seven chapters, and only Chapter 73 uses 敢 affirmatively.** Everywhere else it appears under negation, which it shares with 爭 — see that entry, where all nine occurrences are negated.
 
-## Chapter 69 shows the register
+### Chapter 69 shows the register
 
 > 吾不敢為主，而為客；不敢進寸，而退尺
 > *"I do not venture to act as host, but act as guest; do not venture an inch forward, but retreat a foot."*
 
 Host against guest is a question of **propriety** — who presides, who defers — and it has nothing to do with courage. An inch forward against a foot back is a question of **position**. Both are the vocabulary of someone choosing not to take precedence, which is what 敢 is for.
 
-## What is set aside
+### What is set aside
 
 **dare, daring** — the fear reading, which reverses Chapter 73 and makes Chapter 67's third treasure a confession of nerves. Forbidden outright. *(If a drafted chapter ever needs it — Chapter 73 is the only candidate, since 勇 stands beside 敢 there and blocks the timid reading — that is a `lock-ok` waiver with its reason stated, not a loosening of the lock.)*
 
@@ -77,7 +77,7 @@ Host against guest is a question of **propriety** — who presides, who defers �
 
 **bold, boldness** — right for affirmative 敢 but positive in English, where the book treats 敢 as the fault.
 
-## Working register
+### Working register
 
 | Form | Chapters | English |
 |---|---|---|
@@ -88,7 +88,7 @@ Host against guest is a question of **propriety** — who presides, who defers �
 
 **不敢為 is rendered as a unit at Chapter 64.** *"And never pushes them"* carries 敢為 in one verb rather than splitting it, because English *push to handle* will not stand. The chapter's contrast survives intact and is sharper for it: 輔 (*fǔ*) is the spare timber lashed alongside a cart-wheel to brace it, and a brace holds from the side where a push moves from behind. **Support them; do not push them.**
 
-## What stays open
+### What stays open
 
 **Whether Chapter 73's one affirmative 敢 wants a different word.** Nine of the ten occurrences are negated; the exception is 勇於**敢**則殺，勇於不敢則活 — *"courage in 敢 kills; courage in not-敢 lives."*
 

@@ -40,10 +40,20 @@ That covers the first, second, and last of the four below; the character's histo
 
 ## 2. The entry standard — the shape every entry takes
 
-1. **Open with a live problem.** What does the conventional English get wrong, and what does it cost? Not "this term is important."
+1. **Open with the character, not with a critique.** An entry is not a design brief. Name the term, say how it sounds, give its frequency, state the ruling — then the graph, and what the character means. A reader wants to know what the word *is* before they hear what anyone got wrong, and an entry that opens by cataloguing our own past renderings is doing the thing §3 forbids. Follow the house shape:
+
+   ```markdown
+   ## 眾 (Zhòng) — The Crowd
+
+   *Say "jong," falling. Nine appearances across six chapters.*
+
+   **Locked: 眾 → "the crowd" (of people) / "the many" (of things).** *(Not "the masses.")*
+   ```
+
+   Then the body, in `###` subsections. Use **Recommended:** in place of **Locked:** where `status: open`.
 2. **Read the character as a picture changing over time.** Oracle bone → seal → modern. This is where entries earn their keep: 為 is a hand on an elephant, 無 was a dancer, 自 is a nose, 明 is moonlight through a window, 萬 is a scorpion.
 3. **Let cross-textual evidence argue.** Quote the Chinese with a gloss, cite chapters, let the pattern make the case.
-4. **Name what is set aside, and why.** Each rejected rendering gets its own reason. Often the most useful section in the entry.
+4. **Name what is set aside, and why.** Each rejected rendering gets its own reason. Often the most useful section in the entry, and **this is where the critique lives** — what the *conventional* English costs, never what this manuscript used to say (§3).
 5. **State the working register.** How the term flexes by grammar, with examples. Include a table of protected verbs where the noun cannot carry the whole sense.
 6. **Leave the real tension open.** Every good entry ends somewhere honest and unresolved. If nothing is unresolved, look harder.
 

@@ -6,6 +6,45 @@
 
 ---
 
+## 6 · The repetition *is* the argument — and our tools could not see it
+
+*Found at Chapter 11, 2026-09-05.*
+
+### The finding
+
+Chapter 11 is the book's clearest single argument, and it is built out of **literal repetition**. Three unlike objects — 車 (*chē* — a cart), 器 (*qì* — a vessel), 室 (*shì* — a room) — each get the identical sentence:
+
+> 當其無，有**車**之用 · 當其無，有**器**之用 · 當其無，有**室**之用
+> *"Right where its absence is, there is the use of the cart / the vessel / the room."*
+
+當其無 (*dāng qí wú*) repeats letter for letter, three times. So does 有X之用. **Only the object changes.** The reader is meant to hear one sentence three times over a wheel, a pot and a room, and feel it click.
+
+Our English changed everything *else* instead — *"Through the emptiness at its center," "Through the emptiness it contains," "Through the empty spaces cut into walls,"* and then *"the cart can roll," "becomes useful," "becomes useful."* Every location was supplied. **There was nothing left to click.**
+
+### Why this is its own kind of failure
+
+The other findings in this file are about **meaning** — a word carrying more or less or other than it should. This one is about **structure**, and it is invisible at the level of the word. Every line of the old chapter 11 was defensible on its own. Read one at a time, none of them is wrong. **The fault existed only in the relation between them, and a line-by-line review cannot reach it** — which is exactly why it survived a full first draft, a hand sweep, and nine rounds of automated checking.
+
+It is also the failure mode that *good prose instincts actively cause*. English style teaches you to vary your wording; repeating a phrase three times reads as poverty. So a translator with a good ear will reliably destroy this, and will feel they have improved it. **Where classical Chinese repeats, the repetition is load-bearing, and the English must repeat too.**
+
+### And the tooling had the blind spot built in
+
+`check_locks.py` has had a `repeated-formula` rule since 2026-08-11, and `concordance.py --formulas` has indexed formulas since the same day. **Neither could see chapter 11.** Both indexed each Chinese segment into a **set of chapter numbers** — so three occurrences inside one chapter collapsed to a single entry, and were then filtered out as *"not appearing in more than one chapter."*
+
+The consequence is worth stating plainly, because it inverts what the tools were for:
+
+> **They enforced consistency precisely where the text was *not* repeating, and went silent precisely where it was.**
+
+The repair (`tools/concordance.py`, 2026-09-05) counts occurrences rather than chapters, and adds **frames** — same-length segments sharing a fixed skeleton, so 將欲▢之, ▢得一以▢, 有▢之用 and ▢兮其若▢ arrive as findings rather than as four unrelated lines. On its first full run it surfaced two already-open items (ch 36's 將欲X之，必固Y之 and ch 39's 得一 mirror) and about a dozen nobody had logged.
+
+**How much of the book this touches is not yet known**, and that is the honest state: the finder reports 152 within-chapter repeats, and how many of them our English has flattened is a reading job that has not been done. Chapter 11 was one. Chapter 36 is another, visible at a glance: four parallel 將欲X之，必固Y之 clauses rendered as *"Contraction requires firm expansion. / Weakening requires firm strengthening,"* with 將欲 (*jiāng yù* — "if you would") and 之 (*zhī* — it) dropped and 固 (*gù* — first, necessarily) turned into the adjective *"firm."*
+
+### The rule this yields
+
+> **Where the Chinese repeats itself, repeat yourself. A varied English is not a better translation of a repeated Chinese; it is a translation of a text that was never written.**
+
+---
+
 ## 5 · Home was in the word, and we left it out
 
 ### The finding

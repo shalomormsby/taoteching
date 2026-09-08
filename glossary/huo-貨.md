@@ -16,7 +16,7 @@ pairing: false
 
 ---
 
-## The problem
+### Scarcity is a fact; the value is conferred
 
 Chapter 3 says 不貴難得之貨，使民不為盜 — *"do not prize 難得之貨, and the people do not become thieves."* The line is a causal claim about **what a ruler does**, and the standard English quietly destroys it:
 
@@ -34,7 +34,7 @@ The scarcity is a fact about the world. **The value is conferred by the prizing.
 
 ---
 
-## The character: a shell that changes hands
+### The character: a shell that changes hands
 
 貨 is 貝 (*bèi* — a cowrie shell) with 化 (*huà*) above it. 說文解字 (*Shuōwén Jiězì*, c. 100 CE): **財也。从貝化聲** — *"property. It follows 貝, with 化 as the sound."*
 
@@ -58,7 +58,7 @@ The book uses three characters built on the cowrie, and our English had been shu
 
 ---
 
-## Where it appears
+### Where it appears
 
 **Three of the five are one stock phrase**, 難得之貨, always under a verb of prizing or in a list of what corrupts:
 
@@ -78,7 +78,7 @@ A thief, in the oldest analysis of the graph, is **someone salivating over a ves
 
 ---
 
-## What is set aside, and why
+### What is set aside, and why
 
 **"precious" — it is 貴's word, and it makes the line circular.** 貴 renders *precious* at chapters 70, 72 and 75, and *prize* as a verb at 20 and 64. In chapters 3 and 64 貴 is the verb standing directly over 貨, so *"do not prize precious goods"* puts one character's English on top of another and argues in a circle. **Forbidding it here is safe**: 貴 occurs in chapters 3 and 64 *only* inside 不貴, verbal both times, so no legitimate claimant for *precious* exists in either chapter.
 
@@ -94,7 +94,7 @@ A thief, in the oldest analysis of the graph, is **someone salivating over a ves
 
 ---
 
-## The working register
+### The working register
 
 **貨 → "goods," in all five places, with no flexions** — and that, not *rare goods*, is what the frontmatter locks. **"Rare" is not 貨's rendering**; it renders 難得 (*nán dé* — hard to obtain), which as the closing section says renders no character at all. Putting *rare goods* in the `render:` field would overstate the lock and would push an unglossed Chinese phrase into the generated CSVs. Chapter 53's 財貨 is a bound compound and reads *"wealth and goods,"* 財 keeping its own word.
 
@@ -104,7 +104,7 @@ A thief, in the oldest analysis of the graph, is **someone salivating over a ves
 
 ---
 
-## What stays open
+### What stays open
 
 **"Rare" renders no character.** This is the honest cost of the lock and it should not be smoothed over. 難 (*nán* — difficult) simply goes unspoken in these three lines: *rare* is a fact about **quantity**, 難得 is a fact about **acquisition**. The causal chain still runs — rare, therefore hard to obtain honestly, therefore stolen — but it runs as an inference the reader makes, not as something the line says. 王弼's thieves 穿窬探篋，沒命而盜, tunnelling through walls at the cost of their lives, are no longer visible in the English. Their labour mirrored the trader's, and that mirror is gone.
 

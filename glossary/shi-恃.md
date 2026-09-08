@@ -8,15 +8,17 @@ status: locked
 pairing: false
 ---
 
-# 恃 — *shì* — **what holds you up**
+## 恃 (Shì) — To Rely On
 
-## The problem
+*Say "shr," falling. Five lines across five chapters, and four of them are the same three characters.*
 
-For most of this manuscript's life 為而不恃 (*wéi ér bù shì*) read **"acts without presuming."** That is not a translation of 恃. It is an inference about what someone who 恃-ed would be doing — and it lands on *presumption*, a fault of manner, when the character is about **where your weight is**.
+**Locked: 恃 → "rely on" — the heart putting its weight on something.** *(Not "presume," not "presuming," not "dependency.")*
 
-Shalom rejected it at Ch 77 on 2026-08-26. The rejection was right and the entry it forced turned up something the old reading had buried: **恃 is the word for what a child does to a mother**, and the Tao Te Ching uses it in both directions.
+為而不恃 (*wéi ér bù shì*) is conventionally read **"acts without presuming."** That is not a translation of 恃. It is an inference about what someone who 恃-ed would be doing — and it lands on *presumption*, a fault of manner, when the character is about **where your weight is**.
 
-## The graph: the heart's version of holding
+**恃 is the word for what a child does to a mother**, and the Tao Te Ching uses it in both directions.
+
+### The graph: the heart's version of holding
 
 恃 is **忄 (heart)** beside **寺**. The *Shuowen Jiezi* is one line:
 
@@ -39,7 +41,7 @@ That table is not decoration. **河上公 confirms it from inside the family**, 
 
 A Han commentator defines 恃 by its own cousin. The core is not calculation and not manner. It is **the heart resting its weight on something outside itself, and expecting that thing to be there.**
 
-## The mother-word
+### The mother-word
 
 The oldest use of 恃 in the language is a child's, and it is gendered with total precision. From the *Shijing* 《小雅·蓼莪》, older than the Tao Te Ching:
 
@@ -50,7 +52,7 @@ The oldest use of 恃 in the language is a child's, and it is gendered with tota
 
 **This matters for this book specifically.** 母 (*mǔ* — mother) is one of this edition's locked terms and one of its load-bearing images: 天下母 (*tiān xià mǔ* — mother of the world) at Ch 52, and Ch 20's closing 貴食母 — *"I prize feeding from the mother."* When Ch 34 says 萬物**恃**之以生, *"the countless things rely on it to live,"* it is reaching for the verb whose native object is a mother. The relation the Tao stands in to everything is the one an infant stands in to the person feeding it.
 
-## The asymmetry — the whole finding
+### The asymmetry — the whole finding
 
 恃 occurs five times, and the direction reverses exactly once.
 
@@ -76,7 +78,7 @@ The sage cannot lean on their accomplishment because, done rightly, the accompli
 
 恃望 is the compound worth keeping in mind: the heart already tipped toward what is owed back. Ch 77 varies it only in the subject — 聖人為德施，不恃其報也, *"the sage gives out integrity and does not rely on its return."*
 
-## The one thing you may rely on
+### The one thing you may rely on
 
 **韓非** (*Hán Fēi*, d. 233 BCE), the oldest commentary in this repository, quotes Ch 64 with 恃 in the positive and names its object:
 
@@ -89,7 +91,7 @@ Elsewhere 韓非 uses the word the other way, for the wrong supports — 入山�
 
 The pattern across all of them: **恃 is neutral; what you put your weight on is not.**
 
-## Why *rely on*, and what it costs
+### Why *rely on*, and what it costs
 
 **Set aside: "presume," "presuming."** The retired reading, and the reason this entry exists. It renders an imagined attitude rather than the character, and it makes the line a warning against arrogance when the line is about load-bearing. It also collides with 敢 (*gǎn* — to push, to venture), whose entry already had to note that *presume* was blocked here.
 
@@ -102,16 +104,3 @@ The pattern across all of them: **恃 is neutral; what you put your weight on is
 There is one further risk. *"Acts yet relies on nothing"* can read as self-sufficiency — the self-made sage, needing no one — which would be an overlay, and a Stoic one. **Ch 34 is the guard against it.** There, the same character says that everything alive relies on the Tao, and the Tao turns none of it away. The sage relies on nothing not because relying is weakness, but because, as 王弼 says, there is nothing there that was theirs to lean on.
 
 **Not forbidden, and deliberately: "depend."** Ch 2 renders 高下相傾 (*gāo xià xiāng qīng*) as *"high and low depend on each other,"* and 傾 sits in the same chapter as 恃. The checker gates on whether a character is present in a chapter, so it cannot express *right for 傾, wrong for 恃, same chapter*. That distinction lives here and in the reader. See `CLAUDE.md` → *The glossary is generated*.
-
-## Retrofit — done, 2026-08-26
-
-**Swept in one pass, on Shalom's call**, the same day the entry was written. 為而不恃 is the identical three characters in all four places and had been carrying three different Englishes; it now carries one.
-
-| ch | was | now |
-|---|---|---|
-| **2** | *The sage acts, but does not presume.* | *The sage acts, yet relies on nothing.* |
-| **10** | *Acting without presuming,* | *Acting yet relying on nothing,* |
-| **51** | *acting without presuming,* | *acting yet relying on nothing,* |
-| **77** | *(drafted directly)* | *Therefore the sage acts yet relies on nothing.* |
-
-**Ch 34 was swept with them, and it was the worst of the five.** 萬物恃之以生 read *"The countless things draw sustenance from it."* That dropped 恃 outright — *sustenance* belongs to 衣養 (*yī yǎng* — clothes and feeds) two lines down — and flattened 生 (*shēng*, locked) into a metaphor. It was also the **only** positive 恃 in the book, so the English erased the asymmetry this entry is built on. It now reads *"The countless things rely on it to live, yet it refuses none."*

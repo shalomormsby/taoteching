@@ -7,7 +7,7 @@ component,pinyin,gloss,role,gloss_status,builds_characters,characters
 手,shǒu,,semantic,not yet glossed — see sources/component-glosses.yaml,20,"失,奉,扔,投,抗,拔,拙,拱,持,挫,捨,推,握,揣,損,搏,據,攘,攝,攫"
 木,mù,,semantic,not yet glossed — see sources/component-glosses.yaml,17,"奈,末,本,枉,果,枯,柔,柢,根,梁,楗,極,榮,樸,甲,相,陳"
 言,yán,,semantic,the apparatus glosses this character several ways and none won a majority,17,"信,計,託,訥,詰,誠,誰,諱,諾,謀,謂,謫,識,譬,譽,辯,音"
-大,dà,,semantic,the apparatus glosses this character several ways and none won a majority,15,"交,亦,去,天,夫,央,夷,夸,奇,契,奢,爽,立,美,赤"
+大,dà,"great — large where the scale is physical or political, greater in comparatives, master of a craftsman",semantic,glossed,15,"交,亦,去,天,夫,央,夷,夸,奇,契,奢,爽,立,美,赤"
 貝,bèi,"a cowrie shell — money, worth",semantic,glossed,15,"則,寶,負,財,貧,貨,責,貴,貸,費,資,賓,賢,賤,質"
 辵,chuò,"walking, going along a road",semantic,glossed,15,"從,迎,迷,通,逝,進,遂,遇,過,道,達,遠,遺,還,隨"
 土,tǔ,,semantic,not yet glossed — see sources/component-glosses.yaml,13,"在,地,均,坐,垢,埏,埴,基,堂,堅,塞,里,金"
@@ -130,7 +130,7 @@ component,pinyin,gloss,role,gloss_status,builds_characters,characters
 啻,,,phonetic,"no gloss needed: present for sound, not meaning",2,"敵,謫"
 單,,,phonetic,"no gloss needed: present for sound, not meaning",2,"戰,繟"
 埶,,,phonetic,"no gloss needed: present for sound, not meaning",2,"勢,熱"
-士,shì,scholars/officers,semantic,glossed,2,"吉,壯"
+士,shì,in service,semantic,glossed,2,"吉,壯"
 夂,,,semantic,not yet glossed — see sources/component-glosses.yaml,2,"冬,處"
 复,,,phonetic,"no gloss needed: present for sound, not meaning",2,"復,腹"
 夕,xī,evening — the moon half shown,semantic,glossed,2,"名,多"
@@ -328,7 +328,7 @@ component,pinyin,gloss,role,gloss_status,builds_characters,characters
 壽,shòu,has true longevity,phonetic,glossed,1,籌
 夅,,,phonetic,"no gloss needed: present for sound, not meaning",1,降
 夗,,,phonetic,"no gloss needed: present for sound, not meaning",1,怨
-大,dà,,phonetic,the apparatus glosses this character several ways and none won a majority,1,泰
+大,dà,"great — large where the scale is physical or political, greater in comparatives, master of a craftsman",phonetic,glossed,1,泰
 夭,,,semantic,not yet glossed — see sources/component-glosses.yaml,1,走
 央,yāng,reached the center/end,phonetic,glossed,1,殃
 夸,kuā,,phonetic,"no gloss needed: present for sound, not meaning",1,跨
@@ -440,7 +440,7 @@ component,pinyin,gloss,role,gloss_status,builds_characters,characters
 牙,,,phonetic,"no gloss needed: present for sound, not meaning",1,邪
 犮,,,phonetic,"no gloss needed: present for sound, not meaning",1,拔
 猒,,,phonetic,"no gloss needed: present for sound, not meaning",1,厭
-王,wáng,ruler / sovereign · to rule (verb),semantic,glossed,1,寶
+王,wáng,ruler / sovereign · supreme authority (in ch 16's chain) · to rule (verb),semantic,glossed,1,寶
 瓜,,,phonetic,"no gloss needed: present for sound, not meaning",1,孤
 甘,gān,,semantic,not yet glossed — see sources/component-glosses.yaml,1,甚
 甚,shèn,,phonetic,the apparatus glosses this character several ways and none won a majority,1,湛

@@ -8,11 +8,13 @@ status: locked
 pairing: false
 ---
 
-# 爭 — *zhēng* — **contend**
+## 爭 (Zhēng) — Contend
 
-## The problem
+*Say "jung," level. Nine lines across seven chapters, and every one of them is under negation.*
 
-Every English Tao Te Ching renders 爭 as **compete**, and so does this one, in four chapters already drafted. The word arrives without friction because the sentences it appears in sound like advice about ambition, and *compete* is what English does with ambition.
+**Locked: 爭 → "contend / contention."** *(Not "compete," not "competes," not "competing," not "competition.")*
+
+Every English Tao Te Ching renders 爭 as **compete**. The word arrives without friction because the sentences it appears in sound like advice about ambition, and *compete* is what English does with ambition.
 
 It costs two things.
 
@@ -20,7 +22,7 @@ First, it imports an institution. Competition in English is **rule-governed riva
 
 Second, and fatally, it collapses at the one line where the book distinguishes 爭 from winning.
 
-## The character is two hands and one object
+### The character is two hands and one object
 
 爪 (*zhǎo*) sits on top — a hand, turned down, fingers grasping. 彐 sits beneath it — a second hand, coming from the other direction. Between them, in the oldest forms, is the thing: a vertical stroke that survives in the modern character as the hook down its middle. Some read it as a plowshare, gripped from both sides.
 
@@ -34,7 +36,7 @@ Xu Xuan's note adds that 𠂆 is sounded as 曳 (*yè* — to drag), and that dr
 
 That is the term. Not rivalry as a condition, not ambition as a temperament: **the physical act of pulling a shared thing toward your own body.** Two hands, one object, opposite directions. It passes the pointing test, which *compete* does not — nobody can point at a competition, and anyone can point at two people pulling on the same rope.
 
-## It appears only under negation — all nine times
+### It appears only under negation — all nine times
 
 爭 occurs nine times across seven chapters, and **every single occurrence is negated.** The book never once describes anyone contending. It names the word only in order to refuse it.
 
@@ -53,7 +55,7 @@ That is the term. Not rivalry as a condition, not ambition as a temperament: **t
 
 A word that exists in a text only as something not done is being used as a name for a disease.
 
-## Chapter 73 decides it
+### Chapter 73 decides it
 
 > 天之道，不**爭**而善**勝** — *"nature's Tao does not 爭, yet is masterful at 勝."*
 
@@ -65,7 +67,7 @@ So the book draws a line, and the line falls between **爭** and **勝**. Prevai
 
 **Under *contend*, it survives intact.** Contending is the pulling; overcoming is what happens. The second does not require the first, which is precisely the claim.
 
-## Chapter 3 says where it comes from
+### Chapter 3 says where it comes from
 
 > 不尚賢，使民不**爭** — *"do not exalt the worthy, and the people will not contend."*
 
@@ -73,19 +75,19 @@ So the book draws a line, and the line falls between **爭** and **勝**. Prevai
 
 This is the same shape as Chapter 65, where the ruler's own guile produces the guile they then have to govern. The problem is upstream of the people every time.
 
-## Chapter 68 defines it by what it is not
+### Chapter 68 defines it by what it is not
 
 Four lines, each opening on 善 (*shàn* — masterful at), and then the name for all of them together:
 
 > 善為士者，不**武**；善**戰**者，不怒；善**勝**敵者，不與；善用人者，為之**下**。是謂不**爭**之德。
 >
-> *"One masterful as a warrior is not martial. One masterful at fighting does not rage. One masterful at overcoming enemies does not engage them. One masterful at using people puts themselves below. This is called the integrity of not contending."*
+> *"Those masterful in service are not martial. The master fighter does not rage. The master of overcoming enemies does not engage them. The master of using people puts themselves below them. This is called the integrity of not contending."*
 
-Not martial, not enraged, not engaging, underneath. **爭 is the common name for what all four refuse** — and note how far that reaches past ambition. It covers the battlefield. *Compete* cannot carry a chapter about warriors; *contend* can, because English contends in arguments and in wars alike.
+Not martial, not enraged, not engaging, underneath. **爭 is the common name for what all four refuse** — and note how far that reaches past ambition. It covers the battlefield. *Compete* cannot carry a chapter about war; *contend* can, because English contends in arguments and in wars alike.
 
 This chapter also fixes the boundary of the lock. It holds 戰 (*zhàn* — to fight) and 勝 (*shèng* — to overcome) **in the same chapter as 爭**, so neither *fight* nor *overcome* can be forbidden for 爭: both are legitimately owed to other characters standing a few lines away.
 
-## What is set aside
+### What is set aside
 
 **compete, competition** — the institutional frame described above, and the collapse at Chapter 73. It also flatters the thing being refused: competition is a word for something we approve of.
 
@@ -99,7 +101,7 @@ This chapter also fixes the boundary of the lock. It holds 戰 (*zhàn* — to f
 
 **quarrel, wrangle, dispute** — verbal only. 爭 is bodily first and became verbal later; running the derivation backwards puts the argument before the hands.
 
-## Working register
+### Working register
 
 | Form | Chapters | English |
 |---|---|---|
@@ -112,13 +114,13 @@ This chapter also fixes the boundary of the lock. It holds 戰 (*zhàn* — to f
 
 The **noun** is the pressure point. English has no clean nominal for the act — *contention* has drifted toward *a contested claim* — so 不爭之德 takes the gerund: **the integrity of not contending.** Where a noun is unavoidable, *contention* is permitted; it should not become the ordinary form.
 
-## The register we lose
+### The register we lose
 
 爭 is two hands, a plough, and dirt. *Contend* is Latin, *com-* plus *tendere*, to stretch against — physical at the root but three removes from a farmyard by the time it reaches modern English. The Anglo-Saxon words that keep the object are unusable at this register: **grab**, **grabbing**, **pulling toward yourself**. They are what the character says, and none of them can carry 不爭之德.
 
 So the rendering trades the fingernails for the distinction, and the distinction is worth more. But the loss is real, and a reader who wants the character rather than the word should keep the two hands in view.
 
-## What stays open
+### What stays open
 
 **Whether non-contention is an ethic or a tactic.** The book will not say, and two chapters make the question sharp:
 
