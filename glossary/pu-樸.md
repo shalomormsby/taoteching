@@ -62,7 +62,7 @@ Chapter 28 does not leave us with a prohibition on all shaping, which would be u
 > 聖人用之，則為官長，故大制不割。
 > *The sage uses them, and so becomes chief of officials — therefore the greatest shaping does no cutting.*
 
-**制** (*zhì*) is to tailor, cut out, regulate, govern. **割** (*gē*) is to sever. So: *the great tailoring does not sever.* The sage does not refuse to govern, and does not pretend the world contains no vessels. What they refuse is the **cut** — the severing that turns a whole person into an instrument. Shape without severing; use without reducing. That is the practical form of 無為 (*wúwéi* — non-doing) applied to people.
+**制** (*zhì*) is to tailor, cut out, regulate, govern. **割** (*gē*) is to sever. So: *the great carving does not sever.* The sage does not refuse to govern, and does not pretend the world contains no vessels. What they refuse is the **cut** — the severing that turns a whole person into an instrument. Shape without severing; use without reducing. That is the practical form of 無為 (*wúwéi* — non-doing) applied to people.
 
 ### The far echo — Chapter 41
 
@@ -117,11 +117,11 @@ So the "block" is **English**, not Chinese — a noun supplied by translators to
 
 **1. You are told to return to a state that cannot be recovered.** 復歸於樸 (28). Wood does not un-carve. Once the block is vessels, no craft on earth makes it a block again. Yet the instruction stands, three times over, in parallel with returning to infancy and to the limitless — both equally irreversible. Either the instruction is impossible, or *returning* means something other than reversal: not restoring a former shape but ceasing to identify with the shape you were cut into. The text does not explain. It simply keeps pointing backward along a road that only runs forward.
 
-**2. The great cutting does not cut.** 大制不割 (28) — Laozi's own explicit paradox, placed in the very passage where the block becomes vessels. 制 is to tailor, cut out, govern; 割 is to sever. The greatest shaping does no severing. Not a refusal to shape — a shaping that leaves nothing cut.
+**2. The great carving does not cut.** 大制不割 (28) — Laozi's own explicit paradox, placed in the very passage where the block becomes vessels. 制 is to tailor, cut out, govern; 割 is to sever. The greatest shaping does no severing. Not a refusal to shape — a shaping that leaves nothing cut.
 
 **3. The un-usable is used.** Chapter 32 insists that nothing in the world can make the uncarved a subject — 天下莫能臣也 — because it has no function to be pressed into. Then Chapter 37: 吾將鎮之以無名之樸 — *I will settle them with the nameless uncarved.* The ruler **deploys** it. The thing defined by having no use is picked up and used, and the paradox is exactly the point: what settles a grasping world is the one thing that cannot be grasped.
 
-**And one more, structural.** Chapter 32 says 始制有名 — *once there is cutting, there are names.* Naming **is** carving. Which means every word in this book is a cut, including the word 樸 — Laozi is using chisels to point at the uncut log. He seems to know it: 道可道，非常道 (1), and 知者不言 (56). The book is a carving that argues against carving.
+**And one more, structural.** Chapter 32 says 始制有名 — *when the carving begins, there are names.* Naming **is** carving. Which means every word in this book is a cut, including the word 樸 — Laozi is using chisels to point at the uncut log. He seems to know it: 道可道，非常道 (1), and 知者不言 (56). The book is a carving that argues against carving.
 
 That is the honest shape of the thing. The paradox is not buried in the etymology; it is in what Laozi *does* with a perfectly ordinary word for raw timber. Which is more interesting, and more his.
 

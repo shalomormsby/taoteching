@@ -183,7 +183,7 @@ Also rejected: **"effortless action"** — an interpretation smuggled into a ren
 
 **則為官長 — the grammar decides where the commentators split.** 河上公 has the sage **become** chief (聖人升用則為百官之元長也); 王弼 has the sage **establish** officers (為之立官長, reading 為 as *wèi*). **樸散則為器 is the identical 則為 one line above**, so if that is *becomes vessels*, this is *becomes chief*. This is ch 4's lesson run forward: check the grammar before concluding.
 
-**大制不割 → "the great cutting severs nothing" — a paradox the old English had erased.** 制 is already *cutting* at ch 32 and 說文 makes it a knife (裁也。从刀); 割 is a **different** cut (剥也, *to flay*), so it takes *sever*. *"The great orchestrator itself does not carve"* had put **one mechanistic word on two different characters** — 官長 and 大制 — and lost the knife inside both. 王弼: 大制者，以天下之心為心，故無割也.
+**大制不割 → "the great carving severs nothing" — a paradox the old English had erased.** 制 carries the same word at ch 32 and 說文 makes it a knife on timber (裁也。从刀从未); 割 is a **different** cut (剥也, *to flay*), so it takes *sever*. *"The great orchestrator itself does not carve"* had put **one mechanistic word on two different characters** — 官長 and 大制 — and lost the knife inside both. 王弼: 大制者，以天下之心為心，故無割也.
 
 **Two em-dashes went with the rewrite, not as a decision. T4-3 stays deferred**; ch 28 simply leaves its list.
 

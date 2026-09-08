@@ -8,7 +8,7 @@
 
 **The first draft is complete — 81 of 81, since 2026-08-26. The editing pass is the work now.**
 
-**Progress: Pass 0 ✅ · Pass A ✅ · Pass B ✅ · Pass C ✅ · Pass D 🔶 — 18 of 19 chapters (2026-09-07).** Pass D, the chapter-level rewrites, is the work now, and it has **one row per chapter** so they can be checked off one at a time. Done: **3 · 4 · 8 · 10 · 11 · 13 · 16 · 22 · 23 · 28 · 29 · 31 · 35 · 36 · 38 · 39 · 41 · 64** — eighteen of the nineteen. Gate green: 0 errors, 124 tests, hard breaks intact, worklist consistent with itself.
+**Progress: Pass 0 ✅ · Pass A ✅ · Pass B ✅ · Pass C ✅ · Pass D ✅ — 19 of 19 chapters (2026-09-07).** Pass D, the chapter-level rewrites, is **complete**, and it had **one row per chapter** so they could be checked off one at a time. Done: **3 · 4 · 8 · 10 · 11 · 13 · 16 · 22 · 23 · 28 · 29 · 31 · 32 · 35 · 36 · 38 · 39 · 41 · 64** — nineteen of the nineteen. Gate green: 0 errors, 124 tests, hard breaks intact, worklist consistent with itself.
 
 *Supersedes `RETROFIT.md` and `EDITING-PASS.md`, merged into this file on 2026-08-28 and both now deleted. This file is `RETROFIT.md` renamed, so `git log --follow WORKLIST.md` still reaches the project's start; the 2026-08-10 sweep record and the lessons it taught the checker moved to `PLAN.md`. Every item below was re-verified against the manuscript at the merge; the old file listed six repairs that had already been made.*
 
@@ -16,7 +16,7 @@
 
 ## The list
 
-**⬜ open · 🔶 part done · ✅ done · ⏸ deferred by Shalom.** Detail for every row is below, under the matching heading. **122 item rows: 57 open · 58 done · 4 part done · 3 deferred.** *(19 of them are the per-chapter Pass D rows, whose status is derived.)* *(Counted from the table itself — a hand-kept tally drifts. It read "43 open · 18 done" and matched nothing.)*
+**⬜ open · 🔶 part done · ✅ done · ⏸ deferred by Shalom.** Detail for every row is below, under the matching heading. **123 item rows: 56 open · 60 done · 4 part done · 3 deferred.** *(19 of them are the per-chapter Pass D rows, whose status is derived.)* *(Counted from the table itself — a hand-kept tally drifts. It read "43 open · 18 done" and matched nothing.)*
 
 | # | | Item | Ch | Pass |
 |---|---|---|---|---|
@@ -25,7 +25,7 @@
 | PA | ✅ | **強 → strong**, completing the four-word table; 力 covered as *force* | 15 30 33 42 52 55 68 | A |
 | PB | ✅ | **仁 → humaneness · 慈 → tenderness · 孝 → devotion**; Guodian G1 closed | 5 18 19 20 38 | B |
 | PC | ✅ | ~~**The mirrors**~~ — every C-tagged row closed (T3-1, T2-9→14); T2-15's remainder moved to D with ch 28 and T1-8 | T3-1 · T2-9→15 | C |
-| PD | 🔶 | **Chapter-level rewrites** — the real work. One row per chapter below, checked off one at a time; **the count lives in those rows, not here** | D3 → D64 | D |
+| PD | ✅ | ~~**Chapter-level rewrites** — the real work~~ — **all 19 chapters closed 2026-09-07.** One row per chapter below; **the count lives in those rows, not here** | D3 → D64 | D |
 | PE | ⬜ | Entries and sweeps — **守 執 保** (T2-19 ★) · 身 氣 靜 君 士 智 事 志 谷 恃 | book-wide | E |
 | PF | ⬜ | The deferred calls | 民/人 · 正/奇 · em-dashes | F |
 | PG | ⬜ | `build.py` | — | G |
@@ -44,7 +44,7 @@
 | T1-12 | ✅ | ~~往 → *"the world routes to you"* ×2~~ — 往 is a verb of going, as at ch 80; **執 → *grasp*, restoring ch 29's mirror**, and 大象 → *the great image*, matching ch 41 | 35 | D |
 | T1-22 | ⬜ | Ch 48 — 取天下 → *"the world comes to you"*; 取 (*qǔ* — to take) is active and the English makes it a passive arrival. *Found by the ch 35 reverse check* | 48 | E |
 | T1-13 | ✅ | ~~*"returns energy to its root"* — 氣 is not in this chapter~~ — plus ***Multitudes*** with no 眾, and 物 deleted; 復歸 → *returns again*, following ch 28 | 16 | D |
-| T1-14 | ⬜ | The closing 譬…猶 simile is garbled | 32 | D |
+| T1-14 | ✅ | ~~The closing 譬…猶 simile is garbled~~ — the frame restored and the invented *high* and *deep* removed. 王弼 ties it to the chapter's middle: 非江海召之…不令而自均 | 32 | D |
 | T1-15 | ✅ | ~~谷 → *"reservoir"*, 谿, 官長, 大制 → *"orchestrator"*~~ — 谷 → *valley* (its word in 6 chapters); 制 → *cutting* (as ch 32); 割 → *severs* | 28 | D |
 | T1-16 | ✅ | ~~雄/雌 → *"assertive/yielding energy"*~~ — **rooster and hen**, forced by 牝/牡 already holding *male* / *female* | 28 | D |
 | T1-17 | ⬜ | 明 → *"clever"* — the one licensed lock exception, unrecorded | 65 | E |
@@ -98,7 +98,7 @@
 | D28 | ✅ | ~~**Ch 28** — the pointing test failed on nearly every line~~ · T1-7 · T1-15 · T1-16 · T3-5 | 28 | D |
 | D29 | ✅ | ~~**Ch 29** — 為 → *force* ×3, clashing with ch 64's *handle*; closes the last formula pair~~ — the whole chapter: 取 and 物 restored, 或▢或▢ ×4 given four matching lines, 去 ×3 unflattened to *lets go of*, 甚/奢/泰 separated on 說文, 羸 → *frail*. **Two forks logged, one followed against the base** (挫 → 載, on internal grounds) · T1-8 · T2-15 | 29 | D |
 | D31 | ✅ | ~~**Ch 31** — 左/右 as *creation*/*destruction*, then literal four lines later; 君子 → *the sage*~~ — the whole chapter: 器 ×3, 兵 ×3, 美 ×2 and 以喪禮處之 ×2 each unflattened; 眾 restored to its lock; 偏/上將軍 given their ranks back and the seating inversion with them; the two inflated 夫 removed. **The Siku editors flag part of this chapter as absorbed commentary** — logged · T1-9 · T2-6 | 31 | D |
-| D32 | ⬜ | **Ch 32** — the closing 譬…猶 simile is garbled · T1-14 | 32 | D |
+| D32 | ✅ | ~~**Ch 32** — the closing 譬…猶 simile is garbled~~ — the whole chapter, **and Pass D closes with it**: 制 → **carving** at 32 and 28, so 樸 (*the uncarved*) and the blade that ends it share one English root; 自 unflattened; 均 → *even out* (*harmonize* is 和's); 侯王若能守之 matched to ch 37 · T1-14 | 32 | D |
 | D35 | ✅ | ~~**Ch 35** — 往 → *the world routes to you*; 執 → *Embody*~~ — the whole chapter: **不足 → *not enough*, not *cannot***, which un-splits 王弼's single argument; 執 → *grasp* (the ch 29 mirror); 大象 → *the great image*; 口 gets its first *mouth*. Two forks logged. The ch 28 rider is cleared · T1-12 | 35 | D |
 | D36 | ✅ | ~~**Ch 36** — four 將欲X之，必固Y之 nominalized into abstract laws~~ — the frame restored ×4; 利器 → *tools of advantage* (all three commentators); 淵 → *deep water*. **韓非 covers this chapter with worked historical examples.** Three forks logged, including 邦/國, which dates our base to Han hands | 36 | D |
 | D38 | ✅ | ~~**Ch 38** — the 道 → 德 → 仁 → 義 → 禮 descent; 失 deleted from its hinge~~ · T1-4 | 38 | D |
@@ -118,6 +118,7 @@
 | T2-47 | ⬜ | **Ch 68's 善▢者 frame now has a seam.** 善為士者 is verbatim at 15 and 68, so its first line reads *"Those masterful in service are not martial"* — while its other three run *"The master fighter," "The master of overcoming enemies," "The master of using people."* Four instances of one frame, two shapes. Opened by T2-3 | 68 | E |
 | T2-48 | ⬜ | **`glossary/da-大.md` owes an adverbial flexion.** 大笑之 (41) reads *laugh **aloud***, which the entry's licensed list (*large · greater · master*) does not cover. Also unresolved there: whether the 大▢若▢ frame wants a superlative — ch 41's 大白 now takes one as a recorded exception, and 41 and 45 must be decided together | 41 45 + glossary | E |
 | T2-49 | ⬜ | **兵 two Englishes** — *weapons* at 31, 50, 57, 69, 80 and *military force* at ch 30 (以兵強天下). *Arms* is unavailable: that is 臂, the body's arms, at 38, 42 and 64 | 30 31 50 57 69 76 80 | E |
+| T2-50 | ⬜ | **Two characters now share the "carv-" root** — 制 (28, 32) and 斫 (*zhuó* — to hew) at ch 74, 代大匠斫 → *"those who carve in place of the master carpenter."* They never share a chapter, so no check fires; but 斫 is axe-work where 制 is a fitted cut | 28 32 74 | E |
 | T4-1 | ⏸ | **民 / 人** — one decision, whole book. Consider taking 身 (T2-1) with it. *Kin to T4-7* | 13 chapters | F |
 | T4-2 | ⏸ | **正 / 奇** — five Englishes | 37 45 57 58 78 | F |
 | T4-3 | ⏸ | **Em-dashes in the verse** — 14 lines *(ch 28's two and ch 15's one went with their rewrites, not by decision)* | 10 14 29 43 44 51 53 55 58 | F |
