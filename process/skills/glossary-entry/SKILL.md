@@ -16,6 +16,13 @@ Work through these phases in order. Do not skip the research.
 **Never write from memory.** Every claim gets checked against the corpus in this repo.
 
 ```bash
+python3 tools/build_principles.py --applies glossary   # the rules this work fires
+```
+
+**Run it, and read the *fires when* line on each.** `process/principles/` holds the rules this project learned by making particular decisions — they govern chapters nobody has read yet, which is exactly why they cannot be left where they were discovered. A 🔶 is **provisional**: one case so far, so weigh it rather than obey it. `process/principles/README.md` has the standard.
+
+
+```bash
 python3 tools/concordance.py 明                     # every chapter, line, gloss, and verse
 python3 tools/concordance.py --english "clarity"    # is this rendering backed by the character?
 python3 tools/concordance.py --pairs 玄 妙           # the term and its partner

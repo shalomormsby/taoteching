@@ -16,7 +16,7 @@
 
 ## The list
 
-**⬜ open · 🔶 part done · ✅ done · ⏸ deferred by Shalom.** Detail for every row is below, under the matching heading. **123 item rows: 56 open · 60 done · 4 part done · 3 deferred.** *(19 of them are the per-chapter Pass D rows, whose status is derived.)* *(Counted from the table itself — a hand-kept tally drifts. It read "43 open · 18 done" and matched nothing.)*
+**⬜ open · 🔶 part done · ✅ done · ⏸ deferred by Shalom.** Detail for every row is below, under the matching heading. **125 item rows: 56 open · 62 done · 4 part done · 3 deferred.** *(19 of them are the per-chapter Pass D rows, whose status is derived.)* *(Counted from the table itself — a hand-kept tally drifts. It read "43 open · 18 done" and matched nothing.)*
 
 | # | | Item | Ch | Pass |
 |---|---|---|---|---|
@@ -26,7 +26,7 @@
 | PB | ✅ | **仁 → humaneness · 慈 → tenderness · 孝 → devotion**; Guodian G1 closed | 5 18 19 20 38 | B |
 | PC | ✅ | ~~**The mirrors**~~ — every C-tagged row closed (T3-1, T2-9→14); T2-15's remainder moved to D with ch 28 and T1-8 | T3-1 · T2-9→15 | C |
 | PD | ✅ | ~~**Chapter-level rewrites** — the real work~~ — **all 19 chapters closed 2026-09-07.** One row per chapter below; **the count lives in those rows, not here** | D3 → D64 | D |
-| PE | ⬜ | Entries and sweeps — **守 執 保** (T2-19 ★) · 身 氣 靜 君 士 智 事 志 谷 恃 | book-wide | E |
+| PE | 🔶 | Entries and sweeps — ~~**守 執 保 持**~~ (T2-19 ★, closed 2026-09-08) · 身 氣 靜 君 智 事 志 谷 恃 | book-wide | E |
 | PF | ⬜ | The deferred calls | 民/人 · 正/奇 · em-dashes | F |
 | PG | ⬜ | `build.py` | — | G |
 | | | **Tier 1 · Wrong, not merely inconsistent** | | |
@@ -53,7 +53,8 @@
 | T1-20 | ⬜ | Four `unlogged-variant` warnings | 2 9 26 51 | E |
 | T1-21 | ⬜ | 配天 — the chapter and its own note disagree; the contested 天 line | 68 | F |
 | | | **Tier 2 · One character, many Englishes** | | |
-| T2-19 | ⬜ | ★ **The holding family — 守 執 保 有 collapsed into "hold."** 執 carries opposite valences and the English hides it | 5 9 14 15 16 28 29 32 35 37 52 62 64 67 69 74 79 | E |
+| T2-19 | ✅ | ~~★ **The holding family — 守 執 保 有 collapsed into "hold."**~~ — **說文 gives four different hands, and 守 has none.** 執 → *grasp* (*seize* at 74, the arrest — 捕罪人也 is the dictionary headword) · 守 → *hold to* / *guard* · 保 → *keep safe* · 持 → *hold*. **Four entries written and locked.** *Guard* had been worn by **three characters** (守 9, 保 15, 衛 67) — unseeable by any rule, since 守 and 保 share both ch 9 and ch 67. Riders: 搏 (14), 握 (55), 左 (79), 有 (59), 襲 (52), ch 5. **Ch 9 open → T2-51** | 5 9 14 15 16 28 29 32 35 37 52 55 59 62 64 67 69 74 79 | E |
+| T2-51 | ⬜ | **Ch 9 renders neither 持 nor 保, and invents a vessel** — 持而盈之 → *"Filling a vessel"* (no 器 in the chapter); 揣而銳之，不可長保 → *"An over-sharpened blade's edge cannot last"*. A stanza rewrite; travels with T2-1 and T1-20 | 9 | E |
 | T2-1 | ⬜ | **身** — *body* / *self* / *themselves*, and two of them inside ch 54. *Ch 10 avoided the noun for 營魄; if 身 lands on* body*, revisit that line* | 7 9 13 44 54 | E |
 | T2-2 | 🔶 | **智** four ways; **ch 3 settled as *the knowers*, fork logged**; *"cunning"* still wears 巧 at 19 and 57 | 3 18 19 33 65 | E |
 | T2-3 | ✅ | ~~**士** three ways, two on the identical phrase 善為士者~~ — all three now **in service** (2026-09-07, Shalom's call). 說文 士，事也: one who handles **affairs**, not a student; 河上公 has the middle 士 治國以太平, *governing the state*. *Officer* was declined as bureaucratic and negatively valenced. **Entry written and locked: `glossary/shi-士.md`.** **Seam noted:** 士 named a male class and the English is deliberately neutral. Opens T2-47 | 15 41 68 | E |
@@ -126,7 +127,7 @@
 | T2-24 | 🔶 | **淵** — ch 36 → **deep water** (說文 回水也…左右，岸也: circling water, banks left and right). *fathomless* (4) and *depth* (8) still open; *pool* rejected as chlorinated, *the depths* fails the pointing test | 4 8 | E |
 | T2-25 | ✅ | ~~**同於X → *merges with*** ×6~~ — **the same as**; 同 is 異's antonym and ch 1 already had it right. Closed T2-26 too | 23 | D |
 | T2-26 | ✅ | ~~**同 transitive — 同其塵 · 玄同**~~ — *the same as the dust* (4, 56) and *profound sameness* (56); **同 twice in ch 56 had two unrelated Englishes**. *union* was 合's (55) | 4 56 | E |
-| T2-30 | ⬜ | **夷** three ways — *the invisible* (14) · *smooth* (41) · *level* (53). *Found by the ch 35 reverse check: *level* was about to be taken for 平* | 14 41 53 | E |
+| T2-30 | ⬜ | **夷** three ways — *the invisible* (14) · *smooth* (41) · *level* (53). 說文 平也. *Found by the ch 35 reverse check: *level* was about to be taken for 平.* **Ch 14's half settled at T2-52 (2026-09-10) — its *the invisible* stands and the link is carried in notes. What is open is 41 vs 53** | 14 41 53 | E |
 | T1-23 | ⬜ | **Ch 69 deletes 主/客.** 吾不敢為主，而為客 → *"move first / move second"* — 河上公's gloss (主，先也) rendered instead of the text. 說文 makes them pointable: 主 is *the flame in the lamp*, 客 *one lodged under another's roof* | 69 | E |
 | T2-31 | ⬜ | **客** survives once in the English (ch 15). Restored at 35 as *a passing guest*; **ch 69 still owes it** · T1-23 | 15 35 69 | E |
 | T2-32 | ⬜ | **口** → *palate* at ch 12, picking eating over speech. 口 occurs twice; ch 35 now reads *mouth*, which does both | 12 35 | E |
@@ -136,10 +137,11 @@
 | T4-7 | ⬜ | ★ **Rank and gender — 大丈夫 · 君子 · 士.** Male rank-words dissolved in two opposite directions. Kin to T4-1 | 15 26 31 38 41 68 | F |
 | T4-4 | ⬜ | 剛 owed its own mention | — | E |
 | T2-33 | ⬜ | **利** wants an entry — 9 chapters, three jobs: *benefit* (bound to 害 at 56, 73, 81) · **sharp** (利器 36, 57; 利劍 53 — the 說文 sense, 銛也。从刀) · *advantage* (11, 19) | 8 11 19 36 53 56 57 73 81 | E |
-| T2-34 | ⬜ | **微** three ways — *the intangible* (14) · *subtle* (15, 64) · *hidden* (36). 說文 隱行也, "to go concealed" | 14 15 36 64 | E |
+| T2-34 | ⬜ | **微** three ways — *the intangible* (14) · *subtle* (15, 64) · *hidden* (36). 說文 隱行也, "to go concealed". **Ch 14's half settled at T2-52 (2026-09-10) — its *the intangible* stands and the link is carried in notes. What is open is 36 vs 15/64** | 14 15 36 64 | E |
 | T2-35 | ⬜ | **得** wants an entry — 19 chapters, 30 lines, no entry; *obtain* · *get* · *gain* · *gets*, plus the 不得已 idiom at 29, 30, 31. Ch 39 uses **received** and does not settle it | book-wide | E |
 | T2-36 | ⬜ | **貴 / 賤** want an entry — 貴 is 15 chapters, 22 lines (*prize* · *value* · *high status* · *honour*). 說文 makes both **price** words: 物不賤也 · 賈少也 | book-wide | E |
 | T2-37 | ⬜ | ★ **神 and 靈 want one entry together** — both on the overlay watchlist, neither has an entry. 神 → *spirit* (6, 39, 60) · *sacred* (29); 靈 → *numinous* (39), which **fails the pointing test** and had no surviving alternative | 6 29 39 60 | E |
+| T2-52 | ✅ | ~~★ **Ch 14's opening triad is a definition passage, and all three names are rendered by their explanations**~~ — **ch 14 keeps *the invisible · the inaudible · the intangible*** (Shalom's call, 2026-09-10). Rendering the words themselves (*the level · the sparse · the faint*) would make 夷 · 希 · 微 live threads through nine chapters, and **王弼 argues for it** — he defines 希 at ch 41 by quoting this stanza outright — but it costs ch 14 its clarity this early in the book. **The connection is carried by chapter notes instead: an anchor note at ch 14 and a matching thread note at 15, 23, 36, 41, 43, 53, 64, 70, 74.** The recurrences' own consistency stays open at T2-30 · T2-34 · TRIAGE 14b | 14 15 23 36 41 43 53 64 70 74 | E |
 | T4-5 | ⬜ | Glossary harvest — 一 名 希, plus ten new candidates | — | E |
 | T4-6 | ⬜ | Guodian **G2–G6** | 5 16 17 18 25 + 26 more | E |
 | T4-8 | ⬜ | 說文 (c. 100 CE) quotes the four-greats line as 人亦大 — six centuries before our oldest 人 witness | 25 | E |
@@ -239,30 +241,27 @@ Meaning changed. Each needs a decision; most need one line rewritten.
 
 ## Tier 2 · One character, many Englishes
 
-19. **★ The holding family — four characters collapsed into one English word.** *Raised 2026-08-28 by Shalom at ch 24, after 有道者 (*yǒu dào zhě*) turned out to read *"those who hold the Tao"* for a different character than ch 15's 保此道者.*
+19. ✅ **Closed 2026-09-08. 說文解字 gives the four characters four different hands, and one of them is not a hand at all.**
 
-   | | | current Englishes |
-   |---|---|---|
-   | 守 (*shǒu*) | guard, hold fast to — **locked** | *hold* (5, 32) · *guarded* (9) · **embrace** (16) · **attune to** (28 ×3) · *hold to* (37) · *hold fast to* (52) · *stay with* (52) · *defend* (67) — **eight** |
-   | 執 (*zhí*) | to grasp, to seize | *Hold* (14) · *grasped* (29, 64) · **Embody** (35) · *gripping* (69) · *seize* (74) · *holds* (79) — **six** |
-   | 保 (*bǎo*) | to keep, to preserve | *cannot last* (9) · **holds** (15) · *safekeeping* (62) · *keep safe* (67) — **four** |
-   | 有 (*yǒu*) | to have — *presence* is locked in `wu-you-無有.md` | 有道者 → **are with the Tao** (24, 31, 77) ✅ *settled 2026-08-28* |
+   | | 說文 | the graph | now |
+   |---|---|---|---|
+   | 持 (*chí*) | 握也 — *"to grip"* | 手 (*shǒu* — hand) + 寺 | **hold** (9, 64, 67) |
+   | 執 (*zhí*) | **捕罪人也** — *"to seize a criminal"* | 丮 a reaching hand + 㚔, **manacles** | **grasp** · ***seize*** at 74 |
+   | 守 (*shǒu*) | **守官也** — *"to keep an office"* | 宀 a roof + 寸 (法度, a regulation) — **no hand** | **hold to** · ***guard*** at 9, 67 |
+   | 保 (*bǎo*) | **養也** — *"to rear"* | 人 a person + 孚, a hand over a child | **keep safe** (9, 15, 62, 67) |
 
-   **The sharpest problem is 執, and it is the 強 problem again.** 執 is the book's word for **the wrong kind of taking-hold**: 不可執也 (*bù kě zhí yě* — "it cannot be grasped," ch 29) and 執者失之 (*zhí zhě shī zhī* — "those who grasp it lose it," ch 29 and 64). But ch 14 gives 執古之道 (*zhí gǔ zhī dào*) as *"**Hold** the ancient Tao"* — an instruction, positive. **Same character, opposite valence, and our English resolves a tension the Chinese leaves standing.** Ch 79's 執左契 (*zhí zuǒ qì* — "holds the left tally") is a third, neutral use. Whatever 執 takes has to be sayable in all three.
+   **Four entries written and locked:** `zhi-執.md` · `shou-守.md` · `bao-保.md` · `chi-持.md`. Full argument in `notes/translation.md` → *The holding family*.
 
-   **And 執 is dropped outright at ch 35** — 執大象 (*zhí dà xiàng* — "grasp the great image") reads *"Embody the great form,"* in the same line as the *routes to you* mechanism already flagged at T1-12.
+   **執 is not the 強 case.** This file had framed it as one character with opposite valences that the English must hold together. **The character is narrower than that: it is a legal word.** 說文 is 捕罪人也, and the book uses the judicial sense twice with no metaphor in it — ch 74's 執而殺之, which 河上公 reads as statute (乃應**王法**執而殺之…先**刑罰**), and ch 79's 執左契, a bond enforceable before there were written laws. So 執者失之 is not a caution against clinging: **its object is 天下, and the clause before it says the world is a 神器.** You cannot take a sacred vessel into custody. 王弼: 物有徃來而執之，故必失矣, and he brackets the verb with ch 28's blade, 不施為**執割**也. **Ch 14 and 35 are therefore the joke, not the exception** — you cannot arrest the world, so arrest the one thing that will not break in your hand. ***Seize* at 74 is the dictionary headword, not an exception** (Shalom's call).
 
-   **What Shalom named as the priority: the verbs for relating to the Tao.** The book has at least five and English is collapsing them.
+   **The live error nothing could have caught: *guard* was worn by three characters** — 守 (9), 保 (15), 衛 (67). And **守 and 保 stand together in both ch 9 and ch 67**, so a `forbidden:` rule keying off a character's presence can never separate them. Both entries carry a *"what no rule can enforce"* section for exactly this. The ch 15 decision of 2026-09-06 had also been argued from ch 9's **literal gloss table** rather than its verse — ch 9's verse renders 保 nowhere, and its *guard* belongs to 守.
 
-   | ch | Chinese | now |
-   |---|---|---|
-   | 14 | 執古之道 | *Hold the ancient Tao* |
-   | 15 | 保此道者 | *Those who guard the Tao like this* ✅ *(2026-09-06 — 保 → guard, matching ch 9; 此 read as anaphoric, not partitive)* |
-   | 23 | 從事於道者 | *the one who aligns their actions with the Tao* |
-   | 24, 31, 77 | 有道者 | *those who are with the Tao* ✅ |
-   | 52 | 復守其母 | *return and hold fast to our mother* |
+   **Riders applied:** 搏 (14) had taken 執's English inside 執's own chapter (now *get*, on 得's word) · 握 (55) → *grip*, freeing *grasp* book-wide · 左 restored at 79 · 有 (59) had *Holding* on it, with 有國 reading two ways in adjacent lines · 襲 (52) had *holding* on it, now matched to ch 27 · ch 5's *in silence* rendered nothing.
 
-   **Order of work.** 守's eight Englishes are partly already tracked — ch 16 is T1-6 and ch 28 is T1-7, both Pass D — so the sweep should follow those rewrites rather than precede them. 執 needs an entry of its own and should be taken with 為 (*wéi* — to handle), since 為者敗之，執者失之 pairs them and T1-8 is unresolved at ch 29. 保 is small (four lines) and can ride along.
+   **Left open:** ch 9 → **T2-51**; whose half 執左契 names; 有's transitive uses beyond 有道者.
+
+51. ⬜ **Ch 9 renders neither 持 nor 保, and invents a vessel.** 持而盈之，不如其已 reads *"Filling a vessel, stop before spilling"* — 持 (*chí* — to hold) is gone, 不如 (*bù rú* — not as good as) is flattened to a comma, and **器 (*qì* — vessel) is not in the chapter**. 揣而銳之，不可長保 reads *"An over-sharpened blade's edge cannot last"* — 保 gone, *blade's edge* invented for 銳 (*ruì* — sharp). The chapter's spine is three things you cannot keep, in three different characters — 持 · 保 · 守 — and the English keeps one of them. **A stanza rewrite, not a term swap.** Ch 9 also carries T2-1 (身退 → *"cease striving"*, where *striving* is 爭's) and T1-20's unlogged 銳 variant, so the three should move together.
+
 
 1. **身 (*shēn* — body) drifts, and ch 54 uses two Englishes inside one stanza.** 修之於身 → *"in your **body**"*; five lines later 以身觀身 → *"the **self** through your own **self**."* Across the book: *body* (13, 54), *self* (7, 44, 54), *themselves* (7), dissolved entirely at ch 9 (身退 → *"cease striving"*). **Same shape as 民/人 — decide them together.**
 2. **智 rendered four ways, and *"cunning"* covers four characters.** *cunning* (3), *cleverness* (18, 19), *intelligent* (33), *guile* (65). Some spread is legitimate — 智 runs from *wisdom* at 33 through *cleverness* at 19 to *artifice* at 65, a licensed split like 事. What is not legitimate is that it happened by accident. **And *cunning* also did duty for 知 (ch 3, adjacent line), 巧 (ch 57), and a fourth at ch 58.** **Ch 3 is closed (2026-08-31, with T1-3):** 無知 → *unknowing*, 智者 → **the knowers**, and *cunning* is off the chapter. The word was chosen because **the commentators diverge on who the 智者 are** — 王弼 prints 智者 and glosses 智者謂知為也 (*"those who know how to handle"*), 河上公 prints 知者 with the phonetic note 知音智 and glosses 思慮深不輕言, almost verbatim what he says of the *approving* 知者 at ch 56 — so any English specific enough to settle it picks a side. Fork now in `sources/variants.yaml` and `notes/manuscript.md`. **The book-wide split stands** at 18, 19, 33, 65. **Take 智 with 知, 巧, and the locked 明** — those four are the book's whole epistemology and three are unlocked.
@@ -387,6 +386,82 @@ Structure the Chinese has and the English does not. These are rewrites, and they
 **Needs a chapter-level rewrite** — 3, 4, 8, 10, 11, 13, 16, 24, 26, 28, 29, 31, 32, 35, 36, 39, 41
 
 *Chapters 5, 15, 18, 19, 20, 30, 33, 38, 42, 52, 55, 59, 68 moved up during Passes 0–B. Ch 38 retains two debts (Tier 1 §4); ch 15 retains 士 (Tier 2 §3); ch 30 retains 佐 (Tier 1 §18); ch 68 retains 配天 (Tier 1 §21) — they are listed clean only where this file says otherwise above.*
+
+---
+
+## The principles harvest — the inventory
+
+*Swept 2026-09-10 with `process/skills/principle-entry`, three passes over ~11,400 lines of prose plus the 4,478-line glossary. **This is the inventory, not the entries** — each row becomes a file in [`process/principles/`](process/principles/README.md), written to the standard there. Rows leave this table as they ship.*
+
+**What the three passes cost and returned.** Pass 1 (self-declared — *"standing principle"*, *"general rule"*) found **28 hits**. Pass 2 (principle-shaped bolded leads naming no chapter or character) found **~40 more**, most of them scoped to one document. **Pass 3 — the same reason given over and over and abstracted never — found the two largest rules in the project**, and neither is reachable by any keyword search: ***a rendering that renders no character*** (88 instances) and ***a rendering already spoken for by another character*** (47). Pass 3 is the one to run habitually.
+
+**Status here means *harvested*, not *shipped*.** ⬜ inventoried · ✅ written as an entry.
+
+### A · No home, high instance — write these first
+
+| | | Proposed rule | Trigger fires when | Cases |
+|---|---|---|---|---|
+| H1 | ✅ | ~~**Every English word in the verse renders a character** — shipped `active`, 3 cases. `renders-no-character.md`~~ | you are about to put a word in the verse that renders nothing in the Chinese | **88** — ch 16 *energy*, ch 23 *intensity* · *we*, ch 10 ×3, ch 41 *the countless things*, ch 15 *danger from all sides* |
+| H2 | ✅ | ~~**A rendering already spoken for by another character is not available** — shipped `active`, 3 cases. `already-spoken-for.md`~~ | a rendering you want is doing duty for a different character somewhere in the book | **47** — *nourish* (34, 51), *harm* (35, 56, 66), *inexhaustible* (6, 35), *precious* (70, 72, 75), *embrace* ×4. The operational half is `concordance.py --english` |
+| H3 | ✅ | ~~**The English must not carry a verdict the Chinese does not** — shipped `active`, 3 cases. `no-verdict-the-chinese-lacks.md`~~ | your rendering approves or condemns and the character only describes | **26** — 貴/賤 as price not virtue, 善 as skilled, 惡 as *loathes*, 細 without *petty*, 辯 in the 大X若Y frame |
+| H4 | ✅ | ~~**Where the commentators diverge, the English must not settle it** — shipped `active`, 3 cases. `divergence-stays-open.md`~~ | you are choosing an English that picks one commentator's reading over another's | **31** — 智者 (3), 信不足 (17/23), the subject at 4/56, 希 (23), 專 (10) |
+| H5 | ✅ | ~~**Register is a claim — a line that would sit in a sermon has made one** — shipped `active`, 3 cases; absorbs §1 *Register*, the hymn test and `overlay-audit.md`. `imported-register.md`~~ | a rendering would sit comfortably in a sermon, or in 1971 | **55** — the KJV/Genesis/Pauline family, *Be Here Now*, devotional capitals |
+
+### B · Already written, in the wrong place — migrate from `notes/translation.md` §1
+
+*✅ **Closed 2026-09-10.** All three migrated, plus §1's *Register*, which H5 had already absorbed. **§1 went from 89 lines to 40**, and each migrated section keeps its heading as a redirect so existing links resolve. Four prose pointers repaired (`source/chinese.md`, ch 3, ch 12, ch 21) and two inside `notes/translation.md` itself. **What is left in §1 is exactly H30 and H32** — two term rulings that belong in `glossary/`, and the typography rule that already has an enforced home.*
+
+| | | Proposed rule | Note |
+|---|---|---|---|
+| H6 | ✅ | ~~**The marks are ours; the music is the source's** — shipped `active`, 3 cases; `check: fix-linebreaks`. `lineation-is-ours.md`~~ | §1, and it is load-bearing for the CC0 claim (`PROVENANCE`) |
+| H7 | ✅ | ~~**A commentator's gloss is an argument for a rendering, never a rendering** — shipped `active`, 3 cases; its divergence half went to `divergence-stays-open`. `commentary-is-not-a-rendering.md`~~ | §1 · the 河上公 *"here, now"* case |
+| H8 | ✅ | ~~**A collocation carries a verdict its component words do not** — shipped `active`, 3 cases. `collocation-carries-a-verdict.md`~~ | §1 · ch 3. Distinct from H3: the *pairing* carries it, not the word |
+
+### C · Born inside chapter notes and never migrated
+
+*✅ **Closed 2026-09-10.** All seven shipped — six `active`, one `provisional`. **The set produced three boundaries the individual notes never had:** H11 is the named exemption to H1 (a supplied verb renders no character and is allowed, because English grammar requires it and the note declares it); H12 is H8 one level up (there the *idiom* adds a claim, here the *construal* does); and H15 splits into two rules that look identical and are not — distribution about the **English** concludes, distribution about the **Chinese** does not.*
+
+| | | Proposed rule | Born at |
+|---|---|---|---|
+| H9 | ✅ | ~~**A rendering chosen for one chapter's legibility owes the connection to the notes**~~ — shipped `provisional` | ch 14 · T2-52 |
+| H10 | ✅ | ~~**One Chinese modifier, one English modifier** — shipped **`provisional`**: the doublet-refusal half rests on one case. `one-modifier-one-modifier.md`~~ | 難得之貨 · T2-14 |
+| H11 | ✅ | ~~**A supplied verb is scaffolding, not a character's English** — shipped `active`, 3 cases. The named exemption to `renders-no-character`. `supplied-verb-is-scaffolding.md`~~ | ch 8 · ch 61 · ch 66 |
+| H12 | ✅ | ~~**A construal defensible in the Chinese that lands as a different claim in English has not been translated** — shipped `active`, 2 cases. `defensible-but-a-different-claim.md`~~ | ch 13 · ch 39 |
+| H13 | ✅ | ~~**Correct an overlay by performing it, not by labelling it more accurately** — shipped `active`, 2 cases (ch 10 · ch 28). `perform-dont-label.md`~~ | ch 10 · 營魄 |
+| H14 | ✅ | ~~**Name the referent — classical Chinese can leave one floating where English cannot** — shipped `active`, 2 cases; **carries the em-dash rule's real reason**. `name-the-referent.md`~~ | ch 22 · and the em-dash rule's real reason |
+| H15 | ✅ | ~~**A distributional argument is a reason to look, not a reason to conclude** — shipped `active`, 3 cases, **with the boundary found**: distribution about the *English* concludes, about the *Chinese* does not. `distribution-locates.md`~~ | ch 4 · 象 |
+
+### D · Tooling and process — scoped to one document, invisible to a translator
+
+| | | Proposed rule | Where it is stated now |
+|---|---|---|---|
+| H16 | ⬜ | **Record the fact, never the text** (excavated witnesses) | **four places** — `ARCHITECTURE` 271, `PLAN` 196, `PROVENANCE` 45, `manuscript.md` 19 |
+| H17 | ⬜ | **No rule fires on English alone** — the evidence gate | `ARCHITECTURE` 221 · `CLAUDE.md` |
+| H18 | ⬜ | **Never delete a rule to silence it** — waive one finding or set aside the rule, on the record | `ARCHITECTURE` 239 |
+| H19 | ⬜ | **Make a generator deterministic before you gate it** | `ARCHITECTURE` 147 |
+| H20 | ⬜ | **Every file is edited or generated, never both** | `ARCHITECTURE` 64 |
+| H21 | ⬜ | **An importer that does not verify itself is decoration** | `ARCHITECTURE` 149 · the 韓非 case |
+| H22 | ⬜ | **Where the Chinese repeats itself, repeat yourself** | `CLAUDE.md` · `DISCOVERIES` §6 · `check: formulas` |
+| H23 | ⬜ | **Verify a flagged line against the Chinese in its own chapter before changing it** | `CLAUDE.md` · the 2026-08-10 sweep's false positives |
+| H24 | ⬜ | **Check the witnesses before drafting, not after** | `CLAUDE.md` · ch 21 · ch 25 |
+| H25 | ⬜ | **A lock is a claim in both directions and the checker can only test one** | `CLAUDE.md` · 固 · 壯 |
+| H26 | ⬜ | **Intuition is last as an arbiter and first as a detector** — discomfort is a research assignment | `CLAUDE.md` ★ · `method.md` 105–109 |
+| H27 | ⬜ | **Universalize, and name the seam** — never erase the male-default silently | `CLAUDE.md` rule 2 · `reading.md` 62 |
+| H28 | ⬜ | **One question at a time** *(`applies: process`)* | `CLAUDE.md` · 2026-08-28 |
+| H29 | ⬜ | **A commentator's gloss is not the text — and is evidence for what stood in his** | `CLAUDE.md` · `manuscript.md` 536 |
+
+### E · Findings, not principles — four things the sweep found in the wrong layer
+
+*`CLAUDE.md`: "if you find them disagreeing, that is a finding: fix both and say which was wrong."*
+
+*✅ **Closed 2026-09-10, and the sweep found a fifth.** Three documents described what `notes/translation.md` holds and they disagreed. **`WORKLIST.md` was right** — the ruling and its full argument go in `glossary/`, the decision goes in `notes/`. **`notes/translation.md` §2 was wrong**: it claimed *"the lock itself lives in `CLAUDE.md` and the glossary; the argument lives here"*, and it had exactly **one occupant in its whole life** — 無為 — which was a summary closing with *"Full reasoning: `glossary/wuwei-無為.md`."* **It described a layer that was never used.** §2 is dissolved, §1 is emptied, and both `CLAUDE.md`'s notes table and the file's own header now say what is true.*
+
+| | | Finding |
+|---|---|---|
+| H30 | ✅ | ~~**Two term rulings were filed among rules that govern every chapter** — *The 天 family* (§1) and *無為* (§2). Both moved to `glossary/tian-天.md` · `tiandi-天地.md` · `wuwei-無為.md`, **which already carried more than the summaries did**; each closed by pointing there. Headings kept as redirects~~ |
+| H31 | ✅ | ~~**`### 善 governs a verb`** moved to `glossary/shan-善.md`, which already carried it. **Its other half was the transferable one** and shipped as `supplied-verb-is-scaffolding` (H11)~~ |
+| H32 | ✅ | ~~**The typography rule's third full copy is gone.** `CLAUDE.md` rule 5 is canonical and `check_locks.py` enforces it (`_DEVOTIONAL` carries `"Mother": "母"`); `CONTRIBUTING.md` restates it for outside contributors, which is a different audience. §1's 母 argument moved to `glossary/mu-母.md`; **the em-dash *case* stays** because it is the evidence for `name-the-referent`, and the rule went there~~ |
+| H33 | ✅ | ~~**Recorded in `process/principles/README.md`** — standing rules 0–6 stay in `CLAUDE.md`. They are indexed, read every session, and partly enforced; this directory is for rules with **no** home, and a second copy is what killed the hand-kept lock table~~ |
 
 ---
 

@@ -29,7 +29,8 @@ A working approximation is fine and expected; the *deep* meaning is what the glo
 
 1. **`WORKLIST.md`** — everything the manuscript owes, prioritized, with the pass order. **Work by term, in passes, not chapter by chapter:** one decision touches a dozen chapters, and walking 1→81 re-opens the same argument twenty times.
 2. **`process/shaloms-call.md`** — rules Shalom has currently set aside. Where a call is in effect, the call wins: say so once and proceed.
-3. **`DISCOVERIES.md`** — the findings worth an essay, newest first. **⚠ §1's central claim was superseded on 2026-08-20;** the file carries a banner. The *heaven* half stands, the *king* half was backwards, and the lesson worth keeping is that a popular "帛書版" (*bó shū bǎn* — "silk-manuscript edition") text online had been silently emended and we took it for the silks. **Do not trust a manuscript claim that is not in `sources/variants.yaml`.**
+3. **`process/principles/INDEX.md`** — the rules this project learned by making decisions, each with a **trigger** saying when it fires. **The skills load the relevant ones automatically** (`build_principles.py --applies drafting|glossary`), so this is for taking stock rather than for remembering. A 🔶 is provisional — one case so far, so weigh it rather than obey it.
+4. **`DISCOVERIES.md`** — the findings worth an essay, newest first. **⚠ §1's central claim was superseded on 2026-08-20;** the file carries a banner. The *heaven* half stands, the *king* half was backwards, and the lesson worth keeping is that a popular "帛書版" (*bó shū bǎn* — "silk-manuscript edition") text online had been silently emended and we took it for the silks. **Do not trust a manuscript claim that is not in `sources/variants.yaml`.**
 
 **Three calls are deferred by Shalom and must not be quietly settled inside a chapter review** — 民/人 (*mín / rén* — the governed / a person), 正/奇 (*zhèng / qí* — straight / crooked), and the em-dashes in the verse. Argue them with new evidence if you have it; otherwise leave them. `WORKLIST.md` T4.
 
@@ -170,8 +171,10 @@ Three commentaries are vendored — 王弼 (*Wáng Bì*, d. 249 CE), 河上公 (
 | File | Holds | Format |
 |---|---|---|
 | `notes/manuscript.md` | textual forks **between witnesses** | chapter · line · fork · our call |
-| `notes/translation.md` | **our own** rendering decisions & standing principles | chapter · phrase · choice · why |
+| `notes/translation.md` | **our own** rendering decisions, per chapter and across chapters | chapter · phrase · choice · why |
 | `notes/reading.md` | reader-facing interpretive notes; cross-cutting **Threads** | chapter/Thread · title · note |
+
+**A fourth layer sits beside these: [`process/principles/`](process/principles/README.md)** — the rules that govern every chapter, which none of the three above can index, because a transferable rule is not *about* a chapter, a term or a witness. `notes/translation.md` §1 held them until 2026-09-10 and they are all migrated.
 
 Log only what changes meaning. Notes stay thin so they stay usable; the **glossary** carries the weight.
 
@@ -187,6 +190,9 @@ notes/                manuscript · translation · reading
 process/method.md     the full working guide (this file is its compression)
 process/shaloms-call.md   rules Shalom has set aside, and why — read at session start
 process/skills/       the method, made executable (chapter-review · glossary-entry)
+process/principles/   ★ the rules learned by making decisions — one file each, with a
+                      trigger saying when each fires. INDEX.md is generated; the skills
+                      load them by `applies:` tag. Read README.md before adding one
 process/overlay-audit.md
 sources/PROVENANCE.md what may live in sources/, and on what authority — read before adding
 sources/variants.yaml the witness apparatus, as facts (never transcriptions)
@@ -230,6 +236,8 @@ python3 tools/concordance.py --witnesses 25      # where the older manuscripts d
 python3 tools/concordance.py --commentary 63     # Wang Bi and Heshang Gong on a chapter
 
 python3 tools/build_index.py                     # REQUIRED after any glossary edit
+python3 tools/build_principles.py                # REQUIRED after any principles edit
+python3 tools/build_principles.py --applies drafting   # what fires on the work at hand
 python3 tools/fix-linebreaks.py                  # REQUIRED after editing any verse
 python3 tools/build_db.py && python3 tools/export.py    # rebuild the atlas
 python3 tools/check_worklist.py                  # WORKLIST.md against its own table

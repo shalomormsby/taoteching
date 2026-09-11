@@ -11,6 +11,7 @@ AI collaborators, and available to anyone who clones the repo.
 |---|---|
 | `chapter-review/` | Drafting or reviewing a chapter from the Chinese |
 | `glossary-entry/` | Adding or revising a term in `glossary/`, or locking a rendering |
+| `principle-entry/` | Recording a rule that will govern chapters nobody has read yet |
 
 ## To activate
 
