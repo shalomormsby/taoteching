@@ -1225,3 +1225,121 @@
     base and record the other reading.
   logged: notes/manuscript.md
 
+
+# ---------------------------------------------------------------------------
+# 韓非子 harvest, 2026-09-10 (WORKLIST R1). The importer had marked 35 divergent
+# lemmas across 14 chapters since the library was vendored and nobody had read
+# them. Sorted: 4 meaning-bearing, 3 worth recording, 3 already logged above,
+# and 25 orthographic or particle — see the collective note at ch 0 below.
+# ---------------------------------------------------------------------------
+
+- chapter: 38
+  line: "故失道而後德，失德而後仁"
+  base: "失道而後德"
+  witnesses: { hanfeizi: "失道而後失德" }
+  meaning_bearing: true
+  our_call: undecided
+  note: >
+    The oldest witness prints 失 twice per clause where our base prints it
+    once, five clauses running. Our base is a DESCENT — lose the Tao, and then
+    there is 德; lose 德, and then there is 仁 — each rung appearing as the one
+    above it goes. 韓非's is a CASCADE: lose the Tao and then lose 德, lose 德
+    and then lose 仁. Nothing appears; everything is successively forfeited.
+    The chapter was rebuilt in Pass D around 失 as its spine (WORKLIST T1-4),
+    and our English reads "So when the Tao is lost, then integrity." Which
+    text we follow decides whether 仁 and 義 are what is left after a loss or
+    two more things lost. Undecided pending Shalom.
+  logged: notes/manuscript.md
+
+- chapter: 64
+  line: "以輔萬物之自然，而不敢為"
+  base: "輔"
+  witnesses: { hanfeizi: "恃" }
+  meaning_bearing: true
+  our_call: base
+  note: >
+    輔 (fǔ — to assist, a cart's side-brace) against 恃 (shì — to lean your
+    weight on). Our base has the sage SUPPORTING 自然; 韓非 has the sage
+    RELYING on it. The second is the humbler claim and arguably the more
+    Laozian, since it removes the sage's agency entirely. 恃 is a locked term
+    here (glossary/shi-恃.md — "the heart putting its weight on something"),
+    and the book's own 為而不恃 (2, 10, 51, 77) makes 恃 something the sage
+    does NOT do — which is the strongest argument for keeping 輔, since 韓非's
+    reading would have the sage 恃 approvingly on the one line in the book
+    where that is praised. We keep the base and record the older reading.
+  logged: notes/manuscript.md
+
+- chapter: 58
+  line: "廉而不劌"
+  base: "劌"
+  witnesses: { hanfeizi: "穢" }
+  meaning_bearing: true
+  our_call: base
+  note: >
+    劌 (guì — to cut, to wound; on 刀, the knife radical) against 穢 (huì —
+    filthy, weed-choked; on 禾, grain). The line sits in a four-beat series
+    about edges and light — 方而不割 · 廉而不劌 · 直而不肆 · 光而不耀 — where
+    every other member pairs a property with the harm it declines to do.
+    劌 completes that pattern and 穢 breaks it, which is why we keep the base.
+    The two are close in sound and the 韓非 reading is most likely a graphic
+    or phonetic slip; it is recorded rather than assumed away.
+  logged: notes/manuscript.md
+
+- chapter: 60
+  line: "非其神不傷人，聖人亦不傷人"
+  base: "人"
+  witnesses: { hanfeizi: "民" }
+  meaning_bearing: true
+  our_call: undecided
+  note: >
+    The oldest witness reads 聖人亦不傷民 where our base reads 傷人 — and the
+    first half of the couplet has 人 in both. So 韓非's text distinguishes the
+    two clauses: the numinous does not harm PEOPLE, the sage does not harm THE
+    GOVERNED. Our base flattens them to one word. This is a textual instance of
+    the 民/人 question Shalom has deferred (WORKLIST T4), so it is recorded and
+    not settled — but it is evidence that the distinction was live in the
+    oldest witness rather than an artifact of later copying.
+  logged: notes/manuscript.md
+
+- chapter: 50
+  line: "虎無所用其爪"
+  base: "用"
+  witnesses: { hanfeizi: "錯" }
+  meaning_bearing: false
+  our_call: base
+  note: >
+    錯 here is 措 (cuò — to place, to set down), not "error": the tiger has
+    nowhere to PUT its claws, against our base's nowhere to USE them. The
+    triple 投其角 · 用其爪 · 容其刃 mixes verbs in both recensions, so neither
+    reading is forced by the parallel. Kept as base; 用 is also a covered lock
+    (wu-you-無有.md).
+  logged: false
+
+- chapter: 1
+  line: "道可道，非常道"
+  base: "道可道"
+  witnesses: { hanfeizi: "道之可道" }
+  meaning_bearing: false
+  our_call: base
+  note: >
+    韓非 inserts 之, making the subject explicitly nominal — "as for the Tao,
+    that it can be spoken." Our base's bare 道可道 leaves the first 道 doing
+    double duty as topic and verb-object, which is the compression the chapter
+    is famous for. The sense is the same; the reading is recorded because
+    ch 1's opening is the most-translated line in the book and the fuller
+    grammar is worth knowing about.
+  logged: false
+
+- chapter: 54
+  line: "善建者不拔，善抱者不脫，子孫以祭祀不輟"
+  base: "善建者 … 子孫以祭祀不輟"
+  witnesses: { hanfeizi: "善建不拔 … 子孫以其祭祀世世不輟" }
+  meaning_bearing: false
+  our_call: base
+  note: >
+    韓非 drops 者 from both 善X者 openings and expands the close with 其 and
+    世世 (generation after generation). Neither changes the claim. Recorded
+    because 善X者 is a frame this edition tracks across chapters (WORKLIST
+    T2-47), so a witness without the 者 is worth knowing when that frame is
+    settled.
+  logged: false

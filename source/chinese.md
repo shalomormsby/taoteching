@@ -21,7 +21,7 @@ text is unbroken columns of characters with no punctuation and no line breaks at
 comma and period below is a later editor's addition, marking the phrase divisions that the
 text's own character-beats dictate and that all modern editions share alike. This translation
 therefore treats punctuation and lineation as **its own** throughout, deliberately and on the
-record — see *Standing principle · Lineation and punctuation* in `notes/translation.md`.
+record — see [`process/principles/lineation-is-ours.md`](../process/principles/lineation-is-ours.md).
 
 **Derived file.** The authoritative Chinese lives in the source tables of `chapters/001–081.md`,
 which are the manuscript. This file is a convenience copy, and `tools/check_locks.py` has a

@@ -92,6 +92,8 @@ Five things, and the first is the one to remember:
 
 Everything else supports these. `notes/` records decisions thinly in three layers — manuscript forks, our own rendering calls, reader-facing threads — and `WORKLIST.md` tracks what is still owed.
 
+**A fourth is emerging: [`process/principles/`](process/principles/README.md), the rules learned by making decisions.** It is not a fourth authority over the *text* — it owns no rendering — but it owns something the other three cannot hold, because a principle discovered while settling one line governs chapters nobody has read yet. The three above are all indexed by the thing they describe: a chapter, a term, a witness. A transferable rule has no such index, so it was landing wherever it was found. Same architecture as the glossary — frontmatter is the source of truth, `INDEX.md` and `principles.yaml` are generated, CI fails if stale — with one addition the glossary does not need: **every `evidence:` anchor is verified to resolve**, because a principle whose link has rotted looks checked.
+
 ---
 
 ## How a decision becomes an enforced rule
@@ -131,6 +133,7 @@ This is the operational heart of the system. A question about one character beco
 | Product | Built by | From | Committed? |
 |---|---|---|---|
 | `glossary/INDEX.md` · `glossary/terms.yaml` | `build_index.py` | every entry's frontmatter, plus chapter lists recomputed from `source/chinese.md` | yes — CI fails if stale |
+| `process/principles/INDEX.md` · `process/principles.yaml` | `build_principles.py` | every principle's frontmatter | yes — **CI fails if stale, and if an `evidence:` anchor does not resolve** |
 | `data/taoteching.sqlite` | `build_db.py` | `chapters/`, `glossary/`, `sources/` | yes |
 | `data/*.csv` | `export.py` | the sqlite | yes — **CI fails if stale**; a binary blob cannot be diffed or reviewed, the CSVs can |
 | `data/explorer.html` | `build_explorer.py` | the sqlite | yes — self-contained, no network |

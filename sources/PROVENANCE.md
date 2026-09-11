@@ -44,6 +44,8 @@ The ancient texts are free. The Laozi is roughly 2,400 years old; Wang Bi died i
 
 **No transcriptions of the excavated manuscripts.** The **Mawangdui** silks were excavated in 1973 and the **Guodian** slips in 1993. Reconstructing their damaged and missing graphs — the brackets, the □ marks, the conjectural readings — is **genuine editorial work by living scholars**, not faithful transcription of anything. Reproducing a reconstruction reproduces the scholarship.
 
+**The exclusion is on the reconstructions, not on the manuscripts.** The silks and slips are themselves public domain by age, and a *faithful* transcription of a public-domain text creates no new copyright — see above. **So this rule tracks what is currently available, not what is permanently forbidden**, and it lapses for any excavated transcription that clears all four admission rules on its own merits: faithful rather than reconstructive (or expired, or CC0-dedicated), from a nameable edition, with the editorial layer marked, under a licence compatible with CC0. None does today. *(The Guodian search below is the worked instance, and its "there cannot be one **yet**" is deliberate.)*
+
 **Instead, record the facts.** See `variants.yaml`. "Mawangdui A and B read 自今及古 where Wang Bi reads 自古及今" is a **fact about a text**, and facts are not copyrightable. This is not merely the safe path; it is better practice, because a fact can be cited and checked while a bulk transcription only invites trust.
 
 ### The Guodian question, asked properly and answered no — 2026-08-17

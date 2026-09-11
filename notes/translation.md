@@ -24,10 +24,12 @@ Log only **deliberate departures** from the literal, never routine word-choices.
 | `###` | a chapter (`Ch 62`), or — in sections 1–3 — a single principle, lock, or thread |
 | `####` | one decision, titled `character → "rendering"` |
 
-1. **Standing principles** — rules that govern every chapter.
-2. **Locks — the rationale** — why a locked rendering is the one it is. The lock itself lives in `CLAUDE.md` and the glossary; the argument lives here.
+1. **Standing principles** — ⚠ **emptied 2026-09-10.** Every one moved to [`process/principles/`](../process/principles/README.md), one file each, with a **trigger** saying when it fires and loading by the skills at the moment it applies. The headings remain as redirects so existing links resolve. **Add new principles there, never here.**
+2. **Locks — the rationale** — ⚠ **dissolved 2026-09-10, and its self-description was wrong.** It read *"the lock itself lives in `CLAUDE.md` and the glossary; the argument lives here"* — but **the full argument belongs in the glossary entry**, which is what `WORKLIST.md` has said all along and what every entry actually does. The section had exactly **one** occupant in its whole life, 無為, and that occupant was a summary closing with *"Full reasoning: `glossary/wuwei-無為.md`."* It described a layer that was never used. Lock rationale goes in `glossary/<term>.md`.
 3. **Cross-chapter decisions** — threads and sweeps belonging to no single chapter.
 4. **Chapter notes** — **ascending by chapter number**. Within a chapter, entries follow the order the lines appear in the verse.
+
+**What this file holds now: our own rendering decisions, per chapter and across chapters.** Rules that govern every chapter are in `process/principles/`; rulings on a term are in `glossary/`; forks between witnesses are in `notes/manuscript.md`.
 
 **Four rules that keep it that way.**
 
@@ -44,108 +46,55 @@ Log only **deliberate departures** from the literal, never routine word-choices.
 
 ## Standing principles
 
+*⚠ **Migrating to [`process/principles/`](../process/principles/README.md).** A principle here is indexed by nothing — it governs chapters nobody has read yet, so it needs its own file, a **trigger** saying when it fires, and loading by the skills at the moment it applies. Add new ones there, not here. What remains below is awaiting harvest.*
+
 ### Lineation and punctuation — "the marks are yours; the music isn't"
 
-The ancient text carries **no punctuation and no line breaks** — it is unbroken columns of characters. Every comma, period, and line-break in the Chinese Text Project (and in every modern edition) is a *later editor's* addition. So on the page, punctuation and lineation are **ours** — expressive tools, to be used freely and deliberately.
+**Migrated to [`process/principles/lineation-is-ours.md`](../process/principles/lineation-is-ours.md), 2026-09-10.** The heading stays so existing links resolve; the argument lives in the entry, with its trigger and its cases, and is loaded by the skills at the moment it applies.
 
-But the source is not formless. Classical Chinese — and the Daodejing above all — moves in **regular character-beats** and **parallel pairs and triads**, and that pulse is real and audible even without a single mark. (Chapter 56: 塞其兌，閉其門，挫其銳，解其紛，和其光，同其塵 is *six even three-character phrases*, grouped as three couplets — close the senses · blunt-and-untangle · dim-and-merge.)
-
-Hence the rule: **the marks are ours; the music is the source's.** Lay the English out freely, but let the layout *track* the original's rhythm and parallelism rather than cut across it — and **stay consistent within any parallel series.** The original weighs those six phrases equally; giving four of them their own lines while fusing the last two quietly overrides a symmetry the text is holding. When an instinct says *join these* (as 和光同塵 — "dim the light, merge with the dust" — is one bound gesture), trust it, then *extend* it, so the whole series is treated alike. Freedom in the marks; discipline in the music.
+The marks are ours; the music is the source's. The ancient text carries no punctuation and no line breaks, so lineation is ours to use freely — but the source moves in regular character-beats and parallel series, and the layout must track that pulse rather than cut across it. **Also load-bearing for the CC0 dedication:** because the lineation is demonstrably our own, no editorial claim travels with it.
 
 ### Typography — lowercase, and no em-dashes in the verse
 
-**Lowercase everything but the Tao.** The Chinese has no capitals; every one in the English is ours, and in English **capitals confer status** — they turn a word into a doctrine and a figure into a deity. So: *the sage*, *the mother*, *the uncarved*, *stillness*, *the limitless*, *profound integrity*, *the great Tao* — all lowercase. **道 keeps its capital** because "Tao" functions as a proper name, and proper nouns in editorial notes (Mawangdui, Guodian) keep theirs. Nothing else does. *(This is the Tier-3 "devotional capitalization" problem named in `process/overlay-audit.md` — the overlay that enters below the level of vocabulary.)*
+**The rule itself is `CLAUDE.md` standing rule 5**, and `check_locks.py` enforces it — `_DEVOTIONAL` carries `"Mother": "母"`, so a capital in the verse has always been a hard error. It is restated for outside contributors in [`CONTRIBUTING.md`](../CONTRIBUTING.md). This section held a third full copy.
 
-**母 stays lowercase — the case that tested the rule.** *(decided 2026-08-11 by Shalom, after argument.)* 母 (*mǔ* — mother) is the strongest candidate in the book for a second capital, and it was capitalized in four documents for months without anyone having decided it. **She stays lowercase**, on five grounds:
+**The 母 decision moved to [`glossary/mu-母.md`](../glossary/mu-母.md), 2026-09-10**, under *"On the capital, which she does not take."* 母 (*mǔ* — mother) is the strongest candidate in the book for a second capital and she stays lowercase, on five grounds — ch 25 withholding the name the capital would confer, the grammar never naming her, both commentators calling it a comparison, the Jungian Great Mother as the modern overlay, and the capital promoting her out of the body into a pantheon, **which is how she was lost the first time**.
 
-1. **Ch 25 draws the line itself, in the chapter that licenses the Tao's capital.** 可以為天下**母** (*"it can serve as the mother of the world"*) → 吾不知其名 (*"I do not know its name"*) → 強字之曰**道** (*"forced, I style it the Tao"*). The text offers *mother* as a role, then says it has no name, then coins one under protest. Wang Bi glosses the middle line 名以定形 — *"a name fixes a form"* — and this has none. A capital would confer the name the chapter withholds.
-2. **The grammar never names her.** All seven occurrences are genitive (萬物之母, 有國之母), possessive (其母 ×2), the object of a verb (食母), or governed by 為 — *serve as* (可以為天下母, 以為天下母). She is never a bare subject and is never addressed. English proper nouns do not take genitives that way: we say *Athena*, not *the Athena of the city*.
-3. **Both classical commentators call it a comparison, explicitly.** Heshang Gong on 25: 道育養萬物精氣，**如**母之養子 — *"the Tao rears the countless things' vital breath, **like** a mother nourishing her child"* — where 如 means *like*. Wang Bi on 52: 母本也，子末也 — *"the mother is the root, the child the branch-tip,"* a structural pair.
-4. **The overlay risk is the modern kind.** Capital-M *Mother* in English is occupied by the Great Mother of Jung and Neumann, Mother Nature, Holy Mother. Importing a twentieth-century archetype is the same move as importing *Logos*, from a different century — and this edition already rejected 自然 → "Nature" on that ground. Note also what 母's own lock forbids: *"the Source," "the Origin," "the Ground of Being"* — three capitalized abstractions. The capital is the gesture they have in common.
-5. **The capital works against the feminine rather than for it.** In English capitals confer *institutional* status, not intimacy — compare *my mother* with *my Mother*. 母 is 女 (a kneeling woman) with **two dots added at the breasts**; the nursing body is the only thing distinguishing it from "woman," and Ch 20's 食母 is nursing at that breast. Ch 52 reads *"Find our mother, and you know her children"* — near and familial. *"Find our Mother"* is liturgy. **The capital promotes her out of the body and into a pantheon, which is how she was lost the first time**, when translators reached for "the Source."
+**Why the em-dash is barred, kept here because it is the case rather than the rule.** Ch 2's *"the sage does not begin them — giving birth without possessing…"* left a reader unable to tell whether the sage or the countless things were doing the giving. A dash lets a clause trail into a participle whose actor is unnamed; classical Chinese omits subjects freely and English cannot, so **the dash disguises the omission instead of resolving it.** The general rule is [`name-the-referent`](../process/principles/name-the-referent.md). *(The machine-prose tell is the lesser of the two arguments.)*
 
-**And the rule is not a hierarchy.** 道 keeps its capital because *"Tao"* is **transliterated**, not translated — grouped, above, with proper nouns in editorial notes (Mawangdui, Guodian). Every *English* word in this edition is lowercase. So *mother* is not ranked below the Tao; they are on opposite sides of a line about language, not status.
-
-*The one exception in the repository: glossary entry `##` headings are Title Case by house convention — "The Countless Things," "Sky and Earth," "The Mother." That is a title format, not a rendering claim.*
-
-**Sweep, 2026-08-11:** 45 instances lowercased across `CLAUDE.md`, `README.md`, `DISCOVERIES.md`, `process/method.md`, `process/overlay-audit.md`, both notes files, and six glossary entries. `chapters/` was already clean — all 14 occurrences in the verse were lowercase, and `check_locks.py` carries `"Mother": "母"` in `_DEVOTIONAL`, so a capital in the verse has always been a hard error. The drift was entirely in the prose *about* the verse. *(Not swept: `process/legacy-tao-source-code.md`, archived and superseded, and `source/archive-*`, frozen.)*
-
-**Avoid the em-dash in the verse.** Two reasons. It has become a conspicuous marker of machine-written prose, which is corrosive to a translation made this way and offered in good faith. And more importantly, it **strands grammatical subjects**: a dash lets a clause trail into a participle whose actor is unnamed, which is exactly how Chapter 2's *"the sage does not begin them — giving birth without possessing…"* left a reader unable to tell whether the sage or the countless things were doing the giving. Classical Chinese omits subjects freely; English cannot, and a dash disguises the omission instead of resolving it. **Name the subject and end the sentence.**
+**Sweep, 2026-08-11:** 45 instances lowercased across eight files. `chapters/` was already clean — the drift was entirely in the prose *about* the verse.
 
 ### The commentaries are evidence, never candidate renderings
 
-*(Added 2026-08-30, after ch 21's 以此.)*
+**Migrated to [`process/principles/commentary-is-not-a-rendering.md`](../process/principles/commentary-is-not-a-rendering.md), 2026-09-10.** The heading stays so existing links resolve; the argument lives in the entry, with its trigger and its cases, and is loaded by the skills at the moment it applies.
 
-We consult 王弼 (*Wáng Bì*), 河上公 (*Héshàng Gōng*) and 韓非 (*Hán Fēi*) on every chapter, and they settle referents, reopen decisions and supply readings nothing else can. **But a commentator's gloss is an argument for a rendering, not a rendering.** When 王弼 explains 贅 (*zhuì* — superfluous) as 肬贅 (*yóu zhuì* — a wart), *wart* does not become a candidate word for the verse. When 河上公 explains 此 (*cǐ* — this) as 今 (*jīn* — now), *now* does not become a candidate word for the verse.
-
-The failure is quiet, because the imported word is always *true* — it is a real reading by a real authority — and it always reads well, because a gloss is by construction more explicit than the text it glosses. That is the tell: **the gloss explains, and the line stops pointing.** Ch 21's *"By this, here, now"* was 河上公's 此今也 wearing the verse's clothes; the Chinese is two characters and says only *by this*.
-
-**Two consequences.** Where the commentators **agree**, that is strong evidence for a reading, and the reading still has to be argued from the characters. Where they **disagree** — as they do on 此 — the divergence is itself the finding, and the English must stay open enough to hold both, because any word specific enough to settle it has picked a side the Chinese does not pick. Log the fork; do not average it into the verse.
+A commentator's gloss is an argument for a rendering, never a rendering. The failure is quiet because the imported word is always *true* and always reads well — a gloss is by construction more explicit than the text it glosses, and the tell is that **the gloss explains and the line stops pointing**. *(The divergence half of the old section is now [`divergence-stays-open`](../process/principles/divergence-stays-open.md).)*
 
 ### Register — no modern spiritual idiom
 
-*(Added 2026-08-30, same finding.)*
+**Migrated to [`process/principles/imported-register.md`](../process/principles/imported-register.md), 2026-09-10.** The heading stays so existing links resolve. The entry absorbs this section, the hymn and pointing tests, and [`process/overlay-audit.md`](../process/overlay-audit.md)'s watchlist into one rule.
 
-`process/overlay-audit.md` catalogues the **missionary** overlay — the KJV cadence and the theological vocabulary sedimented into the English Tao Te Ching by its nineteenth-century translators. There is a second overlay, later and closer to home, and this edition is far more exposed to it: **the twentieth-century Western spiritual idiom** that the Tao Te Ching helped create and that now reads back onto it.
-
-**Disallowed in the verse: *"here, now" / "be here now" / "the present moment"* in that register** — it is *Be Here Now* (Ram Dass, 1971) and the mindfulness literature descending from it, and it postdates the text by twenty-three centuries. Also on watch: *presence*, *awareness*, *energy*, *flow*, *the universe* as an agent, *let go and trust the process*, *journey*, *authentic self*.
-
-The problem is not that these are false to the book — several are close to what it means, which is exactly why they slip in. The problem is **dating**. A reader who hears 1971 in a line stops hearing Warring States, and the book's authority as *an old, strange, first-hand text* leaks away into a genre. It is the same failure as *"the primordial mass of creation"* for 精 (*jīng* — vital essence), which dated the line to the twentieth century from the other direction, and the same as our own besetting mechanistic temptation (*operating system*, *source code*, *generate*).
-
-**The test, alongside the hymn test and the pointing test: *could this line have been printed in 1968?*** If it could — if it would sit comfortably in a paperback with a lotus on the cover — check the character.
+Register asserts what vocabulary does not: a rendering can translate every character correctly and still tell the reader **what kind of book this is**. Three registers are foreclosed — **devotional** (the missionary inheritance), **modern spiritual idiom** (*Be Here Now*, 1971), and **mechanistic** (*operating system*, *source code*), which is this edition's own besetting temptation. Three tests: the hymn test, the pointing test, and *could this have been printed in 1968?*
 
 ### Collocation carries a verdict — the third way a rendering asserts what the Chinese does not
 
-*(Added 2026-08-31, after ch 3.)*
+**Migrated to [`process/principles/collocation-carries-a-verdict.md`](../process/principles/collocation-carries-a-verdict.md), 2026-09-10.** The heading stays so existing links resolve; the argument lives in the entry, with its trigger and its cases, and is loaded by the skills at the moment it applies.
 
-Two ways an English rendering can smuggle a claim past the reader are already on record. **A capital letter** confers status and turns a word into a doctrine (standing rule 5). **A definite article** asserts a hierarchy — *"the high god"* for 帝 (*dì* — god) at ch 4. Here is the third, and it is the hardest to see, because no single word in the line is wrong.
-
-**English collocations carry verdicts their component words do not.** Ch 3's second movement was drafted as *"keeping the people without knowing," "weakening their will," "keeping those who know from pushing to act."* Every word there is a defensible gloss of its character. The phrases are still wrong:
-
-- ***"without X knowing"*** is a fixed English idiom meaning **behind someone's back**. It converts 無知 (*wú zhī* — without knowing), a state a body can be in, into **withheld information**. 王弼 (*Wáng Bì*): 骨無知以幹 — *"the bones have no knowing, and so they are the frame."* Bones are not being deceived.
-- ***"weaken someone's will"*** belongs to interrogation. 弱其志 (*ruò qí zhì*) deflates **ambition**, and 弱 (*ruò* — yielding) is one of this book's approving words.
-- ***"keep X from Y"*** is restraint imposed from outside. 河上公 (*Héshàng Gōng*) reads 使夫智者不敢為也 as what the knowers **become**: 思慮深，不輕言 — *"their deliberation grows deep; they do not speak lightly."*
-
-**The test that catches it: does the book use this English of the sage?** Every state ch 3 names — 無知, 無欲 (*wú yù* — without desire), 不敢為 (*bù gǎn wéi* — does not push to act) — is elsewhere the sage's **own**. 能無知乎 (10) asks it of the reader; 常無欲 is the reader at ch 1 and the Tao itself at ch 34; 不敢為 is the sage's posture at ch 64, 67 and 69. **Where the Chinese is symmetrical, an English that is not has invented the asymmetry — and asymmetry is what reads as coercion.**
-
-*This is also where Shalom's intuition earns its place in the tie-breaking order. The report was "this sounds sinister and manipulative," with no character named. Treated as a research assignment rather than a preference, it located three collocation faults and a book-wide symmetry the English had broken.*
+A collocation carries a verdict its component words do not. A line in which every word is a defensible gloss can still assert what the Chinese never says, because the *combination* is a fixed idiom with a meaning of its own — invisible to any word-based check, by definition.
 
 ### The 天 family — "no heaven, and no cosmos either"
 
-**The rule: point, don't categorize.** 天 is neither a realm nor an abstraction. Render it as what a person standing on the ground can actually see.
+**Moved to [`glossary/tian-天.md`](../glossary/tian-天.md) and [`glossary/tiandi-天地.md`](../glossary/tiandi-天地.md), 2026-09-10.** The heading stays so existing links resolve.
 
-- **天地** → **sky and earth** — always both nouns, never fused into one
-- **天下** → **the world** (locked at 48, 56, 57; literally *under-sky*, idiomatically the human realm)
-- **天 alone, as the impersonal ordering principle** — 天之道, 天道, 事天 → **nature / the natural**: "the way of nature," "serving nature"
-- **天 as a rung in the four-greats ladder** (25) → **sky**: *humans follow earth, earth follows sky, sky follows the Tao, the Tao models itself on being what it is*
-
-**Why not "heaven."** The cadence "the beginning… heaven and earth" is Genesis 1:1 nearly verbatim — it installs a creator in the very chapter denying that the source can be named. And the word is not a neutral convention but a **missionary inheritance** (see Process guide §3, and the overlay audit).
-
-**Why not "cosmos."** A Greek term of art (κόσμος, *ordered arrangement*), abstract, singular, and modern-scientific in register — and it collapses a pair the text keeps splitting: 天地之**間**, the space *between* them (5); 天大，地大, counted separately among the four greats (25); 地法天, distinct rungs (25); 天長地久, split predicates (7); 天地相**合**, they *join* and dew falls (32). You cannot have a between, a ladder, or a coupling with one thing.
-
-**Strain cases, left unsettled rather than forced:** 天門 (10) — may be the gates of the senses, not the sky; 天將救之 (67) — reads agentive. *(天子 (62) was a third, and was settled 2026-08-11 → "a child of the sky." See Ch 62 below.)*
-
-**Retrofit sweep — this rule is almost entirely retroactive.** 天地 occurs in **Chapters 1, 5, 6, 7, 23, 25, 32** — every one inside the completed 1–38 range, and *nowhere* after 38. Also **59**, where 事天 currently reads "serving the cosmos" → *serving nature*. Forward-facing only: 天之道 in **73, 77, 81** and 天道 in **79**.
-
-*Full argument and evidence: "Glossary — 天地 (Tiān Dì), Sky and Earth."*
-
----
+**This was a ruling on one character, filed among rules that govern every chapter.** It was also a *summary* of the glossary entry — which carries the 天 (*tiān* — sky / nature) split in full, *why not "heaven"*, *why not "the Cosmos"*, the 天之道 formula, the strain cases at 10 and 62, and the contested 配天 at 68 — and it closed by saying so: *"Full argument and evidence: Glossary — 天地."* A second copy of a ruling is how the hand-kept lock table in `CLAUDE.md` went stale twice in one week.
 
 ## Locks — the rationale
 
 ### 無為 → "non-doing"
 
-*(not "non-action")*
+**Moved to [`glossary/wuwei-無為.md`](../glossary/wuwei-無為.md), 2026-09-10.** The heading stays so existing links resolve.
 
-The conventional English is "non-action"; we depart from it deliberately, on three grounds. **(1) The chime.** 無為而無不為 (ch 37, 48) repeats the same character, 為 then 不為, so the English should repeat the same word: *"does not do, yet nothing is left undone"* — *do* and *undone* share a root and close the line on itself, which "non-action … left undone" cannot. **(2) The register.** 為 is a hand laid on an elephant — concrete, manual, Anglo-Saxon territory; "action" is abstract, Latinate, and a term of art in Western philosophy. It also slides morphologically into "**inaction**," which is the two-thousand-year quietist misreading. **(3) Chapter 63 decides it.** 為無為，事無事，味無味 is a triple parallel of ordinary verbs, each negated and taken as an object. The structure survives only with a word that is both verb and noun. *Doing* is; *action* is not ("act the non-action, affair the non-affair" collapses). One chapter with three parallel members, and only one candidate holds all three.
-
-Also rejected: **"effortless action"** — an interpretation smuggled into a rendering, which resolves the paradox in advance and deletes the negation that gives 無為而無不為 its whole force. And **leaving it untranslated** — we keep 道 untranslated because every rendering is wrong; 無為 is renderable, and rendering it keeps the reader inside the argument instead of handing them a mantra.
-
-*The middle member of that triple is rendered **"tend the not-tending"** — see Ch 63 below, which supersedes the illustrative "attend the not-attending" used in `glossary/wuwei-無為.md`.*
-
-*Full reasoning: `glossary/wuwei-無為.md`. Sweep: ch 2, 3, 10, 37, 38, 43, 48, 57, 63, 64.*
-
----
+The entry carries all of it — the chime (無為而無不為 repeats 為, so the English must repeat *doing*), the register (為 is a hand on a hide: *doing* is bodily where *action* is Latinate), the grammar (the structure needs a verb that also works as a noun), and the outright rejection of ***effortless action***, an interpretation smuggled into a rendering. This section closed by pointing there: *"Full reasoning: `glossary/wuwei-無為.md`."*
 
 ## Cross-chapter decisions
 
@@ -209,7 +158,7 @@ Also rejected: **"effortless action"** — an interpretation smuggled into a ren
 
 ### Ch 3 · the closing movement restored, and a sinister register that was ours
 
-*(2026-08-31, Pass D. `WORKLIST.md` T1-3. The chapter's own Notes carry the line-by-line; the general finding is the *Collocation carries a verdict* principle above.)*
+*(2026-08-31, Pass D. `WORKLIST.md` T1-3. The chapter's own Notes carry the line-by-line; the general finding is [`collocation-carries-a-verdict`](../process/principles/collocation-carries-a-verdict.md).)*
 
 **The three closing clauses had the opposite grammar from the Chinese.** 常使民無知無欲 (*cháng shǐ mín wú zhī wú yù*) / 使夫智者不敢為也 (*shǐ fú zhì zhě bù gǎn wéi yě*) / 為無為，則無不治 (*wéi wú wéi, zé wú bù zhì*) are built on 使 (*shǐ* — to cause), 使, and 為 (*wéi* — to do / to handle). The English was built on three *"Without"*s — an anaphora nothing in the Chinese repeats. **The Chinese sage acts; the English sage merely abstained.**
 
@@ -409,7 +358,7 @@ Four verbatim lines — 挫其銳，解其紛，和其光，同其塵 (*cuò qí
 
 **Ch 4 is also the weaker witness.** Ch 56 is attested **complete at Guodian** (~300 BCE, bundle A, unit 4), the oldest text there is; **ch 4 is not attested at all** and rests on the silks and later. Where the two disagree, ch 56 holds the older ground.
 
-**Lineation follows the standing principle rather than a new choice.** *Lineation and punctuation* already settled ch 56's six phrases as **three couplets** — close the senses · blunt-and-untangle · dim-and-merge — and requires consistency within a parallel series. Ch 4 carries four of those six phrases, so they group the same way: two couplets, not four lines.
+**Lineation follows the principle rather than a new choice.** [`lineation-is-ours`](../process/principles/lineation-is-ours.md) already settled ch 56's six phrases as **three couplets** — close the senses · blunt-and-untangle · dim-and-merge — and requires consistency within a parallel series. Ch 4 carries four of those six phrases, so they group the same way: two couplets, not four lines.
 
 **What was lost, on the record.** *"Is one with every grain of dust"* was the prettiest line in ch 4 and it is gone. *Every grain* is not in 同其塵, and the extra beat was doing what *"here, now"* and *"precisely"* were doing elsewhere in this pass — expanding where the Chinese points.
 
@@ -542,13 +491,13 @@ That second line rendered the couplet 無狀之狀，**無物**之象 as *"the s
 
 "No-thing" keeps 物 audible and keeps 無 as absence. *(Hyphenated deliberately: "no thing" open reads as an emphatic "not anything," where 無物 is a **state** the thing returns to.)*
 
-#### 執古之道，以御今之有 → "Hold the ancient Tao, and steer what is present now"
+#### 執古之道，以御今之有 → "Grasp the ancient Tao, and steer what is present now"
 
 *(was: "to direct your present existence")*
 
 Three repairs. **"Existence" is forbidden for 有** — 今之有 is *the presence of now*, what there currently is, not a person's lifetime. **"Your" was supplied**, and it shrank the line: the Chinese steers *what is*, not one's own affairs. And **御** (*yù*) is *to drive a chariot* — "steer" keeps the reins where "direct" is bloodless.
 
-**A resonance now audible across chapters.** 執 (*zhí* — to grasp) is the same character as Ch 29's 不可**執**也, *"it cannot be grasped."* Ch 29 forbids grasping **the world**; Ch 14 commands grasping **the ancient Tao**. That looks deliberate: you cannot hold the world, so hold the thread instead. We keep "Hold" here rather than "Grasp" — *grasp the Tao* risks reading as *comprehend the Tao*, which is precisely what this chapter spends fourteen lines denying is possible.
+**A resonance across chapters, and the English now carries it.** 執 (*zhí* — to grasp) is the same character as Ch 29's 不可**執**也, *"it cannot be grasped."* Ch 29 forbids grasping **the world**; Ch 14 commands grasping **the ancient Tao**. That is deliberate: you cannot take the world into custody, so take the thread instead. **The line read *"Hold"* until 2026-09-08**, on the argument that *grasp the Tao* risks reading as *comprehend the Tao* — which this chapter spends fourteen lines denying is possible. Two facts overturned it. First, the collision that argument was registering is **in this chapter, not in the idiom**: 搏之不得 (*bó zhī bù dé*) read *"you cannot grasp it"* thirteen lines above, so 搏 (*bó* — to grope for and grip; 說文 索持也, *"to search out and grip"*) had taken 執's English inside 執's own page. That line now reads *"Reach, but you cannot **touch** it."* 得 (*dé* — to get) is the **generic completion verb** in this frame rather than a lexical *obtain*, and 河上公 (*Héshàng Gōng*) shows it: he uses 得 as a bare modal in the two lines above (不可**得**視而見之 / 不可**得**聽而聞之) and frames the whole triad by what is absent — 無**色**曰夷 · 無**聲**曰希 · 無**形**曰微. Colour, sound, form. Chinese has 見 and 聞 for the first two senses and nothing dedicated for the third, so it reaches for 得; English has *touch*. **Cost recorded:** 得 renders *get* at 13, 23, 31, 61 and *received* at 39, and this line departs. *Grasp* is 執's and stands in this chapter; *hold* is 持's. Second, ch 35's 執大象 was settled as **Grasp the great image** in Pass D, so keeping *Hold* here split one character across the two chapters that print the identical construction. See `glossary/zhi-執.md`.
 
 ### Ch 16
 
@@ -2216,13 +2165,9 @@ Hence **"Having done for others, they have more. / Having given to others, they 
 
 ### 善 governs a verb — eighteen out of eighteen, and that is a standing principle
 
-**X善Y admits two parses in classical Chinese** — 善 (*shàn* — masterful) as a verb taking Y (*"masterful **at** Y"*), or 善 as an adjective modifying Y (*"masterful Y"*) — and **nothing inside ch 8's seven couplets settles it**, because those seven are the only place in the book where what follows 善 could pass for a noun.
+**Moved to [`glossary/shan-善.md`](../glossary/shan-善.md), 2026-09-10** — a fact about one character, filed as a principle. The heading stays so existing links resolve.
 
-**The other eighteen instances settle it, unanimously.** 善行 (*travel*) · 善言 (*speak*) · 善計 (*reckon*) · 善閉 (*shut*) · 善結 (*tie*) · 善救 ×2 (*rescue*) — all ch 27 · 善為 ×2 (*handle*, 15, 65) · 善貸 (*give*, 41) · 善攝 (*nurture*, 50) · 善建 (*establish*) · 善抱 (*embrace*) — 54 · 善下 (*go below*, 66) · 善戰 (*fight*) · 善勝 ×2 (*overcome*) · 善用 (*use*) — 68, 73 · 善應 (*respond*) · 善謀 (*plan*) — 73. **Eighteen verbs, zero nouns.** Ch 8 sets the pattern in its own chapter four lines above the stanza, with 水善**利**萬物, where 利 (*lì* — to benefit) is unambiguously verbal.
-
-**The adjectival parse also fails on its own terms.** It yields *masterful order*, *masterful ability*, *masterful timing* — which read — and *masterful ground*, *masterful depth*, *masterful humaneness*, *masterful trust* — which do not. **It works only where Y is already a skill word.** A reading that survives three of seven loses to one that survives all seven, and taking it for a single line would break the parallel the rewrite exists to restore.
-
-**The general principle, worth keeping past this chapter: when a construction is ambiguous in one place, count it everywhere else.** The `--english` reverse check finds an English attached to an absent character; this is its grammatical twin — a *parse* attached to one line, checked against the same construction across the book. `concordance.py 善 | grep -oE "善[一-鿿]" | sort | uniq -c` is the whole method.
+**Its other half *is* transferable and is now [`supplied-verb-is-scaffolding`](../process/principles/supplied-verb-is-scaffolding.md):** *masterful at X* requires X to name an activity, and collapses where the noun is a place — so a stance verb is supplied at 地 and 淵, and named as supplied. That rule governs chapters nobody has read yet. *善 governs a verb* governs 善.
 
 ### Supply a verb where the object names a place — and only there
 
@@ -2683,3 +2628,81 @@ A single 不欲 governs both clauses; there is no 而 and no 寧 (*nìng* — "r
 **寵為下 → *to be favored is to be below***, replacing the supplied *"You must stoop to receive favor."* 下 → *below* matches ch 61 and 66. The fork with 河上公's 辱為下 is in `notes/manuscript.md`, and it is the fork that decides whether the line says anything at all.
 
 **T2-1 stays open.** 身 is settled *inside this chapter only*; it still reads three ways across ch 7, 9, 44 and 54, two of them in one chapter.
+
+---
+
+## The holding family · 執 · 守 · 保 · 持 — four hands, one English word
+
+*(2026-09-08, Pass E, `WORKLIST.md` T2-19. Raised by Shalom 2026-08-28 at ch 24.)*
+
+Four characters had collapsed into *hold* and its neighbours across seventeen chapters, and **說文解字 gives them four different hands — one of which is not a hand at all:**
+
+| | 說文 | the graph | now |
+|---|---|---|---|
+| 持 (*chí*) | 握也 — *"to grip"* | 手 (*shǒu* — hand) + 寺 | **hold** |
+| 執 (*zhí*) | **捕罪人也** — *"to seize a criminal"* | 丮 a reaching hand + 㚔, **manacles** | **grasp** · *seize* (74) |
+| 守 (*shǒu*) | **守官也** — *"to keep an office"* | 宀 a roof + 寸 (法度, a regulation) | **hold to** · *guard* (9, 67) |
+| 保 (*bǎo*) | **養也** — *"to rear"* | 人 a person + 孚, a hand over a child | **keep safe** |
+
+A grip, a pair of handcuffs, a post you are answerable for, and a child on your back. Entries: `zhi-執.md`, `shou-守.md`, `bao-保.md`, `chi-持.md`.
+
+### 執 is not the 強 case. It is a legal word.
+
+`WORKLIST` framed 執 as 強's problem again — one character, opposite valences, an English that must hold both. **The character is narrower than that.** 說文's definition is 捕罪人也, and the book uses the judicial sense twice with no metaphor in it: at ch 74 河上公 reads 執而殺之 as statute (乃應**王法**執而殺之…老子傷時王不先道德化之而先**刑罰**), and at ch 79 執左契 is a bond that made a debt enforceable before there were written laws (古者聖人執左契合符信也，無文書法律，刻契合符以為信也).
+
+So 執者失之 is not a caution against clinging. **Its object is 天下, and the clause before it says what the world is** — 天下神器，不可為也，不可執也. You cannot take a sacred vessel into custody. 王弼 states it as a fact about the world rather than about the heart: 物有徃來而執之，故必失矣, and he brackets the verb with ch 28's blade — 不施為**執割**也.
+
+**Which makes ch 14 and ch 35 the joke, not the exception.** 執古之道 and 執大象 use the custody word straight: you cannot take the world into custody, so take the one thing that will not break in your hand. An English that softened 執 at those two and hardened it at the other five resolved a tension the Chinese leaves standing.
+
+***Seize* at ch 74 is not an exception to the character — it is the dictionary headword.** English *grasp* has no judicial sense; 捕罪人也 is, in three characters, *seize a criminal*. Shalom's call, 2026-09-08.
+
+### The error that had no name: *guard* was worn by three characters
+
+守 read *guard* at ch 9, 保 read *guard* at ch 15, and 衛 (*wèi*) read *guards* at ch 67. **And 守 and 保 stand together in both ch 9 and ch 67**, so no rule in this repository could ever have seen it — a `forbidden:` entry keys off a character being present in the chapter and cannot express *right for that character, wrong for this one, same chapter*. Both new entries say so in a section of their own, because the gap is permanent.
+
+Now: 守 → *guard* (9, 67), 保 → *keep safe* (9, 15, 62, 67), 衛 → *shields* (67).
+
+### 保 runs in both directions, and one English lets them answer each other
+
+At ch 15 and 67 a person keeps something safe; at ch 62 the Tao keeps a person safe. 王弼 gives the outcome in four characters — **保以全也**, *"保, because it keeps them whole"* — and 全 is locked to *whole*. 河上公 twice uses the compound 保倚, *to lean on for safety* (ch 62: 道者，不善人之**保倚**也，遭患逢急，猶自知悔卑下; ch 67: 我有三寳，抱持而**保倚**). Ch 62's 所保 accordingly makes the Tao the agent — *"what keeps safe those who are not"* — where a noun made it a passive receptacle.
+
+### 守 takes a preposition because the graph has no hand in it
+
+宀 a roof over 寸, which 說文 glosses 法度也, *a regulation*. What you 守 is a **post you are answerable for**, not a thing in your fist — so *hold to*, which is what English does with a charge. The split to *guard* runs by what is kept: nine lines keep a stance (中, 靜, 雌, 黑, 辱, 之, 母, 柔), two keep ground or property (a hall of gold and jade at ch 9; 以戰則勝，以守則固 at ch 67, where 河上公 expands the bare character to 以**守衛**則堅固).
+
+**The paradox survives the single English.** 王弼 on ch 52's 守柔曰強: 守強不強，守柔乃強也 — *"holding to the strong is not strong; holding to the soft is truly strong."* Same verb both halves; only the object changes.
+
+### 持 is the root the dictionary defines the others by
+
+說文 sends 持 and 握 to each other (持，握也 / 握，搤持也), and defines the book's other hand-verbs *by* 持: **搏** 索持也 (14, 55) and **據** 杖持也 (55). Ch 64 prints 持 and 執 in one chapter doing opposite work — 其安易**持** against **執**者失之 — which is the chapter's argument in two verbs and disappears if they share a word.
+
+### Riders applied on the way
+
+- **Ch 14 — 搏 had taken 執's English inside 執's own chapter.** 搏之不得 read *"you cannot grasp it"* thirteen lines above 執古之道. Now *"Reach, but you cannot get it,"* on 得's own word.
+- **Ch 55 — 握固 read *"their grasp is firm."*** 握 is the tightening word 說文 defines 持 by; now *"their grip is firm,"* which also frees *grasp* to mean 執 alone, book-wide.
+- **Ch 79 — 左 had been dropped.** 執左契 read *"the sage holds their half of the tally"*; now *"grasps the left half of the tally."* **Whose half the left half was is left open** — the traditions disagree, and 而不責於人 is pointed under one reading and merely descriptive under the other. 王弼 says only 左契防怨之所由生也.
+- **Ch 59 — *Holding* was on 有.** 有國之母 read *"Holding the mother of the state"* while 可以有國 one line above read *"maintain the state"* — the same character, two Englishes, adjacent lines, and neither of them 有's. Both now **have**, which matches them to each other; 有's transitive uses stay open beyond the settled 有道者.
+- **Ch 52 — *holding* was on 襲.** 是謂襲常 read *"holding the ever-present covered"* in a chapter where 守 stands twice. Now *"the ever-present worn covered,"* matching ch 27's 是謂襲明 exactly.
+- **Ch 5 — *in silence* rendered nothing.** 不如守中 read *"hold the center in silence"*; now *"hold to the center."*
+
+---
+
+## Ch 14's opening triad · 夷 · 希 · 微 — the names, and why the verse gives their meanings
+
+*(Shalom's call, 2026-09-10. `WORKLIST.md` T2-52.)*
+
+視之不見，名曰夷 · 聽之不聞，名曰希 · 搏之不得，名曰微 is a **definition passage** — 名曰X, *"its name is called X,"* three times — and it is the one place in the book where each of the three characters is named. The English renders each by **what it means here**, not by the word it carries elsewhere:
+
+| | 說文解字 | ch 14 | elsewhere |
+|---|---|---|---|
+| **夷** (*yí*) | 平也 — *"level."* 大 (a person) with 弓 (a bow) | the invisible | **level** — 41, 53 |
+| **希** (*xī*) | 爻 (crossed threads) over 巾 (cloth): **loose-woven fabric you can see through** | the inaudible | **barely heard** — 41 · **sparse** — 23, 43, 70, 74 |
+| **微** (*wēi*) | 隱行也 — *"to move concealed,"* on 彳 the step radical | the intangible | **faint** — 15, 64 · **hidden** — 36 |
+
+**河上公 supplies exactly these three readings, in one sentence three times:** 無**色**曰夷 · 無**聲**曰希 · 無**形**曰微 — colour, sound, form, the three ways a thing presents to the senses, denied in turn.
+
+**The alternative was weighed and declined.** Rendering the words themselves — *"its name is the level · the sparse · the faint"* — would make all three **live threads through nine other chapters**, and 王弼 argues for it directly: at ch 41 he defines 希 by quoting this stanza outright (聽之不聞名曰希), which makes 大音希聲 and 名曰希 one word by his own hand. **It was declined on legibility.** Chapter 14 is early, and three bare adjectives there give a reader nothing to hang them on; the gain is everywhere else in the book and the loss is on the page in front of them.
+
+**The standing principle it yields: where a rendering is chosen for one chapter's legibility, the connection it forgoes becomes an obligation on the notes, not a debt on the verse.** So the link is carried by an **anchor note at ch 14** listing all three with their graphs and recurrences, and a matching **thread note at chapters 15, 23, 36, 41, 43, 53, 64, 70 and 74**, each pointing back. **Ch 41 carries the counter-argument as well as the pointer**, because that is where 王弼 makes it.
+
+**What stays open** is whether the *recurrences* agree among themselves: 夷 at 41 against 53 (T2-30), and 微's *hidden* at 36 against *faint* at 15 and 64 (T2-34). 希's six chapters remain TRIAGE 14b.

@@ -564,3 +564,43 @@ Our base reads 寵為下 (*"favor is the lower position"*). **河上公's lemma 
 Two Siku notes: 〔案若可寄，永樂大典作則可以寄，河上公注本作則可寄於天下〕 and 〔案若可託，永樂大典作乃可以託，河上公注本作乃可以託於天下〕. **Every variant is a consequential particle** — 則可以 and 乃可以 both mean *"then may"* — so the sense is unchanged.
 
 Recorded because **our source table glosses 若 here as *seems*** (*"Seems they can be entrusted"*), which would soften the claim into a hedge. **No witness and neither commentator reads it that way**: 王弼 如此**乃可以**託天下也, 河上公 **則可**寄於天下. The English takes the consequence and drops the particle.
+
+---
+
+## The 韓非 harvest — 2026-09-10
+
+*`WORKLIST.md` R1. The importer had marked **35 divergent lemmas across 14 chapters** since the library was vendored, and nobody had read them. Four are meaning-bearing and are recorded below; three more are in `sources/variants.yaml` with the base kept; three were already logged. **The remaining 25 are orthographic or grammatical** — graph variants (爲/為, 脩/修, 牗/牖, 闚/窺, 翕/歙, 衆/眾, 知/智, 奚/何) and 韓非's systematically fuller particles, sentence-final 也 · 矣 · 乎 and inserted 之 · 於 · 其. That is a property of a pre-Qin recension punctuated by particle rather than by mark, not a series of forks, and it is recorded here once so the instances are not re-harvested as findings.*
+
+### Ch 38 · 失道而後德 / 失道而後失德 — a descent, or a cascade
+
+**Our base prints 失 once per clause; 韓非 prints it twice, five clauses running.** 故失道而後德，失德而後仁 against 失道而後失德，失德而後失仁.
+
+**The two texts make different claims.** Ours is a **descent**: lose the Tao, and then there is 德 (*dé* — integrity); lose 德, and then there is 仁 (*rén* — humaneness). Each rung *appears* as the one above it goes, which is why the chapter can be read as an account of how the lesser virtues arise. 韓非's is a **cascade**: lose the Tao and then lose 德, lose 德 and then lose 仁. Nothing appears. Everything is successively forfeited.
+
+**This chapter was rebuilt in Pass D around 失 as its spine** (`WORKLIST` T1-4), on the finding that 失 has five occurrences here — more than in any chapter in the book — and had been deleted from its hinge. The English reads *"So when the Tao is lost, then integrity."* **The oldest witness says the second half is a loss too.**
+
+**Undecided.** The decision changes five lines and reopens settled work, so it goes to Shalom rather than being taken here.
+
+### Ch 64 · 輔 / 恃 — the sage supports 自然, or leans on it
+
+以**輔**萬物之自然 against 韓非's **恃**萬物之自然. 輔 (*fǔ* — to assist; a cart's side-brace) against 恃 (*shì* — to lean your weight on).
+
+**Our call: the base, and the argument is internal.** 恃 is locked here (`glossary/shi-恃.md` — *"the heart putting its weight on something"*), and the book's own formula 為而不恃 (*wéi ér bù shì* — "acts and does not rely on it") at chapters 2, 10, 51 and 77 makes 恃 **something the sage does not do.** 韓非's reading would have the sage 恃 approvingly, on the one line in the book where that is praised — which is possible, and is exactly the kind of thing a pre-Qin reader might have found unremarkable, but it cuts against four other chapters. We keep 輔 and record the older reading.
+
+### Ch 58 · 劌 / 穢 — cut, or sullied
+
+廉而不**劌** against 韓非's 廉而不**穢**. 劌 (*guì* — to cut, to wound) is built on 刀 (*dāo* — knife); 穢 (*huì* — filthy, weed-choked) on 禾 (*hé* — grain).
+
+**Our call: the base, on the parallel.** The line sits in a four-beat series — 方而不割 · 廉而不劌 · 直而不肆 · 光而不耀 — in which **every member pairs a property with the harm it declines to do**: square but does not cut, edged but does not wound, straight but does not overreach, bright but does not dazzle. 劌 completes that pattern; 穢 breaks it, since being filthy is not a harm an edge does to anything. The two graphs are close enough that a slip is the likely explanation, and it is recorded rather than assumed away.
+
+### Ch 60 · 傷人 / 傷民 — and it is evidence on a deferred call
+
+非其神不傷**人**，聖人亦不傷**人** against 韓非's second clause, 聖人亦不傷**民**.
+
+**韓非's text distinguishes the two clauses where ours flattens them**: the numinous does not harm **people**; the sage does not harm **the governed**. Both recensions have 人 in the first clause, so the divergence is only in the second — which is what makes it interesting rather than noise.
+
+**Undecided, and deliberately so.** 民 (*mín* — the governed) against 人 (*rén* — a person) is one of the three calls Shalom has deferred (`WORKLIST` T4), and this chapter is not the place to settle it. **But it is evidence that the distinction was live in the oldest witness**, rather than a later copyist's variation — which is a fact the deferred call will want when it is taken up.
+
+### An incidental finding: our base is inconsistent on the Han name-taboo
+
+**Ch 54 reads 修之於邦; ch 36 reads 國.** 邦 (*bāng* — state) was tabooed under Liu Bang (劉邦, r. 202–195 BCE) and replaced with 國 (*guó*) in Han-era copying — which is what dates our base to Han hands. Ch 54 appears to have escaped a substitution ch 36 did not. Recorded as a fact about the recension; nothing in the English turns on it, since both render *state*.

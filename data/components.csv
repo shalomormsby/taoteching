@@ -53,7 +53,7 @@ component,pinyin,gloss,role,gloss_status,builds_characters,characters
 二,èr,,semantic,not yet glossed — see sources/component-glosses.yaml,4,"五,仁,白,門"
 寸,cùn,,semantic,not yet glossed — see sources/component-glosses.yaml,4,"守,將,專,辱"
 弋,yì,a stake; a tethered arrow,phonetic,glossed,4,"代,式,必,忒"
-持,Chí,Holding/grasping,semantic,glossed,4,"丈,伐,兵,兼"
+持,Chí,hold,semantic,glossed,4,"丈,伐,兵,兼"
 目,mù,eyes,semantic,glossed,4,"盲,直,相,真"
 竹,zhú,bamboo,semantic,glossed,4,"筋,策,籌,籥"
 至,zhì,,semantic,not yet glossed — see sources/component-glosses.yaml,4,"室,至,致,臺"
@@ -341,7 +341,7 @@ component,pinyin,gloss,role,gloss_status,builds_characters,characters
 孚,,,semantic,not yet glossed — see sources/component-glosses.yaml,1,甲
 孝,xiào,devotion,semantic,glossed,1,教
 孟,,,phonetic,"no gloss needed: present for sound, not meaning",1,猛
-守,shǒu,,semantic,the apparatus glosses this character several ways and none won a majority,1,負
+守,shǒu,hold to — and *guard* where what is kept is ground or property,semantic,glossed,1,負
 宮,,,semantic,not yet glossed — see sources/component-glosses.yaml,1,營
 害,hai,,phonetic,"no gloss needed: present for sound, not meaning",1,割
 寍,,,phonetic,"no gloss needed: present for sound, not meaning",1,寧

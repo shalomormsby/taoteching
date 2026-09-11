@@ -37,6 +37,22 @@ jobs:
             exit 1
           }
 
+      # A principle whose evidence link has rotted is worse than one with no
+      # link at all: it looks checked. notes/translation.md requires that its
+      # headings carry only the stable claim precisely so these resolve, and
+      # this is what makes that requirement load-bearing rather than advisory.
+      - name: principles — anchors resolve and the evidence threshold holds
+        run: python3 tools/build_principles.py --check
+
+      - name: generated principles files are current
+        run: |
+          python3 tools/build_principles.py
+          git diff --exit-code process/principles/INDEX.md process/principles.yaml || {
+            echo "::error::process/principles/INDEX.md or principles.yaml is stale."
+            echo "::error::run python3 tools/build_principles.py and commit the result."
+            exit 1
+          }
+
       # data/constellation-chars.json sat in the repo for weeks carrying glosses
       # that data/characters.csv had already withdrawn: two generated files
       # publishing different things, because nothing rebuilt the second one.

@@ -1042,7 +1042,7 @@ def print_report(cur, stats, align_stats):
 
 BASELINE = {
     "chapter": 81, "line": 798, "token": 5296, "character": 798,
-    "variant": 75, "verse_line": 854,
+    "variant": 82, "verse_line": 854,   # 75 -> 82: the 韓非 harvest, 2026-09-10 (R1)
 }
 
 

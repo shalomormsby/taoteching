@@ -24,6 +24,12 @@ python3 tools/concordance.py --formulas N                    # the repeated fram
 
 **Run `--witnesses` first, before reading the base text closely.** Ch 21 was drafted over a chronology both Mawangdui silks reverse; Ch 25 was drafted with a king the oldest witnesses do not have. Neither was carelessness — nobody had looked. If the command reports nothing, read that as *nobody has checked this chapter yet*, not as *there are no forks*: `sources/variants.yaml` is built by hand, chapter by chapter.
 
+```bash
+python3 tools/build_principles.py --applies drafting   # the rules this work fires
+```
+
+**Run it, and read the *fires when* line on each.** `process/principles/` holds the rules this project learned by making particular decisions — they govern chapters nobody has read yet, which is exactly why they cannot be left where they were discovered. A 🔶 is **provisional**: one case so far, so weigh it rather than obey it. `process/principles/README.md` has the standard.
+
 Read `process/shaloms-call.md`. If a call is in effect that touches this chapter, **the call wins** — say so once and proceed. Do not re-argue it.
 
 ---

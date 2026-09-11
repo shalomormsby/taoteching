@@ -86,7 +86,7 @@ character,pinyin,gloss,gloss_source,gloss_agreement,our_render,lock_status,never
 三,Sān,three,apparatus,2/2,,,,11,7,"11,14,19,42,50,62,67",11,67,2.08,
 使,shǐ,,none,,,,,11,5,"3,53,55,74,80",3,80,2.08,
 同,tóng,merge/identify,apparatus,2/3,,,,11,4,"1,4,23,56",1,56,2.08,
-守,shǒu,,apparatus-split,3/6,,,,11,8,"5,9,16,28,32,37,52,67",5,67,2.08,
+守,shǒu,hold to — and *guard* where what is kept is ground or property,locked,,hold to — and *guard* where what is kept is ground or property,locked,embrace; attune; stay with; cleave to; preserve; abide in,11,8,"5,9,16,28,32,37,52,67",5,67,2.08,glossary/shou-守.md
 居,jū,,apparatus-split,2/5,,,,11,7,"2,8,25,31,38,72,80",2,80,2.08,
 後,hòu,,apparatus-split,1/2,,,,11,8,"2,7,14,30,38,65,66,67",2,67,2.08,
 易,yì,,none,,,,,11,5,"2,63,64,70,78",2,78,2.08,
@@ -108,7 +108,7 @@ character,pinyin,gloss,gloss_source,gloss_agreement,our_render,lock_status,never
 谷,Gǔ,,apparatus-split,2/4,,,,10,7,"6,15,28,32,39,41,66",6,66,1.89,
 靜,jìng,,apparatus-split,1/4,,,,10,7,"15,16,26,37,45,57,61",15,61,1.89,
 非,fēi,they are not,apparatus,1/1,,,,10,7,"1,7,31,39,53,60,65",1,65,1.89,
-執,Zhí,,apparatus-split,1/2,,,,9,7,"14,29,35,64,69,74,79",14,79,1.7,
+執,Zhí,"grasp — and *seize* at ch 74, where the seizing is an arrest",locked,,"grasp — and *seize* at ch 74, where the seizing is an arrest",locked,cling; clinging; attachment; embody; control; possess,9,7,"14,29,35,64,69,74,79",14,79,1.7,glossary/zhi-執.md
 子,zǐ,,none,,,,,9,7,"4,26,31,52,54,55,62",4,62,1.7,
 已,yǐ,,apparatus-split,1/3,,,,9,6,"2,9,29,30,31,55",2,55,1.7,
 殺,shā,in killing,apparatus,1/1,,,,9,3,"31,73,74",31,74,1.7,
@@ -204,7 +204,7 @@ character,pinyin,gloss,gloss_source,gloss_agreement,our_render,lock_status,never
 驚,jīng,alarm,apparatus,3/4,,,,5,1,13,13,13,0.94,
 亂,luàn,,none,,,,,4,4,"3,18,38,64",3,64,0.76,
 亡,wáng,perish,apparatus,1/1,,,,4,3,"33,41,44",33,44,0.76,
-保,bǎo,,apparatus-split,1/2,,,,4,4,"9,15,62,67",9,67,0.76,
+保,bǎo,keep safe,locked,,keep safe,locked,preserve; safekeeping; maintain; hold on to; safeguard,4,4,"9,15,62,67",9,67,0.76,glossary/bao-保.md
 光,guāng,,none,,,,,4,4,"4,52,56,58",4,58,0.76,
 入,rù,,none,,,,,4,3,"43,50,61",43,61,0.76,
 公,gōng,impartiality / impartial (the quality) · lord / minister (the office),locked,,impartiality / impartial (the quality) · lord / minister (the office),locked,duke; equanimity; justice,4,3,"16,42,62",16,62,0.76,glossary/gong-公.md
@@ -291,7 +291,7 @@ character,pinyin,gloss,gloss_source,gloss_agreement,our_render,lock_status,never
 愈,yù,,none,,,,,3,2,"5,81",5,81,0.57,
 愚,yú,,none,,,,,3,3,"20,38,65",20,65,0.57,
 戰,zhàn,,none,,,,,3,3,"31,67,68",31,68,0.57,
-持,Chí,Holding/grasping,apparatus,1/1,,,,3,3,"9,64,67",9,67,0.57,
+持,Chí,hold,locked,,hold,locked,grip; clutch; cling to; sustain,3,3,"9,64,67",9,67,0.57,glossary/chi-持.md
 挫,Cuò,supported/safe,apparatus,1/1,,,,3,3,"4,29,56",4,56,0.57,
 捨,shě,,none,,,,,3,1,67,67,67,0.57,
 政,zhèng,in governing,apparatus,1/1,,,,3,2,"8,58",8,58,0.57,
