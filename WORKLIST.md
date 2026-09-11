@@ -16,7 +16,7 @@
 
 ## The list
 
-**⬜ open · 🔶 part done · ✅ done · ⏸ deferred by Shalom.** Detail for every row is below, under the matching heading. **125 item rows: 56 open · 62 done · 4 part done · 3 deferred.** *(19 of them are the per-chapter Pass D rows, whose status is derived.)* *(Counted from the table itself — a hand-kept tally drifts. It read "43 open · 18 done" and matched nothing.)*
+**⬜ open · 🔶 part done · ✅ done · ⏸ deferred by Shalom.** Detail for every row is below, under the matching heading. **125 item rows: 55 open · 63 done · 4 part done · 3 deferred.** *(19 of them are the per-chapter Pass D rows, whose status is derived.)* *(Counted from the table itself — a hand-kept tally drifts. It read "43 open · 18 done" and matched nothing.)*
 
 | # | | Item | Ch | Pass |
 |---|---|---|---|---|
@@ -146,7 +146,7 @@
 | T4-6 | ⬜ | Guodian **G2–G6** | 5 16 17 18 25 + 26 more | E |
 | T4-8 | ⬜ | 說文 (c. 100 CE) quotes the four-greats line as 人亦大 — six centuries before our oldest 人 witness | 25 | E |
 | | | **Tier 5 · The harness** | | |
-| T5-1 | ⬜ | Build **thin-translation** — the only rule that finds *absence* | — | G |
+| T5-1 | ✅ | ~~Build **thin-translation** — the only rule that finds *absence*~~ — **prototyped and declined, 2026-09-10 (Shalom's razor).** Its original job is **spent**: it existed to catch chapters that were never translated (ch 65's three ellipses, ch 20's missing movement), and the draft has been 81 of 81 since 2026-08-26. The *thin* half was tested rather than argued: a prototype checking every locked character present in a chapter's Chinese against its locked English **flagged 43 of 81 chapters, seven of them already through Pass D**, and spot-checks were **~90% false positives** from three mechanical causes — inflection (*keeps* safe), insertion (*keep them safe*), and licensed flexions that `render:` states in prose (*see clearly* for 明). `check_locks.py` exists on the promise that it never cries wolf; this breaks it. **A narrower version restricted to invariant multi-word renders still fails on inserted articles** (ch 6's *the sky and the earth*), so the yield approaches zero. **The fault class is real and the instrument is a reader** — ch 9 is a live instance and was found by reading, not by a tool. See `process/principles/renders-no-character.md`, which carries `check: none` deliberately | — | G |
 | T5-2 | ⬜ | `repeated-formula` should name the segment's own English | — | G |
 | T5-11 | ✅ | ~~Both tools were blind to a formula repeating **inside** one chapter~~ — they indexed into a *set* of chapter numbers, so ch 11's 當其無 ×3 collapsed to one entry and was dropped as "not shared". `--formulas` now covers the whole text and finds **frames** (將欲▢之, ▢得一以▢); `--formulas N` prints one chapter's English beside them. 13 tests. **Ch 11 is where this was found** — `DISCOVERIES.md` §6 | — | G |
 | T5-13 | ⬜ | `--formulas` matches whole comma-segments, so **a frame that does not start at a punctuation boundary is invisible** — 為天下貞 sits inside 侯王得一以為天下貞 and ch 39 was missing from the 為天下▢ group, which is how a settled formula got a fourth rendering. Sub-segment matching, or a formula's own characters as a second index | — | G |
