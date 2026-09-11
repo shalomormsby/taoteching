@@ -38,6 +38,15 @@
   check: none
   entry: process/principles/defensible-but-a-different-claim.md
 
+- id: deterministic-before-gated
+  title: "Make a generator deterministic before you gate it"
+  trigger: "you are about to add a diff gate to a generated file"
+  status: active
+  since: 2026-08-31
+  applies: [tooling]
+  check: none
+  entry: process/principles/deterministic-before-gated.md
+
 - id: distribution-locates
   title: "A distributional argument is a reason to look, not a reason to conclude"
   trigger: "your case for a rendering is that the character is used this way in its other chapters"
@@ -56,6 +65,24 @@
   check: none
   entry: process/principles/divergence-stays-open.md
 
+- id: edited-or-generated
+  title: "Every file is edited or generated, never both"
+  trigger: "you are about to hand-edit a file a tool writes, or hand-maintain a list a tool could derive"
+  status: active
+  since: 2026-08-11
+  applies: [tooling, notes]
+  check: none
+  entry: process/principles/edited-or-generated.md
+
+- id: evidence-gate
+  title: "No rule fires on English alone — a gate that cries wolf is not a gate"
+  trigger: "you are writing a check, or widening one, so that it can fire without seeing the character"
+  status: active
+  since: 2026-08-11
+  applies: [tooling]
+  check: check_locks
+  entry: process/principles/evidence-gate.md
+
 - id: imported-register
   title: "Register is a claim — a line that would sit in a sermon has made one"
   trigger: "a rendering would sit comfortably in a sermon, a hymn, or a 1971 paperback on consciousness"
@@ -64,6 +91,24 @@
   applies: [drafting, glossary]
   check: none
   entry: process/principles/imported-register.md
+
+- id: importers-verify-themselves
+  title: "An importer that does not verify itself is decoration"
+  trigger: "you are vendoring source material a later reader will treat as evidence"
+  status: active
+  since: 2026-08-11
+  applies: [tooling]
+  check: none
+  entry: process/principles/importers-verify-themselves.md
+
+- id: intuition-detects
+  title: "Intuition is last as an arbiter and first as a detector — discomfort is a research assignment"
+  trigger: "a rendering feels wrong and you cannot yet say why"
+  status: active
+  since: 2026-08-20
+  applies: [drafting, process]
+  check: none
+  entry: process/principles/intuition-detects.md
 
 - id: legibility-debt
   title: "A rendering chosen for one chapter's legibility owes the connection it forgoes to the notes"
@@ -92,6 +137,15 @@
   check: none
   entry: process/principles/name-the-referent.md
 
+- id: never-silence-a-rule
+  title: "Never delete a rule to silence it — waive one finding, or set the rule aside on the record"
+  trigger: "a check is firing and you are about to remove, narrow or bypass the rule to make it stop"
+  status: active
+  since: 2026-08-11
+  applies: [tooling, process]
+  check: check_locks
+  entry: process/principles/never-silence-a-rule.md
+
 - id: no-verdict-the-chinese-lacks
   title: "The English must not carry a verdict the Chinese does not"
   trigger: "your rendering approves or condemns, and the character only describes"
@@ -110,6 +164,15 @@
   check: none
   entry: process/principles/one-modifier-one-modifier.md
 
+- id: one-question-at-a-time
+  title: "One question at a time — bring the deepest one, with a recommendation"
+  trigger: "you are about to put more than one open decision to Shalom in a single message"
+  status: active
+  since: 2026-08-28
+  applies: [process]
+  check: none
+  entry: process/principles/one-question-at-a-time.md
+
 - id: perform-dont-label
   title: "Correct an overlay by performing it, not by labelling it more accurately"
   trigger: "you have caught an imported overlay and are reaching for a more accurate abstraction to replace it"
@@ -118,6 +181,15 @@
   applies: [drafting, glossary]
   check: none
   entry: process/principles/perform-dont-label.md
+
+- id: record-the-fact
+  title: "For the excavated witnesses, record the fact — never the text"
+  trigger: "you are about to add a reading from Mawangdui or Guodian to the repository"
+  status: active
+  since: 2026-08-11
+  applies: [notes, tooling]
+  check: none
+  entry: process/principles/record-the-fact.md
 
 - id: renders-no-character
   title: "Every English word in the verse renders a character"
@@ -128,6 +200,15 @@
   check: none
   entry: process/principles/renders-no-character.md
 
+- id: repeat-yourself
+  title: "Where the Chinese repeats itself, repeat yourself"
+  trigger: "the same Chinese segment or frame appears twice and you are about to render it two ways"
+  status: active
+  since: 2026-09-05
+  applies: [drafting]
+  check: concordance --formulas
+  entry: process/principles/repeat-yourself.md
+
 - id: supplied-verb-is-scaffolding
   title: "A supplied verb is scaffolding, not a character's English"
   trigger: "the Chinese object is a position or a place and your English needs a verb the Chinese does not print"
@@ -136,3 +217,30 @@
   applies: [drafting, glossary]
   check: none
   entry: process/principles/supplied-verb-is-scaffolding.md
+
+- id: universalize-and-name-the-seam
+  title: "Universalize over the text's incidental male-default — and name the seam, never erase it"
+  trigger: "the Chinese assumes a male subject or a male social class and your English does not have to"
+  status: active
+  since: 2026-08-11
+  applies: [drafting, notes]
+  check: none
+  entry: process/principles/universalize-and-name-the-seam.md
+
+- id: verify-the-flag
+  title: "Verify a flagged line against the Chinese in its own chapter before changing it"
+  trigger: "a check, a sweep or a search has flagged a line and you are about to act on the flag"
+  status: active
+  since: 2026-08-10
+  applies: [drafting, tooling]
+  check: none
+  entry: process/principles/verify-the-flag.md
+
+- id: witnesses-before-drafting
+  title: "Check the witnesses before drafting, not after"
+  trigger: "you are about to read a chapter's base text closely, or about to change a settled line"
+  status: active
+  since: 2026-08-20
+  applies: [drafting, notes]
+  check: none
+  entry: process/principles/witnesses-before-drafting.md

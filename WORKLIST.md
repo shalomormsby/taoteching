@@ -433,22 +433,24 @@ Structure the Chinese has and the English does not. These are rewrites, and they
 
 ### D · Tooling and process — scoped to one document, invisible to a translator
 
+*✅ **Closed 2026-09-10, and the harvest is complete.** **12 written, 2 merged** — H25 was already the core of `already-spoken-for` and H29 was already both halves of `commentary-is-not-a-rendering`. The deduplication step in `principle-entry` caught both before a word was written, which is what it is for. **27 principles in force, 26 active, 1 provisional.** Three now carry a tool in `check:` — `check_locks` twice and `concordance --formulas` once — so the enforced few are visibly separated from the many that no rule can hold.*
+
 | | | Proposed rule | Where it is stated now |
 |---|---|---|---|
-| H16 | ⬜ | **Record the fact, never the text** (excavated witnesses) | **four places** — `ARCHITECTURE` 271, `PLAN` 196, `PROVENANCE` 45, `manuscript.md` 19 |
-| H17 | ⬜ | **No rule fires on English alone** — the evidence gate | `ARCHITECTURE` 221 · `CLAUDE.md` |
-| H18 | ⬜ | **Never delete a rule to silence it** — waive one finding or set aside the rule, on the record | `ARCHITECTURE` 239 |
-| H19 | ⬜ | **Make a generator deterministic before you gate it** | `ARCHITECTURE` 147 |
-| H20 | ⬜ | **Every file is edited or generated, never both** | `ARCHITECTURE` 64 |
-| H21 | ⬜ | **An importer that does not verify itself is decoration** | `ARCHITECTURE` 149 · the 韓非 case |
-| H22 | ⬜ | **Where the Chinese repeats itself, repeat yourself** | `CLAUDE.md` · `DISCOVERIES` §6 · `check: formulas` |
-| H23 | ⬜ | **Verify a flagged line against the Chinese in its own chapter before changing it** | `CLAUDE.md` · the 2026-08-10 sweep's false positives |
-| H24 | ⬜ | **Check the witnesses before drafting, not after** | `CLAUDE.md` · ch 21 · ch 25 |
-| H25 | ⬜ | **A lock is a claim in both directions and the checker can only test one** | `CLAUDE.md` · 固 · 壯 |
-| H26 | ⬜ | **Intuition is last as an arbiter and first as a detector** — discomfort is a research assignment | `CLAUDE.md` ★ · `method.md` 105–109 |
-| H27 | ⬜ | **Universalize, and name the seam** — never erase the male-default silently | `CLAUDE.md` rule 2 · `reading.md` 62 |
-| H28 | ⬜ | **One question at a time** *(`applies: process`)* | `CLAUDE.md` · 2026-08-28 |
-| H29 | ⬜ | **A commentator's gloss is not the text — and is evidence for what stood in his** | `CLAUDE.md` · `manuscript.md` 536 |
+| H16 | ✅ | ~~**For the excavated witnesses, record the fact — never the text** — `active`. **The one rule a `shaloms-call` cannot set aside**: it is somebody else's copyright, not ours to suspend. `record-the-fact.md`~~ | **four places** — `ARCHITECTURE` 271, `PLAN` 196, `PROVENANCE` 45, `manuscript.md` 19 |
+| H17 | ✅ | ~~**No rule fires on English alone** — `active`, `check: check_locks`. Carries why the two tools must not be merged. `evidence-gate.md`~~ | `ARCHITECTURE` 221 · `CLAUDE.md` |
+| H18 | ✅ | ~~**Never delete a rule to silence it** — `active`, `check: check_locks`. The two escape hatches are deliberately asymmetric: an unused waiver is an error, an expired call is an error. `never-silence-a-rule.md`~~ | `ARCHITECTURE` 239 |
+| H19 | ✅ | ~~**Make a generator deterministic before you gate it** — `active`. `deterministic-before-gated.md`~~ | `ARCHITECTURE` 147 |
+| H20 | ✅ | ~~**Every file is edited or generated, never both** — `active`. Both failure modes documented: the stale hand-kept lock table, and two generated files disagreeing for seven months. `edited-or-generated.md`~~ | `ARCHITECTURE` 64 |
+| H21 | ✅ | ~~**An importer that does not verify itself is decoration** — `active`. The 韓非 case: the files asserted an agreement nobody had tested. `importers-verify-themselves.md`~~ | `ARCHITECTURE` 149 · the 韓非 case |
+| H22 | ✅ | ~~**Where the Chinese repeats itself, repeat yourself** — `active`, **`check: concordance --formulas`**. `repeat-yourself.md`~~ | `CLAUDE.md` · `DISCOVERIES` §6 · `check: formulas` |
+| H23 | ✅ | ~~**Verify a flagged line against the Chinese in its own chapter before changing it** — `active`. `verify-the-flag.md`~~ | `CLAUDE.md` · the 2026-08-10 sweep's false positives |
+| H24 | ✅ | ~~**Check the witnesses before drafting, not after** — `active`. A blank result means nobody has looked. `witnesses-before-drafting.md`~~ | `CLAUDE.md` · ch 21 · ch 25 |
+| H25 | ✅ | ~~~~**A lock is a claim in both directions**~~ — **merged, not written.** Already the core of `already-spoken-for` (H2), which states it and names the reverse check. Deduplication step working~~ | `CLAUDE.md` · 固 · 壯 |
+| H26 | ✅ | ~~**Intuition is last as an arbiter and first as a detector** — `active`. Never answer a feeling with a synonym. `intuition-detects.md`~~ | `CLAUDE.md` ★ · `method.md` 105–109 |
+| H27 | ✅ | ~~**Universalize over the male-default — and name the seam** — `active`. Both halves load-bearing; each without the other fails. `universalize-and-name-the-seam.md`~~ | `CLAUDE.md` rule 2 · `reading.md` 62 |
+| H28 | ✅ | ~~**One question at a time** *(`applies: process`)* — `active`. **Corollary: it constrains open decisions, not findings.** `one-question-at-a-time.md`~~ | `CLAUDE.md` · 2026-08-28 |
+| H29 | ✅ | ~~~~**A commentator's gloss is not the text**~~ — **merged, not written.** Both halves already in `commentary-is-not-a-rendering` (H7). Deduplication step working~~ | `CLAUDE.md` · `manuscript.md` 536 |
 
 ### E · Findings, not principles — four things the sweep found in the wrong layer
 
