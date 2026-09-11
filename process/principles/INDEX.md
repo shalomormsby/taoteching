@@ -27,7 +27,7 @@
 | ✅ | your rendering approves or condemns, and the character only describes | **[The English must not carry a verdict the Chinese does not](no-verdict-the-chinese-lacks.md)** | drafting · glossary | — |
 | ✅ | you are about to put more than one open decision to Shalom in a single message | **[One question at a time — bring the deepest one, with a recommendation](one-question-at-a-time.md)** | process | — |
 | ✅ | you have caught an imported overlay and are reaching for a more accurate abstraction to replace it | **[Correct an overlay by performing it, not by labelling it more accurately](perform-dont-label.md)** | drafting · glossary | — |
-| ✅ | you are about to add a reading from Mawangdui or Guodian to the repository | **[For the excavated witnesses, record the fact — never the text](record-the-fact.md)** | notes · tooling | — |
+| ✅ | you are about to add an excavated reading whose only available transcription is a modern reconstruction | **[For the excavated witnesses, record the fact — never the text](record-the-fact.md)** | notes · tooling | — |
 | ✅ | you are about to put a word in the verse that renders nothing in the Chinese | **[Every English word in the verse renders a character](renders-no-character.md)** | drafting | — |
 | ✅ | the same Chinese segment or frame appears twice and you are about to render it two ways | **[Where the Chinese repeats itself, repeat yourself](repeat-yourself.md)** | drafting | `concordance --formulas` |
 | ✅ | the Chinese object is a position or a place and your English needs a verb the Chinese does not print | **[A supplied verb is scaffolding, not a character's English](supplied-verb-is-scaffolding.md)** | drafting · glossary | — |

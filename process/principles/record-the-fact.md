@@ -3,7 +3,7 @@ id: record-the-fact
 title: "For the excavated witnesses, record the fact — never the text"
 status: active
 since: 2026-08-11
-trigger: "you are about to add a reading from Mawangdui or Guodian to the repository"
+trigger: "you are about to add an excavated reading whose only available transcription is a modern reconstruction"
 applies: [notes, tooling]
 evidence: ["sources/PROVENANCE.md#the-admission-rules", "sources/PROVENANCE.md#the-guodian-question-asked-properly-and-answered-no-2026-08-17"]
 check: none
@@ -12,17 +12,21 @@ supersedes: []
 
 # For the excavated witnesses, record the fact — never the text
 
-**The rule.** **Never transcribe the Mawangdui or Guodian manuscripts into this repository.** Record the *fact* of a variant instead — that this chapter reads X where our base reads Y — in `sources/variants.yaml`, and cite where the reading comes from.
+**The rule.** Do not bring the Mawangdui or Guodian manuscripts into this repository **as text**. Record the *fact* of a variant instead — that this chapter reads X where our base reads Y — in `sources/variants.yaml`, and cite where the reading comes from.
 
-**When it fires.** Every time an excavated witness has something to say, which is often.
+**The rule is conditional, and the condition is the whole of it.** The manuscripts themselves are free; what is encumbered is the modern **釋文** (*shìwén* — the reading of damaged graphs into modern characters), which is reconstruction rather than transcription. **If an unencumbered transcription existed, this rule would not apply to it.** None does, today.
+
+**When it fires.** Every time an excavated witness has something to say — which is often — and its only available reading is a reconstruction.
 
 ---
 
 ## Why this holds
 
-**This is a licensing rule, not a scholarly preference, and it is the sharper of the two constraints.** Reconstructing damaged graphs from lacunose silk and bamboo **is living scholarship**: the editors' judgments about what a broken character was are original work, protected, and recent. A transcription is therefore not a public-domain text in the way a Song woodblock of 王弼 is.
+**The manuscripts are not the problem. The reconstructions are.** The silks are second-century BCE and the slips ~300 BCE; no copyright subsists in either, and **a faithful transcription of a public-domain text creates no new copyright** — the position `sources/PROVENANCE.md` takes, citing *Feist* (1991) against "sweat of the brow" and *Bridgeman* (1999) for faithful reproductions. **So the exclusion cannot rest on the age of the object, and does not.**
 
-**And there is no public-domain transcription of the Guodian slips, and there cannot be one yet.** The question was asked properly and answered no, in writing, with the reasoning kept.
+**It rests on what a 釋文 of damaged bamboo actually is.** Reading lacunose silk and broken slips into modern characters — the brackets, the □ marks, the conjectural readings — **is not faithful transcription of anything legible.** It is original editorial work by living scholars, and reproducing it reproduces the scholarship. A Song woodblock of 王弼 (*Wáng Bì*) can be transcribed faithfully because there is something legible to be faithful to.
+
+**And as things stand there is no unencumbered transcription of the Guodian slips.** The question was asked properly and answered no, in writing, with the reasoning kept. **Note the tense**: the standard 釋文 was published in 1998 and is squarely in copyright — *yet*, not *never*. The rule tracks what is available, and what is available will change.
 
 **A `shaloms-call` cannot fix this one**, and that is worth stating: the override mechanism can set aside this repository's own rules, and it has no authority over somebody else's copyright. Every other rule here is ours to suspend. This one is not.
 
@@ -47,6 +51,17 @@ supersedes: []
 **A commentator's lemma is a witness and may be quoted.** When 河上公 prints 知者 where our base prints 智者, that is a transmitted reading, not an excavated one.
 
 **And no modern translations, of anything, for any reason** — a separate rule with a separate basis. The pre-1931 limit governs *translations*, and none are in this repository.
+
+### The condition, stated as a test
+
+**This rule lapses for any excavated transcription that clears the four admission rules on its own merits.** That would require all of:
+
+- **a transcription that is faithful rather than reconstructive** — legible graphs read as they stand, with no conjectural filling — or a reconstruction whose copyright has expired, or one its rights-holder has dedicated CC0;
+- **a nameable edition**, cited exactly in the frontmatter. *"Found on the open web is not provenance"* is this file's own sentence;
+- **any modern editorial layer absent, excluded, or marked** — punctuation especially;
+- **a licence compatible with CC0 and with a companion volume intended to be sold.** This is what defeated the Chinese Wikisource 郭店楚墓竹簡 page independently of everything else: **CC BY-SA is copyleft**, and this repository is CC0 with no exceptions.
+
+**Until one clears all four, record the fact.** And note that this repository is deliberately **stricter than the law requires** — so *"probably fine"* is not the test; the four rules are.
 
 ---
 

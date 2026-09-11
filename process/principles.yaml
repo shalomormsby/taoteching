@@ -184,7 +184,7 @@
 
 - id: record-the-fact
   title: "For the excavated witnesses, record the fact — never the text"
-  trigger: "you are about to add a reading from Mawangdui or Guodian to the repository"
+  trigger: "you are about to add an excavated reading whose only available transcription is a modern reconstruction"
   status: active
   since: 2026-08-11
   applies: [notes, tooling]
