@@ -40,7 +40,7 @@ chapter,line,block,chinese,pinyin,literal_gloss,our_english,alignment_method
 5,2,1,聖人不仁，以百姓為芻狗。,"shèng rén bù rén, yǐ bǎi xìng wéi chú gǒu.",The Sage is not humane; they regard the people as straw dogs.,Isn't the space between sky and earth like a bellows?,proportional
 5,3,2,天地之間，其猶橐籥乎？,"Tiān dì zhī jiān, qí yóu tuó yuè hū?","Between Heaven and Earth, is it not like a bellows?","Empty but never depleted, the more it moves, the more it yields.",proportional
 5,4,2,虛而不屈，動而愈出。,"Xū ér bù qū, dòng ér yù chū.","Empty yet inexhaustible, the more it moves, the more it brings forth.",Speaking of this is a dead end.,proportional
-5,5,2,多言數窮，不如守中。,"Duō yán shù qióng, bù rú shǒu zhōng.","Much speech exhausts itself, better to hold to the center.","Instead, hold the center in silence.",proportional
+5,5,2,多言數窮，不如守中。,"Duō yán shù qióng, bù rú shǒu zhōng.","Much speech exhausts itself, better to hold to the center.","Instead, hold to the center.",proportional
 6,1,0,谷神不死，,"Gǔ shén bù sǐ,","The valley \[gu\] spirit \[shen\] does not \[bu\] die \[si\],",The spirit of the valley is deathless.,proportional
 6,2,0,是謂玄牝。,shì wèi xuán pìn.,this \[shi\] is called \[wei\] the dark/mysterious \[xuan\] female \[pin\].,This is the dark female.,proportional
 6,3,0,玄牝之門，,"Xuán pìn zhī mén,","The gate/door \[men\] of the dark/mysterious female,",This is the dark female.,proportional-fill
@@ -133,7 +133,7 @@ chapter,line,block,chinese,pinyin,literal_gloss,our_english,alignment_method
 13,16,4,若可託天下。,Ruò kě tuō tiān xià.,Seems \[ruo\] they can \[ke\] be relied upon/entrusted \[tuo\] with the world \[tian xia\].,One who loves their body as a way to serve the world can be trusted with it.,proportional-fill
 14,1,1,視之不見，,"Shì zhī bù jiàn,","Looking at \[shi\] it \[zhi\] but not \[bu\] seeing \[jian\],","Look, but you cannot see it – its name is the invisible.",proportional
 14,2,1,名曰夷；,míng yuē yí;,its name \[ming\] is called \[yue\] invisible/colorless \[yi\];,"Listen, but you cannot hear it – its name is the inaudible.",proportional
-14,3,1,聽之不聞，,"Tīng zhī bù wén,","Listening to \[ting\] it \[zhi\] but not \[bu\] hearing \[wen\],","Reach, but you cannot grasp it – its name is the intangible.",proportional
+14,3,1,聽之不聞，,"Tīng zhī bù wén,","Listening to \[ting\] it \[zhi\] but not \[bu\] hearing \[wen\],","Reach, but you cannot touch it – its name is the intangible.",proportional
 14,4,1,名曰希；,míng yuē xī;,its name \[ming\] is called \[yue\] inaudible/soundless \[xi\];,These three defy comprehension.,proportional
 14,5,1,搏之不得，,"Bó zhī bù dé,","Grasping/reaching for \[bo\] it \[zhi\] but not \[bu\] getting/obtaining \[de\],",These three defy comprehension.,proportional-fill
 14,6,1,名曰微。,míng yuē wēi.,its name \[ming\] is called \[yue\] intangible/formless \[wei\].,"Therefore, they mix into one.",proportional
@@ -148,7 +148,7 @@ chapter,line,block,chinese,pinyin,literal_gloss,our_english,alignment_method
 14,15,4,是謂惚恍。,Shì wèi hū huǎng.,This \[shi\] is called \[wei\] elusive and evasive/indistinct \[hu huang\].,"Meet it, and you cannot see its face,",proportional
 14,16,5,迎之不見其首，,"Yíng zhī bù jiàn qí shǒu,","Meeting/welcoming \[ying\] it \[zhi\] you do not \[bu\] see \[jian\] its \[qi\] head/front \[shou\],","Follow it, and you cannot see its back.",proportional
 14,17,5,隨之不見其後。,Suí zhī bù jiàn qí hòu.,Following \[sui\] it \[zhi\] you do not \[bu\] see \[jian\] its \[qi\] back/rear \[hou\].,"Follow it, and you cannot see its back.",proportional-fill
-14,18,6,執古之道，,"Zhí gǔ zhī dào,","Grasping/holding \[zhi\] the ancient \[gu\] Tao \[dao\],","Hold the ancient Tao, and steer what is present now.",proportional
+14,18,6,執古之道，,"Zhí gǔ zhī dào,","Grasping/holding \[zhi\] the ancient \[gu\] Tao \[dao\],","Grasp the ancient Tao, and steer what is present now.",proportional
 14,19,6,以御今之有。,Yǐ yù jīn zhī yǒu.,In order to \[yi\] manage/control \[yu\] present/current \[jin\] existence/presence \[you\].,"Know the primordial source,",proportional
 14,20,6,能知古始，,"Néng zhī gǔ shǐ,","Being able to \[neng\] know \[zhi\] the ancient \[gu\] beginnings/origins \[shi\],",The thread of the Tao.,proportional
 14,21,6,是謂道紀。,Shì wèi dào jì.,This \[shi\] is called \[wei\] the thread/discipline of the Tao \[dao ji\].,The thread of the Tao.,proportional-fill
@@ -166,7 +166,7 @@ chapter,line,block,chinese,pinyin,literal_gloss,our_english,alignment_method
 15,12,2,混兮其若濁。,Hùn xī qí ruò zhuó.,Blended/undifferentiated \[hun\] oh \[xi\]\! Like \[ruo\] murky/muddy water \[zhuo\].,"Mixed, like muddy water.",exact-count
 15,13,3,孰能濁以靜之徐清？,Shú néng zhuó yǐ jìng zhī xú qīng?,Who \[shu\] can \[neng\] take the murky \[zhuo\] and by \[yi\] stilling \[jing\] it \[zhi\] slowly \[xu\] make it clear \[qing\]?,"Who can be muddy, and by stilling it slowly come clear?",exact-count
 15,14,3,孰能安以動之徐生？,Shú néng ān yǐ dòng zhī xú shēng?,Who \[shu\] can \[neng\] take the calm/at rest \[an\] and by \[yi\] moving/stirring \[dong\] it \[zhi\] slowly \[xu\] bring it to life/generate \[sheng\]?,"Who can be at rest, and by moving it slowly come to life?",exact-count
-15,15,4,保此道者不欲盈。,Bǎo cǐ dào zhě bù yù yíng.,Those who guard/preserve \[bao\] this \[ci\] Tao \[dao\] do not \[bu\] desire \[yu\] to be full/overflowing \[ying\].,Those who guard the Tao like this have no wish to be full.,exact-count
+15,15,4,保此道者不欲盈。,Bǎo cǐ dào zhě bù yù yíng.,Those who guard/preserve \[bao\] this \[ci\] Tao \[dao\] do not \[bu\] desire \[yu\] to be full/overflowing \[ying\].,Those who keep the Tao safe like this have no wish to be full.,exact-count
 15,16,4,夫唯不盈，,"Fū wéi bù yíng,","Now precisely because \[fu wei\] they are not \[bu\] full \[ying\],","Precisely because they are never full,",exact-count
 15,17,4,故能蔽而不新成。,Gù néng bì ér bù xīn chéng.,Therefore \[gu\] they can \[neng\] be worn out/concealed \[bi\] and \[er\] not \[bu\] newly \[xin\] compiled/completed \[cheng\].,"they can stay covered, and never newly made.",exact-count
 16,1,1,致虛極，,"Zhì xū jí,","Reach/attain \[zhi\] the extreme/limit \[ji\] of emptiness/void \[xu\],",Go totally empty.,proportional
@@ -575,9 +575,9 @@ chapter,line,block,chinese,pinyin,literal_gloss,our_english,alignment_method
 52,3,1,既知其子，復守其母，没身不殆。,"Jì zhī qí zǐ, fù shǒu qí mǔ, mò shēn bù dài.","Having known the children, returning to guard the mother, to the end of one's life there is no danger.","and to the end of your days, no danger will find you. / Block the openings, close the doors, and all your life will be struggle-free.",proportional
 52,4,2,塞其兌，閉其門，終身不勤。,"Sè qí duì, bì qí mén, zhōng shēn bù qín.","Block the openings, close the doors, to the end of life one does not toil/struggle.","Open the openings, multiply your affairs, and your life is beyond saving.",proportional
 52,5,2,開其兌，濟其事，終身不救。,"Kāi qí duì, ji qí shì, zhōng shēn bù jiù.","Open the openings, multiply affairs/tasks, to the end of life one is beyond rescue.",To recognize things in their smallest form is clear-seeing.,proportional
-52,6,3,見小曰明，守柔曰強。,"Jiàn xiǎo yuē míng, shǒu róu yuē qiáng.","Seeing the small is called clarity/illumination, guarding the soft/yielding is called strength.","To stay with the soft is called strong. / Use the outer light, return to your inner clarity,",proportional
+52,6,3,見小曰明，守柔曰強。,"Jiàn xiǎo yuē míng, shǒu róu yuē qiáng.","Seeing the small is called clarity/illumination, guarding the soft/yielding is called strength.","Holding to the soft is called strong. / Use the outer light, return to your inner clarity,",proportional
 52,7,3,用其光，復歸其明，無遺身殃；,"Yòng qí guāng, fù guī qí míng, wú yí shēn yāng;","Use the light, return to the clarity/illumination, leaving no disaster for the body;",and you bring no calamity upon yourself.,proportional
-52,8,3,是謂襲常。,Shì wèi xí cháng.,This is called inheriting/practicing the constant.,This is called holding the ever-present covered.,proportional
+52,8,3,是謂襲常。,Shì wèi xí cháng.,This is called inheriting/practicing the constant.,This is called the ever-present worn covered.,proportional
 53,1,1,使我介然有知，行於大道，唯施是畏。,"Shǐ wǒ jiè rán yǒu zhī, xíng yú dà dào, wéi shī shì wèi.","If I had just a little knowledge, walking on the Great Tao, my only fear would be straying/deviating from it.","If I had just a scrap of knowledge, walking the path of the great Tao, my only fear would be to stray from it.",exact-count
 53,2,1,大道甚夷，而人好徑。,"Dà dào shèn yí, ér rén hào jìng.","The Great Tao is very level/smooth, yet people love the bypaths/shortcuts.","The great Tao is very level, yet people love to take shortcuts.",exact-count
 53,3,2,朝甚除，田甚蕪，倉甚虛；,"Cháo shèn chú, tián shèn wú, cāng shèn xū;","The courts are highly maintained/clean, the fields are overgrown with weeds, the granaries are completely empty;","The courts are immaculate, the fields are choked with weeds, the granaries are empty;",exact-count
@@ -594,7 +594,7 @@ chapter,line,block,chinese,pinyin,literal_gloss,our_english,alignment_method
 54,9,3,吾何以知天下然哉？以此。,Wú hé yǐ zhī tiān xià rán zāi? Yǐ cǐ.,How do I know the world is thus? By this.,How do I know the world is so? By this.,proportional
 55,1,1,含德之厚，比於赤子。,"Hán dé zhī hòu, bǐ yú chì zǐ.",One containing abundant Virtue/Power is comparable to a newborn infant.,"A person with abundant integrity is like a newborn. / Venomous creatures do not sting them,",proportional
 55,2,1,毒蟲不螫，猛獸不據，攫鳥不搏。,"Dú chóng bù shì, měng shòu bù jù, jué niǎo bù bó.","Poisonous insects do not sting them, fierce beasts do not seize them, birds of prey do not strike them.","fierce beasts do not seize them, / birds of prey do not attack them.",proportional
-55,3,1,骨弱筋柔而握固。,Gǔ ruò jīn róu ér wò gù.,"Bones are weak, muscles are soft, yet their grasp is firm.","Their bones are yielding and their muscles soft, yet their grasp is firm.",proportional
+55,3,1,骨弱筋柔而握固。,Gǔ ruò jīn róu ér wò gù.,"Bones are weak, muscles are soft, yet their grasp is firm.","Their bones are yielding and their muscles soft, yet their grip is firm.",proportional
 55,4,1,未知牝牡之合而朘作，精之至也。,"Wèi zhī pìn mǔ zhī hé ér zuī zuò, jīng zhī zhì yě.","They do not yet know the union of male and female, yet their organ is aroused, this is the perfection/extreme of vital essence (jing).","They do not yet know the union of female and male, yet their whole being quickens with life — this is vital essence at its utmost. / It cries all day and never goes hoarse — this is harmony at its utmost.",proportional
 55,5,1,終日號而不嗄，和之至也。,"Zhōng rì háo ér bù shà, hé zhī zhì yě.","Crying all day yet their voice does not grow hoarse, this is the perfection/extreme of harmony.",Knowing harmony is called the ever-present. / Knowing the ever-present is called clear-seeing.,proportional
 55,6,2,知和曰常，知常曰明。,"Zhī hé yuē cháng, zhī cháng yuē míng.","Knowing harmony is called the constant, knowing the constant is called clarity/illumination.",To force life to increase is an ill omen.,proportional
@@ -638,8 +638,8 @@ chapter,line,block,chinese,pinyin,literal_gloss,our_english,alignment_method
 59,3,1,早服謂之重積德；,Zǎo fú wèi zhī zhòng jī dé;,Submitting early is called heavily accumulating Virtue/Power (Te);,"returning early is called a heavy accumulation of integrity,",exact-count
 59,4,1,重積德則無不克；,Zhòng jī dé zé wú bù kè;,"Heavily accumulating Virtue, there is nothing that cannot be overcome;","a heavy accumulation of integrity is when nothing cannot be overcome,",exact-count
 59,5,1,無不克則莫知其極；,Wú bù kè zé mò zhī qí jí;,"When nothing cannot be overcome, no one knows its limit;","when nothing cannot be overcome, no one knows its limit,",exact-count
-59,6,1,莫知其極，可以有國；,"Mò zhī qí jí, kě yǐ yǒu guó;","When no one knows its limit, one can possess/maintain the state;","when no one knows its limit, one can maintain the state.",exact-count
-59,7,1,有國之母，可以長久。,"Yǒu guó zhī mǔ, kě yǐ cháng jiǔ.","Possessing the mother of the state, one can endure long.","Holding the mother of the state, one can last long.",exact-count
+59,6,1,莫知其極，可以有國；,"Mò zhī qí jí, kě yǐ yǒu guó;","When no one knows its limit, one can possess/maintain the state;","when no one knows its limit, you can have the state.",exact-count
+59,7,1,有國之母，可以長久。,"Yǒu guó zhī mǔ, kě yǐ cháng jiǔ.","Possessing the mother of the state, one can endure long.","Have the mother of the state, and you can last long.",exact-count
 59,8,2,是謂深根固柢，長生久視之道。,"Shì wèi shēn gēn gù dǐ, cháng shēng jiǔ shì zhī dào.","This is called the Tao of deep roots and firm base, of long life and enduring vision.","This is called the Tao of deep roots, firm base, long life, and enduring vision.",exact-count
 60,1,1,治大國，若烹小鮮。,"Zhì dà guó, ruò pēng xiǎo xiān.",Governing a large state is like cooking a small fish.,Governing a large state is like cooking a small fish.,exact-count
 60,2,2,以道莅天下，其鬼不神；,"Yǐ dào lì tiān xià, qí guǐ bù shén;","Approaching the world with the Tao, its ghosts do not manifest their spirit/numinosity;","Oversee the world with the Tao, and the ghosts lose their potency,",exact-count
@@ -656,7 +656,7 @@ chapter,line,block,chinese,pinyin,literal_gloss,our_english,alignment_method
 61,8,3,小國不過欲入事人。,Xiǎo guó bù guò yù rù shì rén.,a small state wants no more than to enter and serve people.,Both get what they want.,proportional
 61,9,3,夫兩者各得所欲，大者宜為下。,"Fú liǎng zhě gè dé suǒ yù, dà zhě yí wéi xià.","Now, the two each get what they want; the large one ought to be the low one.",The large one ought to be underneath.,proportional
 62,1,1,道者萬物之奧。,Dào zhě wàn wù zhī ào.,"The Tao is the ao of the countless things — the southwest corner of a dwelling, the household's altar space and place of honor.","The Tao is the sanctuary of the countless things, / the treasure of those who are masterful,",proportional
-62,2,1,善人之寶，不善人之所保。,"Shàn rén zhī bǎo, bù shàn rén zhī suǒ bǎo.","The treasure (bao) of the masterful person, the safekeeping (bao) of the unmasterful person.",the safekeeping of those who are not.,proportional
+62,2,1,善人之寶，不善人之所保。,"Shàn rén zhī bǎo, bù shàn rén zhī suǒ bǎo.","The treasure (bao) of the masterful person, the safekeeping (bao) of the unmasterful person.",and what keeps safe those who are not.,proportional
 62,3,2,美言可以市尊，美行可以加人。,"Měi yán kě yǐ shì zūn, měi xíng kě yǐ jiā rén.","Fine words can buy (shi — market, trade for) honor; fine conduct can raise a person above others. (The silks and both commentators split after 市 — see notes/manuscript.md.)",Fine words can buy honor.,proportional
 62,4,2,人之不善，何棄之有？,"Rén zhī bù shàn, hé qì zhī yǒu?","As for a person's being unmasterful — what abandoning (qi) of them is there? (he...zhi you: a fixed idiom, ""what X is there?"" = there is none.)","Fine conduct can raise a person above others. / So when a person is unmasterful, why abandon them?",proportional
 62,5,3,故立天子，置三公，,"Gù lì tiān zǐ, zhì sān gōng,","So when they raise up (li — to stand a thing upright) a child of the sky (tian zi) and install the three gong,","When they raise up a child of the sky and install the three ministers,",proportional
@@ -710,8 +710,8 @@ chapter,line,block,chinese,pinyin,literal_gloss,our_english,alignment_method
 67,7,3,儉故能廣；,Jiǎn gù néng guǎng;,"Frugality, thus able to be broad/expansive;","Never pushing to be first in the world, and so you can become chief of the vessels. / Now: to abandon tenderness and grab at courage,",proportional
 67,8,3,不敢為天下先，故能成器長。,"Bù gǎn wéi tiān xià xiān, gù néng chéng qì zhǎng.","Not daring to be first in the world, thus able to compile/complete as the chief of tools/vessels.","to abandon frugality and grab at reach,",proportional
 67,9,4,今捨慈且勇，捨儉且廣，捨後且先，死矣！,"Jīn shě cí qiě yǒng, shě jiǎn qiě guǎng, shě hòu qiě xiān, sǐ yǐ\!","Now to abandon compassion and just be brave, to abandon frugality and just be expansive, to abandon the rear and just be first, is death\!",to abandon the rear and grab at the front. / That is death.,proportional
-67,10,4,夫慈，以戰則勝，以守則固。,"Fú cí, yǐ zhàn zé shèng, yǐ shǒu zé gù.","Now compassion, used in battle it wins, used in defense it is solid/firm.","Tenderness. Fight with it and you win, defend with it and you hold firm.",proportional
-67,11,4,天將救之，以慈衛之。,"Tiān jiāng jiù zhī, yǐ cí wèi zhī.","Heaven will save/rescue them, using compassion to guard them.","When nature would rescue someone, it guards them with tenderness.",proportional
+67,10,4,夫慈，以戰則勝，以守則固。,"Fú cí, yǐ zhàn zé shèng, yǐ shǒu zé gù.","Now compassion, used in battle it wins, used in defense it is solid/firm.","Tenderness. Fight with it and you win, guard with it and you stand firm.",proportional
+67,11,4,天將救之，以慈衛之。,"Tiān jiāng jiù zhī, yǐ cí wèi zhī.","Heaven will save/rescue them, using compassion to guard them.","When nature would rescue someone, it shields them with tenderness.",proportional
 68,1,1,善為士者，不武；,"Shàn wéi shì zhě, bù wǔ;",A masterful warrior/scholar is not martial/violent;,Those masterful in service are not martial.,exact-count
 68,2,1,善戰者，不怒；,"Shàn zhàn zhě, bù nù;",A masterful fighter does not become angry;,The master fighter does not rage.,exact-count
 68,3,1,善勝敵者，不與；,"Shàn shèng dí zhě, bù yǔ;",A masterful conqueror of enemies does not engage/contend with them;,The master of overcoming enemies does not engage them.,exact-count
@@ -725,7 +725,7 @@ chapter,line,block,chinese,pinyin,literal_gloss,our_english,alignment_method
 69,4,2,是謂行無行，,"Shì wèi xíng wú xíng,","This is called marching without marching,","This is called marching where there are no ranks,",exact-count
 69,5,2,攘無臂，,"Rǎng wú bì,","Rolling up sleeves without arms,","baring an arm where there is no arm,",exact-count
 69,6,2,扔無敵，,"Rēng wú dí,","Grasping without an enemy,","hauling where there is no enemy,",exact-count
-69,7,2,執無兵。,Zhí wú bīng.,Holding without weapons.,gripping where there is no weapon.,exact-count
+69,7,2,執無兵。,Zhí wú bīng.,Holding without weapons.,grasping where there is no weapon.,exact-count
 69,8,3,禍莫大於輕敵，,"Huò mò dà yú qīng dí,",There is no disaster greater than treating the enemy as weightless/light;,There is no disaster greater than making light of the enemy.,exact-count
 69,9,3,輕敵幾喪吾寶。,Qīng dí jī sàng wú bǎo.,Treating the enemy as weightless almost destroys my treasures.,Making light of the enemy nearly costs me my treasures.,exact-count
 69,10,3,故抗兵相若，哀者勝矣。,"Gù kàng bīng xiāng ruò, āi zhě shèng yǐ.","Therefore when opposing troops meet/match, the grieving/sorrowful one wins.","Therefore, when the armies are evenly matched, the side that grieves wins.",exact-count
@@ -783,7 +783,7 @@ chapter,line,block,chinese,pinyin,literal_gloss,our_english,alignment_method
 78,4,3,是以聖人云：受國之垢，是謂社稷主；受國之不祥，是謂天下王。,"Shì yǐ shèng rén yún: shòu guó zhī gòu, shì wèi shè jì zhǔ; shòu guó zhī bù xiáng, shì wèi tiān xià wáng.",Therefore the Sage says: To accept the state's filth is to be the Lord of the Altars (the people); to accept the state's misfortune is to be the King of the World.,whoever takes on the filth of the state / is the keeper of the soil and the grain. / Whoever takes on the ill omen of the state,proportional
 78,5,3,正言若反。,Zhèng yán ruò fǎn.,Right words seem like the opposite (paradoxical).,is the ruler of the world. / Words on the mark seem like their opposite.,proportional
 79,1,1,和大怨，必有餘怨；安可以為善？,"Hé dà yuàn, bì yǒu yú yuàn; ān kě yǐ wéi shàn?","Even after reconciling a great grudge, there must remain some residual resentment; how can this be considered ""good""?",Settle a great grudge / and some grudge always remains. / How could that count as masterful?,proportional
-79,2,2,是以聖人執左契，而不責於人。,"Shì yǐ shèng rén zhí zuǒ qì, ér bù zé yú rén.","Therefore the Sage holds the left (debtor's) tally, and does not exact payment from people.",So the sage holds their half of the tally / and never asks for the other.,proportional
+79,2,2,是以聖人執左契，而不責於人。,"Shì yǐ shèng rén zhí zuǒ qì, ér bù zé yú rén.","Therefore the Sage holds the left (debtor's) tally, and does not exact payment from people.",So the sage grasps the left half of the tally / and never asks for the other.,proportional
 79,3,2,有德司契，無德司徹。,"Yǒu dé sī qì, wú dé sī chè.",Those with Virtue manage the tally; those without Virtue manage the taxes/collection.,Those with integrity keep the tally. / Those without integrity keep score.,proportional
 79,4,2,天道無親，常與善人。,"Tiān dào wú qīn, cháng yǔ shàn rén.","The Tao of Heaven has no favorites; it constantly sides with the ""good"" people (the natural/authentic).",The way of nature plays no favorites. / It stays with those who are masterful.,proportional
 80,1,1,小國寡民。使有什伯之器而不用；,Xiǎo guó guǎ mín. Shǐ yǒu shí bǎi zhī qì ér bù yòng;,A small state with few people. Let them have ten-fold and hundred-fold labor-saving devices and not use them;,"A small state, few people. / Let the people have tools that do the work of ten, of a hundred, yet no need to use them. / Let the people find death heavy, and not move far away.",proportional

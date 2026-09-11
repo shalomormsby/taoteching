@@ -144,6 +144,14 @@
   entry: glossary/xin-信.md
   # covers 忠 -> loyalty
 
+- term: "守"
+  pinyin: "shǒu"
+  render: "hold to — and *guard* where what is kept is ground or property"
+  forbidden: ["embrace", "attune", "stay with", "cleave to", "preserve", "abide in"]
+  chapters: [5, 9, 16, 28, 32, 37, 52, 67]
+  status: locked
+  entry: glossary/shou-守.md
+
 - term: "王"
   pinyin: "wáng"
   render: "ruler / sovereign · supreme authority (in ch 16's chain) · to rule (verb)"
@@ -152,6 +160,14 @@
   status: locked
   entry: glossary/wang-王.md
   # covers 侯 -> ruler (inside 侯王)
+
+- term: "執"
+  pinyin: "zhí"
+  render: "grasp — and *seize* at ch 74, where the seizing is an arrest"
+  forbidden: ["cling", "clinging", "attachment", "embody", "control", "possess"]
+  chapters: [14, 29, 35, 64, 69, 74, 79]
+  status: locked
+  entry: glossary/zhi-執.md
 
 - term: "天地"
   pinyin: "tiān dì"
@@ -284,6 +300,14 @@
   status: locked
   entry: glossary/huo-貨.md
 
+- term: "保"
+  pinyin: "bǎo"
+  render: "keep safe"
+  forbidden: ["preserve", "safekeeping", "maintain", "hold on to", "safeguard"]
+  chapters: [9, 15, 62, 67]
+  status: locked
+  entry: glossary/bao-保.md
+
 - term: "公"
   pinyin: "gōng"
   render: "impartiality / impartial (the quality) · lord / minister (the office)"
@@ -309,6 +333,14 @@
   status: locked
   entry: glossary/ci-慈.md
   # covers 孝 -> devotion
+
+- term: "持"
+  pinyin: "chí"
+  render: "hold"
+  forbidden: ["grip", "clutch", "cling to", "sustain"]
+  chapters: [9, 64, 67]
+  status: locked
+  entry: glossary/chi-持.md
 
 - term: "知足"
   pinyin: "zhī zú"
